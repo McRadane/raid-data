@@ -1,0 +1,9 @@
+{
+  "name": "raid-data",
+  "version": "2.3.0",
+  "description": "RAID: Shadow Legends Data",
+  "main": "champions-base-info.json",
+  "repository": "https://github.com/McRadane/raid-data",
+  "author": "Léo Maradan <3043485+Leomaradan@users.noreply.github.com>",
+  "license": "MIT"
+}
