@@ -1,29 +1,32 @@
 {
   "name": "Preacher",
+  "id": "Preacher",
   "class": {
     "faction": "The Sacred Order",
-    "rarity": "Common",
-    "role": "HP",
-    "affinity": "Force"
+    "rarity": "common",
+    "role": "hp",
+    "affinity": "force"
   },
   "stats": {
-    "hp": "10,080",
-    "atk": "837",
-    "def": "694",
-    "spd": "96",
-    "crate": "Rate",
-    "cdmg": "15",
-    "resist": "50",
-    "acc": "30"
+    "hp": 10080,
+    "atk": 837,
+    "def": 694,
+    "spd": 96,
+    "crate": 15,
+    "cdmg": 50,
+    "resist": 30,
+    "acc": 0
   },
   "skills": [
     {
       "cd": 0,
       "mincd": 0,
+      "passive": false,
       "dmgscaling": [
         "ATK"
       ],
       "abilityname": "Holy Blow",
+      "damageMultiplier": "3.5 ATK",
       "description": "Attacks 1 enemy. Has a 25% chance of placing a 25% [Decrease ATK] debuff for 1 turn.",
       "books": [
         "Level 2: Damage +5%",
@@ -34,5 +37,6 @@
       ]
     }
   ],
-  "avatarUrl": "https://goctionni.github.io/raid-data/images/avatar/Preacher.png"
+  "version": "3.30.0",
+  "avatarUrl": "https://mcradane.github.io/raid-data/images/avatar/Preacher.png"
 }

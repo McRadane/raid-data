@@ -1,30 +1,34 @@
 {
   "name": "Lydia the Deathsiren",
+  "id": "Lydia_the_Deathsiren",
   "class": {
     "faction": "Dark Elves",
-    "rarity": "Legendary",
-    "role": "Support",
-    "affinity": "Void"
+    "rarity": "legendary",
+    "role": "support",
+    "affinity": "void"
   },
   "stats": {
-    "hp": "20,805",
-    "atk": "903",
-    "def": "1,288",
-    "spd": "110",
-    "crate": "15%",
-    "cdmg": "50%",
-    "resist": "40",
-    "acc": "0"
+    "hp": 20805,
+    "atk": 903,
+    "def": 1288,
+    "spd": 110,
+    "crate": 15,
+    "cdmg": 50,
+    "resist": 40,
+    "acc": 0
   },
+  "aura": "Increases Ally RESIST in Arena Battles by 100.",
   "skills": [
     {
       "cd": 0,
       "mincd": 0,
+      "passive": false,
       "dmgscaling": [
         "ATK"
       ],
       "abilityname": "Oppression",
-      "description": "Attacks 1 enemy. Has 75% chance of placinf a [Fear] debuff for 1 turn. Has 75% chance of increasing the duration of any [Poison Sensitivity] debuffs by 1 turn. [Passive Effect] Attacks enemy Champions with the Skill whenever they place a [Freeze], [Stun], [Fear], or [True Fear] debuff on an ally. The number of attacks increases according to how many debuffs are placed at that time; 1 attack for each [Freeze], [Stun], [Fear], or [True Fear] debuff placed. The first attac kwil target the attacker, while all extra hits wil attack random enemies. Can only attack each enemy once.",
+      "damageMultiplier": "3.75 ATK",
+      "description": "[Active Effect] Attacks 1 enemy. Has a 75% chance of placing a [Fear] debuff for 1 turn. Has a 75% chance of increasing the duration of any [Poison Sensitivity] debuffs by 1 turn.",
       "books": [
         "Level 2: Damage +10%",
         "Level 3: Damage +10%",
@@ -35,11 +39,13 @@
     {
       "cd": 4,
       "mincd": 3,
+      "passive": false,
       "dmgscaling": [
         "ATK"
       ],
-      "abilityname": "Siren's Wail",
-      "description": "Attacks all enemies. Has 75% chance of placing a 60% [Decrease DEF] debuff and a 25% [Weaken] debuff for 2 turns. Also places a 25% [Strengthen] buff and a 30% [Increase SPD] buff on all allies for 2 turns",
+      "abilityname": "Siren’s Wail",
+      "damageMultiplier": "4 ATK",
+      "description": "Attacks all enemies. Has a 75% chance of placing a 60% [Decrease DEF] debuff and a 25% [Weaken] debuff for 2 turns Also places a 25% [Strengthen] buff and a 30% [Increase SPD] buff on all allies for 2 turns.",
       "books": [
         "Level 2: Damage +10%",
         "Level 3: Buff/Debuff Chance +10%",
@@ -50,11 +56,13 @@
     {
       "cd": 5,
       "mincd": 3,
+      "passive": false,
       "dmgscaling": [
         "ATK"
       ],
       "abilityname": "Nullification",
-      "description": "Attacks 1 enemy 2 times. The first hit has a 75% chance of placing a 25% [Poison Sensitivity]debuff for 2 turns. The second hit has a 75% chance of placing a [Block Buffs] and [Block Cooldown Skills] debuff for 2 turns.",
+      "damageMultiplier": "3.75 ATK",
+      "description": "Attacks 1 enemy 2 times. The first hit has a 75% chance of placing a 25% [Poison Sensitivity] debuff for 2 turns. The second hit has a 75% chance of placing a [Block Buffs] and [Block Cooldown Skills] debuff or 2 turns.",
       "books": [
         "Level 2: Damage +10%",
         "Level 3: Buff/Debuff Chance +10%",
@@ -66,21 +74,16 @@
     {
       "cd": 9,
       "mincd": 7,
+      "passive": true,
       "dmgscaling": [],
       "abilityname": "Death Hold",
-      "description": "Denies enemy revive attempts. This works even if this Champion is dead. If this Champion is alive when an enemy revive is denied, revives all dead allies with 50% HP and 50% Turn Meter. Grants an Extra Turn instead if there are no dead allies. If this Champion is dead when an enemy revive is denied, revives this Champion with 50% HP and 50% Turn Meter. This skill will ignore [Block Revive].",
+      "description": "Denies enemy revive attempts. This works even if this Champion is dead. If this Champion is alive when an enemy revives is denied, revives all dead allies with 50% HP and 50% Turn Meter. Grants an Extra Turn instead if there are no dead allies. If this Champion is dead when enemy revive is denied, revives this Champion with 50% HP and 50% Turn Meter. This skill will ignore [Block Revive].",
       "books": [
         "Level 2: Cooldown -1",
         "Level 3: Cooldown -1"
       ]
-    },
-    {
-      "cd": 0,
-      "mincd": 0,
-      "dmgscaling": [],
-      "abilityname": "Aura",
-      "description": "Increases Ally RESIST in Arena battles by 100.",
-      "books": []
     }
-  ]
+  ],
+  "version": "3.30.0",
+  "avatarUrl": "https://mcradane.github.io/raid-data/images/avatar/Lydia_the_Deathsiren.png"
 }

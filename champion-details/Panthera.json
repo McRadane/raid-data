@@ -1,0 +1,78 @@
+{
+  "name": "Panthera",
+  "id": "Panthera",
+  "class": {
+    "faction": "Skinwalkers",
+    "rarity": "rare",
+    "role": "attack",
+    "affinity": "void"
+  },
+  "stats": {
+    "hp": 13545,
+    "atk": 1277,
+    "def": 848,
+    "spd": 97,
+    "crate": 15,
+    "cdmg": 50,
+    "resist": 30,
+    "acc": 10
+  },
+  "aura": "Increases Ally ACC in Dungeons by 40.",
+  "skills": [
+    {
+      "cd": 0,
+      "mincd": 0,
+      "passive": false,
+      "dmgscaling": [
+        "ATK"
+      ],
+      "abilityname": "Claws Upon Claws",
+      "damageMultiplier": "0.9 ATK",
+      "description": "Attacks 1 enemy 3 times. Each critical hit has a 50% chance of decreasing the target’s Turn Meter by 3%.",
+      "books": [
+        "Level 2: Damage +5%",
+        "Level 3: Buff/Debuff Chance +5%",
+        "Level 4: Damage +5%",
+        "Level 5: Buff/Debuff Chance +5%",
+        "Level 6: Buff/Debuff Chance +5%",
+        "Level 7: Damage +5%",
+        "Level 8: Damage +10%",
+        "Level 9: Buff/Debuff Chance +10%"
+      ]
+    },
+    {
+      "cd": 3,
+      "mincd": 3,
+      "passive": false,
+      "dmgscaling": [
+        "ATK"
+      ],
+      "abilityname": "Devitalize",
+      "damageMultiplier": "3.7 ATK",
+      "description": "Attacks 1 enemy 2 times. Each hit has an 85% chance of placing a 100% [Heal Reduction] debuff for 2 turns.",
+      "books": [
+        "Level 2: Damage +5%",
+        "Level 3: Buff/Debuff Chance +5%",
+        "Level 4: Damage +5%",
+        "Level 5: Buff/Debuff Chance +5%",
+        "Level 6: Damage +5%",
+        "Level 7: Buff/Debuff Chance +5%"
+      ]
+    },
+    {
+      "cd": 6,
+      "mincd": 3,
+      "passive": false,
+      "dmgscaling": [],
+      "abilityname": "Vanish to Shadows",
+      "description": "Places a [Perfect Veil] buff and a 30% [Reflect Damage] buff on this Champion for 2 turns.",
+      "books": [
+        "Level 2: Cooldown -1",
+        "Level 3: Cooldown -1",
+        "Level 4: Cooldown -1"
+      ]
+    }
+  ],
+  "version": "3.30.0",
+  "avatarUrl": "https://mcradane.github.io/raid-data/images/avatar/Panthera.png"
+}

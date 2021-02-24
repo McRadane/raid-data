@@ -1,29 +1,33 @@
 {
   "name": "Slasher",
+  "id": "Slasher",
   "class": {
     "faction": "Lizardmen",
-    "rarity": "Rare",
-    "role": "Attack",
-    "affinity": "Spirit"
+    "rarity": "rare",
+    "role": "attack",
+    "affinity": "spirit"
   },
   "stats": {
-    "hp": "13,050",
-    "atk": "1,332",
-    "def": "892",
-    "spd": "104",
-    "crate": "RATE",
-    "cdmg": "15",
-    "resist": "37",
-    "acc": "30"
+    "hp": 13050,
+    "atk": 1332,
+    "def": 892,
+    "spd": 104,
+    "crate": 15,
+    "cdmg": 37,
+    "resist": 30,
+    "acc": 0
   },
+  "aura": "Increases Ally ATK in Faction Crypts by 17%.",
   "skills": [
     {
       "cd": 0,
       "mincd": 0,
+      "passive": false,
       "dmgscaling": [
         "ATK"
       ],
       "abilityname": "Fearsome Slice",
+      "damageMultiplier": "3.2 ATK",
       "description": "Attacks 1 enemy.",
       "books": [
         "Level 2: Damage +5%",
@@ -35,10 +39,12 @@
     {
       "cd": 4,
       "mincd": 3,
+      "passive": false,
       "dmgscaling": [
         "ATK"
       ],
       "abilityname": "Chop Apart",
+      "damageMultiplier": "2.9 ATK",
       "description": "Attacks 1 enemy 2 times. Has a 25% chance of placing a 30% [Decrease DEF] debuff for 2 turns.",
       "books": [
         "Level 2: Damage +5%",
@@ -50,21 +56,15 @@
     {
       "cd": 5,
       "mincd": 4,
+      "passive": false,
       "dmgscaling": [],
       "abilityname": "Killing Zeal",
       "description": "Places a 15% [Increase C.RATE] buff and a [Shield] buff on this Champion for 2 turns. The value of the [Shield] is proportional to this Champion’s DEF and C.DMG. Grants an Extra Turn.",
       "books": [
         "Level 2: Cooldown -1"
       ]
-    },
-    {
-      "cd": 0,
-      "mincd": 0,
-      "dmgscaling": [],
-      "abilityname": "Aura",
-      "description": "Increases Ally ATK in Faction Crypts by 17%.",
-      "books": []
     }
   ],
-  "avatarUrl": "https://goctionni.github.io/raid-data/images/avatar/Slasher.png"
+  "version": "3.30.0",
+  "avatarUrl": "https://mcradane.github.io/raid-data/images/avatar/Slasher.png"
 }

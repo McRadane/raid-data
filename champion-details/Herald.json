@@ -1,29 +1,32 @@
 {
   "name": "Herald",
+  "id": "Herald",
   "class": {
     "faction": "Knight Revenant",
-    "rarity": "Uncommon",
-    "role": "Support",
-    "affinity": "Spirit"
+    "rarity": "uncommon",
+    "role": "support",
+    "affinity": "spirit"
   },
   "stats": {
-    "hp": "16,845",
-    "atk": "782",
-    "def": "848",
-    "spd": "99",
-    "crate": "RATE",
-    "cdmg": "15",
-    "resist": "50",
-    "acc": "30"
+    "hp": 16845,
+    "atk": 782,
+    "def": 848,
+    "spd": 99,
+    "crate": 15,
+    "cdmg": 50,
+    "resist": 30,
+    "acc": 0
   },
   "skills": [
     {
       "cd": 0,
       "mincd": 0,
+      "passive": false,
       "dmgscaling": [
         "ATK"
       ],
       "abilityname": "Doombolt",
+      "damageMultiplier": "3.3 ATK",
       "description": "Attacks 1 enemy. Has a 15% chance of placing a 15% [Decrease SPD] debuff for 1 turn.",
       "books": [
         "Level 2: Damage +5%",
@@ -36,6 +39,7 @@
     {
       "cd": 4,
       "mincd": 2,
+      "passive": false,
       "dmgscaling": [],
       "abilityname": "Unholy Grace",
       "description": "Places a 30% [Increase C.RATE] buff on all allies for 2 turns.",
@@ -45,5 +49,6 @@
       ]
     }
   ],
-  "avatarUrl": "https://goctionni.github.io/raid-data/images/avatar/Herald.png"
+  "version": "3.30.0",
+  "avatarUrl": "https://mcradane.github.io/raid-data/images/avatar/Herald.png"
 }

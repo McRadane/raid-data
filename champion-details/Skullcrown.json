@@ -1,29 +1,33 @@
 {
   "name": "Skullcrown",
+  "id": "Skullcrown",
   "class": {
     "faction": "Knight Revenant",
-    "rarity": "Epic",
-    "role": "Attack",
-    "affinity": "Void"
+    "rarity": "epic",
+    "role": "attack",
+    "affinity": "void"
   },
   "stats": {
-    "hp": "14,535",
-    "atk": "1,509",
-    "def": "826",
-    "spd": "96",
-    "crate": "RATE",
-    "cdmg": "15",
-    "resist": "60",
-    "acc": "30"
+    "hp": 14535,
+    "atk": 1509,
+    "def": 826,
+    "spd": 96,
+    "crate": 15,
+    "cdmg": 60,
+    "resist": 30,
+    "acc": 0
   },
+  "aura": "Increases Ally SPD in the Arena by 23%.",
   "skills": [
     {
       "cd": 0,
       "mincd": 0,
+      "passive": false,
       "dmgscaling": [
         "ATK"
       ],
       "abilityname": "Wave of Souls",
+      "damageMultiplier": "1.8 ATK",
       "description": "Attacks all enemies. Places an extra hit if the target has more than 50% HP.",
       "books": [
         "Level 2: Damage +5%",
@@ -35,10 +39,12 @@
     {
       "cd": 4,
       "mincd": 3,
+      "passive": false,
       "dmgscaling": [
         "ATK"
       ],
       "abilityname": "Corrupting Touch",
+      "damageMultiplier": "4.3 ATK",
       "description": "Attacks all enemies. Has a 50% chance of placing a 25% [Weaken] debuff for 2 turns.",
       "books": [
         "Level 2: Damage +10%",
@@ -50,9 +56,8 @@
     {
       "cd": 6,
       "mincd": 4,
-      "dmgscaling": [
-        "Passive"
-      ],
+      "passive": true,
+      "dmgscaling": [],
       "abilityname": "Resilient",
       "description": "Places an [Unkillable] buff on this Champion for 1 turn every time their HP drops below 20%.",
       "books": [
@@ -63,24 +68,16 @@
     {
       "cd": 8,
       "mincd": 6,
-      "dmgscaling": [
-        "Passive"
-      ],
+      "passive": true,
+      "dmgscaling": [],
       "abilityname": "From Beyond",
       "description": "Revives this Champion with 30% HP. [Only available when Sinesha is on the same team]",
       "books": [
         "Level 2: Cooldown -1",
         "Level 3: Cooldown -1"
       ]
-    },
-    {
-      "cd": 0,
-      "mincd": 0,
-      "dmgscaling": [],
-      "abilityname": "Aura",
-      "description": "Increases Ally SPD in the Arena by 23%.",
-      "books": []
     }
   ],
-  "avatarUrl": "https://goctionni.github.io/raid-data/images/avatar/Skullcrown.png"
+  "version": "3.30.0",
+  "avatarUrl": "https://mcradane.github.io/raid-data/images/avatar/Skullcrown.png"
 }

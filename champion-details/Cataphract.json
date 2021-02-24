@@ -1,29 +1,33 @@
 {
   "name": "Cataphract",
+  "id": "Cataphract",
   "class": {
     "faction": "Banner Lords",
-    "rarity": "Rare",
-    "role": "HP",
-    "affinity": "Spirit"
+    "rarity": "rare",
+    "role": "hp",
+    "affinity": "spirit"
   },
   "stats": {
-    "hp": "18,330",
-    "atk": "991",
-    "def": "815",
-    "spd": "97",
-    "crate": "RATE",
-    "cdmg": "15",
-    "resist": "50",
-    "acc": "40"
+    "hp": 18330,
+    "atk": 991,
+    "def": 815,
+    "spd": 97,
+    "crate": 15,
+    "cdmg": 50,
+    "resist": 40,
+    "acc": 0
   },
+  "aura": "Increases Ally HP in the Arena by 25%.",
   "skills": [
     {
       "cd": 0,
       "mincd": 0,
+      "passive": false,
       "dmgscaling": [
         "ATK"
       ],
       "abilityname": "Sure Strike",
+      "damageMultiplier": "4.3 ATK",
       "description": "Attacks 1 enemy. Has a 20% chance of placing a 50% [Decrease ACC] debuff on the target for 1 turn.",
       "books": [
         "Level: 2 Damage +10%",
@@ -35,6 +39,7 @@
     {
       "cd": 4,
       "mincd": 4,
+      "passive": false,
       "dmgscaling": [],
       "abilityname": "Fortify",
       "description": "Places a [Block Debuffs] buff and a 60% [Increase DEF] buff on this Champion for 2 turns.",
@@ -43,11 +48,13 @@
     {
       "cd": 6,
       "mincd": 6,
+      "passive": false,
       "dmgscaling": [
         "ATK",
         "HP"
       ],
       "abilityname": "Helmcleaver",
+      "damageMultiplier": "3.9 ATK + 0.1 HP",
       "description": "Attacks 1 enemy. Will ignore DEF if the target has less than 50% HP. Damage increases according to this Champion’s MAX HP.",
       "books": [
         "Level: 2 Damage +5%",
@@ -55,15 +62,8 @@
         "Level:.4 Damage +5%",
         "Level: 5 Damage +10%"
       ]
-    },
-    {
-      "cd": 0,
-      "mincd": 0,
-      "dmgscaling": [],
-      "abilityname": "Aura",
-      "description": "Increases Ally HP in the Arena by 25%.",
-      "books": []
     }
   ],
-  "avatarUrl": "https://goctionni.github.io/raid-data/images/avatar/Cataphract.png"
+  "version": "3.30.0",
+  "avatarUrl": "https://mcradane.github.io/raid-data/images/avatar/Cataphract.png"
 }

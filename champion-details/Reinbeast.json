@@ -1,29 +1,32 @@
 {
   "name": "Reinbeast",
+  "id": "Reinbeast",
   "class": {
     "faction": "Skinwalkers",
-    "rarity": "Epic",
-    "role": "Defense",
-    "affinity": "Force"
+    "rarity": "epic",
+    "role": "defense",
+    "affinity": "force"
   },
   "stats": {
-    "hp": "18,660",
-    "atk": "826",
-    "def": "1,233",
-    "spd": "94",
-    "crate": "Rate",
-    "cdmg": "15",
-    "resist": "50",
-    "acc": "45"
+    "hp": 18660,
+    "atk": 826,
+    "def": 1233,
+    "spd": 94,
+    "crate": 15,
+    "cdmg": 50,
+    "resist": 45,
+    "acc": 0
   },
   "skills": [
     {
       "cd": 0,
       "mincd": 0,
+      "passive": false,
       "dmgscaling": [
         "DEF"
       ],
       "abilityname": "Caning",
+      "damageMultiplier": "3.7 DEF",
       "description": "Attacks 1 enemy. Places a 15% [Continuous Heal] buff on the ally with the lowest HP for 1 turn.",
       "books": [
         "Level 2: Damage +5%",
@@ -34,10 +37,12 @@
     {
       "cd": 5,
       "mincd": 5,
+      "passive": false,
       "dmgscaling": [
         "DEF"
       ],
       "abilityname": "Open Slay",
+      "damageMultiplier": "3.1 DEF",
       "description": "Attacks 1 enemy 2 times. Revives a random ally with full HP if this attack kills the enemy.",
       "books": [
         "Level 2: Damage +5%",
@@ -49,9 +54,8 @@
     {
       "cd": 2,
       "mincd": 2,
-      "dmgscaling": [
-        "Passive"
-      ],
+      "passive": true,
+      "dmgscaling": [],
       "abilityname": "It Glows",
       "description": "When an ally is attacked, places a [Shield] buff equal to 35% of this Champion’s MAX HP on that ally for 2 turns. Occurs once per turn. Will not place a [Shield] buff on this Champion.",
       "books": [
@@ -61,5 +65,6 @@
       ]
     }
   ],
-  "avatarUrl": "https://goctionni.github.io/raid-data/images/avatar/Reinbeast.png"
+  "version": "3.30.0",
+  "avatarUrl": "https://mcradane.github.io/raid-data/images/avatar/Reinbeast.png"
 }

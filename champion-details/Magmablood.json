@@ -1,29 +1,33 @@
 {
   "name": "Magmablood",
+  "id": "Magmablood",
   "class": {
     "faction": "Ogryn Tribes",
-    "rarity": "Rare",
-    "role": "Attack",
-    "affinity": "Force"
+    "rarity": "rare",
+    "role": "attack",
+    "affinity": "force"
   },
   "stats": {
-    "hp": "13,710",
-    "atk": "1,387",
-    "def": "727",
-    "spd": "93",
-    "crate": "Rate",
-    "cdmg": "15",
-    "resist": "50",
-    "acc": "30"
+    "hp": 13710,
+    "atk": 1387,
+    "def": 727,
+    "spd": 93,
+    "crate": 15,
+    "cdmg": 50,
+    "resist": 30,
+    "acc": 15
   },
+  "aura": "Increases Ally ACC in Dungeons by 40.",
   "skills": [
     {
       "cd": 0,
       "mincd": 0,
+      "passive": false,
       "dmgscaling": [
         "ATK"
       ],
       "abilityname": "Hurl",
+      "damageMultiplier": "3.6 ATK",
       "description": "Attacks 1 enemy. Has a 15% chance of placing a [Stun] debuff for 1 turn.",
       "books": [
         "Level 2: Damage +5%",
@@ -36,10 +40,12 @@
     {
       "cd": 4,
       "mincd": 4,
+      "passive": false,
       "dmgscaling": [
         "ATK"
       ],
       "abilityname": "Splinters",
+      "damageMultiplier": "3.6 ATK",
       "description": "Attacks all enemies. Has a 30% chance of placing a 50% [Decrease ACC] debuff for 2 turns.",
       "books": [
         "Level 2: Damage +5%",
@@ -51,10 +57,12 @@
     {
       "cd": 5,
       "mincd": 5,
+      "passive": false,
       "dmgscaling": [
         "ATK"
       ],
       "abilityname": "Magma Bomb",
+      "damageMultiplier": "3.2 ATK",
       "description": "Attacks 2 times at random. Each hit has a 60% chance of placing a [Bomb] debuff for 3 turns.",
       "books": [
         "Level 2: Buff/Debuff Chance +5%",
@@ -63,15 +71,8 @@
         "Level 5: Buff/Debuff Chance +10%",
         "Level 6: Buff/Debuff Chance +10%"
       ]
-    },
-    {
-      "cd": 0,
-      "mincd": 0,
-      "dmgscaling": [],
-      "abilityname": "Aura",
-      "description": "Increases Ally ACC in Dungeons by 40.",
-      "books": []
     }
   ],
-  "avatarUrl": "https://goctionni.github.io/raid-data/images/avatar/Magmablood.png"
+  "version": "3.30.0",
+  "avatarUrl": "https://mcradane.github.io/raid-data/images/avatar/Magmablood.png"
 }

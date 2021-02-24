@@ -1,29 +1,32 @@
 {
   "name": "Sorceress",
+  "id": "Sorceress",
   "class": {
     "faction": "Undead Hordes",
-    "rarity": "Rare",
-    "role": "Attack",
-    "affinity": "Force"
+    "rarity": "rare",
+    "role": "attack",
+    "affinity": "force"
   },
   "stats": {
-    "hp": "12,555",
-    "atk": "1,321",
-    "def": "870",
-    "spd": "101",
-    "crate": "RATE",
-    "cdmg": "15",
-    "resist": "57",
-    "acc": "30"
+    "hp": 12555,
+    "atk": 1321,
+    "def": 870,
+    "spd": 101,
+    "crate": 15,
+    "cdmg": 57,
+    "resist": 30,
+    "acc": 0
   },
   "skills": [
     {
       "cd": 0,
       "mincd": 0,
+      "passive": false,
       "dmgscaling": [
         "ATK"
       ],
       "abilityname": "Crystal Bolt",
+      "damageMultiplier": "3 ATK",
       "description": "Attacks 1 enemy. Has a 30% chance of placing a 15% [Decrease SPD] debuff for 2 turns.",
       "books": [
         "Level 2: Damage +5%",
@@ -35,10 +38,12 @@
     {
       "cd": 3,
       "mincd": 2,
+      "passive": false,
       "dmgscaling": [
         "ATK"
       ],
       "abilityname": "Magic Arrows",
+      "damageMultiplier": "2.5 ATK",
       "description": "Attacks 1 enemy 2 times. Has a 20% chance of placing an extra hit.",
       "books": [
         "Level 2: Damage +5%",
@@ -51,10 +56,12 @@
     {
       "cd": 5,
       "mincd": 4,
+      "passive": false,
       "dmgscaling": [
         "ATK"
       ],
       "abilityname": "Vine Trap",
+      "damageMultiplier": "1.9 ATK",
       "description": "Attacks 3 times at random. Each hit has a 30% chance of placing a 60% [Decrease DEF] debuff for 2 turns.",
       "books": [
         "Level 2: Damage +5%",
@@ -63,5 +70,6 @@
       ]
     }
   ],
-  "avatarUrl": "https://goctionni.github.io/raid-data/images/avatar/Sorceress.png"
+  "version": "3.30.0",
+  "avatarUrl": "https://mcradane.github.io/raid-data/images/avatar/Sorceress.png"
 }

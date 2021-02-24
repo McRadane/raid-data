@@ -1,29 +1,33 @@
 {
   "name": "Acolyte",
+  "id": "Acolyte",
   "class": {
     "faction": "Knight Revenant",
-    "rarity": "Rare",
-    "role": "Support",
-    "affinity": "Force"
+    "rarity": "rare",
+    "role": "support",
+    "affinity": "force"
   },
   "stats": {
-    "hp": "15,195",
-    "atk": "749",
-    "def": "1,266",
-    "spd": "104",
-    "crate": "Rate",
-    "cdmg": "15",
-    "resist": "50",
-    "acc": "30"
+    "hp": 15195,
+    "atk": 749,
+    "def": 1266,
+    "spd": 104,
+    "crate": 15,
+    "cdmg": 50,
+    "resist": 30,
+    "acc": 0
   },
+  "aura": "Increases Ally ATK in the Arena by 30%.",
   "skills": [
     {
       "cd": 0,
       "mincd": 0,
+      "passive": false,
       "dmgscaling": [
         "ATK"
       ],
       "abilityname": "Tireless Anger",
+      "damageMultiplier": "4.6 ATK",
       "description": "Attacks 1 enemy. Fills this Champion’s Turn Meter by 25%",
       "books": [
         "Level: 2 Damage +5%",
@@ -36,10 +40,12 @@
     {
       "cd": 4,
       "mincd": 4,
+      "passive": false,
       "dmgscaling": [
         "ATK"
       ],
       "abilityname": "Dark Exhaustion",
+      "damageMultiplier": "6.3 ATK",
       "description": "Attacks 1 enemy. Has a 75% chance of decreasing the target’s Turn Meter by 50%.",
       "books": [
         "Level: 2 Damage +5%",
@@ -53,21 +59,15 @@
     {
       "cd": 5,
       "mincd": 4,
+      "passive": false,
       "dmgscaling": [],
       "abilityname": "Liberation",
       "description": "Removes all debuffs on all allies.",
       "books": [
         "Level: 2 Cooldown -1"
       ]
-    },
-    {
-      "cd": 0,
-      "mincd": 0,
-      "dmgscaling": [],
-      "abilityname": "Aura",
-      "description": "Increases Ally ATK in the Arena by 30%.",
-      "books": []
     }
   ],
-  "avatarUrl": "https://goctionni.github.io/raid-data/images/avatar/Acolyte.png"
+  "version": "3.30.0",
+  "avatarUrl": "https://mcradane.github.io/raid-data/images/avatar/Acolyte.png"
 }

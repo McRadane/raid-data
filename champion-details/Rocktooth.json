@@ -1,29 +1,32 @@
 {
   "name": "Rocktooth",
+  "id": "Rocktooth",
   "class": {
     "faction": "Ogryn Tribes",
-    "rarity": "Rare",
-    "role": "Attack",
-    "affinity": "Magic"
+    "rarity": "rare",
+    "role": "attack",
+    "affinity": "magic"
   },
   "stats": {
-    "hp": "15,525",
-    "atk": "1,211",
-    "def": "782",
-    "spd": "101",
-    "crate": "RATE",
-    "cdmg": "15",
-    "resist": "57",
-    "acc": "30"
+    "hp": 15525,
+    "atk": 1211,
+    "def": 782,
+    "spd": 101,
+    "crate": 15,
+    "cdmg": 57,
+    "resist": 30,
+    "acc": 0
   },
   "skills": [
     {
       "cd": 0,
       "mincd": 0,
+      "passive": false,
       "dmgscaling": [
         "ATK"
       ],
       "abilityname": "Grab",
+      "damageMultiplier": "3.2 ATK",
       "description": "Attacks 1 enemy. Places an extra hit if this attack is critical.",
       "books": [
         "Level 2: Damage +5%",
@@ -35,10 +38,12 @@
     {
       "cd": 3,
       "mincd": 3,
+      "passive": false,
       "dmgscaling": [
         "ATK"
       ],
       "abilityname": "Stomp",
+      "damageMultiplier": "3.2 ATK",
       "description": "Attacks all enemies. Places a 15% [Increase C.RATE] buff on all allies for 1 turn.",
       "books": [
         "Level 2: Damage +5%",
@@ -50,10 +55,12 @@
     {
       "cd": 5,
       "mincd": 3,
+      "passive": false,
       "dmgscaling": [
         "ATK"
       ],
       "abilityname": "Rabble",
+      "damageMultiplier": "5.2 ATK",
       "description": "Attacks 1 enemy. Places a 100% [Heal Reduction] debuff for 2 turns.",
       "books": [
         "Level 2: Damage +5%",
@@ -65,5 +72,6 @@
       ]
     }
   ],
-  "avatarUrl": "https://goctionni.github.io/raid-data/images/avatar/Rocktooth.png"
+  "version": "3.30.0",
+  "avatarUrl": "https://mcradane.github.io/raid-data/images/avatar/Rocktooth.png"
 }

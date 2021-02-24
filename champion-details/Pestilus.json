@@ -1,0 +1,72 @@
+{
+  "name": "Pestilus",
+  "id": "Pestilus",
+  "class": {
+    "faction": "Knight Revenant",
+    "rarity": "epic",
+    "role": "support",
+    "affinity": "spirit"
+  },
+  "stats": {
+    "hp": 20145,
+    "atk": 848,
+    "def": 1112,
+    "spd": 94,
+    "crate": 15,
+    "cdmg": 50,
+    "resist": 30,
+    "acc": 15
+  },
+  "aura": "Increases Ally ACC in the Doom Tower by 50",
+  "skills": [
+    {
+      "cd": 0,
+      "mincd": 0,
+      "passive": false,
+      "dmgscaling": [],
+      "abilityname": "Blood Call",
+      "damageMultiplier": "1.8 ATK",
+      "description": "Attacks 2 times at random. Has a 30% chance of placing a [Leech] Debuff for 2 turns.",
+      "books": [
+        "Level 2: Damage 5%",
+        "Level 3: Buff/Debuff Chance +5%",
+        "Level 4: Damage +5%",
+        "Level 5: Buff/Debuff Chance +5%",
+        "Level 6: Damage +5%",
+        "Level 7: Buff/Debuff Chance +10%"
+      ]
+    },
+    {
+      "cd": 4,
+      "mincd": 3,
+      "passive": false,
+      "dmgscaling": [],
+      "abilityname": "Flames Within",
+      "damageMultiplier": "5 ATK",
+      "description": "Attacks 1 enemy. Has a 50% chance of placing a [HP Burn] debuff for 2 turns. Heals all allies by 15% of their MAX HP if the [HP Burn] debuff is placed. Fills the Turn Meters of all allies by 15% if the [HP Burn] debuff is not placed.",
+      "books": [
+        "Level 2: Damage +5%",
+        "Level 3: Buff/Debuff Chance +5%",
+        "Level 4: Damage +5%",
+        "Level 5: Buff/Debuff Chance +10%",
+        "Level 6: Damage +5%",
+        "Level 7: Buff/Debuff Chance +10%",
+        "Level 8: Cooldown -1"
+      ]
+    },
+    {
+      "cd": 5,
+      "mincd": 3,
+      "passive": false,
+      "dmgscaling": [],
+      "abilityname": "Battle Weirding",
+      "description": "Places a 50% [Increase ACC] buff and a 30% [Increases C.DMG] buff on all allies for 2 turns.",
+      "books": [
+        "Level 2: Cooldown -1",
+        "Level 3: Cooldown -1"
+      ]
+    }
+  ],
+  "version": "3.30.0",
+  "avatarUrl": "https://mcradane.github.io/raid-data/images/avatar/Pestilus.png"
+}

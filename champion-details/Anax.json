@@ -1,0 +1,23 @@
+{
+  "name": "Anax",
+  "id": "Anax",
+  "class": {
+    "faction": "Undead Hordes",
+    "rarity": "epic",
+    "role": "attack",
+    "affinity": "spirit"
+  },
+  "stats": {
+    "hp": 14205,
+    "atk": 1542,
+    "def": 815,
+    "spd": 90,
+    "crate": 15,
+    "cdmg": 60,
+    "resist": 30,
+    "acc": 0
+  },
+  "skills": [],
+  "version": "3.30.0",
+  "avatarUrl": "https://mcradane.github.io/raid-data/images/avatar/Anax.png"
+}

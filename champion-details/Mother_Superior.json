@@ -1,29 +1,33 @@
 {
   "name": "Mother Superior",
+  "id": "Mother_Superior",
   "class": {
     "faction": "The Sacred Order",
-    "rarity": "Rare",
-    "role": "Support",
-    "affinity": "Spirit"
+    "rarity": "rare",
+    "role": "support",
+    "affinity": "spirit"
   },
   "stats": {
-    "hp": "16,350",
-    "atk": "991",
-    "def": "947",
-    "spd": "103",
-    "crate": "RATE",
-    "cdmg": "15",
-    "resist": "50",
-    "acc": "30"
+    "hp": 16350,
+    "atk": 991,
+    "def": 947,
+    "spd": 103,
+    "crate": 15,
+    "cdmg": 50,
+    "resist": 30,
+    "acc": 0
   },
+  "aura": "Increases Ally SPD in all Battles by 13%",
   "skills": [
     {
       "cd": 0,
       "mincd": 0,
+      "passive": false,
       "dmgscaling": [
         "ATK"
       ],
       "abilityname": "Lightning Sanction",
+      "damageMultiplier": "3.5 ATK",
       "description": "Attacks 1 enemy. Has a 35% chance of placing a 25% [Decrease ATK] debuff for 2 turns.",
       "books": [
         "Level 2: Damage +5%",
@@ -35,6 +39,7 @@
     {
       "cd": 4,
       "mincd": 3,
+      "passive": false,
       "dmgscaling": [],
       "abilityname": "Fill With Blessing",
       "description": "Heals an ally by 30% of this Champion’s MAX HP. Places a [Shield] buff equal to any surplus heal for 2 turns if the target is fully healed by this Skill.",
@@ -49,21 +54,15 @@
     {
       "cd": 5,
       "mincd": 4,
+      "passive": false,
       "dmgscaling": [],
       "abilityname": "Brim With Life",
       "description": "Places a 7.5% [Continuous Heal] buff on all allies for 2 turns. Places a [Shield] buff equal to 10% of the target’s HP on all allies for 2 turns if an ally’s HP is full.",
       "books": [
         "Level 2: Cooldown -1"
       ]
-    },
-    {
-      "cd": 0,
-      "mincd": 0,
-      "dmgscaling": [],
-      "abilityname": "Aura",
-      "description": "Increases Ally SPD in all Battles by 13%",
-      "books": []
     }
   ],
-  "avatarUrl": "https://goctionni.github.io/raid-data/images/avatar/Mother_Superior.png"
+  "version": "3.30.0",
+  "avatarUrl": "https://mcradane.github.io/raid-data/images/avatar/Mother_Superior.png"
 }

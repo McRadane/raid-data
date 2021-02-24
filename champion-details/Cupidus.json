@@ -1,29 +1,33 @@
 {
   "name": "Cupidus",
+  "id": "Cupidus",
   "class": {
     "faction": "The Sacred Order",
-    "rarity": "Legendary",
-    "role": "Attack",
-    "affinity": "Spirit"
+    "rarity": "legendary",
+    "role": "attack",
+    "affinity": "spirit"
   },
   "stats": {
-    "hp": "18,825",
-    "atk": "1,520",
-    "def": "804",
-    "spd": "107",
-    "crate": "RATE",
-    "cdmg": "15",
-    "resist": "63",
-    "acc": "30"
+    "hp": 18825,
+    "atk": 1520,
+    "def": 804,
+    "spd": 107,
+    "crate": 15,
+    "cdmg": 63,
+    "resist": 30,
+    "acc": 10
   },
+  "aura": "Increases Ally ATK in all Battles by 33%.",
   "skills": [
     {
       "cd": 0,
       "mincd": 0,
+      "passive": false,
       "dmgscaling": [
         "ATK"
       ],
       "abilityname": "Heartbreaker",
+      "damageMultiplier": "2.5 ATK",
       "description": "Attacks all enemies. Damaged increases by 15% if the target has any debuffs.",
       "books": [
         "Level 2: Damage +5%",
@@ -34,10 +38,12 @@
     {
       "cd": 4,
       "mincd": 4,
+      "passive": false,
       "dmgscaling": [
         "ATK"
       ],
       "abilityname": "Flames of Passion",
+      "damageMultiplier": "2.1 ATK",
       "description": "Attacks 3 times at random. Each hit has a 50% chance of placing a [HP Burn] debuff for 2 turns.",
       "books": [
         "Level 2: Damage +5%",
@@ -50,10 +56,12 @@
     {
       "cd": 4,
       "mincd": 3,
+      "passive": false,
       "dmgscaling": [
         "ATK"
       ],
       "abilityname": "Flameout",
+      "damageMultiplier": "6.6 ATK",
       "description": "Places a 50% [Increase ATK] buff on this Champion, then attacks 1 enemy. Has a 50% chance of placing a [HP Burn] debuff on all enemies for 2 turns if this attack kills an enemy. This debuff cannot be resisted.",
       "books": [
         "Level 2: Damage +10%",
@@ -63,19 +71,13 @@
     {
       "cd": 0,
       "mincd": 0,
+      "passive": false,
       "dmgscaling": [],
       "abilityname": "Punishing Partner",
-      "description": "Attacks inflict 25% more damage to targets under debuffs. [Only available when Venus is on the same team]",
-      "books": []
-    },
-    {
-      "cd": 0,
-      "mincd": 0,
-      "dmgscaling": [],
-      "abilityname": "Aura",
-      "description": "Increases Ally ATK in all Battles by 33%.",
+      "description": "Attacks inflict 25% more damage to targets under debuffs. [Only available when <a href=\"//ayumilove.net/raid-shadow-legends-venus-skill-mastery-equip-guide/\">Venus</a> is on the same team]",
       "books": []
     }
   ],
-  "avatarUrl": "https://goctionni.github.io/raid-data/images/avatar/Cupidus.png"
+  "version": "3.30.0",
+  "avatarUrl": "https://mcradane.github.io/raid-data/images/avatar/Cupidus.png"
 }

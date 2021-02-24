@@ -1,29 +1,33 @@
 {
   "name": "Robar",
+  "id": "Robar",
   "class": {
     "faction": "Orcs",
-    "rarity": "Legendary",
-    "role": "Attack",
-    "affinity": "Force"
+    "rarity": "legendary",
+    "role": "attack",
+    "affinity": "force"
   },
   "stats": {
-    "hp": "18,990",
-    "atk": "1,619",
-    "def": "694",
-    "spd": "87",
-    "crate": "Rate",
-    "cdmg": "15",
-    "resist": "63",
-    "acc": "30"
+    "hp": 18990,
+    "atk": 1619,
+    "def": 694,
+    "spd": 87,
+    "crate": 15,
+    "cdmg": 63,
+    "resist": 30,
+    "acc": 10
   },
+  "aura": "Increases Ally ACC in Faction Crypts by 50.",
   "skills": [
     {
       "cd": 0,
       "mincd": 0,
+      "passive": false,
       "dmgscaling": [
         "ATK"
       ],
       "abilityname": "Stunning Strength",
+      "damageMultiplier": "3.4 ATK",
       "description": "Attacks 1 enemy. Has a 50% chance of placing a [Stun] debuff for 1 turn. Grants an Extra Turn if this debuff is successfully placed.",
       "books": [
         "Level 2: Damage +5%",
@@ -35,10 +39,12 @@
     {
       "cd": 4,
       "mincd": 3,
+      "passive": false,
       "dmgscaling": [
         "ATK"
       ],
-      "abilityname": "Wild Swing",
+      "abilityname": "Wild Swin",
+      "damageMultiplier": "4.3 ATK",
       "description": "Attacks all enemies. Each hit has a 75% chance of placing a 60% [Decrease DEF] debuff for 2 turns.",
       "books": [
         "Level 2: Damage +5%",
@@ -51,25 +57,20 @@
     {
       "cd": 4,
       "mincd": 4,
+      "passive": false,
       "dmgscaling": [
         "ATK"
       ],
       "abilityname": "Merciless Assault",
+      "damageMultiplier": "4.2 ATK",
       "description": "Attacks all enemies. Damage increases if the target is under [Sleep], [Stun] or [Freeze] debuffs.",
       "books": [
         "Level 2: Damage +5%",
         "Level 3: Damage +10%",
         "Level 4: Damage +10%"
       ]
-    },
-    {
-      "cd": 0,
-      "mincd": 0,
-      "dmgscaling": [],
-      "abilityname": "Aura",
-      "description": "Increases Ally ACC in Faction Crypts by 50.",
-      "books": []
     }
   ],
-  "avatarUrl": "https://goctionni.github.io/raid-data/images/avatar/Robar.png"
+  "version": "3.30.0",
+  "avatarUrl": "https://mcradane.github.io/raid-data/images/avatar/Robar.png"
 }

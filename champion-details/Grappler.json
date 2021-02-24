@@ -1,29 +1,33 @@
 {
   "name": "Grappler",
+  "id": "Grappler",
   "class": {
     "faction": "Skinwalkers",
-    "rarity": "Rare",
-    "role": "Defense",
-    "affinity": "Spirit"
+    "rarity": "rare",
+    "role": "defense",
+    "affinity": "spirit"
   },
   "stats": {
-    "hp": "14,700",
-    "atk": "859",
-    "def": "1,189",
-    "spd": "94",
-    "crate": "Rate",
-    "cdmg": "15",
-    "resist": "50",
-    "acc": "30"
+    "hp": 14700,
+    "atk": 859,
+    "def": 1189,
+    "spd": 94,
+    "crate": 15,
+    "cdmg": 50,
+    "resist": 30,
+    "acc": 10
   },
+  "aura": "Increases Spirit Ally HP in all Battles by 19%.",
   "skills": [
     {
       "cd": 0,
       "mincd": 0,
+      "passive": false,
       "dmgscaling": [
         "ATK"
       ],
       "abilityname": "Hoodoo",
+      "damageMultiplier": "2.3 ATK",
       "description": "Attacks 2 times at random. Has a 15% chance of placing a 15% [Weaken] debuff for 2 turns.",
       "books": [
         "Level 2: Damage +5%",
@@ -36,10 +40,12 @@
     {
       "cd": 4,
       "mincd": 3,
+      "passive": false,
       "dmgscaling": [
         "ATK"
       ],
       "abilityname": "Soul Sizzle",
+      "damageMultiplier": "3.7 ATK",
       "description": "Attacks 1 enemy 2 times. Each hit has a 50% chance of placing two 2.5% [Poison] debuffs for 2 turns.",
       "books": [
         "Level 2: Damage +5%",
@@ -52,6 +58,7 @@
     {
       "cd": 5,
       "mincd": 4,
+      "passive": false,
       "dmgscaling": [],
       "abilityname": "Envelop",
       "description": "Places a [Shield] buff on all allies equal to 20% of their HP and a 15% [Reflect Damage] buff on all allies for 2 turns.",
@@ -62,15 +69,8 @@
         "Level 5: Shield +5%",
         "Level 6: Cooldown -1"
       ]
-    },
-    {
-      "cd": 0,
-      "mincd": 0,
-      "dmgscaling": [],
-      "abilityname": "Aura",
-      "description": "Increases Spirit Ally HP in all Battles by 19%.",
-      "books": []
     }
   ],
-  "avatarUrl": "https://goctionni.github.io/raid-data/images/avatar/Grappler.png"
+  "version": "3.30.0",
+  "avatarUrl": "https://mcradane.github.io/raid-data/images/avatar/Grappler.png"
 }

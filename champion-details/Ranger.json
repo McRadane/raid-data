@@ -1,29 +1,32 @@
 {
   "name": "Ranger",
+  "id": "Ranger",
   "class": {
     "faction": "Dark Elves",
-    "rarity": "Common",
-    "role": "Attack",
-    "affinity": "Force"
+    "rarity": "common",
+    "role": "attack",
+    "affinity": "force"
   },
   "stats": {
-    "hp": "12,720",
-    "atk": "815",
-    "def": "540",
-    "spd": "92",
-    "crate": "RATE",
-    "cdmg": "15",
-    "resist": "50",
-    "acc": "30"
+    "hp": 12720,
+    "atk": 815,
+    "def": 540,
+    "spd": 92,
+    "crate": 15,
+    "cdmg": 50,
+    "resist": 30,
+    "acc": 0
   },
   "skills": [
     {
       "cd": 0,
       "mincd": 0,
+      "passive": false,
       "dmgscaling": [
         "ATK"
       ],
       "abilityname": "Pin",
+      "damageMultiplier": "2.5 ATK",
       "description": "Attacks 1 enemy. Has a 20% chance of placing a 15% [Decrease SPD] debuff for 2 turns.",
       "books": [
         "Level 2: Damage +5%",
@@ -35,10 +38,12 @@
     {
       "cd": 3,
       "mincd": 2,
+      "passive": false,
       "dmgscaling": [
         "ATK"
       ],
       "abilityname": "Multi-Shot",
+      "damageMultiplier": "2.7 ATK",
       "description": "Attacks all enemies.",
       "books": [
         "Level 2: Damage +5%",
@@ -48,5 +53,6 @@
       ]
     }
   ],
-  "avatarUrl": "https://goctionni.github.io/raid-data/images/avatar/Ranger.png"
+  "version": "3.30.0",
+  "avatarUrl": "https://mcradane.github.io/raid-data/images/avatar/Ranger.png"
 }

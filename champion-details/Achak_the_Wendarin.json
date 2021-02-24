@@ -1,0 +1,87 @@
+{
+  "name": "Achak the Wendarin",
+  "id": "Achak_the_Wendarin",
+  "class": {
+    "faction": "Demonspawn",
+    "rarity": "epic",
+    "role": "support",
+    "affinity": "force"
+  },
+  "stats": {
+    "hp": 17505,
+    "atk": 947,
+    "def": 1189,
+    "spd": 94,
+    "crate": 15,
+    "cdmg": 50,
+    "resist": 30,
+    "acc": 15
+  },
+  "aura": "Increases Ally DEF in all Battles by 25%.",
+  "skills": [
+    {
+      "cd": 0,
+      "mincd": 0,
+      "passive": false,
+      "dmgscaling": [
+        "ATK"
+      ],
+      "abilityname": "Devour All Hope",
+      "damageMultiplier": "3.5 ATK",
+      "description": "Attacks 1 enemy. Has a 30% chance of decreasing the duration of 1 random buff if the target is under a [HP Burn] debuff. Also has a 30% chance of decreasing the target’s Turn Meter by 15% if they are under a [Freeze] debuff.",
+      "books": [
+        "Level 2: Damage +5%",
+        "Level 3: Buff/Debuff Chance +5%",
+        "Level 4: Damage +5%",
+        "Level 5: Buff/Debuff Chance +5%",
+        "Level 6: Damage +5%",
+        "Level 7: Buff/Debuff Chance +5%",
+        "Level 8: Damage +5%",
+        "Level 9: Buff/Debuff Chance +5%"
+      ]
+    },
+    {
+      "cd": 5,
+      "mincd": 4,
+      "passive": false,
+      "dmgscaling": [
+        "ATK"
+      ],
+      "abilityname": "Cannibal Might",
+      "description": "Places a [Block Debuff] buff on all allies for 1 turn and a 25% [Strengthen] buff on all allies for 2 turns.",
+      "books": [
+        "Level 2: Cooldown -1"
+      ]
+    },
+    {
+      "cd": 5,
+      "mincd": 3,
+      "passive": false,
+      "dmgscaling": [
+        "ATK"
+      ],
+      "abilityname": "Frostfire Gale",
+      "damageMultiplier": "5.5 ATK",
+      "description": "Attacks all enemies. Has a 70% chance of placing a [Freeze] debuff for 1 turn on enemies whose ATK is higher than their DEF. Has a 70% chance of placing a [HP Burn] debuf for 1 turn on enemies whose DEF is equal to or higher than their ATK.",
+      "books": [
+        "Level 2: Buff/Debuff Chance +5%",
+        "Level 3: Buff/Debuff Chance +5%",
+        "Level 4: Buff/Debuff Chance +5%",
+        "Level 5: Buff/Debuff Chance +5%",
+        "Level 6: Cooldown -1",
+        "Level 7: Cooldown -1"
+      ]
+    },
+    {
+      "cd": 0,
+      "mincd": 0,
+      "passive": true,
+      "dmgscaling": [],
+      "abilityname": "Twisted Hunger",
+      "description": "Heals all allies by 5% of their MAX HP every time an enemy under a [HP Burn] debuff gets a turn. Fills the Turn Meters of all allies by 10% every time an enemy under a [Freeze] debuff gets a turn.",
+      "books": []
+    }
+  ],
+  "version": "3.30.0",
+  "avatarUrl": "https://mcradane.github.io/raid-data/images/avatar/Achak_the_Wendarin.png"
+}

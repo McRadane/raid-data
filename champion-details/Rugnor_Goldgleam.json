@@ -1,0 +1,83 @@
+{
+  "name": "Rugnor Goldgleam",
+  "id": "Rugnor_Goldgleam",
+  "class": {
+    "faction": "Dwarves",
+    "rarity": "epic",
+    "role": "attack",
+    "affinity": "void"
+  },
+  "stats": {
+    "hp": 16680,
+    "atk": 1409,
+    "def": 782,
+    "spd": 99,
+    "crate": 15,
+    "cdmg": 60,
+    "resist": 30,
+    "acc": 0
+  },
+  "aura": "Increases Ally ATK in Doom Tower battles by 35%.",
+  "skills": [
+    {
+      "cd": 0,
+      "mincd": 0,
+      "passive": false,
+      "dmgscaling": [
+        "ATK"
+      ],
+      "abilityname": "Thirsty Axe",
+      "damageMultiplier": "3.7 ATK",
+      "description": "Attacks 1 enemy. Has a 50% chance of placing a [Leech] debuff for 2 turns.",
+      "books": [
+        "Level 2: Damage +5%",
+        "Level 3: Damage +5%",
+        "Level 4: Buff/Debuff Chance +5%",
+        "Level 5: Buff/Debuff Chance +5%"
+      ]
+    },
+    {
+      "cd": 4,
+      "mincd": 3,
+      "passive": false,
+      "dmgscaling": [
+        "ATK"
+      ],
+      "abilityname": "Gold-Mad Frenzy",
+      "description": "Sacrifices HP equal to 15% of this Champion’s MAX HP, then fills this Champion’s Turn Meter by 75% and places a [Shield] buff on this Champion equal to 20% of their MAX HP for 3 turns. The [Shield] buff cannot be removed. The HP sacrifice will happen even if it kills this Champion, and will ignore [Shield] and [Block Damage] buffs.",
+      "books": [
+        "Level 2: Cooldown -1"
+      ]
+    },
+    {
+      "cd": 5,
+      "mincd": 4,
+      "passive": false,
+      "dmgscaling": [
+        "ATK"
+      ],
+      "abilityname": "Gleam of Avarice",
+      "damageMultiplier": "6 ATK",
+      "description": "Places a 50% [Increase ATK] buff on this Champion for 2 turns, then attacks 1 enemy. Has a 75% chance of placing a 25% [Weaken] debuff on the target for 2 turns. Also has a 75% chance of placing a 60% [Decrease DEF] debuff on the target for 2 turns before attacking.",
+      "books": [
+        "Level 2: Damage +10%",
+        "Level 3: Damage +10%",
+        "Level 4: Buff/Debuff Chance +5%",
+        "Level 5: Buff/Debuff Chance +10%",
+        "Level 6: Buff/Debuff Chance +10%",
+        "Level 7: Cooldown -1"
+      ]
+    },
+    {
+      "cd": 0,
+      "mincd": 0,
+      "passive": true,
+      "dmgscaling": [],
+      "abilityname": "Dire Grudge",
+      "description": "Decreases the cooldown of this Champion’s [Gleam of Avarice] Skill by 1 turn every time this Champion loses 15% HP. The HP loss is accumulated and tracked over multiple turns, attacks, or hits, and is not affected by healing or other HP increases.",
+      "books": []
+    }
+  ],
+  "version": "3.30.0",
+  "avatarUrl": "https://mcradane.github.io/raid-data/images/avatar/Rugnor_Goldgleam.png"
+}

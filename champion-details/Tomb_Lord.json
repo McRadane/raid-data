@@ -1,29 +1,33 @@
 {
   "name": "Tomb Lord",
+  "id": "Tomb_Lord",
   "class": {
     "faction": "Knight Revenant",
-    "rarity": "Legendary",
-    "role": "Support",
-    "affinity": "Spirit"
+    "rarity": "legendary",
+    "role": "support",
+    "affinity": "spirit"
   },
   "stats": {
-    "hp": "18,165",
-    "atk": "1,387",
-    "def": "980",
-    "spd": "99",
-    "crate": "RATE",
-    "cdmg": "15",
-    "resist": "50",
-    "acc": "30"
+    "hp": 18165,
+    "atk": 1387,
+    "def": 980,
+    "spd": 99,
+    "crate": 15,
+    "cdmg": 50,
+    "resist": 30,
+    "acc": 20
   },
+  "aura": "Increases Ally DEF in the Arena by 42%",
   "skills": [
     {
       "cd": 0,
       "mincd": 0,
+      "passive": false,
       "dmgscaling": [
         "ATK"
       ],
       "abilityname": "Crippling Blows",
+      "damageMultiplier": "1.1 ATK",
       "description": "Attacks 1 enemy 3 times. Places a 30% [Decrease SPD] debuff on the target for 2 turns if this attack is critical.",
       "books": [
         "Level 2: Damage +5%",
@@ -35,11 +39,13 @@
     {
       "cd": 4,
       "mincd": 3,
+      "passive": false,
       "dmgscaling": [
         "ATK"
       ],
       "abilityname": "Death Burst",
-      "description": "Attacks 1 enemy. If the hit is critical, has a 70% chance of placing four 5% [Poison] debuffs on all enemies for 1 turn.",
+      "damageMultiplier": "4.8 ATK",
+      "description": "Attacks 1 enemy. Has a 70% chance of placing two 5% [Poison] debuffs on all enemies for 1 turn. If the hit is critical, has a 70% chance of placing four 5% [Poison] debuffs on all enemies for 1 turn.",
       "books": [
         "Level 2: Buff/Debuff Chance +5%",
         "Level 3: Buff/Debuff Chance +10%",
@@ -50,24 +56,18 @@
     {
       "cd": 6,
       "mincd": 5,
+      "passive": false,
       "dmgscaling": [],
       "abilityname": "Blight",
-      "description": "Resets the Turn Meter of all enemies with less than 50% HP. Has an 80% chance of placing a 50% [Decrease ATK] debuff on all enemies for 2 turns. Also has an 80% chance of placing a 60% [Decrease DEF] debuff on all enemies for 2 turns. Gets an Extra Turn if an enemy’s Turn Meter is Reset by this Skill. (Note: Rebalanced to Gains an Extra Turn after casting Blight).",
+      "description": "Decreases the Turn Meter of all enemies with less than 50% HP by 100%. Has an 80% chance of placing a 50% [Decrease ATK] debuff on all enemies for 2 turns. Also has an 80% chance of placing a 60% [Decrease DEF] debuff on all enemies for 2 turns. Gets an Extra Turn if an enemy’s Turn Meter is decreased by this skill.",
       "books": [
         "Level 2: Buff/Debuff Chance +5%",
         "Level 3: Buff/Debuff Chance +5%",
         "Level 4: Buff/Debuff Chance +10%",
         "Level 5: Cooldown -1"
       ]
-    },
-    {
-      "cd": 0,
-      "mincd": 0,
-      "dmgscaling": [],
-      "abilityname": "Aura",
-      "description": "Increases Ally DEF in the Arena by 42%",
-      "books": []
     }
   ],
-  "avatarUrl": "https://goctionni.github.io/raid-data/images/avatar/Tomb_Lord.png"
+  "version": "3.30.0",
+  "avatarUrl": "https://mcradane.github.io/raid-data/images/avatar/Tomb_Lord.png"
 }

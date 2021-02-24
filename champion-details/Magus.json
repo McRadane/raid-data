@@ -1,29 +1,33 @@
 {
   "name": "Magus",
+  "id": "Magus",
   "class": {
     "faction": "Knight Revenant",
-    "rarity": "Rare",
-    "role": "Attack",
-    "affinity": "Magic"
+    "rarity": "rare",
+    "role": "attack",
+    "affinity": "magic"
   },
   "stats": {
-    "hp": "13,875",
-    "atk": "1,299",
-    "def": "804",
-    "spd": "94",
-    "crate": "RATE",
-    "cdmg": "15",
-    "resist": "50",
-    "acc": "30"
+    "hp": 13875,
+    "atk": 1299,
+    "def": 804,
+    "spd": 94,
+    "crate": 15,
+    "cdmg": 50,
+    "resist": 30,
+    "acc": 0
   },
+  "aura": "Increases Ally SPD in the Arena by 16%.",
   "skills": [
     {
       "cd": 0,
       "mincd": 0,
+      "passive": false,
       "dmgscaling": [
         "ATK"
       ],
       "abilityname": "Paralyze",
+      "damageMultiplier": "4.4 ATK",
       "description": "Attacks 1 enemy. Has a 25% chance of placing a [Stun] debuff for 1 turn.",
       "books": [
         "Level 2: Buff/Debuff Chance +5%",
@@ -36,6 +40,7 @@
     {
       "cd": 4,
       "mincd": 3,
+      "passive": false,
       "dmgscaling": [],
       "abilityname": "Toxin",
       "description": "Has a 75% chance of placing a 5% [Poison] debuff on all enemies for 2 turns.",
@@ -49,10 +54,12 @@
     {
       "cd": 6,
       "mincd": 4,
+      "passive": false,
       "dmgscaling": [
         "ATK"
       ],
       "abilityname": "Vitality Theft",
+      "damageMultiplier": "3.7 ATK",
       "description": "Attacks all enemies, then heals this Champion. The amount by which this Champion is healed is equal to the damage inflicted.",
       "books": [
         "Level 2: Damage +5%",
@@ -61,15 +68,8 @@
         "Level 5: Cooldown -1",
         "Level 6: Cooldown -1"
       ]
-    },
-    {
-      "cd": 0,
-      "mincd": 0,
-      "dmgscaling": [],
-      "abilityname": "Aura",
-      "description": "Increases Ally SPD in the Arena by 16%.",
-      "books": []
     }
   ],
-  "avatarUrl": "https://goctionni.github.io/raid-data/images/avatar/Magus.png"
+  "version": "3.30.0",
+  "avatarUrl": "https://mcradane.github.io/raid-data/images/avatar/Magus.png"
 }

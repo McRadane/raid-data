@@ -1,30 +1,34 @@
 {
   "name": "Valkyrie",
+  "id": "Valkyrie",
   "class": {
     "faction": "Barbarians",
-    "rarity": "Legendary",
-    "role": "Defense",
-    "affinity": "Spirit"
+    "rarity": "legendary",
+    "role": "defense",
+    "affinity": "spirit"
   },
   "stats": {
-    "hp": "17,835",
-    "atk": "793",
-    "def": "1,597",
-    "spd": "104",
-    "crate": "RATE",
-    "cdmg": "15",
-    "resist": "50",
-    "acc": "50"
+    "hp": 17835,
+    "atk": 793,
+    "def": 1597,
+    "spd": 104,
+    "crate": 15,
+    "cdmg": 50,
+    "resist": 50,
+    "acc": 0
   },
+  "aura": "Increases Ally DEF in Faction Crypts by 33%.",
   "skills": [
     {
       "cd": 0,
       "mincd": 0,
+      "passive": false,
       "dmgscaling": [
         "ATK",
         "DEF"
       ],
       "abilityname": "Denigration",
+      "damageMultiplier": "1.7 ATK + 0.6 DEF",
       "description": "Attacks 1 enemy 2 times. Decrease Turn Meter by 10% on each hit if the target has any buffs.",
       "books": [
         "Level: 2 Damage +5%",
@@ -37,10 +41,12 @@
     {
       "cd": 4,
       "mincd": 3,
+      "passive": false,
       "dmgscaling": [
         "DEF"
       ],
       "abilityname": "Stand Firm",
+      "damageMultiplier": "3 DEF",
       "description": "Attacks all enemies. Places a [Shield] buff on all allies for 3 turns and a [Counterattack] buff on all allies for 2 turns. The value of [Shield] and the damage inflicted are proportional to this Champion’s DEF.",
       "books": [
         "Level: 2 Damage +5%",
@@ -54,19 +60,13 @@
     {
       "cd": 0,
       "mincd": 0,
+      "passive": false,
       "dmgscaling": [],
       "abilityname": "Jealousy",
       "description": "This Champion’s Turn Meter will be increased by 10% each time an enemy Champion places a buff. Enemy Champions will have their Turn Meters decreased by 10% for each buff they receive.",
       "books": []
-    },
-    {
-      "cd": 0,
-      "mincd": 0,
-      "dmgscaling": [],
-      "abilityname": "Aura",
-      "description": "Increases Ally DEF in Faction Crypts by 33%.",
-      "books": []
     }
   ],
-  "avatarUrl": "https://goctionni.github.io/raid-data/images/avatar/Valkyrie.png"
+  "version": "3.30.0",
+  "avatarUrl": "https://mcradane.github.io/raid-data/images/avatar/Valkyrie.png"
 }

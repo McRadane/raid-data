@@ -1,29 +1,32 @@
 {
   "name": "Lanakis the Chosen",
+  "id": "Lanakis_the_Chosen",
   "class": {
     "faction": "Dark Elves",
-    "rarity": "Legendary",
-    "role": "Support",
-    "affinity": "Magic"
+    "rarity": "legendary",
+    "role": "support",
+    "affinity": "magic"
   },
   "stats": {
-    "hp": "20,145",
-    "atk": "1,255",
-    "def": "980",
-    "spd": "108",
-    "crate": "RATE",
-    "cdmg": "15",
-    "resist": "50",
-    "acc": "30"
+    "hp": 20145,
+    "atk": 1255,
+    "def": 980,
+    "spd": 108,
+    "crate": 15,
+    "cdmg": 50,
+    "resist": 30,
+    "acc": 0
   },
   "skills": [
     {
       "cd": 0,
       "mincd": 0,
+      "passive": false,
       "dmgscaling": [
         "ATK"
       ],
       "abilityname": "Chosen’s Touch",
+      "damageMultiplier": "2.9 ATK",
       "description": "Attacks 1 enemy. Places a 15% [Continuous Heal] buff on this Champion for 1 turn if the attack is critical.",
       "books": [
         "Level 2: Damage +5%",
@@ -35,6 +38,7 @@
     {
       "cd": 5,
       "mincd": 4,
+      "passive": false,
       "dmgscaling": [],
       "abilityname": "Companions of Fate",
       "description": "Teams up with 3 random allies to attack a single enemy. The allies joining the attack will use their default skills. Fills the Turn Meters of all allies by 30%. Increases the duration of all ally buffs by 1 turn.",
@@ -45,9 +49,10 @@
     {
       "cd": 5,
       "mincd": 4,
+      "passive": false,
       "dmgscaling": [],
       "abilityname": "Banner of Legend",
-      "description": "Places a 30% [Increase C. RATE] buff and a 50% [Increase ATK] buff on all allies for 2 turns. Has a 25% chance of granting an Extra Turn.",
+      "description": "Places a 30% [Increase C.RATE] buff and a 50% [Increase ATK] buff on all allies for 2 turns. Has a 25% chance of granting an Extra Turn.",
       "books": [
         "Level 2: Buff/Debuff Chance +5%",
         "Level 3: Buff/Debuff Chance +5%",
@@ -57,5 +62,6 @@
       ]
     }
   ],
-  "avatarUrl": "https://goctionni.github.io/raid-data/images/avatar/Lanakis_the_Chosen.png"
+  "version": "3.30.0",
+  "avatarUrl": "https://mcradane.github.io/raid-data/images/avatar/Lanakis_the_Chosen.png"
 }

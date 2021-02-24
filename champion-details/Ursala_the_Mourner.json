@@ -1,0 +1,75 @@
+{
+  "name": "Ursala the Mourner",
+  "id": "Ursala_the_Mourner",
+  "class": {
+    "faction": "Banner Lords",
+    "rarity": "epic",
+    "role": "support",
+    "affinity": "void"
+  },
+  "stats": {
+    "hp": 18000,
+    "atk": 1167,
+    "def": 936,
+    "spd": 102,
+    "crate": 15,
+    "cdmg": 50,
+    "resist": 30,
+    "acc": 15
+  },
+  "aura": "Increases Ally SPD in Doom Tower Battles by 24%",
+  "skills": [
+    {
+      "cd": 0,
+      "mincd": 0,
+      "passive": false,
+      "dmgscaling": [
+        "ATK"
+      ],
+      "abilityname": "Lance of Penitence",
+      "damageMultiplier": "3.4 ATK",
+      "description": "Attacks 1 enemy. Has a 40% chance of decreasing the target’s Turn Meter by 10%.",
+      "books": [
+        "Level 2: Damage +5%",
+        "Level 3: Damage +5%",
+        "Level 4: Buff/Debuff Chance +5%",
+        "Level 5: Buff/Debuff Chance +5%",
+        "Level 6: Buff/Debuff Chance +5%"
+      ]
+    },
+    {
+      "cd": 4,
+      "mincd": 3,
+      "passive": false,
+      "dmgscaling": [
+        "ATK"
+      ],
+      "abilityname": "Waves of Grief",
+      "damageMultiplier": "3.2 ATK",
+      "description": "Attacks all enemies. Has a 75% chance of placing a 50% [Decrease ATK] debuff for 2 turns. Also places a 50% [Increase ATK] buff on all allies for 2 turns.",
+      "books": [
+        "Level 2: Damage +5%",
+        "Level 3: Damage +5%",
+        "Level 4: Damage +10%",
+        "Level 5: Buff/Debuff Chance +5%",
+        "Level 6: Buff/Debuff Chance +5%",
+        "Level 7: Buff/Debuff Chance +5%",
+        "Level 8: Buff/Debuff Chance +10%",
+        "Level 9: Cooldown -1"
+      ]
+    },
+    {
+      "cd": 6,
+      "mincd": 5,
+      "passive": false,
+      "dmgscaling": [],
+      "abilityname": "Requiem",
+      "description": "Revives all dead allies with 75% HP, then fills their Turn Meters by 50%. Also places a 60% [Increase DEF] buff and a 25% [Strengthen] buff on all allies for 3 turns.",
+      "books": [
+        "Level 2: Cooldown -1"
+      ]
+    }
+  ],
+  "version": "3.30.0",
+  "avatarUrl": "https://mcradane.github.io/raid-data/images/avatar/Ursala_the_Mourner.png"
+}

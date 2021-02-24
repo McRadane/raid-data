@@ -1,29 +1,32 @@
 {
   "name": "Cudgeler",
+  "id": "Cudgeler",
   "class": {
     "faction": "Dwarves",
-    "rarity": "Rare",
-    "role": "Attack",
-    "affinity": "Magic"
+    "rarity": "rare",
+    "role": "attack",
+    "affinity": "magic"
   },
   "stats": {
-    "hp": "14,205",
-    "atk": "1,178",
-    "def": "903",
-    "spd": "98",
-    "crate": "RATE",
-    "cdmg": "15",
-    "resist": "50",
-    "acc": "30"
+    "hp": 14205,
+    "atk": 1178,
+    "def": 903,
+    "spd": 98,
+    "crate": 15,
+    "cdmg": 50,
+    "resist": 30,
+    "acc": 10
   },
   "skills": [
     {
       "cd": 0,
       "mincd": 0,
+      "passive": false,
       "dmgscaling": [
         "ATK"
       ],
       "abilityname": "The Harder They Fall",
+      "damageMultiplier": "2 ATK",
       "description": "Attacks 1 enemy 2 times. Has an additional 30% chance of inflicting a critical hit if the target is under a [Decrease DEF] debuff.",
       "books": [
         "Level 2: Damage +5%",
@@ -36,6 +39,7 @@
     {
       "cd": 7,
       "mincd": 4,
+      "passive": false,
       "dmgscaling": [],
       "abilityname": "Soften Them Up",
       "description": "Places a [Counterattack] and a 25% [Increase ATK] buff on this Champion for 2 turns. Grants an Extra Turn.",
@@ -48,9 +52,8 @@
     {
       "cd": 0,
       "mincd": 0,
-      "dmgscaling": [
-        "Passive"
-      ],
+      "passive": true,
+      "dmgscaling": [],
       "abilityname": "Furious Defense",
       "description": "Has a 20% chance of placing a 30% [Decrease DEF] debuff for 2 turns when attacking targets with higher DEF than this Champion. Has a 20% chance of decreasing the damage taken by 20% when attacked by enemies with higher ATK than this Champion.",
       "books": [
@@ -62,5 +65,6 @@
       ]
     }
   ],
-  "avatarUrl": "https://goctionni.github.io/raid-data/images/avatar/Cudgeler.png"
+  "version": "3.30.0",
+  "avatarUrl": "https://mcradane.github.io/raid-data/images/avatar/Cudgeler.png"
 }

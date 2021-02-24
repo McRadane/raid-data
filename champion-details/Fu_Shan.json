@@ -1,27 +1,31 @@
 {
   "name": "Fu-Shan",
+  "id": "Fu_Shan",
   "class": {
     "faction": "Lizardmen",
-    "rarity": "Legendary",
-    "role": "Attack",
-    "affinity": "Force"
+    "rarity": "legendary",
+    "role": "attack",
+    "affinity": "force"
   },
   "stats": {
-    "hp": "16,680",
-    "atk": "1,443",
-    "def": "1,024",
-    "spd": "106",
-    "crate": "RATE",
-    "cdmg": "15",
-    "resist": "63",
-    "acc": "30"
+    "hp": 16680,
+    "atk": 1443,
+    "def": 1024,
+    "spd": 106,
+    "crate": 15,
+    "cdmg": 63,
+    "resist": 30,
+    "acc": 0
   },
+  "aura": "Increases Ally SPD in all Battles by 24%.",
   "skills": [
     {
       "cd": 0,
       "mincd": 0,
+      "passive": false,
       "dmgscaling": [],
       "abilityname": "Howl",
+      "damageMultiplier": "4 ATK",
       "description": "Attacks 1 enemy. Has a 25% chance of placing an extra hit.",
       "books": [
         "Level 2: Damage +5%",
@@ -32,10 +36,12 @@
     {
       "cd": 4,
       "mincd": 3,
+      "passive": false,
       "dmgscaling": [
         "ATK"
       ],
       "abilityname": "Frightful Claws",
+      "damageMultiplier": "2 ATK",
       "description": "Attacks all enemies 2 times. Each hit has a 20% chance of placing a [Stun] debuff for 1 turn.",
       "books": [
         "Level 2: Damage +10%",
@@ -47,10 +53,12 @@
     {
       "cd": 5,
       "mincd": 3,
+      "passive": false,
       "dmgscaling": [
         "ATK"
       ],
       "abilityname": "Shred",
+      "damageMultiplier": "1.8 ATK",
       "description": "Attacks 4 times at random. Each hit has a 50% chance of placing a 60% [Decrease DEF] debuff for 2 turns.",
       "books": [
         "Level 2: Damage +10%",
@@ -58,15 +66,8 @@
         "Level 4: Buff/Debuff Chance +25%",
         "Level 5: Cooldown -1"
       ]
-    },
-    {
-      "cd": 0,
-      "mincd": 0,
-      "dmgscaling": [],
-      "abilityname": "Aura",
-      "description": "Increases Ally SPD in all Battles by 24%.",
-      "books": []
     }
   ],
-  "avatarUrl": "https://goctionni.github.io/raid-data/images/avatar/Fu_Shan.png"
+  "version": "3.30.0",
+  "avatarUrl": "https://mcradane.github.io/raid-data/images/avatar/Fu_Shan.png"
 }

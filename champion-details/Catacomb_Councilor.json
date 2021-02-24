@@ -1,29 +1,32 @@
 {
   "name": "Catacomb Councilor",
+  "id": "Catacomb_Councilor",
   "class": {
     "faction": "Undead Hordes",
-    "rarity": "Epic",
-    "role": "Attack",
-    "affinity": "Magic"
+    "rarity": "epic",
+    "role": "attack",
+    "affinity": "magic"
   },
   "stats": {
-    "hp": "14,040",
-    "atk": "1,454",
-    "def": "914",
-    "spd": "92",
-    "crate": "RATE",
-    "cdmg": "15",
-    "resist": "60",
-    "acc": "30"
+    "hp": 14040,
+    "atk": 1454,
+    "def": 914,
+    "spd": 92,
+    "crate": 15,
+    "cdmg": 60,
+    "resist": 30,
+    "acc": 0
   },
   "skills": [
     {
       "cd": 0,
       "mincd": 0,
+      "passive": false,
       "dmgscaling": [
         "ATK"
       ],
       "abilityname": "Grotesque Strength",
+      "damageMultiplier": "3.5 ATK",
       "description": "Has a 50% chance of placing a 25% [Increase ATK] buff on this Champion for 2 turns, then attacks 1 enemy.",
       "books": [
         "Level 2: Damage +5%",
@@ -35,10 +38,12 @@
     {
       "cd": 4,
       "mincd": 3,
+      "passive": false,
       "dmgscaling": [
         "ATK"
       ],
       "abilityname": "Ghoulish Feeding",
+      "damageMultiplier": "1.8 ATK",
       "description": "Attacks 1 enemy 3 times. Heals this Champion by 20% of the damage inflicted.",
       "books": [
         "Level 2: Damage +5%",
@@ -51,6 +56,7 @@
     {
       "cd": 5,
       "mincd": 4,
+      "passive": false,
       "dmgscaling": [],
       "abilityname": "Army of Death",
       "description": "Teams up with 3 random allies to attack a single enemy. The allies joining the attack will use their default skills.",
@@ -59,5 +65,6 @@
       ]
     }
   ],
-  "avatarUrl": "https://goctionni.github.io/raid-data/images/avatar/Catacomb_Councilor.png"
+  "version": "3.30.0",
+  "avatarUrl": "https://mcradane.github.io/raid-data/images/avatar/Catacomb_Councilor.png"
 }

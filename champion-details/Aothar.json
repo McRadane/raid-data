@@ -1,29 +1,33 @@
 {
   "name": "Aothar",
+  "id": "Aothar",
   "class": {
     "faction": "The Sacred Order",
-    "rarity": "Epic",
-    "role": "Attack",
-    "affinity": "Force"
+    "rarity": "epic",
+    "role": "attack",
+    "affinity": "force"
   },
   "stats": {
-    "hp": "14,535",
-    "atk": "1,509",
-    "def": "826",
-    "spd": "92",
-    "crate": "RATE",
-    "cdmg": "15",
-    "resist": "60",
-    "acc": "30"
+    "hp": 14535,
+    "atk": 1509,
+    "def": 826,
+    "spd": 92,
+    "crate": 15,
+    "cdmg": 60,
+    "resist": 30,
+    "acc": 0
   },
+  "aura": "Increases Ally ATK in all Battles by 21%.",
   "skills": [
     {
       "cd": 0,
       "mincd": 0,
+      "passive": false,
       "dmgscaling": [
         "ATK"
       ],
       "abilityname": "Rage",
+      "damageMultiplier": "1.7 ATK",
       "description": "Attacks 1 enemy 2 times. Has a 15% chance of stealing 1 random buff from the target.",
       "books": [
         "Level 2: Damage +5%",
@@ -36,10 +40,12 @@
     {
       "cd": 0,
       "mincd": -1,
+      "passive": false,
       "dmgscaling": [
         "ATK"
       ],
       "abilityname": "Holy Flame",
+      "damageMultiplier": "1.5 ATK",
       "description": "Attacks 4 times at random. Places a 5% [Poison] debuff for 2 turns.",
       "books": [
         "Level 2: Damage +5%",
@@ -52,10 +58,12 @@
     {
       "cd": 0,
       "mincd": -2,
+      "passive": false,
       "dmgscaling": [
         "ATK"
       ],
       "abilityname": "Brand",
+      "damageMultiplier": "5.1 ATK",
       "description": "Attacks 1 enemy. Places a [Block Cooldown Skills] debuff for 2 turns.",
       "books": [
         "Level 2: Damage +5%",
@@ -64,15 +72,8 @@
         "Level 5: Cooldown -1",
         "Level 6: Cooldown -1"
       ]
-    },
-    {
-      "cd": 0,
-      "mincd": 0,
-      "dmgscaling": [],
-      "abilityname": "Aura",
-      "description": "Increases Ally ATK in all Battles by 21%.",
-      "books": []
     }
   ],
-  "avatarUrl": "https://goctionni.github.io/raid-data/images/avatar/Aothar.png"
+  "version": "3.30.0",
+  "avatarUrl": "https://mcradane.github.io/raid-data/images/avatar/Aothar.png"
 }

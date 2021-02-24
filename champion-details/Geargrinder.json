@@ -1,0 +1,71 @@
+{
+  "name": "Geargrinder",
+  "id": "Geargrinder",
+  "class": {
+    "faction": "Ogryn Tribes",
+    "rarity": "rare",
+    "role": "hp",
+    "affinity": "void"
+  },
+  "stats": {
+    "hp": 19320,
+    "atk": 826,
+    "def": 914,
+    "spd": 95,
+    "crate": 15,
+    "cdmg": 50,
+    "resist": 40,
+    "acc": 0
+  },
+  "aura": "Increases Ally HP in Faction Crypts by 25%.",
+  "skills": [
+    {
+      "cd": 0,
+      "mincd": 0,
+      "passive": false,
+      "dmgscaling": [
+        "HP"
+      ],
+      "abilityname": "Gears of Gore",
+      "damageMultiplier": "0.15 HP",
+      "description": "Attacks 1 enemy. Places a 7.5% [Continuous Heal] buff on this Champion for 1 turn if this attack is critical.",
+      "books": [
+        "Level 2: Damage +5%",
+        "Level 3: Damage +5%",
+        "Level 4: Damage +5%",
+        "Level 5: Damage +5%",
+        "Level 6: Damage +10%"
+      ]
+    },
+    {
+      "cd": 5,
+      "mincd": 3,
+      "passive": false,
+      "dmgscaling": [],
+      "abilityname": "Healing Splatter",
+      "description": "Heals all allies by 15% of their MAX HP.",
+      "books": [
+        "Level 2: Heal +5%",
+        "Level 3: Heal +5%",
+        "Level 4: Heal +5%",
+        "Level 5: Heal +5%",
+        "Level 6: Cooldown -1",
+        "Level 7: Cooldown -1"
+      ]
+    },
+    {
+      "cd": 7,
+      "mincd": 5,
+      "passive": false,
+      "dmgscaling": [],
+      "abilityname": "Necrocogs",
+      "description": "Revives a dead ally with 50% HP and 50% Turn Meter.",
+      "books": [
+        "Level 2: Cooldown -1",
+        "Level 3: Cooldown -1"
+      ]
+    }
+  ],
+  "version": "3.30.0",
+  "avatarUrl": "https://mcradane.github.io/raid-data/images/avatar/Geargrinder.png"
+}

@@ -1,28 +1,33 @@
 {
   "name": "Solaris",
+  "id": "Solaris",
   "class": {
     "faction": "The Sacred Order",
-    "rarity": "Rare",
-    "role": "Attack",
-    "affinity": "Force"
+    "rarity": "rare",
+    "role": "attack",
+    "affinity": "force"
   },
   "stats": {
-    "hp": "13,545",
-    "atk": "1,244",
-    "def": "881",
-    "spd": "92",
-    "crate": "15%",
-    "cdmg": "57%",
-    "resist": "30",
-    "acc": "0"
+    "hp": 13545,
+    "atk": 1244,
+    "def": 881,
+    "spd": 92,
+    "crate": 15,
+    "cdmg": 57,
+    "resist": 30,
+    "acc": 0
   },
   "skills": [
     {
       "cd": 0,
       "mincd": 0,
-      "dmgscaling": ["ATK"],
+      "passive": false,
+      "dmgscaling": [
+        "ATK"
+      ],
       "abilityname": "Cleansing Light",
-      "description": "Attacks 1 enemy. Has a 30% chance of rmeoving one random buff from the target.",
+      "damageMultiplier": "3.8 ATK",
+      "description": "Attacks 1 enemy. Has a 30% chance of removing one random buff from the target.",
       "books": [
         "Level 2: Damage +5%",
         "Level 3: Damage +5%",
@@ -33,10 +38,15 @@
     {
       "cd": 4,
       "mincd": 3,
-      "dmgscaling": ["ATK"],
+      "passive": false,
+      "dmgscaling": [
+        "ATK"
+      ],
       "abilityname": "Solar Shield",
-      "description": "Level 2: Damage +5%",
+      "damageMultiplier": "5.7 ATK",
+      "description": "Attacks 1 enemy. Places a [Shield] buff on this champion equal to 20% of the damage inflicted for 2 turns.",
       "books": [
+        "Level 2: Damage +5%",
         "Level 3: Damage +5%",
         "Level 4: Damage +5%",
         "Level 5: Damage +5%",
@@ -46,8 +56,12 @@
     {
       "cd": 5,
       "mincd": 4,
-      "dmgscaling": ["ATK"],
+      "passive": false,
+      "dmgscaling": [
+        "ATK"
+      ],
       "abilityname": "Blinding Bash",
+      "damageMultiplier": "6.4 ATK",
       "description": "Attacks 1 enemy. Has a 75% chance of placing a [Stun] debuff for 1 turn.",
       "books": [
         "Level 2: Damage +5%",
@@ -59,5 +73,6 @@
       ]
     }
   ],
-  "avatarUrl": "https://goctionni.github.io/raid-data/images/avatar/Solaris.png"
+  "version": "3.30.0",
+  "avatarUrl": "https://mcradane.github.io/raid-data/images/avatar/Solaris.png"
 }

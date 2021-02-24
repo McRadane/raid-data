@@ -1,29 +1,32 @@
 {
   "name": "Novitiate",
+  "id": "Novitiate",
   "class": {
     "faction": "The Sacred Order",
-    "rarity": "Common",
-    "role": "Attack",
-    "affinity": "Spirit"
+    "rarity": "common",
+    "role": "attack",
+    "affinity": "spirit"
   },
   "stats": {
-    "hp": "10,245",
-    "atk": "892",
-    "def": "628",
-    "spd": "83",
-    "crate": "RATE",
-    "cdmg": "15",
-    "resist": "50",
-    "acc": "30"
+    "hp": 10245,
+    "atk": 892,
+    "def": 628,
+    "spd": 83,
+    "crate": 15,
+    "cdmg": 50,
+    "resist": 30,
+    "acc": 0
   },
   "skills": [
     {
       "cd": 0,
       "mincd": 0,
+      "passive": false,
       "dmgscaling": [
         "ATK"
       ],
       "abilityname": "Harrying Shot",
+      "damageMultiplier": "2.7 ATK",
       "description": "Attacks 1 enemy. Has a 10% chance of placing a 30% [Decrease DEF] debuff for 2 turns.",
       "books": [
         "Level 2: Damage +5%",
@@ -35,5 +38,6 @@
       ]
     }
   ],
-  "avatarUrl": "https://goctionni.github.io/raid-data/images/avatar/Novitiate.png"
+  "version": "3.30.0",
+  "avatarUrl": "https://mcradane.github.io/raid-data/images/avatar/Novitiate.png"
 }

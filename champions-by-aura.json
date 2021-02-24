@@ -1,0 +1,445 @@
+{
+  "ACC": {
+    "All": [
+      "Adjudicator",
+      "Bystophus",
+      "Drexthar Bloodtwin",
+      "Frozen Banshee",
+      "Judge",
+      "Kantra the Cyclone",
+      "Rian the Conjurer",
+      "Shamrock",
+      "Sicia Flametongue",
+      "Snorting Thug",
+      "Vogoth",
+      "Yaga the Insatiable",
+      "Zargala"
+    ],
+    "Arena": [
+      "Chopper",
+      "Corpse Collector",
+      "Shatterbones"
+    ],
+    "Doom Tower": [
+      "Aox the Rememberer",
+      "Inquisitor Shamael",
+      "Sanguinia"
+    ],
+    "Dungeons": [
+      "Big ‘Un",
+      "Erinyes",
+      "Magmablood",
+      "Narma the Returned",
+      "Ogryn Jailer",
+      "Panthera",
+      "Slitherbrute"
+    ],
+    "Faction Crypts": [
+      "Aina",
+      "Alure",
+      "Dracomorph",
+      "Ghostborn",
+      "Golden Reaper",
+      "Karam",
+      "Robar",
+      "Rowan",
+      "Taurus",
+      "War Mother"
+    ],
+    "the Doom Tower": [
+      "Pestilus"
+    ]
+  },
+  "ATK": {
+    "All": [
+      "Aothar",
+      "Baron",
+      "Cillian the Lucky",
+      "Conquerer",
+      "Cruetraxa",
+      "Cupidus",
+      "Dark Athel",
+      "Gala Longbraids",
+      "Inithwe Bloodtwin",
+      "Jizoh",
+      "Kallia",
+      "Little Miss Annie",
+      "Nogdar the Headhunter",
+      "Runekeeper Dazdurk",
+      "Septimus",
+      "Suzerain Katonn",
+      "Tuhak the Wanderer",
+      "Yannica",
+      "Zavia"
+    ],
+    "All (force)": [
+      "Wretch"
+    ],
+    "All (magic)": [
+      "Pounder",
+      "Skink",
+      "Trunda Giltmallet"
+    ],
+    "All (spirit)": [
+      "Cagebreaker",
+      "Royal Huntsman"
+    ],
+    "Arena": [
+      "Acolyte",
+      "Candraphon",
+      "Drake",
+      "Faceless"
+    ],
+    "Campaign": [
+      "Ragemonger",
+      "Relickeeper"
+    ],
+    "Doom Tower": [
+      "Haarken Greatblade",
+      "Pigsticker",
+      "Rugnor Goldgleam",
+      "Yakarl the Scourge"
+    ],
+    "Dungeons": [
+      "Baerdal Fellhammer",
+      "Errol",
+      "Fencer",
+      "Fleshmonger",
+      "Hellfang",
+      "Hollow",
+      "Hurler",
+      "Ma’Shalled",
+      "Painsmith",
+      "Royal Guard",
+      "Saito",
+      "Vizier Ovelis",
+      "Wanderer",
+      "Whisper"
+    ],
+    "Faction Crypts": [
+      "Abbess",
+      "Alaric the Hooded",
+      "Avenger",
+      "Crimson Slayer",
+      "Dagger",
+      "Delver",
+      "Flesh-Tearer",
+      "Gurgoh the Augur",
+      "Hellgazer",
+      "Hexia",
+      "Ox",
+      "Richtoff the Bold",
+      "Slasher",
+      "Steel Bowyer",
+      "Turvold"
+    ],
+    "Faction Wars Crypts": [
+      "Boltsmith"
+    ]
+  },
+  "C.RATE": {
+    "All": [
+      "Bad-el-Kazar",
+      "Belanor",
+      "Bombardier",
+      "Hegemon",
+      "Pitiless One",
+      "Queen Eva",
+      "Soulbond Bowyer"
+    ],
+    "All (force)": [
+      "Ripper"
+    ],
+    "All (magic)": [
+      "Gator"
+    ],
+    "All (void)": [
+      "Warcaster"
+    ],
+    "Arena": [
+      "Beast Wrestler",
+      "Daywalker",
+      "Elder Skarg",
+      "Eviscerator",
+      "Exemplar",
+      "Hyria",
+      "Ithos",
+      "Juliana",
+      "Stoneskin"
+    ],
+    "Doom Tower": [
+      "Roxam"
+    ],
+    "Dungeons": [
+      "Confessor",
+      "Galkut",
+      "Longbeard",
+      "Luthiea",
+      "Tallia"
+    ],
+    "Faction Crypts": [
+      "Bloodfeather",
+      "Elenaril"
+    ]
+  },
+  "DEF": {
+    "All": [
+      "Achak the Wendarin",
+      "Altan",
+      "Blind Seer",
+      "Bulwark",
+      "Corpulent Cadaver",
+      "Executioner",
+      "Ignatius",
+      "Martyr",
+      "Mistress of Hymns",
+      "Raglin",
+      "Sandlashed Survivor",
+      "Sepulcher Sentinel",
+      "Tayrel",
+      "Tormin the Cold"
+    ],
+    "All (force)": [
+      "Honor Guard"
+    ],
+    "Arena": [
+      "Arcanist",
+      "Broadmaw",
+      "Deathchanter",
+      "Marksman",
+      "Rock Breaker",
+      "Seeker",
+      "Spikehead",
+      "Tomb Lord",
+      "Wurlim Frostking"
+    ],
+    "Dungeons": [
+      "Apothecary",
+      "Fortress Goon",
+      "Frostbringer",
+      "Gnarlhorn",
+      "Graybeard",
+      "Knight-Errant",
+      "Myrmidon",
+      "Norog",
+      "Vergis",
+      "Vrask"
+    ],
+    "Faction Crypts": [
+      "Balthus Drauglord",
+      "Chevalier",
+      "Fellhound",
+      "Ghrush the Mangler",
+      "Justiciar",
+      "Lich",
+      "Marked",
+      "Marquess",
+      "Metalshaper",
+      "Retainer",
+      "Shaman",
+      "Shirimani",
+      "Soulless",
+      "Steelskull",
+      "Valkyrie",
+      "Visix the Unbowed",
+      "Wandering Priest"
+    ],
+    "Faction Wars": [
+      "Grunch Killjoy"
+    ],
+    "Faction Wars Crypts": [
+      "Flailer"
+    ],
+    "the Doom Tower": [
+      "Prundar"
+    ]
+  },
+  "HP": {
+    "All": [
+      "Akoth the Seared",
+      "Athel",
+      "Azure",
+      "Basher",
+      "Crypt-King Graal",
+      "Dolor Lorekeeper",
+      "Elhain",
+      "Galek",
+      "Ifrit",
+      "Ironclad",
+      "Jareg",
+      "Kael",
+      "Preserver",
+      "Roshcard the Tower",
+      "Samar Gemcursed",
+      "Seducer",
+      "Sir Nicholas",
+      "Skytouched Shaman",
+      "Terrorbeast",
+      "Towering Titan",
+      "Tyrant Ixlimor",
+      "Ursine Icecrusher",
+      "Ursuga Warcaller",
+      "Venus"
+    ],
+    "All (force)": [
+      "Marquis",
+      "Rearguard Sergeant"
+    ],
+    "All (magic)": [
+      "Grandmaster"
+    ],
+    "All (spirit)": [
+      "Grappler"
+    ],
+    "Arena": [
+      "Cataphract",
+      "Goremask",
+      "Husk",
+      "Kytis",
+      "Miscreated Monster",
+      "Warden"
+    ],
+    "Dungeons": [
+      "Bogwalker",
+      "Crimson Helm",
+      "Grumbler",
+      "Guardian",
+      "Hakkorhn Smashlord",
+      "Lord Champfort",
+      "Maneater",
+      "Missionary",
+      "Mystic Hand",
+      "Torturehelm"
+    ],
+    "Faction Crypts": [
+      "Angar",
+      "Bloodhorn",
+      "Doomscreech",
+      "Flesheater",
+      "Geargrinder",
+      "Hope",
+      "Jotun",
+      "Lamellar",
+      "Lugan the Steadfast",
+      "Magister",
+      "Muckstalker",
+      "Nazana",
+      "Pain Keeper",
+      "Sinesha",
+      "Tainix Hateflower",
+      "Valerie"
+    ],
+    "the Doom Tower": [
+      "Lodric Falconheart"
+    ]
+  },
+  "RESIST": {
+    "All": [
+      "Gloril Brutebane",
+      "Gurptuk Moss-Beard",
+      "Nekhret the Great",
+      "Renegade",
+      "Seer",
+      "Siphi the Lost Bride",
+      "Teela Goremane",
+      "Vanguard",
+      "Vergumkaar",
+      "Warlord"
+    ],
+    "All (magic)": [
+      "Sethallia"
+    ],
+    "Arena": [
+      "Banshee",
+      "Deathless",
+      "Rhazin Scarhide",
+      "Templar",
+      "Valla",
+      "Zelotah"
+    ],
+    "Arena Battles": [
+      "Lydia the Deathsiren",
+      "Pyxniel"
+    ],
+    "Doom Tower": [
+      "Gerhard the Stone",
+      "Rector Drath"
+    ],
+    "Dungeons": [
+      "Thenasil"
+    ],
+    "Faction Crypts": [
+      "Captain Temila",
+      "Channeler",
+      "Flinger",
+      "Grinner",
+      "Sentinel",
+      "Skullcrusher",
+      "Theurgist",
+      "Witness"
+    ]
+  },
+  "SPD": {
+    "All": [
+      "Battlesage",
+      "Cardiel",
+      "Deacon Armstrong",
+      "Duchess Lilitu",
+      "Fang Cleric",
+      "Fu-Shan",
+      "High Khatun",
+      "Hospitaller",
+      "Lyssandra",
+      "Minaya",
+      "Mortu-Macaab",
+      "Mother Superior",
+      "Spirithost"
+    ],
+    "All (force)": [
+      "Doompriest"
+    ],
+    "All (magic)": [
+      "Adriel"
+    ],
+    "Arena": [
+      "Arbiter",
+      "Archmage Hellmut",
+      "Astralith",
+      "Gorgorab",
+      "Haruspex",
+      "Jinglehunter",
+      "Lord Shazar",
+      "Magus",
+      "Malbranche",
+      "Prince Kymar",
+      "Skullcrown"
+    ],
+    "Doom Tower Battles": [
+      "Ursala the Mourner"
+    ],
+    "Dungeons": [
+      "Grohak the Bloodied",
+      "Heiress",
+      "Jarang",
+      "Rae",
+      "Skartorsis",
+      "Spider",
+      "Veteran"
+    ],
+    "Faction Crypts": [
+      "Bellower",
+      "Canoness",
+      "Crypt Witch",
+      "Hexweaver",
+      "Hordin",
+      "Psylar",
+      "Raider",
+      "Rotting Mage",
+      "Skullsworn",
+      "Teshada"
+    ],
+    "Faction Wars Crypts": [
+      "Abyssal"
+    ]
+  }
+}

@@ -1,29 +1,32 @@
 {
   "name": "Coffin Smasher",
+  "id": "Coffin_Smasher",
   "class": {
     "faction": "Knight Revenant",
-    "rarity": "Rare",
-    "role": "HP",
-    "affinity": "Magic"
+    "rarity": "rare",
+    "role": "hp",
+    "affinity": "magic"
   },
   "stats": {
-    "hp": "21,135",
-    "atk": "683",
-    "def": "936",
-    "spd": "92",
-    "crate": "RATE",
-    "cdmg": "15",
-    "resist": "50",
-    "acc": "40"
+    "hp": 21135,
+    "atk": 683,
+    "def": 936,
+    "spd": 92,
+    "crate": 15,
+    "cdmg": 50,
+    "resist": 40,
+    "acc": 0
   },
   "skills": [
     {
       "cd": 0,
       "mincd": 0,
+      "passive": false,
       "dmgscaling": [
         "HP"
       ],
       "abilityname": "Mallet Crescendo",
+      "damageMultiplier": "0.06 HP",
       "description": "Attacks 1 enemy 3 times. Each hit has a 15% chance of placing a 50% [Decrease ATK] debuff for 2 turns.",
       "books": [
         "Level 2: Damage +5%",
@@ -37,10 +40,12 @@
     {
       "cd": 4,
       "mincd": 4,
+      "passive": false,
       "dmgscaling": [
         "HP"
       ],
       "abilityname": "Tombfire",
+      "damageMultiplier": "0.22 HP",
       "description": "Attacks 1 enemy. Has a 50% chance of placing a [HP Burn] debuff for 2 turns.",
       "books": [
         "Level 2: Damage +5%",
@@ -56,13 +61,13 @@
     {
       "cd": 0,
       "mincd": 0,
-      "dmgscaling": [
-        "Passive"
-      ],
+      "passive": true,
+      "dmgscaling": [],
       "abilityname": "Gloom Mist",
       "description": "Decreases the damage enemies inflict with AoE attacks by 5%.",
       "books": []
     }
   ],
-  "avatarUrl": "https://goctionni.github.io/raid-data/images/avatar/Coffin_Smasher.png"
+  "version": "3.30.0",
+  "avatarUrl": "https://mcradane.github.io/raid-data/images/avatar/Coffin_Smasher.png"
 }

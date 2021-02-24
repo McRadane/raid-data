@@ -1,29 +1,32 @@
 {
   "name": "Ghoulish Ranger",
+  "id": "Ghoulish_Ranger",
   "class": {
     "faction": "Undead Hordes",
-    "rarity": "Rare",
-    "role": "Attack",
-    "affinity": "Spirit"
+    "rarity": "rare",
+    "role": "attack",
+    "affinity": "spirit"
   },
   "stats": {
-    "hp": "12,390",
-    "atk": "1,443",
-    "def": "760",
-    "spd": "95",
-    "crate": "RATE",
-    "cdmg": "15",
-    "resist": "57",
-    "acc": "30"
+    "hp": 12390,
+    "atk": 1443,
+    "def": 760,
+    "spd": 95,
+    "crate": 15,
+    "cdmg": 57,
+    "resist": 30,
+    "acc": 0
   },
   "skills": [
     {
       "cd": 0,
       "mincd": 0,
+      "passive": false,
       "dmgscaling": [
         "ATK"
       ],
       "abilityname": "Numbing Arrows",
+      "damageMultiplier": "2.3 ATK",
       "description": "Attacks 1 enemy. Has a 35% chance of placing a 25% [Decrease ACC] debuff for 2 turns. Places an extra hit if the target is under a [Decrease ACC] debuff.",
       "books": [
         "Level 2: Damage +5%",
@@ -35,10 +38,12 @@
     {
       "cd": 4,
       "mincd": 3,
+      "passive": false,
       "dmgscaling": [
         "ATK"
       ],
       "abilityname": "Foul Festering",
+      "damageMultiplier": "3.3 ATK",
       "description": "Attacks 1 enemy. Has a 45% chance of placing a [Leech] debuff for 2 turns.",
       "books": [
         "Level 2: Damage +5%",
@@ -52,10 +57,12 @@
     {
       "cd": 5,
       "mincd": 4,
+      "passive": false,
       "dmgscaling": [
         "ATK"
       ],
       "abilityname": "Cryptfire",
+      "damageMultiplier": "1.25 ATK",
       "description": "Attacks 3 times at random. Has a 30% chance of placing a [HP Burn] debuff for 2 turns.",
       "books": [
         "Level 2: Damage +10%",
@@ -66,5 +73,6 @@
       ]
     }
   ],
-  "avatarUrl": "https://goctionni.github.io/raid-data/images/avatar/Ghoulish_Ranger.png"
+  "version": "3.30.0",
+  "avatarUrl": "https://mcradane.github.io/raid-data/images/avatar/Ghoulish_Ranger.png"
 }

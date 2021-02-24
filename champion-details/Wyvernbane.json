@@ -1,27 +1,32 @@
 {
   "name": "Wyvernbane",
+  "id": "Wyvernbane",
   "class": {
     "faction": "Orcs",
-    "rarity": "Rare",
-    "role": "Attack",
-    "affinity": "Spirit"
+    "rarity": "rare",
+    "role": "attack",
+    "affinity": "spirit"
   },
   "stats": {
-    "hp": "12,555",
-    "atk": "1,288",
-    "def": "903",
-    "spd": "94",
-    "crate": "15%",
-    "cdmg": "57%",
-    "resist": "30",
-    "acc": "0"
+    "hp": 12555,
+    "atk": 1288,
+    "def": 903,
+    "spd": 94,
+    "crate": 15,
+    "cdmg": 57,
+    "resist": 30,
+    "acc": 0
   },
   "skills": [
     {
       "cd": 0,
       "mincd": 0,
-      "dmgscaling": ["ATK"],
+      "passive": false,
+      "dmgscaling": [
+        "ATK"
+      ],
       "abilityname": "Hobble Pierce",
+      "damageMultiplier": "3.2 ATK",
       "description": "Attacks 1 enemy. Has a 20% chance of placing a 15% [Decrease SPD] debuff for 2 turns.",
       "books": [
         "Level 2: Damage +5%",
@@ -33,8 +38,12 @@
     {
       "cd": 4,
       "mincd": 3,
-      "dmgscaling": ["ATK"],
+      "passive": false,
+      "dmgscaling": [
+        "ATK"
+      ],
       "abilityname": "Setback",
+      "damageMultiplier": "5.9 ATK",
       "description": "Attacks 1 enemy. Has a 35% chance of decreasing the target’s Turn Meter by 20%",
       "books": [
         "Level 2: Damage +5%",
@@ -47,19 +56,23 @@
     },
     {
       "cd": 5,
-      "mincd": 4,
-      "dmgscaling": ["ATK"],
+      "mincd": 5,
+      "passive": false,
+      "dmgscaling": [
+        "ATK"
+      ],
       "abilityname": "Cursefire Spear",
+      "damageMultiplier": "6.1 ATK",
       "description": "Attacks 1 enemy. Has a 75% chance of placing a [HP Burn] debuff for 2 turns.",
       "books": [
         "Level 2: Damage +10%",
         "Level 3: Damage +10%",
         "Level 4: Buff/Debuff Chance +5%",
         "Level 5: Buff/Debuff Chance +10%",
-        "Level 6: Buff/Debuff Chance +10%",
-        "Levle 7: Cooldown -1"
+        "Level 6: Buff/Debuff Chance +10%"
       ]
     }
   ],
-  "avatarUrl": "https://goctionni.github.io/raid-data/images/avatar/Wyvernbane.png"
+  "version": "3.30.0",
+  "avatarUrl": "https://mcradane.github.io/raid-data/images/avatar/Wyvernbane.png"
 }

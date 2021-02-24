@@ -1,29 +1,32 @@
 {
   "name": "Gravechill Killer",
+  "id": "Gravechill_Killer",
   "class": {
     "faction": "Undead Hordes",
-    "rarity": "Rare",
-    "role": "Attack",
-    "affinity": "Magic"
+    "rarity": "rare",
+    "role": "attack",
+    "affinity": "magic"
   },
   "stats": {
-    "hp": "13,545",
-    "atk": "1,233",
-    "def": "892",
-    "spd": "96",
-    "crate": "RATE",
-    "cdmg": "15",
-    "resist": "50",
-    "acc": "30"
+    "hp": 13545,
+    "atk": 1233,
+    "def": 892,
+    "spd": 96,
+    "crate": 15,
+    "cdmg": 50,
+    "resist": 30,
+    "acc": 10
   },
   "skills": [
     {
       "cd": 0,
       "mincd": 0,
+      "passive": false,
       "dmgscaling": [
         "ATK"
       ],
       "abilityname": "Freezing Toxin",
+      "damageMultiplier": "3.9 ATK",
       "description": "Attacks 1 enemy. Has a 40% chance of placing a 5% [Poison] debuff for 1 turn.",
       "books": [
         "Level 2: Damage +5%",
@@ -35,10 +38,12 @@
     {
       "cd": 4,
       "mincd": 3,
+      "passive": false,
       "dmgscaling": [
         "ATK"
       ],
       "abilityname": "Blood Chill",
+      "damageMultiplier": "6.8 ATK",
       "description": "Attacks 1 enemy. Has a 75% chance of placing a 30% [Decrease DEF] debuff for 2 turns. Has a 75% chance of placing a 60% [Decrease DEF] debuff instead if the target is under a [Poison] debuff.",
       "books": [
         "Level 2: Buff/Debuff Chance +5%",
@@ -50,10 +55,12 @@
     {
       "cd": 5,
       "mincd": 3,
+      "passive": false,
       "dmgscaling": [
         "ATK"
       ],
       "abilityname": "Icy Veins",
+      "damageMultiplier": "2.65 ATK",
       "description": "Attacks 1 enemy 2 times. Each hit places a 2.5% [Poison] debuff for 2 turns. Places a 5% [Poison] debuff instead if the target is under a [Poison Sensitivity] debuff.",
       "books": [
         "Level 2: Damage +5%",
@@ -65,5 +72,6 @@
       ]
     }
   ],
-  "avatarUrl": "https://goctionni.github.io/raid-data/images/avatar/Gravechill_Killer.png"
+  "version": "3.30.0",
+  "avatarUrl": "https://mcradane.github.io/raid-data/images/avatar/Gravechill_Killer.png"
 }

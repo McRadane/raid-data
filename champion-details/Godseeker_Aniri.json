@@ -1,0 +1,87 @@
+{
+  "name": "Godseeker Aniri",
+  "id": "Godseeker_Aniri",
+  "class": {
+    "faction": "The Sacred Order",
+    "rarity": "epic",
+    "role": "defense",
+    "affinity": "void"
+  },
+  "stats": {
+    "hp": 15195,
+    "atk": 1046,
+    "def": 1244,
+    "spd": 99,
+    "crate": 15,
+    "cdmg": 50,
+    "resist": 45,
+    "acc": 0
+  },
+  "skills": [
+    {
+      "cd": 0,
+      "mincd": 0,
+      "passive": false,
+      "dmgscaling": [
+        "DEF"
+      ],
+      "abilityname": "Blade of Blessings",
+      "damageMultiplier": "3.6 DEF",
+      "description": "Attacks 1 enemy. Heal the ally with the lowest HP by 5% of their MAX HP. Cannot heal this champion.",
+      "books": [
+        "Level 2: Damage 5%",
+        "Level 3: Heal 5%",
+        "Level: Damage +5%",
+        "Level 5: Heal +5%",
+        "Level 6: Damage +5%",
+        "Level 7: Heal +5%"
+      ]
+    },
+    {
+      "cd": 4,
+      "mincd": 3,
+      "passive": false,
+      "dmgscaling": [
+        "DEF"
+      ],
+      "abilityname": "Quest for Meaning",
+      "damageMultiplier": "3 DEF",
+      "description": "Attacks all enemies. Heal all allies by 15% of their MAX HP, then decreases the duration of all buffs on all enemies by 1 turn and increases the duration of all buffs on all allies by 1 turn.",
+      "books": [
+        "Level 2: Heal +5%",
+        "Level 3: Heal +5%",
+        "Level 4: Heal +5%",
+        "Level 5: Heal +5%",
+        "Level 6: Cooldown -1"
+      ]
+    },
+    {
+      "cd": 7,
+      "mincd": 4,
+      "passive": false,
+      "dmgscaling": [],
+      "abilityname": "Rise of Glory",
+      "description": "Revives a dead ally with 50% HP, then fills their Turn Meter by 50% and resets the cooldowns of all their skills",
+      "books": [
+        "Level 2: Cooldown -1",
+        "Level 3: Cooldown -1",
+        "Level 4: Cooldown -1"
+      ]
+    },
+    {
+      "cd": 7,
+      "mincd": 4,
+      "passive": true,
+      "dmgscaling": [],
+      "abilityname": "Guardian Angel",
+      "description": "Passive Effect: Increases the amount of healing allies receive by 10%.",
+      "books": [
+        "Level 2: Cooldown -1",
+        "Level 3: Cooldown -1",
+        "Level 4: Cooldown -1"
+      ]
+    }
+  ],
+  "version": "3.30.0",
+  "avatarUrl": "https://mcradane.github.io/raid-data/images/avatar/Godseeker_Aniri.png"
+}

@@ -1,29 +1,33 @@
 {
   "name": "Chevalier",
+  "id": "Chevalier",
   "class": {
     "faction": "Banner Lords",
-    "rarity": "Rare",
-    "role": "Defense",
-    "affinity": "Void"
+    "rarity": "rare",
+    "role": "defense",
+    "affinity": "void"
   },
   "stats": {
-    "hp": "16,680",
-    "atk": "804",
-    "def": "1,112",
-    "spd": "98",
-    "crate": "RATE",
-    "cdmg": "15",
-    "resist": "50",
-    "acc": "30"
+    "hp": 16680,
+    "atk": 804,
+    "def": 1112,
+    "spd": 98,
+    "crate": 15,
+    "cdmg": 50,
+    "resist": 30,
+    "acc": 0
   },
+  "aura": "Increases Ally DEF in Faction Crypts by 19%",
   "skills": [
     {
       "cd": 0,
       "mincd": 0,
+      "passive": false,
       "dmgscaling": [
         "DEF"
       ],
       "abilityname": "Hack Through",
+      "damageMultiplier": "1.78 DEF",
       "description": "Attacks 1 enemy 2 times. Has a 20% chance of repeating the attack. Will ignore [Block Damage] and [Shield] buffs.",
       "books": [
         "Level: 2 Damage +5%",
@@ -35,10 +39,12 @@
     {
       "cd": 4,
       "mincd": 3,
+      "passive": false,
       "dmgscaling": [
         "DEF"
       ],
       "abilityname": "Stern Rebuke",
+      "damageMultiplier": "7.1 DEF",
       "description": "Attacks 1 enemy. Has a 50% chance of placing a [Stun] debuff for 1 turn.",
       "books": [
         "Level: 2 Buff/Debuff Chance +5%",
@@ -50,21 +56,15 @@
     {
       "cd": 5,
       "mincd": 4,
+      "passive": false,
       "dmgscaling": [],
       "abilityname": "Lord Protector",
       "description": "Places a 30% [Increase DEF] buff and a 7.5% [Continuous Heal] buff on all allies for 2 turns.",
       "books": [
         "Level: 2 Cooldown -1"
       ]
-    },
-    {
-      "cd": 0,
-      "mincd": 0,
-      "dmgscaling": [],
-      "abilityname": "Aura",
-      "description": "Increases Ally DEF in Faction Crypts by 19%",
-      "books": []
     }
   ],
-  "avatarUrl": "https://goctionni.github.io/raid-data/images/avatar/Chevalier.png"
+  "version": "3.30.0",
+  "avatarUrl": "https://mcradane.github.io/raid-data/images/avatar/Chevalier.png"
 }

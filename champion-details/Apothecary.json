@@ -1,29 +1,33 @@
 {
   "name": "Apothecary",
+  "id": "Apothecary",
   "class": {
     "faction": "High Elves",
-    "rarity": "Rare",
-    "role": "Support",
-    "affinity": "Magic"
+    "rarity": "rare",
+    "role": "support",
+    "affinity": "magic"
   },
   "stats": {
-    "hp": "17,175",
-    "atk": "881",
-    "def": "1,002",
-    "spd": "106",
-    "crate": "RATE",
-    "cdmg": "15",
-    "resist": "50",
-    "acc": "30"
+    "hp": 17175,
+    "atk": 881,
+    "def": 1002,
+    "spd": 106,
+    "crate": 15,
+    "cdmg": 50,
+    "resist": 30,
+    "acc": 0
   },
+  "aura": "Increases Ally DEF in Dungeons by 21%",
   "skills": [
     {
       "cd": 0,
       "mincd": 0,
+      "passive": false,
       "dmgscaling": [
         "ATK"
       ],
       "abilityname": "Scatterbolt",
+      "damageMultiplier": "1.4 ATK",
       "description": "Attacks 3 times at random.",
       "books": [
         "Level 2: Damage +5%",
@@ -35,6 +39,7 @@
     {
       "cd": 3,
       "mincd": 2,
+      "passive": false,
       "dmgscaling": [],
       "abilityname": "Soothing Chant",
       "description": "Heals a target ally by 35% HP. This Heal can be critical.",
@@ -48,6 +53,7 @@
     {
       "cd": 5,
       "mincd": 3,
+      "passive": false,
       "dmgscaling": [],
       "abilityname": "Boon of Speed",
       "description": "Places a 30% [Increase Speed] buff on all allies for 2 turns. Fills the Turn Meter of all allies by 15%.",
@@ -55,15 +61,8 @@
         "Level 2: Cooldown -1",
         "Level 3: Cooldown -1"
       ]
-    },
-    {
-      "cd": 0,
-      "mincd": 0,
-      "dmgscaling": [],
-      "abilityname": "Aura",
-      "description": "Increases Ally DEF in Dungeons by 21%",
-      "books": []
     }
   ],
-  "avatarUrl": "https://goctionni.github.io/raid-data/images/avatar/Apothecary.png"
+  "version": "3.30.0",
+  "avatarUrl": "https://mcradane.github.io/raid-data/images/avatar/Apothecary.png"
 }

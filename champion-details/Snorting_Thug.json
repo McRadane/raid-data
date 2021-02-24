@@ -1,29 +1,33 @@
 {
   "name": "Snorting Thug",
+  "id": "Snorting_Thug",
   "class": {
     "faction": "Skinwalkers",
-    "rarity": "Epic",
-    "role": "HP",
-    "affinity": "Force"
+    "rarity": "epic",
+    "role": "hp",
+    "affinity": "force"
   },
   "stats": {
-    "hp": "20,640",
-    "atk": "870",
-    "def": "1,057",
-    "spd": "95",
-    "crate": "Rate",
-    "cdmg": "15",
-    "resist": "50",
-    "acc": "30"
+    "hp": 20640,
+    "atk": 870,
+    "def": 1057,
+    "spd": 95,
+    "crate": 15,
+    "cdmg": 50,
+    "resist": 30,
+    "acc": 15
   },
+  "aura": "Increases Ally ACC in all Battles by 40.",
   "skills": [
     {
       "cd": 0,
       "mincd": 0,
+      "passive": false,
       "dmgscaling": [
         "HP"
       ],
       "abilityname": "Wanton Mugging",
+      "damageMultiplier": "0.08 HP",
       "description": "Attacks 1 enemy 2 times. Each hit has a 20% chance of stealing one random buff.",
       "books": [
         "Level 2: Damage +5%",
@@ -37,11 +41,13 @@
     {
       "cd": 4,
       "mincd": 4,
+      "passive": false,
       "dmgscaling": [
         "HP"
       ],
       "abilityname": "Ruckus",
-      "description": "Attacks 1 enemy. Ignores the target’s DEF if they have no active buffs.",
+      "damageMultiplier": "0.12 HP",
+      "description": "Attacks 1 enemy. Steals 2 random buffs from the target. Ignores the target’s DEF if they have no active buffs.",
       "books": [
         "Level 2: Damage +5%",
         "Level 3: Damage +5%",
@@ -51,24 +57,16 @@
     {
       "cd": 0,
       "mincd": 0,
-      "dmgscaling": [
-        "Passive"
-      ],
+      "passive": true,
+      "dmgscaling": [],
       "abilityname": "Dire Defense",
-      "description": "Has a 30% chance of removing 1 random buff from the attacker when hit. Occurs once per hit. Counterattacks the attacker if they have no active buffs.",
+      "description": "Has a 30% chance of stealing 1 random buff from the attacker when hit. Occurs once per hit. Counterattacks the attacker if they have no active buffs.",
       "books": [
         "Level 2: Buff/Debuff Chance +10%",
         "Level 3: Buff/Debuff Chance +10%"
       ]
-    },
-    {
-      "cd": 0,
-      "mincd": 0,
-      "dmgscaling": [],
-      "abilityname": "Aura",
-      "description": "Increases Ally ACC in all Battles by 40.",
-      "books": []
     }
   ],
-  "avatarUrl": "https://goctionni.github.io/raid-data/images/avatar/Snorting_Thug.png"
+  "version": "3.30.0",
+  "avatarUrl": "https://mcradane.github.io/raid-data/images/avatar/Snorting_Thug.png"
 }

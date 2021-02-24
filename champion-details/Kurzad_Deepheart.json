@@ -1,0 +1,81 @@
+{
+  "name": "Kurzad Deepheart",
+  "id": "Kurzad_Deepheart",
+  "class": {
+    "faction": "Dwarves",
+    "rarity": "rare",
+    "role": "attack",
+    "affinity": "void"
+  },
+  "stats": {
+    "hp": 12225,
+    "atk": 1343,
+    "def": 870,
+    "spd": 97,
+    "crate": 15,
+    "cdmg": 50,
+    "resist": 30,
+    "acc": 10
+  },
+  "skills": [
+    {
+      "cd": 0,
+      "mincd": 0,
+      "passive": false,
+      "dmgscaling": [
+        "ATK"
+      ],
+      "abilityname": "Bushwhack",
+      "damageMultiplier": "2 ATK",
+      "description": "Attacks 1 enemy. Places an extra hit if this attack is critical. The extra hit places a 30% [Decrease SPD] debuff for 2 turns.",
+      "books": [
+        "Level 2: Damage +5%",
+        "Level 3: Damage +5%",
+        "Level 4: Damage +5%",
+        "Level 5: Damage +5%",
+        "Level 6: Damage +10%"
+      ]
+    },
+    {
+      "cd": 3,
+      "mincd": 3,
+      "passive": false,
+      "dmgscaling": [
+        "ATK"
+      ],
+      "abilityname": "Flailing Pick",
+      "damageMultiplier": "3.3 ATK",
+      "description": "Attacks all enemies. Each critical hit fills this Champion’s Turn Meter by 7.5%.",
+      "books": [
+        "Level 2: Damage +5%",
+        "Level 3: Damage +5%",
+        "Level 4: Damage +5%",
+        "Level 5: Damage +5%",
+        "Level 6: Damage +10%"
+      ]
+    },
+    {
+      "cd": 3,
+      "mincd": 3,
+      "passive": false,
+      "dmgscaling": [
+        "ATK"
+      ],
+      "abilityname": "Deep Ambush",
+      "damageMultiplier": "3 ATK",
+      "description": "Places a 50% [Increase ACC] buff on all allies for 2 turns, then attacks all enemies. Has a 75% chance of placing a 30% [Decrease DEF] debuff for 2 turns.",
+      "books": [
+        "Level 2: Damage +5%",
+        "Level 3: Buff/Debuff Chance +5%",
+        "Level 4: Damage +5%",
+        "Level 5: Buff/Debuff Chance +5%",
+        "Level 6: Buff/Debuff Chance +5%",
+        "Level 7: Damage +5%",
+        "Level 8: Damage +10%",
+        "Level 9: Buff/Debuff Chance +10%"
+      ]
+    }
+  ],
+  "version": "3.30.0",
+  "avatarUrl": "https://mcradane.github.io/raid-data/images/avatar/Kurzad_Deepheart.png"
+}

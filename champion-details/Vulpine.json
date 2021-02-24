@@ -1,54 +1,54 @@
 {
   "name": "Vulpine",
+  "id": "Vulpine",
   "class": {
     "faction": "Undead Hordes",
-    "rarity": "Uncommon",
-    "role": "Attack",
-    "affinity": "Force"
+    "rarity": "uncommon",
+    "role": "attack",
+    "affinity": "force"
   },
   "stats": {
-    "hp": "11,070",
-    "atk": "1,189",
-    "def": "826",
-    "spd": "87",
-    "crate": "Rate",
-    "cdmg": "15",
-    "resist": "50",
-    "acc": "30"
+    "hp": 11070,
+    "atk": 1189,
+    "def": 826,
+    "spd": 87,
+    "crate": 15,
+    "cdmg": 50,
+    "resist": 30,
+    "acc": 0
   },
   "skills": [
     {
       "cd": 0,
       "mincd": 0,
+      "passive": false,
       "dmgscaling": [
-        "HP"
+        "ATK"
       ],
-      "abilityname": "Head Wound",
-      "description": "Attacks 1 enemy. Has a 20% chance of applying a [Stun] debuff for 1 turn.",
+      "abilityname": "Bare Fangs",
+      "damageMultiplier": "4 ATK",
+      "description": "Attacks 1 enemy. Has a 60% chance of placing a 30% [Decrease DEF] debuff for 2 turns.",
       "books": [
         "Level 2: Damage +5%",
-        "Level 3: Buff/Debuff Chance +5%",
-        "Level 4: Damage +5%",
-        "Level 5: Buff/Debuff Chance +5%"
+        "Level 3: Damage +5%",
+        "Level 4: Buff/Debuff Chance +15%",
+        "Level 5: Damage +10%"
       ]
     },
     {
       "cd": 4,
       "mincd": 3,
+      "passive": false,
       "dmgscaling": [
         "ATK"
       ],
-      "abilityname": "Frenzy",
-      "description": "Attacks all enemies. Has a 25% chance of placing a 25% [Decrease ATK] debuff for 1 turn. Also has a 25% chance of placing a [Provoke] debuff for 1 turn.",
+      "abilityname": "Alpha",
+      "description": "Places a 25% [Increase ATK] buff on all allies for 2 turns.",
       "books": [
-        "Level 2: Damage +5%",
-        "Level 3: Buff/Debuff Chance +5%",
-        "Level 4: Damage +5%",
-        "Level 5: Buff/Debuff Chance +10%",
-        "Level 6: Cooldown -1",
-        "Level 7: Damage +10%"
+        "Level 2: Cooldown -1"
       ]
     }
   ],
-  "avatarUrl": "https://goctionni.github.io/raid-data/images/avatar/Vulpine.png"
+  "version": "3.30.0",
+  "avatarUrl": "https://mcradane.github.io/raid-data/images/avatar/Vulpine.png"
 }

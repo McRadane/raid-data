@@ -1,29 +1,32 @@
 {
   "name": "Necrohunter",
+  "id": "Necrohunter",
   "class": {
     "faction": "Knight Revenant",
-    "rarity": "Epic",
-    "role": "Attack",
-    "affinity": "Magic"
+    "rarity": "epic",
+    "role": "attack",
+    "affinity": "magic"
   },
   "stats": {
-    "hp": "12,555",
-    "atk": "1,398",
-    "def": "1,068",
-    "spd": "98",
-    "crate": "RATE",
-    "cdmg": "15",
-    "resist": "60",
-    "acc": "30"
+    "hp": 12555,
+    "atk": 1398,
+    "def": 1068,
+    "spd": 98,
+    "crate": 15,
+    "cdmg": 60,
+    "resist": 30,
+    "acc": 0
   },
   "skills": [
     {
       "cd": 0,
       "mincd": 0,
+      "passive": false,
       "dmgscaling": [
         "ATK"
       ],
       "abilityname": "Crypt Arrows",
+      "damageMultiplier": "2 ATK",
       "description": "Attacks 1 enemy 2 times. Each hit has a 50% chance of placing a 60% [Decrease DEF] debuff for 2 turns.",
       "books": [
         "Level 2: Damage +5%",
@@ -35,10 +38,12 @@
     {
       "cd": 4,
       "mincd": 3,
+      "passive": false,
       "dmgscaling": [
         "ATK"
       ],
       "abilityname": "Gravestorm",
+      "damageMultiplier": "5.6 ATK",
       "description": "Attacks 1 enemy. Has a 50% chance of attacking all enemies with an extra hit.",
       "books": [
         "Level 2: Damage +5%",
@@ -50,10 +55,12 @@
     {
       "cd": 5,
       "mincd": 4,
+      "passive": false,
       "dmgscaling": [
         "ATK"
       ],
       "abilityname": "Tomb Stalker",
+      "damageMultiplier": "6.1 ATK",
       "description": "Attacks 1 enemy. Places a [Perfect Veil] buff on this champion for 2 turns if this attack is critical.",
       "books": [
         "Level 2: Damage +5%",
@@ -64,5 +71,6 @@
       ]
     }
   ],
-  "avatarUrl": "https://goctionni.github.io/raid-data/images/avatar/Necrohunter.png"
+  "version": "3.30.0",
+  "avatarUrl": "https://mcradane.github.io/raid-data/images/avatar/Necrohunter.png"
 }

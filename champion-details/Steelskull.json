@@ -1,29 +1,33 @@
 {
   "name": "Steelskull",
+  "id": "Steelskull",
   "class": {
     "faction": "Skinwalkers",
-    "rarity": "Epic",
-    "role": "Support",
-    "affinity": "Spirit"
+    "rarity": "epic",
+    "role": "support",
+    "affinity": "spirit"
   },
   "stats": {
-    "hp": "16,020",
-    "atk": "1,277",
-    "def": "958",
-    "spd": "111",
-    "crate": "RATE",
-    "cdmg": "15",
-    "resist": "50",
-    "acc": "30"
+    "hp": 16020,
+    "atk": 1277,
+    "def": 958,
+    "spd": 111,
+    "crate": 15,
+    "cdmg": 50,
+    "resist": 30,
+    "acc": 0
   },
+  "aura": "Increases Ally DEF in Faction Crypts by 27%.",
   "skills": [
     {
       "cd": 0,
       "mincd": 0,
+      "passive": false,
       "dmgscaling": [
         "ATK"
       ],
       "abilityname": "Decay",
+      "damageMultiplier": "2 ATK",
       "description": "Attacks 1 enemy 2 times. Has a 10% chance of placing a 5% [Poison] debuff for 2 turns.",
       "books": [
         "Level 2: Damage +5%",
@@ -36,6 +40,7 @@
     {
       "cd": 4,
       "mincd": 3,
+      "passive": false,
       "dmgscaling": [],
       "abilityname": "Cleansing Spell",
       "description": "Removes all debuffs from a target ally, then heals them by 40%.",
@@ -48,6 +53,7 @@
     {
       "cd": 5,
       "mincd": 4,
+      "passive": false,
       "dmgscaling": [],
       "abilityname": "Protection",
       "description": "Places a 60% [Increase DEF] buff on all allies for 2 turns. Heals all allies by 20% of their MAX HP.",
@@ -56,15 +62,8 @@
         "Level 3: Heal +5%",
         "Level 4: Cooldown -1"
       ]
-    },
-    {
-      "cd": 0,
-      "mincd": 0,
-      "dmgscaling": [],
-      "abilityname": "Aura",
-      "description": "Increases Ally DEF in Faction Crypts by 27%.",
-      "books": []
     }
   ],
-  "avatarUrl": "https://goctionni.github.io/raid-data/images/avatar/Steelskull.png"
+  "version": "3.30.0",
+  "avatarUrl": "https://mcradane.github.io/raid-data/images/avatar/Steelskull.png"
 }

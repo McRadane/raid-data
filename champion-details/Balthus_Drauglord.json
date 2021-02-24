@@ -1,0 +1,88 @@
+{
+  "name": "Balthus Drauglord",
+  "id": "Balthus_Drauglord",
+  "class": {
+    "faction": "Undead Hordes",
+    "rarity": "epic",
+    "role": "defense",
+    "affinity": "spirit"
+  },
+  "stats": {
+    "hp": 18000,
+    "atk": 848,
+    "def": 1255,
+    "spd": 97,
+    "crate": 15,
+    "cdmg": 50,
+    "resist": 45,
+    "acc": 0
+  },
+  "aura": "Increases Ally DEF in Faction Crypts by 30%",
+  "skills": [
+    {
+      "cd": 0,
+      "mincd": 0,
+      "passive": false,
+      "dmgscaling": [
+        "DEF"
+      ],
+      "abilityname": "Shield Strike",
+      "damageMultiplier": "4.15 DEF",
+      "description": "Attacks 1 enemy. Has a 30% chance of placing a 50% [Decrease ATK] debuff for 2 turns.",
+      "books": [
+        "Level 2: Damage +5%",
+        "Level 3: Damage +5%",
+        "Level 4: Buff/Debuff Chance +5%",
+        "Level 5: Buff/Debuff Chance +5%"
+      ]
+    },
+    {
+      "cd": 4,
+      "mincd": 3,
+      "passive": false,
+      "dmgscaling": [
+        "DEF"
+      ],
+      "abilityname": "Doomwheels",
+      "damageMultiplier": "4.2 DEF",
+      "description": "Attacks all enemies. Has a 75% chance of placing a 30% [Decrease C.RATE] debuff for 2 turns.",
+      "books": [
+        "Level 2: Damage +5%",
+        "Level 3: Damage +10%",
+        "Level 4: Buff/Debuff Chance +5%",
+        "Level 5: Buff/Debuff Chance +10%",
+        "Level 6: Buff/Debuff Chance +10%",
+        "Level 7: Cooldown -1"
+      ]
+    },
+    {
+      "cd": 5,
+      "mincd": 4,
+      "passive": false,
+      "dmgscaling": [
+        "DEF"
+      ],
+      "abilityname": "Driven to Slaughter",
+      "damageMultiplier": "6.4 DEF",
+      "description": "Attacks 1 enemy. Has a 75% chance of placing a [Provoke] debuff for 2 turns. Also heals this Champion by 20% of their MAX HP.",
+      "books": [
+        "Level 2: Damage +10%",
+        "Level 3: Buff/Debuff Chance +5%",
+        "Level 4: Buff/Debuff Chance +10%",
+        "Level 5: Buff/Debuff Chance +10%",
+        "Level 6: Cooldown -1"
+      ]
+    },
+    {
+      "cd": 0,
+      "mincd": 0,
+      "passive": true,
+      "dmgscaling": [],
+      "abilityname": "Enchanted Shields",
+      "description": "Reflects 30% of the damage this Champion receives back to the attacker.",
+      "books": []
+    }
+  ],
+  "version": "3.30.0",
+  "avatarUrl": "https://mcradane.github.io/raid-data/images/avatar/Balthus_Drauglord.png"
+}

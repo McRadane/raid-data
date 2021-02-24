@@ -1,29 +1,33 @@
 {
   "name": "Minaya",
+  "id": "Minaya",
   "class": {
     "faction": "Banner Lords",
-    "rarity": "Legendary",
-    "role": "Support",
-    "affinity": "Force"
+    "rarity": "legendary",
+    "role": "support",
+    "affinity": "force"
   },
   "stats": {
-    "hp": "21,135",
-    "atk": "1,068",
-    "def": "1,101",
-    "spd": "110",
-    "crate": "RATE",
-    "cdmg": "15",
-    "resist": "50",
-    "acc": "30"
+    "hp": 21135,
+    "atk": 1068,
+    "def": 1101,
+    "spd": 110,
+    "crate": 15,
+    "cdmg": 50,
+    "resist": 30,
+    "acc": 10
   },
+  "aura": "Increases Ally SPD in all Battles by 19%.",
   "skills": [
     {
       "cd": 0,
       "mincd": 0,
+      "passive": false,
       "dmgscaling": [
         "ATK"
       ],
       "abilityname": "Graceful Guide",
+      "damageMultiplier": "4.5 ATK",
       "description": "Attacks 1 enemy. Places a 15% [Continuous Heal] buff on the ally with the lowest HP for 2 turns.",
       "books": [
         "Level 2: Damage +5%",
@@ -35,10 +39,12 @@
     {
       "cd": 4,
       "mincd": 3,
+      "passive": false,
       "dmgscaling": [
         "ATK"
       ],
       "abilityname": "Mending Ways",
+      "damageMultiplier": "5.5 ATK",
       "description": "Attacks 1 enemy. Heals this Champion and the ally with the lowest HP by 10,000 HP. Has a 75% chance of placing a 100% [Heal Reduction] debuff on all enemies for 2 turns.",
       "books": [
         "Level 2: Damage +10%",
@@ -52,6 +58,7 @@
     {
       "cd": 6,
       "mincd": 4,
+      "passive": false,
       "dmgscaling": [],
       "abilityname": "Beauty’s Allure",
       "description": "Heals all allies by 40% of their MAX HP. Places a [Block Debuffs] buff for 2 turns on Champions under [Increase DEF] buffs. If a Champion is fully healed by this Skill, also places a [Shield] buff on them for 2 turns equal to 25% of the Champion’s HP.",
@@ -65,24 +72,16 @@
     {
       "cd": 6,
       "mincd": 4,
-      "dmgscaling": [
-        "Passive"
-      ],
+      "passive": true,
+      "dmgscaling": [],
       "abilityname": "Lover’s Sacrifice",
-      "description": "Fills the Turn Meters of all allies by 20% when this Champion is killed. Revives this Champion with 75% HP when killed if Khoronar is on the same team.",
+      "description": "Fills the Turn Meters of all allies by 20% when this Champion is killed. Revives this Champion with 75% HP when killed if <a href=\"https://ayumilove.net/raid-shadow-legends-khoronar-skill-mastery-equip-guide/\">Khoronar</a> is on the same team.",
       "books": [
         "Level 2: Cooldown -1",
         "Level 3: Cooldown -1"
       ]
-    },
-    {
-      "cd": 0,
-      "mincd": 0,
-      "dmgscaling": [],
-      "abilityname": "Aura",
-      "description": "Increases Ally SPD in all Battles by 19%.",
-      "books": []
     }
   ],
-  "avatarUrl": "https://goctionni.github.io/raid-data/images/avatar/Minaya.png"
+  "version": "3.30.0",
+  "avatarUrl": "https://mcradane.github.io/raid-data/images/avatar/Minaya.png"
 }

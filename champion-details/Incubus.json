@@ -1,29 +1,32 @@
 {
   "name": "Incubus",
+  "id": "Incubus",
   "class": {
     "faction": "Demonspawn",
-    "rarity": "Uncommon",
-    "role": "Attack",
-    "affinity": "Force"
+    "rarity": "uncommon",
+    "role": "attack",
+    "affinity": "force"
   },
   "stats": {
-    "hp": "11,235",
-    "atk": "1,145",
-    "def": "859",
-    "spd": "95",
-    "crate": "RATE",
-    "cdmg": "15",
-    "resist": "50",
-    "acc": "30"
+    "hp": 11235,
+    "atk": 1145,
+    "def": 859,
+    "spd": 95,
+    "crate": 15,
+    "cdmg": 50,
+    "resist": 30,
+    "acc": 0
   },
   "skills": [
     {
       "cd": 0,
       "mincd": 0,
+      "passive": false,
       "dmgscaling": [
         "ATK"
       ],
       "abilityname": "Javelin",
+      "damageMultiplier": "3.4 ATK",
       "description": "Attacks 1 enemy. Has a 10% chance of placing an extra hit.",
       "books": [
         "Level 2: Damage +5%",
@@ -36,10 +39,12 @@
     {
       "cd": 4,
       "mincd": 4,
+      "passive": false,
       "dmgscaling": [
         "ATK"
       ],
       "abilityname": "Demon Fangs",
+      "damageMultiplier": "1.5 ATK",
       "description": "Attacks 3 times at random. Resets the cooldown of this skill if the target is killed.",
       "books": [
         "Level 2: Damage +5%",
@@ -50,5 +55,6 @@
       ]
     }
   ],
-  "avatarUrl": "https://goctionni.github.io/raid-data/images/avatar/Incubus.png"
+  "version": "3.30.0",
+  "avatarUrl": "https://mcradane.github.io/raid-data/images/avatar/Incubus.png"
 }

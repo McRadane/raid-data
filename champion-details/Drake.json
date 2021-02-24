@@ -1,29 +1,33 @@
 {
   "name": "Drake",
+  "id": "Drake",
   "class": {
     "faction": "Lizardmen",
-    "rarity": "Epic",
-    "role": "Attack",
-    "affinity": "Spirit"
+    "rarity": "epic",
+    "role": "attack",
+    "affinity": "spirit"
   },
   "stats": {
-    "hp": "14,040",
-    "atk": "1,487",
-    "def": "881",
-    "spd": "95",
-    "crate": "RATE",
-    "cdmg": "15",
-    "resist": "50",
-    "acc": "30"
+    "hp": 14040,
+    "atk": 1487,
+    "def": 881,
+    "spd": 95,
+    "crate": 15,
+    "cdmg": 50,
+    "resist": 30,
+    "acc": 15
   },
+  "aura": "Increases Ally ATK in the Arena by 30%.",
   "skills": [
     {
       "cd": 0,
       "mincd": 0,
+      "passive": false,
       "dmgscaling": [
         "ATK"
       ],
       "abilityname": "Death from Above",
+      "damageMultiplier": "4 ATK",
       "description": "Attacks 1 enemy. Grants an Extra Turn if the target is killed.",
       "books": [
         "Level 2: Damage +5%",
@@ -35,10 +39,12 @@
     {
       "cd": 4,
       "mincd": 3,
+      "passive": false,
       "dmgscaling": [
         "ATK"
       ],
       "abilityname": "Final Blow",
+      "damageMultiplier": "5.5 ATK",
       "description": "Attacks 1 enemy. If the target has less than 30% HP, this attack is always critical.",
       "books": [
         "Level 2: Damage +5%",
@@ -50,10 +56,12 @@
     {
       "cd": 6,
       "mincd": 5,
+      "passive": false,
       "dmgscaling": [
         "ATK"
       ],
       "abilityname": "Decimate",
+      "damageMultiplier": "6 ATK",
       "description": "Attacks 1 enemy. Places a 30% [Decrease SPD] debuff and a 50% [Decrease ACC] debuff on all enemies except the target for 2 turns if this attack is critical.",
       "books": [
         "Level 2: Damage +5%",
@@ -61,15 +69,8 @@
         "Level 4: Damage +10%",
         "Level 5: Cooldown -1"
       ]
-    },
-    {
-      "cd": 0,
-      "mincd": 0,
-      "dmgscaling": [],
-      "abilityname": "Aura",
-      "description": "Increases Ally ATK in the Arena by 30%.",
-      "books": []
     }
   ],
-  "avatarUrl": "https://goctionni.github.io/raid-data/images/avatar/Drake.png"
+  "version": "3.30.0",
+  "avatarUrl": "https://mcradane.github.io/raid-data/images/avatar/Drake.png"
 }

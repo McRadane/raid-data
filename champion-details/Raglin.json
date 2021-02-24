@@ -1,29 +1,33 @@
 {
   "name": "Raglin",
+  "id": "Raglin",
   "class": {
     "faction": "Banner Lords",
-    "rarity": "Legendary",
-    "role": "Support",
-    "affinity": "Void"
+    "rarity": "legendary",
+    "role": "support",
+    "affinity": "void"
   },
   "stats": {
-    "hp": "20,310",
-    "atk": "1,156",
-    "def": "1,068",
-    "spd": "104",
-    "crate": "RATE",
-    "cdmg": "15",
-    "resist": "50",
-    "acc": "50"
+    "hp": 20310,
+    "atk": 1156,
+    "def": 1068,
+    "spd": 104,
+    "crate": 15,
+    "cdmg": 50,
+    "resist": 50,
+    "acc": 0
   },
+  "aura": "Increases Ally DEF in all Battles by 33%",
   "skills": [
     {
       "cd": 0,
       "mincd": 0,
+      "passive": false,
       "dmgscaling": [
         "ATK"
       ],
       "abilityname": "Repent",
+      "damageMultiplier": "1.6 ATK",
       "description": "Attacks 1 enemy 3 times. Fills the Turn Meter of 3 random allies by 15%. Allies can only have their Turn Meter filled once per turn by this Skill.",
       "books": [
         "Level 2: Damage +5%",
@@ -35,8 +39,10 @@
     {
       "cd": 4,
       "mincd": 4,
+      "passive": false,
       "dmgscaling": [],
       "abilityname": "Mercy",
+      "damageMultiplier": "4 ATK",
       "description": "Removes all debuffs on all allies, then heals them. The heal amount is proportional to this Champion’s ATK.",
       "books": [
         "Level 2: Heal +5%",
@@ -48,21 +54,15 @@
     {
       "cd": 3,
       "mincd": 2,
+      "passive": false,
       "dmgscaling": [],
       "abilityname": "Miracle",
       "description": "Revives an ally with 75% HP and a full Turn Meter.",
       "books": [
         "Level 2: Cooldown -1"
       ]
-    },
-    {
-      "cd": 0,
-      "mincd": 0,
-      "dmgscaling": [],
-      "abilityname": "Aura",
-      "description": "Increases Ally DEF in all Battles by 33%",
-      "books": []
     }
   ],
-  "avatarUrl": "https://goctionni.github.io/raid-data/images/avatar/Raglin.png"
+  "version": "3.30.0",
+  "avatarUrl": "https://mcradane.github.io/raid-data/images/avatar/Raglin.png"
 }

@@ -1,27 +1,32 @@
 {
   "name": "Dilgol",
+  "id": "Dilgol",
   "class": {
     "faction": "Dwarves",
-    "rarity": "Rare",
-    "role": "Attack",
-    "affinity": "Void"
+    "rarity": "rare",
+    "role": "attack",
+    "affinity": "void"
   },
   "stats": {
-    "hp": "15,525",
-    "atk": "1,046",
-    "def": "947",
-    "spd": "96",
-    "crate": "15%",
-    "cdmg": "57%",
-    "resist": "30",
-    "acc": "0"
+    "hp": 15525,
+    "atk": 1046,
+    "def": 947,
+    "spd": 96,
+    "crate": 15,
+    "cdmg": 57,
+    "resist": 30,
+    "acc": 0
   },
   "skills": [
     {
       "cd": 0,
       "mincd": 0,
-      "dmgscaling": ["ATK"],
+      "passive": false,
+      "dmgscaling": [
+        "ATK"
+      ],
       "abilityname": "Crippler Round",
+      "damageMultiplier": "4.35 ATK",
       "description": "Attacks 1 enemy 3 times. Each hit has a 40% chance of placing 15% [Decrease SPD] debuff for 2 turns.",
       "books": [
         "Level 2: Damage +5%",
@@ -34,8 +39,12 @@
     {
       "cd": 4,
       "mincd": 3,
-      "dmgscaling": ["ATK"],
+      "passive": false,
+      "dmgscaling": [
+        "ATK"
+      ],
       "abilityname": "Shot Spray",
+      "damageMultiplier": "2.27 ATK",
       "description": "Attacks all enemies 2 times. Each hit has a 50% chance of placing a 50% [Decrease ACC] debuff for 2 turns.",
       "books": [
         "Level 2: Damage +10%",
@@ -48,8 +57,12 @@
     {
       "cd": 5,
       "mincd": 4,
-      "dmgscaling": ["ATK"],
+      "passive": false,
+      "dmgscaling": [
+        "ATK"
+      ],
       "abilityname": "Big Game Hunter",
+      "damageMultiplier": "2.45 ATK",
       "description": "Attacks 1 enemy 3 times. Each hit has a 40% chance of placing a 60% [Decrease DEF] debuff for 2 turns.",
       "books": [
         "Level 2: Damage +5%",
@@ -60,5 +73,6 @@
       ]
     }
   ],
-  "avatarUrl": "https://goctionni.github.io/raid-data/images/avatar/Dilgol.png"
+  "version": "3.30.0",
+  "avatarUrl": "https://mcradane.github.io/raid-data/images/avatar/Dilgol.png"
 }

@@ -1,30 +1,34 @@
 {
   "name": "Muckstalker",
+  "id": "Muckstalker",
   "class": {
     "faction": "Lizardmen",
-    "rarity": "Rare",
-    "role": "HP",
-    "affinity": "Magic"
+    "rarity": "rare",
+    "role": "hp",
+    "affinity": "magic"
   },
   "stats": {
-    "hp": "20,475",
-    "atk": "903",
-    "def": "760",
-    "spd": "101",
-    "crate": "RATE",
-    "cdmg": "15",
-    "resist": "50",
-    "acc": "40"
+    "hp": 20475,
+    "atk": 903,
+    "def": 760,
+    "spd": 101,
+    "crate": 15,
+    "cdmg": 50,
+    "resist": 40,
+    "acc": 0
   },
+  "aura": "Increases Ally HP in Faction Crypts by 22%.",
   "skills": [
     {
       "cd": 0,
       "mincd": 0,
+      "passive": false,
       "dmgscaling": [
         "ATK",
         "HP"
       ],
       "abilityname": "Pounce",
+      "damageMultiplier": "1.5 ATK + 0.12 HP",
       "description": "Attacks 1 enemy. Has a 30% chance of placing a [Block Buffs] debuff for 2 turns.",
       "books": [
         "Level 2: Damage +5%",
@@ -38,11 +42,13 @@
     {
       "cd": 3,
       "mincd": 2,
+      "passive": false,
       "dmgscaling": [
         "ATK",
         "HP"
       ],
       "abilityname": "Strangle",
+      "damageMultiplier": "2.5 ATK + 0.2 HP",
       "description": "Attacks 1 enemy. Places a [Sleep] debuff for 2 turns if the target has no active buffs.",
       "books": [
         "Level 2: Damage +5%",
@@ -55,21 +61,13 @@
     {
       "cd": 2,
       "mincd": 2,
-      "dmgscaling": [
-        "Passive"
-      ],
+      "passive": true,
+      "dmgscaling": [],
       "abilityname": "Herbal Balm",
       "description": "Places a 15% [Continuous Heal] buff on this Champion for 2 turns if incoming damage exceeds 20% HP in one attack.",
       "books": []
-    },
-    {
-      "cd": 0,
-      "mincd": 0,
-      "dmgscaling": [],
-      "abilityname": "Aura",
-      "description": "Increases Ally HP in Faction Crypts by 22%.",
-      "books": []
     }
   ],
-  "avatarUrl": "https://goctionni.github.io/raid-data/images/avatar/Muckstalker.png"
+  "version": "3.30.0",
+  "avatarUrl": "https://mcradane.github.io/raid-data/images/avatar/Muckstalker.png"
 }

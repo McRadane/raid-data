@@ -1,29 +1,32 @@
 {
   "name": "Diabolist",
+  "id": "Diabolist",
   "class": {
     "faction": "Demonspawn",
-    "rarity": "Rare",
-    "role": "Support",
-    "affinity": "Magic"
+    "rarity": "rare",
+    "role": "support",
+    "affinity": "magic"
   },
   "stats": {
-    "hp": "18,660",
-    "atk": "1,002",
-    "def": "782",
-    "spd": "110",
-    "crate": "RATE",
-    "cdmg": "15",
-    "resist": "50",
-    "acc": "30"
+    "hp": 18660,
+    "atk": 1002,
+    "def": 782,
+    "spd": 110,
+    "crate": 15,
+    "cdmg": 50,
+    "resist": 30,
+    "acc": 0
   },
   "skills": [
     {
       "cd": 0,
       "mincd": 0,
+      "passive": false,
       "dmgscaling": [
         "ATK"
       ],
       "abilityname": "Torment",
+      "damageMultiplier": "4 ATK",
       "description": "Attacks 1 enemy. Has a 10% chance of placing a [Sleep] debuff for 1 turn.",
       "books": [
         "Level 2: Damage +5%",
@@ -36,10 +39,12 @@
     {
       "cd": 4,
       "mincd": 3,
+      "passive": false,
       "dmgscaling": [
         "ATK"
       ],
       "abilityname": "Electric Storm",
+      "damageMultiplier": "3.6 ATK",
       "description": "Attacks all enemies. Places a 30% [Increase SPD] buff on all allies for 2 turns.",
       "books": [
         "Level 2: Damage +5%",
@@ -50,6 +55,7 @@
     {
       "cd": 6,
       "mincd": 4,
+      "passive": false,
       "dmgscaling": [],
       "abilityname": "Positive Charge",
       "description": "Fills the Turn Meter of all allies by 15%. Decreases the Turn Meter of all enemies by 15%.",
@@ -59,5 +65,6 @@
       ]
     }
   ],
-  "avatarUrl": "https://goctionni.github.io/raid-data/images/avatar/Diabolist.png"
+  "version": "3.30.0",
+  "avatarUrl": "https://mcradane.github.io/raid-data/images/avatar/Diabolist.png"
 }

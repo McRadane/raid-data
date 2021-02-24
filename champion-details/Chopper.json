@@ -1,30 +1,34 @@
 {
   "name": "Chopper",
+  "id": "Chopper",
   "class": {
     "faction": "Orcs",
-    "rarity": "Rare",
-    "role": "Attack",
-    "affinity": "Magic"
+    "rarity": "rare",
+    "role": "attack",
+    "affinity": "magic"
   },
   "stats": {
-    "hp": "15,855",
-    "atk": "1,046",
-    "def": "925",
-    "spd": "99",
-    "crate": "Rate",
-    "cdmg": "15",
-    "resist": "57",
-    "acc": "30"
+    "hp": 15855,
+    "atk": 1046,
+    "def": 925,
+    "spd": 99,
+    "crate": 15,
+    "cdmg": 57,
+    "resist": 30,
+    "acc": 0
   },
+  "aura": "Increases Ally ACC in the Arena by 40.",
   "skills": [
     {
       "cd": 0,
       "mincd": 0,
+      "passive": false,
       "dmgscaling": [
         "SPD",
         "ATK"
       ],
       "abilityname": "Staggering Hit",
+      "damageMultiplier": "(1 + SPD/75) ATK",
       "description": "Attacks 1 enemy. Has a 20% chance of placing a 30% [Decrease DEF] debuff for 2 turns.",
       "books": [
         "Level 2: Damage +5%",
@@ -37,10 +41,12 @@
     {
       "cd": 4,
       "mincd": 2,
+      "passive": false,
       "dmgscaling": [
         "ATK"
       ],
       "abilityname": "Grapple",
+      "damageMultiplier": "6.8 ATK",
       "description": "Attacks 1 enemy. Places a [Stun] debuff for 1 turn if the target’s current HP is lower than this Champion’s current HP.",
       "books": [
         "Level 2: Damage +5%",
@@ -53,10 +59,12 @@
     {
       "cd": 6,
       "mincd": 4,
+      "passive": false,
       "dmgscaling": [
         "ATK"
       ],
       "abilityname": "Incapacitate",
+      "damageMultiplier": "8.1 ATK",
       "description": "Attacks 1 enemy. Removes 2 random buffs from the target.",
       "books": [
         "Level 2: Damage +5%",
@@ -64,15 +72,8 @@
         "Level 4: Cooldown -1",
         "Level 5: Cooldown -1"
       ]
-    },
-    {
-      "cd": 0,
-      "mincd": 0,
-      "dmgscaling": [],
-      "abilityname": "Aura",
-      "description": "Increases Ally ACC in the Arena by 40.",
-      "books": []
     }
   ],
-  "avatarUrl": "https://goctionni.github.io/raid-data/images/avatar/Chopper.png"
+  "version": "3.30.0",
+  "avatarUrl": "https://mcradane.github.io/raid-data/images/avatar/Chopper.png"
 }

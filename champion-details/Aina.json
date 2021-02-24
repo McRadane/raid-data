@@ -1,29 +1,33 @@
 {
   "name": "Aina",
+  "id": "Aina",
   "class": {
     "faction": "Barbarians",
-    "rarity": "Epic",
-    "role": "Attack",
-    "affinity": "Magic"
+    "rarity": "epic",
+    "role": "attack",
+    "affinity": "magic"
   },
   "stats": {
-    "hp": "15,855",
-    "atk": "1,487",
-    "def": "760",
-    "spd": "105",
-    "crate": "RATE",
-    "cdmg": "15",
-    "resist": "60",
-    "acc": "30"
+    "hp": 15855,
+    "atk": 1487,
+    "def": 760,
+    "spd": 105,
+    "crate": 15,
+    "cdmg": 60,
+    "resist": 30,
+    "acc": 0
   },
+  "aura": "Increases Ally ACC in Faction Crypts by 40.",
   "skills": [
     {
       "cd": 0,
       "mincd": 0,
+      "passive": false,
       "dmgscaling": [
         "ATK"
       ],
       "abilityname": "Ferocity",
+      "damageMultiplier": "2.1 ATK",
       "description": "Attacks 1 enemy 2 times. Has a 10% chance of granting an Extra Turn.",
       "books": [
         "Level 2: Damage +5%",
@@ -35,10 +39,12 @@
     {
       "cd": 5,
       "mincd": 5,
+      "passive": false,
       "dmgscaling": [
         "ATK"
       ],
       "abilityname": "Bloody Swath",
+      "damageMultiplier": "6.4 ATK",
       "description": "Attacks 1 enemy. Has an 80% chance of placing a 25% [Weaken] debuff for 3 turns.",
       "books": [
         "Level 2: Damage +5%",
@@ -50,10 +56,12 @@
     {
       "cd": 5,
       "mincd": 5,
+      "passive": false,
       "dmgscaling": [
         "ATK"
       ],
       "abilityname": "Overmaster",
+      "damageMultiplier": "6.4 ATK",
       "description": "Attacks 1 enemy. Before attacking, has an 80% chance of placing a 60% [Decrease DEF] debuff for 3 turns. Heals this Champion by 10% of the damage inflicted.",
       "books": [
         "Level 2: Damage +5%",
@@ -61,15 +69,8 @@
         "Level 4: Damage +10%",
         "Level 5: Buff/Debuff Chance +10%"
       ]
-    },
-    {
-      "cd": 0,
-      "mincd": 0,
-      "dmgscaling": [],
-      "abilityname": "Aura",
-      "description": "Increases Ally ACC in Faction Crypts by 40.",
-      "books": []
     }
   ],
-  "avatarUrl": "https://goctionni.github.io/raid-data/images/avatar/Aina.png"
+  "version": "3.30.0",
+  "avatarUrl": "https://mcradane.github.io/raid-data/images/avatar/Aina.png"
 }

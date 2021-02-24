@@ -1,29 +1,32 @@
 {
   "name": "Bonekeeper",
+  "id": "Bonekeeper",
   "class": {
     "faction": "Orcs",
-    "rarity": "Epic",
-    "role": "Attack",
-    "affinity": "Force"
+    "rarity": "epic",
+    "role": "attack",
+    "affinity": "force"
   },
   "stats": {
-    "hp": "13,545",
-    "atk": "1,531",
-    "def": "870",
-    "spd": "98",
-    "crate": "Rate",
-    "cdmg": "15",
-    "resist": "60",
-    "acc": "30"
+    "hp": 13545,
+    "atk": 1531,
+    "def": 870,
+    "spd": 98,
+    "crate": 15,
+    "cdmg": 60,
+    "resist": 30,
+    "acc": 0
   },
   "skills": [
     {
       "cd": 0,
       "mincd": 0,
+      "passive": false,
       "dmgscaling": [
         "ATK"
       ],
       "abilityname": "Batter",
+      "damageMultiplier": "3.3 ATK",
       "description": "Attacks 1 enemy. Has a 50% chance of placing a 60% [Decrease DEF] debuff for 2 turns.",
       "books": [
         "Level 2: Damage +5%",
@@ -36,11 +39,13 @@
     {
       "cd": 4,
       "mincd": 3,
+      "passive": false,
       "dmgscaling": [
         "ATK"
       ],
       "abilityname": "Precision Strike",
-      "description": "Attacks 1 enemy. This attack deals 35% extra C.DMG.",
+      "damageMultiplier": "5 ATK",
+      "description": "Attacks 1 enemy. This attack deals 50% extra C.DMG.",
       "books": [
         "Level 2: Damage +5%",
         "Level 3: Damage +10%",
@@ -51,11 +56,13 @@
     {
       "cd": 5,
       "mincd": 4,
+      "passive": false,
       "dmgscaling": [
         "ATK"
       ],
       "abilityname": "Killing Haze",
-      "description": "Attacks 1 enemy. Places an extra hit if this attack is critical.",
+      "damageMultiplier": "5.3 ATK",
+      "description": "Attacks 1 enemy. Places an extra hit if this attack is critical. Fills the Turn Meters of all allies by 15% if this attack kills an enemy.",
       "books": [
         "Level 2: Damage +5%",
         "Level 3: Damage +5%",
@@ -64,5 +71,6 @@
       ]
     }
   ],
-  "avatarUrl": "https://goctionni.github.io/raid-data/images/avatar/Bonekeeper.png"
+  "version": "3.30.0",
+  "avatarUrl": "https://mcradane.github.io/raid-data/images/avatar/Bonekeeper.png"
 }

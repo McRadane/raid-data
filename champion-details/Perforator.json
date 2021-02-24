@@ -1,29 +1,32 @@
 {
   "name": "Perforator",
+  "id": "Perforator",
   "class": {
     "faction": "Dwarves",
-    "rarity": "Rare",
-    "role": "Attack",
-    "affinity": "Force"
+    "rarity": "rare",
+    "role": "attack",
+    "affinity": "force"
   },
   "stats": {
-    "hp": "18,165",
-    "atk": "1,432",
-    "def": "661",
-    "spd": "97",
-    "crate": "RATE",
-    "cdmg": "15",
-    "resist": "60",
-    "acc": "60"
+    "hp": 18165,
+    "atk": 1432,
+    "def": 661,
+    "spd": 97,
+    "crate": 15,
+    "cdmg": 60,
+    "resist": 60,
+    "acc": 0
   },
   "skills": [
     {
       "cd": 0,
       "mincd": 0,
+      "passive": false,
       "dmgscaling": [
         "ATK"
       ],
       "abilityname": "Vermin Slayer",
+      "damageMultiplier": "3.6 ATK",
       "description": "Attacks 1 enemy. Has a 30% chance of placing a 5% [Poison] debuff for 1 turn.",
       "books": [
         "Level 2: Damage +5%",
@@ -36,10 +39,12 @@
     {
       "cd": 4,
       "mincd": 3,
+      "passive": false,
       "dmgscaling": [
         "ATK"
       ],
       "abilityname": "Hardened Tips",
+      "damageMultiplier": "4.1 ATK",
       "description": "Attacks 1 enemy. Ignores 50% of the target’s DEF. Grants an Extra Turn if this attack kills an enemy.",
       "books": [
         "Level 2: Damage +5%",
@@ -51,9 +56,8 @@
     {
       "cd": 2,
       "mincd": 1,
-      "dmgscaling": [
-        "Passive"
-      ],
+      "passive": true,
+      "dmgscaling": [],
       "abilityname": "Scare Off",
       "description": "Has a 35% chance of placing a [Fear] debuff on the target for 1 turn when this Champion inflicts a critical hit.",
       "books": [
@@ -61,5 +65,6 @@
       ]
     }
   ],
-  "avatarUrl": "https://goctionni.github.io/raid-data/images/avatar/Perforator.png"
+  "version": "3.30.0",
+  "avatarUrl": "https://mcradane.github.io/raid-data/images/avatar/Perforator.png"
 }

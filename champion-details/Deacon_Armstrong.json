@@ -1,0 +1,74 @@
+{
+  "name": "Deacon Armstrong",
+  "id": "Deacon_Armstrong",
+  "class": {
+    "faction": "The Sacred Order",
+    "rarity": "epic",
+    "role": "support",
+    "affinity": "spirit"
+  },
+  "stats": {
+    "hp": 17835,
+    "atk": 947,
+    "def": 1167,
+    "spd": 100,
+    "crate": 15,
+    "cdmg": 50,
+    "resist": 30,
+    "acc": 15
+  },
+  "aura": "Increases Ally SPD in all Battles by 19%",
+  "skills": [
+    {
+      "cd": 0,
+      "mincd": 0,
+      "passive": false,
+      "dmgscaling": [
+        "ATK"
+      ],
+      "abilityname": "Mace of Contempt",
+      "damageMultiplier": "1.8 ATK",
+      "description": "Attacks 1 enemy 2 times. Each hit has a 30% chance of placing a [Leech] debuff for 2 turns.",
+      "books": [
+        "Level 2: Damage +5%",
+        "Level 3: Buff/Debuff Chance +5%",
+        "Level 4: Damage +5%",
+        "Level 5: Buff/Debuff Chance +5%",
+        "Level 6: Damage +10%",
+        "Level 7: Buff/Debuff Chance +10%"
+      ]
+    },
+    {
+      "cd": 4,
+      "mincd": 3,
+      "passive": false,
+      "dmgscaling": [
+        "ATK"
+      ],
+      "abilityname": "Sweeping Retribution",
+      "damageMultiplier": "4 ATK",
+      "description": "Attacks all enemies. Has an 80% chance of placing a 60% [Decrease DEF] debuff for 2 turns",
+      "books": [
+        "Level 2: Damage +5%",
+        "Level 3: Buff/Debuff Chance +5%",
+        "Level 4: Damage +10%",
+        "Level 5: Buff/Debuff Chance +15%",
+        "Level 6: Cooldown -1"
+      ]
+    },
+    {
+      "cd": 5,
+      "mincd": 3,
+      "passive": false,
+      "dmgscaling": [],
+      "abilityname": "Time Compression",
+      "description": "Fills the Turn Meters of all allies by 15% and decreases the Turn Meters of all enemies by 15%. Grants an Extra Turn.",
+      "books": [
+        "Level 2: Cooldown -1",
+        "Level 3: Cooldown -1"
+      ]
+    }
+  ],
+  "version": "3.30.0",
+  "avatarUrl": "https://mcradane.github.io/raid-data/images/avatar/Deacon_Armstrong.png"
+}

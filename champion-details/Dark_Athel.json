@@ -1,29 +1,33 @@
 {
   "name": "Dark Athel",
+  "id": "Dark_Athel",
   "class": {
     "faction": "Undead Hordes",
-    "rarity": "Epic",
-    "role": "Attack",
-    "affinity": "Magic"
+    "rarity": "epic",
+    "role": "attack",
+    "affinity": "magic"
   },
   "stats": {
-    "hp": "13,710",
-    "atk": "1,465",
-    "def": "925",
-    "spd": "100",
-    "crate": "RATE",
-    "cdmg": "15",
-    "resist": "57",
-    "acc": "30"
+    "hp": 13710,
+    "atk": 1465,
+    "def": 925,
+    "spd": 100,
+    "crate": 15,
+    "cdmg": 57,
+    "resist": 30,
+    "acc": 0
   },
+  "aura": "Increases Ally ATK in all Battles by 20%",
   "skills": [
     {
       "cd": 0,
       "mincd": 0,
+      "passive": false,
       "dmgscaling": [
         "ATK"
       ],
       "abilityname": "Profane Glaive",
+      "damageMultiplier": "1.6 ATK",
       "description": "Attacks 1 enemy 2 times. Has a 40% chance of placing 60% [Decrease DEF] debuff for 2 turns.",
       "books": [
         "Level 2: Damage +5%",
@@ -35,10 +39,12 @@
     {
       "cd": 5,
       "mincd": 4,
+      "passive": false,
       "dmgscaling": [
         "ATK"
       ],
       "abilityname": "Blades of Blood",
+      "damageMultiplier": "3.6 ATK",
       "description": "Attacks all enemies. Has a 50% chance of placing a 30% [Decrease SPD] debuff for 2 turns.",
       "books": [
         "Level 2: Damage +5%",
@@ -51,10 +57,12 @@
     {
       "cd": 5,
       "mincd": 4,
+      "passive": false,
       "dmgscaling": [
         "ATK"
       ],
       "abilityname": "Harvest of Despair",
+      "damageMultiplier": "3.65 ATK",
       "description": "Attacks all enemies. Places a 30% [Increase SPD] buff on this Champion for 3 turns if this attack kills 4 or more enemies. Heals this champion by 50% of their MAX HP if this attack kills 6 or more enemies. Grants an Extra Turn if this attack kills 10 or more enemies.",
       "books": [
         "Level 2: Damage +5%",
@@ -62,15 +70,8 @@
         "Level 4: Damage +10%",
         "Level 5: Cooldown -1"
       ]
-    },
-    {
-      "cd": 0,
-      "mincd": 0,
-      "dmgscaling": [],
-      "abilityname": "Aura",
-      "description": "Increases Ally ATK in all Battles by 20%",
-      "books": []
     }
   ],
-  "avatarUrl": "https://goctionni.github.io/raid-data/images/avatar/Dark_Athel.png"
+  "version": "3.30.0",
+  "avatarUrl": "https://mcradane.github.io/raid-data/images/avatar/Dark_Athel.png"
 }

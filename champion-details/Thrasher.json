@@ -1,25 +1,27 @@
 {
   "name": "Thrasher",
+  "id": "Thrasher",
   "class": {
     "faction": "Ogryn Tribes",
-    "rarity": "Uncommon",
-    "role": "Attack",
-    "affinity": "Spirit"
+    "rarity": "uncommon",
+    "role": "attack",
+    "affinity": "spirit"
   },
   "stats": {
-    "hp": "11,400",
-    "atk": "1,156",
-    "def": "837",
-    "spd": "93",
-    "crate": "Rate",
-    "cdmg": "15",
-    "resist": "50",
-    "acc": "30"
+    "hp": 11400,
+    "atk": 1156,
+    "def": 837,
+    "spd": 93,
+    "crate": 15,
+    "cdmg": 50,
+    "resist": 30,
+    "acc": 0
   },
   "skills": [
     {
       "cd": 0,
       "mincd": 0,
+      "passive": false,
       "dmgscaling": [
         "ATK"
       ],
@@ -35,6 +37,7 @@
     {
       "cd": 3,
       "mincd": 3,
+      "passive": false,
       "dmgscaling": [
         "ATK"
       ],
@@ -48,5 +51,6 @@
       ]
     }
   ],
-  "avatarUrl": "https://goctionni.github.io/raid-data/images/avatar/Thrasher.png"
+  "version": "3.30.0",
+  "avatarUrl": "https://mcradane.github.io/raid-data/images/avatar/Thrasher.png"
 }

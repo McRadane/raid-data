@@ -1,29 +1,33 @@
 {
   "name": "Royal Huntsman",
+  "id": "Royal_Huntsman",
   "class": {
     "faction": "High Elves",
-    "rarity": "Legendary",
-    "role": "Attack",
-    "affinity": "Spirit"
+    "rarity": "legendary",
+    "role": "attack",
+    "affinity": "spirit"
   },
   "stats": {
-    "hp": "16,350",
-    "atk": "1,533",
-    "def": "936",
-    "spd": "105",
-    "crate": "Rate",
-    "cdmg": "15",
-    "resist": "63",
-    "acc": "30"
+    "hp": 16350,
+    "atk": 1533,
+    "def": 936,
+    "spd": 105,
+    "crate": 15,
+    "cdmg": 63,
+    "resist": 30,
+    "acc": 0
   },
+  "aura": "Increases Spirit Ally ATK in all Battles by 38%",
   "skills": [
     {
       "cd": 0,
       "mincd": 0,
+      "passive": false,
       "dmgscaling": [
         "ATK"
       ],
       "abilityname": "Confident Shot",
+      "damageMultiplier": "3.1 ATK",
       "description": "Attacks 1 enemy. Places a 50% [Increase ATK] buff on this Champion for 2 turns if this attack is critical.",
       "books": [
         "Level 2: Damage +5%",
@@ -34,10 +38,12 @@
     {
       "cd": 4,
       "mincd": 3,
+      "passive": false,
       "dmgscaling": [
         "ATK"
       ],
       "abilityname": "Slaughter Volley",
+      "damageMultiplier": "3.6 ATK",
       "description": "Attacks all enemies. Places a 60% [Decrease DEF] debuff on the target for 2 turns if this attack is critical.",
       "books": [
         "Level 2: Damage +5%",
@@ -49,25 +55,20 @@
     {
       "cd": 5,
       "mincd": 5,
+      "passive": false,
       "dmgscaling": [
         "ATK"
       ],
       "abilityname": "Dead Aim",
+      "damageMultiplier": "5 ATK",
       "description": "Attacks 1 enemy. Will ignore DEF by 100%.",
       "books": [
         "Level 2: Damage +5%",
         "Level 3: Damage +10%",
         "Level 4: Damage +10%"
       ]
-    },
-    {
-      "cd": 0,
-      "mincd": 0,
-      "dmgscaling": [],
-      "abilityname": "Aura",
-      "description": "Increases Spirit Ally ATK in all Battles by 38%",
-      "books": []
     }
   ],
-  "avatarUrl": "https://goctionni.github.io/raid-data/images/avatar/Royal_Huntsman.png"
+  "version": "3.30.0",
+  "avatarUrl": "https://mcradane.github.io/raid-data/images/avatar/Royal_Huntsman.png"
 }

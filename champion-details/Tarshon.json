@@ -1,0 +1,79 @@
+{
+  "name": "Tarshon",
+  "id": "Tarshon",
+  "class": {
+    "faction": "Demonspawn",
+    "rarity": "epic",
+    "role": "defense",
+    "affinity": "spirit"
+  },
+  "stats": {
+    "hp": 17175,
+    "atk": 760,
+    "def": 1398,
+    "spd": 100,
+    "crate": 15,
+    "cdmg": 50,
+    "resist": 30,
+    "acc": 15
+  },
+  "skills": [
+    {
+      "cd": 0,
+      "mincd": 0,
+      "passive": false,
+      "dmgscaling": [
+        "DEF"
+      ],
+      "abilityname": "Diabolical Hook",
+      "damageMultiplier": "3.6 DEF",
+      "description": "Attacks 1 enemy. Has a 25% chance of placing a [Provoke] debuff for 1 turn.",
+      "books": [
+        "Level 2: Damage +5%",
+        "Level 3: Buff/Debuff Chance +5%",
+        "Level 4: Damage +10%",
+        "Level 5: Buff/Debuff Chance +5%"
+      ]
+    },
+    {
+      "cd": 4,
+      "mincd": 3,
+      "passive": false,
+      "dmgscaling": [
+        "DEF"
+      ],
+      "abilityname": "Soul Shrivel",
+      "damageMultiplier": "3.2 DEF",
+      "description": "Attacks all enemies. Has 75% chance of placing a 25% [Weaken] debuff for 2 turns.",
+      "books": [
+        "Level 2: Damage +10%",
+        "Level 3: Buff/Debuff Chance +10%",
+        "Level 4: Buff/Debuff Chance +15%",
+        "Level 5: Cooldown -1"
+      ]
+    },
+    {
+      "cd": 6,
+      "mincd": 4,
+      "passive": false,
+      "dmgscaling": [],
+      "abilityname": "Demonic Possession",
+      "description": "Places a 60% [Increase DEF] buff on all allies for 2 turns. Fills the Turn Meters of all allies by 20%.",
+      "books": [
+        "Level 2: Cooldown -1",
+        "Level 3: Cooldown -1"
+      ]
+    },
+    {
+      "cd": 4,
+      "mincd": 4,
+      "passive": true,
+      "dmgscaling": [],
+      "abilityname": "Back for More",
+      "description": "Places a 25% [Strengthen] buff on this champion for 2 turns whenever their HP drops below 50%",
+      "books": []
+    }
+  ],
+  "version": "3.30.0",
+  "avatarUrl": "https://mcradane.github.io/raid-data/images/avatar/Tarshon.png"
+}

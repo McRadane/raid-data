@@ -1,29 +1,33 @@
 {
   "name": "Alure",
+  "id": "Alure",
   "class": {
     "faction": "Demonspawn",
-    "rarity": "Epic",
-    "role": "Attack",
-    "affinity": "Magic"
+    "rarity": "epic",
+    "role": "attack",
+    "affinity": "magic"
   },
   "stats": {
-    "hp": "14,040",
-    "atk": "1,575",
-    "def": "793",
-    "spd": "96",
-    "crate": "RATE",
-    "cdmg": "15",
-    "resist": "60",
-    "acc": "30"
+    "hp": 14040,
+    "atk": 1575,
+    "def": 793,
+    "spd": 96,
+    "crate": 15,
+    "cdmg": 60,
+    "resist": 30,
+    "acc": 0
   },
+  "aura": "Increases Ally ACC in Faction Crypts by 50.",
   "skills": [
     {
       "cd": 0,
       "mincd": 0,
+      "passive": false,
       "dmgscaling": [
         "ATK"
       ],
       "abilityname": "Psychic Whip",
+      "damageMultiplier": "1 ATK",
       "description": "Attacks 3 times at random. Decreases the target’s Turn Meter by 25% on each critical hit.",
       "books": [
         "Level 2: Damage +5%",
@@ -35,10 +39,12 @@
     {
       "cd": 4,
       "mincd": 3,
+      "passive": false,
       "dmgscaling": [
         "ATK"
       ],
       "abilityname": "Temptation",
+      "damageMultiplier": "1.7 ATK",
       "description": "Attacks all enemies 2 times. Each hit has a 30% chance of placing a 30% [Decrease DEF] debuff for 1 turn. Places a [Sleep] debuff for 1 turn on targets under [Decrease DEF] debuffs.",
       "books": [
         "Level 2: Damage +5%",
@@ -52,24 +58,19 @@
     {
       "cd": 6,
       "mincd": 6,
+      "passive": false,
       "dmgscaling": [
         "ATK"
       ],
       "abilityname": "Hellish Blaze",
+      "damageMultiplier": "4.6 ATK",
       "description": "Attacks 1 enemy. Has an extra 30% chance of inflicting a critical hit. Will ignore 50% of the target’s DEF.",
       "books": [
         "Level 2: Damage +5%",
         "Level 3: Damage +5%"
       ]
-    },
-    {
-      "cd": 0,
-      "mincd": 0,
-      "dmgscaling": [],
-      "abilityname": "Aura",
-      "description": "Increases Ally ACC in Faction Crypts by 50.",
-      "books": []
     }
   ],
-  "avatarUrl": "https://goctionni.github.io/raid-data/images/avatar/Alure.png"
+  "version": "3.30.0",
+  "avatarUrl": "https://mcradane.github.io/raid-data/images/avatar/Alure.png"
 }

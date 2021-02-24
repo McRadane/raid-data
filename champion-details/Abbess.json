@@ -1,29 +1,33 @@
 {
   "name": "Abbess",
+  "id": "Abbess",
   "class": {
     "faction": "The Sacred Order",
-    "rarity": "Legendary",
-    "role": "Attack",
-    "affinity": "Force"
+    "rarity": "legendary",
+    "role": "attack",
+    "affinity": "force"
   },
   "stats": {
-    "hp": "14,040",
-    "atk": "1,564",
-    "def": "1,079",
-    "spd": "96",
-    "crate": "RATE",
-    "cdmg": "15",
-    "resist": "63",
-    "acc": "30"
+    "hp": 14040,
+    "atk": 1564,
+    "def": 1079,
+    "spd": 96,
+    "crate": 15,
+    "cdmg": 63,
+    "resist": 30,
+    "acc": 10
   },
+  "aura": "Increases Ally ATK in Faction Crypts by 34%.",
   "skills": [
     {
       "cd": 0,
       "mincd": 0,
+      "passive": false,
       "dmgscaling": [
         "ATK"
       ],
       "abilityname": "Arrow of Rebuke",
+      "damageMultiplier": "2.8 ATK",
       "description": "Attacks 1 enemy. Removes 1 random debuff from this Champion and places it on the target.",
       "books": [
         "Level 2: Damage +5%",
@@ -35,11 +39,13 @@
     {
       "cd": 4,
       "mincd": 3,
+      "passive": false,
       "dmgscaling": [
         "ATK"
       ],
       "abilityname": "Mass Impalement",
-      "description": "Attacks all enemies. Has a 50% chance of placing a 60% [Decrease DEF] debuff for 2 turns.",
+      "damageMultiplier": "5.1 ATK",
+      "description": "Attacks all enemies. Has a 75% chance of placing a 60% [Decrease DEF] debuff for 2 turns.",
       "books": [
         "Level 2: Buff/Debuff Chance +5%",
         "Level 3: Buff/Debuff Chance +10%",
@@ -50,26 +56,21 @@
     {
       "cd": 6,
       "mincd": 4,
+      "passive": false,
       "dmgscaling": [
         "ATK"
       ],
       "abilityname": "Divine Wrath",
-      "description": "Attacks all enemies. Damage inflicted is proportional to either this Champion’s ATK or the target’s DEF or ATK stat, whichever is highest.",
+      "damageMultiplier": "4.5 ATK",
+      "description": "Attacks all enemies. Damage inflicted is proportional to either this Champion’s ATK or the target’s DEF or ATK stat, whichever is highest. Deals an extra 30% C.DMG if the target’s ATK is highest. Ignores 30% of the target’s DEF if the target’s DEF is highest.",
       "books": [
         "Level 2: Damage +5%",
         "Level 3: Damage +5%",
         "Level 4: Cooldown -1",
         "Level 5: Cooldown -1"
       ]
-    },
-    {
-      "cd": 0,
-      "mincd": 0,
-      "dmgscaling": [],
-      "abilityname": "Aura",
-      "description": "Increases Ally ATK in Faction Crypts by 34%.",
-      "books": []
     }
   ],
-  "avatarUrl": "https://goctionni.github.io/raid-data/images/avatar/Abbess.png"
+  "version": "3.30.0",
+  "avatarUrl": "https://mcradane.github.io/raid-data/images/avatar/Abbess.png"
 }

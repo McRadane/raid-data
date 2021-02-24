@@ -1,31 +1,35 @@
 {
   "name": "Rowan",
+  "id": "Rowan",
   "class": {
     "faction": "Banner Lords",
-    "rarity": "Epic",
-    "role": "Attack",
-    "affinity": "Void"
+    "rarity": "epic",
+    "role": "attack",
+    "affinity": "void"
   },
   "stats": {
-    "hp": "16,845",
-    "atk": "1,487",
-    "def": "694",
-    "spd": "108",
-    "crate": "RATE",
-    "cdmg": "15",
-    "resist": "60",
-    "acc": "30"
+    "hp": 16845,
+    "atk": 1487,
+    "def": 694,
+    "spd": 108,
+    "crate": 15,
+    "cdmg": 60,
+    "resist": 30,
+    "acc": 0
   },
+  "aura": "Increases Ally ACC in Faction Crypts by 50.",
   "skills": [
     {
       "cd": 0,
       "mincd": 0,
+      "passive": false,
       "dmgscaling": [
         "ATK",
         "SPD"
       ],
       "abilityname": "Slash",
-      "description": "Attacks 1 enemy. Has a 50% chance of placing a 100% [Heal Reduction] debuff for 2 turns.",
+      "damageMultiplier": "(1.9 + SPD/100) ATK",
+      "description": "Attacks 1 enemy. Has a 60% chance of placing a 100% [Heal Reduction] debuff for 2 turns.",
       "books": [
         "Level: 2 Damage +5%",
         "Level: 3 Buff/Debuff Chance +5%",
@@ -36,11 +40,13 @@
     {
       "cd": 4,
       "mincd": 4,
+      "passive": false,
       "dmgscaling": [
         "ATK"
       ],
       "abilityname": "Scourge",
-      "description": "Attacks 3 times at random. Each hit has a 30% chance of placing a [Stun] debuff for 1 turn.",
+      "damageMultiplier": "1.8 ATK",
+      "description": "Attacks 3 times at random. Each hit has a 40% chance of placing a [Stun] debuff for 1 turn.",
       "books": [
         "Level: 2 Damage +10%",
         "Level: 3 Damage +10%",
@@ -49,28 +55,23 @@
       ]
     },
     {
-      "cd": 5,
-      "mincd": 4,
+      "cd": 4,
+      "mincd": 3,
+      "passive": false,
       "dmgscaling": [
         "ATK"
       ],
       "abilityname": "Blade Surge",
+      "damageMultiplier": "1.4 ATK",
       "description": "Attacks 1 enemy 4 times. Each hit has a 50% chance of placing a 5% [Poison] debuff for 2 turns.",
       "books": [
         "Level: 2 Damage +10%",
-        "Level: 3 Buff/Debuff Chance +5%",
-        "Level: 4 Buff/Debuff chance +10%",
+        "Level: 3 Buff/Debuff Chance +10%",
+        "Level: 4 Buff/Debuff chance +15%",
         "Level: 5 Cooldown -1"
       ]
-    },
-    {
-      "cd": 0,
-      "mincd": 0,
-      "dmgscaling": [],
-      "abilityname": "Aura",
-      "description": "Increases Ally ACC in Faction Crypts by 50.",
-      "books": []
     }
   ],
-  "avatarUrl": "https://goctionni.github.io/raid-data/images/avatar/Rowan.png"
+  "version": "3.30.0",
+  "avatarUrl": "https://mcradane.github.io/raid-data/images/avatar/Rowan.png"
 }

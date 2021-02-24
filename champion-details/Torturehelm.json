@@ -1,30 +1,34 @@
 {
   "name": "Torturehelm",
+  "id": "Torturehelm",
   "class": {
     "faction": "Orcs",
-    "rarity": "Epic",
-    "role": "HP",
-    "affinity": "Force"
+    "rarity": "epic",
+    "role": "hp",
+    "affinity": "force"
   },
   "stats": {
-    "hp": "19,980",
-    "atk": "881",
-    "def": "1,090",
-    "spd": "96",
-    "crate": "RATE",
-    "cdmg": "15",
-    "resist": "60",
-    "acc": "30"
+    "hp": 19980,
+    "atk": 881,
+    "def": 1090,
+    "spd": 96,
+    "crate": 15,
+    "cdmg": 60,
+    "resist": 30,
+    "acc": 0
   },
+  "aura": "Increases Ally HP in Dungeons by 33%.",
   "skills": [
     {
       "cd": 0,
       "mincd": 0,
+      "passive": false,
       "dmgscaling": [
         "ATK",
         "DEF"
       ],
       "abilityname": "Pillage",
+      "damageMultiplier": "1.9 ATK + 3 DEF",
       "description": "Attacks 1 enemy. Has a 30% chance of stealing 1 random buff from the target.",
       "books": [
         "Level 2: Damage +5%",
@@ -36,10 +40,12 @@
     {
       "cd": 4,
       "mincd": 3,
+      "passive": false,
       "dmgscaling": [
         "HP"
       ],
       "abilityname": "Bloodlust",
+      "damageMultiplier": "0.3 HP * (1 + Dead Allies)",
       "description": "Attacks 1 enemy. Damage is proportional to this Champion’s MAX HP and increases according to the number of dead allies.",
       "books": [
         "Level 2: Damage +5%",
@@ -51,21 +57,13 @@
     {
       "cd": 3,
       "mincd": 3,
-      "dmgscaling": [
-        "Passive"
-      ],
+      "passive": true,
+      "dmgscaling": [],
       "abilityname": "Unkillable",
       "description": "Revives this Champion with 50% HP when killed.",
       "books": []
-    },
-    {
-      "cd": 0,
-      "mincd": 0,
-      "dmgscaling": [],
-      "abilityname": "Aura",
-      "description": "Increases Ally HP in Dungeons by 33%.",
-      "books": []
     }
   ],
-  "avatarUrl": "https://goctionni.github.io/raid-data/images/avatar/Torturehelm.png"
+  "version": "3.30.0",
+  "avatarUrl": "https://mcradane.github.io/raid-data/images/avatar/Torturehelm.png"
 }

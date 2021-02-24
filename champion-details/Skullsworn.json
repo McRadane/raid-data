@@ -1,29 +1,33 @@
 {
   "name": "Skullsworn",
+  "id": "Skullsworn",
   "class": {
     "faction": "Lizardmen",
-    "rarity": "Rare",
-    "role": "Attack",
-    "affinity": "Force"
+    "rarity": "rare",
+    "role": "attack",
+    "affinity": "force"
   },
   "stats": {
-    "hp": "12,720",
-    "atk": "1,365",
-    "def": "815",
-    "spd": "87",
-    "crate": "RATE",
-    "cdmg": "15",
-    "resist": "57",
-    "acc": "30"
+    "hp": 12720,
+    "atk": 1365,
+    "def": 815,
+    "spd": 87,
+    "crate": 15,
+    "cdmg": 57,
+    "resist": 30,
+    "acc": 0
   },
+  "aura": "Increases Ally SPD in Faction Crypts by 13%.",
   "skills": [
     {
       "cd": 0,
       "mincd": 0,
+      "passive": false,
       "dmgscaling": [
         "ATK"
       ],
       "abilityname": "Vicious Rip",
+      "damageMultiplier": "1.2 ATK",
       "description": "Attacks 1 enemy 2 times. Has a 20% chance of placing an extra hit.",
       "books": [
         "Level 2: Damage +5%",
@@ -38,6 +42,7 @@
     {
       "cd": 7,
       "mincd": 4,
+      "passive": false,
       "dmgscaling": [],
       "abilityname": "Cry For Blood",
       "description": "Places a 30% [Increase SPD] buff on this Champion for 2 turns. Also places a [Counterattack] buff on this Champion for 2 turns.",
@@ -50,21 +55,13 @@
     {
       "cd": 0,
       "mincd": 0,
-      "dmgscaling": [
-        "Passive"
-      ],
+      "passive": true,
+      "dmgscaling": [],
       "abilityname": "Feral Hunter",
       "description": "Fills this Champion’s Turn Meter by 15% on critical hits. Fills this Champion’s Turn Meter by 50% if this Champion kills an enemy.",
       "books": []
-    },
-    {
-      "cd": 0,
-      "mincd": 0,
-      "dmgscaling": [],
-      "abilityname": "Aura",
-      "description": "Increases Ally SPD in Faction Crypts by 13%.",
-      "books": []
     }
   ],
-  "avatarUrl": "https://goctionni.github.io/raid-data/images/avatar/Skullsworn.png"
+  "version": "3.30.0",
+  "avatarUrl": "https://mcradane.github.io/raid-data/images/avatar/Skullsworn.png"
 }

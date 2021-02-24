@@ -1,29 +1,32 @@
 {
   "name": "Scyl of the Drakes",
+  "id": "Scyl_of_the_Drakes",
   "class": {
     "faction": "Barbarians",
-    "rarity": "Legendary",
-    "role": "Defense",
-    "affinity": "Magic"
+    "rarity": "legendary",
+    "role": "defense",
+    "affinity": "magic"
   },
   "stats": {
-    "hp": "19,980",
-    "atk": "859",
-    "def": "1,387",
-    "spd": "95",
-    "crate": "RATE",
-    "cdmg": "15",
-    "resist": "63",
-    "acc": "40"
+    "hp": 19980,
+    "atk": 859,
+    "def": 1387,
+    "spd": 95,
+    "crate": 15,
+    "cdmg": 63,
+    "resist": 40,
+    "acc": 0
   },
   "skills": [
     {
       "cd": 0,
       "mincd": 0,
+      "passive": false,
       "dmgscaling": [
         "DEF"
       ],
       "abilityname": "Drake’s Swiftness",
+      "damageMultiplier": "3.5 DEF",
       "description": "Attacks 1 enemy. Has a 20% chance of placing a 30% [Decrease SPD] debuff for 2 turns. Also has a 30% chance of decreasing the target’s Turn Meter by 15%.",
       "books": [
         "Level 2: Damage +5%",
@@ -35,10 +38,12 @@
     {
       "cd": 4,
       "mincd": 3,
+      "passive": false,
       "dmgscaling": [
         "DEF"
       ],
       "abilityname": "Wingbeat Flurry",
+      "damageMultiplier": "1.55 DEF",
       "description": "Attacks all enemies 2 times. Each hit has a 20% chance of placing a [Stun] debuff for 1 turn.",
       "books": [
         "Level 2: Damage +10%",
@@ -51,6 +56,7 @@
     {
       "cd": 6,
       "mincd": 4,
+      "passive": false,
       "dmgscaling": [],
       "abilityname": "Phoenix Rite",
       "description": "Revives an ally with 50% HP and places a 50% [Ally Protection] buff on them for 2 turns.",
@@ -62,13 +68,13 @@
     {
       "cd": 0,
       "mincd": 0,
-      "dmgscaling": [
-        "Passive"
-      ],
+      "passive": true,
+      "dmgscaling": [],
       "abilityname": "Boundless Life",
       "description": "Heals all allies by 10% of their MAX HP at the start of each turn. Also places a 30% [Increase SPD] buff on a random ally for 2 turns.",
       "books": []
     }
   ],
-  "avatarUrl": "https://goctionni.github.io/raid-data/images/avatar/Scyl_of_the_Drakes.png"
+  "version": "3.30.0",
+  "avatarUrl": "https://mcradane.github.io/raid-data/images/avatar/Scyl_of_the_Drakes.png"
 }

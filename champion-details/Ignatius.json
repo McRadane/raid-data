@@ -1,29 +1,33 @@
 {
   "name": "Ignatius",
+  "id": "Ignatius",
   "class": {
     "faction": "Ogryn Tribes",
-    "rarity": "Legendary",
-    "role": "Defense",
-    "affinity": "Magic"
+    "rarity": "legendary",
+    "role": "defense",
+    "affinity": "magic"
   },
   "stats": {
-    "hp": "18,825",
-    "atk": "1,057",
-    "def": "1,266",
-    "spd": "93",
-    "crate": "RATE",
-    "cdmg": "15",
-    "resist": "50",
-    "acc": "40"
+    "hp": 18825,
+    "atk": 1057,
+    "def": 1266,
+    "spd": 93,
+    "crate": 15,
+    "cdmg": 50,
+    "resist": 40,
+    "acc": 20
   },
+  "aura": "Increases Ally DEF in all Battles by 25%.",
   "skills": [
     {
       "cd": 0,
       "mincd": 0,
+      "passive": false,
       "dmgscaling": [
         "DEF"
       ],
       "abilityname": "Skull Rattle",
+      "damageMultiplier": "3.8 DEF",
       "description": "Attacks 1 enemy. Has a 15% chance of placing a [Stun] debuff for 1 turn.",
       "books": [
         "Level 2: Damage +10%",
@@ -34,10 +38,12 @@
     {
       "cd": 5,
       "mincd": 4,
+      "passive": false,
       "dmgscaling": [
         "DEF"
       ],
       "abilityname": "Battle Shout",
+      "damageMultiplier": "4.9 DEF",
       "description": "Attacks all enemies. Has a 50% chance of placing a [Provoke] debuff for 1 turn.",
       "books": [
         "Level 2: Damage +10%",
@@ -49,10 +55,12 @@
     {
       "cd": 6,
       "mincd": 5,
+      "passive": false,
       "dmgscaling": [
         "DEF"
       ],
       "abilityname": "Turn to Ash",
+      "damageMultiplier": "5.6 DEF",
       "description": "Attacks all enemies. Has a 75% chance of placing a [HP Burn] debuff for 2 turns. This debuff cannot be resisted.",
       "books": [
         "Level 2: Damage +5%",
@@ -60,15 +68,8 @@
         "Level 4: Buff/Debuff Chance +15%",
         "Level 5: Cooldown -1"
       ]
-    },
-    {
-      "cd": 0,
-      "mincd": 0,
-      "dmgscaling": [],
-      "abilityname": "Aura",
-      "description": "Increases Ally DEF in all Battles by 25%.",
-      "books": []
     }
   ],
-  "avatarUrl": "https://goctionni.github.io/raid-data/images/avatar/Ignatius.png"
+  "version": "3.30.0",
+  "avatarUrl": "https://mcradane.github.io/raid-data/images/avatar/Ignatius.png"
 }

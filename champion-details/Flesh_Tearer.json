@@ -1,29 +1,33 @@
 {
   "name": "Flesh-Tearer",
+  "id": "Flesh_Tearer",
   "class": {
     "faction": "Skinwalkers",
-    "rarity": "Epic",
-    "role": "Support",
-    "affinity": "Magic"
+    "rarity": "epic",
+    "role": "support",
+    "affinity": "magic"
   },
   "stats": {
-    "hp": "18,495",
-    "atk": "991",
-    "def": "1,079",
-    "spd": "89",
-    "crate": "Rate",
-    "cdmg": "15",
-    "resist": "50",
-    "acc": "30"
+    "hp": 18495,
+    "atk": 991,
+    "def": 1079,
+    "spd": 89,
+    "crate": 15,
+    "cdmg": 50,
+    "resist": 30,
+    "acc": 15
   },
+  "aura": "Increases Ally ATK in Faction Crypts by 27%.",
   "skills": [
     {
       "cd": 0,
       "mincd": 0,
+      "passive": false,
       "dmgscaling": [
         "ATK"
       ],
       "abilityname": "Multiply Misery",
+      "damageMultiplier": "1.5 ATK",
       "description": "Attacks 1 enemy. Has a 40% chance of transferring 1 random debuff from this Champion to the target.",
       "books": [
         "Level 2: Damage +5%",
@@ -34,6 +38,7 @@
     {
       "cd": 4,
       "mincd": 4,
+      "passive": false,
       "dmgscaling": [],
       "abilityname": "Warleader",
       "description": "Heals all allies by 30% of their MAX HP. Increases the duration of all ally buffs by 1 turn.",
@@ -47,10 +52,12 @@
     {
       "cd": 5,
       "mincd": 4,
+      "passive": false,
       "dmgscaling": [
         "ATK"
       ],
       "abilityname": "Lay Low",
+      "damageMultiplier": "3.5 ATK",
       "description": "Attacks all enemies. Decreases the duration of all enemy buffs by 1 turn. Increases the duration of all enemy debuffs by 1 turn.",
       "books": [
         "Level 2: Damage +5%",
@@ -58,15 +65,8 @@
         "Level 4: Damage +10%",
         "Level 5: Cooldown -1"
       ]
-    },
-    {
-      "cd": 0,
-      "mincd": 0,
-      "dmgscaling": [],
-      "abilityname": "Aura",
-      "description": "Increases Ally ATK in Faction Crypts by 27%.",
-      "books": []
     }
   ],
-  "avatarUrl": "https://goctionni.github.io/raid-data/images/avatar/Flesh_Tearer.png"
+  "version": "3.30.0",
+  "avatarUrl": "https://mcradane.github.io/raid-data/images/avatar/Flesh_Tearer.png"
 }

@@ -1,29 +1,33 @@
 {
   "name": "Rock Breaker",
+  "id": "Rock_Breaker",
   "class": {
     "faction": "Dwarves",
-    "rarity": "Epic",
-    "role": "Defense",
-    "affinity": "Spirit"
+    "rarity": "epic",
+    "role": "defense",
+    "affinity": "spirit"
   },
   "stats": {
-    "hp": "18,495",
-    "atk": "716",
-    "def": "1,354",
-    "spd": "91",
-    "crate": "RATE",
-    "cdmg": "15",
-    "resist": "50",
-    "acc": "75"
+    "hp": 18495,
+    "atk": 716,
+    "def": 1354,
+    "spd": 91,
+    "crate": 15,
+    "cdmg": 50,
+    "resist": 75,
+    "acc": 0
   },
+  "aura": "Increases Ally DEF in the Arena by 30%",
   "skills": [
     {
       "cd": 0,
       "mincd": 0,
+      "passive": false,
       "dmgscaling": [
         "DEF"
       ],
       "abilityname": "Whirling Hammers",
+      "damageMultiplier": "2.5 DEF",
       "description": "Attacks 1 enemy. Increases this Champion’s DEF by 4% each time this Skill is used. Stacks up to 20%.",
       "books": [
         "Level 2: Damage +5%",
@@ -35,6 +39,7 @@
     {
       "cd": 4,
       "mincd": 3,
+      "passive": false,
       "dmgscaling": [],
       "abilityname": "Chest Thump",
       "description": "Has a 75% chance of placing a [Provoke] debuff on all enemies for 1 turn. Places a [Counterattack] buff on this Champion for 2 turns.",
@@ -48,9 +53,8 @@
     {
       "cd": 0,
       "mincd": 0,
-      "dmgscaling": [
-        "Passive"
-      ],
+      "passive": true,
+      "dmgscaling": [],
       "abilityname": "Iron Hide",
       "description": "Has a 25% chance of decreasing damage inflicted on this Champion by 50% each time this Champion is attacked.",
       "books": [
@@ -58,15 +62,8 @@
         "Level 3: Buff/Debuff Chance +10%",
         "Level 4: Buff/Debuff Chance +10%"
       ]
-    },
-    {
-      "cd": 0,
-      "mincd": 0,
-      "dmgscaling": [],
-      "abilityname": "Aura",
-      "description": "Increases Ally DEF in the Arena by 30%",
-      "books": []
     }
   ],
-  "avatarUrl": "https://goctionni.github.io/raid-data/images/avatar/Rock_Breaker.png"
+  "version": "3.30.0",
+  "avatarUrl": "https://mcradane.github.io/raid-data/images/avatar/Rock_Breaker.png"
 }

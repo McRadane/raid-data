@@ -1,0 +1,84 @@
+{
+  "name": "Yakarl the Scourge",
+  "id": "Yakarl_the_Scourge",
+  "class": {
+    "faction": "Barbarians",
+    "rarity": "legendary",
+    "role": "attack",
+    "affinity": "void"
+  },
+  "stats": {
+    "hp": 16350,
+    "atk": 1597,
+    "def": 892,
+    "spd": 95,
+    "crate": 15,
+    "cdmg": 63,
+    "resist": 30,
+    "acc": 10
+  },
+  "aura": "Increases Ally ATK in Doom Tower by 43%",
+  "skills": [
+    {
+      "cd": 0,
+      "mincd": 0,
+      "passive": false,
+      "dmgscaling": [
+        "ATK"
+      ],
+      "abilityname": "Axe of Allwinter",
+      "damageMultiplier": "1.8 ATK",
+      "description": "Attacks 1 enemy 2 times. Each hit has a 20% chance of placing a [Freeze] debuff for 1 turn. Will ignore [Shield] buff if there are 1 or more enemies under [Freeze] debuff. Will also ignore [Block Damage] buff if there are 2 or more enemies under [Freeze] debuff. Will also ignore 30% of the target’s DEF if there are 3 or more enemies under [Freeze] debuff.",
+      "books": [
+        "Level 2: Damage +5%",
+        "Level 3: Damage +5%",
+        "Level 4: Buff/Debuff Chance +5%",
+        "Level 5: Buff/Debuff Chance +5%"
+      ]
+    },
+    {
+      "cd": 4,
+      "mincd": 3,
+      "passive": false,
+      "dmgscaling": [
+        "ATK"
+      ],
+      "abilityname": "Blizzard Rider",
+      "description": "Attacks 1 enemy. Has a 75% chance of placing a 30% [Decrease SPD] debuff for 3 turns and a 75% chance of placing a [Freeze] debuff for 1 turn. Also steals 100% of the target’s Turn Meter and places a 30% [Increase SPD] buff on this Champion for 3 turns.",
+      "books": [
+        "Level 2: Damage +10%",
+        "Level 3: Buff/Debuff Chance +10%",
+        "Level 4: Buff/Debuff Chance +15%",
+        "Level 5: Cooldown -1"
+      ]
+    },
+    {
+      "cd": 5,
+      "mincd": 4,
+      "passive": false,
+      "dmgscaling": [
+        "ATK"
+      ],
+      "abilityname": "Glaciate",
+      "damageMultiplier": "1.8 ATK",
+      "description": "Attacks 1 enemy 3 times. If the target is under a [Freeze] debuff, removes the debuff after attacking and places it on all enemies except the initial target. Will also attacks all enemies except the initial target after the third hit.",
+      "books": [
+        "Level 2: Damage +5%",
+        "Level 3: Damage +5%",
+        "Level 4: Damage +10%",
+        "Level 5: Cooldown -1"
+      ]
+    },
+    {
+      "cd": 5,
+      "mincd": 5,
+      "passive": true,
+      "dmgscaling": [],
+      "abilityname": "Lord of Ice",
+      "description": "[Passive Effect] Decreases the damage this Champion receives by 10% and increases the damage this Champion inflicts by 10% if there are 1 or more enemies under [Freeze] debuff. Increases this Champion’s SPD by 15 and RES by 50 if there are 2 or more enemies under [Freeze] debuff.",
+      "books": []
+    }
+  ],
+  "version": "3.30.0",
+  "avatarUrl": "https://mcradane.github.io/raid-data/images/avatar/Yakarl_the_Scourge.png"
+}

@@ -1,29 +1,32 @@
 {
   "name": "Stitched Beast",
+  "id": "Stitched_Beast",
   "class": {
     "faction": "Undead Hordes",
-    "rarity": "Rare",
-    "role": "Attack",
-    "affinity": "Void"
+    "rarity": "rare",
+    "role": "attack",
+    "affinity": "void"
   },
   "stats": {
-    "hp": "13,545",
-    "atk": "1,343",
-    "def": "782",
-    "spd": "101",
-    "crate": "Rate",
-    "cdmg": "15",
-    "resist": "57",
-    "acc": "30"
+    "hp": 13545,
+    "atk": 1343,
+    "def": 782,
+    "spd": 101,
+    "crate": 15,
+    "cdmg": 57,
+    "resist": 30,
+    "acc": 0
   },
   "skills": [
     {
       "cd": 0,
       "mincd": 0,
+      "passive": false,
       "dmgscaling": [
         "ATK"
       ],
       "abilityname": "Bestial Maw",
+      "damageMultiplier": "1.9 ATK",
       "description": "Attacks 1 enemy 2 times.",
       "books": [
         "Level 2: Damage +5%",
@@ -35,10 +38,12 @@
     {
       "cd": 4,
       "mincd": 3,
+      "passive": false,
       "dmgscaling": [
         "ATK"
       ],
       "abilityname": "Virulent Spittle",
+      "damageMultiplier": "2.5 ATK",
       "description": "Attacks 1 enemy 2 times. Each hit has a 25% chance of placing a 25% [Weaken] debuff for 2 turns.",
       "books": [
         "Level 2: Damage +5%",
@@ -53,10 +58,12 @@
     {
       "cd": 4,
       "mincd": 4,
+      "passive": false,
       "dmgscaling": [
         "ATK"
       ],
       "abilityname": "Pack Tactics",
+      "damageMultiplier": "5.4 ATK",
       "description": "Attacks 1 enemy. Fully depletes the target’s Turn Meter.",
       "books": [
         "Level 2: Damage +5%",
@@ -66,5 +73,6 @@
       ]
     }
   ],
-  "avatarUrl": "https://goctionni.github.io/raid-data/images/avatar/Stitched_Beast.png"
+  "version": "3.30.0",
+  "avatarUrl": "https://mcradane.github.io/raid-data/images/avatar/Stitched_Beast.png"
 }

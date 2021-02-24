@@ -1,30 +1,34 @@
 {
   "name": "Renegade",
+  "id": "Renegade",
   "class": {
     "faction": "Knight Revenant",
-    "rarity": "Rare",
-    "role": "Support",
-    "affinity": "Void"
+    "rarity": "rare",
+    "role": "support",
+    "affinity": "void"
   },
   "stats": {
-    "hp": "18,495",
-    "atk": "1,046",
-    "def": "749",
-    "spd": "95",
-    "crate": "RATE",
-    "cdmg": "15",
-    "resist": "50",
-    "acc": "30"
+    "hp": 18495,
+    "atk": 1046,
+    "def": 749,
+    "spd": 95,
+    "crate": 15,
+    "cdmg": 50,
+    "resist": 30,
+    "acc": 10
   },
+  "aura": "Increases Ally RESIST in all Battles by 40.",
   "skills": [
     {
       "cd": 0,
       "mincd": 0,
+      "passive": false,
       "dmgscaling": [
         "ATK",
         "SPD"
       ],
       "abilityname": "Lingering Pain",
+      "damageMultiplier": "1.2 ATK + SPD",
       "description": "Attacks 1 enemy. Has a 25% chance of placing a 100% [Heal Reduction] debuff for 1 turn.",
       "books": [
         "Level 2: Damage +5%",
@@ -36,10 +40,12 @@
     {
       "cd": 3,
       "mincd": 3,
+      "passive": false,
       "dmgscaling": [
         "ATK"
       ],
       "abilityname": "Lash Out",
+      "damageMultiplier": "1.8 ATK",
       "description": "Attacks at random 3 times. Has a 50% chance of placing a 15% [Decrease SPD] debuff for 2 turns. Places a 25% [Decrease ACC] debuff for 2 turns if the target has any active buffs.",
       "books": [
         "Level 2: Damage +5%",
@@ -51,22 +57,17 @@
     {
       "cd": 7,
       "mincd": 5,
+      "passive": false,
       "dmgscaling": [],
       "abilityname": "Sacrificial Ritual",
+      "damageMultiplier": "0.3 HP",
       "description": "Decreases the cooldown of all ally skills by 2 turns. This skill does not affect this Champion, or other Champion’s with this skill. This Champion will receive damage equal to 30% of their MAX HP. This will happen even if it kills the Champion.",
       "books": [
         "Level 2: Cooldown -1",
         "Level 3: Cooldown -1"
       ]
-    },
-    {
-      "cd": 0,
-      "mincd": 0,
-      "dmgscaling": [],
-      "abilityname": "Aura",
-      "description": "Increases Ally RESIST in all Battles by 40.",
-      "books": []
     }
   ],
-  "avatarUrl": "https://goctionni.github.io/raid-data/images/avatar/Renegade.png"
+  "version": "3.30.0",
+  "avatarUrl": "https://mcradane.github.io/raid-data/images/avatar/Renegade.png"
 }

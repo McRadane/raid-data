@@ -1,29 +1,32 @@
 {
   "name": "Slayer",
+  "id": "Slayer",
   "class": {
     "faction": "Barbarians",
-    "rarity": "Rare",
-    "role": "Attack",
-    "affinity": "Force"
+    "rarity": "rare",
+    "role": "attack",
+    "affinity": "force"
   },
   "stats": {
-    "hp": "15,690",
-    "atk": "1,233",
-    "def": "749",
-    "spd": "90",
-    "crate": "Rate",
-    "cdmg": "15",
-    "resist": "57",
-    "acc": "30"
+    "hp": 15690,
+    "atk": 1233,
+    "def": 749,
+    "spd": 90,
+    "crate": 15,
+    "cdmg": 57,
+    "resist": 30,
+    "acc": 0
   },
   "skills": [
     {
       "cd": 0,
       "mincd": 0,
+      "passive": false,
       "dmgscaling": [
         "ATK"
       ],
       "abilityname": "Vicious Strike",
+      "damageMultiplier": "4 ATK",
       "description": "Attacks 1 enemy. Has a 30% chance of placing a 25% [Decrease ATK] debuff for 2 turns.",
       "books": [
         "Level 2: Damage +5%",
@@ -36,10 +39,12 @@
     {
       "cd": 4,
       "mincd": 3,
+      "passive": false,
       "dmgscaling": [
         "ATK"
       ],
       "abilityname": "Frost Burst",
+      "damageMultiplier": "4.4 ATK",
       "description": "Attacks all enemies.",
       "books": [
         "Level 2: Damage +5%",
@@ -51,10 +56,12 @@
     {
       "cd": 5,
       "mincd": 4,
+      "passive": false,
       "dmgscaling": [
         "ATK"
       ],
       "abilityname": "Debilitate",
+      "damageMultiplier": "6.2 ATK",
       "description": "Attacks 1 enemy. Places a 5% [Poison] debuff for 2 turns. Has a 75% chance of placing a [Stun] debuff for 1 turn.",
       "books": [
         "Level 2: Damage +5%",
@@ -65,5 +72,6 @@
       ]
     }
   ],
-  "avatarUrl": "https://goctionni.github.io/raid-data/images/avatar/Slayer.png"
+  "version": "3.30.0",
+  "avatarUrl": "https://mcradane.github.io/raid-data/images/avatar/Slayer.png"
 }

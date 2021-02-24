@@ -1,29 +1,32 @@
 {
   "name": "Runic Warder",
+  "id": "Runic_Warder",
   "class": {
     "faction": "Dwarves",
-    "rarity": "Rare",
-    "role": "HP",
-    "affinity": "Magic"
+    "rarity": "rare",
+    "role": "hp",
+    "affinity": "magic"
   },
   "stats": {
-    "hp": "19,155",
-    "atk": "848",
-    "def": "903",
-    "spd": "103",
-    "crate": "RATE",
-    "cdmg": "15",
-    "resist": "50",
-    "acc": "40"
+    "hp": 19155,
+    "atk": 848,
+    "def": 903,
+    "spd": 103,
+    "crate": 15,
+    "cdmg": 50,
+    "resist": 40,
+    "acc": 0
   },
   "skills": [
     {
       "cd": 0,
       "mincd": 0,
+      "passive": false,
       "dmgscaling": [
         "HP"
       ],
       "abilityname": "Twin Chops",
+      "damageMultiplier": "0.1 HP",
       "description": "Attacks 1 enemy 2 times.",
       "books": [
         "Level 2: Damage +5%",
@@ -35,10 +38,12 @@
     {
       "cd": 3,
       "mincd": 3,
+      "passive": false,
       "dmgscaling": [
         "HP"
       ],
       "abilityname": "Superior Steel",
+      "damageMultiplier": "0.15 HP",
       "description": "Attacks 1 enemy 2 times. Each hit has a 30% chance of placing a 50% [Decrease ATK] debuff for 2 turns.",
       "books": [
         "Level 2: Damage +5%",
@@ -52,6 +57,7 @@
     {
       "cd": 5,
       "mincd": 3,
+      "passive": false,
       "dmgscaling": [],
       "abilityname": "Rune of Outlasting",
       "description": "Places a 15% [Reflect Damage] buff and a 7.5% [Continuous Heal] buff on all allies for 2 turns.",
@@ -61,5 +67,6 @@
       ]
     }
   ],
-  "avatarUrl": "https://goctionni.github.io/raid-data/images/avatar/Runic_Warder.png"
+  "version": "3.30.0",
+  "avatarUrl": "https://mcradane.github.io/raid-data/images/avatar/Runic_Warder.png"
 }

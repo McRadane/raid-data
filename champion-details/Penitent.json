@@ -1,29 +1,32 @@
 {
   "name": "Penitent",
+  "id": "Penitent",
   "class": {
     "faction": "The Sacred Order",
-    "rarity": "Rare",
-    "role": "Defense",
-    "affinity": "Spirit"
+    "rarity": "rare",
+    "role": "defense",
+    "affinity": "spirit"
   },
   "stats": {
-    "hp": "14,865",
-    "atk": "793",
-    "def": "1,244",
-    "spd": "93",
-    "crate": "RATE",
-    "cdmg": "15",
-    "resist": "50",
-    "acc": "40"
+    "hp": 14865,
+    "atk": 793,
+    "def": 1244,
+    "spd": 93,
+    "crate": 15,
+    "cdmg": 50,
+    "resist": 40,
+    "acc": 0
   },
   "skills": [
     {
       "cd": 0,
       "mincd": 0,
+      "passive": false,
       "dmgscaling": [
         "ATK"
       ],
       "abilityname": "Sword of Faith",
+      "damageMultiplier": "4.7 ATK",
       "description": "Attacks 1 enemy 2 times. Has a 30% chance of placing a 25% [Decrease ATK] debuff for 1 turn.",
       "books": [
         "Level 2: Damage +5%",
@@ -36,10 +39,12 @@
     {
       "cd": 3,
       "mincd": 2,
+      "passive": false,
       "dmgscaling": [
         "ATK"
       ],
       "abilityname": "Counter",
+      "damageMultiplier": "8 ATK",
       "description": "Attacks 1 enemy. Places a [Counterattack] buff on this Champion for 1 turn.",
       "books": [
         "Level 2: Damage +5%",
@@ -51,6 +56,7 @@
     {
       "cd": 5,
       "mincd": 4,
+      "passive": false,
       "dmgscaling": [],
       "abilityname": "Unshakable Faith",
       "description": "Removes all debuffs from this Champion. Places a [Block Debuffs] buff on this Champion for 2 turns.",
@@ -59,5 +65,6 @@
       ]
     }
   ],
-  "avatarUrl": "https://goctionni.github.io/raid-data/images/avatar/Penitent.png"
+  "version": "3.30.0",
+  "avatarUrl": "https://mcradane.github.io/raid-data/images/avatar/Penitent.png"
 }

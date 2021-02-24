@@ -1,0 +1,23 @@
+{
+  "name": "Fahrakin the Fat",
+  "id": "Fahrakin_the_Fat",
+  "class": {
+    "faction": "Barbarians",
+    "rarity": "epic",
+    "role": "attack",
+    "affinity": "spirit"
+  },
+  "stats": {
+    "hp": 14535,
+    "atk": 1244,
+    "def": 1090,
+    "spd": 100,
+    "crate": 15,
+    "cdmg": 60,
+    "resist": 30,
+    "acc": 0
+  },
+  "skills": [],
+  "version": "3.30.0",
+  "avatarUrl": "https://mcradane.github.io/raid-data/images/avatar/Fahrakin_the_Fat.png"
+}

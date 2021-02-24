@@ -1,29 +1,32 @@
 {
   "name": "Foli",
+  "id": "Foli",
   "class": {
     "faction": "Dark Elves",
-    "rarity": "Legendary",
-    "role": "Attack",
-    "affinity": "Magic"
+    "rarity": "legendary",
+    "role": "attack",
+    "affinity": "magic"
   },
   "stats": {
-    "hp": "15,030",
-    "atk": "1,476",
-    "def": "1,101",
-    "spd": "105",
-    "crate": "RATE",
-    "cdmg": "15",
-    "resist": "63",
-    "acc": "30"
+    "hp": 15030,
+    "atk": 1476,
+    "def": 1101,
+    "spd": 105,
+    "crate": 15,
+    "cdmg": 63,
+    "resist": 30,
+    "acc": 0
   },
   "skills": [
     {
       "cd": 0,
       "mincd": 0,
+      "passive": false,
       "dmgscaling": [
         "ATK"
       ],
       "abilityname": "Marked for Destruction",
+      "damageMultiplier": "0.9 ATK",
       "description": "Attacks 1 enemy 4 times. Has a 20% chance of placing a 60% [Decrease DEF] debuff for 2 turns.",
       "books": [
         "Level 2: Damage +5%",
@@ -34,10 +37,12 @@
     {
       "cd": 4,
       "mincd": 3,
+      "passive": false,
       "dmgscaling": [
         "ATK"
       ],
       "abilityname": "Biodisruptor",
+      "damageMultiplier": "1.5 ATK",
       "description": "Attack 4 times at random. Each hit has a 35% chance of placing a [Leech] debuff for 2 turns.",
       "books": [
         "Level 2: Damage +5%",
@@ -47,12 +52,14 @@
       ]
     },
     {
-      "cd": 7,
-      "mincd": 6,
+      "cd": 5,
+      "mincd": 4,
+      "passive": false,
       "dmgscaling": [
         "ATK"
       ],
       "abilityname": "Sealed Fate",
+      "damageMultiplier": "4 ATK",
       "description": "Attacks all enemies, decreases their Turn Meters by 15%, then attacks the targeted enemy. Enemies killed by this Skill cannot be revived.",
       "books": [
         "Level 2: Damage +5%",
@@ -63,9 +70,8 @@
     {
       "cd": 5,
       "mincd": 3,
-      "dmgscaling": [
-        "Passive"
-      ],
+      "passive": true,
+      "dmgscaling": [],
       "abilityname": "Living Armor",
       "description": "Heals this Champion by 20% of their MAX HP and boosts the Turn Meter by 50% whenever an enemy places a [Stun], [Freeze], [Sleep] or [Provoke] on this Champion. Immediately removes all [Stun], [Freeze], [Sleep] and [Provoke] debuffs from this Champion.",
       "books": [
@@ -74,5 +80,6 @@
       ]
     }
   ],
-  "avatarUrl": "https://goctionni.github.io/raid-data/images/avatar/Foli.png"
+  "version": "3.30.0",
+  "avatarUrl": "https://mcradane.github.io/raid-data/images/avatar/Foli.png"
 }

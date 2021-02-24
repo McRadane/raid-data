@@ -1,29 +1,33 @@
 {
   "name": "Flesheater",
+  "id": "Flesheater",
   "class": {
     "faction": "Ogryn Tribes",
-    "rarity": "Rare",
-    "role": "Support",
-    "affinity": "Spirit"
+    "rarity": "rare",
+    "role": "support",
+    "affinity": "spirit"
   },
   "stats": {
-    "hp": "14,535",
-    "atk": "1,024",
-    "def": "1,035",
-    "spd": "94",
-    "crate": "Rate",
-    "cdmg": "15",
-    "resist": "50",
-    "acc": "30"
+    "hp": 14535,
+    "atk": 1024,
+    "def": 1035,
+    "spd": 94,
+    "crate": 15,
+    "cdmg": 50,
+    "resist": 30,
+    "acc": 10
   },
+  "aura": "Increases Ally HP in Faction Crypts by 22%.",
   "skills": [
     {
       "cd": 0,
       "mincd": 0,
+      "passive": false,
       "dmgscaling": [
         "ATK"
       ],
       "abilityname": "Freeze the Blood",
+      "damageMultiplier": "3.8 ATK",
       "description": "Attacks 1 enemy. Has a 20% chance of placing a [Freeze] debuff on the target for 1 turn.",
       "books": [
         "Level 2: Damage +5%",
@@ -35,10 +39,12 @@
     {
       "cd": 4,
       "mincd": 3,
+      "passive": false,
       "dmgscaling": [
         "ATK"
       ],
       "abilityname": "Tenderize",
+      "damageMultiplier": "2.5 ATK",
       "description": "Attacks 1 enemy 2 times. On each critical hit decreases the target’s Turn Meter by 15%.",
       "books": [
         "Level 2: Damage +5%",
@@ -50,21 +56,15 @@
     {
       "cd": 5,
       "mincd": 4,
+      "passive": false,
       "dmgscaling": [],
       "abilityname": "Gruesome Nourishment",
       "description": "Places a 50% [Increase ATK] buff on all allies for 2 turns.",
       "books": [
         "Level 2: Cooldown -1"
       ]
-    },
-    {
-      "cd": 0,
-      "mincd": 0,
-      "dmgscaling": [],
-      "abilityname": "Aura",
-      "description": "Increases Ally HP in Faction Crypts by 22%.",
-      "books": []
     }
   ],
-  "avatarUrl": "https://goctionni.github.io/raid-data/images/avatar/Flesheater.png"
+  "version": "3.30.0",
+  "avatarUrl": "https://mcradane.github.io/raid-data/images/avatar/Flesheater.png"
 }

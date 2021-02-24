@@ -1,29 +1,33 @@
 {
   "name": "Marksman",
+  "id": "Marksman",
   "class": {
     "faction": "High Elves",
-    "rarity": "Epic",
-    "role": "Attack",
-    "affinity": "Spirit"
+    "rarity": "epic",
+    "role": "attack",
+    "affinity": "spirit"
   },
   "stats": {
-    "hp": "14,700",
-    "atk": "1,432",
-    "def": "892",
-    "spd": "92",
-    "crate": "Rate",
-    "cdmg": "15",
-    "resist": "60",
-    "acc": "30"
+    "hp": 14700,
+    "atk": 1432,
+    "def": 892,
+    "spd": 92,
+    "crate": 15,
+    "cdmg": 60,
+    "resist": 30,
+    "acc": 0
   },
+  "aura": "Increases Ally DEF in the Arena by 32%",
   "skills": [
     {
       "cd": 0,
       "mincd": 0,
+      "passive": false,
       "dmgscaling": [
         "ATK"
       ],
       "abilityname": "Venom Arrow",
+      "damageMultiplier": "3.1 ATK",
       "description": "Attacks 1 enemy. Places a 5% [Poison] debuff for 2 turns if the attack is critical. Has a 15% chance of granting an Extra Turn.",
       "books": [
         "Level 2: Damage +5%",
@@ -35,10 +39,12 @@
     {
       "cd": 4,
       "mincd": 3,
+      "passive": false,
       "dmgscaling": [
         "ATK"
       ],
       "abilityname": "Impressive Shot",
+      "damageMultiplier": "5.7 ATK",
       "description": "Attacks 1 enemy. Fills the Turn Meter of all allies by 20%. Has an extra 15% chance of inflicting a critical hit.",
       "books": [
         "Level 2: Damage +5%",
@@ -50,10 +56,12 @@
     {
       "cd": 5,
       "mincd": 4,
+      "passive": false,
       "dmgscaling": [
         "ATK"
       ],
       "abilityname": "Thorns",
+      "damageMultiplier": "1.3 ATK",
       "description": "Attacks 4 times at random. Each hit has a 25% chance to ignore DEF.",
       "books": [
         "Level 2: Damage +15%",
@@ -61,15 +69,8 @@
         "Level 4: Buff/Debuff Chance +10%",
         "Level 5: Cooldown -1"
       ]
-    },
-    {
-      "cd": 0,
-      "mincd": 0,
-      "dmgscaling": [],
-      "abilityname": "Aura",
-      "description": "Increases Ally DEF in the Arena by 32%",
-      "books": []
     }
   ],
-  "avatarUrl": "https://goctionni.github.io/raid-data/images/avatar/Marksman.png"
+  "version": "3.30.0",
+  "avatarUrl": "https://mcradane.github.io/raid-data/images/avatar/Marksman.png"
 }

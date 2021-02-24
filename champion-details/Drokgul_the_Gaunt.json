@@ -1,29 +1,32 @@
 {
   "name": "Drokgul the Gaunt",
+  "id": "Drokgul_the_Gaunt",
   "class": {
     "faction": "Ogryn Tribes",
-    "rarity": "Legendary",
-    "role": "Support",
-    "affinity": "Spirit"
+    "rarity": "legendary",
+    "role": "support",
+    "affinity": "spirit"
   },
   "stats": {
-    "hp": "22,965",
-    "atk": "991",
-    "def": "1,057",
-    "spd": "107",
-    "crate": "15%",
-    "cdmg": "50%",
-    "resist": "40",
-    "acc": "0"
+    "hp": 22965,
+    "atk": 991,
+    "def": 1057,
+    "spd": 107,
+    "crate": 15,
+    "cdmg": 50,
+    "resist": 40,
+    "acc": 0
   },
   "skills": [
     {
       "cd": 0,
       "mincd": 0,
+      "passive": false,
       "dmgscaling": [
         "HP"
       ],
       "abilityname": "Bonebreak Boulder",
+      "damageMultiplier": "0.2 HP",
       "description": "Attacks 1 enemy. Has a 20% chance of placing a [Stun] debuff for 1 turn.",
       "books": [
         "Level 2: Damage +5%",
@@ -36,6 +39,7 @@
     {
       "cd": 5,
       "mincd": 3,
+      "passive": false,
       "dmgscaling": [],
       "abilityname": "Eldritch Ground",
       "description": "Places a 50% [Increase ATK] buff and a 60% [Increase DEF] buff on all allies for 2 turns. Also places a [Block Damage] buff for 1 turn on allies with less than 30% HP.",
@@ -47,11 +51,11 @@
     {
       "cd": 5,
       "mincd": 4,
+      "passive": false,
       "dmgscaling": [],
       "abilityname": "Runestone Blessing",
       "description": "[Active Effect] Places a [Shield] buff equal to 15% of this Champion’s MAX HP on all allies for 3 turns.",
       "books": [
-        "[Passive Effect] Heals each ally by 15% of this Champion’s MAX HP whenever a [Shield] buff placed by this Skill expires, is removed, or is broken by an enemy attack. Allies whose [Shield] buffs are broken will also counterattack the enemy that breaks the [Shield]. When a [Shield] is broken, the heal occurs instantly before any remaining damage from the Shield-breaking attack is taken.",
         "Level 2: Shield +5%",
         "Level 3: Shield +5%",
         "Level 4: Shield +10%",
@@ -59,5 +63,6 @@
       ]
     }
   ],
-  "avatarUrl": "https://goctionni.github.io/raid-data/images/avatar/Drokgul_the_Gaunt.png"
+  "version": "3.30.0",
+  "avatarUrl": "https://mcradane.github.io/raid-data/images/avatar/Drokgul_the_Gaunt.png"
 }

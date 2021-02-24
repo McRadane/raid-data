@@ -1,29 +1,32 @@
 {
   "name": "Madman",
+  "id": "Madman",
   "class": {
     "faction": "Dwarves",
-    "rarity": "Rare",
-    "role": "Attack",
-    "affinity": "Spirit"
+    "rarity": "rare",
+    "role": "attack",
+    "affinity": "spirit"
   },
   "stats": {
-    "hp": "14,040",
-    "atk": "1,343",
-    "def": "749",
-    "spd": "99",
-    "crate": "RATE",
-    "cdmg": "15",
-    "resist": "57",
-    "acc": "30"
+    "hp": 14040,
+    "atk": 1343,
+    "def": 749,
+    "spd": 99,
+    "crate": 15,
+    "cdmg": 57,
+    "resist": 30,
+    "acc": 0
   },
   "skills": [
     {
       "cd": 0,
       "mincd": 0,
+      "passive": false,
       "dmgscaling": [
         "ATK"
       ],
       "abilityname": "Wild Slashing",
+      "damageMultiplier": "3 ATK",
       "description": "Attacks 1 enemy. Has a 50% chance of attacking all other enemies with a second hit, dealing 30% of the damage inflicted from the first hit.",
       "books": [
         "Level 2: Damage +5%",
@@ -35,10 +38,12 @@
     {
       "cd": 4,
       "mincd": 3,
+      "passive": false,
       "dmgscaling": [
         "ATK"
       ],
       "abilityname": "Insane Resilience",
+      "damageMultiplier": "3.4 ATK",
       "description": "Attacks all enemies. Heals this Champion by 10% of the damage inflicted if this Champion’s current HP is below 50%.",
       "books": [
         "Level 2: Damage +5%",
@@ -51,10 +56,12 @@
     {
       "cd": 4,
       "mincd": 4,
+      "passive": false,
       "dmgscaling": [
         "ATK"
       ],
       "abilityname": "Crazed Lunge",
+      "damageMultiplier": "4.5 ATK",
       "description": "Attacks 1 enemy. Will ignore 30% of the target’s DEF. Ignores [Block Damage] and [Shield] buffs.",
       "books": [
         "Level 2: Damage +5%",
@@ -63,5 +70,6 @@
       ]
     }
   ],
-  "avatarUrl": "https://goctionni.github.io/raid-data/images/avatar/Madman.png"
+  "version": "3.30.0",
+  "avatarUrl": "https://mcradane.github.io/raid-data/images/avatar/Madman.png"
 }

@@ -1,29 +1,33 @@
 {
   "name": "Grinner",
+  "id": "Grinner",
   "class": {
     "faction": "Undead Hordes",
-    "rarity": "Rare",
-    "role": "Support",
-    "affinity": "Force"
+    "rarity": "rare",
+    "role": "support",
+    "affinity": "force"
   },
   "stats": {
-    "hp": "14,370",
-    "atk": "936",
-    "def": "1,134",
-    "spd": "110",
-    "crate": "Rate",
-    "cdmg": "15",
-    "resist": "30",
-    "acc": "30"
+    "hp": 14370,
+    "atk": 936,
+    "def": 1134,
+    "spd": 110,
+    "crate": 15,
+    "cdmg": 30,
+    "resist": 30,
+    "acc": 0
   },
+  "aura": "Increases Ally RESIST in Faction Crypts by 30.",
   "skills": [
     {
       "cd": 0,
       "mincd": 0,
+      "passive": false,
       "dmgscaling": [
         "ATK"
       ],
       "abilityname": "Bile",
+      "damageMultiplier": "3.9 ATK",
       "description": "Attacks 1 enemy. Has a 25% chance of placing a 50% [Increase ATK] buff on all allies for 2 turns.",
       "books": [
         "Level 2: Damage +5%",
@@ -35,10 +39,12 @@
     {
       "cd": 5,
       "mincd": 3,
+      "passive": false,
       "dmgscaling": [
         "ATK"
       ],
       "abilityname": "Shock",
+      "damageMultiplier": "4.2 ATK",
       "description": "Attacks all enemies. Has a 20% chance of removing 1 random buff from each target.",
       "books": [
         "Level 2: Damage +5%",
@@ -53,6 +59,7 @@
     {
       "cd": 7,
       "mincd": 4,
+      "passive": false,
       "dmgscaling": [],
       "abilityname": "Unbury",
       "description": "Revives an ally with 50% HP. Places a [Shield] buff on the revived Champion for 2 turns equal to 20% of their MAX HP.",
@@ -61,15 +68,8 @@
         "Level 3: Cooldown -1",
         "Level 4: Cooldown -1"
       ]
-    },
-    {
-      "cd": 0,
-      "mincd": 0,
-      "dmgscaling": [],
-      "abilityname": "Aura",
-      "description": "Increases Ally RESIST in Faction Crypts by 30.",
-      "books": []
     }
   ],
-  "avatarUrl": "https://goctionni.github.io/raid-data/images/avatar/Grinner.png"
+  "version": "3.30.0",
+  "avatarUrl": "https://mcradane.github.io/raid-data/images/avatar/Grinner.png"
 }

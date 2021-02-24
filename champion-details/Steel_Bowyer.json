@@ -1,29 +1,33 @@
 {
   "name": "Steel Bowyer",
+  "id": "Steel_Bowyer",
   "class": {
     "faction": "Dark Elves",
-    "rarity": "Rare",
-    "role": "Attack",
-    "affinity": "Force"
+    "rarity": "rare",
+    "role": "attack",
+    "affinity": "force"
   },
   "stats": {
-    "hp": "12,720",
-    "atk": "1,365",
-    "def": "815",
-    "spd": "100",
-    "crate": "Rate",
-    "cdmg": "15",
-    "resist": "57",
-    "acc": "30"
+    "hp": 12720,
+    "atk": 1365,
+    "def": 815,
+    "spd": 100,
+    "crate": 15,
+    "cdmg": 57,
+    "resist": 30,
+    "acc": 0
   },
+  "aura": "Increases Ally ATK in Faction Crypts by 17%.",
   "skills": [
     {
       "cd": 0,
       "mincd": 0,
+      "passive": false,
       "dmgscaling": [
         "ATK"
       ],
       "abilityname": "Binding Arrows",
+      "damageMultiplier": "1.5 ATK",
       "description": "Attacks 1 enemy 2 times. Has a 35% chance of placing a 50% [Decrease ACC] debuff for 2 turns.",
       "books": [
         "Level 2: Damage +5%",
@@ -37,10 +41,12 @@
     {
       "cd": 4,
       "mincd": 3,
+      "passive": false,
       "dmgscaling": [
         "ATK"
       ],
       "abilityname": "Thrill of the Hunt",
+      "damageMultiplier": "2.7 ATK",
       "description": "Attacks 1 enemy 2 times. Heals this Champion by 50% of the damage inflicted on each critical hit.",
       "books": [
         "Level 2: Damage +5%",
@@ -54,12 +60,14 @@
     {
       "cd": 7,
       "mincd": 5,
+      "passive": false,
       "dmgscaling": [
         "Enemy MAX HP",
         "ATK"
       ],
       "abilityname": "Big Game",
-      "description": "Attacks all enemies times. Damage increases according to enemy MAX HP.",
+      "damageMultiplier": "0.02 HP + 3 ATK",
+      "description": "Attacks all enemies. Damage increases according to enemy MAX HP.",
       "books": [
         "Level 2: Damage +5%",
         "Level 3: Damage +5%",
@@ -68,15 +76,8 @@
         "Level 6: Cooldown -1",
         "Level 7: Cooldown -1"
       ]
-    },
-    {
-      "cd": 0,
-      "mincd": 0,
-      "dmgscaling": [],
-      "abilityname": "Aura",
-      "description": "Increases Ally ATK in Faction Crypts by 17%.",
-      "books": []
     }
   ],
-  "avatarUrl": "https://goctionni.github.io/raid-data/images/avatar/Steel_Bowyer.png"
+  "version": "3.30.0",
+  "avatarUrl": "https://mcradane.github.io/raid-data/images/avatar/Steel_Bowyer.png"
 }

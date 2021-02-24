@@ -1,29 +1,33 @@
 {
   "name": "Vergumkaar",
+  "id": "Vergumkaar",
   "class": {
     "faction": "Lizardmen",
-    "rarity": "Legendary",
-    "role": "Support",
-    "affinity": "Spirit"
+    "rarity": "legendary",
+    "role": "support",
+    "affinity": "spirit"
   },
   "stats": {
-    "hp": "22,140",
-    "atk": "914",
-    "def": "1,189",
-    "spd": "99",
-    "crate": "15",
-    "cdmg": "50",
-    "resist": "50",
-    "acc": "10"
+    "hp": 22140,
+    "atk": 914,
+    "def": 1189,
+    "spd": 99,
+    "crate": 15,
+    "cdmg": 50,
+    "resist": 50,
+    "acc": 10
   },
+  "aura": "Increases Ally RESIST in all Battles by 55",
   "skills": [
     {
       "cd": 0,
       "mincd": 0,
+      "passive": false,
       "dmgscaling": [
         "ATK"
       ],
       "abilityname": "Bejeweled Bulk",
+      "damageMultiplier": "4.85 ATK",
       "description": "Attacks 1 enemy. Has a 35% chance of placing a [Stun] debuff for 1 turn. The chance increases by 15% for each buff on the target.",
       "books": [
         "Level 2: Damage +5%",
@@ -35,6 +39,7 @@
     {
       "cd": 4,
       "mincd": 3,
+      "passive": false,
       "dmgscaling": [],
       "abilityname": "Honored Ancient",
       "description": "Removes all [Provoke] debuffs and 1 random debuff from all allies. Places a 60% [Increase DEF] buff for 2 turns on allies who have debuffs removed. Also places a [Shield] buff on all allies equal to 20% of this Champion’s MAX HP for 2 turns.",
@@ -48,10 +53,12 @@
     {
       "cd": 5,
       "mincd": 3,
+      "passive": false,
       "dmgscaling": [
         "ATK"
       ],
       "abilityname": "Crushing Trample",
+      "damageMultiplier": "4.75 ATK",
       "description": "Attacks all enemies. Removes 1 random buff from each enemy. Has a 75% chance of removing 2 random buffs from each enemy. Places a 100% [Block Heal] debuff for 3 turns on enemies who have 1 or more buffs removed. Also places a 60% [Decrease DEF] debuff for 2 turns on enemies who have 2 buffs removed.",
       "books": [
         "Level 2: Damage +5%",
@@ -62,23 +69,15 @@
       ]
     },
     {
-      "cd": 4,
-      "mincd": 4,
-      "dmgscaling": [
-        "Passive"
-      ],
+      "cd": 0,
+      "mincd": 0,
+      "passive": true,
+      "dmgscaling": [],
       "abilityname": "Saurian Stoic",
       "description": "Immune to [Provoke] debuffs. Fills this Champion’s Tum Meter by 20% each time an enemy attempts to place a [Provoke] debuff on this Champion.",
       "books": []
-    },
-    {
-      "cd": 0,
-      "mincd": 0,
-      "dmgscaling": [],
-      "abilityname": "Aura",
-      "description": "Increases Ally RESIST in all Battles by 55",
-      "books": []
     }
   ],
-  "avatarUrl": "https://goctionni.github.io/raid-data/images/avatar/Vergumkaar.png"
+  "version": "3.30.0",
+  "avatarUrl": "https://mcradane.github.io/raid-data/images/avatar/Vergumkaar.png"
 }

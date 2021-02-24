@@ -1,29 +1,33 @@
 {
   "name": "Honor Guard",
+  "id": "Honor_Guard",
   "class": {
     "faction": "Dwarves",
-    "rarity": "Rare",
-    "role": "Defense",
-    "affinity": "Force"
+    "rarity": "rare",
+    "role": "defense",
+    "affinity": "force"
   },
   "stats": {
-    "hp": "15,525",
-    "atk": "760",
-    "def": "1,233",
-    "spd": "99",
-    "crate": "RATE",
-    "cdmg": "15",
-    "resist": "50",
-    "acc": "55"
+    "hp": 15525,
+    "atk": 760,
+    "def": 1233,
+    "spd": 99,
+    "crate": 15,
+    "cdmg": 50,
+    "resist": 55,
+    "acc": 0
   },
+  "aura": "Increases Force Ally DEF in all Battles by 25%",
   "skills": [
     {
       "cd": 0,
       "mincd": 0,
+      "passive": false,
       "dmgscaling": [
         "DEF"
       ],
       "abilityname": "Bell Ringer",
+      "damageMultiplier": "3.12 DEF",
       "description": "Attacks 1 enemy. Has a 50% chance of placing a 25% [Decrease ACC] debuff for 2 turns if the target has no active buffs.",
       "books": [
         "Level 2: Damage +5%",
@@ -35,10 +39,12 @@
     {
       "cd": 4,
       "mincd": 3,
+      "passive": false,
       "dmgscaling": [
         "DEF"
       ],
       "abilityname": "Fate Transfer",
+      "damageMultiplier": "5.25 DEF",
       "description": "Attacks 1 enemy. Has a 50% chance of stealing 2 random buffs from the target.",
       "books": [
         "Level 2: Damage +5%",
@@ -52,10 +58,12 @@
     {
       "cd": 5,
       "mincd": 4,
+      "passive": false,
       "dmgscaling": [
         "DEF"
       ],
       "abilityname": "Astral Chains",
+      "damageMultiplier": "5.1 DEF",
       "description": "Attacks 1 enemy. Has a 75% chance of placing a [Block Buffs] debuff for 2 turns.",
       "books": [
         "Level 2: Damage +5%",
@@ -66,15 +74,8 @@
         "Level 7: Buff/Debuff Chance +15%",
         "Level 8: Cooldown -1"
       ]
-    },
-    {
-      "cd": 0,
-      "mincd": 0,
-      "dmgscaling": [],
-      "abilityname": "Aura",
-      "description": "Increases Force Ally DEF in all Battles by 25%",
-      "books": []
     }
   ],
-  "avatarUrl": "https://goctionni.github.io/raid-data/images/avatar/Honor_Guard.png"
+  "version": "3.30.0",
+  "avatarUrl": "https://mcradane.github.io/raid-data/images/avatar/Honor_Guard.png"
 }

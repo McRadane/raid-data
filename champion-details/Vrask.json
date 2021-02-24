@@ -1,29 +1,33 @@
 {
   "name": "Vrask",
+  "id": "Vrask",
   "class": {
     "faction": "Orcs",
-    "rarity": "Epic",
-    "role": "HP",
-    "affinity": "Spirit"
+    "rarity": "epic",
+    "role": "hp",
+    "affinity": "spirit"
   },
   "stats": {
-    "hp": "23,460",
-    "atk": "870",
-    "def": "870",
-    "spd": "97",
-    "crate": "RATE",
-    "cdmg": "15",
-    "resist": "50",
-    "acc": "45"
+    "hp": 23460,
+    "atk": 870,
+    "def": 870,
+    "spd": 97,
+    "crate": 15,
+    "cdmg": 50,
+    "resist": 45,
+    "acc": 0
   },
+  "aura": "Increases Ally DEF in Dungeons by 33%.",
   "skills": [
     {
       "cd": 0,
       "mincd": 0,
+      "passive": false,
       "dmgscaling": [
         "HP"
       ],
       "abilityname": "Whack",
+      "damageMultiplier": "0.1 HP",
       "description": "Attacks 1 enemy. Fills this Champion’s Turn Meter by 20% if this attack is critical.",
       "books": [
         "Level 2: Damage +5%",
@@ -35,10 +39,12 @@
     {
       "cd": 4,
       "mincd": 3,
+      "passive": false,
       "dmgscaling": [
         "HP"
       ],
       "abilityname": "Lightning Strike",
+      "damageMultiplier": "0.15 HP",
       "description": "Attacks 1 enemy.",
       "books": [
         "Level 2: Damage +5%",
@@ -50,21 +56,13 @@
     {
       "cd": 0,
       "mincd": 0,
-      "dmgscaling": [
-        "Passive"
-      ],
+      "passive": true,
+      "dmgscaling": [],
       "abilityname": "Cannibalism",
       "description": "Heals all allies by 10% of his MAX HP when he inflicts a critical hit.",
       "books": []
-    },
-    {
-      "cd": 0,
-      "mincd": 0,
-      "dmgscaling": [],
-      "abilityname": "Aura",
-      "description": "Increases Ally DEF in Dungeons by 33%.",
-      "books": []
     }
   ],
-  "avatarUrl": "https://goctionni.github.io/raid-data/images/avatar/Vrask.png"
+  "version": "3.30.0",
+  "avatarUrl": "https://mcradane.github.io/raid-data/images/avatar/Vrask.png"
 }

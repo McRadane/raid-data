@@ -1,29 +1,33 @@
 {
   "name": "Crypt-King Graal",
+  "id": "Crypt_King_Graal",
   "class": {
     "faction": "Undead Hordes",
-    "rarity": "Legendary",
-    "role": "Support",
-    "affinity": "Magic"
+    "rarity": "legendary",
+    "role": "support",
+    "affinity": "magic"
   },
   "stats": {
-    "hp": "19,320",
-    "atk": "1,145",
-    "def": "1,145",
-    "spd": "107",
-    "crate": "RATE",
-    "cdmg": "15",
-    "resist": "50",
-    "acc": "30"
+    "hp": 19320,
+    "atk": 1145,
+    "def": 1145,
+    "spd": 107,
+    "crate": 15,
+    "cdmg": 50,
+    "resist": 30,
+    "acc": 10
   },
+  "aura": "Increases Ally HP in all Battles by 33%",
   "skills": [
     {
       "cd": 0,
       "mincd": 0,
+      "passive": false,
       "dmgscaling": [
         "ATK"
       ],
       "abilityname": "Brittleness Bane",
+      "damageMultiplier": "3.7 ATK",
       "description": "Attacks 1 enemy. Has a 60% chance of placing a 50% [Decrease ATK] debuff for 2 turns.",
       "books": [
         "Level 2: Damage +5%",
@@ -35,10 +39,12 @@
     {
       "cd": 4,
       "mincd": 3,
+      "passive": false,
       "dmgscaling": [
         "ATK"
       ],
       "abilityname": "Death Fires",
+      "damageMultiplier": "1.8 ATK",
       "description": "Attacks 3 times at random. Has a 50% chance of placing a [HP Burn] debuff for 2 turns.",
       "books": [
         "Level 2: Damage +5%",
@@ -51,25 +57,20 @@
     {
       "cd": 4,
       "mincd": 4,
+      "passive": false,
       "dmgscaling": [
         "ATK"
       ],
       "abilityname": "Elemental Unity",
+      "damageMultiplier": "3.6 ATK",
       "description": "Attacks all enemies. Places a [Freeze] debuff on each target for 1 turn if they are under a [HP Burn] debuff. Extends the duration of any [HP Burn] debuffs to 3 turns. This effect cannot be resisted.",
       "books": [
         "Level 2: Damage +5%",
         "Level 3: Damage +5%",
         "Level 4: Damage +5%"
       ]
-    },
-    {
-      "cd": 0,
-      "mincd": 0,
-      "dmgscaling": [],
-      "abilityname": "Aura",
-      "description": "Increases Ally HP in all Battles by 33%",
-      "books": []
     }
   ],
-  "avatarUrl": "https://goctionni.github.io/raid-data/images/avatar/Crypt_King_Graal.png"
+  "version": "3.30.0",
+  "avatarUrl": "https://mcradane.github.io/raid-data/images/avatar/Crypt_King_Graal.png"
 }

@@ -1,29 +1,33 @@
 {
   "name": "Septimus",
+  "id": "Septimus",
   "class": {
     "faction": "Banner Lords",
-    "rarity": "Legendary",
-    "role": "Attack",
-    "affinity": "Spirit"
+    "rarity": "legendary",
+    "role": "attack",
+    "affinity": "spirit"
   },
   "stats": {
-    "hp": "13,710",
-    "atk": "1,674",
-    "def": "991",
-    "spd": "102",
-    "crate": "RATE",
-    "cdmg": "15",
-    "resist": "63",
-    "acc": "30"
+    "hp": 13710,
+    "atk": 1674,
+    "def": 991,
+    "spd": 102,
+    "crate": 15,
+    "cdmg": 63,
+    "resist": 30,
+    "acc": 0
   },
+  "aura": "Increases Ally ATK in all Battles by 23%",
   "skills": [
     {
       "cd": 0,
       "mincd": 0,
+      "passive": false,
       "dmgscaling": [
         "ATK"
       ],
       "abilityname": "Behead",
+      "damageMultiplier": "3.6 ATK",
       "description": "Attacks 1 enemy. Grants an Extra Turn and resets the cooldown on this Champion’s Holy Sword Skill if the target is killed.",
       "books": [
         "Level 2: Damage +5%",
@@ -35,11 +39,13 @@
     {
       "cd": 4,
       "mincd": 4,
+      "passive": false,
       "dmgscaling": [
         "ATK",
         "Enemy MAX HP"
       ],
       "abilityname": "Holy Sword",
+      "damageMultiplier": "2.5 ATK + 0.1 Enemy MAX HP",
       "description": "Attacks 1 enemy. Will ignore [Shield] and [Block Damage] buffs. Damage increases according to enemy MAX HP.",
       "books": [
         "Level 2: Damage +5%",
@@ -51,19 +57,13 @@
     {
       "cd": 0,
       "mincd": 0,
+      "passive": true,
       "dmgscaling": [],
       "abilityname": "Giant Killer",
       "description": "Each attack has a 30% chance of increasing the duration of all debuffs on the target by 1 turn. Damage inflicted by each attack increases by 30% if the enemy’s current HP is over 50%.",
       "books": []
-    },
-    {
-      "cd": 0,
-      "mincd": 0,
-      "dmgscaling": [],
-      "abilityname": "Aura",
-      "description": "Increases Ally ATK in all Battles by 23%",
-      "books": []
     }
   ],
-  "avatarUrl": "https://goctionni.github.io/raid-data/images/avatar/Septimus.png"
+  "version": "3.30.0",
+  "avatarUrl": "https://mcradane.github.io/raid-data/images/avatar/Septimus.png"
 }

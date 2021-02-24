@@ -1,0 +1,71 @@
+{
+  "name": "Lodric Falconheart",
+  "id": "Lodric_Falconheart",
+  "class": {
+    "faction": "The Sacred Order",
+    "rarity": "epic",
+    "role": "hp",
+    "affinity": "spirit"
+  },
+  "stats": {
+    "hp": 18825,
+    "atk": 947,
+    "def": 1101,
+    "spd": 96,
+    "crate": 15,
+    "cdmg": 50,
+    "resist": 45,
+    "acc": 0
+  },
+  "aura": "Increases Ally HP in the Doom Tower by 25%",
+  "skills": [
+    {
+      "cd": 0,
+      "mincd": 0,
+      "passive": false,
+      "dmgscaling": [
+        "HP"
+      ],
+      "abilityname": "Strike of Dismay",
+      "damageMultiplier": "0.23 HP",
+      "description": "Attacks 1 enemy. Has a 40% chance of placing a 50% [Decrease ATK] debuff for 2 turns.",
+      "books": [
+        "Level 2: Damage +5%",
+        "Level 3: Buff/Debuff Chance +5%",
+        "Level 4: Damage +5%",
+        "Level 5: Buff/Debuff Chance +5%",
+        "Level 6: Damage +10%",
+        "Level 7: Buff/Debuff Chance +10%"
+      ]
+    },
+    {
+      "cd": 4,
+      "mincd": 3,
+      "passive": false,
+      "dmgscaling": [],
+      "abilityname": "Hold Out",
+      "description": "Removes all debuffs from one ally, then places a 50% [Ally Protection] buff on that ally for 2 turns.",
+      "books": [
+        "Level 2: Cooldown -1"
+      ]
+    },
+    {
+      "cd": 4,
+      "mincd": 2,
+      "passive": false,
+      "dmgscaling": [],
+      "abilityname": "Falcon’s Wings",
+      "description": "Places a [Shield] buff on all allies for 2 turns equal to 20% of this Champion’s MAX HP.",
+      "books": [
+        "Level 2: Shield +5%",
+        "Level 3: Shield +5%",
+        "Level 4: Shield +5%",
+        "Level 5: Shield +5%",
+        "Level 6: Cooldown -1",
+        "Level 7: Cooldown -1"
+      ]
+    }
+  ],
+  "version": "3.30.0",
+  "avatarUrl": "https://mcradane.github.io/raid-data/images/avatar/Lodric_Falconheart.png"
+}

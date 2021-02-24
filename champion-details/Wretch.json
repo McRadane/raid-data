@@ -1,29 +1,33 @@
 {
   "name": "Wretch",
+  "id": "Wretch",
   "class": {
     "faction": "Undead Hordes",
-    "rarity": "Rare",
-    "role": "Attack",
-    "affinity": "Force"
+    "rarity": "rare",
+    "role": "attack",
+    "affinity": "force"
   },
   "stats": {
-    "hp": "13,215",
-    "atk": "1,432",
-    "def": "716",
-    "spd": "97",
-    "crate": "Rate",
-    "cdmg": "15",
-    "resist": "57",
-    "acc": "30"
+    "hp": 13215,
+    "atk": 1432,
+    "def": 716,
+    "spd": 97,
+    "crate": 15,
+    "cdmg": 57,
+    "resist": 30,
+    "acc": 0
   },
+  "aura": "Increases Force Ally ATK in all Battles by 30%.",
   "skills": [
     {
       "cd": 0,
       "mincd": 0,
+      "passive": false,
       "dmgscaling": [
         "ATK"
       ],
       "abilityname": "Crypt Touch",
+      "damageMultiplier": "1.5 ATK",
       "description": "Attacks 1 enemy 2 times. Has a 20% chance of placing a 50% [Heal Reduction] debuff for 2 turns.",
       "books": [
         "Level 2: Damage +5%",
@@ -35,10 +39,12 @@
     {
       "cd": 4,
       "mincd": 3,
+      "passive": false,
       "dmgscaling": [
         "ATK"
       ],
       "abilityname": "Lifeleech",
+      "damageMultiplier": "5 ATK",
       "description": "Attacks 1 enemy. Heals this Champion by 15% of damage inflicted.",
       "books": [
         "Level 2: Damage +5%",
@@ -50,10 +56,12 @@
     {
       "cd": 4,
       "mincd": 3,
+      "passive": false,
       "dmgscaling": [
         "ATK"
       ],
       "abilityname": "Gravefire",
+      "damageMultiplier": "4.9 ATK",
       "description": "Attacks 1 enemy. Places a [HP Burn] debuff for 2 turns.",
       "books": [
         "Level 2: Damage +5%",
@@ -61,15 +69,8 @@
         "Level 4: Damage +10%",
         "Level 5: Cooldown -1"
       ]
-    },
-    {
-      "cd": 0,
-      "mincd": 0,
-      "dmgscaling": [],
-      "abilityname": "Aura",
-      "description": "Increases Force Ally ATK in all Battles by 30%.",
-      "books": []
     }
   ],
-  "avatarUrl": "https://goctionni.github.io/raid-data/images/avatar/Wretch.png"
+  "version": "3.30.0",
+  "avatarUrl": "https://mcradane.github.io/raid-data/images/avatar/Wretch.png"
 }

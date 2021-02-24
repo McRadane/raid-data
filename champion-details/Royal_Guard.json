@@ -1,29 +1,33 @@
 {
   "name": "Royal Guard",
+  "id": "Royal_Guard",
   "class": {
     "faction": "High Elves",
-    "rarity": "Epic",
-    "role": "Attack",
-    "affinity": "Magic"
+    "rarity": "epic",
+    "role": "attack",
+    "affinity": "magic"
   },
   "stats": {
-    "hp": "15,030",
-    "atk": "1,531",
-    "def": "771",
-    "spd": "93",
-    "crate": "RATE",
-    "cdmg": "15",
-    "resist": "60",
-    "acc": "30"
+    "hp": 15030,
+    "atk": 1531,
+    "def": 771,
+    "spd": 93,
+    "crate": 15,
+    "cdmg": 60,
+    "resist": 30,
+    "acc": 10
   },
+  "aura": "Increases Ally ATK in Dungeons by 35%.",
   "skills": [
     {
       "cd": 0,
       "mincd": 0,
+      "passive": false,
       "dmgscaling": [
         "ATK"
       ],
       "abilityname": "Razor Blade",
+      "damageMultiplier": "3.3 ATK",
       "description": "Attacks 1 enemy. Has a 50% chance of placing a 60% [Decrease DEF] debuff for 2 turns.",
       "books": [
         "Level 2: Damage +5%",
@@ -35,11 +39,13 @@
     {
       "cd": 4,
       "mincd": 4,
+      "passive": false,
       "dmgscaling": [
         "ATK",
         "Enemy MAX HP"
       ],
       "abilityname": "Takedown",
+      "damageMultiplier": "2 ATK + 0.1 ENEMY MAX HP",
       "description": "Attacks all enemies. Damage increases according to enemy MAX HP.",
       "books": [
         "Level 2: Damage +5%",
@@ -51,10 +57,12 @@
     {
       "cd": 5,
       "mincd": 4,
+      "passive": false,
       "dmgscaling": [
         "ATK"
       ],
       "abilityname": "Hamstring",
+      "damageMultiplier": "1.5 ATK",
       "description": "Attacks 4 times at random. Each hit has a 60% chance of placing a 30% [Decrease SPD] debuff for 2 turns. Each hit also has a 60% chance of decreasing the target’s Turn Meter by 25%.",
       "books": [
         "Level 2: Damage +10%",
@@ -62,15 +70,8 @@
         "Level 4: Buff/Debuff Chance +10%",
         "Level 5: Cooldown -1"
       ]
-    },
-    {
-      "cd": 0,
-      "mincd": 0,
-      "dmgscaling": [],
-      "abilityname": "Aura",
-      "description": "Increases Ally ATK in Dungeons by 35%.",
-      "books": []
     }
   ],
-  "avatarUrl": "https://goctionni.github.io/raid-data/images/avatar/Royal_Guard.png"
+  "version": "3.30.0",
+  "avatarUrl": "https://mcradane.github.io/raid-data/images/avatar/Royal_Guard.png"
 }

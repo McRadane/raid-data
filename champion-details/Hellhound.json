@@ -1,30 +1,33 @@
 {
   "name": "Hellhound",
+  "id": "Hellhound",
   "class": {
     "faction": "Undead Hordes",
-    "rarity": "Common",
-    "role": "Attack",
-    "affinity": "Spirit"
+    "rarity": "common",
+    "role": "attack",
+    "affinity": "spirit"
   },
   "stats": {
-    "hp": "10,245",
-    "atk": "760",
-    "def": "760",
-    "spd": "94",
-    "crate": "Rate",
-    "cdmg": "15",
-    "resist": "50",
-    "acc": "30"
+    "hp": 10245,
+    "atk": 760,
+    "def": 760,
+    "spd": 94,
+    "crate": 15,
+    "cdmg": 50,
+    "resist": 30,
+    "acc": 0
   },
   "skills": [
     {
       "cd": 0,
       "mincd": 0,
+      "passive": false,
       "dmgscaling": [
         "ATK",
         "DEF"
       ],
       "abilityname": "Paralyzing Bite",
+      "damageMultiplier": "2.9 ATK + 2.1 DEF",
       "description": "Attacks 1 enemy. Places a [Sleep] debuff on the target for 1 turn when hit with a critical hit.",
       "books": [
         "Level 2: Damage +5%",
@@ -35,5 +38,6 @@
       ]
     }
   ],
-  "avatarUrl": "https://goctionni.github.io/raid-data/images/avatar/Hellhound.png"
+  "version": "3.30.0",
+  "avatarUrl": "https://mcradane.github.io/raid-data/images/avatar/Hellhound.png"
 }

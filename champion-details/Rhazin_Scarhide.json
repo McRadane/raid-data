@@ -1,29 +1,33 @@
 {
   "name": "Rhazin Scarhide",
+  "id": "Rhazin_Scarhide",
   "class": {
     "faction": "Lizardmen",
-    "rarity": "Legendary",
-    "role": "Defense",
-    "affinity": "Force"
+    "rarity": "legendary",
+    "role": "defense",
+    "affinity": "force"
   },
   "stats": {
-    "hp": "18,330",
-    "atk": "1,046",
-    "def": "1,310",
-    "spd": "91",
-    "crate": "RATE",
-    "cdmg": "15",
-    "resist": "50",
-    "acc": "50"
+    "hp": 18330,
+    "atk": 1046,
+    "def": 1310,
+    "spd": 91,
+    "crate": 15,
+    "cdmg": 50,
+    "resist": 50,
+    "acc": 0
   },
+  "aura": "Increases Ally RESIST in the Arena by 90.",
   "skills": [
     {
       "cd": 0,
       "mincd": 0,
+      "passive": false,
       "dmgscaling": [
         "DEF"
       ],
       "abilityname": "Bone Sword",
+      "damageMultiplier": "1.5 DEF",
       "description": "Attacks 1 enemy 3 times. Has a 20% chance of removing 1 random buff from the target.",
       "books": [
         "Level 2: Damage +10%",
@@ -35,10 +39,12 @@
     {
       "cd": 4,
       "mincd": 3,
+      "passive": false,
       "dmgscaling": [
         "DEF"
       ],
       "abilityname": "Shear",
+      "damageMultiplier": "6 DEF",
       "description": "Attacks 1 enemy. Has a 75% chance of placing a 60% [Decrease DEF] debuff and a 25% [Weaken] debuff for 2 turns.",
       "books": [
         "Level 2: Damage +10%",
@@ -51,25 +57,20 @@
     {
       "cd": 7,
       "mincd": 6,
+      "passive": false,
       "dmgscaling": [
         "DEF"
       ],
       "abilityname": "Bog Down",
+      "damageMultiplier": "4 DEF",
       "description": "Attacks all enemies. Decrease the Turn Meter by 100%.",
       "books": [
         "Level 2: Damage +10%",
         "Level 3: Damage +15%",
         "Level 4: Cooldown -1"
       ]
-    },
-    {
-      "cd": 0,
-      "mincd": 0,
-      "dmgscaling": [],
-      "abilityname": "Aura",
-      "description": "Increases Ally RESIST in the Arena by 90.",
-      "books": []
     }
   ],
-  "avatarUrl": "https://goctionni.github.io/raid-data/images/avatar/Rhazin_Scarhide.png"
+  "version": "3.30.0",
+  "avatarUrl": "https://mcradane.github.io/raid-data/images/avatar/Rhazin_Scarhide.png"
 }

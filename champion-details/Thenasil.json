@@ -1,29 +1,33 @@
 {
   "name": "Thenasil",
+  "id": "Thenasil",
   "class": {
     "faction": "High Elves",
-    "rarity": "Epic",
-    "role": "Support",
-    "affinity": "Force"
+    "rarity": "epic",
+    "role": "support",
+    "affinity": "force"
   },
   "stats": {
-    "hp": "17,835",
-    "atk": "991",
-    "def": "1,123",
-    "spd": "105",
-    "crate": "RATE",
-    "cdmg": "15",
-    "resist": "50",
-    "acc": "30"
+    "hp": 17835,
+    "atk": 991,
+    "def": 1123,
+    "spd": 105,
+    "crate": 15,
+    "cdmg": 50,
+    "resist": 30,
+    "acc": 0
   },
+  "aura": "Increases Ally RESIST in Dungeons by 70.",
   "skills": [
     {
       "cd": 0,
       "mincd": 0,
+      "passive": false,
       "dmgscaling": [
         "ATK"
       ],
       "abilityname": "Spring Lullaby",
+      "damageMultiplier": "5.2 ATK",
       "description": "Attacks 1 enemy. Has a 15% chance of placing a [Sleep] debuff for 1 turn.",
       "books": [
         "Level 2: Buff/Debuff Chance +5%",
@@ -36,6 +40,7 @@
     {
       "cd": 4,
       "mincd": 3,
+      "passive": false,
       "dmgscaling": [],
       "abilityname": "Oak-Skinned",
       "description": "Places a 60% [Increase DEF] buff on all allies for 2 turns. Heals all allies by 25% of this Champion’s MAX HP.",
@@ -49,10 +54,12 @@
     {
       "cd": 6,
       "mincd": 5,
+      "passive": false,
       "dmgscaling": [
         "ATK"
       ],
       "abilityname": "Wither",
+      "damageMultiplier": "4 ATK",
       "description": "Attacks all enemies. Decreases the duration of all enemy buffs by 1 turn.",
       "books": [
         "Level 2: Damage +5%",
@@ -60,15 +67,8 @@
         "Level 4: Damage +10%",
         "Level 5: Cooldown -1"
       ]
-    },
-    {
-      "cd": 0,
-      "mincd": 0,
-      "dmgscaling": [],
-      "abilityname": "Aura",
-      "description": "Increases Ally RESIST in Dungeons by 70.",
-      "books": []
     }
   ],
-  "avatarUrl": "https://goctionni.github.io/raid-data/images/avatar/Thenasil.png"
+  "version": "3.30.0",
+  "avatarUrl": "https://mcradane.github.io/raid-data/images/avatar/Thenasil.png"
 }

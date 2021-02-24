@@ -1,29 +1,33 @@
 {
   "name": "Heiress",
+  "id": "Heiress",
   "class": {
     "faction": "High Elves",
-    "rarity": "Rare",
-    "role": "Attack",
-    "affinity": "Force"
+    "rarity": "rare",
+    "role": "attack",
+    "affinity": "force"
   },
   "stats": {
-    "hp": "12,390",
-    "atk": "1,167",
-    "def": "1,035",
-    "spd": "94",
-    "crate": "RATE",
-    "cdmg": "15",
-    "resist": "57",
-    "acc": "30"
+    "hp": 12390,
+    "atk": 1167,
+    "def": 1035,
+    "spd": 94,
+    "crate": 15,
+    "cdmg": 57,
+    "resist": 30,
+    "acc": 0
   },
+  "aura": "Increases Ally SPD in Dungeons by 16%.",
   "skills": [
     {
       "cd": 0,
       "mincd": 0,
+      "passive": false,
       "dmgscaling": [
         "ATK"
       ],
       "abilityname": "Bullseye",
+      "damageMultiplier": "3 ATK",
       "description": "Attacks 1 enemy. Grants an Extra Turn if the target is killed.",
       "books": [
         "Level 2: Damage +5%",
@@ -35,6 +39,7 @@
     {
       "cd": 3,
       "mincd": 3,
+      "passive": false,
       "dmgscaling": [],
       "abilityname": "Exhortation",
       "description": "Removes 1 random debuff from all allies. Has a 60% chance of placing a 30% [Increase SPD] buff on all allies for 2 turns.",
@@ -46,23 +51,15 @@
       ]
     },
     {
-      "cd": 0,
-      "mincd": 0,
-      "dmgscaling": [
-        "Passive"
-      ],
+      "cd": 1,
+      "mincd": 1,
+      "passive": true,
+      "dmgscaling": [],
       "abilityname": "Avenger",
       "description": "Counterattacks the attacker when an ally is attacked.",
       "books": []
-    },
-    {
-      "cd": 0,
-      "mincd": 0,
-      "dmgscaling": [],
-      "abilityname": "Aura",
-      "description": "Increases Ally SPD in Dungeons by 16%.",
-      "books": []
     }
   ],
-  "avatarUrl": "https://goctionni.github.io/raid-data/images/avatar/Heiress.png"
+  "version": "3.30.0",
+  "avatarUrl": "https://mcradane.github.io/raid-data/images/avatar/Heiress.png"
 }

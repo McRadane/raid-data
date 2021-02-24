@@ -1,0 +1,85 @@
+{
+  "name": "Astralon",
+  "id": "Astralon",
+  "class": {
+    "faction": "The Sacred Order",
+    "rarity": "legendary",
+    "role": "attack",
+    "affinity": "magic"
+  },
+  "stats": {
+    "hp": 16845,
+    "atk": 1619,
+    "def": 837,
+    "spd": 102,
+    "crate": 15,
+    "cdmg": 63,
+    "resist": 30,
+    "acc": 0
+  },
+  "skills": [
+    {
+      "cd": 0,
+      "mincd": 0,
+      "passive": false,
+      "dmgscaling": [
+        "ATK"
+      ],
+      "abilityname": "Hellbinder",
+      "damageMultiplier": "1.7 ATK",
+      "description": "Attacks 1 enemy 2 times. Has a 30% chance of placing a 60% [Decrese DEF] debuff for 2 turns. <a href=\"//ayumilove.net/raid-shadow-legends-countess-lix-skill-mastery-equip-guide/\">Countess Lix</a> will team up and join the attack is they are in the same team. <a href=\"//ayumilove.net/raid-shadow-legends-countess-lix-skill-mastery-equip-guide/\">Countess Lix</a> will use their default skill. <a href=\"//ayumilove.net/raid-shadow-legends-countess-lix-skill-mastery-equip-guide/\">Countess Lix</a> will not team up on this attack if the skill is used when counterattacking or when teaming up to attack with another Champion.",
+      "books": [
+        "Level 2: Damage +5%",
+        "Level 3: Buff/Debuff Chance +10%",
+        "Level 4: Damage +5%",
+        "Level 5: Buff/Debuff Chance +10%"
+      ]
+    },
+    {
+      "cd": 4,
+      "mincd": 3,
+      "passive": false,
+      "dmgscaling": [
+        "ATK"
+      ],
+      "abilityname": "Divine Immanence",
+      "damageMultiplier": "5.8 ATK",
+      "description": "Attacks 1 enemy. Will ignore [Increase DEF], [Strengthen] and [Ally Protection] buffs. Revives a random ally with 40% HP and places a [Shield] buff on them equal to 20% of their MAX HP for 2 turns if this attack kills an enemy. Also places a [Shield] buff on this Champion equal to 20% of their MAX HP for 2 turns if this attack kills and enemy.",
+      "books": [
+        "Level 2: Damage +5%",
+        "Level 3: Damage +5%",
+        "Level 4: Damage +10%",
+        "Level 5: Cooldown -1"
+      ]
+    },
+    {
+      "cd": 5,
+      "mincd": 4,
+      "passive": false,
+      "dmgscaling": [
+        "ATK"
+      ],
+      "abilityname": "Light of Sanctity",
+      "damageMultiplier": "4 ATK",
+      "description": "Remove all buffs from targets under [Veil] or [Perfect Veil] buffs, then places a 25% [Weaken] debuff on enemies who have [Veil] or [Perfect Veil] buffs removes, then attacks all enemies. Also has a 75% chance of placing a [Stun] debuff on all enemies for 1 turn.",
+      "books": [
+        "Level 2: Damage +10%",
+        "Level 3: Damage +10%",
+        "Level 4: Buff/Debuff Chance +10%",
+        "Level 5: Buff/Debuff Chance +15%",
+        "Level 6: Cooldown -1"
+      ]
+    },
+    {
+      "cd": 0,
+      "mincd": 0,
+      "passive": true,
+      "dmgscaling": [],
+      "abilityname": "Emissary",
+      "description": "Fills this champions turn meter by 3% every time an ally is hit. Decreases incoming damage by 25% if the attack’s ATK is lower than this Champion’s.",
+      "books": []
+    }
+  ],
+  "version": "3.30.0",
+  "avatarUrl": "https://mcradane.github.io/raid-data/images/avatar/Astralon.png"
+}

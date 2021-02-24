@@ -1,29 +1,33 @@
 {
   "name": "Angar",
+  "id": "Angar",
   "class": {
     "faction": "Orcs",
-    "rarity": "Legendary",
-    "role": "HP",
-    "affinity": "Void"
+    "rarity": "legendary",
+    "role": "hp",
+    "affinity": "void"
   },
   "stats": {
-    "hp": "21,975",
-    "atk": "826",
-    "def": "1,288",
-    "spd": "98",
-    "crate": "RATE",
-    "cdmg": "15",
-    "resist": "50",
-    "acc": "45"
+    "hp": 21975,
+    "atk": 826,
+    "def": 1288,
+    "spd": 98,
+    "crate": 15,
+    "cdmg": 50,
+    "resist": 45,
+    "acc": 10
   },
+  "aura": "Increases Ally HP in Faction Crypts by 44%.",
   "skills": [
     {
       "cd": 0,
       "mincd": 0,
+      "passive": false,
       "dmgscaling": [
         "HP"
       ],
       "abilityname": "Exacerbate",
+      "damageMultiplier": "0.12 HP",
       "description": "Attacks 1 enemy 2 times. Places an extra hit if the enemy has a [Provoke] debuff.",
       "books": [
         "Level 2: Damage +5%",
@@ -34,10 +38,12 @@
     {
       "cd": 4,
       "mincd": 3,
+      "passive": false,
       "dmgscaling": [
         "HP"
       ],
       "abilityname": "Infuriate",
+      "damageMultiplier": "0.2 HP",
       "description": "Attacks all enemies. Places a [Provoke] debuff on them for 1 turn. Places a 30% [Reflect Damage] buff on all allies for 2 turns. Also places a [Counterattack] buff on this Champion for 2 turns.",
       "books": [
         "Level 2: Damage +5%",
@@ -49,24 +55,16 @@
     {
       "cd": 0,
       "mincd": 0,
-      "dmgscaling": [
-        "Passive"
-      ],
+      "passive": true,
+      "dmgscaling": [],
       "abilityname": "Bravado",
       "description": "If an enemy with a [Provoke] debuff attacks, has a 40% chance of placing a [Provoke] debuff on them for 1 turn. Each hit taken will reduce damage taken by 5% (up to 30% in one round).",
       "books": [
         "Level 2: Buff/Debuff Chance +5%",
         "Level 3: Buff/Debuff Chance +5%"
       ]
-    },
-    {
-      "cd": 0,
-      "mincd": 0,
-      "dmgscaling": [],
-      "abilityname": "Aura",
-      "description": "Increases Ally HP in Faction Crypts by 44%.",
-      "books": []
     }
   ],
-  "avatarUrl": "https://goctionni.github.io/raid-data/images/avatar/Angar.png"
+  "version": "3.30.0",
+  "avatarUrl": "https://mcradane.github.io/raid-data/images/avatar/Angar.png"
 }

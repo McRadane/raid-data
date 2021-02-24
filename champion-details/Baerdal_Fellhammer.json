@@ -1,29 +1,33 @@
 {
   "name": "Baerdal Fellhammer",
+  "id": "Baerdal_Fellhammer",
   "class": {
     "faction": "Dwarves",
-    "rarity": "Epic",
-    "role": "Attack",
-    "affinity": "Void"
+    "rarity": "epic",
+    "role": "attack",
+    "affinity": "void"
   },
   "stats": {
-    "hp": "18,330",
-    "atk": "1,398",
-    "def": "683",
-    "spd": "94",
-    "crate": "RATE",
-    "cdmg": "15",
-    "resist": "60",
-    "acc": "30"
+    "hp": 18330,
+    "atk": 1398,
+    "def": 683,
+    "spd": 94,
+    "crate": 15,
+    "cdmg": 60,
+    "resist": 30,
+    "acc": 0
   },
+  "aura": "Increases Ally ATK in Dungeons by 32%",
   "skills": [
     {
       "cd": 0,
       "mincd": 0,
+      "passive": false,
       "dmgscaling": [
         "ATK"
       ],
       "abilityname": "Ensorcelled Axe",
+      "damageMultiplier": "2.1 ATK",
       "description": "Attacks 1 enemy 2 times. Each hit has a 30% chance of placing a 100% [Heal Reduction] debuff for 2 turns.",
       "books": [
         "Level 2: Damage +5%",
@@ -35,10 +39,12 @@
     {
       "cd": 4,
       "mincd": 3,
+      "passive": false,
       "dmgscaling": [
         "ATK"
       ],
       "abilityname": "Fey Protection",
+      "damageMultiplier": "1.8 ATK",
       "description": "Attacks 1 enemy 3 times. Places a [Shield] buff on this Champion equal to 30% of the damage inflicted for 3 turns.",
       "books": [
         "Level 2: Damage +5%",
@@ -51,21 +57,13 @@
     {
       "cd": 0,
       "mincd": 0,
-      "dmgscaling": [
-        "Passive"
-      ],
+      "passive": true,
+      "dmgscaling": [],
       "abilityname": "Paranoia",
       "description": "Places a [Counterattack] buff on this Champion for 1 turn at the start of each Round. Places a [Counterattack] buff on this Champion for 1 turn at the end of their turn.",
       "books": []
-    },
-    {
-      "cd": 0,
-      "mincd": 0,
-      "dmgscaling": [],
-      "abilityname": "Aura",
-      "description": "Increases Ally ATK in Dungeons by 32%",
-      "books": []
     }
   ],
-  "avatarUrl": "https://goctionni.github.io/raid-data/images/avatar/Baerdal_Fellhammer.png"
+  "version": "3.30.0",
+  "avatarUrl": "https://mcradane.github.io/raid-data/images/avatar/Baerdal_Fellhammer.png"
 }

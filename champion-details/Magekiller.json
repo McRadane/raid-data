@@ -1,29 +1,32 @@
 {
   "name": "Magekiller",
+  "id": "Magekiller",
   "class": {
     "faction": "Dark Elves",
-    "rarity": "Common",
-    "role": "Attack",
-    "affinity": "Spirit"
+    "rarity": "common",
+    "role": "attack",
+    "affinity": "spirit"
   },
   "stats": {
-    "hp": "8,265",
-    "atk": "881",
-    "def": "771",
-    "spd": "102",
-    "crate": "RATE",
-    "cdmg": "15",
-    "resist": "50",
-    "acc": "30"
+    "hp": 8265,
+    "atk": 881,
+    "def": 771,
+    "spd": 102,
+    "crate": 15,
+    "cdmg": 50,
+    "resist": 30,
+    "acc": 0
   },
   "skills": [
     {
       "cd": 0,
       "mincd": 0,
+      "passive": false,
       "dmgscaling": [
         "ATK"
       ],
       "abilityname": "Harry",
+      "damageMultiplier": "3 ATK",
       "description": "Attacks 1 enemy. Has a 10% chance of putting the target’s skills on cooldown.",
       "books": [
         "Level 2: Damage +5%",
@@ -33,5 +36,6 @@
       ]
     }
   ],
-  "avatarUrl": "https://goctionni.github.io/raid-data/images/avatar/Magekiller.png"
+  "version": "3.30.0",
+  "avatarUrl": "https://mcradane.github.io/raid-data/images/avatar/Magekiller.png"
 }

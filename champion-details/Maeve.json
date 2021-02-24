@@ -1,30 +1,33 @@
 {
   "name": "Maeve",
+  "id": "Maeve",
   "class": {
     "faction": "Barbarians",
-    "rarity": "Epic",
-    "role": "Attack",
-    "affinity": "Force"
+    "rarity": "epic",
+    "role": "attack",
+    "affinity": "force"
   },
   "stats": {
-    "hp": "15,195",
-    "atk": "1,354",
-    "def": "936",
-    "spd": "100",
-    "crate": "RATE",
-    "cdmg": "15",
-    "resist": "60",
-    "acc": "30"
+    "hp": 15195,
+    "atk": 1354,
+    "def": 936,
+    "spd": 100,
+    "crate": 15,
+    "cdmg": 60,
+    "resist": 30,
+    "acc": 0
   },
   "skills": [
     {
       "cd": 0,
       "mincd": 0,
+      "passive": false,
       "dmgscaling": [
         "ATK"
       ],
       "abilityname": "Stupefy",
-      "description": "Attacks 1 enemy. Has a 40% chance of placing a [Sleep] debuff for 1 turn. Has a 50% chance of granting an Extra Turn if placing a [Sleep] debuff.",
+      "damageMultiplier": "3.8 ATK",
+      "description": "Attacks 1 enemy. Has a 60% chance of placing a [Sleep] debuff for 1 turn. Has a 50% chance of granting an Extra Turn if placing a [Sleep] debuff.",
       "books": [
         "Level 2: Damage +5%",
         "Level 3: Damage +5%",
@@ -35,11 +38,13 @@
     {
       "cd": 5,
       "mincd": 4,
+      "passive": false,
       "dmgscaling": [
         "ATK"
       ],
       "abilityname": "Slobber Knocker",
-      "description": "Attacks 1 enemy. Places a [Stun] debuff on a target for 2 turns if the target is under a [Sleep] debuff.",
+      "damageMultiplier": "6.3 ATK",
+      "description": "Attacks 1 enemy. Places a [Stun] debuff for 1 turn. Places a [Stun] debuff on a target for 2 turns if the target is under a [Sleep] debuff.",
       "books": [
         "Level 2: Damage +5%",
         "Level 3: Damage +5%",
@@ -50,8 +55,10 @@
     {
       "cd": 5,
       "mincd": 3,
+      "passive": false,
       "dmgscaling": [],
       "abilityname": "And Stay Down",
+      "damageMultiplier": "7.15 ATK",
       "description": "Attacks 1 enemy. Enemies killed by this skill cannot revived.",
       "books": [
         "Level 2: Damage +5%",
@@ -61,5 +68,6 @@
       ]
     }
   ],
-  "avatarUrl": "https://goctionni.github.io/raid-data/images/avatar/Maeve.png"
+  "version": "3.30.0",
+  "avatarUrl": "https://mcradane.github.io/raid-data/images/avatar/Maeve.png"
 }

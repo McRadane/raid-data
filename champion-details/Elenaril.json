@@ -1,29 +1,33 @@
 {
   "name": "Elenaril",
+  "id": "Elenaril",
   "class": {
     "faction": "High Elves",
-    "rarity": "Legendary",
-    "role": "Attack",
-    "affinity": "Magic"
+    "rarity": "legendary",
+    "role": "attack",
+    "affinity": "magic"
   },
   "stats": {
-    "hp": "14,535",
-    "atk": "1,387",
-    "def": "1,222",
-    "spd": "96",
-    "crate": "Rate",
-    "cdmg": "15",
-    "resist": "63",
-    "acc": "30"
+    "hp": 14535,
+    "atk": 1387,
+    "def": 1222,
+    "spd": 96,
+    "crate": 15,
+    "cdmg": 63,
+    "resist": 30,
+    "acc": 0
   },
+  "aura": "Increases Ally C.RATE in Faction Crypts by 24%.",
   "skills": [
     {
       "cd": 0,
       "mincd": 0,
+      "passive": false,
       "dmgscaling": [
         "ATK"
       ],
       "abilityname": "Searing Rebuke",
+      "damageMultiplier": "3.6 ATK",
       "description": "Attacks 1 enemy. Places a [HP Burn] debuff for 2 turns. This debuff cannot be resisted.",
       "books": [
         "Level 2: Damage +5%",
@@ -35,10 +39,12 @@
     {
       "cd": 4,
       "mincd": 3,
+      "passive": false,
       "dmgscaling": [
         "ATK"
       ],
       "abilityname": "Smolder",
+      "damageMultiplier": "4.7 ATK",
       "description": "Attacks all enemies. Places a 5% [Poison] debuff for 2 turns. Places a second 5% [Poison] debuff for 2 turns if the attack is critical.",
       "books": [
         "Level 2: Damage +5%",
@@ -50,6 +56,7 @@
     {
       "cd": 6,
       "mincd": 4,
+      "passive": false,
       "dmgscaling": [],
       "abilityname": "Combust",
       "description": "Deals damage from all [Poison] debuffs on all enemies instantly.",
@@ -57,15 +64,8 @@
         "Level 2: Cooldown -1",
         "Level 3: Cooldown -1"
       ]
-    },
-    {
-      "cd": 0,
-      "mincd": 0,
-      "dmgscaling": [],
-      "abilityname": "Aura",
-      "description": "Increases Ally C.RATE in Faction Crypts by 24%.",
-      "books": []
     }
   ],
-  "avatarUrl": "https://goctionni.github.io/raid-data/images/avatar/Elenaril.png"
+  "version": "3.30.0",
+  "avatarUrl": "https://mcradane.github.io/raid-data/images/avatar/Elenaril.png"
 }

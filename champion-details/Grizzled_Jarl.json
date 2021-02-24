@@ -1,29 +1,32 @@
 {
   "name": "Grizzled Jarl",
+  "id": "Grizzled_Jarl",
   "class": {
     "faction": "Dwarves",
-    "rarity": "Epic",
-    "role": "Defense",
-    "affinity": "Magic"
+    "rarity": "epic",
+    "role": "defense",
+    "affinity": "magic"
   },
   "stats": {
-    "hp": "18,825",
-    "atk": "760",
-    "def": "1,288",
-    "spd": "95",
-    "crate": "RATE",
-    "cdmg": "15",
-    "resist": "50",
-    "acc": "75"
+    "hp": 18825,
+    "atk": 760,
+    "def": 1288,
+    "spd": 95,
+    "crate": 15,
+    "cdmg": 50,
+    "resist": 75,
+    "acc": 0
   },
   "skills": [
     {
       "cd": 0,
       "mincd": 0,
+      "passive": false,
       "dmgscaling": [
         "DEF"
       ],
       "abilityname": "Massive Halberd",
+      "damageMultiplier": "3.5 DEF",
       "description": "Attacks 1 enemy. Has a 35% chance of placing a 100% [Heal Reduction] debuff for 2 turns.",
       "books": [
         "Level 2: Damage +5%",
@@ -35,6 +38,7 @@
     {
       "cd": 5,
       "mincd": 3,
+      "passive": false,
       "dmgscaling": [],
       "abilityname": "Ancestral Shield",
       "description": "Places a [Block Debuffs] buff on all allies for 1 turns. Places a 60% [Increase DEF] buff on all allies for 2 turns.",
@@ -46,10 +50,12 @@
     {
       "cd": 5,
       "mincd": 4,
+      "passive": false,
       "dmgscaling": [
         "DEF"
       ],
       "abilityname": "Earthstomp",
+      "damageMultiplier": "3.3 DEF",
       "description": "Attacks all enemies. Has a 75% chance of placing a 50% [Decrease ATK] debuff on all enemies for 2 turns. Decreases each target’s MAX HP by 30% of the damage inflicted.",
       "books": [
         "Level 2: Damage +5%",
@@ -62,5 +68,6 @@
       ]
     }
   ],
-  "avatarUrl": "https://goctionni.github.io/raid-data/images/avatar/Grizzled_Jarl.png"
+  "version": "3.30.0",
+  "avatarUrl": "https://mcradane.github.io/raid-data/images/avatar/Grizzled_Jarl.png"
 }

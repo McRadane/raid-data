@@ -1,29 +1,32 @@
 {
   "name": "Dark Elhain",
+  "id": "Dark_Elhain",
   "class": {
     "faction": "Undead Hordes",
-    "rarity": "Epic",
-    "role": "Attack",
-    "affinity": "Magic"
+    "rarity": "epic",
+    "role": "attack",
+    "affinity": "magic"
   },
   "stats": {
-    "hp": "17,010",
-    "atk": "1,365",
-    "def": "804",
-    "spd": "94",
-    "crate": "RATE",
-    "cdmg": "15",
-    "resist": "60",
-    "acc": "30"
+    "hp": 17010,
+    "atk": 1365,
+    "def": 804,
+    "spd": 94,
+    "crate": 15,
+    "cdmg": 60,
+    "resist": 30,
+    "acc": 0
   },
   "skills": [
     {
       "cd": 0,
       "mincd": 0,
+      "passive": false,
       "dmgscaling": [
         "ATK"
       ],
-      "abilityname": "Necrotic",
+      "abilityname": "Necrotic Bolt",
+      "damageMultiplier": "3.1 ATK",
       "description": "Attacks 1 enemy. Decreases the target’s MAX HP by 30% of the damage inflicted.",
       "books": [
         "Level 2: Damage +5%",
@@ -35,10 +38,12 @@
     {
       "cd": 4,
       "mincd": 3,
+      "passive": false,
       "dmgscaling": [
         "ATK"
       ],
       "abilityname": "Death’s Majesty",
+      "damageMultiplier": "3.8 ATK",
       "description": "Places a 50% [Increase ATK] buff on this Champion for 2 turns, then attacks all enemies. Has a 50% chance of placing a 30% [Decrease SPD] debuff for 2 turns.",
       "books": [
         "Level 2: Damage +5%",
@@ -49,25 +54,24 @@
       ]
     },
     {
-      "cd": 0,
-      "mincd": 0,
-      "dmgscaling": [
-        "Passive"
-      ],
+      "cd": 1,
+      "mincd": 1,
+      "passive": true,
+      "dmgscaling": [],
       "abilityname": "Lethal Winter",
       "description": "Fills this Champion’s Turn Meter by 25% and instantly activates the Death’s Majesty Skill whenever this Champion or an ally receives a [Freeze] debuff.",
       "books": []
     },
     {
-      "cd": 0,
-      "mincd": 0,
-      "dmgscaling": [
-        "Passive"
-      ],
+      "cd": 1,
+      "mincd": 1,
+      "passive": true,
+      "dmgscaling": [],
       "abilityname": "Veins of Ice",
       "description": "Instantly removes any [Freeze] debuffs on this Champion and replaces them with a 30% [Increase C.RATE] buff, a 30% [Increase C.DMG] buff, and a 15% [Strengthen] buff whenever an enemy places a [Freeze] debuff on this Champion.",
       "books": []
     }
   ],
-  "avatarUrl": "https://goctionni.github.io/raid-data/images/avatar/Dark_Elhain.png"
+  "version": "3.30.0",
+  "avatarUrl": "https://mcradane.github.io/raid-data/images/avatar/Dark_Elhain.png"
 }

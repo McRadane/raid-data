@@ -1,29 +1,32 @@
 {
   "name": "Luria",
+  "id": "Luria",
   "class": {
     "faction": "Dark Elves",
-    "rarity": "Epic",
-    "role": "Attack",
-    "affinity": "Spirit"
+    "rarity": "epic",
+    "role": "attack",
+    "affinity": "spirit"
   },
   "stats": {
-    "hp": "13,050",
-    "atk": "1,487",
-    "def": "947",
-    "spd": "104",
-    "crate": "RATE",
-    "cdmg": "15",
-    "resist": "50",
-    "acc": "30"
+    "hp": 13050,
+    "atk": 1487,
+    "def": 947,
+    "spd": 104,
+    "crate": 15,
+    "cdmg": 50,
+    "resist": 30,
+    "acc": 10
   },
   "skills": [
     {
       "cd": 0,
       "mincd": 0,
+      "passive": false,
       "dmgscaling": [
         "ATK"
       ],
       "abilityname": "Cursed Sword",
+      "damageMultiplier": "3.55 ATK",
       "description": "Attacks 1 enemy. Has a 50% chance of placing a 60% [Decrease DEF] debuff OR a 100% [Heal Reduction] debuff OR a 30% [Decrease SPD] debuff for 2 turns.",
       "books": [
         "Level 2: Damage +5%",
@@ -37,10 +40,12 @@
     {
       "cd": 4,
       "mincd": 4,
+      "passive": false,
       "dmgscaling": [
         "ATK"
       ],
       "abilityname": "Mark of Fear",
+      "damageMultiplier": "3.6 ATK",
       "description": "Attacks all enemies. Has a 50% chance of placing a [Freeze] debuff for 1 turn. Enemies killed by this skill cannot be revived.",
       "books": [
         "Level 2: Damage +5%",
@@ -53,10 +58,12 @@
     {
       "cd": 5,
       "mincd": 5,
+      "passive": false,
       "dmgscaling": [
         "ATK"
       ],
       "abilityname": "Hex",
+      "damageMultiplier": "5.4 ATK",
       "description": "Attacks 1 enemy. Removes all buffs. Also has an 80% chance of placing a [Block Buffs] debuff for 2 turns.",
       "books": [
         "Level 2: Damage +10%",
@@ -66,5 +73,6 @@
       ]
     }
   ],
-  "avatarUrl": "https://goctionni.github.io/raid-data/images/avatar/Luria.png"
+  "version": "3.30.0",
+  "avatarUrl": "https://mcradane.github.io/raid-data/images/avatar/Luria.png"
 }

@@ -1,0 +1,23 @@
+{
+  "name": "Iron Brago",
+  "id": "Iron_Brago",
+  "class": {
+    "faction": "Orcs",
+    "rarity": "legendary",
+    "role": "defense",
+    "affinity": "spirit"
+  },
+  "stats": {
+    "hp": 18165,
+    "atk": 881,
+    "def": 1487,
+    "spd": 99,
+    "crate": 15,
+    "cdmg": 50,
+    "resist": 50,
+    "acc": 10
+  },
+  "skills": [],
+  "version": "3.30.0",
+  "avatarUrl": "https://mcradane.github.io/raid-data/images/avatar/Iron_Brago.png"
+}

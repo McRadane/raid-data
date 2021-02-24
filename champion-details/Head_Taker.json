@@ -1,25 +1,27 @@
 {
   "name": "Head Taker",
+  "id": "Head_Taker",
   "class": {
     "faction": "Barbarians",
-    "rarity": "Uncommon",
-    "role": "Attack",
-    "affinity": "Magic"
+    "rarity": "uncommon",
+    "role": "attack",
+    "affinity": "magic"
   },
   "stats": {
-    "hp": "14,535",
-    "atk": "980",
-    "def": "804",
-    "spd": "97",
-    "crate": "Rate",
-    "cdmg": "15",
-    "resist": "50",
-    "acc": "30"
+    "hp": 14535,
+    "atk": 980,
+    "def": 804,
+    "spd": 97,
+    "crate": 15,
+    "cdmg": 50,
+    "resist": 30,
+    "acc": 0
   },
   "skills": [
     {
       "cd": 0,
       "mincd": 0,
+      "passive": false,
       "dmgscaling": [
         "ATK"
       ],
@@ -35,6 +37,7 @@
     {
       "cd": 4,
       "mincd": 4,
+      "passive": false,
       "dmgscaling": [
         "ATK"
       ],
@@ -50,5 +53,6 @@
       ]
     }
   ],
-  "avatarUrl": "https://goctionni.github.io/raid-data/images/avatar/Head_Taker.png"
+  "version": "3.30.0",
+  "avatarUrl": "https://mcradane.github.io/raid-data/images/avatar/Head_Taker.png"
 }

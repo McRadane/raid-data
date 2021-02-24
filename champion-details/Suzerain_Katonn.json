@@ -1,29 +1,33 @@
 {
   "name": "Suzerain Katonn",
+  "id": "Suzerain_Katonn",
   "class": {
     "faction": "Undead Hordes",
-    "rarity": "Legendary",
-    "role": "Attack",
-    "affinity": "Spirit"
+    "rarity": "legendary",
+    "role": "attack",
+    "affinity": "spirit"
   },
   "stats": {
-    "hp": "15,030",
-    "atk": "1,564",
-    "def": "1,013",
-    "spd": "98",
-    "crate": "RATE",
-    "cdmg": "15",
-    "resist": "57",
-    "acc": "30"
+    "hp": 15030,
+    "atk": 1564,
+    "def": 1013,
+    "spd": 98,
+    "crate": 15,
+    "cdmg": 57,
+    "resist": 30,
+    "acc": 20
   },
+  "aura": "Increases Ally ATK in all Battles by 33%",
   "skills": [
     {
       "cd": 0,
       "mincd": 0,
+      "passive": false,
       "dmgscaling": [
         "ATK"
       ],
       "abilityname": "Temporal Nova",
+      "damageMultiplier": "2.2 ATK",
       "description": "Attacks all enemies. Has a 35% chance of placing a 30% [Decrease SPD] debuff for 2 turns.",
       "books": [
         "Level 2: Damage +10%",
@@ -34,10 +38,12 @@
     {
       "cd": 4,
       "mincd": 4,
+      "passive": false,
       "dmgscaling": [
         "ATK"
       ],
       "abilityname": "Hex of Years",
+      "damageMultiplier": "3.3 ATK",
       "description": "Attacks all enemies. Has a 50% chance of placing a 25% [Weaken] debuff for 2 turns. Places a 60% [Decrease DEF] debuff for 2 turns if a [Weaken] debuff is not placed.",
       "books": [
         "Level 2: Damage +15%",
@@ -48,25 +54,20 @@
     {
       "cd": 4,
       "mincd": 4,
+      "passive": false,
       "dmgscaling": [
         "ATK"
       ],
       "abilityname": "Banish From Time",
-      "description": "Removes [Shield], [Block Damage], and [Unkillable] buffs from all enemies, then attacks them. Places a 100% [Heal Reduction] debuff on all enemies for 2 turns. This effect cannot be resisted.",
+      "damageMultiplier": "2.8 ATK",
+      "description": "Removes [Shield], [Block Damage], and [Unkillable] buffs from all enemies, then attacks them. Places a 100% [Heal Reduction] debuff on all enemies for 2 turns. The buff removal cannot be blocked or resisted.",
       "books": [
         "Level 2: Damage +10%",
         "Level 3: Damage +10%",
         "Level 4: Damage +10%"
       ]
-    },
-    {
-      "cd": 0,
-      "mincd": 0,
-      "dmgscaling": [],
-      "abilityname": "Aura",
-      "description": "Increases Ally ATK in all Battles by 33%",
-      "books": []
     }
   ],
-  "avatarUrl": "https://goctionni.github.io/raid-data/images/avatar/Suzerain_Katonn.png"
+  "version": "3.30.0",
+  "avatarUrl": "https://mcradane.github.io/raid-data/images/avatar/Suzerain_Katonn.png"
 }

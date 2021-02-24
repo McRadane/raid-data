@@ -1,30 +1,34 @@
 {
   "name": "Pitiless One",
+  "id": "Pitiless_One",
   "class": {
     "faction": "Knight Revenant",
-    "rarity": "Epic",
-    "role": "Attack",
-    "affinity": "Magic"
+    "rarity": "epic",
+    "role": "attack",
+    "affinity": "magic"
   },
   "stats": {
-    "hp": "16,350",
-    "atk": "1,443",
-    "def": "771",
-    "spd": "94",
-    "crate": "Rate",
-    "cdmg": "15",
-    "resist": "60",
-    "acc": "30"
+    "hp": 16350,
+    "atk": 1443,
+    "def": 771,
+    "spd": 94,
+    "crate": 15,
+    "cdmg": 60,
+    "resist": 30,
+    "acc": 0
   },
+  "aura": "Increases Ally C.RATE in all Battles by 19%",
   "skills": [
     {
       "cd": 0,
       "mincd": 0,
+      "passive": false,
       "dmgscaling": [
         "ATK"
       ],
       "abilityname": "Split Arrow",
-      "description": "Attacks 1 enemy 2 times.",
+      "damageMultiplier": "2.2 ATK",
+      "description": "Attacks 1 enemy 2 times. Each critical hit fills this Champion’s Turn Meter by 5%.",
       "books": [
         "Level 2: Damage +5%",
         "Level 3: Damage +5%",
@@ -35,10 +39,12 @@
     {
       "cd": 4,
       "mincd": 3,
+      "passive": false,
       "dmgscaling": [
         "ATK"
       ],
       "abilityname": "Projectile Burst",
+      "damageMultiplier": "3.9 ATK",
       "description": "Attacks all enemies. Each critical hit boosts this Champion’s Turn Meter by 15%.",
       "books": [
         "Level 2: Damage +5%",
@@ -51,21 +57,13 @@
     {
       "cd": 0,
       "mincd": 0,
-      "dmgscaling": [
-        "Passive"
-      ],
+      "passive": true,
+      "dmgscaling": [],
       "abilityname": "Agony Bonds",
       "description": "Each critical hit heals this Champion by 15% of the damage inflicted.",
       "books": []
-    },
-    {
-      "cd": 0,
-      "mincd": 0,
-      "dmgscaling": [],
-      "abilityname": "Aura",
-      "description": "Increases Ally C. RATE in all Battles by 19%",
-      "books": []
     }
   ],
-  "avatarUrl": "https://goctionni.github.io/raid-data/images/avatar/Pitiless_One.png"
+  "version": "3.30.0",
+  "avatarUrl": "https://mcradane.github.io/raid-data/images/avatar/Pitiless_One.png"
 }

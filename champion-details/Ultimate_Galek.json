@@ -1,29 +1,32 @@
 {
   "name": "Ultimate Galek",
+  "id": "Ultimate_Galek",
   "class": {
     "faction": "Orcs",
-    "rarity": "Epic",
-    "role": "Attack",
-    "affinity": "Magic"
+    "rarity": "epic",
+    "role": "attack",
+    "affinity": "magic"
   },
   "stats": {
-    "hp": "15,195",
-    "atk": "1,332",
-    "def": "958",
-    "spd": "98",
-    "crate": "RATE",
-    "cdmg": "15",
-    "resist": "60",
-    "acc": "30"
+    "hp": 15195,
+    "atk": 1332,
+    "def": 958,
+    "spd": 98,
+    "crate": 15,
+    "cdmg": 60,
+    "resist": 30,
+    "acc": 0
   },
   "skills": [
     {
       "cd": 0,
       "mincd": 0,
+      "passive": false,
       "dmgscaling": [
         "ATK"
       ],
       "abilityname": "Fury Slash",
+      "damageMultiplier": "3.9 ATK",
       "description": "Attacks 1 enemy. Has a 50% chance of placing a [HP Burn] debuff on the target for 2 turns if this Champion is under an [Increase ATK] buff. Fills this Champion’s Turn Meter by 10% if this attack is critical. Fills this Champion’s Turn Meter by 5% if this attack is not critical.",
       "books": [
         "Level 2: Damage +5%",
@@ -35,10 +38,12 @@
     {
       "cd": 4,
       "mincd": 3,
+      "passive": false,
       "dmgscaling": [
         "ATK"
       ],
       "abilityname": "Crushing Hopes",
+      "damageMultiplier": "5.95 ATK",
       "description": "Attacks 1 enemy. Has a 50% chance of placing a [HP Burn] debuff on the target for 2 turns if this Champion is under an [Increase ATK] buff. Decreases the target’s Turn Meter by 25% and places a 50% [Increase ATK] buff on this Champion for 2 turns if this attack is critical. Decreases the target’s Turn Meter by 10% if this attack is not critical.",
       "books": [
         "Level 2: Damage +5%",
@@ -50,10 +55,12 @@
     {
       "cd": 6,
       "mincd": 4,
+      "passive": false,
       "dmgscaling": [
         "ATK"
       ],
       "abilityname": "Burning Rage",
+      "damageMultiplier": "2 ATK",
       "description": "Attacks all enemies 2 times. Each hit has a 50% chance of placing a [HP Burn] debuff on the target for 2 turns if this Champion is under an [Increase ATK] buff. Each hit also has a 75% chance of decreasing the Turn Meter by 20% if the target is under a [HP Burn] debuff.",
       "books": [
         "Level 2: Damage +10%",
@@ -65,9 +72,8 @@
     {
       "cd": 4,
       "mincd": 3,
-      "dmgscaling": [
-        "Passive"
-      ],
+      "passive": true,
+      "dmgscaling": [],
       "abilityname": "Brush It Off",
       "description": "Fully heals this Champion and instantly removes any [Stun] debuffs whenever an enemy places a [Stun] debuff on this Champion.",
       "books": [
@@ -75,5 +81,6 @@
       ]
     }
   ],
-  "avatarUrl": "https://goctionni.github.io/raid-data/images/avatar/Ultimate_Galek.png"
+  "version": "3.30.0",
+  "avatarUrl": "https://mcradane.github.io/raid-data/images/avatar/Ultimate_Galek.png"
 }

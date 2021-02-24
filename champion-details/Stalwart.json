@@ -1,25 +1,27 @@
 {
   "name": "Stalwart",
+  "id": "Stalwart",
   "class": {
     "faction": "Banner Lords",
-    "rarity": "Uncommon",
-    "role": "HP",
-    "affinity": "Magic"
+    "rarity": "uncommon",
+    "role": "hp",
+    "affinity": "magic"
   },
   "stats": {
-    "hp": "18,000",
-    "atk": "738",
-    "def": "815",
-    "spd": "87",
-    "crate": "RATE",
-    "cdmg": "15",
-    "resist": "50",
-    "acc": "30"
+    "hp": 18000,
+    "atk": 738,
+    "def": 815,
+    "spd": 87,
+    "crate": 15,
+    "cdmg": 50,
+    "resist": 30,
+    "acc": 0
   },
   "skills": [
     {
       "cd": 0,
       "mincd": 0,
+      "passive": false,
       "dmgscaling": [
         "ATK"
       ],
@@ -35,6 +37,7 @@
     {
       "cd": 3,
       "mincd": 3,
+      "passive": false,
       "dmgscaling": [
         "ATK"
       ],
@@ -48,5 +51,6 @@
       ]
     }
   ],
-  "avatarUrl": "https://goctionni.github.io/raid-data/images/avatar/Stalwart.png"
+  "version": "3.30.0",
+  "avatarUrl": "https://mcradane.github.io/raid-data/images/avatar/Stalwart.png"
 }

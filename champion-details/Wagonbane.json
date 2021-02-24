@@ -1,66 +1,77 @@
 {
   "name": "Wagonbane",
+  "id": "Wagonbane",
   "class": {
     "faction": "Ogryn Tribes",
-    "rarity": "Rare",
-    "role": "Support",
-    "affinity": "Magic"
+    "rarity": "rare",
+    "role": "support",
+    "affinity": "magic"
   },
   "stats": {
-    "hp": "16,680",
-    "atk": "881",
-    "def": "1,035",
-    "spd": "102",
-    "crate": "15%",
-    "cdmg": "50%",
-    "resist": "30",
-    "acc": "10"
+    "hp": 17175,
+    "atk": 947,
+    "def": 936,
+    "spd": 97,
+    "crate": 15,
+    "cdmg": 50,
+    "resist": 30,
+    "acc": 10
   },
   "skills": [
     {
       "cd": 0,
       "mincd": 0,
+      "passive": false,
       "dmgscaling": [
         "ATK"
       ],
-      "abilityname": "Flask of Vitreol",
-      "description": "Attacks 1 enemy. Has a 30% chance of placing a 5% [Poison] debuff for 2 turns.",
+      "abilityname": "Eye Blight",
+      "damageMultiplier": "",
+      "description": "Attacks 1 enemy. Has a 35% chance of placing a 50% Decrease ACC debuff for 2 turns.",
       "books": [
         "Level 2: Damage +5%",
         "Level 3: Damage +5%",
-        "Level 4: Buff/Debuff Chance +5%",
-        "Level 5: Buff/Debuff Chance +10%"
+        "Level 4: Damage +5%",
+        "Level 5: Buff/Debuff Chance +10%",
+        "Level 6: Buff/Debuff Chance +5%",
+        "Level 7: Buff/Debuff Chance +5%"
       ]
     },
     {
       "cd": 4,
       "mincd": 3,
+      "passive": false,
       "dmgscaling": [
         "ATK"
       ],
-      "abilityname": "Corroding Catalyst",
-      "description": "Attacks all enemies. Has a 50% chance of placing a 25% [Decrease ATK] debuff for 2 turns. Also places a 15% [Decrease SPD] debuff for 1 turn on targets under [Poison] debuffs.",
+      "abilityname": "Hackgore Magic",
+      "damageMultiplier": "",
+      "description": "Attacks 1 enemies. Places a 7.5% Continuous Heal buff on the ally with the lowest HP for 2 turns.",
       "books": [
         "Level 2: Damage +5%",
-        "Level 3: Damage +10%",
-        "Level 4: Buff/Debuff Chance +5%",
-        "Level 5: Buff/Debuff Chance +10%",
-        "Level 6: Buff/Debuff Chance +15%",
-        "Level 7: Buff/Debuff Chance +20%",
-        "Level 8: Cooldown -1"
+        "Level 3: Damage +5%",
+        "Level 4: Damage +5%",
+        "Level 5: Cooldown -1"
       ]
     },
     {
-      "cd": 6,
-      "mincd": 4,
+      "cd": 5,
+      "mincd": 5,
+      "passive": false,
       "dmgscaling": [],
-      "abilityname": "Vitalizing Potions",
-      "description": "Fills the Turn Meters of all allies by 15% and heals all allies by 15% of this Champion’s MAX HP.",
+      "abilityname": "Start The Mayhem",
+      "damageMultiplier": "",
+      "description": "Attacks 1 enemy. Has a 75% chance of placing a 60% Decrease DEF debuff for 2 turns. Also has a 75% chance of decreasing the target’s Turn Meter by 15%.",
       "books": [
-        "Level 2: Cooldown -1",
-        "Level 3: Cooldown -1"
+        "Level 2: Damage +5%",
+        "Level 3: Damage +5%",
+        "Level 4: Damage +5%",
+        "Level 5: Buff/Debuff Chance +5%",
+        "Level 6: Buff/Debuff Chance +5%",
+        "Level 7: Buff/Debuff Chance +15%"
       ]
     }
   ],
-  "avatarUrl": "https://goctionni.github.io/raid-data/images/avatar/Wagonbane.png"
+  "version": "3.30.0",
+  "avatarUrl": "https://mcradane.github.io/raid-data/images/avatar/Wagonbane.png"
 }

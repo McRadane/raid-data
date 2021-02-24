@@ -1,29 +1,32 @@
 {
   "name": "Warchanter",
+  "id": "Warchanter",
   "class": {
     "faction": "Orcs",
-    "rarity": "Uncommon",
-    "role": "HP",
-    "affinity": "Magic"
+    "rarity": "uncommon",
+    "role": "hp",
+    "affinity": "magic"
   },
   "stats": {
-    "hp": "18,990",
-    "atk": "716",
-    "def": "771",
-    "spd": "94",
-    "crate": "RATE",
-    "cdmg": "15",
-    "resist": "50",
-    "acc": "30"
+    "hp": 18990,
+    "atk": 716,
+    "def": 771,
+    "spd": 94,
+    "crate": 15,
+    "cdmg": 50,
+    "resist": 30,
+    "acc": 0
   },
   "skills": [
     {
       "cd": 0,
       "mincd": 0,
+      "passive": false,
       "dmgscaling": [
         "HP"
       ],
       "abilityname": "Head Wound",
+      "damageMultiplier": "0.2 HP",
       "description": "Attacks 1 enemy. Has a 20% chance of applying a [Stun] debuff for 1 turn.",
       "books": [
         "Level 2: Damage +5%",
@@ -35,10 +38,12 @@
     {
       "cd": 4,
       "mincd": 3,
+      "passive": false,
       "dmgscaling": [
         "ATK"
       ],
       "abilityname": "Frenzy",
+      "damageMultiplier": "5.6 ATK",
       "description": "Attacks all enemies. Has a 25% chance of placing a 25% [Decrease ATK] debuff for 1 turn. Also has a 25% chance of placing a [Provoke] debuff for 1 turn.",
       "books": [
         "Level 2: Damage +5%",
@@ -50,5 +55,6 @@
       ]
     }
   ],
-  "avatarUrl": "https://goctionni.github.io/raid-data/images/avatar/Warchanter.png"
+  "version": "3.30.0",
+  "avatarUrl": "https://mcradane.github.io/raid-data/images/avatar/Warchanter.png"
 }

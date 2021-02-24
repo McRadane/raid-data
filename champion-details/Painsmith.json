@@ -1,29 +1,33 @@
 {
   "name": "Painsmith",
+  "id": "Painsmith",
   "class": {
     "faction": "Dwarves",
-    "rarity": "Rare",
-    "role": "Attack",
-    "affinity": "Void"
+    "rarity": "rare",
+    "role": "attack",
+    "affinity": "void"
   },
   "stats": {
-    "hp": "14,040",
-    "atk": "1,277",
-    "def": "815",
-    "spd": "100",
-    "crate": "RATE",
-    "cdmg": "15",
-    "resist": "57",
-    "acc": "30"
+    "hp": 14040,
+    "atk": 1277,
+    "def": 815,
+    "spd": 100,
+    "crate": 15,
+    "cdmg": 57,
+    "resist": 30,
+    "acc": 0
   },
+  "aura": "Increases Ally ATK in Dungeons by 21%",
   "skills": [
     {
       "cd": 0,
       "mincd": 0,
+      "passive": false,
       "dmgscaling": [
         "ATK"
       ],
       "abilityname": "Pickaxe Crunch",
+      "damageMultiplier": "3.8 ATK",
       "description": "Attacks 1 enemy.",
       "books": [
         "Level 2: Damage +5%",
@@ -35,10 +39,12 @@
     {
       "cd": 4,
       "mincd": 3,
+      "passive": false,
       "dmgscaling": [
         "ATK"
       ],
       "abilityname": "Utter Destruction",
+      "damageMultiplier": "5.9 ATK",
       "description": "Attacks 1 enemy. Enemies killed by this skill cannot be revived. Places a [Block Debuffs] buff on this Champion for 2 turns if this attack kills an enemy.",
       "books": [
         "Level 2: Damage +5%",
@@ -51,10 +57,12 @@
     {
       "cd": 5,
       "mincd": 4,
+      "passive": false,
       "dmgscaling": [
         "ATK"
       ],
       "abilityname": "Helpless Victim",
+      "damageMultiplier": "6 ATK",
       "description": "Attacks 1 enemy. Damage increases by 15% if the target has no active buffs.",
       "books": [
         "Level 2: Damage +5%",
@@ -63,15 +71,8 @@
         "Level 5: Damage +10%",
         "Level 6: Cooldown -1"
       ]
-    },
-    {
-      "cd": 0,
-      "mincd": 0,
-      "dmgscaling": [],
-      "abilityname": "Aura",
-      "description": "Increases Ally ATK in Dungeons by 21%",
-      "books": []
     }
   ],
-  "avatarUrl": "https://goctionni.github.io/raid-data/images/avatar/Painsmith.png"
+  "version": "3.30.0",
+  "avatarUrl": "https://mcradane.github.io/raid-data/images/avatar/Painsmith.png"
 }

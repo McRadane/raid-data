@@ -1,29 +1,33 @@
 {
   "name": "Flinger",
+  "id": "Flinger",
   "class": {
     "faction": "Lizardmen",
-    "rarity": "Rare",
-    "role": "Attack",
-    "affinity": "Spirit"
+    "rarity": "rare",
+    "role": "attack",
+    "affinity": "spirit"
   },
   "stats": {
-    "hp": "13,050",
-    "atk": "1,266",
-    "def": "892",
-    "spd": "104",
-    "crate": "RATE",
-    "cdmg": "15",
-    "resist": "57",
-    "acc": "30"
+    "hp": 13050,
+    "atk": 1266,
+    "def": 892,
+    "spd": 104,
+    "crate": 15,
+    "cdmg": 57,
+    "resist": 30,
+    "acc": 0
   },
+  "aura": "Increases Ally RESIST in Faction Crypts by 30.",
   "skills": [
     {
       "cd": 0,
       "mincd": 0,
+      "passive": false,
       "dmgscaling": [
         "ATK"
       ],
       "abilityname": "Axe Throw",
+      "damageMultiplier": "3 ATK",
       "description": "Attacks 1 enemy. Has a 40% chance of placing a 30% [Decrease DEF] debuff for 1 turn.",
       "books": [
         "Level 2: Damage +5%",
@@ -36,10 +40,12 @@
     {
       "cd": 3,
       "mincd": 3,
+      "passive": false,
       "dmgscaling": [
         "ATK"
       ],
       "abilityname": "Meteor",
+      "damageMultiplier": "3 ATK",
       "description": "Attacks all enemies.",
       "books": [
         "Level 2: Damage +5%",
@@ -51,10 +57,12 @@
     {
       "cd": 4,
       "mincd": 4,
+      "passive": false,
       "dmgscaling": [
         "ATK"
       ],
       "abilityname": "Burn",
+      "damageMultiplier": "5.2 ATK",
       "description": "Attacks 1 enemy. This skill always inflicts a critical hit.",
       "books": [
         "Level 2: Damage +5%",
@@ -62,15 +70,8 @@
         "Level 4: Damage +5%",
         "Level 5: Damage +10%"
       ]
-    },
-    {
-      "cd": 0,
-      "mincd": 0,
-      "dmgscaling": [],
-      "abilityname": "Aura",
-      "description": "Increases Ally RESIST in Faction Crypts by 30.",
-      "books": []
     }
   ],
-  "avatarUrl": "https://goctionni.github.io/raid-data/images/avatar/Flinger.png"
+  "version": "3.30.0",
+  "avatarUrl": "https://mcradane.github.io/raid-data/images/avatar/Flinger.png"
 }

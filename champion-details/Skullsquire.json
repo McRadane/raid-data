@@ -1,29 +1,32 @@
 {
   "name": "Skullsquire",
+  "id": "Skullsquire",
   "class": {
     "faction": "Undead Hordes",
-    "rarity": "Uncommon",
-    "role": "Attack",
-    "affinity": "Force"
+    "rarity": "uncommon",
+    "role": "attack",
+    "affinity": "force"
   },
   "stats": {
-    "hp": "12,885",
-    "atk": "1,178",
-    "def": "716",
-    "spd": "107",
-    "crate": "RATE",
-    "cdmg": "15",
-    "resist": "50",
-    "acc": "30"
+    "hp": 12885,
+    "atk": 1178,
+    "def": 716,
+    "spd": 107,
+    "crate": 15,
+    "cdmg": 50,
+    "resist": 30,
+    "acc": 0
   },
   "skills": [
     {
       "cd": 0,
       "mincd": 0,
+      "passive": false,
       "dmgscaling": [
         "ATK"
       ],
       "abilityname": "Main",
+      "damageMultiplier": "4 ATK",
       "description": "Attacks 1 enemy. Has a 25% chance of placing a 15% [Decrease SPD] debuff for 1 turn.",
       "books": [
         "Level 2: Damage +5%",
@@ -36,10 +39,12 @@
     {
       "cd": 3,
       "mincd": 3,
+      "passive": false,
       "dmgscaling": [
         "ATK"
       ],
       "abilityname": "Cold Grasp",
+      "damageMultiplier": "5 ATK",
       "description": "Attacks 1 enemy. Has a 50% chance of placing a 30% [Decrease DEF] debuff for 2 turns. Places a [Freeze] debuff 1 turn if the target is currently under a [Decrease SPD] debuff.",
       "books": [
         "Level 2: Damage +5%",
@@ -50,5 +55,6 @@
       ]
     }
   ],
-  "avatarUrl": "https://goctionni.github.io/raid-data/images/avatar/Skullsquire.png"
+  "version": "3.30.0",
+  "avatarUrl": "https://mcradane.github.io/raid-data/images/avatar/Skullsquire.png"
 }

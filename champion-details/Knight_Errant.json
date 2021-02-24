@@ -1,29 +1,33 @@
 {
   "name": "Knight-Errant",
+  "id": "Knight_Errant",
   "class": {
     "faction": "Banner Lords",
-    "rarity": "Epic",
-    "role": "Attack",
-    "affinity": "Spirit"
+    "rarity": "epic",
+    "role": "attack",
+    "affinity": "spirit"
   },
   "stats": {
-    "hp": "18,660",
-    "atk": "1,387",
-    "def": "672",
-    "spd": "96",
-    "crate": "RATE",
-    "cdmg": "15",
-    "resist": "50",
-    "acc": "30"
+    "hp": 18660,
+    "atk": 1387,
+    "def": 672,
+    "spd": 96,
+    "crate": 15,
+    "cdmg": 50,
+    "resist": 30,
+    "acc": 15
   },
+  "aura": "Increases Ally DEF in Dungeons by 32%.",
   "skills": [
     {
       "cd": 0,
       "mincd": 0,
+      "passive": false,
       "dmgscaling": [
         "ATK"
       ],
       "abilityname": "Half-Sword",
+      "damageMultiplier": "4.5 ATK",
       "description": "Attacks 1 enemy. Has a 30% chance of placing a [Leech] debuff for 2 turns. Will ignore 30% of the target’s DEF.",
       "books": [
         "Level: 2 Buff/Debuff Chance +5%",
@@ -35,10 +39,12 @@
     {
       "cd": 4,
       "mincd": 4,
+      "passive": false,
       "dmgscaling": [
         "ATK"
       ],
       "abilityname": "Mordhau",
+      "damageMultiplier": "6 ATK",
       "description": "Attacks 1 enemy. Has a 60% chance of placing a [Stun] debuff for 1 turn. Resets the cooldowns on each of this Champion’s skills if the target is killed.",
       "books": [
         "Level: 2 Damage +10%",
@@ -50,10 +56,12 @@
     {
       "cd": 6,
       "mincd": 6,
+      "passive": false,
       "dmgscaling": [
         "ATK"
       ],
       "abilityname": "Death Warrant",
+      "damageMultiplier": "7 ATK",
       "description": "Attacks 1 enemy. Has a 60% chance of placing a 25% [Weaken] debuff for 2 turns. Damage is increased by 75% if this Champion has full HP.",
       "books": [
         "Level: 2 Damage +10%",
@@ -61,15 +69,8 @@
         "Level: 4 Buff/Debuff Chance +10%",
         "Level: 5 Buff/Debuff Chance +20%"
       ]
-    },
-    {
-      "cd": 0,
-      "mincd": 0,
-      "dmgscaling": [],
-      "abilityname": "Aura",
-      "description": "Increases Ally DEF in Dungeons by 32%.",
-      "books": []
     }
   ],
-  "avatarUrl": "https://goctionni.github.io/raid-data/images/avatar/Knight_Errant.png"
+  "version": "3.30.0",
+  "avatarUrl": "https://mcradane.github.io/raid-data/images/avatar/Knight_Errant.png"
 }

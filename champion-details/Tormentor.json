@@ -1,29 +1,32 @@
 {
   "name": "Tormentor",
+  "id": "Tormentor",
   "class": {
     "faction": "Demonspawn",
-    "rarity": "Rare",
-    "role": "Attack",
-    "affinity": "Magic"
+    "rarity": "rare",
+    "role": "attack",
+    "affinity": "magic"
   },
   "stats": {
-    "hp": "13,875",
-    "atk": "1,156",
-    "def": "947",
-    "spd": "96",
-    "crate": "Rate",
-    "cdmg": "15",
-    "resist": "57",
-    "acc": "30"
+    "hp": 13875,
+    "atk": 1156,
+    "def": 947,
+    "spd": 96,
+    "crate": 15,
+    "cdmg": 57,
+    "resist": 30,
+    "acc": 0
   },
   "skills": [
     {
       "cd": 0,
       "mincd": 0,
+      "passive": false,
       "dmgscaling": [
         "ATK"
       ],
       "abilityname": "Endless Agonies",
+      "damageMultiplier": "3.7 ATK",
       "description": "Attacks 1 enemy. Places an extra hit if this attack is critical. The extra hit is always a normal hit.",
       "books": [
         "Level 2: Damage +5%",
@@ -35,10 +38,12 @@
     {
       "cd": 4,
       "mincd": 3,
+      "passive": false,
       "dmgscaling": [
         "ATK"
       ],
       "abilityname": "Infernal Miasma",
+      "damageMultiplier": "3.3 ATK",
       "description": "Attacks 2 times at random. Each hit has a 50% chance of placing a 25% [Decrease ACC] debuff.",
       "books": [
         "Level 2: Damage +5%",
@@ -52,10 +57,12 @@
     {
       "cd": 4,
       "mincd": 4,
+      "passive": false,
       "dmgscaling": [
         "ATK"
       ],
       "abilityname": "Creeping Doom",
+      "damageMultiplier": "3.5 ATK",
       "description": "Attacks 1 enemy 2 times. Each hit has a 50% chance of placing a [Block Buffs] debuff for 2 turns. Places a [Stun] debuff for 1 turn if the target is under a [Block Buffs] debuff.",
       "books": [
         "Level 2: Damage +5%",
@@ -65,5 +72,6 @@
       ]
     }
   ],
-  "avatarUrl": "https://goctionni.github.io/raid-data/images/avatar/Tormentor.png"
+  "version": "3.30.0",
+  "avatarUrl": "https://mcradane.github.io/raid-data/images/avatar/Tormentor.png"
 }

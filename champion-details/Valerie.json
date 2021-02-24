@@ -1,29 +1,33 @@
 {
   "name": "Valerie",
+  "id": "Valerie",
   "class": {
     "faction": "Banner Lords",
-    "rarity": "Rare",
-    "role": "Support",
-    "affinity": "Magic"
+    "rarity": "rare",
+    "role": "support",
+    "affinity": "magic"
   },
   "stats": {
-    "hp": "15,585",
-    "atk": "969",
-    "def": "1,002",
-    "spd": "98",
-    "crate": "RATE",
-    "cdmg": "15",
-    "resist": "50",
-    "acc": "30"
+    "hp": 15585,
+    "atk": 969,
+    "def": 1002,
+    "spd": 98,
+    "crate": 15,
+    "cdmg": 50,
+    "resist": 30,
+    "acc": 0
   },
+  "aura": "Increases Ally HP in Faction Crypts by 22%",
   "skills": [
     {
       "cd": 0,
       "mincd": 0,
+      "passive": false,
       "dmgscaling": [
         "ATK"
       ],
       "abilityname": "Swing",
+      "damageMultiplier": "4 ATK",
       "description": "Attacks 1 enemy.",
       "books": [
         "Level: 2 Damage +5%",
@@ -35,6 +39,7 @@
     {
       "cd": 4,
       "mincd": 3,
+      "passive": false,
       "dmgscaling": [],
       "abilityname": "Energizing Presence",
       "description": "Increases the duration of all buffs on all allies by 1 turn. Also decreases the duration of all debuffs on all allies by 1 turn. Places a 25% [Increase ATK] buff on all allies for 2 turns.",
@@ -45,6 +50,7 @@
     {
       "cd": 5,
       "mincd": 5,
+      "passive": false,
       "dmgscaling": [],
       "abilityname": "Protect",
       "description": "Places a [Shield] buff on all allies for 2 turns. The value of the [Shield] depends on this Champion’s Level. Heals each ally according to the number of buffs they are currently under.",
@@ -54,15 +60,8 @@
         "Level: 4 Shield +5%",
         "Level: 5 Shield +5%"
       ]
-    },
-    {
-      "cd": 0,
-      "mincd": 0,
-      "dmgscaling": [],
-      "abilityname": "Aura",
-      "description": "Increases Ally HP in Faction Crypts by 22%",
-      "books": []
     }
   ],
-  "avatarUrl": "https://goctionni.github.io/raid-data/images/avatar/Valerie.png"
+  "version": "3.30.0",
+  "avatarUrl": "https://mcradane.github.io/raid-data/images/avatar/Valerie.png"
 }

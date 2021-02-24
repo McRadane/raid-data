@@ -1,25 +1,27 @@
 {
   "name": "Intercessor",
+  "id": "Intercessor",
   "class": {
     "faction": "The Sacred Order",
-    "rarity": "Uncommon",
-    "role": "Support",
-    "affinity": "Force"
+    "rarity": "uncommon",
+    "role": "support",
+    "affinity": "force"
   },
   "stats": {
-    "hp": "13,380",
-    "atk": "947",
-    "def": "914",
-    "spd": "102",
-    "crate": "Rate",
-    "cdmg": "15",
-    "resist": "50",
-    "acc": "30"
+    "hp": 13380,
+    "atk": 947,
+    "def": 914,
+    "spd": 102,
+    "crate": 15,
+    "cdmg": 50,
+    "resist": 30,
+    "acc": 0
   },
   "skills": [
     {
       "cd": 0,
       "mincd": 0,
+      "passive": false,
       "dmgscaling": [
         "ATK"
       ],
@@ -37,6 +39,7 @@
     {
       "cd": 4,
       "mincd": 2,
+      "passive": false,
       "dmgscaling": [],
       "abilityname": "Inspire",
       "description": "Places a 25% [Increase ATK] buff on all allies for 2 turns.",
@@ -46,5 +49,6 @@
       ]
     }
   ],
-  "avatarUrl": "https://goctionni.github.io/raid-data/images/avatar/Intercessor.png"
+  "version": "3.30.0",
+  "avatarUrl": "https://mcradane.github.io/raid-data/images/avatar/Intercessor.png"
 }

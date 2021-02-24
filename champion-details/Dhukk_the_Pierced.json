@@ -1,0 +1,23 @@
+{
+  "name": "Dhukk the Pierced",
+  "id": "Dhukk_the_Pierced",
+  "class": {
+    "faction": "Orcs",
+    "rarity": "epic",
+    "role": "defense",
+    "affinity": "magic"
+  },
+  "stats": {
+    "hp": 15855,
+    "atk": 870,
+    "def": 1376,
+    "spd": 97,
+    "crate": 15,
+    "cdmg": 50,
+    "resist": 45,
+    "acc": 0
+  },
+  "skills": [],
+  "version": "3.30.0",
+  "avatarUrl": "https://mcradane.github.io/raid-data/images/avatar/Dhukk_the_Pierced.png"
+}

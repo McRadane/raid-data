@@ -1,29 +1,32 @@
 {
   "name": "Berserker",
+  "id": "Berserker",
   "class": {
     "faction": "Barbarians",
-    "rarity": "Rare",
-    "role": "Attack",
-    "affinity": "Spirit"
+    "rarity": "rare",
+    "role": "attack",
+    "affinity": "spirit"
   },
   "stats": {
-    "hp": "14,535",
-    "atk": "1,266",
-    "def": "793",
-    "spd": "98",
-    "crate": "RATE",
-    "cdmg": "15",
-    "resist": "57",
-    "acc": "30"
+    "hp": 14535,
+    "atk": 1266,
+    "def": 793,
+    "spd": 98,
+    "crate": 15,
+    "cdmg": 57,
+    "resist": 30,
+    "acc": 0
   },
   "skills": [
     {
       "cd": 0,
       "mincd": 0,
+      "passive": false,
       "dmgscaling": [
         "ATK"
       ],
       "abilityname": "All-Out Attack",
+      "damageMultiplier": "3.9 ATK",
       "description": "Attacks 1 enemy. Fills this Champion’s Turn Meter by 30% if this attack is critical.",
       "books": [
         "Level 2: Damage +5%",
@@ -35,10 +38,12 @@
     {
       "cd": 4,
       "mincd": 3,
+      "passive": false,
       "dmgscaling": [
         "ATK"
       ],
       "abilityname": "Havoc",
+      "damageMultiplier": "5.6 ATK",
       "description": "Attacks 1 enemy. Grants an Extra Turn if the target is killed.",
       "books": [
         "Level 2: Damage +5%",
@@ -50,10 +55,12 @@
     {
       "cd": 4,
       "mincd": 4,
+      "passive": false,
       "dmgscaling": [
         "ATK"
       ],
       "abilityname": "Sweep",
+      "damageMultiplier": "1.5 ATK",
       "description": "Attacks all enemies 2 times. Will ignore 20% of each target’s DEF.",
       "books": [
         "Level 2: Damage +5%",
@@ -62,5 +69,6 @@
       ]
     }
   ],
-  "avatarUrl": "https://goctionni.github.io/raid-data/images/avatar/Berserker.png"
+  "version": "3.30.0",
+  "avatarUrl": "https://mcradane.github.io/raid-data/images/avatar/Berserker.png"
 }

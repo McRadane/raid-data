@@ -1,29 +1,33 @@
 {
   "name": "Errol",
+  "id": "Errol",
   "class": {
     "faction": "The Sacred Order",
-    "rarity": "Legendary",
-    "role": "Attack",
-    "affinity": "Force"
+    "rarity": "legendary",
+    "role": "attack",
+    "affinity": "force"
   },
   "stats": {
-    "hp": "16,020",
-    "atk": "1,674",
-    "def": "837",
-    "spd": "104",
-    "crate": "Rate",
-    "cdmg": "15",
-    "resist": "63",
-    "acc": "30"
+    "hp": 16020,
+    "atk": 1674,
+    "def": 837,
+    "spd": 104,
+    "crate": 15,
+    "cdmg": 63,
+    "resist": 30,
+    "acc": 0
   },
+  "aura": "Increases Ally ATK in Dungeons by 35%.",
   "skills": [
     {
       "cd": 0,
       "mincd": 0,
+      "passive": false,
       "dmgscaling": [
         "ATK"
       ],
       "abilityname": "Blazing Sword",
+      "damageMultiplier": "3.9 ATK",
       "description": "Attacks 1 enemy. Has an extra 30% chance of inflicting a critical hit.",
       "books": [
         "Level 2: Damage +5%",
@@ -34,11 +38,13 @@
     {
       "cd": 4,
       "mincd": 3,
+      "passive": false,
       "dmgscaling": [
         "ATK"
       ],
       "abilityname": "Helmbreaker",
-      "description": "Attacks 1 enemy 3 times. Has an extra 30% chance of inflicting a critical hit. Will ignore DEF by 50%.",
+      "damageMultiplier": "1.5 ATK",
+      "description": "Attacks 1 enemy 3 times. Has an extra 30% chance of inflicting a critical hit. Each hit has a 50% chance to ignore DEF.",
       "books": [
         "Level 2: Damage +10%",
         "Level 3: Damage +10%",
@@ -50,10 +56,12 @@
     {
       "cd": 4,
       "mincd": 3,
+      "passive": false,
       "dmgscaling": [
         "ATK"
       ],
       "abilityname": "Negation",
+      "damageMultiplier": "5.2 ATK",
       "description": "Steals all buffs from a target enemy, then attacks the target. Has an extra 30% chance of inflicting a critical hit.",
       "books": [
         "Level 2: Damage +15%",
@@ -61,15 +69,8 @@
         "Level 4: Damage +15%",
         "Level 5: Cooldown -1"
       ]
-    },
-    {
-      "cd": 0,
-      "mincd": 0,
-      "dmgscaling": [],
-      "abilityname": "Aura",
-      "description": "Increases Ally ATK in Dungeons by 35%.",
-      "books": []
     }
   ],
-  "avatarUrl": "https://goctionni.github.io/raid-data/images/avatar/Errol.png"
+  "version": "3.30.0",
+  "avatarUrl": "https://mcradane.github.io/raid-data/images/avatar/Errol.png"
 }

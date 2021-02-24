@@ -1,29 +1,32 @@
 {
   "name": "Outlander",
+  "id": "Outlander",
   "class": {
     "faction": "Barbarians",
-    "rarity": "Uncommon",
-    "role": "Attack",
-    "affinity": "Spirit"
+    "rarity": "uncommon",
+    "role": "attack",
+    "affinity": "spirit"
   },
   "stats": {
-    "hp": "9,255",
-    "atk": "1,299",
-    "def": "837",
-    "spd": "96",
-    "crate": "RATE",
-    "cdmg": "15",
-    "resist": "50",
-    "acc": "30"
+    "hp": 9255,
+    "atk": 1299,
+    "def": 837,
+    "spd": 96,
+    "crate": 15,
+    "cdmg": 50,
+    "resist": 30,
+    "acc": 0
   },
   "skills": [
     {
       "cd": 0,
       "mincd": 0,
+      "passive": false,
       "dmgscaling": [
         "ATK"
       ],
       "abilityname": "Salvage Strike",
+      "damageMultiplier": "2.1 ATK",
       "description": "Attacks 1 enemy 2 times.",
       "books": [
         "Level 2: Damage +5%",
@@ -35,10 +38,12 @@
     {
       "cd": 4,
       "mincd": 3,
+      "passive": false,
       "dmgscaling": [
         "ATK"
       ],
       "abilityname": "Talisman of Power",
+      "damageMultiplier": "3.8 ATK",
       "description": "Attacks all enemies. Has a 50% chance of decreasing the Turn Meter by 30%.",
       "books": [
         "Level 2: Damage +5%",
@@ -51,5 +56,6 @@
       ]
     }
   ],
-  "avatarUrl": "https://goctionni.github.io/raid-data/images/avatar/Outlander.png"
+  "version": "3.30.0",
+  "avatarUrl": "https://mcradane.github.io/raid-data/images/avatar/Outlander.png"
 }

@@ -1,29 +1,33 @@
 {
   "name": "Broadmaw",
+  "id": "Broadmaw",
   "class": {
     "faction": "Lizardmen",
-    "rarity": "Epic",
-    "role": "Support",
-    "affinity": "Void"
+    "rarity": "epic",
+    "role": "support",
+    "affinity": "void"
   },
   "stats": {
-    "hp": "18,660",
-    "atk": "1,101",
-    "def": "958",
-    "spd": "104",
-    "crate": "RATE",
-    "cdmg": "15",
-    "resist": "50",
-    "acc": "30"
+    "hp": 18660,
+    "atk": 1101,
+    "def": 958,
+    "spd": 104,
+    "crate": 15,
+    "cdmg": 50,
+    "resist": 30,
+    "acc": 0
   },
+  "aura": "Increases Ally DEF in the Arena by 33%.",
   "skills": [
     {
       "cd": 0,
       "mincd": 0,
+      "passive": false,
       "dmgscaling": [
         "ATK"
       ],
       "abilityname": "Ice Blast",
+      "damageMultiplier": "3.8 ATK",
       "description": "Attacks 1 enemy. Has a 25% chance of placing a [Freeze] debuff for 1 turn.",
       "books": [
         "Level 2: Damage +5%",
@@ -36,6 +40,7 @@
     {
       "cd": 4,
       "mincd": 3,
+      "passive": false,
       "dmgscaling": [],
       "abilityname": "Gift",
       "description": "Places a 30% [Increase C.RATE] buff and a 15% [Increase SPD] buff on all allies for 2 turns.",
@@ -46,6 +51,7 @@
     {
       "cd": 7,
       "mincd": 5,
+      "passive": false,
       "dmgscaling": [],
       "abilityname": "Resurrect",
       "description": "Revives 2 random dead allies with 25% HP. Places a [Block Damage] buff on the revived allies for 1 turn.",
@@ -56,15 +62,8 @@
         "Level 5: Cooldown -1",
         "Level 6: Cooldown -1"
       ]
-    },
-    {
-      "cd": 0,
-      "mincd": 0,
-      "dmgscaling": [],
-      "abilityname": "Aura",
-      "description": "Increases Ally DEF in the Arena by 33%.",
-      "books": []
     }
   ],
-  "avatarUrl": "https://goctionni.github.io/raid-data/images/avatar/Broadmaw.png"
+  "version": "3.30.0",
+  "avatarUrl": "https://mcradane.github.io/raid-data/images/avatar/Broadmaw.png"
 }

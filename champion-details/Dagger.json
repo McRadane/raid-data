@@ -1,0 +1,80 @@
+{
+  "name": "Dagger",
+  "id": "Dagger",
+  "class": {
+    "faction": "Banner Lords",
+    "rarity": "rare",
+    "role": "attack",
+    "affinity": "void"
+  },
+  "stats": {
+    "hp": 12720,
+    "atk": 1387,
+    "def": 793,
+    "spd": 101,
+    "crate": 15,
+    "cdmg": 57,
+    "resist": 30,
+    "acc": 0
+  },
+  "aura": "Increases Ally ATK in Faction Crypts by 20%",
+  "skills": [
+    {
+      "cd": 0,
+      "mincd": 0,
+      "passive": false,
+      "dmgscaling": [
+        "ATK"
+      ],
+      "abilityname": "Double Daggers",
+      "damageMultiplier": "1.65 ATK",
+      "description": "Attacks 1 enemy 2 times. Each critical hit decreases the target’s Turn Meter by 4%.",
+      "books": [
+        "Level 2: Damage +5%",
+        "Level 3: Damage +5%",
+        "Level 4: Damage +5%",
+        "Level 5: Damage +5%"
+      ]
+    },
+    {
+      "cd": 4,
+      "mincd": 3,
+      "passive": false,
+      "dmgscaling": [
+        "ATK"
+      ],
+      "abilityname": "Precision Sabotage",
+      "damageMultiplier": "3.65 ATK",
+      "description": "Attacks all enemies. Has a 50% chance of placing a 60% [Decrease DEF] debuff for 2 turns.",
+      "books": [
+        "Level 2: Damage +5%",
+        "Level 3: Damage +10%",
+        "Level 4: Buff/Debuff Chance +5%",
+        "Level 5: Buff/Debuff Chance +10%",
+        "Level 6: Buff/Debuff Chance +10%",
+        "Level 7: Cooldown -1"
+      ]
+    },
+    {
+      "cd": 4,
+      "mincd": 3,
+      "passive": false,
+      "dmgscaling": [
+        "ATK"
+      ],
+      "abilityname": "Swordbreak Knife",
+      "damageMultiplier": "5.8 ATK",
+      "description": "Attacks 1 enemy. Has a 50% chance of placing a 25% [Decrease ATK] debuff for 2 turns. Has a 50% chance of placing a 50% [Decrease ATK] debuff instead if the target is under a [Decrease DEF] debuff.",
+      "books": [
+        "Level 2: Damage +5%",
+        "Level 3: Damage +10%",
+        "Level 4: Buff/Debuff Chance +5%",
+        "Level 5: Buff/Debuff Chance +10%",
+        "Level 6: Buff/Debuff Chance +10%",
+        "Level 7: Cooldown -1"
+      ]
+    }
+  ],
+  "version": "3.30.0",
+  "avatarUrl": "https://mcradane.github.io/raid-data/images/avatar/Dagger.png"
+}

@@ -1,29 +1,32 @@
 {
   "name": "Sister Militant",
+  "id": "Sister_Militant",
   "class": {
     "faction": "The Sacred Order",
-    "rarity": "Common",
-    "role": "Attack",
-    "affinity": "Force"
+    "rarity": "common",
+    "role": "attack",
+    "affinity": "force"
   },
   "stats": {
-    "hp": "10,140",
-    "atk": "870",
-    "def": "639",
-    "spd": "98",
-    "crate": "Rate",
-    "cdmg": "15",
-    "resist": "50",
-    "acc": "30"
+    "hp": 10140,
+    "atk": 870,
+    "def": 639,
+    "spd": 98,
+    "crate": 15,
+    "cdmg": 50,
+    "resist": 30,
+    "acc": 0
   },
   "skills": [
     {
       "cd": 0,
       "mincd": 0,
+      "passive": false,
       "dmgscaling": [
         "ATK"
       ],
       "abilityname": "Wide Swing",
+      "damageMultiplier": "3.5 ATK",
       "description": "Attacks all enemies.",
       "books": [
         "Level 2: Damage +5%",
@@ -33,5 +36,6 @@
       ]
     }
   ],
-  "avatarUrl": "https://goctionni.github.io/raid-data/images/avatar/Sister_Militant.png"
+  "version": "3.30.0",
+  "avatarUrl": "https://mcradane.github.io/raid-data/images/avatar/Sister_Militant.png"
 }

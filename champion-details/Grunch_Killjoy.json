@@ -1,0 +1,88 @@
+{
+  "name": "Grunch Killjoy",
+  "id": "Grunch_Killjoy",
+  "class": {
+    "faction": "Ogryn Tribes",
+    "rarity": "epic",
+    "role": "support",
+    "affinity": "force"
+  },
+  "stats": {
+    "hp": 18000,
+    "atk": 969,
+    "def": 1134,
+    "spd": 102,
+    "crate": 15,
+    "cdmg": 50,
+    "resist": 30,
+    "acc": 15
+  },
+  "aura": "Increases Ally DEF in Faction Wars by 30%.",
+  "skills": [
+    {
+      "cd": 0,
+      "mincd": 0,
+      "passive": false,
+      "dmgscaling": [
+        "ATK"
+      ],
+      "abilityname": "Mace of Foulness",
+      "damageMultiplier": "3.6 ATK",
+      "description": "Attacks 1 enemy. Has a 40% chance of placing a [Block Buffs] debuff for 1 turn.",
+      "books": [
+        "Level 2: Damage +5%",
+        "Level 3: Buff/Debuff Chance +5%",
+        "Level 4: Damage +5%",
+        "Level 5: Buff/Debuff Chance +5%",
+        "Level 6: Buff/Debuff Chance +5%",
+        "Level 7: Damage +5%",
+        "Level 8: Damage +10%",
+        "Level 9: Buff/Debuff Chance +10%"
+      ]
+    },
+    {
+      "cd": 5,
+      "mincd": 4,
+      "passive": false,
+      "dmgscaling": [
+        "ATK"
+      ],
+      "abilityname": "Kindle Soulfire",
+      "damageMultiplier": "4.2 ATK",
+      "description": "Attacks all enemies. Has a 50% chance of placing a [Bomb] debuff that detonates after 1 turn.",
+      "books": [
+        "Level 2: Damage +5%",
+        "Level 3: Buff/Debuff Chance +5%",
+        "Level 4: Damage +5%",
+        "Level 5: Buff/Debuff Chance +5%",
+        "Level 6: Buff/Debuff Chance +5%",
+        "Level 7: Damage +5%",
+        "Level 8: Buff/Debuff Chance +5%",
+        "Level 9: Cooldown -1"
+      ]
+    },
+    {
+      "cd": 6,
+      "mincd": 4,
+      "passive": false,
+      "dmgscaling": [],
+      "abilityname": "Hex Eater",
+      "description": "Removes all debuffs from all allies, then places one 15% [Continuous Heal] buff for 1 turn on each ally for every debuff removed from them.",
+      "books": [
+        "Level 2: Cooldown -1",
+        "Level 3: Cooldown -1"
+      ]
+    },
+    {
+      "cd": 0,
+      "mincd": 0,
+      "passive": true,
+      "dmgscaling": [],
+      "abilityname": "Madcap",
+      "description": "Fills the Turn Meters of all allies by 10% whenever a [Bomb] debuff detonates on an enemy.",
+      "books": []
+    }
+  ],
+  "version": "3.30.0",
+  "avatarUrl": "https://mcradane.github.io/raid-data/images/avatar/Grunch_Killjoy.png"
+}

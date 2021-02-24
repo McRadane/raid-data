@@ -1,0 +1,23 @@
+{
+  "name": "Melga Steelgirdle",
+  "id": "Melga_Steelgirdle",
+  "class": {
+    "faction": "Dwarves",
+    "rarity": "epic",
+    "role": "hp",
+    "affinity": "spirit"
+  },
+  "stats": {
+    "hp": 20475,
+    "atk": 947,
+    "def": 991,
+    "spd": 100,
+    "crate": 15,
+    "cdmg": 50,
+    "resist": 45,
+    "acc": 0
+  },
+  "skills": [],
+  "version": "3.30.0",
+  "avatarUrl": "https://mcradane.github.io/raid-data/images/avatar/Melga_Steelgirdle.png"
+}

@@ -1,29 +1,32 @@
 {
   "name": "Mausoleum Mage",
+  "id": "Mausoleum_Mage",
   "class": {
     "faction": "Undead Hordes",
-    "rarity": "Epic",
-    "role": "Support",
-    "affinity": "Force"
+    "rarity": "epic",
+    "role": "support",
+    "affinity": "force"
   },
   "stats": {
-    "hp": "19,485",
-    "atk": "1,057",
-    "def": "947",
-    "spd": "104",
-    "crate": "RATE",
-    "cdmg": "15",
-    "resist": "50",
-    "acc": "30"
+    "hp": 19485,
+    "atk": 1057,
+    "def": 947,
+    "spd": 104,
+    "crate": 15,
+    "cdmg": 50,
+    "resist": 30,
+    "acc": 0
   },
   "skills": [
     {
       "cd": 0,
       "mincd": 0,
+      "passive": false,
       "dmgscaling": [
         "ATK"
       ],
       "abilityname": "Soul Manacles",
+      "damageMultiplier": "4.6 ATK",
       "description": "Attacks 1 enemy. Has a 30% chance of placing a 30% [Decrease SPD] debuff for 2 turns.",
       "books": [
         "Level 2: Damage +5%",
@@ -35,9 +38,10 @@
     {
       "cd": 4,
       "mincd": 3,
+      "passive": false,
       "dmgscaling": [],
       "abilityname": "Might of Undeath",
-      "description": "Places a [Block Debuffs] buff on all allies for 1 turn. Also places a 30% [Increase C. RATE] buff and a 60% [Increase DEF] on all allies for 2 turns.",
+      "description": "Places a [Block Debuffs] buff on all allies for 1 turn. Also places a 30% [Increase C.RATE] buff and a 60% [Increase DEF] on all allies for 2 turns.",
       "books": [
         "Level 2: Cooldown -1"
       ]
@@ -45,6 +49,7 @@
     {
       "cd": 5,
       "mincd": 4,
+      "passive": false,
       "dmgscaling": [],
       "abilityname": "Winds of Purging",
       "description": "Removes all debuffs from all allies, then heals all allies by 10% of this Champion’s MAX HP. Heals each ally by a further 10% if 1 or more debuffs are removed from that ally. Fills each ally’s Turn Meter by 15% if 2 or more debuffs are removed from that ally.",
@@ -56,5 +61,6 @@
       ]
     }
   ],
-  "avatarUrl": "https://goctionni.github.io/raid-data/images/avatar/Mausoleum_Mage.png"
+  "version": "3.30.0",
+  "avatarUrl": "https://mcradane.github.io/raid-data/images/avatar/Mausoleum_Mage.png"
 }

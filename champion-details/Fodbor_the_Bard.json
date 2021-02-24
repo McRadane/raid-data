@@ -1,0 +1,74 @@
+{
+  "name": "Fodbor the Bard",
+  "id": "Fodbor_the_Bard",
+  "class": {
+    "faction": "Dwarves",
+    "rarity": "epic",
+    "role": "attack",
+    "affinity": "spirit"
+  },
+  "stats": {
+    "hp": 15360,
+    "atk": 1454,
+    "def": 826,
+    "spd": 100,
+    "crate": 15,
+    "cdmg": 60,
+    "resist": 30,
+    "acc": 0
+  },
+  "skills": [
+    {
+      "cd": 0,
+      "mincd": 0,
+      "passive": false,
+      "dmgscaling": [
+        "ATK"
+      ],
+      "abilityname": "Axe Solo",
+      "damageMultiplier": "1.2 ATK",
+      "description": "Attacks 1 enemy 3 times. Has a 15% chance of placing a 100% [Heal Reduction] debuff for 2 turns.",
+      "books": [
+        "Level 2: Damage 5%",
+        "Level 3: Buff/Debuff Chance +5%",
+        "Level 4: Damage +10%",
+        "Level 5: Buff/Debuff Chance +10%"
+      ]
+    },
+    {
+      "cd": 4,
+      "mincd": 3,
+      "passive": false,
+      "dmgscaling": [
+        "ATK"
+      ],
+      "abilityname": "Robber’s Tale",
+      "damageMultiplier": "5.5 ATK",
+      "description": "Attacks 1 enemy. Has an 80% chance of stealing 2 random buffs from the target. Has an 80% chance of placing a [Stun] debuff for 1 turn instead if the target has no active buffs.",
+      "books": [
+        "Level 2: Damage +5%",
+        "Level 3: Buff/Debuff Chance +10%",
+        "Level 4: Damage +10%",
+        "Level 5: Buff/Debuff Chance +10%",
+        "Level 6: Cooldown -1"
+      ]
+    },
+    {
+      "cd": 5,
+      "mincd": 4,
+      "passive": false,
+      "dmgscaling": [],
+      "abilityname": "Awful Crooning",
+      "damageMultiplier": "3.4 ATK",
+      "description": "Attacks all enemies. Has a 75% chance of placing a 60% [Decrease DEF] debuff for 2 turns.",
+      "books": [
+        "Level 2: Damage +10%",
+        "Level 3: Buff/Debuff Chance +10%",
+        "Level 4: Buff/Debuff Chance +15%",
+        "Level 5: Cooldown -1"
+      ]
+    }
+  ],
+  "version": "3.30.0",
+  "avatarUrl": "https://mcradane.github.io/raid-data/images/avatar/Fodbor_the_Bard.png"
+}

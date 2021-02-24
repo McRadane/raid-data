@@ -1,29 +1,33 @@
 {
   "name": "Hellgazer",
+  "id": "Hellgazer",
   "class": {
     "faction": "Demonspawn",
-    "rarity": "Epic",
-    "role": "Attack",
-    "affinity": "Spirit"
+    "rarity": "epic",
+    "role": "attack",
+    "affinity": "spirit"
   },
   "stats": {
-    "hp": "17,670",
-    "atk": "1,476",
-    "def": "650",
-    "spd": "97",
-    "crate": "Rate",
-    "cdmg": "15",
-    "resist": "60",
-    "acc": "30"
+    "hp": 17670,
+    "atk": 1476,
+    "def": 650,
+    "spd": 97,
+    "crate": 15,
+    "cdmg": 60,
+    "resist": 30,
+    "acc": 0
   },
+  "aura": "Increases Ally ATK in Faction Crypts by 27%.",
   "skills": [
     {
       "cd": 0,
       "mincd": 0,
+      "passive": false,
       "dmgscaling": [
         "ATK"
       ],
       "abilityname": "Soul Rend",
+      "damageMultiplier": "2.9 ATK",
       "description": "Attacks 1 enemy. Has a 30% chance of placing a 60% [Decrease DEF] debuff for 2 turns.",
       "books": [
         "Level 2: Damage +5%",
@@ -35,6 +39,7 @@
     {
       "cd": 4,
       "mincd": 3,
+      "passive": false,
       "dmgscaling": [],
       "abilityname": "Dark Awakening",
       "description": "Removes all debuffs from this Champion. Places a 50% [Increase ATK] buff on this Champion for 2 turns. Grants an Extra Turn.",
@@ -45,10 +50,12 @@
     {
       "cd": 5,
       "mincd": 4,
+      "passive": false,
       "dmgscaling": [
         "ATK"
       ],
       "abilityname": "Malign Lightning",
+      "damageMultiplier": "3.9 ATK",
       "description": "Attacks all enemies. On each critical hit fills this Champion’s Turn Meter by 10%.",
       "books": [
         "Level 2: Damage +5%",
@@ -56,15 +63,8 @@
         "Level 4: Damage +10%",
         "Level 5: Cooldown -1"
       ]
-    },
-    {
-      "cd": 0,
-      "mincd": 0,
-      "dmgscaling": [],
-      "abilityname": "Aura",
-      "description": "Increases Ally ATK in Faction Crypts by 27%.",
-      "books": []
     }
   ],
-  "avatarUrl": "https://goctionni.github.io/raid-data/images/avatar/Hellgazer.png"
+  "version": "3.30.0",
+  "avatarUrl": "https://mcradane.github.io/raid-data/images/avatar/Hellgazer.png"
 }

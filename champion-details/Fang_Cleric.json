@@ -1,29 +1,33 @@
 {
   "name": "Fang Cleric",
+  "id": "Fang_Cleric",
   "class": {
     "faction": "Dark Elves",
-    "rarity": "Epic",
-    "role": "Support",
-    "affinity": "Spirit"
+    "rarity": "epic",
+    "role": "support",
+    "affinity": "spirit"
   },
   "stats": {
-    "hp": "18,330",
-    "atk": "903",
-    "def": "1,178",
-    "spd": "105",
-    "crate": "RATE",
-    "cdmg": "15",
-    "resist": "50",
-    "acc": "30"
+    "hp": 18330,
+    "atk": 903,
+    "def": 1178,
+    "spd": 105,
+    "crate": 15,
+    "cdmg": 50,
+    "resist": 30,
+    "acc": 0
   },
+  "aura": "Increases Ally SPD in all Battles by 15%.",
   "skills": [
     {
       "cd": 0,
       "mincd": 0,
+      "passive": false,
       "dmgscaling": [
         "ATK"
       ],
       "abilityname": "Conduit Fangs",
+      "damageMultiplier": "4 ATK",
       "description": "Attacks 1 enemy. Has a 75% chance of transferring 1 random debuff from this Champion to the target.",
       "books": [
         "Level 2: Damage +5%",
@@ -37,6 +41,7 @@
     {
       "cd": 3,
       "mincd": 2,
+      "passive": false,
       "dmgscaling": [],
       "abilityname": "Shadowy Blessings",
       "description": "Heals an ally by 20% of this Champion’s MAX HP. Also fills the target’s Turn Meter by 30% if they are fully healed by this Skill. Places a [Veil] buff on the target for 1 turn if they are not fully healed by this Skill.",
@@ -50,6 +55,7 @@
     {
       "cd": 6,
       "mincd": 4,
+      "passive": false,
       "dmgscaling": [],
       "abilityname": "Return to the Ranks",
       "description": "Revives a dead ally with 30% HP, then fills their Turn Meter by 30%. Also places an [Unkillable] buff on the target for 1 turn and a 15% [Continuous Heal] buff for 2 turns.",
@@ -57,15 +63,8 @@
         "Level 2: Cooldown -1",
         "Level 3: Cooldown -1"
       ]
-    },
-    {
-      "cd": 0,
-      "mincd": 0,
-      "dmgscaling": [],
-      "abilityname": "Aura",
-      "description": "Increases Ally SPD in all Battles by 15%.",
-      "books": []
     }
   ],
-  "avatarUrl": "https://goctionni.github.io/raid-data/images/avatar/Fang_Cleric.png"
+  "version": "3.30.0",
+  "avatarUrl": "https://mcradane.github.io/raid-data/images/avatar/Fang_Cleric.png"
 }

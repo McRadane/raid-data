@@ -1,29 +1,33 @@
 {
   "name": "Raider",
+  "id": "Raider",
   "class": {
     "faction": "Orcs",
-    "rarity": "Rare",
-    "role": "Attack",
-    "affinity": "Spirit"
+    "rarity": "rare",
+    "role": "attack",
+    "affinity": "spirit"
   },
   "stats": {
-    "hp": "14,205",
-    "atk": "1,156",
-    "def": "925",
-    "spd": "92",
-    "crate": "RATE",
-    "cdmg": "15",
-    "resist": "50",
-    "acc": "30"
+    "hp": 14205,
+    "atk": 1156,
+    "def": 925,
+    "spd": 92,
+    "crate": 15,
+    "cdmg": 50,
+    "resist": 30,
+    "acc": 10
   },
+  "aura": "Increases Ally SPD in Faction Crypts by 13%.",
   "skills": [
     {
       "cd": 0,
       "mincd": 0,
+      "passive": false,
       "dmgscaling": [
         "ATK"
       ],
       "abilityname": "Savagery",
+      "damageMultiplier": "3.8 ATK",
       "description": "Attacks 1 enemy. Attacks 2 times if the target’s HP percentage is higher than this Champion’s.",
       "books": [
         "Level 2: Damage +5%",
@@ -35,10 +39,12 @@
     {
       "cd": 4,
       "mincd": 4,
+      "passive": false,
       "dmgscaling": [
         "ATK"
       ],
       "abilityname": "Carnage",
+      "damageMultiplier": "4.4 ATK",
       "description": "Attacks all enemies. Has a 25% chance of placing a 30% [Decrease SPD] debuff for 2 turns.",
       "books": [
         "Level 2: Damage +5%",
@@ -51,10 +57,12 @@
     {
       "cd": 5,
       "mincd": 5,
+      "passive": false,
       "dmgscaling": [
         "ATK"
       ],
       "abilityname": "Dominate",
+      "damageMultiplier": "6.5 ATK",
       "description": "Attacks 1 enemy. Has a 60% chance of placing a [Stun] debuff for 2 turns. Also has a 60% chance of placing 30% [Decrease DEF] debuff for 2 turns.",
       "books": [
         "Level 2: Damage +10%",
@@ -62,15 +70,8 @@
         "Level 4: Damage +10%",
         "Level 5: Buff/Debuff Chance +20%"
       ]
-    },
-    {
-      "cd": 0,
-      "mincd": 0,
-      "dmgscaling": [],
-      "abilityname": "Aura",
-      "description": "Increases Ally SPD in Faction Crypts by 13%.",
-      "books": []
     }
   ],
-  "avatarUrl": "https://goctionni.github.io/raid-data/images/avatar/Raider.png"
+  "version": "3.30.0",
+  "avatarUrl": "https://mcradane.github.io/raid-data/images/avatar/Raider.png"
 }

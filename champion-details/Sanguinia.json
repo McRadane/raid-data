@@ -1,0 +1,75 @@
+{
+  "name": "Sanguinia",
+  "id": "Sanguinia",
+  "class": {
+    "faction": "The Sacred Order",
+    "rarity": "epic",
+    "role": "support",
+    "affinity": "magic"
+  },
+  "stats": {
+    "hp": 18330,
+    "atk": 1101,
+    "def": 980,
+    "spd": 98,
+    "crate": 15,
+    "cdmg": 50,
+    "resist": 30,
+    "acc": 15
+  },
+  "aura": "Increases Ally ACC in Doom Tower battles by 55.",
+  "skills": [
+    {
+      "cd": 0,
+      "mincd": 0,
+      "passive": false,
+      "dmgscaling": [
+        "ATK"
+      ],
+      "abilityname": "Red Punishment",
+      "damageMultiplier": "2 ATK",
+      "description": "Attacks 1 enemy 3 times. Each hit has a 20% chance of decreasing the duration of 2 random buffs on the target by 1 turn.",
+      "books": [
+        "Level 2: Damage +5%",
+        "Level 3: Damage +5%",
+        "Level 4: Buff/Debuff Chance +5%",
+        "Level 5: Buff/Debuff Chance +5%"
+      ]
+    },
+    {
+      "cd": 4,
+      "mincd": 3,
+      "passive": false,
+      "dmgscaling": [
+        "ATK"
+      ],
+      "abilityname": "Holy Blood",
+      "description": "Places a [Block Debuffs] on all allies for 1 turn and a 15% [Continuous Heal] buff on all allies for 2 turns.",
+      "books": [
+        "Level 2: Cooldown -1"
+      ]
+    },
+    {
+      "cd": 5,
+      "mincd": 4,
+      "passive": false,
+      "dmgscaling": [
+        "ATK"
+      ],
+      "abilityname": "Sacrificial Lamb",
+      "damageMultiplier": "7.6 ATK",
+      "description": "Attacks 1 enemy. Has a 75% chance of transferring all debuffs from this Champion to the target. Removes all the debuffs from all allies except this Champion.",
+      "books": [
+        "Level 2: Damage +5%",
+        "Level 3: Damage +5%",
+        "Level 4: Damage +5%",
+        "Level 5: Buff/Debuff Chance +5%",
+        "Level 6: Buff/Debuff Chance +10%",
+        "Level 7: Buff/Debuff Chance +10%",
+        "Level 8: Cooldown -1"
+      ]
+    }
+  ],
+  "version": "3.30.0",
+  "avatarUrl": "https://mcradane.github.io/raid-data/images/avatar/Sanguinia.png"
+}

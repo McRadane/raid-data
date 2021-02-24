@@ -1,29 +1,32 @@
 {
   "name": "Warpriest",
+  "id": "Warpriest",
   "class": {
     "faction": "The Sacred Order",
-    "rarity": "Rare",
-    "role": "Support",
-    "affinity": "Spirit"
+    "rarity": "rare",
+    "role": "support",
+    "affinity": "spirit"
   },
   "stats": {
-    "hp": "18,165",
-    "atk": "683",
-    "def": "1,134",
-    "spd": "97",
-    "crate": "RATE",
-    "cdmg": "15",
-    "resist": "50",
-    "acc": "30"
+    "hp": 18165,
+    "atk": 683,
+    "def": 1134,
+    "spd": 97,
+    "crate": 15,
+    "cdmg": 50,
+    "resist": 30,
+    "acc": 0
   },
   "skills": [
     {
       "cd": 0,
       "mincd": 0,
+      "passive": false,
       "dmgscaling": [
         "ATK"
       ],
       "abilityname": "Admonish",
+      "damageMultiplier": "5.5 ATK",
       "description": "Attacks 1 enemy. Has a 15% chance of placing a [Freeze] debuff for 1 turn.",
       "books": [
         "Level 2: Damage +5%",
@@ -36,6 +39,7 @@
     {
       "cd": 4,
       "mincd": 3,
+      "passive": false,
       "dmgscaling": [],
       "abilityname": "Divine Light",
       "description": "Heals a target by 20% of their MAX HP. Heals all allies except the target by 10% of the target’s MAX HP.",
@@ -49,6 +53,7 @@
     {
       "cd": 5,
       "mincd": 3,
+      "passive": false,
       "dmgscaling": [],
       "abilityname": "Bless Weapons",
       "description": "Places a 25% [Increase ATK] buff on all allies for 2 turns.",
@@ -58,5 +63,6 @@
       ]
     }
   ],
-  "avatarUrl": "https://goctionni.github.io/raid-data/images/avatar/Warpriest.png"
+  "version": "3.30.0",
+  "avatarUrl": "https://mcradane.github.io/raid-data/images/avatar/Warpriest.png"
 }

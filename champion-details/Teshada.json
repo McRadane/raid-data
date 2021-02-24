@@ -1,30 +1,34 @@
 {
   "name": "Teshada",
+  "id": "Teshada",
   "class": {
     "faction": "Barbarians",
-    "rarity": "Epic",
-    "role": "Defense",
-    "affinity": "Force"
+    "rarity": "epic",
+    "role": "defense",
+    "affinity": "force"
   },
   "stats": {
-    "hp": "16,350",
-    "atk": "826",
-    "def": "1,387",
-    "spd": "96",
-    "crate": "RATE",
-    "cdmg": "15",
-    "resist": "50",
-    "acc": "45"
+    "hp": 16350,
+    "atk": 826,
+    "def": 1387,
+    "spd": 96,
+    "crate": 15,
+    "cdmg": 50,
+    "resist": 45,
+    "acc": 0
   },
+  "aura": "Increases Ally SPD in Faction Crypts by 20%.",
   "skills": [
     {
       "cd": 0,
       "mincd": 0,
+      "passive": false,
       "dmgscaling": [
         "DEF",
         "ATK"
       ],
       "abilityname": "Savage Fury",
+      "damageMultiplier": "2 DEF + 1.8 ATK",
       "description": "Attacks 1 enemy. Places a 50% [Increase ATK] buff on this Champion for 2 turns if this attack is critical.",
       "books": [
         "Level 2: Damage +5%",
@@ -36,12 +40,14 @@
     {
       "cd": 4,
       "mincd": 3,
+      "passive": false,
       "dmgscaling": [
         "DEF",
         "ATK"
       ],
       "abilityname": "Maximum Carnage",
-      "description": "Attacks 3 times at random. Each hit has a 50% chance of placing a 25% [Weaken] debuff for 2 turns.",
+      "damageMultiplier": "1.4 DEF + 1 ATK",
+      "description": "Attacks 3 times at random. Each hit has a 50% chance of placing a 25% [Weaken] debuff for 2 turns. The chance of placing the [Weaken] debuff increases to 100% on critical hits.",
       "books": [
         "Level 2: Buff/Debuff Chance +5%",
         "Level 3: Damage +10%",
@@ -51,28 +57,23 @@
       ]
     },
     {
-      "cd": 4,
-      "mincd": 4,
+      "cd": 3,
+      "mincd": 3,
+      "passive": false,
       "dmgscaling": [
         "DEF",
         "ATK"
       ],
       "abilityname": "Spirit Appeasement",
-      "description": "Attacks 1 enemy. Revives a random ally with 40% HP if this attack kills the target.",
+      "damageMultiplier": "4.5 DEF + 1.8 ATK",
+      "description": "Attacks 1 enemy. Revives a random ally with 40% HP if this attack kills the target. Only available when an ally is dead.",
       "books": [
         "Level 2: Damage +5%",
         "Level 3: Damage +5%",
         "Level 4: Damage +10%"
       ]
-    },
-    {
-      "cd": 0,
-      "mincd": 0,
-      "dmgscaling": [],
-      "abilityname": "Aura",
-      "description": "Increases Ally SPD in Faction Crypts by 20%.",
-      "books": []
     }
   ],
-  "avatarUrl": "https://goctionni.github.io/raid-data/images/avatar/Teshada.png"
+  "version": "3.30.0",
+  "avatarUrl": "https://mcradane.github.io/raid-data/images/avatar/Teshada.png"
 }

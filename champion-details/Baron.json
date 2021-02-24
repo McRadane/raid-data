@@ -1,29 +1,33 @@
 {
   "name": "Baron",
+  "id": "Baron",
   "class": {
     "faction": "Banner Lords",
-    "rarity": "Legendary",
-    "role": "Attack",
-    "affinity": "Void"
+    "rarity": "legendary",
+    "role": "attack",
+    "affinity": "void"
   },
   "stats": {
-    "hp": "15,030",
-    "atk": "1,575",
-    "def": "1,002",
-    "spd": "90",
-    "crate": "Rate",
-    "cdmg": "15",
-    "resist": "63",
-    "acc": "40"
+    "hp": 15030,
+    "atk": 1575,
+    "def": 1002,
+    "spd": 90,
+    "crate": 15,
+    "cdmg": 63,
+    "resist": 40,
+    "acc": 0
   },
+  "aura": "Increases Ally ATK in all Battles by 33%",
   "skills": [
     {
       "cd": 0,
       "mincd": 0,
+      "passive": false,
       "dmgscaling": [
         "ATK"
       ],
       "abilityname": "Trample",
+      "damageMultiplier": "3.6 ATK",
       "description": "Attacks 1 enemy. Will attack all remaining enemies with any surplus damage if the target is killed. Has a 10% chance to unlock a secret skill, Skypiercer, for 1 turn.",
       "books": [
         "Level 2: Damage +5%",
@@ -35,10 +39,12 @@
     {
       "cd": 4,
       "mincd": 3,
+      "passive": false,
       "dmgscaling": [
         "ATK"
       ],
       "abilityname": "Split Asunder",
+      "damageMultiplier": "5.5 ATK",
       "description": "Attacks 1 enemy. Places a 60% [Decrease DEF] debuff for 2 turns. This debuff is guaranteed. Has a 20% chance of unlocking a secret Skill, Skypiercer, for 1 turn.",
       "books": [
         "Level 2: Damage +5%",
@@ -50,10 +56,12 @@
     {
       "cd": 6,
       "mincd": 4,
+      "passive": false,
       "dmgscaling": [
         "ATK"
       ],
       "abilityname": "Righteous Charge",
+      "damageMultiplier": "3 ATK x (1 + 0.25 Buff)",
       "description": "Attacks 1 enemy. Damage increases according to the number of buffs on this Champion. Has a 40% chance to unlock a secret skill, Skypiercer, for 1 turn.",
       "books": [
         "Level 2: Damage +10%",
@@ -65,21 +73,16 @@
     {
       "cd": 0,
       "mincd": 0,
+      "passive": false,
       "dmgscaling": [
         "ATK"
       ],
       "abilityname": "Sky Piercer",
+      "damageMultiplier": "4.3 ATK",
       "description": "Attacks all enemies. Deals Pure Damage. Will ignore [Shield] and [Block Damage] buffs.",
-      "books": []
-    },
-    {
-      "cd": 0,
-      "mincd": 0,
-      "dmgscaling": [],
-      "abilityname": "Aura",
-      "description": "Increases Ally ATK in all Battles by 33%",
       "books": []
     }
   ],
-  "avatarUrl": "https://goctionni.github.io/raid-data/images/avatar/Baron.png"
+  "version": "3.30.0",
+  "avatarUrl": "https://mcradane.github.io/raid-data/images/avatar/Baron.png"
 }

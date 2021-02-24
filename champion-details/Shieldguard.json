@@ -1,29 +1,32 @@
 {
   "name": "Shieldguard",
+  "id": "Shieldguard",
   "class": {
     "faction": "Barbarians",
-    "rarity": "Uncommon",
-    "role": "Attack",
-    "affinity": "Spirit"
+    "rarity": "uncommon",
+    "role": "attack",
+    "affinity": "spirit"
   },
   "stats": {
-    "hp": "15,360",
-    "atk": "705",
-    "def": "1,024",
-    "spd": "89",
-    "crate": "RATE",
-    "cdmg": "15",
-    "resist": "50",
-    "acc": "30"
+    "hp": 15360,
+    "atk": 705,
+    "def": 1024,
+    "spd": 89,
+    "crate": 15,
+    "cdmg": 50,
+    "resist": 30,
+    "acc": 0
   },
   "skills": [
     {
       "cd": 0,
       "mincd": 0,
+      "passive": false,
       "dmgscaling": [
         "DEF"
       ],
       "abilityname": "Uppercut",
+      "damageMultiplier": "4 DEF",
       "description": "Attacks 1 enemy. Has a 30% chance of placing a 15% [Decrease SPD] debuff for 2 turns.",
       "books": [
         "Level 2: Damage +5%",
@@ -36,10 +39,12 @@
     {
       "cd": 4,
       "mincd": 2,
+      "passive": false,
       "dmgscaling": [
         "DEF"
       ],
       "abilityname": "Battle Stance",
+      "damageMultiplier": "3.4 DEF",
       "description": "Attacks all enemies. Fills this Champion’s Turn Meter by 20% on each critical hit.",
       "books": [
         "Level 2: Damage +5%",
@@ -51,15 +56,15 @@
       ]
     },
     {
-      "cd": 0,
-      "mincd": 0,
-      "dmgscaling": [
-        "Passive"
-      ],
+      "cd": 1,
+      "mincd": 1,
+      "passive": true,
+      "dmgscaling": [],
       "abilityname": "Mighty Soul",
       "description": "Removes one debuff from this Champion each turn.",
       "books": []
     }
   ],
-  "avatarUrl": "https://goctionni.github.io/raid-data/images/avatar/Shieldguard.png"
+  "version": "3.30.0",
+  "avatarUrl": "https://mcradane.github.io/raid-data/images/avatar/Shieldguard.png"
 }

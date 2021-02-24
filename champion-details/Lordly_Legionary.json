@@ -1,29 +1,32 @@
 {
   "name": "Lordly Legionary",
+  "id": "Lordly_Legionary",
   "class": {
     "faction": "Banner Lords",
-    "rarity": "Epic",
-    "role": "Attack",
-    "affinity": "Magic"
+    "rarity": "epic",
+    "role": "attack",
+    "affinity": "magic"
   },
   "stats": {
-    "hp": "15,030",
-    "atk": "1,354",
-    "def": "947",
-    "spd": "96",
-    "crate": "RATE",
-    "cdmg": "15",
-    "resist": "60",
-    "acc": "30"
+    "hp": 15030,
+    "atk": 1354,
+    "def": 947,
+    "spd": 96,
+    "crate": 15,
+    "cdmg": 60,
+    "resist": 30,
+    "acc": 0
   },
   "skills": [
     {
       "cd": 0,
       "mincd": 0,
+      "passive": false,
       "dmgscaling": [
         "ATK"
       ],
       "abilityname": "Press the Fight",
+      "damageMultiplier": "1.5 ATK",
       "description": "Attacks 1 enemy 2 times. Places an extra hit if the target is under a 50% [Heal Reduction] debuff. Places 2 extra hits if the target is under a 100% [Heal Reduction] debuff.",
       "books": [
         "Level 2: Damage +5%",
@@ -34,10 +37,12 @@
     {
       "cd": 4,
       "mincd": 3,
+      "passive": false,
       "dmgscaling": [
         "ATK"
       ],
       "abilityname": "Outflank",
+      "damageMultiplier": "5.8 ATK",
       "description": "Attacks 1 enemy. Has a 75% chance of placing a 30% [Decrease SPD] debuff for 2 turns. Decreases the target’s Turn Meter by 20% if the [Decrease SPD] debuff is placed.",
       "books": [
         "Level 2: Damage +5%",
@@ -51,6 +56,7 @@
     {
       "cd": 5,
       "mincd": 4,
+      "passive": false,
       "dmgscaling": [],
       "abilityname": "Legion’s Orders",
       "description": "Places a 30% [Reflect Damage] buff and a 15% [Continuous Heal] buff on all allies for 2 turns",
@@ -59,5 +65,6 @@
       ]
     }
   ],
-  "avatarUrl": "https://goctionni.github.io/raid-data/images/avatar/Lordly_Legionary.png"
+  "version": "3.30.0",
+  "avatarUrl": "https://mcradane.github.io/raid-data/images/avatar/Lordly_Legionary.png"
 }

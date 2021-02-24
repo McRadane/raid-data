@@ -1,29 +1,32 @@
 {
   "name": "Death Hound",
+  "id": "Death_Hound",
   "class": {
     "faction": "Undead Hordes",
-    "rarity": "Common",
-    "role": "Attack",
-    "affinity": "Magic"
+    "rarity": "common",
+    "role": "attack",
+    "affinity": "magic"
   },
   "stats": {
-    "hp": "10,740",
-    "atk": "914",
-    "def": "573",
-    "spd": "94",
-    "crate": "RATE",
-    "cdmg": "15",
-    "resist": "50",
-    "acc": "30"
+    "hp": 10740,
+    "atk": 914,
+    "def": 573,
+    "spd": 94,
+    "crate": 15,
+    "cdmg": 50,
+    "resist": 30,
+    "acc": 0
   },
   "skills": [
     {
       "cd": 0,
       "mincd": 0,
+      "passive": false,
       "dmgscaling": [
         "ATK"
       ],
       "abilityname": "Neck Bite",
+      "damageMultiplier": "2.6 ATK",
       "description": "Attacks 1 enemy. Will ignore [Shield] and [Block Damage] buffs. Will ignore DEF if this attack is critical.",
       "books": [
         "Level 2: Damage +5%",
@@ -35,10 +38,12 @@
     {
       "cd": 3,
       "mincd": 2,
+      "passive": false,
       "dmgscaling": [
         "DEF"
       ],
       "abilityname": "Gnaw",
+      "damageMultiplier": "7.5 DEF",
       "description": "Attacks 1 enemy. Places a 5% [Poison] debuff for 2 turns.",
       "books": [
         "Level 2: Damage +5%",
@@ -48,5 +53,6 @@
       ]
     }
   ],
-  "avatarUrl": "https://goctionni.github.io/raid-data/images/avatar/Death_Hound.png"
+  "version": "3.30.0",
+  "avatarUrl": "https://mcradane.github.io/raid-data/images/avatar/Death_Hound.png"
 }

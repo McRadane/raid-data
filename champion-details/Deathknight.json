@@ -1,29 +1,32 @@
 {
   "name": "Deathknight",
+  "id": "Deathknight",
   "class": {
     "faction": "Undead Hordes",
-    "rarity": "Common",
-    "role": "HP",
-    "affinity": "Magic"
+    "rarity": "common",
+    "role": "hp",
+    "affinity": "magic"
   },
   "stats": {
-    "hp": "13,545",
-    "atk": "551",
-    "def": "749",
-    "spd": "99",
-    "crate": "Rate",
-    "cdmg": "15",
-    "resist": "50",
-    "acc": "30"
+    "hp": 13545,
+    "atk": 551,
+    "def": 749,
+    "spd": 99,
+    "crate": 15,
+    "cdmg": 50,
+    "resist": 30,
+    "acc": 0
   },
   "skills": [
     {
       "cd": 0,
       "mincd": 0,
+      "passive": false,
       "dmgscaling": [
         "ATK"
       ],
       "abilityname": "Rusty Sword",
+      "damageMultiplier": "5.5 ATK",
       "description": "Attacks 1 enemy. Has a 15% chance of placing a [Sleep] debuff for 1 turn.",
       "books": [
         "Level 2: Damage +5%",
@@ -38,13 +41,13 @@
     {
       "cd": 0,
       "mincd": 0,
-      "dmgscaling": [
-        "Passive"
-      ],
+      "passive": true,
+      "dmgscaling": [],
       "abilityname": "Payback",
       "description": "Has a 30% of counterattacking when hit.",
       "books": []
     }
   ],
-  "avatarUrl": "https://goctionni.github.io/raid-data/images/avatar/Deathknight.png"
+  "version": "3.30.0",
+  "avatarUrl": "https://mcradane.github.io/raid-data/images/avatar/Deathknight.png"
 }

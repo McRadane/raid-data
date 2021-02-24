@@ -1,29 +1,33 @@
 {
   "name": "Grandmaster",
+  "id": "Grandmaster",
   "class": {
     "faction": "Banner Lords",
-    "rarity": "Rare",
-    "role": "HP",
-    "affinity": "Magic"
+    "rarity": "rare",
+    "role": "hp",
+    "affinity": "magic"
   },
   "stats": {
-    "hp": "16,185",
-    "atk": "892",
-    "def": "1,057",
-    "spd": "100",
-    "crate": "RATE",
-    "cdmg": "15",
-    "resist": "50",
-    "acc": "40"
+    "hp": 16185,
+    "atk": 892,
+    "def": 1057,
+    "spd": 100,
+    "crate": 15,
+    "cdmg": 50,
+    "resist": 40,
+    "acc": 0
   },
+  "aura": "Increases Magic Ally HP in all Battles by 17%.",
   "skills": [
     {
       "cd": 0,
       "mincd": 0,
+      "passive": false,
       "dmgscaling": [
         "ATK"
       ],
       "abilityname": "Hammerblows",
+      "damageMultiplier": "1.5 ATK",
       "description": "Attacks 1 enemy 3 times.",
       "books": [
         "Level: 2 Damage +5%",
@@ -34,10 +38,12 @@
     {
       "cd": 4,
       "mincd": 3,
+      "passive": false,
       "dmgscaling": [
         "ATK"
       ],
       "abilityname": "Steel Crusher",
+      "damageMultiplier": "7.5 ATK",
       "description": "Attacks 1 enemy. Has a 40% chance of placing a 25% [Decrease ATK] debuff on the target for 2 turns.",
       "books": [
         "Level: 2 Damage +5%",
@@ -49,10 +55,12 @@
     {
       "cd": 4,
       "mincd": 3,
+      "passive": false,
       "dmgscaling": [
         "ATK"
       ],
       "abilityname": "Demoralizing Display",
+      "damageMultiplier": "7.4 ATK",
       "description": "Attacks 1 enemy. Has a 50% chance of placing a [Provoke] debuff on the target for 1 turn.",
       "books": [
         "Level: 2 Damage +5%",
@@ -61,15 +69,8 @@
         "Level: 5 Buff/Debuff Chance +15%",
         "Level: 6 Cooldown -1"
       ]
-    },
-    {
-      "cd": 0,
-      "mincd": 0,
-      "dmgscaling": [],
-      "abilityname": "Aura",
-      "description": "Increases Magic Ally HP in all Battles by 17%.",
-      "books": []
     }
   ],
-  "avatarUrl": "https://goctionni.github.io/raid-data/images/avatar/Grandmaster.png"
+  "version": "3.30.0",
+  "avatarUrl": "https://mcradane.github.io/raid-data/images/avatar/Grandmaster.png"
 }

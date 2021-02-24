@@ -1,29 +1,33 @@
 {
   "name": "Mistress of Hymns",
+  "id": "Mistress_of_Hymns",
   "class": {
     "faction": "The Sacred Order",
-    "rarity": "Epic",
-    "role": "Support",
-    "affinity": "Spirit"
+    "rarity": "epic",
+    "role": "support",
+    "affinity": "spirit"
   },
   "stats": {
-    "hp": "18,990",
-    "atk": "1,024",
-    "def": "1,013",
-    "spd": "103",
-    "crate": "Rate",
-    "cdmg": "15",
-    "resist": "50",
-    "acc": "30"
+    "hp": 18990,
+    "atk": 1024,
+    "def": 1013,
+    "spd": 103,
+    "crate": 15,
+    "cdmg": 50,
+    "resist": 30,
+    "acc": 0
   },
+  "aura": "Increases Ally DEF in all Battles by 25%",
   "skills": [
     {
       "cd": 0,
       "mincd": 0,
+      "passive": false,
       "dmgscaling": [
         "ATK"
       ],
       "abilityname": "Bolstering Blow",
+      "damageMultiplier": "4 ATK",
       "description": "Attacks 1 enemy. Heals the ally with the lowest HP by 15% of the damage inflicted.",
       "books": [
         "Level 2: Damage +5%",
@@ -35,10 +39,12 @@
     {
       "cd": 4,
       "mincd": 3,
+      "passive": false,
       "dmgscaling": [
         "ATK"
       ],
       "abilityname": "Song of Triumph",
+      "damageMultiplier": "5.7 ATK",
       "description": "Attacks 1 enemy. Places a 15% [Continuous Heal] buff on the 2 allies with the lowest HP for 2 turns if this attack is critical.",
       "books": [
         "Level 2: Damage +5%",
@@ -51,21 +57,15 @@
     {
       "cd": 6,
       "mincd": 5,
+      "passive": false,
       "dmgscaling": [],
       "abilityname": "Hymn of Rebirth",
       "description": "Revives 2 random allies with 50% HP and places a [Veil] buff on them for 1 turn.",
       "books": [
         "Level 2: Cooldown -1"
       ]
-    },
-    {
-      "cd": 0,
-      "mincd": 0,
-      "dmgscaling": [],
-      "abilityname": "Aura",
-      "description": "Increases Ally DEF in all Battles by 25%",
-      "books": []
     }
   ],
-  "avatarUrl": "https://goctionni.github.io/raid-data/images/avatar/Mistress_of_Hymns.png"
+  "version": "3.30.0",
+  "avatarUrl": "https://mcradane.github.io/raid-data/images/avatar/Mistress_of_Hymns.png"
 }

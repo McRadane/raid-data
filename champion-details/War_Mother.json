@@ -1,29 +1,33 @@
 {
   "name": "War Mother",
+  "id": "War_Mother",
   "class": {
     "faction": "Ogryn Tribes",
-    "rarity": "Legendary",
-    "role": "Attack",
-    "affinity": "Magic"
+    "rarity": "legendary",
+    "role": "attack",
+    "affinity": "magic"
   },
   "stats": {
-    "hp": "18,495",
-    "atk": "1,387",
-    "def": "958",
-    "spd": "99",
-    "crate": "Rate",
-    "cdmg": "15",
-    "resist": "63",
-    "acc": "30"
+    "hp": 18495,
+    "atk": 1387,
+    "def": 958,
+    "spd": 99,
+    "crate": 15,
+    "cdmg": 63,
+    "resist": 30,
+    "acc": 10
   },
+  "aura": "Increases Ally ACC in Faction Crypts by 65.",
   "skills": [
     {
       "cd": 0,
       "mincd": 0,
+      "passive": false,
       "dmgscaling": [
         "ATK"
       ],
       "abilityname": "Cry Havoc",
+      "damageMultiplier": "1.9 ATK",
       "description": "Attacks 1 enemy 2 times. Each hit places a 50% [Decrease ATK] debuff for 2 turns.",
       "books": [
         "Level 2: Damage +5%",
@@ -33,40 +37,37 @@
     {
       "cd": 4,
       "mincd": 3,
+      "passive": false,
       "dmgscaling": [
         "ATK"
       ],
       "abilityname": "Special Brew",
+      "damageMultiplier": "4.2 ATK",
       "description": "Attacks all enemies. Places two [Bomb] debuffs that detonate after 3 turns. Bomb damage increases by 100% against Bosses.",
       "books": [
         "Level 2: Damage +5%",
         "Level 3: Damage +5%",
         "Level 4: Damage +10%",
-        "Level 4: Cooldown -1"
+        "Level 5: Cooldown -1"
       ]
     },
     {
       "cd": 5,
       "mincd": 4,
+      "passive": false,
       "dmgscaling": [
         "ATK"
       ],
       "abilityname": "Mother’s Touch",
+      "damageMultiplier": "4.5 ATK",
       "description": "Attacks all enemies. Instantly detonates all [Bomb] debuffs if this attack is critical.",
       "books": [
         "Level 2: Damage +5%",
         "Level 3: Damage +10%",
         "Level 4: Cooldown -1"
       ]
-    },
-    {
-      "cd": 0,
-      "mincd": 0,
-      "dmgscaling": [],
-      "abilityname": "Aura",
-      "description": "Increases Ally ACC in Faction Crypts by 65.",
-      "books": []
     }
   ],
-  "avatarUrl": "https://goctionni.github.io/raid-data/images/avatar/War_Mother.png"
+  "version": "3.30.0",
+  "avatarUrl": "https://mcradane.github.io/raid-data/images/avatar/War_Mother.png"
 }

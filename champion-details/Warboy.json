@@ -1,29 +1,32 @@
 {
   "name": "Warboy",
+  "id": "Warboy",
   "class": {
     "faction": "Orcs",
-    "rarity": "Common",
-    "role": "Defense",
-    "affinity": "Magic"
+    "rarity": "common",
+    "role": "defense",
+    "affinity": "magic"
   },
   "stats": {
-    "hp": "13,215",
-    "atk": "584",
-    "def": "738",
-    "spd": "91",
-    "crate": "RATE",
-    "cdmg": "15",
-    "resist": "50",
-    "acc": "30"
+    "hp": 13215,
+    "atk": 584,
+    "def": 738,
+    "spd": 91,
+    "crate": 15,
+    "cdmg": 50,
+    "resist": 30,
+    "acc": 0
   },
   "skills": [
     {
       "cd": 0,
       "mincd": 0,
+      "passive": false,
       "dmgscaling": [
         "DEF"
       ],
       "abilityname": "Plunder",
+      "damageMultiplier": "3.5 DEF",
       "description": "Attacks 1 enemy. Has a 15% chance of placing a [Provoke] debuff for 1 turn.",
       "books": [
         "Level 2: Damage +5%",
@@ -33,5 +36,6 @@
       ]
     }
   ],
-  "avatarUrl": "https://goctionni.github.io/raid-data/images/avatar/Warboy.png"
+  "version": "3.30.0",
+  "avatarUrl": "https://mcradane.github.io/raid-data/images/avatar/Warboy.png"
 }

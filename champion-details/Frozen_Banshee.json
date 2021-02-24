@@ -1,29 +1,33 @@
 {
   "name": "Frozen Banshee",
+  "id": "Frozen_Banshee",
   "class": {
     "faction": "Undead Hordes",
-    "rarity": "Rare",
-    "role": "Attack",
-    "affinity": "Magic"
+    "rarity": "rare",
+    "role": "attack",
+    "affinity": "magic"
   },
   "stats": {
-    "hp": "14,700",
-    "atk": "1,046",
-    "def": "1,002",
-    "spd": "99",
-    "crate": "RATE",
-    "cdmg": "15",
-    "resist": "50",
-    "acc": "30"
+    "hp": 14700,
+    "atk": 1046,
+    "def": 1002,
+    "spd": 99,
+    "crate": 15,
+    "cdmg": 50,
+    "resist": 30,
+    "acc": 10
   },
+  "aura": "Increases Ally ACC in all Battles by 35.",
   "skills": [
     {
       "cd": 0,
       "mincd": 0,
+      "passive": false,
       "dmgscaling": [
         "ATK"
       ],
       "abilityname": "Death’s Caress",
+      "damageMultiplier": "2.2 ATK",
       "description": "Attacks 1 enemy 2 times. Each hit has an 80% chance pf placing a 5% [Poison] debuff for 2 turns if the target is under a [Poison Sensitivity] debuff.",
       "books": [
         "Level 2: Damage +5%",
@@ -37,10 +41,12 @@
     {
       "cd": 4,
       "mincd": 3,
+      "passive": false,
       "dmgscaling": [
         "ATK"
       ],
       "abilityname": "Cruel Exultation",
+      "damageMultiplier": "6.5 ATK",
       "description": "Attacks 1 enemy. Fills the Turn Meters of all allies by 2% for each debuff on the target.",
       "books": [
         "Level 2: Damage +5%",
@@ -52,10 +58,12 @@
     {
       "cd": 5,
       "mincd": 3,
+      "passive": false,
       "dmgscaling": [
         "ATK"
       ],
       "abilityname": "Frost Blight",
+      "damageMultiplier": "5 ATK",
       "description": "Attacks 1 enemy. Places a 25% [Poison Sensitivity] debuff for 2 turns.",
       "books": [
         "Level 2: Damage +5%",
@@ -64,15 +72,8 @@
         "Level 5: Cooldown -1",
         "Level 6: Cooldown -1"
       ]
-    },
-    {
-      "cd": 0,
-      "mincd": 0,
-      "dmgscaling": [],
-      "abilityname": "Aura",
-      "description": "Increases Ally ACC in all Battles by 35.",
-      "books": []
     }
   ],
-  "avatarUrl": "https://goctionni.github.io/raid-data/images/avatar/Frozen_Banshee.png"
+  "version": "3.30.0",
+  "avatarUrl": "https://mcradane.github.io/raid-data/images/avatar/Frozen_Banshee.png"
 }

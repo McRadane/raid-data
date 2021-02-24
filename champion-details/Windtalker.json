@@ -1,29 +1,32 @@
 {
   "name": "Windtalker",
+  "id": "Windtalker",
   "class": {
     "faction": "Skinwalkers",
-    "rarity": "Uncommon",
-    "role": "Support",
-    "affinity": "Magic"
+    "rarity": "uncommon",
+    "role": "support",
+    "affinity": "magic"
   },
   "stats": {
-    "hp": "13,710",
-    "atk": "903",
-    "def": "936",
-    "spd": "87",
-    "crate": "RATE",
-    "cdmg": "15",
-    "resist": "50",
-    "acc": "30"
+    "hp": 13710,
+    "atk": 903,
+    "def": 936,
+    "spd": 87,
+    "crate": 15,
+    "cdmg": 50,
+    "resist": 30,
+    "acc": 0
   },
   "skills": [
     {
       "cd": 0,
       "mincd": 0,
+      "passive": false,
       "dmgscaling": [
         "ATK"
       ],
       "abilityname": "Thunder",
+      "damageMultiplier": "3.4 ATK",
       "description": "Attacks 1 enemy. Has a 15% chance of placing a 25% [Decrease ACC] debuff for 1 turn.",
       "books": [
         "Level 2: Damage +5%",
@@ -36,6 +39,7 @@
     {
       "cd": 4,
       "mincd": 2,
+      "passive": false,
       "dmgscaling": [],
       "abilityname": "Spiritual Wind",
       "description": "Places a 60% [Increase DEF] buff on a target ally for 2 turns. Heals the target by 20% of their MAX HP.",
@@ -49,5 +53,6 @@
       ]
     }
   ],
-  "avatarUrl": "https://goctionni.github.io/raid-data/images/avatar/Windtalker.png"
+  "version": "3.30.0",
+  "avatarUrl": "https://mcradane.github.io/raid-data/images/avatar/Windtalker.png"
 }

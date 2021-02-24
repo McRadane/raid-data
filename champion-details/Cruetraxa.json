@@ -1,29 +1,33 @@
 {
   "name": "Cruetraxa",
+  "id": "Cruetraxa",
   "class": {
     "faction": "Demonspawn",
-    "rarity": "Legendary",
-    "role": "Attack",
-    "affinity": "Void"
+    "rarity": "legendary",
+    "role": "attack",
+    "affinity": "void"
   },
   "stats": {
-    "hp": "18,330",
-    "atk": "1,498",
-    "def": "859",
-    "spd": "99",
-    "crate": "Rate",
-    "cdmg": "15",
-    "resist": "63",
-    "acc": "40"
+    "hp": 18330,
+    "atk": 1498,
+    "def": 859,
+    "spd": 99,
+    "crate": 15,
+    "cdmg": 63,
+    "resist": 40,
+    "acc": 0
   },
+  "aura": "Increases Ally ATK in all Battles by 24%",
   "skills": [
     {
       "cd": 0,
       "mincd": 0,
+      "passive": false,
       "dmgscaling": [
         "ATK"
       ],
       "abilityname": "Dire Perforation",
+      "damageMultiplier": "0.8 ATK",
       "description": "Attacks 1 enemy 4 times. Ignores 50% of enemy DEF.",
       "books": [
         "Level 2: Damage +5%",
@@ -35,11 +39,13 @@
     {
       "cd": 4,
       "mincd": 4,
+      "passive": false,
       "dmgscaling": [
         "ATK"
       ],
       "abilityname": "Curse of Writhing",
-      "description": "Attacks 1 enemy. Has a 50% chance of placing a 25% [Weaken] debuff for 2 turns. Has a 50% chance of removing 2 random buffs from the target. Grants an Extra Turn.",
+      "damageMultiplier": "6.9 ATK",
+      "description": "Attacks 1 enemy. Has a 75% chance of placing a 25% [Weaken] debuff for 2 turns. Has a 75% chance of removing 2 random buffs from the target. Grants an Extra Turn.",
       "books": [
         "Level 2: Damage +5%",
         "Level 3: Buff/Debuff Chance +5%",
@@ -50,21 +56,13 @@
     {
       "cd": 0,
       "mincd": 0,
-      "dmgscaling": [
-        "Passive"
-      ],
+      "passive": true,
+      "dmgscaling": [],
       "abilityname": "Rite of Rebirth",
       "description": "Places a [Revive on Death] buff on this Champion for 2 turns at the beginning of each round. Places [Revive on Death] buff on this Champion for 1 turn when this Champion kills an enemy. [Does not occur with Spiderlings].",
       "books": []
-    },
-    {
-      "cd": 0,
-      "mincd": 0,
-      "dmgscaling": [],
-      "abilityname": "Aura",
-      "description": "Increases Ally ATK in all Battles by 24%",
-      "books": []
     }
   ],
-  "avatarUrl": "https://goctionni.github.io/raid-data/images/avatar/Cruetraxa.png"
+  "version": "3.30.0",
+  "avatarUrl": "https://mcradane.github.io/raid-data/images/avatar/Cruetraxa.png"
 }

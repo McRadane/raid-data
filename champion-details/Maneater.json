@@ -1,29 +1,33 @@
 {
   "name": "Maneater",
+  "id": "Maneater",
   "class": {
     "faction": "Ogryn Tribes",
-    "rarity": "Epic",
-    "role": "HP",
-    "affinity": "Void"
+    "rarity": "epic",
+    "role": "hp",
+    "affinity": "void"
   },
   "stats": {
-    "hp": "20,310",
-    "atk": "837",
-    "def": "1,112",
-    "spd": "98",
-    "crate": "RATE",
-    "cdmg": "15",
-    "resist": "50",
-    "acc": "45"
+    "hp": 20310,
+    "atk": 837,
+    "def": 1112,
+    "spd": 98,
+    "crate": 15,
+    "cdmg": 50,
+    "resist": 45,
+    "acc": 0
   },
+  "aura": "Increases Ally HP in Dungeons by 33%.",
   "skills": [
     {
       "cd": 0,
       "mincd": 0,
+      "passive": false,
       "dmgscaling": [
         "ATK"
       ],
       "abilityname": "Pummel",
+      "damageMultiplier": "5.5 ATK",
       "description": "Attacks 1 enemy. Places a 50% [Decrease ATK] debuff on all enemies if this attack is critical.",
       "books": [
         "Level 2: Damage +5%",
@@ -35,10 +39,12 @@
     {
       "cd": 4,
       "mincd": 3,
+      "passive": false,
       "dmgscaling": [
         "ATK"
       ],
       "abilityname": "Syphon",
+      "damageMultiplier": "8.2 ATK",
       "description": "Attacks 1 enemy. Fully depletes the target’s Turn Meter. Fills this Champion’s Turn Meter equal to the amount the target loses.",
       "books": [
         "Level 2: Damage +5%",
@@ -51,22 +57,17 @@
     {
       "cd": 7,
       "mincd": 5,
+      "passive": false,
       "dmgscaling": [],
       "abilityname": "Ancient Blood",
+      "damageMultiplier": "0.05 HP * (5 – Dead Allies)",
       "description": "This Champion receives damage, then places an [Unkillable] buff and a [Block Debuffs] buff on all allies for 2 turns. Damage received is equal to 5% MAX HP for each alive ally.",
       "books": [
         "Level 2: Cooldown -1",
         "Level 3: Cooldown -1"
       ]
-    },
-    {
-      "cd": 0,
-      "mincd": 0,
-      "dmgscaling": [],
-      "abilityname": "Aura",
-      "description": "Increases Ally HP in Dungeons by 33%.",
-      "books": []
     }
   ],
-  "avatarUrl": "https://goctionni.github.io/raid-data/images/avatar/Maneater.png"
+  "version": "3.30.0",
+  "avatarUrl": "https://mcradane.github.io/raid-data/images/avatar/Maneater.png"
 }

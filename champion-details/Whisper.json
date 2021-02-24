@@ -1,29 +1,33 @@
 {
   "name": "Whisper",
+  "id": "Whisper",
   "class": {
     "faction": "Knight Revenant",
-    "rarity": "Epic",
-    "role": "Attack",
-    "affinity": "Void"
+    "rarity": "epic",
+    "role": "attack",
+    "affinity": "void"
   },
   "stats": {
-    "hp": "16,020",
-    "atk": "1,443",
-    "def": "793",
-    "spd": "95",
-    "crate": "RATE",
-    "cdmg": "15",
-    "resist": "60",
-    "acc": "30"
+    "hp": 16020,
+    "atk": 1443,
+    "def": 793,
+    "spd": 95,
+    "crate": 15,
+    "cdmg": 60,
+    "resist": 30,
+    "acc": 0
   },
+  "aura": "Increases Ally ATK in Dungeons by 29 %.",
   "skills": [
     {
       "cd": 0,
       "mincd": 0,
+      "passive": false,
       "dmgscaling": [
         "ATK"
       ],
       "abilityname": "Softening Drive",
+      "damageMultiplier": "4 ATK",
       "description": "Attacks 1 enemy. Has a 50% chance of placing a 25% [Weaken] debuff for 2 turns.",
       "books": [
         "Level 2: Damage +10%",
@@ -35,6 +39,7 @@
     {
       "cd": 4,
       "mincd": 3,
+      "passive": false,
       "dmgscaling": [
         "ATK"
       ],
@@ -50,6 +55,7 @@
     {
       "cd": 6,
       "mincd": 5,
+      "passive": false,
       "dmgscaling": [
         "ATK"
       ],
@@ -65,21 +71,13 @@
     {
       "cd": 0,
       "mincd": 0,
-      "dmgscaling": [
-        "Passive"
-      ],
+      "passive": true,
+      "dmgscaling": [],
       "abilityname": "Unrelenting",
       "description": "Has a 10% chance of granting an Extra Turn whenever this Champion lands a critical hit. Increases damage inflicted on Bosses by 20%.",
       "books": []
-    },
-    {
-      "cd": 0,
-      "mincd": 0,
-      "dmgscaling": [],
-      "abilityname": "Aura",
-      "description": "Increases Ally ATK in Dungeons by 29 %.",
-      "books": []
     }
   ],
-  "avatarUrl": "https://goctionni.github.io/raid-data/images/avatar/Whisper.png"
+  "version": "3.30.0",
+  "avatarUrl": "https://mcradane.github.io/raid-data/images/avatar/Whisper.png"
 }

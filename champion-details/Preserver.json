@@ -1,29 +1,33 @@
 {
   "name": "Preserver",
+  "id": "Preserver",
   "class": {
     "faction": "Banner Lords",
-    "rarity": "Rare",
-    "role": "Defense",
-    "affinity": "Force"
+    "rarity": "rare",
+    "role": "defense",
+    "affinity": "force"
   },
   "stats": {
-    "hp": "16,350",
-    "atk": "771",
-    "def": "1,167",
-    "spd": "102",
-    "crate": "RATE",
-    "cdmg": "15",
-    "resist": "50",
-    "acc": "40"
+    "hp": 16350,
+    "atk": 771,
+    "def": 1167,
+    "spd": 102,
+    "crate": 15,
+    "cdmg": 50,
+    "resist": 40,
+    "acc": 0
   },
+  "aura": "Increases Ally HP in all Battles by 17%",
   "skills": [
     {
       "cd": 0,
       "mincd": 0,
+      "passive": false,
       "dmgscaling": [
         "ATK"
       ],
       "abilityname": "Exhausting Assault",
+      "damageMultiplier": "5.5 ATK",
       "description": "Attacks 1 enemy 2 times. Has a 15% chance of placing a 30% [Decrease SPD] debuff for 2 turns.",
       "books": [
         "Level 2: Damage +5%",
@@ -35,6 +39,7 @@
     {
       "cd": 4,
       "mincd": 3,
+      "passive": false,
       "dmgscaling": [],
       "abilityname": "Recuperate",
       "description": "Places a 7.5% [Continuous Heal] buff and a [Shield] buff on this Champion for 2 turns. The value of the [Shield] is proportional to this Champion’s MAX HP.",
@@ -47,10 +52,12 @@
     {
       "cd": 5,
       "mincd": 4,
+      "passive": false,
       "dmgscaling": [
         "ATK"
       ],
       "abilityname": "Ice Blow",
+      "damageMultiplier": "6.7 ATK",
       "description": "Attacks 1 enemy. Has a 75% chance of placing a [Freeze] debuff for 1 turn.",
       "books": [
         "Level 2: Damage +5%",
@@ -60,15 +67,8 @@
         "Level 6: Buff/Debuff Chance +10%",
         "Level 7: Cooldown -1"
       ]
-    },
-    {
-      "cd": 0,
-      "mincd": 0,
-      "dmgscaling": [],
-      "abilityname": "Aura",
-      "description": "Increases Ally HP in all Battles by 17%",
-      "books": []
     }
   ],
-  "avatarUrl": "https://goctionni.github.io/raid-data/images/avatar/Preserver.png"
+  "version": "3.30.0",
+  "avatarUrl": "https://mcradane.github.io/raid-data/images/avatar/Preserver.png"
 }

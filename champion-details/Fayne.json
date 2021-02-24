@@ -1,27 +1,32 @@
 {
   "name": "Fayne",
+  "id": "Fayne",
   "class": {
     "faction": "Skinwalkers",
-    "rarity": "Epic",
-    "role": "Attack",
-    "affinity": "Spirit"
+    "rarity": "epic",
+    "role": "attack",
+    "affinity": "spirit"
   },
   "stats": {
-    "hp": "13,710",
-    "atk": "1,663",
-    "def": "727",
-    "spd": "99",
-    "crate": "15%",
-    "cdmg": "57%",
-    "resist": "30",
-    "acc": "0"
+    "hp": 13710,
+    "atk": 1663,
+    "def": 727,
+    "spd": 99,
+    "crate": 15,
+    "cdmg": 57,
+    "resist": 30,
+    "acc": 0
   },
   "skills": [
     {
       "cd": 0,
       "mincd": 0,
-      "dmgscaling": ["ATK"],
+      "passive": false,
+      "dmgscaling": [
+        "ATK"
+      ],
       "abilityname": "Exotic Blades",
+      "damageMultiplier": "1.55 ATK",
       "description": "Attacks 1 enemy 2 times. Each hit has a 35% chance of stealing 5% of the target’s current Turn Meter.",
       "books": [
         "Level 2: Damage +5%",
@@ -34,8 +39,12 @@
     {
       "cd": 4,
       "mincd": 3,
-      "dmgscaling": ["ATK"],
+      "passive": false,
+      "dmgscaling": [
+        "ATK"
+      ],
       "abilityname": "Flower’s Tears",
+      "damageMultiplier": "4.8 ATK",
       "description": "Attacks 1 enemy. Has a 75% chance of placing two 5% [Poison] debuffs and a 50% [Decrease ATK] debuff for 2 turns.",
       "books": [
         "Level 2: Damage +10%",
@@ -48,8 +57,12 @@
     {
       "cd": 5,
       "mincd": 4,
-      "dmgscaling": ["ATK"],
+      "passive": false,
+      "dmgscaling": [
+        "ATK"
+      ],
       "abilityname": "Flowing Style",
+      "damageMultiplier": "1.8 ATK",
       "description": "Attacks 1 enemy 3 times. The first hit has a 75% chance of placing a 60% [Decrease DEF] debuff for 3 turns. The second hit has a 75% chance of placing a 25% [Weaken] debuff for 3 turns. The third hit heals this Champion by 4% of her MAX HP for every debuff on the target.",
       "books": [
         "Level 2: Damage +5%",
@@ -60,5 +73,6 @@
       ]
     }
   ],
-  "avatarUrl": "https://goctionni.github.io/raid-data/images/avatar/Fayne.png"
+  "version": "3.30.0",
+  "avatarUrl": "https://mcradane.github.io/raid-data/images/avatar/Fayne.png"
 }

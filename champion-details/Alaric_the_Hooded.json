@@ -1,0 +1,75 @@
+{
+  "name": "Alaric the Hooded",
+  "id": "Alaric_the_Hooded",
+  "class": {
+    "faction": "Banner Lords",
+    "rarity": "epic",
+    "role": "attack",
+    "affinity": "force"
+  },
+  "stats": {
+    "hp": 15855,
+    "atk": 1454,
+    "def": 793,
+    "spd": 98,
+    "crate": 15,
+    "cdmg": 60,
+    "resist": 30,
+    "acc": 0
+  },
+  "aura": "Increases Ally ATK in Faction Crypts by 29%.",
+  "skills": [
+    {
+      "cd": 0,
+      "mincd": 0,
+      "passive": false,
+      "dmgscaling": [
+        "ATK"
+      ],
+      "abilityname": "Red Fury",
+      "description": "Attacks 1 enemy. Has a 30% chance of decreasing the target’s Turn Meter by 7.5%. Decreases the Turn Meter by a further 3% for each buff on the target.",
+      "books": [
+        "Level 2: Damage +5%",
+        "Level 3: Damage +5%",
+        "Level 4: Buff/Debuff Chance +5%",
+        "Level 5: Buff/Debuff Chance +5%",
+        "Level 6: Buff/Debuff Chance +10%"
+      ]
+    },
+    {
+      "cd": 4,
+      "mincd": 3,
+      "passive": false,
+      "dmgscaling": [
+        "ATK"
+      ],
+      "abilityname": "Demand Chivalry",
+      "description": "Attacks 1 enemy. Has a 50% chance of removing 2 random buffs from the target before attacking. Has a 75% chance of stealing 2 random buffs instead if the target has 4 or more buffs.",
+      "books": [
+        "Level 2: Damage +5%",
+        "Level 3: Damage +10%",
+        "Level 4: Buff/Debuff Chance +10%",
+        "Level 5: Buff/Debuff Chance +15%",
+        "Level 6: Cooldown -1"
+      ]
+    },
+    {
+      "cd": 5,
+      "mincd": 4,
+      "passive": false,
+      "dmgscaling": [
+        "ATK"
+      ],
+      "abilityname": "Crimson Warlord",
+      "description": "Attacks all enemies. Has a 75% chance of placing a 50% [Decrease ATK] debuff and a 50% [Decrease ACC] debuff on all enemies for 2 turns.",
+      "books": [
+        "Level 2: Damage +15%",
+        "Level 3: Buff/Debuff Chance +10%",
+        "Level 4: Buff/Debuff Chance +15%",
+        "Level 5: Cooldown -1"
+      ]
+    }
+  ],
+  "version": "3.30.0",
+  "avatarUrl": "https://mcradane.github.io/raid-data/images/avatar/Alaric_the_Hooded.png"
+}

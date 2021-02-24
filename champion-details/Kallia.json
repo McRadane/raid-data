@@ -1,30 +1,34 @@
 {
   "name": "Kallia",
+  "id": "Kallia",
   "class": {
     "faction": "Barbarians",
-    "rarity": "Epic",
-    "role": "Attack",
-    "affinity": "Force"
+    "rarity": "epic",
+    "role": "attack",
+    "affinity": "force"
   },
   "stats": {
-    "hp": "12,885",
-    "atk": "1,597",
-    "def": "848",
-    "spd": "106",
-    "crate": "RATE",
-    "cdmg": "15",
-    "resist": "57",
-    "acc": "30"
+    "hp": 12885,
+    "atk": 1597,
+    "def": 848,
+    "spd": 106,
+    "crate": 15,
+    "cdmg": 57,
+    "resist": 30,
+    "acc": 0
   },
+  "aura": "Increases Ally ATK in all Battles by 25%.",
   "skills": [
     {
       "cd": 0,
       "mincd": 0,
+      "passive": false,
       "dmgscaling": [
         "ATK"
       ],
       "abilityname": "Superheated Hammer",
-      "description": "Attacks 1 enemy. Has a 30% chance of placing a [HP Burn] debuff for 2 turns. [Heals this Champion by 30% of the damage inflicted when Atur is on the same team]",
+      "damageMultiplier": "2.8 ATK",
+      "description": "Attacks 1 enemy. Has a 30% chance of placing a [HP Burn] debuff for 2 turns. [Heals this Champion by 30% of the damage inflicted when <a href=\"https://ayumilove.net/raid-shadow-legends-atur-skill-mastery-equip-guide/\">Atur</a> is on the same team]",
       "books": [
         "Level 2: Damage +5%",
         "Level 3: Damage +5%",
@@ -35,10 +39,12 @@
     {
       "cd": 4,
       "mincd": 3,
+      "passive": false,
       "dmgscaling": [
         "ATK"
       ],
       "abilityname": "Curse of Nullity",
+      "damageMultiplier": "3.5 ATK",
       "description": "Attacks all enemies. Has a 50% chance of placing a 100% [Heal Reduction] debuff for 2 turns. [Heals this Champion by 10% of the damage inflicted when Atur is on the same team]",
       "books": [
         "Level 2: Damage +5%",
@@ -51,26 +57,21 @@
     {
       "cd": 5,
       "mincd": 4,
+      "passive": false,
       "dmgscaling": [
         "ATK"
       ],
       "abilityname": "Flame Tempest",
-      "description": "Attacks 3 times at random. Each hit has a 60% chance of placing a [HP Burn] debuff for 2 turns. [Heals this Champion by 15% of the damage inflicted when Atur is on the same team]",
+      "damageMultiplier": "1.6 ATK",
+      "description": "Attacks 3 times at random. Each hit has a 60% chance of placing a [HP Burn] debuff for 2 turns. [Heals this Champion by 15% of the damage inflicted when <a href=\"https://ayumilove.net/raid-shadow-legends-atur-skill-mastery-equip-guide/\">Atur</a> is on the same team]",
       "books": [
         "Level 2: Damage +5%",
         "Level 3: Damage +5%",
         "Level 4: Damage +10%",
         "Level 5: Cooldown -1"
       ]
-    },
-    {
-      "cd": 0,
-      "mincd": 0,
-      "dmgscaling": [],
-      "abilityname": "Aura",
-      "description": "Increases Ally ATK in all Battles by 25%.",
-      "books": []
     }
   ],
-  "avatarUrl": "https://goctionni.github.io/raid-data/images/avatar/Kallia.png"
+  "version": "3.30.0",
+  "avatarUrl": "https://mcradane.github.io/raid-data/images/avatar/Kallia.png"
 }

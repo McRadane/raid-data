@@ -1,29 +1,33 @@
 {
   "name": "Metalshaper",
+  "id": "Metalshaper",
   "class": {
     "faction": "Lizardmen",
-    "rarity": "Rare",
-    "role": "Support",
-    "affinity": "Spirit"
+    "rarity": "rare",
+    "role": "support",
+    "affinity": "spirit"
   },
   "stats": {
-    "hp": "16,350",
-    "atk": "859",
-    "def": "1,079",
-    "spd": "90",
-    "crate": "RATE",
-    "cdmg": "15",
-    "resist": "57",
-    "acc": "30"
+    "hp": 16350,
+    "atk": 859,
+    "def": 1079,
+    "spd": 90,
+    "crate": 15,
+    "cdmg": 57,
+    "resist": 30,
+    "acc": 0
   },
+  "aura": "Increases Ally DEF in Faction Crypts by 15%.",
   "skills": [
     {
       "cd": 0,
       "mincd": 0,
+      "passive": false,
       "dmgscaling": [
         "DEF"
       ],
       "abilityname": "Transference Bolt",
+      "damageMultiplier": "4 DEF",
       "description": "Attacks 1 enemy. Has a 30% chance of stealing 1 random buff from the target.",
       "books": [
         "Level 2: Damage +5%",
@@ -37,6 +41,7 @@
     {
       "cd": 3,
       "mincd": 2,
+      "passive": false,
       "dmgscaling": [],
       "abilityname": "Fortified Steel",
       "description": "Places a [Shield] buff on all allies for 2 turns. The value of [Shield] is proportional to this Champion’s Level.",
@@ -50,6 +55,7 @@
     {
       "cd": 5,
       "mincd": 4,
+      "passive": false,
       "dmgscaling": [],
       "abilityname": "Rescue",
       "description": "Removes all debuffs from an ally with the lowest HP, then heals this ally by 20% of this Champion’s MAX HP. Places a 25% [Increase DEF] buff on the target for 3 turns.",
@@ -58,15 +64,8 @@
         "Level 3: Heal +10%",
         "Level 4: Cooldown -1"
       ]
-    },
-    {
-      "cd": 0,
-      "mincd": 0,
-      "dmgscaling": [],
-      "abilityname": "Aura",
-      "description": "Increases Ally DEF in Faction Crypts by 15%.",
-      "books": []
     }
   ],
-  "avatarUrl": "https://goctionni.github.io/raid-data/images/avatar/Metalshaper.png"
+  "version": "3.30.0",
+  "avatarUrl": "https://mcradane.github.io/raid-data/images/avatar/Metalshaper.png"
 }

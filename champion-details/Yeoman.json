@@ -1,29 +1,32 @@
 {
   "name": "Yeoman",
+  "id": "Yeoman",
   "class": {
     "faction": "The Sacred Order",
-    "rarity": "Common",
-    "role": "Attack",
-    "affinity": "Magic"
+    "rarity": "common",
+    "role": "attack",
+    "affinity": "magic"
   },
   "stats": {
-    "hp": "9,090",
-    "atk": "903",
-    "def": "694",
-    "spd": "97",
-    "crate": "RATE",
-    "cdmg": "15",
-    "resist": "50",
-    "acc": "30"
+    "hp": 9090,
+    "atk": 903,
+    "def": 694,
+    "spd": 97,
+    "crate": 15,
+    "cdmg": 50,
+    "resist": 30,
+    "acc": 0
   },
   "skills": [
     {
       "cd": 0,
       "mincd": 0,
+      "passive": false,
       "dmgscaling": [
         "ATK"
       ],
       "abilityname": "Valley",
+      "damageMultiplier": "1 ATK",
       "description": "Attacks 1 enemy 3 times. Each hit has a 10% chance to decrease the Turn Meter by 20%.",
       "books": [
         "Level 2: Damage +5%",
@@ -33,5 +36,6 @@
       ]
     }
   ],
-  "avatarUrl": "https://goctionni.github.io/raid-data/images/avatar/Yeoman.png"
+  "version": "3.30.0",
+  "avatarUrl": "https://mcradane.github.io/raid-data/images/avatar/Yeoman.png"
 }

@@ -1,29 +1,33 @@
 {
   "name": "Golden Reaper",
+  "id": "Golden_Reaper",
   "class": {
     "faction": "Knight Revenant",
-    "rarity": "Epic",
-    "role": "Support",
-    "affinity": "Void"
+    "rarity": "epic",
+    "role": "support",
+    "affinity": "void"
   },
   "stats": {
-    "hp": "18,495",
-    "atk": "1,134",
-    "def": "936",
-    "spd": "111",
-    "crate": "RATE",
-    "cdmg": "15",
-    "resist": "50",
-    "acc": "30"
+    "hp": 18495,
+    "atk": 1134,
+    "def": 936,
+    "spd": 111,
+    "crate": 15,
+    "cdmg": 50,
+    "resist": 30,
+    "acc": 0
   },
+  "aura": "Increases Ally ACC in Faction Crypts by 40.",
   "skills": [
     {
       "cd": 0,
       "mincd": 0,
+      "passive": false,
       "dmgscaling": [
         "ATK"
       ],
       "abilityname": "Harvest of Blood",
+      "damageMultiplier": "2.8 ATK",
       "description": "Attacks 1 enemy. Has a 30% chance of decreasing the cooldown of one of a random ally’s Skills by 1 turn.",
       "books": [
         "Level 2: Damage +5%",
@@ -36,10 +40,12 @@
     {
       "cd": 4,
       "mincd": 4,
+      "passive": false,
       "dmgscaling": [
         "ATK"
       ],
       "abilityname": "Maelstrom",
+      "damageMultiplier": "3 ATK",
       "description": "Attacks all enemies. Has a 50% chance of placing a 50% [Decrease ATK] debuff for 2 turns. Decreases the Turn Meter of each target by 20% if they are not under a [Decrease ATK] debuff.",
       "books": [
         "Level 2: Damage +5%",
@@ -53,21 +59,15 @@
     {
       "cd": 4,
       "mincd": 3,
+      "passive": false,
       "dmgscaling": [],
       "abilityname": "Alacrity",
       "description": "Places a 30% [Increase SPD] buff on all allies for 2 turns and boosts their Turn Meter by 20%",
       "books": [
         "Level 2: Cooldown -1"
       ]
-    },
-    {
-      "cd": 0,
-      "mincd": 0,
-      "dmgscaling": [],
-      "abilityname": "Aura",
-      "description": "Increases Ally ACC in Faction Crypts by 40.",
-      "books": []
     }
   ],
-  "avatarUrl": "https://goctionni.github.io/raid-data/images/avatar/Golden_Reaper.png"
+  "version": "3.30.0",
+  "avatarUrl": "https://mcradane.github.io/raid-data/images/avatar/Golden_Reaper.png"
 }

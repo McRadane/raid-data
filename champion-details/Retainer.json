@@ -1,29 +1,33 @@
 {
   "name": "Retainer",
+  "id": "Retainer",
   "class": {
     "faction": "Dark Elves",
-    "rarity": "Rare",
-    "role": "Defense",
-    "affinity": "Void"
+    "rarity": "rare",
+    "role": "defense",
+    "affinity": "void"
   },
   "stats": {
-    "hp": "14,370",
-    "atk": "958",
-    "def": "1,112",
-    "spd": "96",
-    "crate": "RATE",
-    "cdmg": "15",
-    "resist": "50",
-    "acc": "30"
+    "hp": 14370,
+    "atk": 958,
+    "def": 1112,
+    "spd": 96,
+    "crate": 15,
+    "cdmg": 50,
+    "resist": 30,
+    "acc": 0
   },
+  "aura": "Increases Ally DEF in Faction Crypts by 19%.",
   "skills": [
     {
       "cd": 0,
       "mincd": 0,
+      "passive": false,
       "dmgscaling": [
         "DEF"
       ],
       "abilityname": "Sundering Chop",
+      "damageMultiplier": "3.2 DEF",
       "description": "Attacks 1 enemy. Has a 40% chance of placing a 30% [Decrease DEF] debuff for 2 turns.",
       "books": [
         "Level 2: Damage +5%",
@@ -35,6 +39,7 @@
     {
       "cd": 4,
       "mincd": 3,
+      "passive": false,
       "dmgscaling": [],
       "abilityname": "Resolute Stance",
       "description": "Heals this Champion by 40% of their MAX HP and places a [Counterattack] buff on this Champion for 2 turns.",
@@ -48,10 +53,12 @@
     {
       "cd": 5,
       "mincd": 4,
+      "passive": false,
       "dmgscaling": [
         "DEF"
       ],
       "abilityname": "Hypnotize",
+      "damageMultiplier": "4.7 DEF",
       "description": "Attacks 1 enemy. Decreases the target’s Turn Meter by 50%. If the target’s Turn Meter is fully depleted, places a [Sleep] debuff on them for 1 turn.",
       "books": [
         "Level 2: Damage +5%",
@@ -60,15 +67,8 @@
         "Level 5: Damage +10%",
         "Level 6: Cooldown -1"
       ]
-    },
-    {
-      "cd": 0,
-      "mincd": 0,
-      "dmgscaling": [],
-      "abilityname": "Aura",
-      "description": "Increases Ally DEF in Faction Crypts by 19%.",
-      "books": []
     }
   ],
-  "avatarUrl": "https://goctionni.github.io/raid-data/images/avatar/Retainer.png"
+  "version": "3.30.0",
+  "avatarUrl": "https://mcradane.github.io/raid-data/images/avatar/Retainer.png"
 }

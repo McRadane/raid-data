@@ -1,29 +1,33 @@
 {
   "name": "Karam",
+  "id": "Karam",
   "class": {
     "faction": "Undead Hordes",
-    "rarity": "Epic",
-    "role": "Attack",
-    "affinity": "Force"
+    "rarity": "epic",
+    "role": "attack",
+    "affinity": "force"
   },
   "stats": {
-    "hp": "13,215",
-    "atk": "1,354",
-    "def": "1,068",
-    "spd": "100",
-    "crate": "RATE",
-    "cdmg": "15",
-    "resist": "60",
-    "acc": "30"
+    "hp": 13215,
+    "atk": 1354,
+    "def": 1068,
+    "spd": 100,
+    "crate": 15,
+    "cdmg": 60,
+    "resist": 30,
+    "acc": 0
   },
+  "aura": "Increases Ally ACC in Faction Crypts by 40.",
   "skills": [
     {
       "cd": 0,
       "mincd": 0,
+      "passive": false,
       "dmgscaling": [
         "ATK"
       ],
       "abilityname": "Bloodstained Swords",
+      "damageMultiplier": "4.3 ATK",
       "description": "Attacks 1 enemy. Has a 30% chance of placing a 5% [Poison] debuff for 2 turns.",
       "books": [
         "Level 2: Buff/Debuff Chance +5%",
@@ -34,10 +38,12 @@
     {
       "cd": 4,
       "mincd": 3,
+      "passive": false,
       "dmgscaling": [
         "ATK"
       ],
       "abilityname": "Fit of Rage",
+      "damageMultiplier": "(4.8 + HP% Lost * 4) ATK",
       "description": "Attacks 1 enemy. Has an extra 15% chance of inflicting a critical hit. Damage increases according to the amount of HP this Champion has lost.",
       "books": [
         "Level 2: Damage +5%",
@@ -49,10 +55,12 @@
     {
       "cd": 6,
       "mincd": 4,
+      "passive": false,
       "dmgscaling": [
         "ATK"
       ],
       "abilityname": "Rot Away",
+      "damageMultiplier": "6.5 ATK",
       "description": "Attacks 1 enemy. Deals damage from all [Poison] debuffs on the target instantly.",
       "books": [
         "Level 2: Damage +5%",
@@ -60,15 +68,8 @@
         "Level 4: Cooldown -1",
         "Level 5: Cooldown -1"
       ]
-    },
-    {
-      "cd": 0,
-      "mincd": 0,
-      "dmgscaling": [],
-      "abilityname": "Aura",
-      "description": "Increases Ally ACC in Faction Crypts by 40.",
-      "books": []
     }
   ],
-  "avatarUrl": "https://goctionni.github.io/raid-data/images/avatar/Karam.png"
+  "version": "3.30.0",
+  "avatarUrl": "https://mcradane.github.io/raid-data/images/avatar/Karam.png"
 }

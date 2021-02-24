@@ -1,29 +1,33 @@
 {
   "name": "Lamellar",
+  "id": "Lamellar",
   "class": {
     "faction": "The Sacred Order",
-    "rarity": "Rare",
-    "role": "HP",
-    "affinity": "Force"
+    "rarity": "rare",
+    "role": "hp",
+    "affinity": "force"
   },
   "stats": {
-    "hp": "19,650",
-    "atk": "837",
-    "def": "881",
-    "spd": "93",
-    "crate": "RATE",
-    "cdmg": "15",
-    "resist": "50",
-    "acc": "40"
+    "hp": 19650,
+    "atk": 837,
+    "def": 881,
+    "spd": 93,
+    "crate": 15,
+    "cdmg": 50,
+    "resist": 40,
+    "acc": 0
   },
+  "aura": "Increases Ally HP in Faction Crypts by 22%.",
   "skills": [
     {
       "cd": 0,
       "mincd": 0,
+      "passive": false,
       "dmgscaling": [
         "HP"
       ],
       "abilityname": "Sacred Flame",
+      "damageMultiplier": "0.14 HP",
       "description": "Attacks 1 enemy. Has a 10% chance of placing a 30% [Decrease DEF] debuff for 2 turns.",
       "books": [
         "Level 2: Damage +5%",
@@ -35,10 +39,12 @@
     {
       "cd": 4,
       "mincd": 3,
+      "passive": false,
       "dmgscaling": [
         "HP"
       ],
       "abilityname": "Crystal Burst",
+      "damageMultiplier": "0.1 HP",
       "description": "Attacks all enemies. Places a 25% [Decrease ATK] debuff for 2 turns",
       "books": [
         "Level 2: Damage +5%",
@@ -50,21 +56,13 @@
     {
       "cd": 0,
       "mincd": 0,
-      "dmgscaling": [
-        "Passive"
-      ],
+      "passive": true,
+      "dmgscaling": [],
       "abilityname": "Diehard",
       "description": "Decreases the damage taken by this Champion by 30% when their HP drops below 30%.",
       "books": []
-    },
-    {
-      "cd": 0,
-      "mincd": 0,
-      "dmgscaling": [],
-      "abilityname": "Aura",
-      "description": "Increases Ally HP in Faction Crypts by 22%.",
-      "books": []
     }
   ],
-  "avatarUrl": "https://goctionni.github.io/raid-data/images/avatar/Lamellar.png"
+  "version": "3.30.0",
+  "avatarUrl": "https://mcradane.github.io/raid-data/images/avatar/Lamellar.png"
 }

@@ -1,29 +1,33 @@
 {
   "name": "Venus",
+  "id": "Venus",
   "class": {
     "faction": "The Sacred Order",
-    "rarity": "Legendary",
-    "role": "Support",
-    "affinity": "Void"
+    "rarity": "legendary",
+    "role": "support",
+    "affinity": "void"
   },
   "stats": {
-    "hp": "22,635",
-    "atk": "1,090",
-    "def": "980",
-    "spd": "112",
-    "crate": "RATE",
-    "cdmg": "15",
-    "resist": "50",
-    "acc": "30"
+    "hp": 22635,
+    "atk": 1090,
+    "def": 980,
+    "spd": 112,
+    "crate": 15,
+    "cdmg": 50,
+    "resist": 30,
+    "acc": 20
   },
+  "aura": "Increases Ally HP in all Battles by 33%.",
   "skills": [
     {
       "cd": 0,
       "mincd": 0,
+      "passive": false,
       "dmgscaling": [
         "ATK"
       ],
       "abilityname": "Pining",
+      "damageMultiplier": "2.2 ATK",
       "description": "Attacks 1 enemy 2 times. Each hit has a 50% chance of placing a 5% [Poison] debuff for 2 turns.",
       "books": [
         "Level 2: Damage +5%",
@@ -34,10 +38,12 @@
     {
       "cd": 3,
       "mincd": 3,
+      "passive": false,
       "dmgscaling": [
         "ATK"
       ],
       "abilityname": "Blind with Infatuation",
+      "damageMultiplier": "3.7 ATK",
       "description": "Attacks all enemies. Has a 75% chance of placing a 60% [Decrease DEF] and a 25% [Weaken] debuff for 2 turns.",
       "books": [
         "Level 2: Damage +5%",
@@ -49,10 +55,12 @@
     {
       "cd": 5,
       "mincd": 4,
+      "passive": false,
       "dmgscaling": [
         "ATK"
       ],
       "abilityname": "Burning Passion",
+      "damageMultiplier": "4 ATK",
       "description": "Attacks all enemies. Has a 50% chance of placing a [HP Burn] debuff for 2 turns.",
       "books": [
         "Level 2: Buff/Debuff Chance +5%",
@@ -64,21 +72,13 @@
     {
       "cd": 4,
       "mincd": 4,
+      "passive": false,
       "dmgscaling": [],
       "abilityname": "Pure Partner",
       "description": "Removes all buffs from all enemies. Has a 50% chance of granting an Extra Turn.",
-      "books": [
-        "[Only available when Cupidus is on the same team]"
-      ]
-    },
-    {
-      "cd": 0,
-      "mincd": 0,
-      "dmgscaling": [],
-      "abilityname": "Aura",
-      "description": "Increases Ally HP in all Battles by 33%.",
       "books": []
     }
   ],
-  "avatarUrl": "https://goctionni.github.io/raid-data/images/avatar/Venus.png"
+  "version": "3.30.0",
+  "avatarUrl": "https://mcradane.github.io/raid-data/images/avatar/Venus.png"
 }

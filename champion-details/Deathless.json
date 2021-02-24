@@ -1,29 +1,33 @@
 {
   "name": "Deathless",
+  "id": "Deathless",
   "class": {
     "faction": "Knight Revenant",
-    "rarity": "Epic",
-    "role": "Defense",
-    "affinity": "Spirit"
+    "rarity": "epic",
+    "role": "defense",
+    "affinity": "spirit"
   },
   "stats": {
-    "hp": "18,990",
-    "atk": "881",
-    "def": "1,156",
-    "spd": "92",
-    "crate": "Rate",
-    "cdmg": "15",
-    "resist": "50",
-    "acc": "30"
+    "hp": 18990,
+    "atk": 881,
+    "def": 1156,
+    "spd": 92,
+    "crate": 15,
+    "cdmg": 50,
+    "resist": 30,
+    "acc": 0
   },
+  "aura": "Increases Ally RESIST in the Arena by 70.",
   "skills": [
     {
       "cd": 0,
       "mincd": 0,
+      "passive": false,
       "dmgscaling": [
         "DEF"
       ],
       "abilityname": "Grave Whispers",
+      "damageMultiplier": "4.5 DEF",
       "description": "Attacks 1 enemy. Has a 70% chance of placing a 60% [Decrease DEF] debuff for 2 turns if 1 or more allies are dead, a 30% [Decrease SPD] for 2 or more allies are dead, and a 50% [Decrease ACC] debuff for 2 turns if 3 or more allies are dead.",
       "books": [
         "Level: 2 Damage +5%",
@@ -36,10 +40,12 @@
     {
       "cd": 3,
       "mincd": 3,
+      "passive": false,
       "dmgscaling": [
         "DEF"
       ],
       "abilityname": "Vile Insults",
+      "damageMultiplier": "6.2 DEF",
       "description": "Places a 30% [Reflect Damage] buff on this Champion for 2 turns, then attacks 1 enemy. Has an 80% chance of placing a [Provoke] debuff for 1 turn.",
       "books": [
         "Level: 2 Damage +10%",
@@ -51,10 +57,12 @@
     {
       "cd": 7,
       "mincd": 5,
+      "passive": false,
       "dmgscaling": [
         "DEF"
       ],
       "abilityname": "Grim Revenge",
+      "damageMultiplier": "(4 + Dead Allies) * DEF",
       "description": "Attacks all enemies. This attack will always be critical if there are 2 or more dead allies. Damage increases according to the number of dead allies.",
       "books": [
         "Level: 2 Damage +5%",
@@ -63,15 +71,8 @@
         "Level: 5 Cooldown -1",
         "Level: 6 Cooldown -1"
       ]
-    },
-    {
-      "cd": 0,
-      "mincd": 0,
-      "dmgscaling": [],
-      "abilityname": "Aura",
-      "description": "Increases Ally RESIST in the Arena by 70.",
-      "books": []
     }
   ],
-  "avatarUrl": "https://goctionni.github.io/raid-data/images/avatar/Deathless.png"
+  "version": "3.30.0",
+  "avatarUrl": "https://mcradane.github.io/raid-data/images/avatar/Deathless.png"
 }

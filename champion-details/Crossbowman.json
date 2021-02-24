@@ -1,29 +1,32 @@
 {
   "name": "Crossbowman",
+  "id": "Crossbowman",
   "class": {
     "faction": "Banner Lords",
-    "rarity": "Rare",
-    "role": "Attack",
-    "affinity": "Magic"
+    "rarity": "rare",
+    "role": "attack",
+    "affinity": "magic"
   },
   "stats": {
-    "hp": "13,875",
-    "atk": "1,167",
-    "def": "936",
-    "spd": "95",
-    "crate": "RATE",
-    "cdmg": "15",
-    "resist": "57",
-    "acc": "30"
+    "hp": 13875,
+    "atk": 1167,
+    "def": 936,
+    "spd": 95,
+    "crate": 15,
+    "cdmg": 57,
+    "resist": 30,
+    "acc": 0
   },
   "skills": [
     {
       "cd": 0,
       "mincd": 0,
+      "passive": false,
       "dmgscaling": [
         "ATK"
       ],
       "abilityname": "Snap Shot",
+      "damageMultiplier": "3.5 ATK",
       "description": "Attacks 1 enemy. Has a 15% chance of placing an extra hit.",
       "books": [
         "Level: 2 Damage +5%",
@@ -34,6 +37,7 @@
     {
       "cd": 4,
       "mincd": 3,
+      "passive": false,
       "dmgscaling": [],
       "abilityname": "Sharp Eye",
       "description": "Places a 30% [Increase C.RATE] buff on a target ally for 2 turns. Grants an Extra Turn.",
@@ -44,10 +48,12 @@
     {
       "cd": 5,
       "mincd": 5,
+      "passive": false,
       "dmgscaling": [
         "ATK"
       ],
       "abilityname": "Blunted Arrow",
+      "damageMultiplier": "5.5 ATK",
       "description": "Attacks 1 enemy. Has a 50% chance of placing a [Stun] debuff for 1 turn. Also has a 50% chance of placing a 30% [Decrease SPD] debuff for 2 turns.",
       "books": [
         "Level: 2 Damage +10%",
@@ -57,5 +63,6 @@
       ]
     }
   ],
-  "avatarUrl": "https://goctionni.github.io/raid-data/images/avatar/Crossbowman.png"
+  "version": "3.30.0",
+  "avatarUrl": "https://mcradane.github.io/raid-data/images/avatar/Crossbowman.png"
 }

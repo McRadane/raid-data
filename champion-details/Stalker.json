@@ -1,25 +1,27 @@
 {
   "name": "Stalker",
+  "id": "Stalker",
   "class": {
     "faction": "Lizardmen",
-    "rarity": "Uncommon",
-    "role": "HP",
-    "affinity": "Magic"
+    "rarity": "uncommon",
+    "role": "hp",
+    "affinity": "magic"
   },
   "stats": {
-    "hp": "16,185",
-    "atk": "749",
-    "def": "925",
-    "spd": "94",
-    "crate": "RATE",
-    "cdmg": "15",
-    "resist": "50",
-    "acc": "30"
+    "hp": 16185,
+    "atk": 749,
+    "def": 925,
+    "spd": 94,
+    "crate": 15,
+    "cdmg": 50,
+    "resist": 30,
+    "acc": 0
   },
   "skills": [
     {
       "cd": 0,
       "mincd": 0,
+      "passive": false,
       "dmgscaling": [
         "ATK"
       ],
@@ -35,6 +37,7 @@
     {
       "cd": 4,
       "mincd": 3,
+      "passive": false,
       "dmgscaling": [
         "ATK"
       ],
@@ -49,5 +52,6 @@
       ]
     }
   ],
-  "avatarUrl": "https://goctionni.github.io/raid-data/images/avatar/Stalker.png"
+  "version": "3.30.0",
+  "avatarUrl": "https://mcradane.github.io/raid-data/images/avatar/Stalker.png"
 }

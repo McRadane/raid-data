@@ -1,0 +1,85 @@
+{
+  "name": "Gomlok Skyhide",
+  "id": "Gomlok_Skyhide",
+  "class": {
+    "faction": "Orcs",
+    "rarity": "legendary",
+    "role": "support",
+    "affinity": "force"
+  },
+  "stats": {
+    "hp": 19650,
+    "atk": 1233,
+    "def": 1035,
+    "spd": 104,
+    "crate": 15,
+    "cdmg": 50,
+    "resist": 30,
+    "acc": 20
+  },
+  "skills": [
+    {
+      "cd": 0,
+      "mincd": 0,
+      "passive": false,
+      "dmgscaling": [
+        "ATK"
+      ],
+      "abilityname": "Soulsuck Tendrils",
+      "damageMultiplier": "4.5 ATK",
+      "description": "Attacks 1 enemy. Has a 50% chance of placing a [Leech] debuff for 2 turns. Has a 50% chance of placing a [Leech] debuff for 2 turns on 2 random enemies if this Champion has full HP.",
+      "books": [
+        "Level 2: Damage +5%",
+        "Level 3: Buff/Debuff Chance +5%",
+        "Level 4: Buff/Debuff Chance +5%",
+        "Level 5: Buff/Debuff Chance +5%",
+        "Level 6: Buff/Debuff Chance +10%"
+      ]
+    },
+    {
+      "cd": 4,
+      "mincd": 2,
+      "passive": false,
+      "dmgscaling": [
+        "ATK"
+      ],
+      "abilityname": "Fateful Trickster",
+      "damageMultiplier": "5.8 ATK",
+      "description": "Attacks 1 enemy. Has a 60% chance of stealing 2 random buffs from the target. Also has a 60% chance of decreasing the target’s Tum Meter by 50%. Steals 50% of the target’s max Turn Meter instead if this Champion has full HP.",
+      "books": [
+        "Level 2: Damage +10%",
+        "Level 3: Buff/Debuff Chance +10%",
+        "Level 4: Buff/Debuff Chance +15%",
+        "Level 5: Buff/Debuff Chance +15%",
+        "Level 6: Cooldown -1",
+        "Level 7: Cooldown -1"
+      ]
+    },
+    {
+      "cd": 6,
+      "mincd": 4,
+      "passive": false,
+      "dmgscaling": [],
+      "abilityname": "Wild Surge",
+      "damageMultiplier": "2.3 ATK",
+      "description": "Attacks all enemies 2 times. Each hit has a 75% chance of placing a 60% [Decrease DEF] debuff on all enemies for 2 turns. The first hit on each target also has a 75% chance of decreasing the target’s Turn Meter by 10%. The second hit on each target also has a 75% chance of placing a 25% [Weaken] debuff for 2 turns if this Champion has full HP.",
+      "books": [
+        "Level 2: Buff/Debuff Chance +10%",
+        "Level 3: Buff/Debuff Chance +15%",
+        "Level 4: Cooldown -1",
+        "Level 5: Cooldown -1"
+      ]
+    },
+    {
+      "cd": 3,
+      "mincd": 3,
+      "passive": true,
+      "dmgscaling": [],
+      "abilityname": "Enchanter",
+      "description": "Whenever 4 or more buffs are placed on the enemy team in a single turn, places a [Shield] buff on this Champion for equal to 15% of this Champion’s MAX HP for 2 turns.",
+      "books": []
+    }
+  ],
+  "version": "3.30.0",
+  "avatarUrl": "https://mcradane.github.io/raid-data/images/avatar/Gomlok_Skyhide.png"
+}

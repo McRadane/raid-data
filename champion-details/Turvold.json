@@ -1,29 +1,33 @@
 {
   "name": "Turvold",
+  "id": "Turvold",
   "class": {
     "faction": "Barbarians",
-    "rarity": "Legendary",
-    "role": "Attack",
-    "affinity": "Void"
+    "rarity": "legendary",
+    "role": "attack",
+    "affinity": "void"
   },
   "stats": {
-    "hp": "17,505",
-    "atk": "1,498",
-    "def": "914",
-    "spd": "93",
-    "crate": "RATE",
-    "cdmg": "15",
-    "resist": "63",
-    "acc": "40"
+    "hp": 17505,
+    "atk": 1498,
+    "def": 914,
+    "spd": 93,
+    "crate": 15,
+    "cdmg": 63,
+    "resist": 40,
+    "acc": 0
   },
+  "aura": "Increases Ally ATK in Faction Crypts by 42%.",
   "skills": [
     {
       "cd": 0,
       "mincd": 0,
+      "passive": false,
       "dmgscaling": [
         "ATK"
       ],
       "abilityname": "Crackling Blade",
+      "damageMultiplier": "3 ATK",
       "description": "Attacks 1 enemy 2 times. Has a 55% chance of placing a 25% [Weaken] debuff for 2 turns.",
       "books": [
         "Level 2: Damage +5%",
@@ -36,6 +40,7 @@
     {
       "cd": 4,
       "mincd": 3,
+      "passive": false,
       "dmgscaling": [],
       "abilityname": "Ancestor’s Power",
       "description": "Places a 50% [Increase ATK] buff, a 30% [Increase C.RATE] buff and a 30% [Increase SPD] buff on this Champion for 2 turns. Grants an Extra Turn.",
@@ -46,10 +51,12 @@
     {
       "cd": 5,
       "mincd": 3,
+      "passive": false,
       "dmgscaling": [
         "ATK"
       ],
       "abilityname": "Juggernaut",
+      "damageMultiplier": "3 ATK",
       "description": "Attacks 1 enemy 2 times. Damage increases according to the number of buffs on this Champion. If the target is killed, resets the cooldown of this skill.",
       "books": [
         "Level 2: Damage +10%",
@@ -58,15 +65,8 @@
         "Level 5: Damage +10%",
         "Level 6: Cooldown -1"
       ]
-    },
-    {
-      "cd": 0,
-      "mincd": 0,
-      "dmgscaling": [],
-      "abilityname": "Aura",
-      "description": "Increases Ally ATK in Faction Crypts by 42%.",
-      "books": []
     }
   ],
-  "avatarUrl": "https://goctionni.github.io/raid-data/images/avatar/Turvold.png"
+  "version": "3.30.0",
+  "avatarUrl": "https://mcradane.github.io/raid-data/images/avatar/Turvold.png"
 }

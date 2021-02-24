@@ -1,29 +1,32 @@
 {
   "name": "Maiden",
+  "id": "Maiden",
   "class": {
     "faction": "The Sacred Order",
-    "rarity": "Rare",
-    "role": "Attack",
-    "affinity": "Spirit"
+    "rarity": "rare",
+    "role": "attack",
+    "affinity": "spirit"
   },
   "stats": {
-    "hp": "11,730",
-    "atk": "1,343",
-    "def": "903",
-    "spd": "87",
-    "crate": "RATE",
-    "cdmg": "15",
-    "resist": "57",
-    "acc": "30"
+    "hp": 11730,
+    "atk": 1343,
+    "def": 903,
+    "spd": 87,
+    "crate": 15,
+    "cdmg": 57,
+    "resist": 30,
+    "acc": 0
   },
   "skills": [
     {
       "cd": 0,
       "mincd": 0,
+      "passive": false,
       "dmgscaling": [
         "ATK"
       ],
       "abilityname": "Icy Temper",
+      "damageMultiplier": "3.2 ATK",
       "description": "Attacks 1 enemy. Has a 25% chance of placing a [Freeze] debuff for 1 turn.",
       "books": [
         "Level 2: Damage +5%",
@@ -35,10 +38,12 @@
     {
       "cd": 4,
       "mincd": 3,
+      "passive": false,
       "dmgscaling": [
         "ATK"
       ],
       "abilityname": "Diminish",
+      "damageMultiplier": "5.4 ATK",
       "description": "Attacks 1 enemy. Decreases the target’s MAX HP by 25% of the damage inflicted.",
       "books": [
         "Level 2: Damage +5%",
@@ -51,10 +56,12 @@
     {
       "cd": 5,
       "mincd": 4,
+      "passive": false,
       "dmgscaling": [
         "ATK"
       ],
       "abilityname": "Sow Confusion",
+      "damageMultiplier": "5.9 ATK",
       "description": "Attacks 1 enemy. Places a 30% [Decrease DEF] debuff on all enemies for 2 turns if this attack is critical.",
       "books": [
         "Level 2: Damage +5%",
@@ -64,5 +71,6 @@
       ]
     }
   ],
-  "avatarUrl": "https://goctionni.github.io/raid-data/images/avatar/Maiden.png"
+  "version": "3.30.0",
+  "avatarUrl": "https://mcradane.github.io/raid-data/images/avatar/Maiden.png"
 }

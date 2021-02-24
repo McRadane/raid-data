@@ -1,29 +1,33 @@
 {
   "name": "Battlesage",
+  "id": "Battlesage",
   "class": {
     "faction": "High Elves",
-    "rarity": "Epic",
-    "role": "Support",
-    "affinity": "Void"
+    "rarity": "epic",
+    "role": "support",
+    "affinity": "void"
   },
   "stats": {
-    "hp": "18,000",
-    "atk": "980",
-    "def": "1,123",
-    "spd": "100",
-    "crate": "RATE",
-    "cdmg": "15",
-    "resist": "50",
-    "acc": "30"
+    "hp": 18000,
+    "atk": 980,
+    "def": 1123,
+    "spd": 100,
+    "crate": 15,
+    "cdmg": 50,
+    "resist": 30,
+    "acc": 0
   },
+  "aura": "Increases Ally SPD in all Battles by 19%.",
   "skills": [
     {
       "cd": 0,
       "mincd": 0,
+      "passive": false,
       "dmgscaling": [
         "ATK"
       ],
       "abilityname": "Lightning Slash",
+      "damageMultiplier": "2.5 ATK",
       "description": "Attacks all enemies.",
       "books": [
         "Level 2: Damage +5%",
@@ -35,9 +39,10 @@
     {
       "cd": 4,
       "mincd": 3,
+      "passive": false,
       "dmgscaling": [],
       "abilityname": "Nature’s Touch",
-      "description": "Removes all debuffs on all allies, then places a 50% [Increase ATK] buff on all allies for 2 turns. This buff cannot be removed.",
+      "description": "Places a 50% [Increase ATK] buff on all allies for 2 turns, then removes all debuffs on all allies. This buff cannot be removed.",
       "books": [
         "Level 2: Cooldown -1"
       ]
@@ -45,6 +50,7 @@
     {
       "cd": 6,
       "mincd": 4,
+      "passive": false,
       "dmgscaling": [],
       "abilityname": "Mother’s Embrace",
       "description": "Places a [Revive on Death] buff on a target ally for 3 turns. The ally will instantly revive when killed.",
@@ -52,15 +58,8 @@
         "Level 2: Cooldown -1",
         "Level 3: Cooldown -1"
       ]
-    },
-    {
-      "cd": 0,
-      "mincd": 0,
-      "dmgscaling": [],
-      "abilityname": "Aura",
-      "description": "Increases Ally SPD in all Battles by 19%.",
-      "books": []
     }
   ],
-  "avatarUrl": "https://goctionni.github.io/raid-data/images/avatar/Battlesage.png"
+  "version": "3.30.0",
+  "avatarUrl": "https://mcradane.github.io/raid-data/images/avatar/Battlesage.png"
 }

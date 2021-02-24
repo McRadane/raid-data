@@ -1,29 +1,33 @@
 {
   "name": "Spider",
+  "id": "Spider",
   "class": {
     "faction": "Dark Elves",
-    "rarity": "Epic",
-    "role": "Support",
-    "affinity": "Force"
+    "rarity": "epic",
+    "role": "support",
+    "affinity": "force"
   },
   "stats": {
-    "hp": "18,330",
-    "atk": "1,211",
-    "def": "870",
-    "spd": "91",
-    "crate": "Rate",
-    "cdmg": "15",
-    "resist": "50",
-    "acc": "30"
+    "hp": 18330,
+    "atk": 1211,
+    "def": 870,
+    "spd": 91,
+    "crate": 15,
+    "cdmg": 50,
+    "resist": 30,
+    "acc": 15
   },
+  "aura": "Increases Ally SPD in Dungeons by 25%.",
   "skills": [
     {
       "cd": 0,
       "mincd": 0,
+      "passive": false,
       "dmgscaling": [
         "ATK"
       ],
       "abilityname": "Possess",
+      "damageMultiplier": "4 ATK",
       "description": "Attacks 1 enemy. Has a 50% chance of removing 1 random buff from the target.",
       "books": [
         "Level 2: Buff/Debuff Chance +5%",
@@ -35,11 +39,13 @@
     {
       "cd": 4,
       "mincd": 3,
+      "passive": false,
       "dmgscaling": [
         "ATK",
         "HP"
       ],
       "abilityname": "Calamity",
+      "damageMultiplier": "1.8 ATK + 0.1 HP",
       "description": "Attacks all enemies. Decrease the duration of all buffs by 1 turn. Has a 50% chance of placing a 50% [Decrease ATK] debuff for 2 turns.",
       "books": [
         "Level 2: Damage +5%",
@@ -52,6 +58,7 @@
     {
       "cd": 6,
       "mincd": 5,
+      "passive": false,
       "dmgscaling": [],
       "abilityname": "Glowing Mark",
       "description": "Has a 60% chance of placing a 60% [Decrease DEF] debuff on all enemies for 2 turns. Has a 30% chance of placing a 15% [Weaken] debuff on all enemies for 1 turn.",
@@ -62,15 +69,8 @@
         "Level 5: Buff/Debuff Chance +10%",
         "Level 6: Cooldown -1"
       ]
-    },
-    {
-      "cd": 0,
-      "mincd": 0,
-      "dmgscaling": [],
-      "abilityname": "Aura",
-      "description": "Increases Ally SPD in Dungeons by 25%.",
-      "books": []
     }
   ],
-  "avatarUrl": "https://goctionni.github.io/raid-data/images/avatar/Spider.png"
+  "version": "3.30.0",
+  "avatarUrl": "https://mcradane.github.io/raid-data/images/avatar/Spider.png"
 }

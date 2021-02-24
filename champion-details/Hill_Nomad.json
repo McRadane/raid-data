@@ -1,29 +1,32 @@
 {
   "name": "Hill Nomad",
+  "id": "Hill_Nomad",
   "class": {
     "faction": "Barbarians",
-    "rarity": "Rare",
-    "role": "Support",
-    "affinity": "Magic"
+    "rarity": "rare",
+    "role": "support",
+    "affinity": "magic"
   },
   "stats": {
-    "hp": "13,875",
-    "atk": "1,145",
-    "def": "958",
-    "spd": "103",
-    "crate": "Rate",
-    "cdmg": "15",
-    "resist": "50",
-    "acc": "30"
+    "hp": 13875,
+    "atk": 1145,
+    "def": 958,
+    "spd": 103,
+    "crate": 15,
+    "cdmg": 50,
+    "resist": 30,
+    "acc": 0
   },
   "skills": [
     {
       "cd": 0,
       "mincd": 0,
+      "passive": false,
       "dmgscaling": [
         "ATK"
       ],
       "abilityname": "Sandstorm Blade",
+      "damageMultiplier": "3 ATK",
       "description": "Attacks 1 enemy. Has a 50% chance of placing a 25% [Decrease ATK] debuff for 2 turns.",
       "books": [
         "Level 2: Damage +5%",
@@ -35,6 +38,7 @@
     {
       "cd": 3,
       "mincd": 2,
+      "passive": false,
       "dmgscaling": [],
       "abilityname": "Nomad’s Endurance",
       "description": "Places a 7.5% [Continuous Heal] buff on an ally for 2 turns.",
@@ -45,6 +49,7 @@
     {
       "cd": 4,
       "mincd": 3,
+      "passive": false,
       "dmgscaling": [],
       "abilityname": "Ambush Tactics",
       "description": "Places a [Veil] buff on an ally for 1 turn and a 25% [Increase ATK] buff for 2 turns. Also places a [Shield] buff on this Champion equal to 20% of their MAX HP for 2 turns.",
@@ -57,5 +62,6 @@
       ]
     }
   ],
-  "avatarUrl": "https://goctionni.github.io/raid-data/images/avatar/Hill_Nomad.png"
+  "version": "3.30.0",
+  "avatarUrl": "https://mcradane.github.io/raid-data/images/avatar/Hill_Nomad.png"
 }

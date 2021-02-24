@@ -1,0 +1,81 @@
+{
+  "name": "Nogdar the Headhunter",
+  "id": "Nogdar_the_Headhunter",
+  "class": {
+    "faction": "Orcs",
+    "rarity": "legendary",
+    "role": "attack",
+    "affinity": "spirit"
+  },
+  "stats": {
+    "hp": 12060,
+    "atk": 1696,
+    "def": 1079,
+    "spd": 96,
+    "crate": 15,
+    "cdmg": 63,
+    "resist": 30,
+    "acc": 0
+  },
+  "aura": "Increases ally ATK in all Battles by 33%",
+  "skills": [
+    {
+      "cd": 0,
+      "mincd": 0,
+      "passive": false,
+      "dmgscaling": [
+        "ATK"
+      ],
+      "abilityname": "Brutal Verdict",
+      "damageMultiplier": "3.3 ATK",
+      "description": "Attacks 1 enemy. Heals this Champion by 10% of their MAX HP. Grants an Extra Turn if this attack kills an enemy.",
+      "books": [
+        "Level 2: Damage +10%",
+        "Level 3: Damage +10%",
+        "Level 4: Damage +10%",
+        "Level 5: Damage +10%"
+      ]
+    },
+    {
+      "cd": 5,
+      "mincd": 4,
+      "passive": false,
+      "dmgscaling": [
+        "ATK"
+      ],
+      "abilityname": "Gore Feast",
+      "damageMultiplier": "3.2 ATK",
+      "description": "Attacks all enemies. After attacking, this champion sacrifices HP equal to 50% of their MAX HP, then place two 15% [Continuous Heal] buffs on this Champion for 2 turns. The HP sacrifice will happen even if it kills this Champion.",
+      "books": [
+        "Level 2: Damage +10%",
+        "Level 3: Damage +10%",
+        "Level 4: Damage +10%",
+        "Level 5: Cooldown -1"
+      ]
+    },
+    {
+      "cd": 7,
+      "mincd": 5,
+      "passive": false,
+      "dmgscaling": [],
+      "abilityname": "Last Rites",
+      "damageMultiplier": "0.5 HP",
+      "description": "Sacrifices HP equal to 50% of this Champion’s MAX HP, then equalises HP levels with the target enemy. The HP levels of both this champion and the target enemy will be brought down to the level of the one with the lowest HP. [Does not work against bosses. This champion cannot be killed by this skill]",
+      "books": [
+        "Level 2: Cooldown -1",
+        "Level 3: Cooldown -1"
+      ]
+    },
+    {
+      "cd": 1,
+      "mincd": 1,
+      "passive": true,
+      "dmgscaling": [],
+      "abilityname": "Headsman’s Return",
+      "description": "Revives this Champion with 50% HP and 50% Turn Meter when killed if all other allies are alive. [Does not work if there are multiple Nogdars on the team or if there are 3 or fewer champions on the team.]",
+      "books": []
+    }
+  ],
+  "version": "3.30.0",
+  "avatarUrl": "https://mcradane.github.io/raid-data/images/avatar/Nogdar_the_Headhunter.png"
+}

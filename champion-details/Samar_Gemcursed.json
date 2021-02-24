@@ -1,0 +1,88 @@
+{
+  "name": "Samar Gemcursed",
+  "id": "Samar_Gemcursed",
+  "class": {
+    "faction": "Dwarves",
+    "rarity": "legendary",
+    "role": "hp",
+    "affinity": "spirit"
+  },
+  "stats": {
+    "hp": 21480,
+    "atk": 936,
+    "def": 1211,
+    "spd": 98,
+    "crate": 15,
+    "cdmg": 60,
+    "resist": 80,
+    "acc": 0
+  },
+  "aura": "Increases Ally HP in all Battles by 30%",
+  "skills": [
+    {
+      "cd": 0,
+      "mincd": 0,
+      "passive": false,
+      "dmgscaling": [
+        "HP"
+      ],
+      "abilityname": "Crystal Flesh",
+      "damageMultiplier": "0.23 HP",
+      "description": "Attacks 1 enemy. Heals by 15% of the damage inflicted if this champion has 50% HP or less. Fills this Champion’s Turn Meter by 15% if he has more than 50% HP.",
+      "books": [
+        "Level 2: Damage +5%",
+        "Level 3: Damage +5%",
+        "Level 4: Damage +5%",
+        "Level 5: Damage +10%"
+      ]
+    },
+    {
+      "cd": 4,
+      "mincd": 3,
+      "passive": false,
+      "dmgscaling": [
+        "HP"
+      ],
+      "abilityname": "Emerald Curse",
+      "damageMultiplier": "0.3 HP",
+      "description": "Attacks 1 enemy. Inflicts bonus damage equal to the difference in HP levels between this Champion and the target (+1% damage for every 1% difference). Inflicts bonus damage equal to the difference in the number of buffs on this champion and the target (+10% damage per buff).",
+      "books": [
+        "Level 2: Damage +5%",
+        "Level 3: Damage +5%",
+        "Level 4: Damage +10%",
+        "Level 5: Cooldown -1"
+      ]
+    },
+    {
+      "cd": 5,
+      "mincd": 4,
+      "passive": false,
+      "dmgscaling": [
+        "HP"
+      ],
+      "abilityname": "Boon Supervision",
+      "damageMultiplier": "0.15 HP",
+      "description": "Attacks all enemies. Has an 80% chance of stealing 2 random buffs before attacking. Places an extra hit on enemies that have any buffs left.",
+      "books": [
+        "Level 2: Damage +5%",
+        "Level 3: Buff/Debuff Chance +5%",
+        "Level 4: Damage +5%",
+        "Level 5: Buff/Debuff Chance +5%",
+        "Level 6: Damage +10%",
+        "Level 7: Buff/Debuff Chance +10%",
+        "Level 8: Cooldown -1"
+      ]
+    },
+    {
+      "cd": 4,
+      "mincd": 4,
+      "passive": true,
+      "dmgscaling": [],
+      "abilityname": "Diamond Skin",
+      "description": "Passive Effect: Places a [Block Damage] Buff on this champion for 1 turn at the start of each round. Active Effect: Blocks incoming damage and places a [Block Damage] Buff on this champion for 1 turn when they receive a hit that would drop their HP below 30%",
+      "books": []
+    }
+  ],
+  "version": "3.30.0",
+  "avatarUrl": "https://mcradane.github.io/raid-data/images/avatar/Samar_Gemcursed.png"
+}

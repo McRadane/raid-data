@@ -1,25 +1,27 @@
 {
   "name": "Squire",
+  "id": "Squire",
   "class": {
     "faction": "Banner Lords",
-    "rarity": "Uncommon",
-    "role": "Defense",
-    "affinity": "Force"
+    "rarity": "uncommon",
+    "role": "defense",
+    "affinity": "force"
   },
   "stats": {
-    "hp": "15,690",
-    "atk": "760",
-    "def": "947",
-    "spd": "96",
-    "crate": "RATE",
-    "cdmg": "15",
-    "resist": "50",
-    "acc": "30"
+    "hp": 15690,
+    "atk": 760,
+    "def": 947,
+    "spd": 96,
+    "crate": 15,
+    "cdmg": 50,
+    "resist": 30,
+    "acc": 0
   },
   "skills": [
     {
       "cd": 0,
       "mincd": 0,
+      "passive": false,
       "dmgscaling": [
         "DEF"
       ],
@@ -35,6 +37,7 @@
     {
       "cd": 4,
       "mincd": 3,
+      "passive": false,
       "dmgscaling": [
         "DEF"
       ],
@@ -49,5 +52,6 @@
       ]
     }
   ],
-  "avatarUrl": "https://goctionni.github.io/raid-data/images/avatar/Squire.png"
+  "version": "3.30.0",
+  "avatarUrl": "https://mcradane.github.io/raid-data/images/avatar/Squire.png"
 }

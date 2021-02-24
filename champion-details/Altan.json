@@ -1,29 +1,33 @@
 {
   "name": "Altan",
+  "id": "Altan",
   "class": {
     "faction": "Barbarians",
-    "rarity": "Legendary",
-    "role": "Defense",
-    "affinity": "Magic"
+    "rarity": "legendary",
+    "role": "defense",
+    "affinity": "magic"
   },
   "stats": {
-    "hp": "20,145",
-    "atk": "837",
-    "def": "1,398",
-    "spd": "102",
-    "crate": "RATE",
-    "cdmg": "15",
-    "resist": "57",
-    "acc": "50"
+    "hp": 20145,
+    "atk": 837,
+    "def": 1398,
+    "spd": 102,
+    "crate": 15,
+    "cdmg": 57,
+    "resist": 50,
+    "acc": 0
   },
+  "aura": "Increases Ally DEF in all Battles by 33%",
   "skills": [
     {
       "cd": 0,
       "mincd": 0,
+      "passive": false,
       "dmgscaling": [
         "DEF"
       ],
       "abilityname": "Searing Blow",
+      "damageMultiplier": "3.4 DEF",
       "description": "Attacks 1 enemy. Has a 60% chance of placing a 50% [Decrease ATK] debuff for 2 turns.",
       "books": [
         "Level 2: Damage +5%",
@@ -36,10 +40,12 @@
     {
       "cd": 4,
       "mincd": 3,
+      "passive": false,
       "dmgscaling": [
         "DEF"
       ],
       "abilityname": "Wall of Flame",
+      "damageMultiplier": "5.6 DEF",
       "description": "Attacks 1 enemy. Places a 60% [Increase DEF] buff on all allies for 2 turns. Places a [Shield] buff on all allies for 2 turns equal to 20% of their MAX HP if this attack kills an enemy.",
       "books": [
         "Level 2: Damage +5%",
@@ -51,21 +57,13 @@
     {
       "cd": 0,
       "mincd": 0,
-      "dmgscaling": [
-        "Passive"
-      ],
+      "passive": true,
+      "dmgscaling": [],
       "abilityname": "Fiery Rebirth",
       "description": "Revives a random ally with 30% HP every time this champion kills an enemy. Resets the cooldown on this Champion’s Skills if this Champion kills an enemy and all allies are alive.",
       "books": []
-    },
-    {
-      "cd": 0,
-      "mincd": 0,
-      "dmgscaling": [],
-      "abilityname": "Aura",
-      "description": "Increases Ally DEF in all Battles by 33%",
-      "books": []
     }
   ],
-  "avatarUrl": "https://goctionni.github.io/raid-data/images/avatar/Altan.png"
+  "version": "3.30.0",
+  "avatarUrl": "https://mcradane.github.io/raid-data/images/avatar/Altan.png"
 }

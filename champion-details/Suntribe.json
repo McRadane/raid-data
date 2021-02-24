@@ -1,0 +1,56 @@
+{
+  "name": "Suntribe",
+  "id": "Suntribe",
+  "class": {
+    "faction": "Orcs",
+    "rarity": "uncommon",
+    "role": "support",
+    "affinity": "magic"
+  },
+  "stats": {
+    "hp": 16515,
+    "atk": 782,
+    "def": 870,
+    "spd": 95,
+    "crate": 15,
+    "cdmg": 50,
+    "resist": 30,
+    "acc": 0
+  },
+  "skills": [
+    {
+      "cd": 0,
+      "mincd": 0,
+      "passive": false,
+      "dmgscaling": [
+        "ATK"
+      ],
+      "abilityname": "Inscribed Axes",
+      "damageMultiplier": "3.6 ATK",
+      "description": "Attack 1 enemy. Heals this Champion by 10% of damage inflicted.",
+      "books": [
+        "Level 2: Damage +5%",
+        "Level 3: Damage +5%",
+        "Level 4: Damage +5%",
+        "Level 5: Damage +5%"
+      ]
+    },
+    {
+      "cd": 5,
+      "mincd": 3,
+      "passive": false,
+      "dmgscaling": [],
+      "abilityname": "Spirit’s Verdict",
+      "damageMultiplier": "0.1 HP",
+      "description": "Sacrifices HP equal to 10% of this Champion’s MAX HP, then heals a target ally by 10% of their MAX HP. Also has a 40% chance of placing a 7.5% [Continuous Heal] buff on that ally for 1 turn. The HP sacrifice will happen even if it kills this champion.",
+      "books": [
+        "Level 2: Buff/Debuff chance +5%",
+        "Level 3: Buff/Debuff chance +5%",
+        "Level 4: Cooldown -1",
+        "Level 5: Cooldown -1"
+      ]
+    }
+  ],
+  "version": "3.30.0",
+  "avatarUrl": "https://mcradane.github.io/raid-data/images/avatar/Suntribe.png"
+}

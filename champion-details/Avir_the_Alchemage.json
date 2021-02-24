@@ -1,29 +1,32 @@
 {
   "name": "Avir the Alchemage",
+  "id": "Avir_the_Alchemage",
   "class": {
     "faction": "Dwarves",
-    "rarity": "Rare",
-    "role": "Support",
-    "affinity": "Magic"
+    "rarity": "rare",
+    "role": "support",
+    "affinity": "magic"
   },
   "stats": {
-    "hp": "16,680",
-    "atk": "881",
-    "def": "1,035",
-    "spd": "102",
-    "crate": "15%",
-    "cdmg": "50%",
-    "resist": "30",
-    "acc": "10"
+    "hp": 16680,
+    "atk": 881,
+    "def": 1035,
+    "spd": 102,
+    "crate": 15,
+    "cdmg": 50,
+    "resist": 30,
+    "acc": 10
   },
   "skills": [
     {
       "cd": 0,
       "mincd": 0,
+      "passive": false,
       "dmgscaling": [
         "ATK"
       ],
       "abilityname": "Flask of Vitreol",
+      "damageMultiplier": "4.7 ATK",
       "description": "Attacks 1 enemy. Has a 30% chance of placing a 5% [Poison] debuff for 2 turns.",
       "books": [
         "Level 2: Damage +5%",
@@ -35,10 +38,12 @@
     {
       "cd": 4,
       "mincd": 3,
+      "passive": false,
       "dmgscaling": [
         "ATK"
       ],
       "abilityname": "Corroding Catalyst",
+      "damageMultiplier": "4.2 ATK",
       "description": "Attacks all enemies. Has a 50% chance of placing a 25% [Decrease ATK] debuff for 2 turns. Also places a 15% [Decrease SPD] debuff for 1 turn on targets under [Poison] debuffs.",
       "books": [
         "Level 2: Damage +5%",
@@ -53,6 +58,7 @@
     {
       "cd": 6,
       "mincd": 4,
+      "passive": false,
       "dmgscaling": [],
       "abilityname": "Vitalizing Potions",
       "description": "Fills the Turn Meters of all allies by 15% and heals all allies by 15% of this Champion’s MAX HP.",
@@ -62,5 +68,6 @@
       ]
     }
   ],
-  "avatarUrl": "https://goctionni.github.io/raid-data/images/avatar/Avir_the_Alchemage.png"
+  "version": "3.30.0",
+  "avatarUrl": "https://mcradane.github.io/raid-data/images/avatar/Avir_the_Alchemage.png"
 }

@@ -1,29 +1,33 @@
 {
   "name": "Richtoff the Bold",
+  "id": "Richtoff_the_Bold",
   "class": {
     "faction": "Banner Lords",
-    "rarity": "Legendary",
-    "role": "Attack",
-    "affinity": "Spirit"
+    "rarity": "legendary",
+    "role": "attack",
+    "affinity": "spirit"
   },
   "stats": {
-    "hp": "18,825",
-    "atk": "1,398",
-    "def": "925",
-    "spd": "95",
-    "crate": "RATE",
-    "cdmg": "15",
-    "resist": "63",
-    "acc": "30"
+    "hp": 18825,
+    "atk": 1398,
+    "def": 925,
+    "spd": 95,
+    "crate": 15,
+    "cdmg": 63,
+    "resist": 30,
+    "acc": 0
   },
+  "aura": "Increases Ally ATK in Faction Crypts by 27%",
   "skills": [
     {
       "cd": 0,
       "mincd": 0,
+      "passive": false,
       "dmgscaling": [
         "ATK"
       ],
       "abilityname": "Ruination",
+      "damageMultiplier": "1.7 ATK",
       "description": "Attacks all enemies. Decreases each target’s MAX HP by 30% of the damage dealt.",
       "books": [
         "Level 2: Damage +5%",
@@ -35,10 +39,12 @@
     {
       "cd": 4,
       "mincd": 3,
+      "passive": false,
       "dmgscaling": [
         "ATK"
       ],
       "abilityname": "Bloodletting",
+      "damageMultiplier": "1.9 ATK",
       "description": "Attacks 1 enemy 3 times. Each hit places a 5% [Poison] debuff on all enemies for 2 turns.",
       "books": [
         "Level 2: Damage +5%",
@@ -50,25 +56,20 @@
     {
       "cd": 5,
       "mincd": 4,
+      "passive": false,
       "dmgscaling": [
         "ATK"
       ],
       "abilityname": "Cursehold",
+      "damageMultiplier": "6.2 ATK",
       "description": "Attacks 1 enemy. Critical damage increases by 20% for each Poison debuff on the target. Stacks up to 100%.",
       "books": [
         "Level 2: Damage +5%",
         "Level 3: Damage +5%",
         "Level 4: Cooldown -1"
       ]
-    },
-    {
-      "cd": 0,
-      "mincd": 0,
-      "dmgscaling": [],
-      "abilityname": "Aura",
-      "description": "Increases Ally ATK in Faction Crypts by 27%",
-      "books": []
     }
   ],
-  "avatarUrl": "https://goctionni.github.io/raid-data/images/avatar/Richtoff_the_Bold.png"
+  "version": "3.30.0",
+  "avatarUrl": "https://mcradane.github.io/raid-data/images/avatar/Richtoff_the_Bold.png"
 }

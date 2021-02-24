@@ -1,29 +1,33 @@
 {
   "name": "Bogwalker",
+  "id": "Bogwalker",
   "class": {
     "faction": "Lizardmen",
-    "rarity": "Rare",
-    "role": "Defense",
-    "affinity": "Force"
+    "rarity": "rare",
+    "role": "defense",
+    "affinity": "force"
   },
   "stats": {
-    "hp": "16,020",
-    "atk": "848",
-    "def": "1,112",
-    "spd": "93",
-    "crate": "RATE",
-    "cdmg": "15",
-    "resist": "50",
-    "acc": "40"
+    "hp": 16020,
+    "atk": 848,
+    "def": 1112,
+    "spd": 93,
+    "crate": 15,
+    "cdmg": 50,
+    "resist": 40,
+    "acc": 0
   },
+  "aura": "Increases Ally HP in Dungeons by 25%.",
   "skills": [
     {
       "cd": 0,
       "mincd": 0,
+      "passive": false,
       "dmgscaling": [
         "DEF"
       ],
       "abilityname": "Bone Katars",
+      "damageMultiplier": "3.8 DEF",
       "description": "Attacks 1 enemy. Has a 30% chance of placing a 50% [Decrease ATK] debuff for 2 turns.",
       "books": [
         "Level 2: Damage +5%",
@@ -37,11 +41,13 @@
     {
       "cd": 5,
       "mincd": 3,
+      "passive": false,
       "dmgscaling": [
         "ATK",
         "DEF"
       ],
       "abilityname": "Combo Attack",
+      "damageMultiplier": "2 ATK + 2.3 DEF",
       "description": "Attacks all enemies. Places a 30% [Increase DEF] buff on all allies for 2 turns.",
       "books": [
         "Level 2: Damage +5%",
@@ -56,23 +62,15 @@
     {
       "cd": 4,
       "mincd": 3,
-      "dmgscaling": [
-        "Passive"
-      ],
+      "passive": true,
+      "dmgscaling": [],
       "abilityname": "Scout",
       "description": "Places a 30% [Reflect Damage] buff on all allies for 1 turn when attacked with a critical hit.",
       "books": [
         "Level 2: Cooldown -1"
       ]
-    },
-    {
-      "cd": 0,
-      "mincd": 0,
-      "dmgscaling": [],
-      "abilityname": "Aura",
-      "description": "Increases Ally HP in Dungeons by 25%.",
-      "books": []
     }
   ],
-  "avatarUrl": "https://goctionni.github.io/raid-data/images/avatar/Bogwalker.png"
+  "version": "3.30.0",
+  "avatarUrl": "https://mcradane.github.io/raid-data/images/avatar/Bogwalker.png"
 }

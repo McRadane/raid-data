@@ -1,30 +1,34 @@
 {
   "name": "Sentinel",
+  "id": "Sentinel",
   "class": {
     "faction": "Barbarians",
-    "rarity": "Rare",
-    "role": "HP",
-    "affinity": "Force"
+    "rarity": "rare",
+    "role": "hp",
+    "affinity": "force"
   },
   "stats": {
-    "hp": "18,825",
-    "atk": "914",
-    "def": "859",
-    "spd": "86",
-    "crate": "Rate",
-    "cdmg": "15",
-    "resist": "50",
-    "acc": "30"
+    "hp": 18825,
+    "atk": 914,
+    "def": 859,
+    "spd": 86,
+    "crate": 15,
+    "cdmg": 50,
+    "resist": 30,
+    "acc": 10
   },
+  "aura": "Increases Ally RESIST in Faction Crypts by 30.",
   "skills": [
     {
       "cd": 0,
       "mincd": 0,
+      "passive": false,
       "dmgscaling": [
         "ATK",
         "DEF"
       ],
       "abilityname": "Hook",
+      "damageMultiplier": "2.6 ATK + 2 DEF",
       "description": "Attacks 1 enemy. Has a 60% chance of placing a [Provoke] debuff for 1 turn if this attack is critical.",
       "books": [
         "Level 2: Damage +5%",
@@ -36,10 +40,12 @@
     {
       "cd": 4,
       "mincd": 3,
+      "passive": false,
       "dmgscaling": [
         "ATK"
       ],
       "abilityname": "Glaive Swing",
+      "damageMultiplier": "4.4 ATK",
       "description": "Attacks all enemies. Has a 50% chance of placing a 25% [Decrease ATK] debuff for 2 turns. Has a 50% chance of placing a 100% [Heal Reduction] debuff for 2 turns.",
       "books": [
         "Level 2: Buff/Debuff Chance +5%",
@@ -52,21 +58,13 @@
     {
       "cd": 2,
       "mincd": 2,
-      "dmgscaling": [
-        "Passive"
-      ],
+      "passive": true,
+      "dmgscaling": [],
       "abilityname": "Regeneration",
       "description": "Heals this Champion by 10% HP at the start of each turn. This Heal can be critical.",
       "books": []
-    },
-    {
-      "cd": 0,
-      "mincd": 0,
-      "dmgscaling": [],
-      "abilityname": "Aura",
-      "description": "Increases Ally RESIST in Faction Crypts by 30.",
-      "books": []
     }
   ],
-  "avatarUrl": "https://goctionni.github.io/raid-data/images/avatar/Sentinel.png"
+  "version": "3.30.0",
+  "avatarUrl": "https://mcradane.github.io/raid-data/images/avatar/Sentinel.png"
 }

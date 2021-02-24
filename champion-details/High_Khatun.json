@@ -1,29 +1,33 @@
 {
   "name": "High Khatun",
+  "id": "High_Khatun",
   "class": {
     "faction": "Barbarians",
-    "rarity": "Epic",
-    "role": "Support",
-    "affinity": "Spirit"
+    "rarity": "epic",
+    "role": "support",
+    "affinity": "spirit"
   },
   "stats": {
-    "hp": "16,350",
-    "atk": "1,024",
-    "def": "1,189",
-    "spd": "104",
-    "crate": "RATE",
-    "cdmg": "15",
-    "resist": "50",
-    "acc": "30"
+    "hp": 16350,
+    "atk": 1024,
+    "def": 1189,
+    "spd": 104,
+    "crate": 15,
+    "cdmg": 50,
+    "resist": 30,
+    "acc": 0
   },
+  "aura": "Increases Ally SPD in all Battles by 19%",
   "skills": [
     {
       "cd": 0,
       "mincd": 0,
+      "passive": false,
       "dmgscaling": [
         "ATK"
       ],
       "abilityname": "Imperial Grace",
+      "damageMultiplier": "3.7 ATK",
       "description": "Attacks 1 enemy. Has a 25% chance of placing 30% [Decrease SPD] debuff for 2 turns.",
       "books": [
         "Level 2: Damage +5%",
@@ -36,6 +40,7 @@
     {
       "cd": 4,
       "mincd": 3,
+      "passive": false,
       "dmgscaling": [],
       "abilityname": "Rally the Horde",
       "description": "Fill the Turn Meters of all allies by 15% and places a 30% [Increase SPD] buff on all allies for 2 turns.",
@@ -46,10 +51,12 @@
     {
       "cd": 5,
       "mincd": 4,
+      "passive": false,
       "dmgscaling": [
         "ATK"
       ],
       "abilityname": "Shamanic Lightning",
+      "damageMultiplier": "3.5 ATK",
       "description": "Attacks all enemies. Has a 50% chance of decreasing the Turn Meters by 15%",
       "books": [
         "Level 2: Damage +10%",
@@ -58,15 +65,8 @@
         "Level 5: Buff/Debuff Chance +15%",
         "Level 6: Cooldown -1"
       ]
-    },
-    {
-      "cd": 0,
-      "mincd": 0,
-      "dmgscaling": [],
-      "abilityname": "Aura",
-      "description": "Increases Ally SPD in all Battles by 19%",
-      "books": []
     }
   ],
-  "avatarUrl": "https://goctionni.github.io/raid-data/images/avatar/High_Khatun.png"
+  "version": "3.30.0",
+  "avatarUrl": "https://mcradane.github.io/raid-data/images/avatar/High_Khatun.png"
 }

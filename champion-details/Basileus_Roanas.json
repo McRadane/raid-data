@@ -1,29 +1,32 @@
 {
   "name": "Basileus Roanas",
+  "id": "Basileus_Roanas",
   "class": {
     "faction": "High Elves",
-    "rarity": "Legendary",
-    "role": "Attack",
-    "affinity": "Force"
+    "rarity": "legendary",
+    "role": "attack",
+    "affinity": "force"
   },
   "stats": {
-    "hp": "15,525",
-    "atk": "1,542",
-    "def": "1,002",
-    "spd": "101",
-    "crate": "Rate",
-    "cdmg": "15",
-    "resist": "63",
-    "acc": "30"
+    "hp": 15525,
+    "atk": 1542,
+    "def": 1002,
+    "spd": 101,
+    "crate": 15,
+    "cdmg": 63,
+    "resist": 30,
+    "acc": 10
   },
   "skills": [
     {
       "cd": 0,
       "mincd": 0,
+      "passive": false,
       "dmgscaling": [
         "ATK"
       ],
       "abilityname": "Bolts of Scorn",
+      "damageMultiplier": "3.53 ATK",
       "description": "Attacks 1 enemy. Has an 80% chance of stealing 1 random buff from the target. Has an 80% chance of placing a [Block Buffs] debuff for 1 turn if the target has no active buffs.",
       "books": [
         "Level 2: Damage +10%",
@@ -35,10 +38,12 @@
     {
       "cd": 3,
       "mincd": 3,
+      "passive": false,
       "dmgscaling": [
         "ATK"
       ],
       "abilityname": "Triple Puncture",
+      "damageMultiplier": "0.98 ATK",
       "description": "Attacks 1 enemy 3 times. Ignores [Shield] and [Block Damage] buffs, as well as 50% of the target’s DEF.",
       "books": [
         "Level 2: Damage +5%",
@@ -49,10 +54,12 @@
     {
       "cd": 4,
       "mincd": 4,
+      "passive": false,
       "dmgscaling": [
         "ATK"
       ],
       "abilityname": "Majesty",
+      "damageMultiplier": "2.51 ATK",
       "description": "Attacks all enemies. Has a 50% chance of placing a [Stun] debuff for 1 turn. Decreases each target’s Turn Meter by 50% if the [Stun] debuff is not placed.",
       "books": [
         "Level 2: Damage +10%",
@@ -62,5 +69,6 @@
       ]
     }
   ],
-  "avatarUrl": "https://goctionni.github.io/raid-data/images/avatar/Basileus_Roanas.png"
+  "version": "3.30.0",
+  "avatarUrl": "https://mcradane.github.io/raid-data/images/avatar/Basileus_Roanas.png"
 }

@@ -1,29 +1,32 @@
 {
   "name": "Treefeller",
+  "id": "Treefeller",
   "class": {
     "faction": "Orcs",
-    "rarity": "Rare",
-    "role": "Attack",
-    "affinity": "Force"
+    "rarity": "rare",
+    "role": "attack",
+    "affinity": "force"
   },
   "stats": {
-    "hp": "13,215",
-    "atk": "1,277",
-    "def": "870",
-    "spd": "95",
-    "crate": "Rate",
-    "cdmg": "15",
-    "resist": "57",
-    "acc": "30"
+    "hp": 13215,
+    "atk": 1277,
+    "def": 870,
+    "spd": 95,
+    "crate": 15,
+    "cdmg": 57,
+    "resist": 30,
+    "acc": 0
   },
   "skills": [
     {
       "cd": 0,
       "mincd": 0,
+      "passive": false,
       "dmgscaling": [
         "ATK"
       ],
       "abilityname": "Pruning Limbs",
+      "damageMultiplier": "3.6 ATK",
       "description": "Attacks 1 enemy. Has a 35% chance of placing a 25% [Decrease ACC] debuff for 2 turns.",
       "books": [
         "Level 2: Damage +5%",
@@ -35,20 +38,24 @@
     {
       "cd": 3,
       "mincd": 3,
+      "passive": false,
       "dmgscaling": [
         "ATK"
       ],
       "abilityname": "Chop Down",
+      "damageMultiplier": "2.8 ATK",
       "description": "Attacks 1 enemy 2 times. Each hit has a 50% chance of placing a 2.5% [Poison] debuff for 2 turns. Each hit also has a 50% chance to place a 15% [Decrease SPD] debuff for 2 turns.",
       "books": []
     },
     {
       "cd": 5,
       "mincd": 4,
+      "passive": false,
       "dmgscaling": [
         "ATK"
       ],
       "abilityname": "Blasting Powder",
+      "damageMultiplier": "3.2 ATK",
       "description": "Attacks 2 times at random. Each hit has a 70% chance of placing a [Bomb] debuff that detonates after 3 turns.",
       "books": [
         "Level 2: Damage +5%",
@@ -59,5 +66,6 @@
       ]
     }
   ],
-  "avatarUrl": "https://goctionni.github.io/raid-data/images/avatar/Treefeller.png"
+  "version": "3.30.0",
+  "avatarUrl": "https://mcradane.github.io/raid-data/images/avatar/Treefeller.png"
 }

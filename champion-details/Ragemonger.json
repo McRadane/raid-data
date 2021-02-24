@@ -1,29 +1,33 @@
 {
   "name": "Ragemonger",
+  "id": "Ragemonger",
   "class": {
     "faction": "Barbarians",
-    "rarity": "Rare",
-    "role": "Attack",
-    "affinity": "Void"
+    "rarity": "rare",
+    "role": "attack",
+    "affinity": "void"
   },
   "stats": {
-    "hp": "12,720",
-    "atk": "1,211",
-    "def": "969",
-    "spd": "98",
-    "crate": "RATE",
-    "cdmg": "15",
-    "resist": "57",
-    "acc": "30"
+    "hp": 12720,
+    "atk": 1211,
+    "def": 969,
+    "spd": 98,
+    "crate": 15,
+    "cdmg": 57,
+    "resist": 30,
+    "acc": 0
   },
+  "aura": "Increases Ally ATK in Campaign Battles by 21%.",
   "skills": [
     {
       "cd": 0,
       "mincd": 0,
+      "passive": false,
       "dmgscaling": [
         "ATK"
       ],
       "abilityname": "Recoup",
+      "damageMultiplier": "3.4 ATK",
       "description": "Attacks 1 enemy. Places a 7.5% [Continuous Heal] buff on this Champion for 1 turn if the hit is critical.",
       "books": [
         "Level 2: Damage +5%",
@@ -35,10 +39,12 @@
     {
       "cd": 4,
       "mincd": 4,
+      "passive": false,
       "dmgscaling": [
         "ATK"
       ],
       "abilityname": "Toxin Flurry",
+      "damageMultiplier": "1.75 ATK",
       "description": "Attacks all enemies 2 times. Each hit has a 50% chance of placing a 2.5% [Poison] debuff for 2 turns.",
       "books": [
         "Level 2: Damage +10%",
@@ -50,10 +56,12 @@
     {
       "cd": 5,
       "mincd": 4,
+      "passive": false,
       "dmgscaling": [
         "ATK"
       ],
       "abilityname": "Scorch Shot",
+      "damageMultiplier": "6 ATK",
       "description": "Attacks 1 enemy. Has a 40% chance of placing a [HP Burn] debuff for 2 turns.",
       "books": [
         "Level 2: Damage +5%",
@@ -62,15 +70,8 @@
         "Level 5: Buff/Debuff Chance +10%",
         "Level 6: Cooldown -1"
       ]
-    },
-    {
-      "cd": 0,
-      "mincd": 0,
-      "dmgscaling": [],
-      "abilityname": "Aura",
-      "description": "Increases Ally ATK in Campaign Battles by 21%.",
-      "books": []
     }
   ],
-  "avatarUrl": "https://goctionni.github.io/raid-data/images/avatar/Ragemonger.png"
+  "version": "3.30.0",
+  "avatarUrl": "https://mcradane.github.io/raid-data/images/avatar/Ragemonger.png"
 }

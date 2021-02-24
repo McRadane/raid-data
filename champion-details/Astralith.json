@@ -1,29 +1,33 @@
 {
   "name": "Astralith",
+  "id": "Astralith",
   "class": {
     "faction": "Dark Elves",
-    "rarity": "Legendary",
-    "role": "Attack",
-    "affinity": "Spirit"
+    "rarity": "legendary",
+    "role": "attack",
+    "affinity": "spirit"
   },
   "stats": {
-    "hp": "17,175",
-    "atk": "1,487",
-    "def": "947",
-    "spd": "102",
-    "crate": "RATE",
-    "cdmg": "15",
-    "resist": "63",
-    "acc": "30"
+    "hp": 17175,
+    "atk": 1487,
+    "def": 947,
+    "spd": 102,
+    "crate": 15,
+    "cdmg": 63,
+    "resist": 30,
+    "acc": 10
   },
+  "aura": "Increases Ally SPD in the Arena by 28%",
   "skills": [
     {
       "cd": 0,
       "mincd": 0,
+      "passive": false,
       "dmgscaling": [
         "ATK"
       ],
       "abilityname": "Assault Leader",
+      "damageMultiplier": "3.6 ATK",
       "description": "Attacks 1 enemy. Fills the Turn Meter of a random ally by 15%. Fills the Turn Meter of all allies by a further 15% if this attack is critical.",
       "books": [
         "Level: 2 Damage +5%",
@@ -35,11 +39,13 @@
     {
       "cd": 5,
       "mincd": 4,
+      "passive": false,
       "dmgscaling": [
         "ATK"
       ],
       "abilityname": "Heart Rot",
-      "description": "Attacks 1 enemy. Places 2 [Bomb] debuffs that detonate after 1 turns.",
+      "damageMultiplier": "5.6 ATK",
+      "description": "Attacks 1 enemy. Places two [Bomb] debuffs that detonate after 1 turns. This debuff cannot be resisted.",
       "books": [
         "Level: 2 Damage +5%",
         "Level: 3 Damage +10%",
@@ -50,22 +56,16 @@
     {
       "cd": 7,
       "mincd": 5,
+      "passive": false,
       "dmgscaling": [],
       "abilityname": "Judgement",
-      "description": "Exchanges remaining HP levels with a target enemy, then attacks with the default skill. Cannot be used on a Boss. [Passive Effect] Gains an Extra Turn and decreases the cooldown of this Skill by 3 turns if this Champion’s HP drops below 20% when attacked.",
+      "description": "[Active Effect] Exchanges remaining HP levels with a target enemy, then attacks with the default skill. Cannot be used on a Boss. [Passive Effect] Gains an Extra Turn and decreases the cooldown of this Skill by 3 turns if this Champion’s HP drops below 20% when attacked.",
       "books": [
         "Level: 2 Cooldown -1",
         "Level: 3 Cooldown -1"
       ]
-    },
-    {
-      "cd": 0,
-      "mincd": 0,
-      "dmgscaling": [],
-      "abilityname": "Aura",
-      "description": "Increases Ally SPD in the Arena by 28%",
-      "books": []
     }
   ],
-  "avatarUrl": "https://goctionni.github.io/raid-data/images/avatar/Astralith.png"
+  "version": "3.30.0",
+  "avatarUrl": "https://mcradane.github.io/raid-data/images/avatar/Astralith.png"
 }

@@ -1,29 +1,32 @@
 {
   "name": "Bully",
+  "id": "Bully",
   "class": {
     "faction": "Barbarians",
-    "rarity": "Common",
-    "role": "Defense",
-    "affinity": "Spirit"
+    "rarity": "common",
+    "role": "defense",
+    "affinity": "spirit"
   },
   "stats": {
-    "hp": "11,565",
-    "atk": "462",
-    "def": "969",
-    "spd": "91",
-    "crate": "Rate",
-    "cdmg": "15",
-    "resist": "50",
-    "acc": "30"
+    "hp": 11565,
+    "atk": 462,
+    "def": 969,
+    "spd": 91,
+    "crate": 15,
+    "cdmg": 50,
+    "resist": 30,
+    "acc": 0
   },
   "skills": [
     {
       "cd": 0,
       "mincd": 0,
+      "passive": false,
       "dmgscaling": [
         "DEF"
       ],
       "abilityname": "Bullying",
+      "damageMultiplier": "2.3 DEF",
       "description": "Attacks 1 enemy.",
       "books": [
         "Level 2: Damage +5%",
@@ -35,5 +38,6 @@
       ]
     }
   ],
-  "avatarUrl": "https://goctionni.github.io/raid-data/images/avatar/Bully.png"
+  "version": "3.30.0",
+  "avatarUrl": "https://mcradane.github.io/raid-data/images/avatar/Bully.png"
 }

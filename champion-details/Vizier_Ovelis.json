@@ -1,29 +1,33 @@
 {
   "name": "Vizier Ovelis",
+  "id": "Vizier_Ovelis",
   "class": {
     "faction": "Dark Elves",
-    "rarity": "Legendary",
-    "role": "Attack",
-    "affinity": "Force"
+    "rarity": "legendary",
+    "role": "attack",
+    "affinity": "force"
   },
   "stats": {
-    "hp": "16,350",
-    "atk": "1,476",
-    "def": "1,013",
-    "spd": "101",
-    "crate": "RATE",
-    "cdmg": "15",
-    "resist": "63",
-    "acc": "40"
+    "hp": 16350,
+    "atk": 1476,
+    "def": 1013,
+    "spd": 101,
+    "crate": 15,
+    "cdmg": 63,
+    "resist": 40,
+    "acc": 0
   },
+  "aura": "Increases Ally Attack in Dungeons by 34%",
   "skills": [
     {
       "cd": 0,
       "mincd": 0,
+      "passive": false,
       "dmgscaling": [
         "ATK"
       ],
       "abilityname": "Accursed Blades",
+      "damageMultiplier": "1.3 ATK",
       "description": "Attacks 1 enemy 3 times. Each hit has a 35% chance of increasing the duration of all debuffs by 1 turn.",
       "books": [
         "Level 2: Damage +5%",
@@ -35,10 +39,12 @@
     {
       "cd": 4,
       "mincd": 4,
+      "passive": false,
       "dmgscaling": [
         "ATK"
       ],
       "abilityname": "Master of Misery",
+      "damageMultiplier": "2.7 ATK",
       "description": "Attacks 1 enemy 2 times. Each hit has a 50% chance of placing a [Block Buffs] debuff, a 50% [Decrease ATK] debuff, and a 100% [Heal Reduction] debuff for 2 turns.",
       "books": [
         "Level 2: Damage +10%",
@@ -51,10 +57,12 @@
     {
       "cd": 5,
       "mincd": 4,
+      "passive": false,
       "dmgscaling": [
         "ATK"
       ],
       "abilityname": "Vizier of Poisons",
+      "damageMultiplier": "6 ATK",
       "description": "Attacks 1 enemy. Applies a [Debuff Spread] effect, taking 2 random debuffs from the target and placing them on all enemies. Places a [Perfect Veil] buff on this Champion for 3 turns if the target is under 2 or more debuffs.",
       "books": [
         "Level 2: Damage +5%",
@@ -65,21 +73,13 @@
     {
       "cd": 0,
       "mincd": 0,
-      "dmgscaling": [
-        "Passive"
-      ],
+      "passive": true,
+      "dmgscaling": [],
       "abilityname": "Unseen Assassin",
       "description": "Places a [Perfect Veil] buff on this champion for 2 turns at the start of each round.",
       "books": []
-    },
-    {
-      "cd": 0,
-      "mincd": 0,
-      "dmgscaling": [],
-      "abilityname": "Aura",
-      "description": "Increases Ally Attack in Dungeons by 34%",
-      "books": []
     }
   ],
-  "avatarUrl": "https://goctionni.github.io/raid-data/images/avatar/Vizier_Ovelis.png"
+  "version": "3.30.0",
+  "avatarUrl": "https://mcradane.github.io/raid-data/images/avatar/Vizier_Ovelis.png"
 }

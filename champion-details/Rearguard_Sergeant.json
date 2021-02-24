@@ -1,29 +1,33 @@
 {
   "name": "Rearguard Sergeant",
+  "id": "Rearguard_Sergeant",
   "class": {
     "faction": "Dwarves",
-    "rarity": "Epic",
-    "role": "Defense",
-    "affinity": "Force"
+    "rarity": "epic",
+    "role": "defense",
+    "affinity": "force"
   },
   "stats": {
-    "hp": "18,945",
-    "atk": "859",
-    "def": "1,211",
-    "spd": "97",
-    "crate": "RATE",
-    "cdmg": "15",
-    "resist": "50",
-    "acc": "45"
+    "hp": 18945,
+    "atk": 859,
+    "def": 1211,
+    "spd": 97,
+    "crate": 15,
+    "cdmg": 50,
+    "resist": 45,
+    "acc": 0
   },
+  "aura": "Increases Force Ally HP in all Battles by 33%",
   "skills": [
     {
       "cd": 0,
       "mincd": 0,
+      "passive": false,
       "dmgscaling": [
         "DEF"
       ],
       "abilityname": "Crushing Impact",
+      "damageMultiplier": "4 DEF",
       "description": "Attacks 1 enemy. Has a 40% chance of placing a 60% [Decrease DEF] debuff for 2 turns.",
       "books": [
         "Level 2: Damage +5%",
@@ -35,10 +39,12 @@
     {
       "cd": 4,
       "mincd": 3,
+      "passive": false,
       "dmgscaling": [
         "DEF"
       ],
       "abilityname": "Flail Master",
+      "damageMultiplier": "3.6 DEF",
       "description": "Attacks all enemies. Has a 50% chance of placing a 50% [Decrease ATK] debuff for 2 turns. Heals this Champion by 25% of the damage inflicted.",
       "books": [
         "Level 2: Damage +5%",
@@ -53,6 +59,7 @@
     {
       "cd": 5,
       "mincd": 3,
+      "passive": false,
       "dmgscaling": [
         "DEF"
       ],
@@ -62,15 +69,8 @@
         "Level 2: Cooldown -1",
         "Level 3: Cooldown -1"
       ]
-    },
-    {
-      "cd": 0,
-      "mincd": 0,
-      "dmgscaling": [],
-      "abilityname": "Aura",
-      "description": "Increases Force Ally HP in all Battles by 33%",
-      "books": []
     }
   ],
-  "avatarUrl": "https://goctionni.github.io/raid-data/images/avatar/Rearguard_Sergeant.png"
+  "version": "3.30.0",
+  "avatarUrl": "https://mcradane.github.io/raid-data/images/avatar/Rearguard_Sergeant.png"
 }

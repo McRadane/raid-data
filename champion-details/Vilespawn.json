@@ -1,25 +1,27 @@
 {
   "name": "Vilespawn",
+  "id": "Vilespawn",
   "class": {
     "faction": "Demonspawn",
-    "rarity": "Uncommon",
-    "role": "Support",
-    "affinity": "Spirit"
+    "rarity": "uncommon",
+    "role": "support",
+    "affinity": "spirit"
   },
   "stats": {
-    "hp": "13,875",
-    "atk": "925",
-    "def": "903",
-    "spd": "91",
-    "crate": "Rate",
-    "cdmg": "15",
-    "resist": "50",
-    "acc": "30"
+    "hp": 13875,
+    "atk": 925,
+    "def": 903,
+    "spd": 91,
+    "crate": 15,
+    "cdmg": 50,
+    "resist": 30,
+    "acc": 0
   },
   "skills": [
     {
       "cd": 0,
       "mincd": 0,
+      "passive": false,
       "dmgscaling": [
         "ATK"
       ],
@@ -38,11 +40,13 @@
     {
       "cd": 3,
       "mincd": 3,
+      "passive": false,
       "dmgscaling": [],
       "abilityname": "Flesh Knit",
       "description": "Heals an ally by 10% of their MAX HP.",
       "books": []
     }
   ],
-  "avatarUrl": "https://goctionni.github.io/raid-data/images/avatar/Vilespawn.png"
+  "version": "3.30.0",
+  "avatarUrl": "https://mcradane.github.io/raid-data/images/avatar/Vilespawn.png"
 }

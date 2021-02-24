@@ -1,29 +1,33 @@
 {
   "name": "Ithos",
+  "id": "Ithos",
   "class": {
     "faction": "High Elves",
-    "rarity": "Legendary",
-    "role": "Attack",
-    "affinity": "Void"
+    "rarity": "legendary",
+    "role": "attack",
+    "affinity": "void"
   },
   "stats": {
-    "hp": "18,825",
-    "atk": "1,608",
-    "def": "716",
-    "spd": "99",
-    "crate": "RATE",
-    "cdmg": "15",
-    "resist": "63",
-    "acc": "30"
+    "hp": 18825,
+    "atk": 1608,
+    "def": 716,
+    "spd": 99,
+    "crate": 15,
+    "cdmg": 63,
+    "resist": 30,
+    "acc": 10
   },
+  "aura": "Increases Ally C.RATE in the Arena by 33%.",
   "skills": [
     {
       "cd": 0,
       "mincd": 0,
+      "passive": false,
       "dmgscaling": [
         "ATK"
       ],
       "abilityname": "Gouge",
+      "damageMultiplier": "3.8 ATK",
       "description": "Attacks 1 enemy. Has a 20% chance of granting an Extra Turn. Decreases enemy MAX HP by 15% of damage dealt.",
       "books": [
         "Level 2: Damage +5%",
@@ -35,10 +39,12 @@
     {
       "cd": 4,
       "mincd": 3,
+      "passive": false,
       "dmgscaling": [
         "ATK"
       ],
       "abilityname": "Outburst",
+      "damageMultiplier": "1.4 ATK",
       "description": "Attacks all enemies 3 times. Places a 15% [Weaken] debuff for 2 turns.",
       "books": [
         "Level 2: Damage +5%",
@@ -50,10 +56,12 @@
     {
       "cd": 6,
       "mincd": 4,
+      "passive": false,
       "dmgscaling": [
         "ATK"
       ],
       "abilityname": "Extinguish Life",
+      "damageMultiplier": "4.4 ATK",
       "description": "Attacks all enemies. This attack is always critical.",
       "books": [
         "Level 2: Damage +5%",
@@ -62,15 +70,8 @@
         "Level 5: Cooldown -1",
         "Level 6: Cooldown -1"
       ]
-    },
-    {
-      "cd": 0,
-      "mincd": 0,
-      "dmgscaling": [],
-      "abilityname": "Aura",
-      "description": "Increases Ally C. RATE in the Arena by 33%.",
-      "books": []
     }
   ],
-  "avatarUrl": "https://goctionni.github.io/raid-data/images/avatar/Ithos.png"
+  "version": "3.30.0",
+  "avatarUrl": "https://mcradane.github.io/raid-data/images/avatar/Ithos.png"
 }

@@ -1,29 +1,32 @@
 {
   "name": "Saurus",
+  "id": "Saurus",
   "class": {
     "faction": "Lizardmen",
-    "rarity": "Uncommon",
-    "role": "Attack",
-    "affinity": "Spirit"
+    "rarity": "uncommon",
+    "role": "attack",
+    "affinity": "spirit"
   },
   "stats": {
-    "hp": "12,720",
-    "atk": "1,244",
-    "def": "661",
-    "spd": "83",
-    "crate": "RATE",
-    "cdmg": "15",
-    "resist": "50",
-    "acc": "30"
+    "hp": 12720,
+    "atk": 1244,
+    "def": 661,
+    "spd": 83,
+    "crate": 15,
+    "cdmg": 50,
+    "resist": 30,
+    "acc": 0
   },
   "skills": [
     {
       "cd": 0,
       "mincd": 0,
+      "passive": false,
       "dmgscaling": [
         "ATK"
       ],
       "abilityname": "Wind Cutter",
+      "damageMultiplier": "2 ATK",
       "description": "Attacks all enemies.",
       "books": [
         "Level 2: Damage +5%",
@@ -35,10 +38,12 @@
     {
       "cd": 4,
       "mincd": 3,
+      "passive": false,
       "dmgscaling": [
         "ATK"
       ],
       "abilityname": "Fire Wave",
+      "damageMultiplier": "1.8 ATK",
       "description": "Attacks all enemies 2 times. Has a 10% chance of placing a 50% [Heal Reduction] debuff for 1 turn. Places a 50% [Heal Reduction] if the target’s current HP is less than or equal to 40%.",
       "books": [
         "Level 2: Damage +5%",
@@ -47,5 +52,6 @@
       ]
     }
   ],
-  "avatarUrl": "https://goctionni.github.io/raid-data/images/avatar/Saurus.png"
+  "version": "3.30.0",
+  "avatarUrl": "https://mcradane.github.io/raid-data/images/avatar/Saurus.png"
 }

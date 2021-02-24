@@ -1,29 +1,33 @@
 {
   "name": "Fencer",
+  "id": "Fencer",
   "class": {
     "faction": "High Elves",
-    "rarity": "Rare",
-    "role": "Attack",
-    "affinity": "Force"
+    "rarity": "rare",
+    "role": "attack",
+    "affinity": "force"
   },
   "stats": {
-    "hp": "15,360",
-    "atk": "1,211",
-    "def": "793",
-    "spd": "100",
-    "crate": "RATE",
-    "cdmg": "15",
-    "resist": "50",
-    "acc": "30"
+    "hp": 15360,
+    "atk": 1211,
+    "def": 793,
+    "spd": 100,
+    "crate": 15,
+    "cdmg": 50,
+    "resist": 30,
+    "acc": 10
   },
+  "aura": "Increases Ally ATK in Dungeons by 23%.",
   "skills": [
     {
       "cd": 0,
       "mincd": 0,
+      "passive": false,
       "dmgscaling": [
         "ATK"
       ],
       "abilityname": "Enchanted Rapier",
+      "damageMultiplier": "2.3 ATK",
       "description": "Attacks 1 enemy 2 times. Each hit has a 15% chance of placing a 15% [Decrease SPD] debuff for 2 turns.",
       "books": [
         "Level 2: Damage +5%",
@@ -37,10 +41,12 @@
     {
       "cd": 4,
       "mincd": 4,
+      "passive": false,
       "dmgscaling": [
         "ATK"
       ],
       "abilityname": "Pommel Strike",
+      "damageMultiplier": "5.9 ATK",
       "description": "Attacks 1 enemy. Has a 75% chance of placing a [Stun] debuff for 1 turn. Steals 20% of the target’s Turn Meter if the [Stun] debuff is not placed.",
       "books": [
         "Level 2: Damage +5%",
@@ -55,10 +61,12 @@
     {
       "cd": 4,
       "mincd": 3,
+      "passive": false,
       "dmgscaling": [
         "ATK"
       ],
       "abilityname": "Blade Flourish",
+      "damageMultiplier": "3.5 ATK",
       "description": "Attacks all enemies. Has a 75% chance of placing a 30% [Decrease DEF] debuff for 2 turns.",
       "books": [
         "Level 2: Damage +5%",
@@ -68,15 +76,8 @@
         "Level 6: Buff/Debuff Chance +10%",
         "Level 7: Cooldown -1"
       ]
-    },
-    {
-      "cd": 0,
-      "mincd": 0,
-      "dmgscaling": [],
-      "abilityname": "Aura",
-      "description": "Increases Ally ATK in Dungeons by 23%.",
-      "books": []
     }
   ],
-  "avatarUrl": "https://goctionni.github.io/raid-data/images/avatar/Fencer.png"
+  "version": "3.30.0",
+  "avatarUrl": "https://mcradane.github.io/raid-data/images/avatar/Fencer.png"
 }

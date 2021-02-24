@@ -1,29 +1,33 @@
 {
   "name": "Basher",
+  "id": "Basher",
   "class": {
     "faction": "Skinwalkers",
-    "rarity": "Epic",
-    "role": "Attack",
-    "affinity": "Void"
+    "rarity": "epic",
+    "role": "attack",
+    "affinity": "void"
   },
   "stats": {
-    "hp": "13,545",
-    "atk": "1,498",
-    "def": "903",
-    "spd": "95",
-    "crate": "Rate",
-    "cdmg": "15",
-    "resist": "60",
-    "acc": "30"
+    "hp": 13545,
+    "atk": 1498,
+    "def": 903,
+    "spd": 95,
+    "crate": 15,
+    "cdmg": 60,
+    "resist": 30,
+    "acc": 0
   },
+  "aura": "Increases Ally HP in all Battles by 25%.",
   "skills": [
     {
       "cd": 0,
       "mincd": 0,
+      "passive": false,
       "dmgscaling": [
         "ATK"
       ],
       "abilityname": "Splintering Bash",
+      "damageMultiplier": "3.2 ATK",
       "description": "Attacks 1 enemy. Has a 75% chance of placing a 25% [Weaken] debuff for 2 turns.",
       "books": [
         "Level 2: Damage +5%",
@@ -35,10 +39,12 @@
     {
       "cd": 4,
       "mincd": 3,
+      "passive": false,
       "dmgscaling": [
         "ATK"
       ],
       "abilityname": "Stinging Blast",
+      "damageMultiplier": "3.8 ATK",
       "description": "Attacks all enemies. Increases the cooldown of all the target’s skill by 2 turns.",
       "books": [
         "Level 2: Damage +5%",
@@ -49,10 +55,12 @@
     {
       "cd": 5,
       "mincd": 4,
+      "passive": false,
       "dmgscaling": [
         "ATK"
       ],
       "abilityname": "Cause Fear",
+      "damageMultiplier": "1.55 ATK",
       "description": "Attacks 4 times at random. Has a 75% chance of placing a [Block Buffs] debuff for 2 turns.",
       "books": [
         "Level 2: Damage +10%",
@@ -60,15 +68,8 @@
         "Level 4: Buff/Debuff Chance +15%",
         "Level 5: Cooldown -1"
       ]
-    },
-    {
-      "cd": 0,
-      "mincd": 0,
-      "dmgscaling": [],
-      "abilityname": "Aura",
-      "description": "Increases Ally HP in all Battles by 25%.",
-      "books": []
     }
   ],
-  "avatarUrl": "https://goctionni.github.io/raid-data/images/avatar/Basher.png"
+  "version": "3.30.0",
+  "avatarUrl": "https://mcradane.github.io/raid-data/images/avatar/Basher.png"
 }

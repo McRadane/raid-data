@@ -1,29 +1,33 @@
 {
   "name": "Bloodfeather",
+  "id": "Bloodfeather",
   "class": {
     "faction": "Orcs",
-    "rarity": "Epic",
-    "role": "Attack",
-    "affinity": "Force"
+    "rarity": "epic",
+    "role": "attack",
+    "affinity": "force"
   },
   "stats": {
-    "hp": "13,875",
-    "atk": "1,542",
-    "def": "837",
-    "spd": "102",
-    "crate": "RATE",
-    "cdmg": "15",
-    "resist": "60",
-    "acc": "30"
+    "hp": 13875,
+    "atk": 1542,
+    "def": 837,
+    "spd": 102,
+    "crate": 15,
+    "cdmg": 60,
+    "resist": 30,
+    "acc": 0
   },
+  "aura": "Increases Ally C.RATE in Faction Crypts by 20%.",
   "skills": [
     {
       "cd": 0,
       "mincd": 0,
+      "passive": false,
       "dmgscaling": [
         "ATK"
       ],
       "abilityname": "Hunt Down",
+      "damageMultiplier": "3.8 ATK",
       "description": "Attacks 1 enemy. Has an extra 20% chance of inflicting a critical hit.",
       "books": [
         "Level 2: Damage +5%",
@@ -34,10 +38,12 @@
     {
       "cd": 5,
       "mincd": 3,
+      "passive": false,
       "dmgscaling": [
         "ATK"
       ],
       "abilityname": "Armor Breaker",
+      "damageMultiplier": "5.3 ATK",
       "description": "Attacks 1 enemy. Has an extra 20% chance of inflicting a critical hit. Places a 60% [Decrease DEF] debuff for 2 turns.",
       "books": [
         "Level 2: Damage +5%",
@@ -49,10 +55,12 @@
     {
       "cd": 5,
       "mincd": 4,
+      "passive": false,
       "dmgscaling": [
         "ATK"
       ],
       "abilityname": "Charged Shot",
+      "damageMultiplier": "6.1 ATK",
       "description": "Attacks 1 enemy. Places a 30% [Decrease SPD] debuff for 2 turns. Decreases the target’s Turn Meter by 30%. Has an extra 20% chance of inflicting a critical hit.",
       "books": [
         "Level 2: Damage +5%",
@@ -60,15 +68,8 @@
         "Level 4: Damage +10%",
         "Level 5: Cooldown -1"
       ]
-    },
-    {
-      "cd": 0,
-      "mincd": 0,
-      "dmgscaling": [],
-      "abilityname": "Aura",
-      "description": "Increases Ally C.RATE in Faction Crypts by 20%.",
-      "books": []
     }
   ],
-  "avatarUrl": "https://goctionni.github.io/raid-data/images/avatar/Bloodfeather.png"
+  "version": "3.30.0",
+  "avatarUrl": "https://mcradane.github.io/raid-data/images/avatar/Bloodfeather.png"
 }

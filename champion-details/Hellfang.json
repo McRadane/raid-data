@@ -1,29 +1,33 @@
 {
   "name": "Hellfang",
+  "id": "Hellfang",
   "class": {
     "faction": "Demonspawn",
-    "rarity": "Rare",
-    "role": "Attack",
-    "affinity": "Spirit"
+    "rarity": "rare",
+    "role": "attack",
+    "affinity": "spirit"
   },
   "stats": {
-    "hp": "14,370",
-    "atk": "1,233",
-    "def": "837",
-    "spd": "99",
-    "crate": "Rate",
-    "cdmg": "15",
-    "resist": "57",
-    "acc": "30"
+    "hp": 14370,
+    "atk": 1233,
+    "def": 837,
+    "spd": 99,
+    "crate": 15,
+    "cdmg": 57,
+    "resist": 30,
+    "acc": 0
   },
+  "aura": "Increases Ally ATK in Dungeons by 21%.",
   "skills": [
     {
       "cd": 0,
       "mincd": 0,
+      "passive": false,
       "dmgscaling": [
         "ATK"
       ],
       "abilityname": "Tear",
+      "damageMultiplier": "3 ATK",
       "description": "Attacks 1 enemy. Has a 15% chance of putting the target’s skills on cooldown.",
       "books": [
         "Level 2: Damage +5%",
@@ -36,10 +40,12 @@
     {
       "cd": 4,
       "mincd": 3,
+      "passive": false,
       "dmgscaling": [
         "ATK"
       ],
       "abilityname": "Hunter’s Mark",
+      "damageMultiplier": "5.1 ATK",
       "description": "Attacks 1 enemy. Has a 50% chance of placing a 25% [Weaken] debuff for 1 turn.",
       "books": [
         "Level 2: Damage +5%",
@@ -53,11 +59,13 @@
     {
       "cd": 6,
       "mincd": 4,
+      "passive": false,
       "dmgscaling": [
         "ATK"
       ],
       "abilityname": "Chilling Howl",
-      "description": "Attacks all enemies. Has a 50% chance of placing a [Freeze] debuff for 1 turn. [Only available when Hound Spawn is on the same team]",
+      "damageMultiplier": "3.5 ATK",
+      "description": "Attacks all enemies. Has a 50% chance of placing a [Freeze] debuff for 1 turn. [Only available when <a href=\"//ayumilove.net/raid-shadow-legends-hound-spawn-skill-mastery-equip-guide/\">Hound Spawn</a> is on the same team]",
       "books": [
         "Level 2: Damage +5%",
         "Level 3: Buff/Debuff Chance +5%",
@@ -66,15 +74,8 @@
         "Level 6: Cooldown -1",
         "Level 7: Cooldown -1"
       ]
-    },
-    {
-      "cd": 0,
-      "mincd": 0,
-      "dmgscaling": [],
-      "abilityname": "Aura",
-      "description": "Increases Ally ATK in Dungeons by 21%.",
-      "books": []
     }
   ],
-  "avatarUrl": "https://goctionni.github.io/raid-data/images/avatar/Hellfang.png"
+  "version": "3.30.0",
+  "avatarUrl": "https://mcradane.github.io/raid-data/images/avatar/Hellfang.png"
 }

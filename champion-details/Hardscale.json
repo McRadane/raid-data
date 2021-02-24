@@ -1,29 +1,32 @@
 {
   "name": "Hardscale",
+  "id": "Hardscale",
   "class": {
     "faction": "Lizardmen",
-    "rarity": "Uncommon",
-    "role": "Defense",
-    "affinity": "Magic"
+    "rarity": "uncommon",
+    "role": "defense",
+    "affinity": "magic"
   },
   "stats": {
-    "hp": "13,050",
-    "atk": "716",
-    "def": "1,167",
-    "spd": "99",
-    "crate": "RATE",
-    "cdmg": "15",
-    "resist": "50",
-    "acc": "30"
+    "hp": 13050,
+    "atk": 716,
+    "def": 1167,
+    "spd": 99,
+    "crate": 15,
+    "cdmg": 50,
+    "resist": 30,
+    "acc": 0
   },
   "skills": [
     {
       "cd": 0,
       "mincd": 0,
+      "passive": false,
       "dmgscaling": [
         "ATK"
       ],
       "abilityname": "Ambush",
+      "damageMultiplier": "4.6 ATK",
       "description": "Attacks 1 enemy. Has a 25% chance of placing a 15% [Decrease SPD] debuff for 2 turns.",
       "books": [
         "Level 2: Damage +5%",
@@ -37,10 +40,12 @@
     {
       "cd": 4,
       "mincd": 3,
+      "passive": false,
       "dmgscaling": [
         "ATK"
       ],
       "abilityname": "Shocking Wound",
+      "damageMultiplier": "7 ATK",
       "description": "Attacks 1 enemy. Places a [Stun] debuff if the target has a [Decrease SPD] debuff. Has a 20% chance of placing a [Stun] debuff for 1 turn if the target has no [Decrease SPD] debuffs.",
       "books": [
         "Level 2: Damage +5%",
@@ -51,5 +56,6 @@
       ]
     }
   ],
-  "avatarUrl": "https://goctionni.github.io/raid-data/images/avatar/Hardscale.png"
+  "version": "3.30.0",
+  "avatarUrl": "https://mcradane.github.io/raid-data/images/avatar/Hardscale.png"
 }

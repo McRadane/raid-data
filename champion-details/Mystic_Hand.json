@@ -1,29 +1,33 @@
 {
   "name": "Mystic Hand",
+  "id": "Mystic_Hand",
   "class": {
     "faction": "Dark Elves",
-    "rarity": "Rare",
-    "role": "Support",
-    "affinity": "Force"
+    "rarity": "rare",
+    "role": "support",
+    "affinity": "force"
   },
   "stats": {
-    "hp": "16,615",
-    "atk": "804",
-    "def": "1,123",
-    "spd": "88",
-    "crate": "Rate",
-    "cdmg": "15",
-    "resist": "50",
-    "acc": "30"
+    "hp": 16615,
+    "atk": 804,
+    "def": 1123,
+    "spd": 88,
+    "crate": 15,
+    "cdmg": 50,
+    "resist": 30,
+    "acc": 10
   },
+  "aura": "Increases Ally HP in Dungeons by 25%.",
   "skills": [
     {
       "cd": 0,
       "mincd": 0,
+      "passive": false,
       "dmgscaling": [
         "ATK"
       ],
       "abilityname": "Tainted Blade",
+      "damageMultiplier": "2.9 ATK",
       "description": "Attacks 1 enemy. Has a 30% chance of placing a [Block Buffs] debuff for 2 turns.",
       "books": [
         "Level 2: Damage +5%",
@@ -35,10 +39,12 @@
     {
       "cd": 3,
       "mincd": 3,
+      "passive": false,
       "dmgscaling": [
         "ATK"
       ],
       "abilityname": "Turn the Tide",
+      "damageMultiplier": "3.9 ATK",
       "description": "Attacks 1 enemy. Steals 2 random buffs from the target.",
       "books": [
         "Level 2: Damage +5%",
@@ -50,6 +56,7 @@
     {
       "cd": 5,
       "mincd": 4,
+      "passive": false,
       "dmgscaling": [],
       "abilityname": "Soul Link",
       "description": "Heals the Ally with the lowest HP by 25%, then equalizes the HP levels of all allies.",
@@ -59,15 +66,8 @@
         "Level 4: Heal +10%",
         "Level 5: Cooldown -1"
       ]
-    },
-    {
-      "cd": 0,
-      "mincd": 0,
-      "dmgscaling": [],
-      "abilityname": "Aura",
-      "description": "Increases Ally HP in Dungeons by 25%.",
-      "books": []
     }
   ],
-  "avatarUrl": "https://goctionni.github.io/raid-data/images/avatar/Mystic_Hand.png"
+  "version": "3.30.0",
+  "avatarUrl": "https://mcradane.github.io/raid-data/images/avatar/Mystic_Hand.png"
 }

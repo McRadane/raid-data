@@ -1,29 +1,32 @@
 {
   "name": "Archer",
+  "id": "Archer",
   "class": {
     "faction": "Banner Lords",
-    "rarity": "Uncommon",
-    "role": "Attack",
-    "affinity": "Magic"
+    "rarity": "uncommon",
+    "role": "attack",
+    "affinity": "magic"
   },
   "stats": {
-    "hp": "13,050",
-    "atk": "1,156",
-    "def": "727",
-    "spd": "97",
-    "crate": "RATE",
-    "cdmg": "15",
-    "resist": "50",
-    "acc": "30"
+    "hp": 13050,
+    "atk": 1156,
+    "def": 727,
+    "spd": 97,
+    "crate": 15,
+    "cdmg": 50,
+    "resist": 30,
+    "acc": 0
   },
   "skills": [
     {
       "cd": 0,
       "mincd": 0,
+      "passive": false,
       "dmgscaling": [
         "ATK"
       ],
       "abilityname": "Double Shot",
+      "damageMultiplier": "2.2 ATK",
       "description": "Attacks 1 enemy 2 times. Has an extra 15% chance of inflicting a critical hit. Fills this Champion’s Turn Meter by 15% if this attack is critical.",
       "books": [
         "Level: 2 Damage +5%",
@@ -35,10 +38,12 @@
     {
       "cd": 4,
       "mincd": 3,
+      "passive": false,
       "dmgscaling": [
         "ATK"
       ],
       "abilityname": "Rain of Arrows",
+      "damageMultiplier": "1.9 ATK",
       "description": "Attacks all enemies 2 times. Has a 10% chance to place a 15% [Decrease SPD] debuff for 1 turn.",
       "books": [
         "Level: 2 Damage +5%",
@@ -51,5 +56,6 @@
       ]
     }
   ],
-  "avatarUrl": "https://goctionni.github.io/raid-data/images/avatar/Archer.png"
+  "version": "3.30.0",
+  "avatarUrl": "https://mcradane.github.io/raid-data/images/avatar/Archer.png"
 }

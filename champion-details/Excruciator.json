@@ -1,29 +1,32 @@
 {
   "name": "Excruciator",
+  "id": "Excruciator",
   "class": {
     "faction": "Demonspawn",
-    "rarity": "Epic",
-    "role": "Attack",
-    "affinity": "Magic"
+    "rarity": "epic",
+    "role": "attack",
+    "affinity": "magic"
   },
   "stats": {
-    "hp": "12,720",
-    "atk": "1,597",
-    "def": "859",
-    "spd": "96",
-    "crate": "Rate",
-    "cdmg": "15",
-    "resist": "60",
-    "acc": "30"
+    "hp": 12720,
+    "atk": 1597,
+    "def": 859,
+    "spd": 96,
+    "crate": 15,
+    "cdmg": 60,
+    "resist": 30,
+    "acc": 0
   },
   "skills": [
     {
       "cd": 0,
       "mincd": 0,
+      "passive": false,
       "dmgscaling": [
         "ATK"
       ],
       "abilityname": "Flicker Strike",
+      "damageMultiplier": "3.5 ATK",
       "description": "Attacks 1 enemy. Damage increases by 20% while attacking under a [Veil] buff. Heals this Champion by 25% of the damage inflicted while attacking without a [Veil] buff.",
       "books": [
         "Level 2: Damage +5%",
@@ -35,10 +38,12 @@
     {
       "cd": 4,
       "mincd": 3,
+      "passive": false,
       "dmgscaling": [
         "ATK"
       ],
       "abilityname": "Neck Snapper",
+      "damageMultiplier": "5.2 ATK",
       "description": "Attacks 1 enemy. Damage increases by 35% while attacking under a [Veil] buff. While attacking under a [Veil] buff, enemies killed by this skill cannot be revived. While attacking without a [Veil] buff, fully depletes the target’s Turn Meter and fills this Champion’s Turn Meter equal to the amount the target loses. Can only decrease the Turn Meter by up to 50% against Bosses. This Turn Meter decrease cannot be resisted.",
       "books": [
         "Level 2: Damage +5%",
@@ -51,13 +56,13 @@
     {
       "cd": 0,
       "mincd": 0,
-      "dmgscaling": [
-        "Passive"
-      ],
+      "passive": true,
+      "dmgscaling": [],
       "abilityname": "Invisible Predator",
       "description": "Places a [Veil] buff on this Champion for 1 turn at the beginning of each Round. Places a [Veil] buff on this Champion for 1 turn each time they kill an enemy.",
       "books": []
     }
   ],
-  "avatarUrl": "https://goctionni.github.io/raid-data/images/avatar/Excruciator.png"
+  "version": "3.30.0",
+  "avatarUrl": "https://mcradane.github.io/raid-data/images/avatar/Excruciator.png"
 }

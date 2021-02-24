@@ -1,29 +1,32 @@
 {
   "name": "Militia",
+  "id": "Militia",
   "class": {
     "faction": "The Sacred Order",
-    "rarity": "Uncommon",
-    "role": "Attack",
-    "affinity": "Spirit"
+    "rarity": "uncommon",
+    "role": "attack",
+    "affinity": "spirit"
   },
   "stats": {
-    "hp": "13,215",
-    "atk": "1,178",
-    "def": "694",
-    "spd": "102",
-    "crate": "RATE",
-    "cdmg": "15",
-    "resist": "50",
-    "acc": "30"
+    "hp": 13215,
+    "atk": 1178,
+    "def": 694,
+    "spd": 102,
+    "crate": 15,
+    "cdmg": 50,
+    "resist": 30,
+    "acc": 0
   },
   "skills": [
     {
       "cd": 0,
       "mincd": 0,
+      "passive": false,
       "dmgscaling": [
         "ATK"
       ],
       "abilityname": "Headshot",
+      "damageMultiplier": "3.8 ATK",
       "description": "Attacks 1 enemy. If the target has less than 30% HP, this attack is always critical.",
       "books": [
         "Level 2: Damage +5%",
@@ -35,10 +38,12 @@
     {
       "cd": 4,
       "mincd": 3,
+      "passive": false,
       "dmgscaling": [
         "ATK"
       ],
       "abilityname": "Piercing Bolt",
+      "damageMultiplier": "6 ATK",
       "description": "Attacks 1 enemy. Has a 50% chance of placing a 60% [Decrease DEF] debuff for 2 turns.",
       "books": [
         "Level 2: Damage +5%",
@@ -48,5 +53,6 @@
       ]
     }
   ],
-  "avatarUrl": "https://goctionni.github.io/raid-data/images/avatar/Militia.png"
+  "version": "3.30.0",
+  "avatarUrl": "https://mcradane.github.io/raid-data/images/avatar/Militia.png"
 }

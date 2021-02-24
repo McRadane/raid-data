@@ -1,29 +1,33 @@
 {
   "name": "Sandlashed Survivor",
+  "id": "Sandlashed_Survivor",
   "class": {
     "faction": "Orcs",
-    "rarity": "Epic",
-    "role": "Defense",
-    "affinity": "Spirit"
+    "rarity": "epic",
+    "role": "defense",
+    "affinity": "spirit"
   },
   "stats": {
-    "hp": "15,030",
-    "atk": "936",
-    "def": "1,365",
-    "spd": "94",
-    "crate": "RATE",
-    "cdmg": "15",
-    "resist": "50",
-    "acc": "45"
+    "hp": 15030,
+    "atk": 936,
+    "def": 1365,
+    "spd": 94,
+    "crate": 15,
+    "cdmg": 50,
+    "resist": 45,
+    "acc": 0
   },
+  "aura": "Increases Ally DEF in all Battles by 25%.",
   "skills": [
     {
       "cd": 0,
       "mincd": 0,
+      "passive": false,
       "dmgscaling": [
         "DEF"
       ],
       "abilityname": "Smell Weakness",
+      "damageMultiplier": "1.6 DEF",
       "description": "Attacks 1 enemy 2 times. Has a 30% chance of placing a [Provoke] debuff on the target for 1 turn if this Champion has no debuffs. Heals by 15% of the damage inflicted if this Champion is under any debuff.",
       "books": [
         "Level 2: Damage +5%",
@@ -36,10 +40,12 @@
     {
       "cd": 4,
       "mincd": 3,
+      "passive": false,
       "dmgscaling": [
         "DEF"
       ],
       "abilityname": "Endless Sands",
+      "damageMultiplier": "3.3 DEF",
       "description": "Attacks all enemies. Decreases the duration of all enemy buffs by 1 turn. Increases the duration of all ally buffs by 1 turn.",
       "books": [
         "Level 2: Damage +5%",
@@ -51,23 +57,15 @@
     {
       "cd": 5,
       "mincd": 4,
-      "dmgscaling": [
-        "Passive"
-      ],
+      "passive": true,
+      "dmgscaling": [],
       "abilityname": "Born Survivor",
       "description": "Places a 50% [Ally Protection] buff on all allies for 2 turns when any ally’s HP drops below 50%. Also places a [Block Damage] buff on this Champion for 1 turn.",
       "books": [
         "Level 2: Cooldown -1"
       ]
-    },
-    {
-      "cd": 0,
-      "mincd": 0,
-      "dmgscaling": [],
-      "abilityname": "Aura",
-      "description": "Increases Ally DEF in all Battles by 25%.",
-      "books": []
     }
   ],
-  "avatarUrl": "https://goctionni.github.io/raid-data/images/avatar/Sandlashed_Survivor.png"
+  "version": "3.30.0",
+  "avatarUrl": "https://mcradane.github.io/raid-data/images/avatar/Sandlashed_Survivor.png"
 }

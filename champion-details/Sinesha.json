@@ -1,29 +1,33 @@
 {
   "name": "Sinesha",
+  "id": "Sinesha",
   "class": {
     "faction": "Knight Revenant",
-    "rarity": "Epic",
-    "role": "Support",
-    "affinity": "Force"
+    "rarity": "epic",
+    "role": "support",
+    "affinity": "force"
   },
   "stats": {
-    "hp": "17,340",
-    "atk": "892",
-    "def": "1,255",
-    "spd": "101",
-    "crate": "RATE",
-    "cdmg": "15",
-    "resist": "50",
-    "acc": "30"
+    "hp": 17340,
+    "atk": 892,
+    "def": 1255,
+    "spd": 101,
+    "crate": 15,
+    "cdmg": 50,
+    "resist": 30,
+    "acc": 0
   },
+  "aura": "Increases Ally HP in Faction Crypts by 31%.",
   "skills": [
     {
       "cd": 0,
       "mincd": 0,
+      "passive": false,
       "dmgscaling": [
         "ATK"
       ],
       "abilityname": "Burning Wave",
+      "damageMultiplier": "3 ATK",
       "description": "Attacks all enemies. Places an extra hit on enemies with less than 50% HP.",
       "books": [
         "Level 2: Damage +5%",
@@ -35,10 +39,12 @@
     {
       "cd": 4,
       "mincd": 3,
+      "passive": false,
       "dmgscaling": [
         "ATK"
       ],
       "abilityname": "Vaporize",
+      "damageMultiplier": "6.9 ATK",
       "description": "Attacks 1 enemy. Puts the target’s skills on cooldown. Heals the ally with the lowest HP by 25%.",
       "books": [
         "Level 2: Damage +5%",
@@ -50,6 +56,7 @@
     {
       "cd": 6,
       "mincd": 5,
+      "passive": false,
       "dmgscaling": [],
       "abilityname": "Immortality",
       "description": "Equalizes the HP of all allies. The HP levels of all allies will be brought up to the level of the ally with the highest HP. Then heals the target ally by 10% of their MAX HP.",
@@ -60,15 +67,8 @@
         "Level 5: Heal +15%",
         "Level 6: Cooldown -1"
       ]
-    },
-    {
-      "cd": 0,
-      "mincd": 0,
-      "dmgscaling": [],
-      "abilityname": "Aura",
-      "description": "Increases Ally HP in Faction Crypts by 31%.",
-      "books": []
     }
   ],
-  "avatarUrl": "https://goctionni.github.io/raid-data/images/avatar/Sinesha.png"
+  "version": "3.30.0",
+  "avatarUrl": "https://mcradane.github.io/raid-data/images/avatar/Sinesha.png"
 }

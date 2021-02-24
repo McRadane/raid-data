@@ -1,29 +1,33 @@
 {
   "name": "Frostbringer",
+  "id": "Frostbringer",
   "class": {
     "faction": "The Sacred Order",
-    "rarity": "Epic",
-    "role": "Support",
-    "affinity": "Magic"
+    "rarity": "epic",
+    "role": "support",
+    "affinity": "magic"
   },
   "stats": {
-    "hp": "20,310",
-    "atk": "870",
-    "def": "1,079",
-    "spd": "110",
-    "crate": "Rate",
-    "cdmg": "15",
-    "resist": "50",
-    "acc": "30"
+    "hp": 20310,
+    "atk": 870,
+    "def": 1079,
+    "spd": 110,
+    "crate": 15,
+    "cdmg": 50,
+    "resist": 30,
+    "acc": 0
   },
+  "aura": "Increases Ally DEF in Dungeons by 33%.",
   "skills": [
     {
       "cd": 0,
       "mincd": 0,
+      "passive": false,
       "dmgscaling": [
         "ATK"
       ],
       "abilityname": "Cones of Cold",
+      "damageMultiplier": "2 ATK",
       "description": "Attacks 2 times at random. Has a 15% chance of placing a 100% [Heal Reduction] debuff for 2 turns.",
       "books": [
         "Level 2: Damage +5%",
@@ -36,10 +40,12 @@
     {
       "cd": 4,
       "mincd": 3,
+      "passive": false,
       "dmgscaling": [
         "ATK"
       ],
       "abilityname": "Snow Flurry",
+      "damageMultiplier": "2.2 ATK",
       "description": "Attacks 3 times at random. Places a 60% [Decrease DEF] debuff for 2 turns if the target has a [Heal Reduction] debuff.",
       "books": [
         "Level 2: Damage +5%",
@@ -52,21 +58,15 @@
     {
       "cd": 5,
       "mincd": 4,
+      "passive": false,
       "dmgscaling": [],
       "abilityname": "Arctic Winds",
       "description": "Places a 30% [Increase SPD] and a 50% [Increase ATK] buff on all allies for 2 turns.",
       "books": [
         "Level 2: Cooldown -1"
       ]
-    },
-    {
-      "cd": 0,
-      "mincd": 0,
-      "dmgscaling": [],
-      "abilityname": "Aura",
-      "description": "Increases Ally DEF in Dungeons by 33%.",
-      "books": []
     }
   ],
-  "avatarUrl": "https://goctionni.github.io/raid-data/images/avatar/Frostbringer.png"
+  "version": "3.30.0",
+  "avatarUrl": "https://mcradane.github.io/raid-data/images/avatar/Frostbringer.png"
 }

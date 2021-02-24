@@ -1,29 +1,32 @@
 {
   "name": "Bloodgorged",
+  "id": "Bloodgorged",
   "class": {
     "faction": "Undead Hordes",
-    "rarity": "Legendary",
-    "role": "Attack",
-    "affinity": "Force"
+    "rarity": "legendary",
+    "role": "attack",
+    "affinity": "force"
   },
   "stats": {
-    "hp": "18,990",
-    "atk": "1,465",
-    "def": "848",
-    "spd": "90",
-    "crate": "RATE",
-    "cdmg": "15",
-    "resist": "63",
-    "acc": "40"
+    "hp": 18990,
+    "atk": 1465,
+    "def": 848,
+    "spd": 90,
+    "crate": 15,
+    "cdmg": 63,
+    "resist": 40,
+    "acc": 0
   },
   "skills": [
     {
       "cd": 0,
       "mincd": 0,
+      "passive": false,
       "dmgscaling": [
         "ATK"
       ],
       "abilityname": "Break Defense",
+      "damageMultiplier": "2.2 ATK",
       "description": "Attacks 1 enemy 2 times. Has a 55% chance of placing a 60% [Decrease DEF] debuff for 2 turns.",
       "books": [
         "Level 2: Damage +10%",
@@ -34,10 +37,12 @@
     {
       "cd": 4,
       "mincd": 3,
+      "passive": false,
       "dmgscaling": [
         "ATK"
       ],
       "abilityname": "Raging Beast",
+      "damageMultiplier": "4 ATK",
       "description": "Attacks all enemies. Puts one of each target’s Skills on cooldown.",
       "books": [
         "Level 2: Damage +5%",
@@ -49,10 +54,12 @@
     {
       "cd": 6,
       "mincd": 4,
+      "passive": false,
       "dmgscaling": [
         "ATK"
       ],
       "abilityname": "Decapitate",
+      "damageMultiplier": "3.6 ATK",
       "description": "Attacks 1 enemy. Will ignore DEF. Enemies killed by this skill cannot be revived.",
       "books": [
         "Level 2: Damage +5%",
@@ -62,5 +69,6 @@
       ]
     }
   ],
-  "avatarUrl": "https://goctionni.github.io/raid-data/images/avatar/Bloodgorged.png"
+  "version": "3.30.0",
+  "avatarUrl": "https://mcradane.github.io/raid-data/images/avatar/Bloodgorged.png"
 }

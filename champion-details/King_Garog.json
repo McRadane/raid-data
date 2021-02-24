@@ -1,0 +1,84 @@
+{
+  "name": "King Garog",
+  "id": "King_Garog",
+  "class": {
+    "faction": "Orcs",
+    "rarity": "legendary",
+    "role": "attack",
+    "affinity": "force"
+  },
+  "stats": {
+    "hp": 16020,
+    "atk": 1564,
+    "def": 947,
+    "spd": 105,
+    "crate": 15,
+    "cdmg": 63,
+    "resist": 40,
+    "acc": 0
+  },
+  "skills": [
+    {
+      "cd": 0,
+      "mincd": 0,
+      "passive": false,
+      "dmgscaling": [
+        "ATK"
+      ],
+      "abilityname": "Gigantic Cleavers",
+      "damageMultiplier": "1.6 ATK",
+      "description": "Attacks 1 enemy 2 times. Has a 35% chance of placing a [Stun] debuff for 1 turn. The chance increases to 50% if the target’s Turn Meter is equal to or below 50%.",
+      "books": [
+        "Level 2: Damage +5%",
+        "Level 3: Damage +5%",
+        "Level 4: Damage +5%",
+        "Level 5: Damage +5%"
+      ]
+    },
+    {
+      "cd": 4,
+      "mincd": 3,
+      "passive": false,
+      "dmgscaling": [
+        "ATK"
+      ],
+      "abilityname": "Hack to Bits",
+      "damageMultiplier": "1.4 ATK",
+      "description": "Attacks 1 enemy 4 times. Each critical hit has a 50% chance of decreasing the cooldown of Gore Maker by 1 tum.",
+      "books": [
+        "Level 2: Damage +5%",
+        "Level 3: Damage +5%",
+        "Level 4: Damage +5%",
+        "Level 5: Damage +5%",
+        "Level 6: Cooldown -1"
+      ]
+    },
+    {
+      "cd": 4,
+      "mincd": 3,
+      "passive": false,
+      "dmgscaling": [],
+      "abilityname": "Gore Maker",
+      "damageMultiplier": "3.15 ATK",
+      "description": "Attacks all enemies. Will ignore 20% of each target’s DEF. Will ignore a further 5% of DEF for each buff on the target.",
+      "books": [
+        "Level 2: Damage +5%",
+        "Level 3: Damage +5%",
+        "Level 4: Damage +5%",
+        "Level 5: Damage +5%",
+        "Level 6: Cooldown -1"
+      ]
+    },
+    {
+      "cd": 0,
+      "mincd": 0,
+      "passive": true,
+      "dmgscaling": [],
+      "abilityname": "War Machine",
+      "description": "Increases this Champion’s SPD by 6 and C.DMG by 7% for each enemy this Champion kills in a Round. Stacks up to +30 SPD and +35% C.DMG. Stacks will reset if this Champion is killed. Whenever an enemy Champion is revived, fills this Champion’s Turn Meter by 30% for each revived enemy, then places a 50% [Increase ATK] buff and a 30% [Increase C.DMG] buff on this Champion for 1 turn.",
+      "books": []
+    }
+  ],
+  "version": "3.30.0",
+  "avatarUrl": "https://mcradane.github.io/raid-data/images/avatar/King_Garog.png"
+}

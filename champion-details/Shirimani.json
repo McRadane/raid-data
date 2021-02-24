@@ -1,29 +1,33 @@
 {
   "name": "Shirimani",
+  "id": "Shirimani",
   "class": {
     "faction": "High Elves",
-    "rarity": "Legendary",
-    "role": "Support",
-    "affinity": "Force"
+    "rarity": "legendary",
+    "role": "support",
+    "affinity": "force"
   },
   "stats": {
-    "hp": "19,980",
-    "atk": "1,167",
-    "def": "1,079",
-    "spd": "104",
-    "crate": "Rate",
-    "cdmg": "15",
-    "resist": "50",
-    "acc": "40"
+    "hp": 19980,
+    "atk": 1167,
+    "def": 1079,
+    "spd": 104,
+    "crate": 15,
+    "cdmg": 50,
+    "resist": 40,
+    "acc": 0
   },
+  "aura": "Increases Ally DEF in Faction Crypts by 33%.",
   "skills": [
     {
       "cd": 0,
       "mincd": 0,
+      "passive": false,
       "dmgscaling": [
         "ATK"
       ],
       "abilityname": "Bolts of Cold",
+      "damageMultiplier": "1.4 ATK",
       "description": "Attacks 3 times at random. Has a 15% chance of placing a [Freeze] debuff for 1 turn.",
       "books": [
         "Level 2: Damage +5%",
@@ -34,6 +38,7 @@
     {
       "cd": 5,
       "mincd": 4,
+      "passive": false,
       "dmgscaling": [],
       "abilityname": "Rejuvenating Wave",
       "description": "Heals 1 ally by 50% and other allies by 20% of their MAX HP. Places a 15% [Continuous Heal] buff for 2 turns on targets with full HP.",
@@ -44,10 +49,12 @@
     {
       "cd": 6,
       "mincd": 5,
+      "passive": false,
       "dmgscaling": [
         "ATK"
       ],
       "abilityname": "Ice Storm",
+      "damageMultiplier": "4.1 ATK",
       "description": "Attacks all enemies. Has an 80% chance of placing a [Freeze] debuff for 1 turn. Fills this Champion’s Turn Meter by 10% for each attacked enemy.",
       "books": [
         "Level 2: Buff/Debuff Chance +5%",
@@ -57,15 +64,8 @@
         "Level 6: Buff/Debuff Chance +10%",
         "Level 7: Cooldown -1"
       ]
-    },
-    {
-      "cd": 0,
-      "mincd": 0,
-      "dmgscaling": [],
-      "abilityname": "Aura",
-      "description": "Increases Ally DEF in Faction Crypts by 33%.",
-      "books": []
     }
   ],
-  "avatarUrl": "https://goctionni.github.io/raid-data/images/avatar/Shirimani.png"
+  "version": "3.30.0",
+  "avatarUrl": "https://mcradane.github.io/raid-data/images/avatar/Shirimani.png"
 }

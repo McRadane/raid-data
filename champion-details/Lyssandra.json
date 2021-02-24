@@ -1,29 +1,33 @@
 {
   "name": "Lyssandra",
+  "id": "Lyssandra",
   "class": {
     "faction": "High Elves",
-    "rarity": "Legendary",
-    "role": "Support",
-    "affinity": "Spirit"
+    "rarity": "legendary",
+    "role": "support",
+    "affinity": "spirit"
   },
   "stats": {
-    "hp": "21,480",
-    "atk": "969",
-    "def": "1,178",
-    "spd": "110",
-    "crate": "RATE",
-    "cdmg": "15",
-    "resist": "50",
-    "acc": "30"
+    "hp": 21480,
+    "atk": 969,
+    "def": 1178,
+    "spd": 110,
+    "crate": 15,
+    "cdmg": 50,
+    "resist": 30,
+    "acc": 10
   },
+  "aura": "Increases Ally SPD in all Battles by 24%.",
   "skills": [
     {
       "cd": 0,
       "mincd": 0,
+      "passive": false,
       "dmgscaling": [
         "ATK"
       ],
       "abilityname": "Transference",
+      "damageMultiplier": "4 ATK",
       "description": "Attacks 1 enemy. Transfers all debuffs from this Champion to the target.",
       "books": [
         "Level 2: Damage +5%",
@@ -35,10 +39,12 @@
     {
       "cd": 4,
       "mincd": 3,
+      "passive": false,
       "dmgscaling": [
         "ATK"
       ],
       "abilityname": "Exhaustion",
+      "damageMultiplier": "6 ATK",
       "description": "Attacks 1 enemy. Fully depletes the target’s Turn Meter.",
       "books": [
         "Level 2: Damage +5%",
@@ -50,6 +56,7 @@
     {
       "cd": 6,
       "mincd": 4,
+      "passive": false,
       "dmgscaling": [],
       "abilityname": "Energize",
       "description": "Places a 30% [Increase SPD] buff on all allies for 2 turns. Fills the Turn Meter of all allies by 30%. Decreases the Turn Meter of all enemies by 30%.",
@@ -57,15 +64,8 @@
         "Level 2: Cooldown -1",
         "Level 3: Cooldown -1"
       ]
-    },
-    {
-      "cd": 0,
-      "mincd": 0,
-      "dmgscaling": [],
-      "abilityname": "Aura",
-      "description": "Increases Ally SPD in all Battles by 24%.",
-      "books": []
     }
   ],
-  "avatarUrl": "https://goctionni.github.io/raid-data/images/avatar/Lyssandra.png"
+  "version": "3.30.0",
+  "avatarUrl": "https://mcradane.github.io/raid-data/images/avatar/Lyssandra.png"
 }

@@ -1,29 +1,32 @@
 {
   "name": "Pilgrim",
+  "id": "Pilgrim",
   "class": {
     "faction": "The Sacred Order",
-    "rarity": "Uncommon",
-    "role": "Support",
-    "affinity": "Force"
+    "rarity": "uncommon",
+    "role": "support",
+    "affinity": "force"
   },
   "stats": {
-    "hp": "14,865",
-    "atk": "793",
-    "def": "969",
-    "spd": "98",
-    "crate": "Rate",
-    "cdmg": "15",
-    "resist": "50",
-    "acc": "30"
+    "hp": 14865,
+    "atk": 793,
+    "def": 969,
+    "spd": 98,
+    "crate": 15,
+    "cdmg": 50,
+    "resist": 30,
+    "acc": 0
   },
   "skills": [
     {
       "cd": 0,
       "mincd": 0,
+      "passive": false,
       "dmgscaling": [
         "ATK"
       ],
       "abilityname": "Thunder Strike",
+      "damageMultiplier": "2.1 ATK",
       "description": "Attacks 1 enemy 2 times. Each hit decreases the target’s Turn Meter by 5%.",
       "books": [
         "Level 2: Damage +5%",
@@ -36,6 +39,7 @@
     {
       "cd": 4,
       "mincd": 3,
+      "passive": false,
       "dmgscaling": [],
       "abilityname": "Pilgrim’s Shield",
       "description": "Places a 30% [Increase DEF] buff on all allies for 2 turns.",
@@ -44,5 +48,6 @@
       ]
     }
   ],
-  "avatarUrl": "https://goctionni.github.io/raid-data/images/avatar/Pilgrim.png"
+  "version": "3.30.0",
+  "avatarUrl": "https://mcradane.github.io/raid-data/images/avatar/Pilgrim.png"
 }

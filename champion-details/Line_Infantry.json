@@ -1,25 +1,27 @@
 {
   "name": "Line Infantry",
+  "id": "Line_Infantry",
   "class": {
     "faction": "Dwarves",
-    "rarity": "Uncommon",
-    "role": "Defense",
-    "affinity": "Force"
+    "rarity": "uncommon",
+    "role": "defense",
+    "affinity": "force"
   },
   "stats": {
-    "hp": "13,380",
-    "atk": "738",
-    "def": "1,123",
-    "spd": "87",
-    "crate": "RATE",
-    "cdmg": "15",
-    "resist": "50",
-    "acc": "30"
+    "hp": 13380,
+    "atk": 738,
+    "def": 1123,
+    "spd": 87,
+    "crate": 15,
+    "cdmg": 50,
+    "resist": 30,
+    "acc": 10
   },
   "skills": [
     {
       "cd": 0,
       "mincd": 0,
+      "passive": false,
       "dmgscaling": [
         "DEF",
         "ATK"
@@ -38,6 +40,7 @@
     {
       "cd": 4,
       "mincd": 3,
+      "passive": false,
       "dmgscaling": [
         "DEF"
       ],
@@ -54,5 +57,6 @@
       ]
     }
   ],
-  "avatarUrl": "https://goctionni.github.io/raid-data/images/avatar/Line_Infantry.png"
+  "version": "3.30.0",
+  "avatarUrl": "https://mcradane.github.io/raid-data/images/avatar/Line_Infantry.png"
 }

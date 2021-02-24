@@ -1,0 +1,84 @@
+{
+  "name": "Armina",
+  "id": "Armina",
+  "class": {
+    "faction": "Barbarians",
+    "rarity": "epic",
+    "role": "attack",
+    "affinity": "magic"
+  },
+  "stats": {
+    "hp": 18990,
+    "atk": 1354,
+    "def": 683,
+    "spd": 97,
+    "crate": 15,
+    "cdmg": 60,
+    "resist": 30,
+    "acc": 0
+  },
+  "skills": [
+    {
+      "cd": 0,
+      "mincd": 0,
+      "passive": false,
+      "dmgscaling": [
+        "ATK"
+      ],
+      "abilityname": "Discipline Staff",
+      "damageMultiplier": "3.8 ATK",
+      "description": "Attacks 1 enemy. Has a 35% chance of placing a [Stun] debuff for 1 turn.",
+      "books": [
+        "Level 2: Damage 5%",
+        "Level 3: Damage 5%",
+        "Level 4: Buff/Debuff Chance +5%",
+        "Level 5: Buff/Debuff Chance +5%"
+      ]
+    },
+    {
+      "cd": 4,
+      "mincd": 3,
+      "passive": false,
+      "dmgscaling": [
+        "ATK"
+      ],
+      "abilityname": "Trampling Rampage",
+      "damageMultiplier": "4.05 ATK",
+      "description": "Attacks all enemies. Has a 75% chance of placing a 60% [Decrease DEF] debuff for 2 turns. Steals 7.5% of the Turn Meter from Targets under [Decrease DEF] Debuffs.",
+      "books": [
+        "Level 2: Damage 5%",
+        "Level 3: Damage 10%",
+        "Level 4: Buff/Debuff Chance +5%",
+        "Level 5: Buff/Debuff Chance +10%",
+        "Level 6: Buff/Debuff Chance +10%",
+        "Level 7: Cooldown -1"
+      ]
+    },
+    {
+      "cd": 4,
+      "mincd": 3,
+      "passive": false,
+      "dmgscaling": [],
+      "abilityname": "Earsplitting Bellow",
+      "description": "Decreases the Turn Meters of all enemies by 20%. Has a 75% chance of placing a [Stun] debuff for 1 turn on enemies who have their Turn Meters fully depleted.",
+      "books": [
+        "Level 2: Buff/Debuff Chance +5%",
+        "Level 3: Buff/Debuff Chance +5%",
+        "Level 4: Buff/Debuff Chance +5%",
+        "Level 5: Buff/Debuff Chance +10%",
+        "Level 6: Cooldown -1"
+      ]
+    },
+    {
+      "cd": 0,
+      "mincd": 0,
+      "passive": true,
+      "dmgscaling": [],
+      "abilityname": "Head of Steam",
+      "description": "Fills this Champion’s Turn Meter by 10% each time an enemy receives a [Stun] debuff.",
+      "books": []
+    }
+  ],
+  "version": "3.30.0",
+  "avatarUrl": "https://mcradane.github.io/raid-data/images/avatar/Armina.png"
+}

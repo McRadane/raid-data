@@ -1,29 +1,33 @@
 {
   "name": "Doompriest",
+  "id": "Doompriest",
   "class": {
     "faction": "Knight Revenant",
-    "rarity": "Epic",
-    "role": "Support",
-    "affinity": "Force"
+    "rarity": "epic",
+    "role": "support",
+    "affinity": "force"
   },
   "stats": {
-    "hp": "19,320",
-    "atk": "980",
-    "def": "1,035",
-    "spd": "100",
-    "crate": "RATE",
-    "cdmg": "15",
-    "resist": "50",
-    "acc": "30"
+    "hp": 19320,
+    "atk": 980,
+    "def": 1035,
+    "spd": 100,
+    "crate": 15,
+    "cdmg": 50,
+    "resist": 30,
+    "acc": 0
   },
+  "aura": "Increases Force Ally SPD in all Battles by 15%.",
   "skills": [
     {
       "cd": 0,
       "mincd": 0,
+      "passive": false,
       "dmgscaling": [
         "ATK"
       ],
       "abilityname": "Fate Wave",
+      "damageMultiplier": "4.1 ATK",
       "description": "Attacks 1 enemy. If the hit is critical, places a 15% [Increase C.RATE] buff on a random ally for 2 turns.",
       "books": [
         "Level 2: Damage +5%",
@@ -35,6 +39,7 @@
     {
       "cd": 4,
       "mincd": 3,
+      "passive": false,
       "dmgscaling": [],
       "abilityname": "Mass Possession",
       "description": "Place a 50% [Increase ATK] buff on all allies for 2 turns.",
@@ -45,21 +50,13 @@
     {
       "cd": 0,
       "mincd": 0,
-      "dmgscaling": [
-        "Passive"
-      ],
+      "passive": true,
+      "dmgscaling": [],
       "abilityname": "Bolster",
       "description": "Heals all allies by 7.5% of their HP and removes 1 random debuff from them at the start of this Champion’s turn.",
       "books": []
-    },
-    {
-      "cd": 0,
-      "mincd": 0,
-      "dmgscaling": [],
-      "abilityname": "Aura",
-      "description": "Increases Force Ally SPD in all Battles by 15%.",
-      "books": []
     }
   ],
-  "avatarUrl": "https://goctionni.github.io/raid-data/images/avatar/Doompriest.png"
+  "version": "3.30.0",
+  "avatarUrl": "https://mcradane.github.io/raid-data/images/avatar/Doompriest.png"
 }

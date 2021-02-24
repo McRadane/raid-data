@@ -1,29 +1,32 @@
 {
   "name": "Defiled Sinner",
+  "id": "Defiled_Sinner",
   "class": {
     "faction": "Undead Hordes",
-    "rarity": "Epic",
-    "role": "Attack",
-    "affinity": "Force"
+    "rarity": "epic",
+    "role": "attack",
+    "affinity": "force"
   },
   "stats": {
-    "hp": "17,670",
-    "atk": "1,222",
-    "def": "903",
-    "spd": "94",
-    "crate": "Rate",
-    "cdmg": "15",
-    "resist": "60",
-    "acc": "30"
+    "hp": 17670,
+    "atk": 1222,
+    "def": 903,
+    "spd": 94,
+    "crate": 15,
+    "cdmg": 60,
+    "resist": 30,
+    "acc": 0
   },
   "skills": [
     {
       "cd": 0,
       "mincd": 0,
+      "passive": false,
       "dmgscaling": [
         "ATK"
       ],
       "abilityname": "Murderer’s Craft",
+      "damageMultiplier": "3.8 ATK",
       "description": "Attacks 1 enemy. Has a 50% chance of placing a 60% [Decrease DEF] debuff for 2 turns before attacking. If 5 or more enemies are alive, does the following attack instead: Attacks all enemies. Places a 25% [Increase ATK] buff on this Champion for 2 turns before attacking.",
       "books": [
         "Level 2: Damage +5%",
@@ -35,11 +38,13 @@
     {
       "cd": 4,
       "mincd": 3,
+      "passive": false,
       "dmgscaling": [
         "ATK",
         "Enemy MAX HP"
       ],
       "abilityname": "Ripe for Slaughter",
+      "damageMultiplier": "6.3 ATK",
       "description": "Attacks 1 enemy. Then attacks all enemies inflicting damage equal to 15% of their MAX HP if the first hit kills an enemy. This second hit cannot be critical.",
       "books": [
         "Level 2: Damage +10%",
@@ -51,10 +56,12 @@
     {
       "cd": 6,
       "mincd": 5,
+      "passive": false,
       "dmgscaling": [
         "ATK"
       ],
       "abilityname": "Corrosive Smog",
+      "damageMultiplier": "2.9 ATK",
       "description": "Attacks all enemies. Damage increases by 10% for each enemy alive. Stacks up to 100%.",
       "books": [
         "Level 2: Damage +5%",
@@ -64,5 +71,6 @@
       ]
     }
   ],
-  "avatarUrl": "https://goctionni.github.io/raid-data/images/avatar/Defiled_Sinner.png"
+  "version": "3.30.0",
+  "avatarUrl": "https://mcradane.github.io/raid-data/images/avatar/Defiled_Sinner.png"
 }

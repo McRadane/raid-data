@@ -1,29 +1,33 @@
 {
   "name": "Crypt Witch",
+  "id": "Crypt_Witch",
   "class": {
     "faction": "Knight Revenant",
-    "rarity": "Epic",
-    "role": "Attack",
-    "affinity": "Magic"
+    "rarity": "epic",
+    "role": "attack",
+    "affinity": "magic"
   },
   "stats": {
-    "hp": "14,865",
-    "atk": "1,421",
-    "def": "892",
-    "spd": "98",
-    "crate": "Rate",
-    "cdmg": "15",
-    "resist": "60",
-    "acc": "30"
+    "hp": 14865,
+    "atk": 1421,
+    "def": 892,
+    "spd": 98,
+    "crate": 15,
+    "cdmg": 60,
+    "resist": 30,
+    "acc": 0
   },
+  "aura": "Increases Ally SPD in Faction Crypts by 20%.",
   "skills": [
     {
       "cd": 0,
       "mincd": 0,
+      "passive": false,
       "dmgscaling": [
         "ATK"
       ],
       "abilityname": "Fetid Steel",
+      "damageMultiplier": "3.4 ATK",
       "description": "Attacks 1 enemy. Deals 30% more damage if the target has any buffs. Will ignore [Shield] and [Block Damage] buffs.",
       "books": [
         "Level 2: Damage +5%",
@@ -35,10 +39,12 @@
     {
       "cd": 4,
       "mincd": 3,
+      "passive": false,
       "dmgscaling": [
         "ATK"
       ],
       "abilityname": "Dismantle",
+      "damageMultiplier": "3 ATK",
       "description": "Attacks 2 times at random. Has a 75% chance of placing a 60% [Decrease DEF] debuff for 2 turns.",
       "books": [
         "Level 2: Damage +5%",
@@ -51,10 +57,12 @@
     {
       "cd": 4,
       "mincd": 4,
+      "passive": false,
       "dmgscaling": [
         "ATK"
       ],
       "abilityname": "Not So Fast",
+      "damageMultiplier": "4.5 ATK",
       "description": "Attacks 1 enemy. Will ignore 50% of the target’s DEF if the target is faster than this Champion.",
       "books": [
         "Level 2: Damage +5%",
@@ -62,15 +70,8 @@
         "Level 4: Damage +5%",
         "Level 5: Damage +10%"
       ]
-    },
-    {
-      "cd": 0,
-      "mincd": 0,
-      "dmgscaling": [],
-      "abilityname": "Aura",
-      "description": "Increases Ally SPD in Faction Crypts by 20%.",
-      "books": []
     }
   ],
-  "avatarUrl": "https://goctionni.github.io/raid-data/images/avatar/Crypt_Witch.png"
+  "version": "3.30.0",
+  "avatarUrl": "https://mcradane.github.io/raid-data/images/avatar/Crypt_Witch.png"
 }

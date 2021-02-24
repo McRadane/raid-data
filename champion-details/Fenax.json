@@ -1,29 +1,32 @@
 {
   "name": "Fenax",
+  "id": "Fenax",
   "class": {
     "faction": "The Sacred Order",
-    "rarity": "Epic",
-    "role": "Attack",
-    "affinity": "Spirit"
+    "rarity": "epic",
+    "role": "attack",
+    "affinity": "spirit"
   },
   "stats": {
-    "hp": "13,875",
-    "atk": "1,454",
-    "def": "925",
-    "spd": "96",
-    "crate": "Rate",
-    "cdmg": "15",
-    "resist": "60",
-    "acc": "30"
+    "hp": 13875,
+    "atk": 1454,
+    "def": 925,
+    "spd": 96,
+    "crate": 15,
+    "cdmg": 60,
+    "resist": 30,
+    "acc": 0
   },
   "skills": [
     {
       "cd": 0,
       "mincd": 0,
+      "passive": false,
       "dmgscaling": [
         "ATK"
       ],
       "abilityname": "Put Down",
+      "damageMultiplier": "4.1 ATK",
       "description": "Attacks 1 enemy. Places an extra hit if the target has any debuffs. Enemies killed by this skill cannot be revived.",
       "books": [
         "Level 2: Damage +5%",
@@ -34,11 +37,13 @@
     {
       "cd": 5,
       "mincd": 4,
+      "passive": false,
       "dmgscaling": [
         "ATK"
       ],
       "abilityname": "Stern Partner",
-      "description": "Attacks all enemies. Has a 75% chance of placing a [Block Buffs] debuff for 2 turns. Places a [Block Cooldown Skills] debuff for 1 turn if this skill does not place a [Block Buffs] debuff. Decreases [Bomb] debuff detonation countdowns by 1 turn when Tallia is on the same team]",
+      "damageMultiplier": "3.5 ATK",
+      "description": "Attacks all enemies. Has a 75% chance of placing a [Block Buffs] debuff for 2 turns. Places a [Block Cooldown Skills] debuff for 1 turn if this skill does not place a [Block Buffs] debuff. Decreases [Bomb] debuff detonation countdowns by 1 turn when <a href=\"//ayumilove.net/raid-shadow-legends-tallia-skill-mastery-equip-guide/\">Tallia</a> is on the same team]",
       "books": [
         "Level 2: Damage +5%",
         "Level 3: Damage +5%",
@@ -50,10 +55,12 @@
     {
       "cd": 6,
       "mincd": 4,
+      "passive": false,
       "dmgscaling": [
         "ATK"
       ],
       "abilityname": "Sow Feebleness",
+      "damageMultiplier": "6.7 ATK",
       "description": "Attacks 1 enemy. Has a 60% chance of placing a 60% [Decrease DEF] debuff and a 30% [Decrease SPD] debuff for 2 turns.",
       "books": [
         "Level 2: Damage +5%",
@@ -64,5 +71,6 @@
       ]
     }
   ],
-  "avatarUrl": "https://goctionni.github.io/raid-data/images/avatar/Fenax.png"
+  "version": "3.30.0",
+  "avatarUrl": "https://mcradane.github.io/raid-data/images/avatar/Fenax.png"
 }

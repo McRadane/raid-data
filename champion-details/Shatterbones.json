@@ -1,29 +1,33 @@
 {
   "name": "Shatterbones",
+  "id": "Shatterbones",
   "class": {
     "faction": "Ogryn Tribes",
-    "rarity": "Epic",
-    "role": "Attack",
-    "affinity": "Force"
+    "rarity": "epic",
+    "role": "attack",
+    "affinity": "force"
   },
   "stats": {
-    "hp": "13,875",
-    "atk": "1,498",
-    "def": "881",
-    "spd": "97",
-    "crate": "RATE",
-    "cdmg": "15",
-    "resist": "60",
-    "acc": "30"
+    "hp": 13875,
+    "atk": 1498,
+    "def": 881,
+    "spd": 97,
+    "crate": 15,
+    "cdmg": 60,
+    "resist": 30,
+    "acc": 0
   },
+  "aura": "Increases Ally ACC in the Arena by 70.",
   "skills": [
     {
       "cd": 0,
       "mincd": 0,
+      "passive": false,
       "dmgscaling": [
         "ATK"
       ],
       "abilityname": "Rend",
+      "damageMultiplier": "3.5 ATK",
       "description": "Attacks 1 enemy. Places a 25% [Increase ATK] buff on all allies for 1 turn if this attack is critical.",
       "books": [
         "Level 2: Damage +5%",
@@ -35,10 +39,12 @@
     {
       "cd": 5,
       "mincd": 4,
+      "passive": false,
       "dmgscaling": [
         "ATK"
       ],
       "abilityname": "Hail",
+      "damageMultiplier": "1.4 ATK",
       "description": "Attacks all enemies 3 times. Has a 50% chance to decrease the Turn Meter by 30%.",
       "books": [
         "Level 2: Damage +5%",
@@ -51,6 +57,7 @@
     {
       "cd": 7,
       "mincd": 5,
+      "passive": false,
       "dmgscaling": [],
       "abilityname": "Warcry",
       "description": "Places a 15% [Decrease SPD] debuff on all enemies for 2 turns. Fills the Turn Meter of all allies by 25%.",
@@ -58,15 +65,8 @@
         "Level 2: Cooldown -1",
         "Level 3: Cooldown -1"
       ]
-    },
-    {
-      "cd": 0,
-      "mincd": 0,
-      "dmgscaling": [],
-      "abilityname": "Aura",
-      "description": "Increases Ally ACC in the Arena by 70.",
-      "books": []
     }
   ],
-  "avatarUrl": "https://goctionni.github.io/raid-data/images/avatar/Shatterbones.png"
+  "version": "3.30.0",
+  "avatarUrl": "https://mcradane.github.io/raid-data/images/avatar/Shatterbones.png"
 }

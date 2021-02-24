@@ -1,29 +1,33 @@
 {
   "name": "Galkut",
+  "id": "Galkut",
   "class": {
     "faction": "Ogryn Tribes",
-    "rarity": "Epic",
-    "role": "Attack",
-    "affinity": "Spirit"
+    "rarity": "epic",
+    "role": "attack",
+    "affinity": "spirit"
   },
   "stats": {
-    "hp": "11,400",
-    "atk": "1,321",
-    "def": "1,222",
-    "spd": "91",
-    "crate": "Rate",
-    "cdmg": "15",
-    "resist": "60",
-    "acc": "30"
+    "hp": 11400,
+    "atk": 1321,
+    "def": 1222,
+    "spd": 91,
+    "crate": 15,
+    "cdmg": 60,
+    "resist": 30,
+    "acc": 0
   },
+  "aura": "Increases Ally C.RATE in Dungeons by 24%.",
   "skills": [
     {
       "cd": 0,
       "mincd": 0,
+      "passive": false,
       "dmgscaling": [
         "ATK"
       ],
       "abilityname": "Mangle Limbs",
+      "damageMultiplier": "1.85 ATK",
       "description": "Attacks 1 enemy 2 times. Has a 25% chance of placing a 60% [Decrease DEF] debuff for 2 turns.",
       "books": [
         "Level 2: Damage +5%",
@@ -35,10 +39,12 @@
     {
       "cd": 4,
       "mincd": 3,
+      "passive": false,
       "dmgscaling": [
         "ATK"
       ],
       "abilityname": "Brutal Battering",
+      "damageMultiplier": "6.7 ATK",
       "description": "Attacks all enemies 1 by 1 in random order. Damage inflicted decreases by 25% after each hit.",
       "books": [
         "Level 2: Damage +5%",
@@ -50,10 +56,12 @@
     {
       "cd": 5,
       "mincd": 4,
+      "passive": false,
       "dmgscaling": [
         "ATK"
       ],
       "abilityname": "Boom Barrage",
+      "damageMultiplier": "4 ATK",
       "description": "Attacks all enemies. Places a [Bomb] that detonates after 2 turns.",
       "books": [
         "Level 2: Damage +5%",
@@ -61,15 +69,8 @@
         "Level 4: Damage +10%",
         "Level 5: Cooldown -1"
       ]
-    },
-    {
-      "cd": 0,
-      "mincd": 0,
-      "dmgscaling": [],
-      "abilityname": "Aura",
-      "description": "Increases Ally C.RATE in Dungeons by 24%.",
-      "books": []
     }
   ],
-  "avatarUrl": "https://goctionni.github.io/raid-data/images/avatar/Galkut.png"
+  "version": "3.30.0",
+  "avatarUrl": "https://mcradane.github.io/raid-data/images/avatar/Galkut.png"
 }

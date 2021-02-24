@@ -1,29 +1,33 @@
 {
   "name": "Hordin",
+  "id": "Hordin",
   "class": {
     "faction": "Banner Lords",
-    "rarity": "Epic",
-    "role": "Attack",
-    "affinity": "Magic"
+    "rarity": "epic",
+    "role": "attack",
+    "affinity": "magic"
   },
   "stats": {
-    "hp": "16,845",
-    "atk": "1,321",
-    "def": "859",
-    "spd": "95",
-    "crate": "RATE",
-    "cdmg": "15",
-    "resist": "60",
-    "acc": "30"
+    "hp": 16845,
+    "atk": 1321,
+    "def": 859,
+    "spd": 95,
+    "crate": 15,
+    "cdmg": 60,
+    "resist": 30,
+    "acc": 0
   },
+  "aura": "Increases Ally SPD in Faction Crypts by 20%.",
   "skills": [
     {
       "cd": 0,
       "mincd": 0,
+      "passive": false,
       "dmgscaling": [
         "ATK"
       ],
       "abilityname": "Relentless Strike",
+      "damageMultiplier": "1.9 ATK",
       "description": "Attacks 1 enemy 2 times. Grants an Extra Turn if the target is killed.",
       "books": [
         "Level: 2 Damage +5%",
@@ -35,10 +39,12 @@
     {
       "cd": 4,
       "mincd": 4,
+      "passive": false,
       "dmgscaling": [
         "ATK"
       ],
       "abilityname": "Bloodletter",
+      "damageMultiplier": "6.5 ATK",
       "description": "Attacks 1 enemy. Has a 60% chance of placing a 50% [Decrease ATK] debuff for 2 turns. Heals this Champion by 10% of the damage inflicted.",
       "books": [
         "Level: 2 Damage +5%",
@@ -50,21 +56,15 @@
     {
       "cd": 6,
       "mincd": 5,
+      "passive": false,
       "dmgscaling": [],
       "abilityname": "Burning Hatred",
       "description": "Places a 50% [Increase ATK] buff, a 30% [Increase C.RATE] buff, and a 30% [Increase SPD] buff on this champion for 2 turns. Grants an Extra Turn.",
       "books": [
         "Level: 2 Cooldown -1"
       ]
-    },
-    {
-      "cd": 0,
-      "mincd": 0,
-      "dmgscaling": [],
-      "abilityname": "Aura",
-      "description": "Increases Ally SPD in Faction Crypts by 20%.",
-      "books": []
     }
   ],
-  "avatarUrl": "https://goctionni.github.io/raid-data/images/avatar/Hordin.png"
+  "version": "3.30.0",
+  "avatarUrl": "https://mcradane.github.io/raid-data/images/avatar/Hordin.png"
 }

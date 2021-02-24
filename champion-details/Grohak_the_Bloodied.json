@@ -1,29 +1,33 @@
 {
   "name": "Grohak the Bloodied",
+  "id": "Grohak_the_Bloodied",
   "class": {
     "faction": "Orcs",
-    "rarity": "Legendary",
-    "role": "Attack",
-    "affinity": "Magic"
+    "rarity": "legendary",
+    "role": "attack",
+    "affinity": "magic"
   },
   "stats": {
-    "hp": "15,690",
-    "atk": "1,487",
-    "def": "1,046",
-    "spd": "96",
-    "crate": "Rate",
-    "cdmg": "15",
-    "resist": "63",
-    "acc": "30"
+    "hp": 15690,
+    "atk": 1487,
+    "def": 1046,
+    "spd": 96,
+    "crate": 15,
+    "cdmg": 63,
+    "resist": 30,
+    "acc": 10
   },
+  "aura": "Increases Ally SPD in Dungeons by 24%",
   "skills": [
     {
       "cd": 0,
       "mincd": 0,
+      "passive": false,
       "dmgscaling": [
         "ATK"
       ],
       "abilityname": "Sap Swiftness",
+      "damageMultiplier": "1.9 ATK",
       "description": "Attacks 2 times at random. Each hit has a 35% chance of placing a 30% [Decrease SPD] debuff for 2 turns.",
       "books": [
         "Level 2: Damage +5%",
@@ -35,10 +39,12 @@
     {
       "cd": 4,
       "mincd": 4,
+      "passive": false,
       "dmgscaling": [
         "ATK"
       ],
       "abilityname": "Unbound Anger",
+      "damageMultiplier": "3.7 ATK",
       "description": "Attacks all enemies. Fills this Champion’s Turn Meter by 20% for each enemy under a [Decrease SPD] debuff.",
       "books": [
         "Level 2: Damage +5%",
@@ -49,10 +55,12 @@
     {
       "cd": 5,
       "mincd": 4,
+      "passive": false,
       "dmgscaling": [
         "ATK"
       ],
       "abilityname": "Lord of War",
+      "damageMultiplier": "5.9 ATK",
       "description": "Attacks 1 enemy and steals the target’s MAX Turn Meter.",
       "books": [
         "Level 2: Damage +5%",
@@ -60,15 +68,8 @@
         "Level 4: Damage +10%",
         "Level 5: Cooldown -1"
       ]
-    },
-    {
-      "cd": 0,
-      "mincd": 0,
-      "dmgscaling": [],
-      "abilityname": "Aura",
-      "description": "Increases Ally SPD in Dungeons by 24%",
-      "books": []
     }
   ],
-  "avatarUrl": "https://goctionni.github.io/raid-data/images/avatar/Grohak_the_Bloodied.png"
+  "version": "3.30.0",
+  "avatarUrl": "https://mcradane.github.io/raid-data/images/avatar/Grohak_the_Bloodied.png"
 }

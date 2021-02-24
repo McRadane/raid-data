@@ -1,29 +1,32 @@
 {
   "name": "Pikeman",
+  "id": "Pikeman",
   "class": {
     "faction": "Banner Lords",
-    "rarity": "Common",
-    "role": "Defense",
-    "affinity": "Magic"
+    "rarity": "common",
+    "role": "defense",
+    "affinity": "magic"
   },
   "stats": {
-    "hp": "11,235",
-    "atk": "595",
-    "def": "859",
-    "spd": "96",
-    "crate": "RATE",
-    "cdmg": "15",
-    "resist": "50",
-    "acc": "30"
+    "hp": 11235,
+    "atk": 595,
+    "def": 859,
+    "spd": 96,
+    "crate": 15,
+    "cdmg": 50,
+    "resist": 30,
+    "acc": 0
   },
   "skills": [
     {
       "cd": 0,
       "mincd": 0,
+      "passive": false,
       "dmgscaling": [
         "ATK"
       ],
       "abilityname": "Run Through",
+      "damageMultiplier": "3.4 ATK",
       "description": "Attacks 1 enemy. Has a 15% chance of placing a [Freeze] debuff for 1 turn.",
       "books": [
         "Level: 2 Damage +5%",
@@ -36,5 +39,6 @@
       ]
     }
   ],
-  "avatarUrl": "https://goctionni.github.io/raid-data/images/avatar/Pikeman.png"
+  "version": "3.30.0",
+  "avatarUrl": "https://mcradane.github.io/raid-data/images/avatar/Pikeman.png"
 }

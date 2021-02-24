@@ -1,29 +1,32 @@
 {
   "name": "Judicator",
+  "id": "Judicator",
   "class": {
     "faction": "The Sacred Order",
-    "rarity": "Rare",
-    "role": "Attack",
-    "affinity": "Spirit"
+    "rarity": "rare",
+    "role": "attack",
+    "affinity": "spirit"
   },
   "stats": {
-    "hp": "11,895",
-    "atk": "1,398",
-    "def": "837",
-    "spd": "104",
-    "crate": "RATE",
-    "cdmg": "15",
-    "resist": "57",
-    "acc": "30"
+    "hp": 11895,
+    "atk": 1398,
+    "def": 837,
+    "spd": 104,
+    "crate": 15,
+    "cdmg": 57,
+    "resist": 30,
+    "acc": 0
   },
   "skills": [
     {
       "cd": 0,
       "mincd": 0,
+      "passive": false,
       "dmgscaling": [
         "ATK"
       ],
       "abilityname": "Bright Fury",
+      "damageMultiplier": "3.2 ATK",
       "description": "Attacks 1 enemy. Has a 20% chance of decrease the target’s Turn Meter by 15%.",
       "books": [
         "Level 2: Damage +5%",
@@ -35,10 +38,12 @@
     {
       "cd": 4,
       "mincd": 3,
+      "passive": false,
       "dmgscaling": [
         "ATK"
       ],
       "abilityname": "Undermine",
+      "damageMultiplier": "5.3 ATK",
       "description": "Attacks 1 enemy. Has a 50% chance of placing a 30% [Decrease DEF] debuff for 2 turns.",
       "books": [
         "Level 2: Damage +5%",
@@ -52,10 +57,12 @@
     {
       "cd": 5,
       "mincd": 4,
+      "passive": false,
       "dmgscaling": [
         "ATK"
       ],
       "abilityname": "Execution",
+      "damageMultiplier": "5.35 ATK",
       "description": "Attacks 1 enemy. This attack deals 30% extra C.DMG.",
       "books": [
         "Level 2: Damage +5%",
@@ -65,5 +72,6 @@
       ]
     }
   ],
-  "avatarUrl": "https://goctionni.github.io/raid-data/images/avatar/Judicator.png"
+  "version": "3.30.0",
+  "avatarUrl": "https://mcradane.github.io/raid-data/images/avatar/Judicator.png"
 }

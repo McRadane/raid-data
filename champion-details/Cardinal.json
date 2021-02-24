@@ -1,29 +1,32 @@
 {
   "name": "Cardinal",
+  "id": "Cardinal",
   "class": {
     "faction": "The Sacred Order",
-    "rarity": "Epic",
-    "role": "Support",
-    "affinity": "Void"
+    "rarity": "epic",
+    "role": "support",
+    "affinity": "void"
   },
   "stats": {
-    "hp": "17,340",
-    "atk": "1,002",
-    "def": "1,145",
-    "spd": "104",
-    "crate": "RATE",
-    "cdmg": "15",
-    "resist": "50",
-    "acc": "30"
+    "hp": 17340,
+    "atk": 1002,
+    "def": 1145,
+    "spd": 104,
+    "crate": 15,
+    "cdmg": 50,
+    "resist": 30,
+    "acc": 0
   },
   "skills": [
     {
       "cd": 0,
       "mincd": 0,
+      "passive": false,
       "dmgscaling": [
         "ATK"
       ],
       "abilityname": "Evaporation",
+      "damageMultiplier": "4 ATK",
       "description": "Attacks 1 enemy. Has a 10% chance of placing a 5% [Poison] debuff for 2 turns.",
       "books": [
         "Level 2: Damage +5%",
@@ -35,6 +38,7 @@
     {
       "cd": 4,
       "mincd": 3,
+      "passive": false,
       "dmgscaling": [],
       "abilityname": "Mending Touch",
       "description": "Heals a target ally by 30% of their MAX HP. Places a 60% [Increase DEF] buff for 2 turns.",
@@ -47,6 +51,7 @@
     {
       "cd": 7,
       "mincd": 5,
+      "passive": false,
       "dmgscaling": [],
       "abilityname": "Redemption",
       "description": "Revives all dead allies, heals them by 25% of their MAX HP, and boosts their Turn Meter to max.",
@@ -56,5 +61,6 @@
       ]
     }
   ],
-  "avatarUrl": "https://goctionni.github.io/raid-data/images/avatar/Cardinal.png"
+  "version": "3.30.0",
+  "avatarUrl": "https://mcradane.github.io/raid-data/images/avatar/Cardinal.png"
 }

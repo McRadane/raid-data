@@ -1,0 +1,67 @@
+{
+  "name": "Old Hermit Jorrg",
+  "id": "Old_Hermit_Jorrg",
+  "class": {
+    "faction": "Orcs",
+    "rarity": "epic",
+    "role": "support",
+    "affinity": "magic"
+  },
+  "stats": {
+    "hp": 16350,
+    "atk": 1134,
+    "def": 1079,
+    "spd": 104,
+    "crate": 15,
+    "cdmg": 50,
+    "resist": 30,
+    "acc": 0
+  },
+  "skills": [
+    {
+      "cd": 0,
+      "mincd": 0,
+      "passive": false,
+      "dmgscaling": [
+        "ATK"
+      ],
+      "abilityname": "Putrid Brazier",
+      "damageMultiplier": "4 ATK",
+      "description": "Attacks 1 enemy. Has a 30% chance of placing a [HP Burn] for 2 turns.",
+      "books": [
+        "Level 2: Damage +5%",
+        "Level 3: Damage +5%",
+        "Level 4: Buff/Debuff Chance +5%",
+        "Level 5: Buff/Debuff Chance +5%"
+      ]
+    },
+    {
+      "cd": 5,
+      "mincd": 3,
+      "passive": false,
+      "dmgscaling": [
+        "ATK"
+      ],
+      "abilityname": "Heroes of Old",
+      "description": "Places a 50% [Increase ATK] buff on all allies for 2 turns and fills the Turn Meters of all allies by 20%.",
+      "books": [
+        "Level 2: Cooldown -1",
+        "Level 3: Cooldown -1"
+      ]
+    },
+    {
+      "cd": 7,
+      "mincd": 5,
+      "passive": false,
+      "dmgscaling": [],
+      "abilityname": "Ghostwalk",
+      "description": "Revives 2 random allies with 60% HP, then fills their Turn Meters by 40% and places a [Perfect Veil] buff on them for 2 turns.",
+      "books": [
+        "Level 2: Cooldown -1",
+        "Level 3: Cooldown -1"
+      ]
+    }
+  ],
+  "version": "3.30.0",
+  "avatarUrl": "https://mcradane.github.io/raid-data/images/avatar/Old_Hermit_Jorrg.png"
+}

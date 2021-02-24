@@ -1,29 +1,32 @@
 {
   "name": "Spiritwalker",
+  "id": "Spiritwalker",
   "class": {
     "faction": "Barbarians",
-    "rarity": "Uncommon",
-    "role": "Support",
-    "affinity": "Force"
+    "rarity": "uncommon",
+    "role": "support",
+    "affinity": "force"
   },
   "stats": {
-    "hp": "10,740",
-    "atk": "1,288",
-    "def": "749",
-    "spd": "90",
-    "crate": "RATE",
-    "cdmg": "15",
-    "resist": "50",
-    "acc": "30"
+    "hp": 10740,
+    "atk": 1288,
+    "def": 749,
+    "spd": 90,
+    "crate": 15,
+    "cdmg": 50,
+    "resist": 30,
+    "acc": 0
   },
   "skills": [
     {
       "cd": 0,
       "mincd": 0,
+      "passive": false,
       "dmgscaling": [
         "ATK"
       ],
       "abilityname": "Cripple",
+      "damageMultiplier": "1.4 ATK",
       "description": "Attacks 1 enemy 2 times. Each hit has a 20% chance of placing a 25% [Decrease ATK] debuff on the target for 2 turns.",
       "books": [
         "Level 2: Damage +5%",
@@ -36,6 +39,7 @@
     {
       "cd": 4,
       "mincd": 2,
+      "passive": false,
       "dmgscaling": [],
       "abilityname": "Battle Trance",
       "description": "Removes all debuffs from this Champion. Places a 25% [Increase ATK] buff on all allies for 2 turns.",
@@ -45,5 +49,6 @@
       ]
     }
   ],
-  "avatarUrl": "https://goctionni.github.io/raid-data/images/avatar/Spiritwalker.png"
+  "version": "3.30.0",
+  "avatarUrl": "https://mcradane.github.io/raid-data/images/avatar/Spiritwalker.png"
 }

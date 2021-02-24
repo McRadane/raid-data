@@ -1,29 +1,33 @@
 {
   "name": "Athel",
+  "id": "Athel",
   "class": {
     "faction": "The Sacred Order",
-    "rarity": "Rare",
-    "role": "Attack",
-    "affinity": "Magic"
+    "rarity": "rare",
+    "role": "attack",
+    "affinity": "magic"
   },
   "stats": {
-    "hp": "13,545",
-    "atk": "1,189",
-    "def": "936",
-    "spd": "104",
-    "crate": "RATE",
-    "cdmg": "15",
-    "resist": "57",
-    "acc": "30"
+    "hp": 13545,
+    "atk": 1189,
+    "def": 936,
+    "spd": 104,
+    "crate": 15,
+    "cdmg": 57,
+    "resist": 30,
+    "acc": 0
   },
+  "aura": "Increases Ally HP in all Battles by 15%.",
   "skills": [
     {
       "cd": 0,
       "mincd": 0,
+      "passive": false,
       "dmgscaling": [
         "ATK"
       ],
       "abilityname": "Strike Down",
+      "damageMultiplier": "1.3 ATK",
       "description": "Attacks 1 enemy 3 times. Has a 75% chance of placing a 25% [Weaken] debuff for 2 turns on the last hit.",
       "books": [
         "Level 2: Damage +5%",
@@ -38,10 +42,12 @@
     {
       "cd": 3,
       "mincd": 3,
+      "passive": false,
       "dmgscaling": [
         "ATK"
       ],
       "abilityname": "Divine Blades",
+      "damageMultiplier": "4.1 ATK",
       "description": "Attacks all enemies. Has an extra 15% chance of inflicting a critical hit.",
       "books": [
         "Level 2: Damage +5%",
@@ -51,23 +57,17 @@
       ]
     },
     {
-      "cd": 4,
-      "mincd": 3,
+      "cd": 5,
+      "mincd": 4,
+      "passive": false,
       "dmgscaling": [],
       "abilityname": "Higher Blessing",
-      "description": "Places a 25% [Increase ATK] buff on this champion for 2 turns. Places a 30% [Increase DEF] buff on this Champion for 2 turns if this Champion’s current HP is less than 50%. Gains an extra Turn.",
+      "description": "Places a 25% [Increase ATK] buff on this champion for 2 turns. Places a 30% [Increase DEF] buff on this Champion for 2 turns if this Champion’s current HP is less than 50%. Gains an Extra Turn.",
       "books": [
         "Level 2: Cooldown -1"
       ]
-    },
-    {
-      "cd": 0,
-      "mincd": 0,
-      "dmgscaling": [],
-      "abilityname": "Aura",
-      "description": "Increases Ally HP in all Battles by 15%.",
-      "books": []
     }
   ],
-  "avatarUrl": "https://goctionni.github.io/raid-data/images/avatar/Athel.png"
+  "version": "3.30.0",
+  "avatarUrl": "https://mcradane.github.io/raid-data/images/avatar/Athel.png"
 }

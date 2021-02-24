@@ -1,27 +1,31 @@
 {
   "name": "Relickeeper",
+  "id": "Relickeeper",
   "class": {
     "faction": "The Sacred Order",
-    "rarity": "Epic",
-    "role": "Attack",
-    "affinity": "Force"
+    "rarity": "epic",
+    "role": "attack",
+    "affinity": "force"
   },
   "stats": {
-    "hp": "14,370",
-    "atk": "1,365",
-    "def": "980",
-    "spd": "90",
-    "crate": "RATE",
-    "cdmg": "15",
-    "resist": "60",
-    "acc": "30"
+    "hp": 14370,
+    "atk": 1365,
+    "def": 980,
+    "spd": 90,
+    "crate": 15,
+    "cdmg": 60,
+    "resist": 30,
+    "acc": 0
   },
+  "aura": "Increases Ally ATK in Campaign by 40%",
   "skills": [
     {
       "cd": 0,
       "mincd": 0,
+      "passive": false,
       "dmgscaling": [],
       "abilityname": "Crusade",
+      "damageMultiplier": "3.7 ATK",
       "description": "Attacks 1 enemy. Grants an Extra Turn if the target is killed.",
       "books": [
         "Level 2: Damage +5%",
@@ -33,6 +37,7 @@
     {
       "cd": 6,
       "mincd": 4,
+      "passive": false,
       "dmgscaling": [],
       "abilityname": "Surging Strength",
       "description": "Places a 50% [Increase ATK] buff on this Champion for 4 turns. Grants an Extra Turn.",
@@ -44,6 +49,7 @@
     {
       "cd": 0,
       "mincd": -2,
+      "passive": false,
       "dmgscaling": [],
       "abilityname": "Ageless Endurance",
       "description": "When hit by an enemy, places a 15% [Continuous Heal] buff on this Champion for 2 turns.",
@@ -51,15 +57,8 @@
         "Level 2: Cooldown -1",
         "Level 3: Cooldown -1"
       ]
-    },
-    {
-      "cd": 0,
-      "mincd": 0,
-      "dmgscaling": [],
-      "abilityname": "Aura",
-      "description": "Increases Ally ATK in Campaign by 40%",
-      "books": []
     }
   ],
-  "avatarUrl": "https://goctionni.github.io/raid-data/images/avatar/Relickeeper.png"
+  "version": "3.30.0",
+  "avatarUrl": "https://mcradane.github.io/raid-data/images/avatar/Relickeeper.png"
 }

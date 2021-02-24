@@ -1,29 +1,33 @@
 {
   "name": "Hakkorhn Smashlord",
+  "id": "Hakkorhn_Smashlord",
   "class": {
     "faction": "Skinwalkers",
-    "rarity": "Legendary",
-    "role": "HP",
-    "affinity": "Magic"
+    "rarity": "legendary",
+    "role": "hp",
+    "affinity": "magic"
   },
   "stats": {
-    "hp": "23,790",
-    "atk": "848",
-    "def": "1,145",
-    "spd": "99",
-    "crate": "RATE",
-    "cdmg": "15",
-    "resist": "50",
-    "acc": "50"
+    "hp": 23790,
+    "atk": 848,
+    "def": 1145,
+    "spd": 99,
+    "crate": 15,
+    "cdmg": 50,
+    "resist": 50,
+    "acc": 10
   },
+  "aura": "Increases Ally HP in Dungeons by 33%.",
   "skills": [
     {
       "cd": 0,
       "mincd": 0,
+      "passive": false,
       "dmgscaling": [
         "HP"
       ],
       "abilityname": "Inhuman Force",
+      "damageMultiplier": "0.2 HP",
       "description": "Attacks 1 enemy. Has a 40% chance of placing a [Stun] debuff for 1 turn.",
       "books": [
         "Level 2: Damage +5%",
@@ -35,9 +39,10 @@
     {
       "cd": 4,
       "mincd": 4,
+      "passive": false,
       "dmgscaling": [],
       "abilityname": "Rallying Bellow",
-      "description": "Heals all allies by 15% of this Champion’s HP. Removes all debuffs from allies and heals them by an extra 10% for each removed debuff. Places a [Block Debuffs] buff on all allies for 2 turns.",
+      "description": "Removes all debuffs from all allies, then places a [Block Debuffs] buff on all allies for 2 turns. Heals all allies by 15% of this Champion’s HP. Heals each ally by an extra 10% of this Champion’s MAX HP for each debuff removed from them.",
       "books": [
         "Level 2: Heal +5%",
         "Level 3: Heal +5%",
@@ -48,23 +53,18 @@
     {
       "cd": 5,
       "mincd": 4,
+      "passive": false,
       "dmgscaling": [
         "MAX HP"
       ],
       "abilityname": "Blood Offering",
-      "description": "Receives damage equal to 50% of this Champion’s MAX HP. Always inflicts a normal hit. This will happen even if it kills this Champion. If not killed, attacks all enemies. Damage is proportional to 50% of this Champion’s MAX HP.",
+      "damageMultiplier": "0.5 HP",
+      "description": "Sacrifices HP equal to 25% of this Champion’s MAX HP, then attacks all enemies. Damage inflicted is equal to 50% of this Champion’s MAX HP. This attack is always a normal hit. The HP sacrifice will happen even if it kills this Champion.",
       "books": [
         "Level 2: Cooldown -1"
       ]
-    },
-    {
-      "cd": 0,
-      "mincd": 0,
-      "dmgscaling": [],
-      "abilityname": "Aura",
-      "description": "Increases Ally HP in Dungeons by 33%.",
-      "books": []
     }
   ],
-  "avatarUrl": "https://goctionni.github.io/raid-data/images/avatar/Hakkorhn_Smashlord.png"
+  "version": "3.30.0",
+  "avatarUrl": "https://mcradane.github.io/raid-data/images/avatar/Hakkorhn_Smashlord.png"
 }

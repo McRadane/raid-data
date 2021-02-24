@@ -1,29 +1,33 @@
 {
   "name": "Templar",
+  "id": "Templar",
   "class": {
     "faction": "The Sacred Order",
-    "rarity": "Rare",
-    "role": "Defense",
-    "affinity": "Spirit"
+    "rarity": "rare",
+    "role": "defense",
+    "affinity": "spirit"
   },
   "stats": {
-    "hp": "15,855",
-    "atk": "881",
-    "def": "1,090",
-    "spd": "92",
-    "crate": "RATE",
-    "cdmg": "15",
-    "resist": "50",
-    "acc": "40"
+    "hp": 15855,
+    "atk": 881,
+    "def": 1090,
+    "spd": 92,
+    "crate": 15,
+    "cdmg": 50,
+    "resist": 40,
+    "acc": 0
   },
+  "aura": "Increases Ally RESIST in the Arena by 50.",
   "skills": [
     {
       "cd": 0,
       "mincd": 0,
+      "passive": false,
       "dmgscaling": [
         "DEF"
       ],
       "abilityname": "Charge",
+      "damageMultiplier": "3.9 DEF",
       "description": "Attacks 1 enemy. Has a 30% chance of placing a 30% [Decrease SPD] debuff for 2 turns.",
       "books": [
         "Level 2: Damage +5%",
@@ -36,10 +40,12 @@
     {
       "cd": 4,
       "mincd": 3,
+      "passive": false,
       "dmgscaling": [
         "DEF"
       ],
       "abilityname": "Taunt",
+      "damageMultiplier": "1.7 DEF",
       "description": "Attacks 4 times at random. Each hit has a 25% chance of placing a [Provoke] debuff for 1 turn. Places a [Block Damage] buff on this Champion for 1 turn.",
       "books": [
         "Level 2: Damage +5%",
@@ -52,23 +58,13 @@
     {
       "cd": 0,
       "mincd": 0,
-      "dmgscaling": [
-        "Passive"
-      ],
+      "passive": true,
+      "dmgscaling": [],
       "abilityname": "Contempt",
       "description": "Attacks with this Champion’s default skill whenever an enemy places a debuff on this Champion.",
-      "books": [
-        "This passive skill is not triggered when an enemy counter attacks Templar’s attack, while applying debuff simultaneously."
-      ]
-    },
-    {
-      "cd": 0,
-      "mincd": 0,
-      "dmgscaling": [],
-      "abilityname": "Aura",
-      "description": "Increases Ally RESIST in the Arena by 50.",
       "books": []
     }
   ],
-  "avatarUrl": "https://goctionni.github.io/raid-data/images/avatar/Templar.png"
+  "version": "3.30.0",
+  "avatarUrl": "https://mcradane.github.io/raid-data/images/avatar/Templar.png"
 }

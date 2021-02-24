@@ -1,29 +1,32 @@
 {
   "name": "Jaeger",
+  "id": "Jaeger",
   "class": {
     "faction": "High Elves",
-    "rarity": "Uncommon",
-    "role": "Attack",
-    "affinity": "Spirit"
+    "rarity": "uncommon",
+    "role": "attack",
+    "affinity": "spirit"
   },
   "stats": {
-    "hp": "14,370",
-    "atk": "1,200",
-    "def": "595",
-    "spd": "100",
-    "crate": "RATE",
-    "cdmg": "15",
-    "resist": "50",
-    "acc": "30"
+    "hp": 14370,
+    "atk": 1200,
+    "def": 595,
+    "spd": 100,
+    "crate": 15,
+    "cdmg": 50,
+    "resist": 30,
+    "acc": 0
   },
   "skills": [
     {
       "cd": 0,
       "mincd": 0,
+      "passive": false,
       "dmgscaling": [
         "ATK"
       ],
       "abilityname": "Shackle Shot",
+      "damageMultiplier": "4.3 ATK",
       "description": "Attacks 1 enemy. Has a 10% chance of placing a 15% [Decrease SPD] debuff for 1 turn.",
       "books": [
         "Level 2: Damage +5%",
@@ -35,10 +38,12 @@
     {
       "cd": 4,
       "mincd": 3,
+      "passive": false,
       "dmgscaling": [
         "ATK"
       ],
       "abilityname": "Freezing Arrow",
+      "damageMultiplier": "6.5 ATK",
       "description": "Attacks 1 enemy. Has a 30% chance of placing a [Freeze] debuff for 1 turn.",
       "books": [
         "Level 2: Damage +5%",
@@ -50,5 +55,6 @@
       ]
     }
   ],
-  "avatarUrl": "https://goctionni.github.io/raid-data/images/avatar/Jaeger.png"
+  "version": "3.30.0",
+  "avatarUrl": "https://mcradane.github.io/raid-data/images/avatar/Jaeger.png"
 }

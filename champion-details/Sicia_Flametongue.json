@@ -1,0 +1,91 @@
+{
+  "name": "Sicia Flametongue",
+  "id": "Sicia_Flametongue",
+  "class": {
+    "faction": "Demonspawn",
+    "rarity": "legendary",
+    "role": "attack",
+    "affinity": "force"
+  },
+  "stats": {
+    "hp": 13050,
+    "atk": 1586,
+    "def": 1123,
+    "spd": 97,
+    "crate": 15,
+    "cdmg": 60,
+    "resist": 30,
+    "acc": 20
+  },
+  "aura": "Increases Ally ACC in all Battles by 60",
+  "skills": [
+    {
+      "cd": 0,
+      "mincd": 0,
+      "passive": false,
+      "dmgscaling": [
+        "ATK"
+      ],
+      "abilityname": "Towering Inferno",
+      "damageMultiplier": "1.05 ATK",
+      "description": "Attacks 1 enemy 3 times. Each hit has a 15% chance of increasing the duration of [HP Burn] debuffs on the target by 1 turn.",
+      "books": [
+        "Level 2: Damage +5%",
+        "Level 3: Buff/Debuff chance +5%",
+        "Level 4: Damage +10%",
+        "Level 5: Buff/Debuff Chance +10%"
+      ]
+    },
+    {
+      "cd": 4,
+      "mincd": 3,
+      "passive": false,
+      "dmgscaling": [
+        "ATK"
+      ],
+      "abilityname": "Flame Eruption",
+      "damageMultiplier": "3.7 ATK",
+      "description": "Attacks all enemies. Has an 80% chance of placing a 25% [Weaken] debuff for 2 turns. Also has an 80% chance of placing a 60% [Decrease DEF] debuff for 2 turns if there are a least 2 enemies under [HP Burn] debuffs. Then instantly activates any [HP Burn] debuffs on each target and decreases the duration of those [HP Burn] debuffs by 1 turn.",
+      "books": [
+        "Level 2: Damage +5%",
+        "Level 3: Buff/Debuff chance +10%",
+        "Level 4: Damage +10%",
+        "Level 5: Buff/Debuff chance +10%",
+        "Level 6: Cooldown -1"
+      ]
+    },
+    {
+      "cd": 5,
+      "mincd": 4,
+      "passive": false,
+      "dmgscaling": [
+        "ATK"
+      ],
+      "abilityname": "Firestorm Rite",
+      "damageMultiplier": "3.5 ATK",
+      "description": "Places a [HP Burn] debuff on this champion for 3 turns, then attacks all enemies. Has a 75% chance of placing a [HP Burn] debuff on all enemies for 3 turns. Grants an Extra Turn if a [HP Burn] debuff is placed on all enemies.",
+      "books": [
+        "Level 2: Damage +5%",
+        "Level 3: Buff/Debuff Chance +10%",
+        "Level 4: Damage +15%",
+        "Level 5: Buff/Debuff chance +15%",
+        "Level 6: Cooldown -1"
+      ]
+    },
+    {
+      "cd": 0,
+      "mincd": 0,
+      "passive": true,
+      "dmgscaling": [],
+      "abilityname": "Metaphysics",
+      "description": "Increases this champion’s SPD by 3 and damage inflicted by 3% for each ally and enemy under a [HP Burn] debuff. If <a href=\"//ayumilove.net/raid-shadow-legends-cardiel-skill-mastery-equip-guide/\">Cardiel</a> is on the team, all allies will heal by 3% of their MAX HP from [HP Burn] debuffs instead of receiving damage and losing HP.",
+      "books": [
+        "Level 2: Buff/Debuff Chance +5%",
+        "Level 3: Buff/Debuff chance +5%",
+        "Level 4: Buff/Debuff chance +5%"
+      ]
+    }
+  ],
+  "version": "3.30.0",
+  "avatarUrl": "https://mcradane.github.io/raid-data/images/avatar/Sicia_Flametongue.png"
+}

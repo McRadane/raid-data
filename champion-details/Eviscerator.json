@@ -1,29 +1,33 @@
 {
   "name": "Eviscerator",
+  "id": "Eviscerator",
   "class": {
     "faction": "Dark Elves",
-    "rarity": "Rare",
-    "role": "Attack",
-    "affinity": "Void"
+    "rarity": "rare",
+    "role": "attack",
+    "affinity": "void"
   },
   "stats": {
-    "hp": "12,060",
-    "atk": "1,409",
-    "def": "815",
-    "spd": "95",
-    "crate": "RATE",
-    "cdmg": "15",
-    "resist": "57",
-    "acc": "30"
+    "hp": 12060,
+    "atk": 1409,
+    "def": 815,
+    "spd": 95,
+    "crate": 15,
+    "cdmg": 57,
+    "resist": 30,
+    "acc": 0
   },
+  "aura": "Increases Ally C.RATE in the Arena by 16%.",
   "skills": [
     {
       "cd": 0,
       "mincd": 0,
+      "passive": false,
       "dmgscaling": [
         "ATK"
       ],
       "abilityname": "Bleed Dry",
+      "damageMultiplier": "1.5 ATK",
       "description": "Attacks 1 enemy 2 times. Has an extra 15% chance of inflicting a critical hit. Has a 50% chance of placing a 2.5% [Poison] debuff for 2 turns if this attack is critical.",
       "books": [
         "Level 2: Damage +5%",
@@ -35,10 +39,12 @@
     {
       "cd": 4,
       "mincd": 4,
+      "passive": false,
       "dmgscaling": [
         "ATK"
       ],
       "abilityname": "Lethal Confusion",
+      "damageMultiplier": "3.5 ATK",
       "description": "Attacks all enemies. Has a 50% chance of placing a 30% [Decrease DEF] debuff for 2 turns.",
       "books": [
         "Level 2: Damage +5%",
@@ -50,23 +56,15 @@
       ]
     },
     {
-      "cd": 0,
-      "mincd": 0,
-      "dmgscaling": [
-        "Passive"
-      ],
+      "cd": 1,
+      "mincd": 1,
+      "passive": true,
+      "dmgscaling": [],
       "abilityname": "Suppression",
       "description": "Attacks an enemy Champion with the default Skill whenever they are healed or receive a Buff. Attacks one random enemy if multiple enemies are healed or receive a Buff at the same time.",
       "books": []
-    },
-    {
-      "cd": 0,
-      "mincd": 0,
-      "dmgscaling": [],
-      "abilityname": "Aura",
-      "description": "Increases Ally C.RATE in the Arena by 16%.",
-      "books": []
     }
   ],
-  "avatarUrl": "https://goctionni.github.io/raid-data/images/avatar/Eviscerator.png"
+  "version": "3.30.0",
+  "avatarUrl": "https://mcradane.github.io/raid-data/images/avatar/Eviscerator.png"
 }

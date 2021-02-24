@@ -1,29 +1,33 @@
 {
   "name": "Goremask",
+  "id": "Goremask",
   "class": {
     "faction": "Orcs",
-    "rarity": "Rare",
-    "role": "Attack",
-    "affinity": "Force"
+    "rarity": "rare",
+    "role": "attack",
+    "affinity": "force"
   },
   "stats": {
-    "hp": "12,225",
-    "atk": "1,509",
-    "def": "705",
-    "spd": "98",
-    "crate": "RATE",
-    "cdmg": "15",
-    "resist": "57",
-    "acc": "30"
+    "hp": 12225,
+    "atk": 1509,
+    "def": 705,
+    "spd": 98,
+    "crate": 15,
+    "cdmg": 57,
+    "resist": 30,
+    "acc": 0
   },
+  "aura": "Increases Ally HP in the Arena by 25%.",
   "skills": [
     {
       "cd": 0,
       "mincd": 0,
+      "passive": false,
       "dmgscaling": [
         "ATK"
       ],
       "abilityname": "Snap",
+      "damageMultiplier": "1.6 ATK",
       "description": "Attacks 1 enemy 2 times.",
       "books": [
         "Level 2: Damage +5%",
@@ -36,10 +40,12 @@
     {
       "cd": 4,
       "mincd": 3,
+      "passive": false,
       "dmgscaling": [
         "ATK"
       ],
       "abilityname": "Go for the Throat",
+      "damageMultiplier": "4.4 ATK",
       "description": "Attacks 1 enemy. Damage increases by 20% if this attack is critical.",
       "books": [
         "Level 2: Damage +5%",
@@ -53,10 +59,12 @@
     {
       "cd": 5,
       "mincd": 3,
+      "passive": false,
       "dmgscaling": [
         "ATK"
       ],
       "abilityname": "Tearing Jaws",
+      "damageMultiplier": "4.8 ATK",
       "description": "Attacks 1 enemy. Will ignore [Shield] and [Block Damage] buffs.",
       "books": [
         "Level 2: Damage +5%",
@@ -66,15 +74,8 @@
         "Level 6: Cooldown -1",
         "Level 7: Cooldown -1"
       ]
-    },
-    {
-      "cd": 0,
-      "mincd": 0,
-      "dmgscaling": [],
-      "abilityname": "Aura",
-      "description": "Increases Ally HP in the Arena by 25%.",
-      "books": []
     }
   ],
-  "avatarUrl": "https://goctionni.github.io/raid-data/images/avatar/Goremask.png"
+  "version": "3.30.0",
+  "avatarUrl": "https://mcradane.github.io/raid-data/images/avatar/Goremask.png"
 }

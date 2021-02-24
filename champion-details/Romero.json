@@ -1,29 +1,32 @@
 {
   "name": "Romero",
+  "id": "Romero",
   "class": {
     "faction": "The Sacred Order",
-    "rarity": "Epic",
-    "role": "Defense",
-    "affinity": "Force"
+    "rarity": "epic",
+    "role": "defense",
+    "affinity": "force"
   },
   "stats": {
-    "hp": "18,000",
-    "atk": "804",
-    "def": "1,299",
-    "spd": "99",
-    "crate": "Rate",
-    "cdmg": "15",
-    "resist": "50",
-    "acc": "45"
+    "hp": 18000,
+    "atk": 804,
+    "def": 1299,
+    "spd": 99,
+    "crate": 15,
+    "cdmg": 50,
+    "resist": 45,
+    "acc": 0
   },
   "skills": [
     {
       "cd": 0,
       "mincd": 0,
+      "passive": false,
       "dmgscaling": [
         "DEF"
       ],
       "abilityname": "Bring Hope",
+      "damageMultiplier": "3.7 DEF",
       "description": "Attacks 1 enemy. Places a 7.5% [Continuous Heal] buff on the ally with the lowest HP for 1 turn.",
       "books": [
         "Level 2: Damage +5%",
@@ -35,6 +38,7 @@
     {
       "cd": 5,
       "mincd": 4,
+      "passive": false,
       "dmgscaling": [],
       "abilityname": "Succor",
       "description": "Places a 15% [Continuous Heal] buff on all allies for 2 turns. Steal 1 buff from a random enemy.",
@@ -45,6 +49,7 @@
     {
       "cd": 6,
       "mincd": 5,
+      "passive": false,
       "dmgscaling": [],
       "abilityname": "Divine Benefaction",
       "description": "Places a [Shield] buff on all allies equal to 25% of their MAX HP for 2 turns. Places a 30% [Increase DEF] buff on this Champion for 2 turns.",
@@ -57,13 +62,16 @@
     {
       "cd": 3,
       "mincd": 3,
+      "passive": false,
       "dmgscaling": [
         "DEF"
       ],
       "abilityname": "Stalwart Partner",
-      "description": "Attacks all enemies 3 times. [Only available when Juliana is on the same team]",
+      "damageMultiplier": "1.4 DEF",
+      "description": "Attacks all enemies 3 times. [Only available when <a href=\"//ayumilove.net/raid-shadow-legends-juliana-skill-mastery-equip-guide/\">Juliana</a> is on the same team]",
       "books": []
     }
   ],
-  "avatarUrl": "https://goctionni.github.io/raid-data/images/avatar/Romero.png"
+  "version": "3.30.0",
+  "avatarUrl": "https://mcradane.github.io/raid-data/images/avatar/Romero.png"
 }

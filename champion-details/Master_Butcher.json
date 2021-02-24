@@ -1,29 +1,32 @@
 {
   "name": "Master Butcher",
+  "id": "Master_Butcher",
   "class": {
     "faction": "Dwarves",
-    "rarity": "Rare",
-    "role": "Support",
-    "affinity": "Spirit"
+    "rarity": "rare",
+    "role": "support",
+    "affinity": "spirit"
   },
   "stats": {
-    "hp": "18,495",
-    "atk": "848",
-    "def": "947",
-    "spd": "100",
-    "crate": "RATE",
-    "cdmg": "15",
-    "resist": "50",
-    "acc": "45"
+    "hp": 18495,
+    "atk": 848,
+    "def": 947,
+    "spd": 100,
+    "crate": 15,
+    "cdmg": 50,
+    "resist": 45,
+    "acc": 0
   },
   "skills": [
     {
       "cd": 0,
       "mincd": 0,
+      "passive": false,
       "dmgscaling": [
         "ATK"
       ],
       "abilityname": "Mash",
+      "damageMultiplier": "4.3 ATK",
       "description": "Attacks 1 enemy. Has a 30% chance of placing a [Provoke] debuff for 1 turn.",
       "books": [
         "Level 2: Damage +5%",
@@ -34,18 +37,20 @@
     },
     {
       "cd": 5,
-      "mincd": 5,
+      "mincd": 4,
+      "passive": false,
       "dmgscaling": [],
       "abilityname": "Barking Orders",
-      "description": "Places a [Provoke] debuff on the target enemy for 2 turns. Places a 15% [Increase C. RATE] buff on all allies for 2 turns. Places a 25% [Increase ATK] buff on all allies for 2 turns.",
-      "books": []
+      "description": "Places a [Provoke] debuff on the target enemy for 2 turns. Places a 15% [Increase C.RATE] buff on all allies for 2 turns. Places a 25% [Increase ATK] buff on all allies for 2 turns.",
+      "books": [
+        "Level 2: Cooldown -1"
+      ]
     },
     {
       "cd": 3,
       "mincd": 1,
-      "dmgscaling": [
-        "Passive"
-      ],
+      "passive": true,
+      "dmgscaling": [],
       "abilityname": "Heat Exchange",
       "description": "When attacked, heals all allies equal to the amount of damage taken. [Does not work against Bosses].",
       "books": [
@@ -56,9 +61,8 @@
     {
       "cd": 6,
       "mincd": 5,
-      "dmgscaling": [
-        "Passive"
-      ],
+      "passive": true,
+      "dmgscaling": [],
       "abilityname": "Pyre",
       "description": "Revives a random ally with full HP when this Champion is killed.",
       "books": [
@@ -66,5 +70,6 @@
       ]
     }
   ],
-  "avatarUrl": "https://goctionni.github.io/raid-data/images/avatar/Master_Butcher.png"
+  "version": "3.30.0",
+  "avatarUrl": "https://mcradane.github.io/raid-data/images/avatar/Master_Butcher.png"
 }

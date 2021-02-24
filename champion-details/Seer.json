@@ -1,29 +1,33 @@
 {
   "name": "Seer",
+  "id": "Seer",
   "class": {
     "faction": "Orcs",
-    "rarity": "Epic",
-    "role": "Support",
-    "affinity": "Void"
+    "rarity": "epic",
+    "role": "support",
+    "affinity": "void"
   },
   "stats": {
-    "hp": "19,320",
-    "atk": "1,145",
-    "def": "870",
-    "spd": "104",
-    "crate": "RATE",
-    "cdmg": "15",
-    "resist": "50",
-    "acc": "30"
+    "hp": 19320,
+    "atk": 1145,
+    "def": 870,
+    "spd": 104,
+    "crate": 15,
+    "cdmg": 50,
+    "resist": 30,
+    "acc": 0
   },
+  "aura": "Increases Ally RESIST in all Battles by 40.",
   "skills": [
     {
       "cd": 0,
       "mincd": 0,
+      "passive": false,
       "dmgscaling": [
         "ATK"
       ],
       "abilityname": "Knock Out",
+      "damageMultiplier": "3.8 ATK",
       "description": "Attacks 1 enemy. Has a 15% chance of granting an Extra Turn.",
       "books": [
         "Level 2: Damage +5%",
@@ -35,6 +39,7 @@
     {
       "cd": 4,
       "mincd": 3,
+      "passive": false,
       "dmgscaling": [],
       "abilityname": "Clan Banner",
       "description": "Places a 30% [Increase C.RATE] buff on all allies for 2 turns. Places a 25% [Weaken] debuff on all enemies for 2 turns.",
@@ -45,6 +50,7 @@
     {
       "cd": 6,
       "mincd": 4,
+      "passive": false,
       "dmgscaling": [
         "Enemy MAX HP"
       ],
@@ -54,15 +60,8 @@
         "Level 2: Cooldown -1",
         "Level 3: Cooldown -1"
       ]
-    },
-    {
-      "cd": 0,
-      "mincd": 0,
-      "dmgscaling": [],
-      "abilityname": "Aura",
-      "description": "Increases Ally RESIST in all Battles by 40.",
-      "books": []
     }
   ],
-  "avatarUrl": "https://goctionni.github.io/raid-data/images/avatar/Seer.png"
+  "version": "3.30.0",
+  "avatarUrl": "https://mcradane.github.io/raid-data/images/avatar/Seer.png"
 }

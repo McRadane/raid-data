@@ -1,29 +1,33 @@
 {
   "name": "Luthiea",
+  "id": "Luthiea",
   "class": {
     "faction": "High Elves",
-    "rarity": "Epic",
-    "role": "Attack",
-    "affinity": "Force"
+    "rarity": "epic",
+    "role": "attack",
+    "affinity": "force"
   },
   "stats": {
-    "hp": "14,370",
-    "atk": "1,277",
-    "def": "1,068",
-    "spd": "93",
-    "crate": "RATE",
-    "cdmg": "15",
-    "resist": "50",
-    "acc": "30"
+    "hp": 14370,
+    "atk": 1277,
+    "def": 1068,
+    "spd": 93,
+    "crate": 15,
+    "cdmg": 50,
+    "resist": 30,
+    "acc": 20
   },
+  "aura": "Increases Ally C.RATE in Dungeons by 33%.",
   "skills": [
     {
       "cd": 0,
       "mincd": 0,
+      "passive": false,
       "dmgscaling": [
         "ATK"
       ],
       "abilityname": "Burning Arrow",
+      "damageMultiplier": "4.6 ATK",
       "description": "Attacks 1 enemy. Has a 30% chance of placing a 5% [Poison] debuff for 2 turns.",
       "books": [
         "Level 2: Damage +5%",
@@ -36,10 +40,12 @@
     {
       "cd": 4,
       "mincd": 3,
+      "passive": false,
       "dmgscaling": [
         "ATK"
       ],
       "abilityname": "Ice Shot",
+      "damageMultiplier": "2.6 ATK",
       "description": "Attacks 3 times at random. Each hit has a 25% chance of placing a [Freeze] debuff for 1 turn.",
       "books": [
         "Level 2: Damage +5%",
@@ -51,10 +57,12 @@
     {
       "cd": 5,
       "mincd": 4,
+      "passive": false,
       "dmgscaling": [
         "ATK"
       ],
       "abilityname": "Numbing Poison",
+      "damageMultiplier": "4.5 ATK",
       "description": "Attacks all enemies. Has a 75% chance of placing a 30% [Decrease SPD] debuff for 2 turns.",
       "books": [
         "Level 2: Damage +5%",
@@ -63,15 +71,8 @@
         "Level 5: Buff/Debuff Chance +15%",
         "Level 6: Cooldown -1"
       ]
-    },
-    {
-      "cd": 0,
-      "mincd": 0,
-      "dmgscaling": [],
-      "abilityname": "Aura",
-      "description": "Increases Ally C.RATE in Dungeons by 33%.",
-      "books": []
     }
   ],
-  "avatarUrl": "https://goctionni.github.io/raid-data/images/avatar/Luthiea.png"
+  "version": "3.30.0",
+  "avatarUrl": "https://mcradane.github.io/raid-data/images/avatar/Luthiea.png"
 }

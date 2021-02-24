@@ -1,29 +1,33 @@
 {
   "name": "Jinglehunter",
+  "id": "Jinglehunter",
   "class": {
     "faction": "High Elves",
-    "rarity": "Epic",
-    "role": "Attack",
-    "affinity": "Spirit"
+    "rarity": "epic",
+    "role": "attack",
+    "affinity": "spirit"
   },
   "stats": {
-    "hp": "14,700",
-    "atk": "1,498",
-    "def": "826",
-    "spd": "101",
-    "crate": "RATE",
-    "cdmg": "15",
-    "resist": "60",
-    "acc": "30"
+    "hp": 14700,
+    "atk": 1498,
+    "def": 826,
+    "spd": 101,
+    "crate": 15,
+    "cdmg": 60,
+    "resist": 30,
+    "acc": 0
   },
+  "aura": "Increases Ally SPD in the Arena by 24%.",
   "skills": [
     {
       "cd": 0,
       "mincd": 0,
+      "passive": false,
       "dmgscaling": [
         "ATK"
       ],
       "abilityname": "Missile Toe",
+      "damageMultiplier": "1.7 ATK",
       "description": "Attacks 1 enemy 2 times. Has a 40% chance of placing a 30% [Decrease SPD] debuff for 2 turns if this attack is a critical.",
       "books": [
         "Level 2: Damage +5%",
@@ -36,10 +40,12 @@
     {
       "cd": 4,
       "mincd": 3,
+      "passive": false,
       "dmgscaling": [
         "ATK"
       ],
       "abilityname": "Jacked Frost",
+      "damageMultiplier": "5.9 ATK",
       "description": "Attacks 1 enemy. Has a 90% chance of placing a [Freeze] debuff on all enemies for 1 turn if this attack kills the enemy.",
       "books": [
         "Level 2: Damage +5%",
@@ -52,10 +58,12 @@
     {
       "cd": 5,
       "mincd": 4,
+      "passive": false,
       "dmgscaling": [
         "ATK"
       ],
       "abilityname": "Cold Snap",
+      "damageMultiplier": "3.8 ATK",
       "description": "Attacks all enemies. Decreases the Turn Meter by 20% if this attack is critical. Fills this Champion’s Turn Meter by 10% if this attack is critical.",
       "books": [
         "Level 2: Damage +5%",
@@ -63,15 +71,8 @@
         "Level 4: Damage +10%",
         "Level 5: Cooldown -1"
       ]
-    },
-    {
-      "cd": 0,
-      "mincd": 0,
-      "dmgscaling": [],
-      "abilityname": "Aura",
-      "description": "Increases Ally SPD in the Arena by 24%.",
-      "books": []
     }
   ],
-  "avatarUrl": "https://goctionni.github.io/raid-data/images/avatar/Jinglehunter.png"
+  "version": "3.30.0",
+  "avatarUrl": "https://mcradane.github.io/raid-data/images/avatar/Jinglehunter.png"
 }

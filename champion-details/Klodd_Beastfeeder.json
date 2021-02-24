@@ -1,0 +1,74 @@
+{
+  "name": "Klodd Beastfeeder",
+  "id": "Klodd_Beastfeeder",
+  "class": {
+    "faction": "Ogryn Tribes",
+    "rarity": "epic",
+    "role": "hp",
+    "affinity": "magic"
+  },
+  "stats": {
+    "hp": 21645,
+    "atk": 815,
+    "def": 1046,
+    "spd": 110,
+    "crate": 15,
+    "cdmg": 50,
+    "resist": 30,
+    "acc": 0
+  },
+  "skills": [
+    {
+      "cd": 0,
+      "mincd": 0,
+      "passive": false,
+      "dmgscaling": [],
+      "abilityname": "New Stabby Hand",
+      "damageMultiplier": "0.24 HP",
+      "description": "Attacks 1 enemy. Has a 30% chance of placing a 30% [Decrease C.RATE] debuff for 2 turns",
+      "books": [
+        "Level 2: Damage +5%",
+        "Level 3: Buff/Debuff Chance +10%",
+        "Level 4: Damage +10%",
+        "Level 5: Buff/Debuff Chance +10%"
+      ]
+    },
+    {
+      "cd": 4,
+      "mincd": 3,
+      "passive": false,
+      "dmgscaling": [],
+      "abilityname": "Get Behind Me",
+      "description": "Places a [Shield] buff on all allies equal to 20% of this champion’s MAX HP for 2 turns.",
+      "books": [
+        "Level 2: Shield +5%",
+        "Level 3: Shield +10%",
+        "Level 4: Shield +10%",
+        "Level 5: Cooldown -1"
+      ]
+    },
+    {
+      "cd": 5,
+      "mincd": 3,
+      "passive": false,
+      "dmgscaling": [],
+      "abilityname": "Beast Escape",
+      "description": "Places a 30% [Increase SPD] buff and a 50% [Increase ACC] buff on all allies for 2 turns.",
+      "books": [
+        "Level 2: Cooldown -1",
+        "Level 3: Cooldown -1"
+      ]
+    },
+    {
+      "cd": 0,
+      "mincd": 0,
+      "passive": true,
+      "dmgscaling": [],
+      "abilityname": "Delicious Giblets",
+      "description": "Heals the ally with the lowest HP by 10% of their MAX HP at the start of this Champion’s turn.",
+      "books": []
+    }
+  ],
+  "version": "3.30.0",
+  "avatarUrl": "https://mcradane.github.io/raid-data/images/avatar/Klodd_Beastfeeder.png"
+}

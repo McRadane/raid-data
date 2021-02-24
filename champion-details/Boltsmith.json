@@ -1,0 +1,72 @@
+{
+  "name": "Boltsmith",
+  "id": "Boltsmith",
+  "class": {
+    "faction": "Dwarves",
+    "rarity": "rare",
+    "role": "attack",
+    "affinity": "force"
+  },
+  "stats": {
+    "hp": 15030,
+    "atk": 1465,
+    "def": 562,
+    "spd": 94,
+    "crate": 15,
+    "cdmg": 57,
+    "resist": 30,
+    "acc": 0
+  },
+  "aura": "Increases Ally ATK in Faction Wars Crypts by 20%",
+  "skills": [
+    {
+      "cd": 0,
+      "mincd": 0,
+      "passive": false,
+      "dmgscaling": [
+        "ATK"
+      ],
+      "abilityname": "Quarrel Cripple",
+      "damageMultiplier": "1.5 ATK",
+      "description": "Attacks 1 enemy 2 times. Each hit had a 15% chance of placing a 15% [Decrease SPD] debuff for 2 turns.",
+      "books": [
+        "Level 2: Damage +5%",
+        "Level 3: Damage +5%",
+        "Level 4: Damage +5%",
+        "Level 5: Buff/Debuff Chance +5%",
+        "Level 6: Buff/Debuff Chance +5%"
+      ]
+    },
+    {
+      "cd": 4,
+      "mincd": 3,
+      "passive": false,
+      "dmgscaling": [],
+      "abilityname": "Trained Eye",
+      "description": "Places a 15% [Increase C.RATE] buff and a 30% [Increase C.DMG] buff on this champion for 2 turns. Grants an Extra Turn.",
+      "books": [
+        "Level 2: Cooldown -1"
+      ]
+    },
+    {
+      "cd": 4,
+      "mincd": 3,
+      "passive": false,
+      "dmgscaling": [
+        "ATK"
+      ],
+      "abilityname": "Piercer Munitions",
+      "damageMultiplier": "4.2 ATK",
+      "description": "Attacks 1 enemy. Will ignore 30% of the target’s DEF",
+      "books": [
+        "Level 2: Damage +5%",
+        "Level 3: Damage +5%",
+        "Level 4: Damage +5%",
+        "Level 5: Damage +5%",
+        "Level 6: -1 Cooldown"
+      ]
+    }
+  ],
+  "version": "3.30.0",
+  "avatarUrl": "https://mcradane.github.io/raid-data/images/avatar/Boltsmith.png"
+}

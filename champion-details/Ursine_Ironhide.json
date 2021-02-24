@@ -1,29 +1,32 @@
 {
   "name": "Ursine Ironhide",
+  "id": "Ursine_Ironhide",
   "class": {
     "faction": "Skinwalkers",
-    "rarity": "Epic",
-    "role": "Defense",
-    "affinity": "Force"
+    "rarity": "epic",
+    "role": "defense",
+    "affinity": "force"
   },
   "stats": {
-    "hp": "19,320",
-    "atk": "793",
-    "def": "1,222",
-    "spd": "94",
-    "crate": "RATE",
-    "cdmg": "15",
-    "resist": "50",
-    "acc": "45"
+    "hp": 19320,
+    "atk": 793,
+    "def": 1222,
+    "spd": 94,
+    "crate": 15,
+    "cdmg": 50,
+    "resist": 45,
+    "acc": 0
   },
   "skills": [
     {
       "cd": 0,
       "mincd": 0,
+      "passive": false,
       "dmgscaling": [
         "DEF"
       ],
       "abilityname": "Confounding Crush",
+      "damageMultiplier": "3 DEF",
       "description": "Attacks 1 enemy. Has a 35% chance of increasing the cooldown of one of the target’s Skills by 1 turn at random.",
       "books": [
         "Level 2: Damage +5%",
@@ -35,10 +38,12 @@
     {
       "cd": 4,
       "mincd": 3,
+      "passive": false,
       "dmgscaling": [
         "DEF"
       ],
       "abilityname": "Beat Back",
+      "damageMultiplier": "3 DEF",
       "description": "Attacks 1 enemy 2 times. Each hit has a 75% chance of decreasing the Turn Meter by 5%. Decreases the Turn Meter by 10% instead if target is under a [Decrease ATK] debuff.",
       "books": [
         "Level 2: Damage +10%",
@@ -50,6 +55,7 @@
     {
       "cd": 5,
       "mincd": 4,
+      "passive": false,
       "dmgscaling": [
         "DEF"
       ],
@@ -66,9 +72,8 @@
     {
       "cd": 0,
       "mincd": 0,
-      "dmgscaling": [
-        "Passive"
-      ],
+      "passive": true,
+      "dmgscaling": [],
       "abilityname": "Ursine Brutality",
       "description": "Each hit has a 50% chance of decreasing the target’s Turn Meter by 7.5%. Each hit also has a 50% chance of putting one of the target’s Skills on cooldown if the target is under a [Decrease C.RATE] debuff.",
       "books": [
@@ -79,5 +84,6 @@
       ]
     }
   ],
-  "avatarUrl": "https://goctionni.github.io/raid-data/images/avatar/Ursine_Ironhide.png"
+  "version": "3.30.0",
+  "avatarUrl": "https://mcradane.github.io/raid-data/images/avatar/Ursine_Ironhide.png"
 }

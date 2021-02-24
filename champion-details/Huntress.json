@@ -1,29 +1,32 @@
 {
   "name": "Huntress",
+  "id": "Huntress",
   "class": {
     "faction": "Orcs",
-    "rarity": "Rare",
-    "role": "Attack",
-    "affinity": "Void"
+    "rarity": "rare",
+    "role": "attack",
+    "affinity": "void"
   },
   "stats": {
-    "hp": "11,895",
-    "atk": "1,310",
-    "def": "925",
-    "spd": "94",
-    "crate": "RATE",
-    "cdmg": "15",
-    "resist": "57",
-    "acc": "30"
+    "hp": 11895,
+    "atk": 1310,
+    "def": 925,
+    "spd": 94,
+    "crate": 15,
+    "cdmg": 57,
+    "resist": 30,
+    "acc": 0
   },
   "skills": [
     {
       "cd": 0,
       "mincd": 0,
+      "passive": false,
       "dmgscaling": [
         "ATK"
       ],
       "abilityname": "Curved Shot",
+      "damageMultiplier": "1.7 ATK",
       "description": "Attacks 1 enemy 2 times. Has a 15% chance of placing a [Stun] debuff for 1 turn.",
       "books": [
         "Level 2: Damage +5%",
@@ -36,10 +39,12 @@
     {
       "cd": 5,
       "mincd": 3,
+      "passive": false,
       "dmgscaling": [
         "ATK"
       ],
       "abilityname": "Incinerate",
+      "damageMultiplier": "5.2 ATK",
       "description": "Attacks 1 enemy. Has a 50% chance of placing a 25% [Weaken] debuff for 2 turns.",
       "books": [
         "Level 2: Damage +10%",
@@ -53,6 +58,7 @@
     {
       "cd": 5,
       "mincd": 4,
+      "passive": false,
       "dmgscaling": [],
       "abilityname": "Whisper",
       "description": "Places a 15% [Increase C.RATE] buff and a 50% [Increase ATK] buff on this Champion for 2 turns.",
@@ -61,5 +67,6 @@
       ]
     }
   ],
-  "avatarUrl": "https://goctionni.github.io/raid-data/images/avatar/Huntress.png"
+  "version": "3.30.0",
+  "avatarUrl": "https://mcradane.github.io/raid-data/images/avatar/Huntress.png"
 }

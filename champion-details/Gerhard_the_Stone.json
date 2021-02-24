@@ -1,0 +1,72 @@
+{
+  "name": "Gerhard the Stone",
+  "id": "Gerhard_the_Stone",
+  "class": {
+    "faction": "Banner Lords",
+    "rarity": "epic",
+    "role": "attack",
+    "affinity": "magic"
+  },
+  "stats": {
+    "hp": 12555,
+    "atk": 1387,
+    "def": 1079,
+    "spd": 101,
+    "crate": 15,
+    "cdmg": 60,
+    "resist": 30,
+    "acc": 0
+  },
+  "aura": "Increases Ally RESIST in Doom Tower battles by 50.",
+  "skills": [
+    {
+      "cd": 0,
+      "mincd": 0,
+      "passive": false,
+      "dmgscaling": [
+        "ATK"
+      ],
+      "abilityname": "Ringing Blow",
+      "description": "Attacks 1 enemy. Has a 15% chance of placing a [Stun] debuff for 1 turn. Has a 40% chance of placing a [Stun] debuff for 1 turn instead if the target has more than 75% Turn Meter.",
+      "books": [
+        "Level 2: Damage +5%",
+        "Level 3: Buff/Debuff Chance +5%",
+        "Level 4: Damage +5%",
+        "Level 5: Buff/Debuff Chance +5%",
+        "Level 6: Damage +5%",
+        "Level 7: Damage +5%"
+      ]
+    },
+    {
+      "cd": 4,
+      "mincd": 3,
+      "passive": false,
+      "dmgscaling": [
+        "ATK"
+      ],
+      "abilityname": "Show of Valor",
+      "description": "Places a 30% [Increase C.RATE] buff and a 30% [Increase C.DMG] buff on this Champion for 2 turns, then attacks 1 enemy. Will ignore 25% of the target’s DEF. Will ignore 50% of the target’s DEF instead if the target is under an [Increase DEF] buff.",
+      "books": [
+        "Level 2: Damage +5%",
+        "Level 3: Damage +5%",
+        "Level 4: Damage +10%",
+        "Level 5: Damage +10%",
+        "Level 6: Cooldown -1"
+      ]
+    },
+    {
+      "cd": 5,
+      "mincd": 3,
+      "passive": true,
+      "dmgscaling": [],
+      "abilityname": "Exemplar",
+      "description": "Immune to [Fear], [True Fear], [Freeze], [Provoke], [Sleep] and [Stun] debuffs.",
+      "books": [
+        "Level 2: Cooldown -1",
+        "Level 3: Cooldown -1"
+      ]
+    }
+  ],
+  "version": "3.30.0",
+  "avatarUrl": "https://mcradane.github.io/raid-data/images/avatar/Gerhard_the_Stone.png"
+}

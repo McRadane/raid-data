@@ -1,29 +1,33 @@
 {
   "name": "Tainix Hateflower",
+  "id": "Tainix_Hateflower",
   "class": {
     "faction": "Demonspawn",
-    "rarity": "Epic",
-    "role": "Support",
-    "affinity": "Force"
+    "rarity": "epic",
+    "role": "support",
+    "affinity": "force"
   },
   "stats": {
-    "hp": "17,010",
-    "atk": "1,189",
-    "def": "980",
-    "spd": "100",
-    "crate": "15%",
-    "cdmg": "50%",
-    "resist": "30",
-    "acc": "0"
+    "hp": 17010,
+    "atk": 1189,
+    "def": 980,
+    "spd": 100,
+    "crate": 15,
+    "cdmg": 50,
+    "resist": 30,
+    "acc": 0
   },
+  "aura": "Increases Ally HP in Faction Crypts by 30%.",
   "skills": [
     {
       "cd": 0,
       "mincd": 0,
+      "passive": false,
       "dmgscaling": [
         "ATK"
       ],
       "abilityname": "Seeker Bolts",
+      "damageMultiplier": "1.65 ATK",
       "description": "Attacks 2 times at random. Heals all allies by 3% of this Champion’s HP with each hit on targets under [Decrease SPD] debuffs.",
       "books": [
         "Level 2: Damage +5%",
@@ -34,8 +38,10 @@
     {
       "cd": 4,
       "mincd": 3,
+      "passive": false,
       "dmgscaling": [],
       "abilityname": "Spiteful Cut",
+      "damageMultiplier": "4.3 ATK",
       "description": "Attacks 1 enemy. Has a 50% chance of placing a 30% [Decrease SPD] debuff on the target for 2 turns. Has a 50% chance of placing a 30% [Decrease SPD] debuff on all enemies for 2 turns instead if this attack is critical.",
       "books": [
         "Level 2: Damage +10%",
@@ -50,21 +56,13 @@
     {
       "cd": 0,
       "mincd": 0,
-      "dmgscaling": [
-        "Passive"
-      ],
+      "passive": true,
+      "dmgscaling": [],
       "abilityname": "Unbreakable",
       "description": "Decreases the damage all allies receive by 5%. This Champion will receive that damage instead. If there are multiple Champions in the team with this Skill, only one will activate.",
       "books": []
-    },
-    {
-      "cd": 0,
-      "mincd": 0,
-      "dmgscaling": [],
-      "abilityname": "Aura",
-      "description": "Increases Ally HP in Faction Crypts by 30%.",
-      "books": []
     }
   ],
-  "avatarUrl": "https://goctionni.github.io/raid-data/images/avatar/Tainix_Hateflower.png"
+  "version": "3.30.0",
+  "avatarUrl": "https://mcradane.github.io/raid-data/images/avatar/Tainix_Hateflower.png"
 }

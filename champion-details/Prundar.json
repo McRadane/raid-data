@@ -1,0 +1,91 @@
+{
+  "name": "Prundar",
+  "id": "Prundar",
+  "class": {
+    "faction": "Ogryn Tribes",
+    "rarity": "epic",
+    "role": "defense",
+    "affinity": "void"
+  },
+  "stats": {
+    "hp": 18165,
+    "atk": 683,
+    "def": 1409,
+    "spd": 95,
+    "crate": 15,
+    "cdmg": 50,
+    "resist": 30,
+    "acc": 15
+  },
+  "aura": "Increases Ally DEF in the Doom Tower by 30%",
+  "skills": [
+    {
+      "cd": 0,
+      "mincd": 0,
+      "passive": false,
+      "dmgscaling": [
+        "DEF"
+      ],
+      "abilityname": "Flaming Pigsticker",
+      "damageMultiplier": "2.65 DEF",
+      "description": "Attacks 1 enemy. Has a 30% chance of placing a 30% [Decrease SPD] debuff for 2 turns. Has a 30% chance of placing a [Stun] debuff for 1 turn instead of counterattacking with this skill.",
+      "books": [
+        "Level 2: Damage +5%",
+        "Level 3: Buff/Debuff Chance +5%",
+        "Level 4: Damage +5%",
+        "Level 5: Buff/Debuff Chance +5%",
+        "Level 6: Damage +5%",
+        "Level 7: Buff/Debuff Chance +5%",
+        "Level 8: Damage +10%"
+      ]
+    },
+    {
+      "cd": 5,
+      "mincd": 3,
+      "passive": false,
+      "dmgscaling": [
+        "DEF"
+      ],
+      "abilityname": "Hulking Tantrum",
+      "damageMultiplier": "3 DEF",
+      "description": "Attacks all enemies. Has a 50% chance of placing a [Provoke] debuff for 1 turn. Places a 60% [Increase DEF] buff on this champion for 2 turns.",
+      "books": [
+        "Level 2: Buff/Debuff Chance +5%",
+        "Level 3: Buff/Debuff Chance +5%",
+        "Level 4: Buff/Debuff Chance +5%",
+        "Level 5: Buff/Debuff Chance +5%",
+        "Level 6: Buff/Debuff Chance +5%",
+        "Level 7: Cooldown -1",
+        "Level 8: Cooldown -1"
+      ]
+    },
+    {
+      "cd": 5,
+      "mincd": 4,
+      "passive": false,
+      "dmgscaling": [],
+      "abilityname": "Giant Strength",
+      "description": "Places a 25% [Strengthen] buff and a 15% [Continuous Heal] buff on all allies for 2 turns.",
+      "books": [
+        "Level 2: Cooldown -1"
+      ]
+    },
+    {
+      "cd": 0,
+      "mincd": 0,
+      "passive": true,
+      "dmgscaling": [],
+      "abilityname": "Master of Taunts",
+      "description": "Receives 20% less damage from enemies under [Provoke] debuffs. Has a 25% chance of counterattacking whenever an enemy under a [Provoke] debuff attack either this champion on an ally.",
+      "books": [
+        "Level 2: Buff/Debuff Chance +5%",
+        "Level 3: Buff/Debuff Chance +5%",
+        "Level 4: Buff/Debuff Chance +5%",
+        "Level 5: Buff/Debuff Chance +5%",
+        "Level 6: Buff/Debuff Chance +5%"
+      ]
+    }
+  ],
+  "version": "3.30.0",
+  "avatarUrl": "https://mcradane.github.io/raid-data/images/avatar/Prundar.png"
+}

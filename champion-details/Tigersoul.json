@@ -1,0 +1,79 @@
+{
+  "name": "Tigersoul",
+  "id": "Tigersoul",
+  "class": {
+    "faction": "Barbarians",
+    "rarity": "rare",
+    "role": "attack",
+    "affinity": "spirit"
+  },
+  "stats": {
+    "hp": 11070,
+    "atk": 1255,
+    "def": 1035,
+    "spd": 96,
+    "crate": 15,
+    "cdmg": 50,
+    "resist": 30,
+    "acc": 10
+  },
+  "skills": [
+    {
+      "cd": 0,
+      "mincd": 0,
+      "passive": false,
+      "dmgscaling": [
+        "ATK"
+      ],
+      "abilityname": "Scorpion Tips",
+      "damageMultiplier": "2.77 ATK",
+      "description": "Attacks 1 enemy. Has a 40% chance of placing a 5% [Poison] debuff for 2 turns.",
+      "books": [
+        "Level 2: Damage +5%",
+        "Level 3: Buff/Debuff Chance +5%",
+        "Level 4: Damage +5%",
+        "Level 5: Buff/Debuff Chance +5%",
+        "Level 6: Damage +5%",
+        "Level 7: Buff/Debuff Chance +5%",
+        "Level 8: Damage +5%",
+        "Level 9: Buff/Debuff Chance +5%"
+      ]
+    },
+    {
+      "cd": 4,
+      "mincd": 4,
+      "passive": false,
+      "dmgscaling": [
+        "ATK"
+      ],
+      "abilityname": "Wearying Tactics",
+      "damageMultiplier": "4.5 ATK",
+      "description": "Attacks 1 enemy. Has a 75% chance of placing a 15% [Weaken] debuff for 2 turns.",
+      "books": [
+        "Level 2: Damage +5%",
+        "Level 3: Buff/Debuff Chance +5%",
+        "Level 4: Damage +5%",
+        "Level 5: Buff/Debuff Chance +5%",
+        "Level 6: Buff/Debuff Chance +5%",
+        "Level 7: Damage +10%",
+        "Level 8: Buff/Debuff Chance +10%",
+        "Level 9: Damage +10%"
+      ]
+    },
+    {
+      "cd": 6,
+      "mincd": 3,
+      "passive": false,
+      "dmgscaling": [],
+      "abilityname": "Tiger’s Strength",
+      "description": "Places a [Block Debuffs] buff and a 60% [Increase DEF] buff on this Champion for 2 turns.",
+      "books": [
+        "Level 2: Cooldown -1",
+        "Level 8: Cooldown -1",
+        "Level 4: Cooldown -1"
+      ]
+    }
+  ],
+  "version": "3.30.0",
+  "avatarUrl": "https://mcradane.github.io/raid-data/images/avatar/Tigersoul.png"
+}

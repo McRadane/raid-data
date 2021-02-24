@@ -1,54 +1,60 @@
 {
   "name": "Fireblade",
+  "id": "Fireblade",
   "class": {
     "faction": "Banner Lords",
-    "rarity": "Uncommon",
-    "role": "Attack",
-    "affinity": "Spirit"
+    "rarity": "uncommon",
+    "role": "attack",
+    "affinity": "spirit"
   },
   "stats": {
-    "hp": "10,800",
-    "atk": "1,178",
-    "def": "903",
-    "spd": "95",
-    "crate": "RATE",
-    "cdmg": "15",
-    "resist": "50",
-    "acc": "30"
+    "hp": 10800,
+    "atk": 1178,
+    "def": 903,
+    "spd": 95,
+    "crate": 15,
+    "cdmg": 50,
+    "resist": 30,
+    "acc": 0
   },
   "skills": [
     {
       "cd": 0,
       "mincd": 0,
+      "passive": false,
       "dmgscaling": [
         "ATK"
       ],
       "abilityname": "Burning Spear",
+      "damageMultiplier": "3.1 ATK",
       "description": "Attacks 1 enemy. Places a 25% [Decrease ATK] debuff for 2 turns if this attack is critical.",
       "books": [
-        "Level: 2 Damage +5%",
-        "Level: 3 Buff/Debuff Chance +5%",
-        "Level: 4 Damage +5%",
-        "Level: 5 Buff/Debuff Chance +10%",
-        "Level: 6 Buff/Debuff Chance +10%"
+        "Level 2: Damage +5%",
+        "Level 3: Damage +5%",
+        "Level 4: Damage +5%",
+        "Level 5: Damage +5%",
+        "Level 6: Damage +5%"
       ]
     },
     {
       "cd": 4,
       "mincd": 3,
+      "passive": false,
       "dmgscaling": [
         "ATK"
       ],
       "abilityname": "Path of Flame",
+      "damageMultiplier": "2.3 ATK",
       "description": "Attacks 1 enemy 3 times. Each hit has a 30% chance of placing a 2.5% [Poison] debuff for 2 turns.",
       "books": [
-        "Level: 2 Damage +5%",
-        "Level: 3 Damage +5%",
-        "Level: 4 Buff/Debuff Chance +10%",
-        "Level: 5 Buff/Debuff Chance +10%",
-        "Level: 6 Cooldown -1"
+        "Level 2: Damage +5%",
+        "Level 3: Damage +5%",
+        "Level 4: Buff/Debuff Chance +10%",
+        "Level 5: Buff/Debuff Chance +10%",
+        "Level 6: Cooldown -1"
       ]
     }
   ],
-  "avatarUrl": "https://goctionni.github.io/raid-data/images/avatar/Fireblade.png"
+  "version": "3.30.0",
+  "avatarUrl": "https://mcradane.github.io/raid-data/images/avatar/Fireblade.png"
 }

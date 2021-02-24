@@ -1,29 +1,33 @@
 {
   "name": "Ghostborn",
+  "id": "Ghostborn",
   "class": {
     "faction": "Dark Elves",
-    "rarity": "Legendary",
-    "role": "Support",
-    "affinity": "Spirit"
+    "rarity": "legendary",
+    "role": "support",
+    "affinity": "spirit"
   },
   "stats": {
-    "hp": "18,825",
-    "atk": "1,211",
-    "def": "1,112",
-    "spd": "101",
-    "crate": "RATE",
-    "cdmg": "15",
-    "resist": "50",
-    "acc": "40"
+    "hp": 18825,
+    "atk": 1211,
+    "def": 1112,
+    "spd": 101,
+    "crate": 15,
+    "cdmg": 50,
+    "resist": 40,
+    "acc": 0
   },
+  "aura": "Increases Ally ACC in Faction Crypts by 65.",
   "skills": [
     {
       "cd": 0,
       "mincd": 0,
+      "passive": false,
       "dmgscaling": [
         "ATK"
       ],
       "abilityname": "Energy Bolt",
+      "damageMultiplier": "4.5 ATK",
       "description": "Attacks 1 enemy. Has a 50% chance of placing a 60% [Decrease DEF] debuff for 2 turns.",
       "books": [
         "Level: 2 Buff/Debuff Chance +10%",
@@ -35,11 +39,13 @@
     {
       "cd": 4,
       "mincd": 3,
+      "passive": false,
       "dmgscaling": [
         "ATK",
         "SPD"
       ],
       "abilityname": "Petrify",
+      "damageMultiplier": "1 ATK x (2 + SPD/100)",
       "description": "Attacks all enemies. Has a 75% chance of placing a 100% [Heal Reduction] debuff for 2 turns.",
       "books": [
         "Level: 2 Buff/Debuff Chance +10%",
@@ -50,25 +56,20 @@
     {
       "cd": 5,
       "mincd": 4,
+      "passive": false,
       "dmgscaling": [
         "ATK"
       ],
       "abilityname": "Ancestral Spirits",
+      "damageMultiplier": "3.8 ATK",
       "description": "Attacks all enemies. Has a 75% chance of placing a 60% [Decrease DEF] debuff for 2 turns. This debuff cannot be resisted. Places a 50% [Increase ATK] buff on all allies for 2 turns.",
       "books": [
         "Level: 2 Buff/Debuff Chance +10%",
         "Level: 3 Buff/Debuff Chance +15%",
         "Level: 4 Cooldown -1"
       ]
-    },
-    {
-      "cd": 0,
-      "mincd": 0,
-      "dmgscaling": [],
-      "abilityname": "Aura",
-      "description": "Increases Ally ACC in Faction Crypts by 65.",
-      "books": []
     }
   ],
-  "avatarUrl": "https://goctionni.github.io/raid-data/images/avatar/Ghostborn.png"
+  "version": "3.30.0",
+  "avatarUrl": "https://mcradane.github.io/raid-data/images/avatar/Ghostborn.png"
 }

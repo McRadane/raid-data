@@ -46,7 +46,10 @@ listDetailsChampions.forEach((championFile) => {
   if (!champion.version) {
     deprecatedDetails.push({ champion: championId, version: "unknown" });
   } else if (champion.version !== packageJson.version) {
-    deprecatedDetails.push({ champion: championId, version: champion.version });
+    deprecatedDetails.push({
+      champion: championId,
+      version: champion.version,
+    });
   }
 });
 

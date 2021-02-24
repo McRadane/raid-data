@@ -1,30 +1,34 @@
 {
   "name": "Dracomorph",
+  "id": "Dracomorph",
   "class": {
     "faction": "Lizardmen",
-    "rarity": "Legendary",
-    "role": "Attack",
-    "affinity": "Magic"
+    "rarity": "legendary",
+    "role": "attack",
+    "affinity": "magic"
   },
   "stats": {
-    "hp": "15,195",
-    "atk": "1,520",
-    "def": "1,046",
-    "spd": "98",
-    "crate": "RATE",
-    "cdmg": "15",
-    "resist": "63",
-    "acc": "30"
+    "hp": 15195,
+    "atk": 1520,
+    "def": 1046,
+    "spd": 98,
+    "crate": 15,
+    "cdmg": 63,
+    "resist": 30,
+    "acc": 10
   },
+  "aura": "Increases Ally ACC in Faction Crypts by 50.",
   "skills": [
     {
       "cd": 0,
       "mincd": 0,
+      "passive": false,
       "dmgscaling": [
         "ATK"
       ],
       "abilityname": "Seeping Pain",
-      "description": "Attacks 1 enemy. Damage increases by 10% for each debuff on the target. Will attack 1 random enemy with any surplus damage if the target is killed. Damage inflicted is equal to triple the surplus damage.",
+      "damageMultiplier": "3.5 ATK",
+      "description": "Attacks 1 enemy. Damage increases by 10% for each debuff on the target. Will attack 1 random enemy with any surplus damage if the target is killed. Damage inflicted is equal to triple the surplus damage. The surplus damage cannot be critical.",
       "books": [
         "Level 2: Damage +5%",
         "Level 3: Damage +5%",
@@ -35,10 +39,12 @@
     {
       "cd": 4,
       "mincd": 3,
+      "passive": false,
       "dmgscaling": [
         "ATK"
       ],
       "abilityname": "Poison Jaws",
+      "damageMultiplier": "1.3 ATK",
       "description": "Attacks 4 times at random. Each hit places a 5% [Poison] debuff for 3 turns.",
       "books": [
         "Level 2: Damage +10%",
@@ -50,6 +56,7 @@
     {
       "cd": 5,
       "mincd": 3,
+      "passive": false,
       "dmgscaling": [],
       "abilityname": "Baleful Eye",
       "description": "Places a 25% [Weaken] debuff and a 60% [Decrease DEF] debuff on all enemies for 2 turns.",
@@ -57,15 +64,8 @@
         "Level 2: Cooldown -1",
         "Level 3: Cooldown -1"
       ]
-    },
-    {
-      "cd": 0,
-      "mincd": 0,
-      "dmgscaling": [],
-      "abilityname": "Aura",
-      "description": "Increases Ally ACC in Faction Crypts by 50.",
-      "books": []
     }
   ],
-  "avatarUrl": "https://goctionni.github.io/raid-data/images/avatar/Dracomorph.png"
+  "version": "3.30.0",
+  "avatarUrl": "https://mcradane.github.io/raid-data/images/avatar/Dracomorph.png"
 }

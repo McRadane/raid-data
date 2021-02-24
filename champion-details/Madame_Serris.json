@@ -1,29 +1,32 @@
 {
   "name": "Madame Serris",
+  "id": "Madame_Serris",
   "class": {
     "faction": "Dark Elves",
-    "rarity": "Epic",
-    "role": "Support",
-    "affinity": "Void"
+    "rarity": "epic",
+    "role": "support",
+    "affinity": "void"
   },
   "stats": {
-    "hp": "19,650",
-    "atk": "826",
-    "def": "1,167",
-    "spd": "100",
-    "crate": "Rate",
-    "cdmg": "15",
-    "resist": "50",
-    "acc": "30"
+    "hp": 19650,
+    "atk": 826,
+    "def": 1167,
+    "spd": 100,
+    "crate": 15,
+    "cdmg": 50,
+    "resist": 30,
+    "acc": 15
   },
   "skills": [
     {
       "cd": 0,
       "mincd": 0,
+      "passive": false,
       "dmgscaling": [
         "ATK"
       ],
       "abilityname": "Panic Spread",
+      "damageMultiplier": "4.2 ATK",
       "description": "Attacks 1 enemy. Has a 20% chance of placing a [Fear] debuff for 1 turn. This chance increases to 30% if the target is under 1 debuff. This chance increases to 45% if the target is under 2 or more debuffs.",
       "books": [
         "Level 2: Damage +5%",
@@ -35,10 +38,12 @@
     {
       "cd": 4,
       "mincd": 3,
+      "passive": false,
       "dmgscaling": [
         "ATK"
       ],
       "abilityname": "Tricks and Treats",
+      "damageMultiplier": "4.3 ATK",
       "description": "Attacks all enemies. Has a 40% chance of stealing 1 random buff from each target. Places a [Block Debuffs] buff on all allies for 2 turns if any buff is stolen. Places a [True Fear] debuff for 1 turn on enemies who have buffs stolen.",
       "books": [
         "Level 2: Damage +5%",
@@ -50,9 +55,10 @@
     {
       "cd": 6,
       "mincd": 4,
+      "passive": false,
       "dmgscaling": [],
       "abilityname": "Midnight Ritual",
-      "description": "Removes all buffs from enemies. Places a 50% [Decrease ATK] debuff and a 60% [Decrease DEF] debuff on all enemies for 3 turns.",
+      "description": "Removes all buffs from enemies. Places a 50% [Decrease ATK] debuff and a 60% [Decrease DEF] debuff on all enemies for 2 turns.",
       "books": [
         "Level 1: Cooldown -1",
         "Level 2: Cooldown -1"
@@ -61,13 +67,13 @@
     {
       "cd": 0,
       "mincd": 0,
-      "dmgscaling": [
-        "Passive"
-      ],
+      "passive": true,
+      "dmgscaling": [],
       "abilityname": "Witch’s Grace",
       "description": "Places a [Shield] buff on this Champion equal to 10% of their MAX HP at the start of each turn. When attacked while under a [Shield] buff, has a 35% chance of placing a [Fear] debuff on the attacker for 1 turn.",
       "books": []
     }
   ],
-  "avatarUrl": "https://goctionni.github.io/raid-data/images/avatar/Madame_Serris.png"
+  "version": "3.30.0",
+  "avatarUrl": "https://mcradane.github.io/raid-data/images/avatar/Madame_Serris.png"
 }

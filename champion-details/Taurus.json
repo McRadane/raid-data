@@ -1,29 +1,33 @@
 {
   "name": "Taurus",
+  "id": "Taurus",
   "class": {
     "faction": "Skinwalkers",
-    "rarity": "Epic",
-    "role": "Attack",
-    "affinity": "Magic"
+    "rarity": "epic",
+    "role": "attack",
+    "affinity": "magic"
   },
   "stats": {
-    "hp": "17,010",
-    "atk": "1,310",
-    "def": "859",
-    "spd": "101",
-    "crate": "Rate",
-    "cdmg": "15",
-    "resist": "50",
-    "acc": "30"
+    "hp": 17010,
+    "atk": 1310,
+    "def": 859,
+    "spd": 101,
+    "crate": 15,
+    "cdmg": 50,
+    "resist": 30,
+    "acc": 15
   },
+  "aura": "Increases Ally ACC in Faction Crypts by 40.",
   "skills": [
     {
       "cd": 0,
       "mincd": 0,
+      "passive": false,
       "dmgscaling": [
         "ATK"
       ],
       "abilityname": "Metabolize",
+      "damageMultiplier": "4 ATK",
       "description": "Attacks 1 enemy. Heals by 20% of the damage inflicted if the target has a [Poison] debuff.",
       "books": [
         "Level 2: Damage +5%",
@@ -35,11 +39,13 @@
     {
       "cd": 4,
       "mincd": 3,
+      "passive": false,
       "dmgscaling": [
         "ATK"
       ],
       "abilityname": "Tendon Slash",
-      "description": "Attacks 1 enemy. Has a 50% chance of placing a 25% [Weaken] debuff for 2 turns.",
+      "damageMultiplier": "6.5 ATK",
+      "description": "Attacks 1 enemy. Has a 75% chance of placing a 25% [Weaken] debuff for 2 turns.",
       "books": [
         "Level 2: Damage +5%",
         "Level 3: Buff/Debuff Chance +10%",
@@ -51,23 +57,18 @@
     {
       "cd": 5,
       "mincd": 4,
+      "passive": false,
       "dmgscaling": [],
       "abilityname": "Toxic Nova",
-      "description": "This Champion receives damage equal to 99% of their current HP. Places an [Unkillable] buff on this Champion for 2 turns. Has an 80% chance of placing three 5% [Poison] debuffs on all enemies for 2 turns.",
+      "damageMultiplier": "0.99 Current HP",
+      "description": "This Champion receives damage equal to 99% of their current HP. Places an [Unkillable] buff on this Champion for 2 turns. Has an 80% chance of placing four 5% [Poison] debuffs on all enemies for 2 turns.",
       "books": [
         "Level 2: Buff/Debuff Chance +10%",
         "Level 3: Buff/Debuff Chance +10%",
         "Level 4: Cooldown -1"
       ]
-    },
-    {
-      "cd": 0,
-      "mincd": 0,
-      "dmgscaling": [],
-      "abilityname": "Aura",
-      "description": "Increases Ally ACC in Faction Crypts by 40.",
-      "books": []
     }
   ],
-  "avatarUrl": "https://goctionni.github.io/raid-data/images/avatar/Taurus.png"
+  "version": "3.30.0",
+  "avatarUrl": "https://mcradane.github.io/raid-data/images/avatar/Taurus.png"
 }

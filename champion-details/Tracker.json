@@ -1,25 +1,27 @@
 {
   "name": "Tracker",
+  "id": "Tracker",
   "class": {
     "faction": "Orcs",
-    "rarity": "Uncommon",
-    "role": "Attack",
-    "affinity": "Force"
+    "rarity": "uncommon",
+    "role": "attack",
+    "affinity": "force"
   },
   "stats": {
-    "hp": "14,700",
-    "atk": "1,134",
-    "def": "639",
-    "spd": "94",
-    "crate": "RATE",
-    "cdmg": "15",
-    "resist": "50",
-    "acc": "30"
+    "hp": 14700,
+    "atk": 1134,
+    "def": 639,
+    "spd": 94,
+    "crate": 15,
+    "cdmg": 50,
+    "resist": 30,
+    "acc": 0
   },
   "skills": [
     {
       "cd": 0,
       "mincd": 0,
+      "passive": false,
       "dmgscaling": [
         "ATK"
       ],
@@ -37,6 +39,7 @@
     {
       "cd": 4,
       "mincd": 3,
+      "passive": false,
       "dmgscaling": [
         "ATK"
       ],
@@ -53,5 +56,6 @@
       ]
     }
   ],
-  "avatarUrl": "https://goctionni.github.io/raid-data/images/avatar/Tracker.png"
+  "version": "3.30.0",
+  "avatarUrl": "https://mcradane.github.io/raid-data/images/avatar/Tracker.png"
 }

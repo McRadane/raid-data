@@ -1,29 +1,32 @@
 {
   "name": "Crusader",
+  "id": "Crusader",
   "class": {
     "faction": "The Sacred Order",
-    "rarity": "Uncommon",
-    "role": "Attack",
-    "affinity": "Force"
+    "rarity": "uncommon",
+    "role": "attack",
+    "affinity": "force"
   },
   "stats": {
-    "hp": "12,390",
-    "atk": "1,123",
-    "def": "804",
-    "spd": "92",
-    "crate": "Rate",
-    "cdmg": "15",
-    "resist": "57",
-    "acc": "30"
+    "hp": 12390,
+    "atk": 1123,
+    "def": 804,
+    "spd": 92,
+    "crate": 15,
+    "cdmg": 57,
+    "resist": 30,
+    "acc": 0
   },
   "skills": [
     {
       "cd": 0,
       "mincd": 0,
+      "passive": false,
       "dmgscaling": [
         "ATK"
       ],
       "abilityname": "Hack",
+      "damageMultiplier": "2.3 ATK",
       "description": "Attacks 1 enemy 2 times.",
       "books": [
         "Level 2: Damage +5%",
@@ -35,6 +38,7 @@
     {
       "cd": 3,
       "mincd": 2,
+      "passive": false,
       "dmgscaling": [],
       "abilityname": "Rally",
       "description": "Attacks 1 enemy with 1 random ally. The ally joining the attack use their default skill.",
@@ -47,5 +51,6 @@
       ]
     }
   ],
-  "avatarUrl": "https://goctionni.github.io/raid-data/images/avatar/Crusader.png"
+  "version": "3.30.0",
+  "avatarUrl": "https://mcradane.github.io/raid-data/images/avatar/Crusader.png"
 }

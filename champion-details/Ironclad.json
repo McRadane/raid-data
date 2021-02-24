@@ -1,30 +1,34 @@
 {
   "name": "Ironclad",
+  "id": "Ironclad",
   "class": {
     "faction": "Orcs",
-    "rarity": "Rare",
-    "role": "HP",
-    "affinity": "Force"
+    "rarity": "rare",
+    "role": "hp",
+    "affinity": "force"
   },
   "stats": {
-    "hp": "18,825",
-    "atk": "947",
-    "def": "826",
-    "spd": "104",
-    "crate": "RATE",
-    "cdmg": "15",
-    "resist": "50",
-    "acc": "40"
+    "hp": 18825,
+    "atk": 947,
+    "def": 826,
+    "spd": 104,
+    "crate": 15,
+    "cdmg": 50,
+    "resist": 40,
+    "acc": 0
   },
+  "aura": "Increases Ally HP in all Battles by 16%.",
   "skills": [
     {
       "cd": 0,
       "mincd": 0,
+      "passive": false,
       "dmgscaling": [
         "HP",
         "ATK"
       ],
       "abilityname": "Wallop",
+      "damageMultiplier": "0.1 HP + ATK",
       "description": "Attacks 1 enemy. Has a 25% chance of placing a 100% [Heal Reduction] debuff for 2 turns.",
       "books": [
         "Level 2: Damage +5%",
@@ -36,6 +40,7 @@
     {
       "cd": 4,
       "mincd": 3,
+      "passive": false,
       "dmgscaling": [],
       "abilityname": "Amok",
       "description": "Removes 1 random debuff from all allies. Places a 25% [Increase ATK] buff on all allies for 2 turns.",
@@ -46,21 +51,13 @@
     {
       "cd": 1,
       "mincd": 1,
-      "dmgscaling": [
-        "Passive"
-      ],
+      "passive": true,
+      "dmgscaling": [],
       "abilityname": "Blood Burst",
       "description": "When healed, will attack all enemies inflicting damage proportional to any surplus heal. Damage inflicted is equal to 50% of any surplus heal.",
       "books": []
-    },
-    {
-      "cd": 0,
-      "mincd": 0,
-      "dmgscaling": [],
-      "abilityname": "Aura",
-      "description": "Increases Ally HP in all Battles by 16%.",
-      "books": []
     }
   ],
-  "avatarUrl": "https://goctionni.github.io/raid-data/images/avatar/Ironclad.png"
+  "version": "3.30.0",
+  "avatarUrl": "https://mcradane.github.io/raid-data/images/avatar/Ironclad.png"
 }

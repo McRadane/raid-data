@@ -1,29 +1,33 @@
 {
   "name": "Ripper",
+  "id": "Ripper",
   "class": {
     "faction": "Skinwalkers",
-    "rarity": "Epic",
-    "role": "Attack",
-    "affinity": "Force"
+    "rarity": "epic",
+    "role": "attack",
+    "affinity": "force"
   },
   "stats": {
-    "hp": "16,020",
-    "atk": "1,299",
-    "def": "936",
-    "spd": "96",
-    "crate": "Rate",
-    "cdmg": "15",
-    "resist": "60",
-    "acc": "30"
+    "hp": 16020,
+    "atk": 1299,
+    "def": 936,
+    "spd": 96,
+    "crate": 15,
+    "cdmg": 60,
+    "resist": 30,
+    "acc": 15
   },
+  "aura": "Increases Force Ally C.RATE in all Battles by 23%.",
   "skills": [
     {
       "cd": 0,
       "mincd": 0,
+      "passive": false,
       "dmgscaling": [
         "ATK"
       ],
       "abilityname": "Scar for Life",
+      "damageMultiplier": "4 ATK",
       "description": "Attacks 1 enemy. Decreases their MAX HP by 10% of the damage inflicted.",
       "books": [
         "Level 2: Damage +5%",
@@ -35,10 +39,12 @@
     {
       "cd": 4,
       "mincd": 3,
+      "passive": false,
       "dmgscaling": [
         "ATK"
       ],
       "abilityname": "No Quarter",
+      "damageMultiplier": "3 ATK + 1.5 ATK * (1 – TARGET HP PERCENT)",
       "description": "Attacks 1 enemy 2 times. Damage increases as the target’s HP decreases.",
       "books": [
         "Level 2: Damage +5%",
@@ -51,25 +57,20 @@
     {
       "cd": 5,
       "mincd": 5,
+      "passive": false,
       "dmgscaling": [
         "ATK"
       ],
       "abilityname": "Heavy Slam",
+      "damageMultiplier": "3.3 ATK",
       "description": "Attacks 1 enemy. Will ignore 50% of the target’s DEF. Decreases their MAX HP by 30% of the damage inflicted.",
       "books": [
         "Level 2: Damage +5%",
         "Level 3: Damage +10%",
         "Level 4: Damage +10%"
       ]
-    },
-    {
-      "cd": 0,
-      "mincd": 0,
-      "dmgscaling": [],
-      "abilityname": "Aura",
-      "description": "Increases Force Ally C.RATE in all Battles by 23%.",
-      "books": []
     }
   ],
-  "avatarUrl": "https://goctionni.github.io/raid-data/images/avatar/Ripper.png"
+  "version": "3.30.0",
+  "avatarUrl": "https://mcradane.github.io/raid-data/images/avatar/Ripper.png"
 }

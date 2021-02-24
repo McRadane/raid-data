@@ -1,29 +1,32 @@
 {
   "name": "Skirmisher",
+  "id": "Skirmisher",
   "class": {
     "faction": "Barbarians",
-    "rarity": "Rare",
-    "role": "Attack",
-    "affinity": "Void"
+    "rarity": "rare",
+    "role": "attack",
+    "affinity": "void"
   },
   "stats": {
-    "hp": "15,360",
-    "atk": "1,211",
-    "def": "793",
-    "spd": "94",
-    "crate": "Rate",
-    "cdmg": "15",
-    "resist": "50",
-    "acc": "30"
+    "hp": 15360,
+    "atk": 1211,
+    "def": 793,
+    "spd": 94,
+    "crate": 15,
+    "cdmg": 50,
+    "resist": 30,
+    "acc": 0
   },
   "skills": [
     {
       "cd": 0,
       "mincd": 0,
+      "passive": false,
       "dmgscaling": [
         "ATK"
       ],
       "abilityname": "Twin Shafts",
+      "damageMultiplier": "1.85 ATK",
       "description": "Attacks 1 enemy 2 times. Inflicts 15% more damage against targets who have no active buffs.",
       "books": [
         "Level 2: Damage +5%",
@@ -35,10 +38,12 @@
     {
       "cd": 4,
       "mincd": 3,
+      "passive": false,
       "dmgscaling": [
         "ATK"
       ],
       "abilityname": "Hexed Arrow",
+      "damageMultiplier": "5.3 ATK",
       "description": "Attacks 1 enemy. Decreases the target’s Turn Meter by 20% if this attack is critical.",
       "books": [
         "Level 2: Damage +5%",
@@ -51,10 +56,12 @@
     {
       "cd": 5,
       "mincd": 3,
+      "passive": false,
       "dmgscaling": [
         "ATK"
       ],
       "abilityname": "Dispelling Shot",
+      "damageMultiplier": "3.3 ATK",
       "description": "Attacks all enemies. Removes 1 random buff from each enemy.",
       "books": [
         "Level 2: Damage +5%",
@@ -65,5 +72,6 @@
       ]
     }
   ],
-  "avatarUrl": "https://goctionni.github.io/raid-data/images/avatar/Skirmisher.png"
+  "version": "3.30.0",
+  "avatarUrl": "https://mcradane.github.io/raid-data/images/avatar/Skirmisher.png"
 }

@@ -1,29 +1,32 @@
 {
   "name": "Bone Knight",
+  "id": "Bone_Knight",
   "class": {
     "faction": "Undead Hordes",
-    "rarity": "Rare",
-    "role": "Attack",
-    "affinity": "Spirit"
+    "rarity": "rare",
+    "role": "attack",
+    "affinity": "spirit"
   },
   "stats": {
-    "hp": "14,370",
-    "atk": "1,090",
-    "def": "980",
-    "spd": "93",
-    "crate": "Rate",
-    "cdmg": "15",
-    "resist": "57",
-    "acc": "30"
+    "hp": 14370,
+    "atk": 1090,
+    "def": 980,
+    "spd": 93,
+    "crate": 15,
+    "cdmg": 57,
+    "resist": 30,
+    "acc": 0
   },
   "skills": [
     {
       "cd": 0,
       "mincd": 0,
+      "passive": false,
       "dmgscaling": [
         "ATK"
       ],
       "abilityname": "Mutilate",
+      "damageMultiplier": "1.8 ATK",
       "description": "Attacks 1 enemy 2 times. Has a 15% chance of placing a 15% [Weaken] debuff for 2 turns.",
       "books": [
         "Level 2: Damage +5%",
@@ -36,10 +39,12 @@
     {
       "cd": 3,
       "mincd": 2,
+      "passive": false,
       "dmgscaling": [
         "ATK"
       ],
       "abilityname": "Ancient Seal",
+      "damageMultiplier": "7 ATK",
       "description": "Attacks 1 enemy. Has an 80% chance of placing a 100% [Heal Reduction] debuff for 2 turns.",
       "books": [
         "Level 2: Damage +10%",
@@ -52,11 +57,13 @@
     {
       "cd": 4,
       "mincd": 3,
+      "passive": false,
       "dmgscaling": [
         "ATK"
       ],
       "abilityname": "Death’s Vigor",
-      "description": "Attacks all enemies. Places a 15% [Increase C. RATE] buff on all allies for 2 turns.",
+      "damageMultiplier": "4.2 ATK",
+      "description": "Attacks all enemies. Places a 15% [Increase C.RATE] buff on all allies for 2 turns.",
       "books": [
         "Level 2: Damage +10%",
         "Level 3: Damage +10%",
@@ -64,5 +71,6 @@
       ]
     }
   ],
-  "avatarUrl": "https://goctionni.github.io/raid-data/images/avatar/Bone_Knight.png"
+  "version": "3.30.0",
+  "avatarUrl": "https://mcradane.github.io/raid-data/images/avatar/Bone_Knight.png"
 }

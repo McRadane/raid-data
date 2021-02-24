@@ -1,29 +1,33 @@
 {
   "name": "Teela Goremane",
+  "id": "Teela_Goremane",
   "class": {
     "faction": "Orcs",
-    "rarity": "Legendary",
-    "role": "Support",
-    "affinity": "Magic"
+    "rarity": "legendary",
+    "role": "support",
+    "affinity": "magic"
   },
   "stats": {
-    "hp": "21,975",
-    "atk": "892",
-    "def": "1,222",
-    "spd": "92",
-    "crate": "15%",
-    "cdmg": "63%",
-    "resist": "30",
-    "acc": "0"
+    "hp": 21975,
+    "atk": 892,
+    "def": 1222,
+    "spd": 92,
+    "crate": 15,
+    "cdmg": 63,
+    "resist": 30,
+    "acc": 0
   },
+  "aura": "Increases Ally RESIST in all Battles by 35.",
   "skills": [
     {
       "cd": 0,
       "mincd": 0,
+      "passive": false,
       "dmgscaling": [
         "HP"
       ],
       "abilityname": "Hexdrinker Scimitar",
+      "damageMultiplier": "0.2 HP",
       "description": "Attacks 1 enemy. Steals 1 random buff from the target.",
       "books": [
         "Level 2: Damage +5%",
@@ -35,10 +39,12 @@
     {
       "cd": 4,
       "mincd": 4,
+      "passive": false,
       "dmgscaling": [
         "HP"
       ],
       "abilityname": "Pyre Strike",
+      "damageMultiplier": "0.3 HP",
       "description": "Attacks 1 enemy. Places a [HP Burn] debuff for 2 turns. Places a 15% [Continuous Heal] buff on all allies for 2 turns if this attack is critical.",
       "books": [
         "Level 2: Damage +5%",
@@ -50,10 +56,12 @@
     {
       "cd": 5,
       "mincd": 4,
+      "passive": false,
       "dmgscaling": [
         "HP"
       ],
       "abilityname": "Life Worm",
+      "damageMultiplier": "0.2 HP",
       "description": "Attacks all enemies. Has an 85% chance of placing a [Leech] debuff and a 100% [Heal Reduction] debuff for 2 turns.",
       "books": [
         "Level 2: Damage +5%",
@@ -62,15 +70,8 @@
         "Level 5: Buff/Debuff Chance +15%",
         "Level 6: Cooldown -1"
       ]
-    },
-    {
-      "cd": 0,
-      "mincd": 0,
-      "dmgscaling": [],
-      "abilityname": "Aura",
-      "description": "Increases Ally RESIST in all Battles by 35.",
-      "books": []
     }
   ],
-  "avatarUrl": "https://goctionni.github.io/raid-data/images/avatar/Teela_Goremane.png"
+  "version": "3.30.0",
+  "avatarUrl": "https://mcradane.github.io/raid-data/images/avatar/Teela_Goremane.png"
 }

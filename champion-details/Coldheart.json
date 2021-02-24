@@ -1,29 +1,32 @@
 {
   "name": "Coldheart",
+  "id": "Coldheart",
   "class": {
     "faction": "Dark Elves",
-    "rarity": "Rare",
-    "role": "Attack",
-    "affinity": "Void"
+    "rarity": "rare",
+    "role": "attack",
+    "affinity": "void"
   },
   "stats": {
-    "hp": "13,710",
-    "atk": "1,376",
-    "def": "738",
-    "spd": "94",
-    "crate": "RATE",
-    "cdmg": "15",
-    "resist": "57",
-    "acc": "30"
+    "hp": 13710,
+    "atk": 1376,
+    "def": 738,
+    "spd": 94,
+    "crate": 15,
+    "cdmg": 57,
+    "resist": 30,
+    "acc": 0
   },
   "skills": [
     {
       "cd": 0,
       "mincd": 0,
+      "passive": false,
       "dmgscaling": [
         "ATK"
       ],
       "abilityname": "Flurry of Arrows",
+      "damageMultiplier": "0.7 ATK",
       "description": "Attacks 4 times at random. Each hit has a 25% chance of placing a 100% [Heal Reduction] debuff for 2 turns.",
       "books": [
         "Level 2: Damage +5%",
@@ -35,10 +38,12 @@
     {
       "cd": 4,
       "mincd": 3,
+      "passive": false,
       "dmgscaling": [
         "ATK"
       ],
       "abilityname": "Art of Pain",
+      "damageMultiplier": "3.3 ATK",
       "description": "Attacks all enemies. Has a 30% chance of placing a 50% [Decrease ACC] debuff for 1 turn. Places a 5% [Poison] debuff for 2 turns if the target is under a [Heal Reduction] debuff.",
       "books": [
         "Level 2: Damage +5%",
@@ -50,11 +55,13 @@
     {
       "cd": 5,
       "mincd": 4,
+      "passive": false,
       "dmgscaling": [
         "Enemy MAX HP",
         "ATK"
       ],
       "abilityname": "Heartseeker",
+      "damageMultiplier": "1.7 ATK + 0.1 ENEMY MAX HP",
       "description": "Attacks 1 enemy. Fully depletes the Turn Meter. Has an extra 30% chance of inflicting a critical hit.",
       "books": [
         "Level 2: Damage +5%",
@@ -64,5 +71,6 @@
       ]
     }
   ],
-  "avatarUrl": "https://goctionni.github.io/raid-data/images/avatar/Coldheart.png"
+  "version": "3.30.0",
+  "avatarUrl": "https://mcradane.github.io/raid-data/images/avatar/Coldheart.png"
 }

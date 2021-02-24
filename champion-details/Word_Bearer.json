@@ -1,29 +1,32 @@
 {
   "name": "Word Bearer",
+  "id": "Word_Bearer",
   "class": {
     "faction": "Banner Lords",
-    "rarity": "Uncommon",
-    "role": "Support",
-    "affinity": "Magic"
+    "rarity": "uncommon",
+    "role": "support",
+    "affinity": "magic"
   },
   "stats": {
-    "hp": "14,535",
-    "atk": "958",
-    "def": "826",
-    "spd": "96",
-    "crate": "RATE",
-    "cdmg": "15",
-    "resist": "50",
-    "acc": "30"
+    "hp": 14535,
+    "atk": 958,
+    "def": 826,
+    "spd": 96,
+    "crate": 15,
+    "cdmg": 50,
+    "resist": 30,
+    "acc": 0
   },
   "skills": [
     {
       "cd": 0,
       "mincd": 0,
+      "passive": false,
       "dmgscaling": [
         "ATK"
       ],
       "abilityname": "Noble Authority",
+      "damageMultiplier": "2.6 ATK",
       "description": "Attacks 1 enemy. Has a 25% chance of placing a 25% [Decrease ACC] debuff for 2 turns.",
       "books": [
         "Level 2: Damage +5%",
@@ -39,6 +42,7 @@
     {
       "cd": 4,
       "mincd": 2,
+      "passive": false,
       "dmgscaling": [],
       "abilityname": "Royal Shield",
       "description": "Places a 30% [Increase DEF] buff on all allies for 2 turns.",
@@ -48,5 +52,6 @@
       ]
     }
   ],
-  "avatarUrl": "https://goctionni.github.io/raid-data/images/avatar/Word_Bearer.png"
+  "version": "3.30.0",
+  "avatarUrl": "https://mcradane.github.io/raid-data/images/avatar/Word_Bearer.png"
 }

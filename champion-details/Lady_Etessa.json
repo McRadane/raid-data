@@ -1,29 +1,32 @@
 {
   "name": "Lady Etessa",
+  "id": "Lady_Etessa",
   "class": {
     "faction": "The Sacred Order",
-    "rarity": "Epic",
-    "role": "Attack",
-    "affinity": "Force"
+    "rarity": "epic",
+    "role": "attack",
+    "affinity": "force"
   },
   "stats": {
-    "hp": "13,215",
-    "atk": "1,387",
-    "def": "1,035",
-    "spd": "99",
-    "crate": "Rate",
-    "cdmg": "15",
-    "resist": "60",
-    "acc": "30"
+    "hp": 13215,
+    "atk": 1387,
+    "def": 1035,
+    "spd": 99,
+    "crate": 15,
+    "cdmg": 60,
+    "resist": 30,
+    "acc": 0
   },
   "skills": [
     {
       "cd": 0,
       "mincd": 0,
+      "passive": false,
       "dmgscaling": [
         "ATK"
       ],
       "abilityname": "Blessed Missiles",
+      "damageMultiplier": "3.5 ATK",
       "description": "Attacks 1 enemy. Has a 25% chance of placing a [Block Buffs] debuff for 2 turns.",
       "books": [
         "Level 2: Damage +5%",
@@ -35,10 +38,12 @@
     {
       "cd": 4,
       "mincd": 3,
+      "passive": false,
       "dmgscaling": [
         "ATK"
       ],
       "abilityname": "Whiplash",
+      "damageMultiplier": "5.9 ATK",
       "description": "Attacks 1 enemy. Has a 50% chance of placing a [Stun] debuff for 1 turn.",
       "books": [
         "Level 2: Damage +5%",
@@ -53,6 +58,7 @@
     {
       "cd": 5,
       "mincd": 4,
+      "passive": false,
       "dmgscaling": [],
       "abilityname": "Fiend Purge",
       "description": "Attacks 1 enemy with 2 random allies. Damage inflicted by this Champion and any allies joining this attack will be increased by 10% if the target is under a [Stun] debuff. Allies joining the attack use their default skills.",
@@ -61,5 +67,6 @@
       ]
     }
   ],
-  "avatarUrl": "https://goctionni.github.io/raid-data/images/avatar/Lady_Etessa.png"
+  "version": "3.30.0",
+  "avatarUrl": "https://mcradane.github.io/raid-data/images/avatar/Lady_Etessa.png"
 }

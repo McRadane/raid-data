@@ -1,0 +1,23 @@
+{
+  "name": "Scrapper",
+  "id": "Scrapper",
+  "class": {
+    "faction": "Barbarians",
+    "rarity": "rare",
+    "role": "attack",
+    "affinity": "void"
+  },
+  "stats": {
+    "hp": 14370,
+    "atk": 1233,
+    "def": 837,
+    "spd": 102,
+    "crate": 15,
+    "cdmg": 57,
+    "resist": 30,
+    "acc": 0
+  },
+  "skills": [],
+  "version": "3.30.0",
+  "avatarUrl": "https://mcradane.github.io/raid-data/images/avatar/Scrapper.png"
+}

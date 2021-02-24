@@ -1,0 +1,74 @@
+{
+  "name": "Flailer",
+  "id": "Flailer",
+  "class": {
+    "faction": "Dwarves",
+    "rarity": "rare",
+    "role": "defense",
+    "affinity": "magic"
+  },
+  "stats": {
+    "hp": 15525,
+    "atk": 958,
+    "def": 1035,
+    "spd": 93,
+    "crate": 15,
+    "cdmg": 50,
+    "resist": 40,
+    "acc": 0
+  },
+  "aura": "Increases Ally DEF in Faction Wars Crypts by 17%",
+  "skills": [
+    {
+      "cd": 0,
+      "mincd": 0,
+      "passive": false,
+      "dmgscaling": [
+        "DEF"
+      ],
+      "abilityname": "Tangle Bash",
+      "damageMultiplier": "4.3 DEF",
+      "description": "Attacks 1 enemy. Has a 25% chance of decreasing the target’s Turn Meter by 10%",
+      "books": [
+        "Level 2: Damage +5%",
+        "Level 3: Damage +5%",
+        "Level 4: Damage +5%",
+        "Level 5: Damage +5%"
+      ]
+    },
+    {
+      "cd": 3,
+      "mincd": 2,
+      "passive": false,
+      "dmgscaling": [
+        "DEF"
+      ],
+      "abilityname": "Noble Stand",
+      "description": "Places a 30% [Increase DEF] buff on this Champion and the ally with the lowest HP for 2 Turns. Also fills this Champion’s Turn Meter by 25%.",
+      "books": [
+        "Level 2: Cooldown -1"
+      ]
+    },
+    {
+      "cd": 4,
+      "mincd": 3,
+      "passive": false,
+      "dmgscaling": [
+        "DEF"
+      ],
+      "abilityname": "Fury Swipe",
+      "damageMultiplier": "6.3 DEF",
+      "description": "Attacks 1 enemy. Has a 75% chance of placing a [Provoke] debuff for 1 turn.",
+      "books": [
+        "Level 2: Damage +10%",
+        "Level 3: Damage +10%",
+        "Level 4: Buff/Debuff chance +5%",
+        "Level 5: Buff/Debuff chance +10%",
+        "Level 6: Buff/Debuff chance +10%",
+        "Level 7: Cooldown -1"
+      ]
+    }
+  ],
+  "version": "3.30.0",
+  "avatarUrl": "https://mcradane.github.io/raid-data/images/avatar/Flailer.png"
+}

@@ -1,29 +1,33 @@
 {
   "name": "Ogryn Jailer",
+  "id": "Ogryn_Jailer",
   "class": {
     "faction": "Ogryn Tribes",
-    "rarity": "Rare",
-    "role": "Attack",
-    "affinity": "Force"
+    "rarity": "rare",
+    "role": "attack",
+    "affinity": "force"
   },
   "stats": {
-    "hp": "11,235",
-    "atk": "1,299",
-    "def": "980",
-    "spd": "99",
-    "crate": "Rate",
-    "cdmg": "15",
-    "resist": "57",
-    "acc": "30"
+    "hp": 11235,
+    "atk": 1299,
+    "def": 980,
+    "spd": 99,
+    "crate": 15,
+    "cdmg": 57,
+    "resist": 30,
+    "acc": 0
   },
+  "aura": "Increases Ally ACC in Dungeons by 20.",
   "skills": [
     {
       "cd": 0,
       "mincd": 0,
+      "passive": false,
       "dmgscaling": [
         "ATK"
       ],
       "abilityname": "Lockdown",
+      "damageMultiplier": "4.5 ATK",
       "description": "Attacks 1 enemy. Has a 40% chance of removing 1 random buff from the target.",
       "books": [
         "Level 2: Damage +5%",
@@ -35,8 +39,10 @@
     {
       "cd": 4,
       "mincd": 3,
+      "passive": false,
       "dmgscaling": [],
       "abilityname": "Confiscate",
+      "damageMultiplier": "6 ATK",
       "description": "Attacks 1 enemy. Has a 40% chance of stealing 2 random buffs from the target. Places an extra hit if any buff is stolen.",
       "books": [
         "Level 2: Damage +10%",
@@ -50,8 +56,10 @@
     {
       "cd": 5,
       "mincd": 4,
+      "passive": false,
       "dmgscaling": [],
       "abilityname": "Reprisal",
+      "damageMultiplier": "6.2 ATK",
       "description": "Attacks 1 enemy. Damage increases by 20% if the target has no active buffs.",
       "books": [
         "Level 2: Damage +5%",
@@ -59,15 +67,8 @@
         "Level 4: Damage +15%",
         "Level 5: Cooldown -1"
       ]
-    },
-    {
-      "cd": 0,
-      "mincd": 0,
-      "dmgscaling": [],
-      "abilityname": "Aura",
-      "description": "Increases Ally ACC in Dungeons by 20.",
-      "books": []
     }
   ],
-  "avatarUrl": "https://goctionni.github.io/raid-data/images/avatar/Ogryn_Jailer.png"
+  "version": "3.30.0",
+  "avatarUrl": "https://mcradane.github.io/raid-data/images/avatar/Ogryn_Jailer.png"
 }

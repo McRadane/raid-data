@@ -1,29 +1,33 @@
 {
   "name": "Warlord",
+  "id": "Warlord",
   "class": {
     "faction": "Orcs",
-    "rarity": "Legendary",
-    "role": "Support",
-    "affinity": "Void"
+    "rarity": "legendary",
+    "role": "support",
+    "affinity": "void"
   },
   "stats": {
-    "hp": "22,305",
-    "atk": "914",
-    "def": "1,178",
-    "spd": "100",
-    "crate": "RATE",
-    "cdmg": "15",
-    "resist": "50",
-    "acc": "30"
+    "hp": 22305,
+    "atk": 914,
+    "def": 1178,
+    "spd": 100,
+    "crate": 15,
+    "cdmg": 50,
+    "resist": 30,
+    "acc": 20
   },
+  "aura": "Increases Ally RESIST in all Battles by 80.",
   "skills": [
     {
       "cd": 0,
       "mincd": 0,
+      "passive": false,
       "dmgscaling": [
         "ATK"
       ],
       "abilityname": "Bludgeon",
+      "damageMultiplier": "5 ATK",
       "description": "Attacks 1 enemy. Has a 25% chance of increasing the duration of all debuffs on the target by 1 turn.",
       "books": [
         "Level 2: Damage +5%",
@@ -35,20 +39,23 @@
     {
       "cd": 4,
       "mincd": 3,
+      "passive": false,
       "dmgscaling": [],
       "abilityname": "Protection of Gods",
-      "description": "Places a [Block Debuffs] buff on all allies for 1 turn. Places a [Shield] buff equal to 30% of this Champion’s MAX HP on all allies for 2 turns. Restores all allies’ HP by 25%.",
+      "description": "Places a [Block Debuffs] buff on all allies for 1 turn, then places a [Shield] buff on all allies for equal to 30% of this Champion’s MAX HP for 2 turns. Heals all allies by 25% of their MAX HP.",
       "books": [
         "Level 2: Cooldown -1"
       ]
     },
     {
-      "cd": 6,
-      "mincd": 5,
+      "cd": 5,
+      "mincd": 4,
+      "passive": false,
       "dmgscaling": [
         "ATK"
       ],
       "abilityname": "Orcish Rituals",
+      "damageMultiplier": "5.5 ATK",
       "description": "Attacks all enemies. Has a 70% chance to put each target’s Skills on cooldown. Has a 30% chance to fully deplete each target’s Turn Meter.",
       "books": [
         "Level 2: Buff/Debuff Chance +5%",
@@ -57,15 +64,8 @@
         "Level 5: Buff/Debuff Chance +10%",
         "Level 6: Cooldown -1"
       ]
-    },
-    {
-      "cd": 0,
-      "mincd": 0,
-      "dmgscaling": [],
-      "abilityname": "Aura",
-      "description": "Increases Ally RESIST in all Battles by 50.",
-      "books": []
     }
   ],
-  "avatarUrl": "https://goctionni.github.io/raid-data/images/avatar/Warlord.png"
+  "version": "3.30.0",
+  "avatarUrl": "https://mcradane.github.io/raid-data/images/avatar/Warlord.png"
 }

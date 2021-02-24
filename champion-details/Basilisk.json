@@ -1,29 +1,32 @@
 {
   "name": "Basilisk",
+  "id": "Basilisk",
   "class": {
     "faction": "Lizardmen",
-    "rarity": "Epic",
-    "role": "Attack",
-    "affinity": "Force"
+    "rarity": "epic",
+    "role": "attack",
+    "affinity": "force"
   },
   "stats": {
-    "hp": "15,525",
-    "atk": "1,365",
-    "def": "903",
-    "spd": "99",
-    "crate": "RATE",
-    "cdmg": "15",
-    "resist": "60",
-    "acc": "30"
+    "hp": 15525,
+    "atk": 1365,
+    "def": 903,
+    "spd": 99,
+    "crate": 15,
+    "cdmg": 60,
+    "resist": 30,
+    "acc": 10
   },
   "skills": [
     {
       "cd": 0,
       "mincd": 0,
+      "passive": false,
       "dmgscaling": [
         "ATK"
       ],
       "abilityname": "Whirling Axe",
+      "damageMultiplier": "3 ATK",
       "description": "Attacks all enemies. Places a 25% [Increase ATK] buff on this Champion for 2 turns if this attack is critical.",
       "books": [
         "Level 2: Damage +5%",
@@ -35,10 +38,12 @@
     {
       "cd": 4,
       "mincd": 3,
+      "passive": false,
       "dmgscaling": [
         "ATK"
       ],
       "abilityname": "Skullclobber",
+      "damageMultiplier": "6.5 ATK",
       "description": "Attacks 1 enemy. Places a [Stun] debuff for 1 turn.",
       "books": [
         "Level 2: Damage +5%",
@@ -50,9 +55,8 @@
     {
       "cd": 8,
       "mincd": 6,
-      "dmgscaling": [
-        "Passive"
-      ],
+      "passive": true,
+      "dmgscaling": [],
       "abilityname": "Whitstand",
       "description": "Revives this Champion to 30% HP when killed and places a [Block Damage] buff for 1 turn.",
       "books": [
@@ -61,5 +65,6 @@
       ]
     }
   ],
-  "avatarUrl": "https://goctionni.github.io/raid-data/images/avatar/Basilisk.png"
+  "version": "3.30.0",
+  "avatarUrl": "https://mcradane.github.io/raid-data/images/avatar/Basilisk.png"
 }

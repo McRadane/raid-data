@@ -1,29 +1,33 @@
 {
   "name": "Daywalker",
+  "id": "Daywalker",
   "class": {
     "faction": "Knight Revenant",
-    "rarity": "Rare",
-    "role": "HP",
-    "affinity": "Void"
+    "rarity": "rare",
+    "role": "hp",
+    "affinity": "void"
   },
   "stats": {
-    "hp": "16,515",
-    "atk": "925",
-    "def": "1,002",
-    "spd": "91",
-    "crate": "Rate",
-    "cdmg": "15",
-    "resist": "60",
-    "acc": "30"
+    "hp": 16515,
+    "atk": 925,
+    "def": 1002,
+    "spd": 91,
+    "crate": 15,
+    "cdmg": 60,
+    "resist": 30,
+    "acc": 0
   },
+  "aura": "Increases Ally C.RATE in the Arena by 21%.",
   "skills": [
     {
       "cd": 0,
       "mincd": 0,
+      "passive": false,
       "dmgscaling": [
         "ATK"
       ],
       "abilityname": "Grave’s Grasp",
+      "damageMultiplier": "3 ATK",
       "description": "Attacks 1 enemy. Places an extra hit if the target has more HP than this Champion.",
       "books": [
         "Level: 2 Damage +5%",
@@ -35,6 +39,7 @@
     {
       "cd": 4,
       "mincd": 3,
+      "passive": false,
       "dmgscaling": [],
       "abilityname": "Unnatural Vigor",
       "description": "Places a 25% [Ally Protection] buff on all allies for 2 turns. Places a [Block Debuffs] buff on this Champion for 2 turns. Removes all debuffs from this Champion.",
@@ -45,21 +50,16 @@
     {
       "cd": 5,
       "mincd": 5,
+      "passive": false,
       "dmgscaling": [
         "ATK"
       ],
       "abilityname": "Death Denied",
+      "damageMultiplier": "6.2 ATK",
       "description": "Revives this Champion with 30% HP and attacks all enemies after being killed.",
-      "books": []
-    },
-    {
-      "cd": 0,
-      "mincd": 0,
-      "dmgscaling": [],
-      "abilityname": "Aura",
-      "description": "Increases Ally C.RATE in the Arena by 21%.",
       "books": []
     }
   ],
-  "avatarUrl": "https://goctionni.github.io/raid-data/images/avatar/Daywalker.png"
+  "version": "3.30.0",
+  "avatarUrl": "https://mcradane.github.io/raid-data/images/avatar/Daywalker.png"
 }

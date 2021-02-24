@@ -1,29 +1,33 @@
 {
   "name": "Bombardier",
+  "id": "Bombardier",
   "class": {
     "faction": "Banner Lords",
-    "rarity": "Rare",
-    "role": "Attack",
-    "affinity": "Force"
+    "rarity": "rare",
+    "role": "attack",
+    "affinity": "force"
   },
   "stats": {
-    "hp": "12,555",
-    "atk": "1,310",
-    "def": "881",
-    "spd": "98",
-    "crate": "RATE",
-    "cdmg": "15",
-    "resist": "50",
-    "acc": "30"
+    "hp": 12555,
+    "atk": 1310,
+    "def": 881,
+    "spd": 98,
+    "crate": 15,
+    "cdmg": 50,
+    "resist": 30,
+    "acc": 10
   },
+  "aura": "Increases Ally C.RATE in all Battles by 12%.",
   "skills": [
     {
       "cd": 0,
       "mincd": 0,
+      "passive": false,
       "dmgscaling": [
         "ATK"
       ],
       "abilityname": "Bombard",
+      "damageMultiplier": "3.8 ATK",
       "description": "Attacks 1 enemy. Has a 5% chance of increasing the duration of all debuffs by 1 turn.",
       "books": [
         "Level 2: Damage +5%",
@@ -36,10 +40,12 @@
     {
       "cd": 4,
       "mincd": 4,
+      "passive": false,
       "dmgscaling": [
         "ATK"
       ],
       "abilityname": "Skirmish Tactics",
+      "damageMultiplier": "5 ATK",
       "description": "Attacks 1 enemy. Places a 30% [Increase SPD] buff on this Champion for 2 turns if this attack is critical.",
       "books": [
         "Level 2: Damage +5%",
@@ -50,10 +56,12 @@
     {
       "cd": 4,
       "mincd": 3,
+      "passive": false,
       "dmgscaling": [
         "ATK"
       ],
       "abilityname": "Septic Shot",
+      "damageMultiplier": "1.6 ATK",
       "description": "Attacks 1 enemy 3 times. Each hit has a 50% chance of placing a 2.5% [Poison] debuff for 2 turns.",
       "books": [
         "Level 2: Damage +5%",
@@ -63,15 +71,8 @@
         "Level 6: Buff/Debuff Chance +10%",
         "Level 7: Cooldown -1"
       ]
-    },
-    {
-      "cd": 0,
-      "mincd": 0,
-      "dmgscaling": [],
-      "abilityname": "Aura",
-      "description": "Increases Ally C. RATE in all Battles by 12 %.",
-      "books": []
     }
   ],
-  "avatarUrl": "https://goctionni.github.io/raid-data/images/avatar/Bombardier.png"
+  "version": "3.30.0",
+  "avatarUrl": "https://mcradane.github.io/raid-data/images/avatar/Bombardier.png"
 }

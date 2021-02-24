@@ -1,29 +1,32 @@
 {
   "name": "Duelist",
+  "id": "Duelist",
   "class": {
     "faction": "Banner Lords",
-    "rarity": "Uncommon",
-    "role": "Attack",
-    "affinity": "Force"
+    "rarity": "uncommon",
+    "role": "attack",
+    "affinity": "force"
   },
   "stats": {
-    "hp": "11,400",
-    "atk": "1,200",
-    "def": "793",
-    "spd": "101",
-    "crate": "RATE",
-    "cdmg": "15",
-    "resist": "50",
-    "acc": "30"
+    "hp": 11400,
+    "atk": 1200,
+    "def": 793,
+    "spd": 101,
+    "crate": 15,
+    "cdmg": 50,
+    "resist": 30,
+    "acc": 0
   },
   "skills": [
     {
       "cd": 0,
       "mincd": 0,
+      "passive": false,
       "dmgscaling": [
         "ATK"
       ],
       "abilityname": "Elan",
+      "damageMultiplier": "3.4 ATK",
       "description": "Attacks 1 enemy. Heals by 20% of the damage inflicted.",
       "books": [
         "Level: 2 Damage +5%",
@@ -37,10 +40,12 @@
     {
       "cd": 3,
       "mincd": 2,
+      "passive": false,
       "dmgscaling": [
         "ATK"
       ],
       "abilityname": "Stunning Slice",
+      "damageMultiplier": "5.6 ATK",
       "description": "Attacks 1 enemy. Has a 50% chance of placing a [Stun] debuff for 1 turn.",
       "books": [
         "Level: 2 Damage +5%",
@@ -53,5 +58,6 @@
       ]
     }
   ],
-  "avatarUrl": "https://goctionni.github.io/raid-data/images/avatar/Duelist.png"
+  "version": "3.30.0",
+  "avatarUrl": "https://mcradane.github.io/raid-data/images/avatar/Duelist.png"
 }

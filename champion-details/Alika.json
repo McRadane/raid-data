@@ -1,29 +1,32 @@
 {
   "name": "Alika",
+  "id": "Alika",
   "class": {
     "faction": "Barbarians",
-    "rarity": "Epic",
-    "role": "Attack",
-    "affinity": "Force"
+    "rarity": "epic",
+    "role": "attack",
+    "affinity": "force"
   },
   "stats": {
-    "hp": "15,855",
-    "atk": "1,354",
-    "def": "892",
-    "spd": "101",
-    "crate": "RATE",
-    "cdmg": "15",
-    "resist": "60",
-    "acc": "30"
+    "hp": 15855,
+    "atk": 1354,
+    "def": 892,
+    "spd": 101,
+    "crate": 15,
+    "cdmg": 60,
+    "resist": 30,
+    "acc": 0
   },
   "skills": [
     {
       "cd": 0,
       "mincd": 0,
+      "passive": false,
       "dmgscaling": [
         "ATK"
       ],
       "abilityname": "Gap Shot",
+      "damageMultiplier": "4.2 ATK",
       "description": "Attacks 1 enemy. Has a 30% chance of placing an extra hit. This hit is always critical.",
       "books": [
         "Level 2: Damage +5%",
@@ -38,10 +41,12 @@
     {
       "cd": 4,
       "mincd": 2,
+      "passive": false,
       "dmgscaling": [
         "ATK"
       ],
       "abilityname": "High Value Target",
+      "damageMultiplier": "6.3 ATK",
       "description": "Attacks 1 enemy. Ignores 50% of the target’s DEF if their MAX HP is higher than this Champion’s MAX HP.",
       "books": [
         "Level 2: Damage +5%",
@@ -53,13 +58,15 @@
       ]
     },
     {
-      "cd": 6,
-      "mincd": 5,
+      "cd": 4,
+      "mincd": 3,
+      "passive": false,
       "dmgscaling": [
         "ATK"
       ],
       "abilityname": "Disorient",
-      "description": "Attacks all enemies. Has a 35% chance of increasing the cooldowns of all enemy skills by 1 turn.",
+      "damageMultiplier": "4 ATK",
+      "description": "Attacks all enemies. Has a 75% chance of increasing the cooldowns of all enemy skills by 1 turn.",
       "books": [
         "Level 2: Damage +5%",
         "Level 3: Damage +5%",
@@ -73,13 +80,13 @@
     {
       "cd": 7,
       "mincd": 7,
-      "dmgscaling": [
-        "Passive"
-      ],
+      "passive": true,
+      "dmgscaling": [],
       "abilityname": "Devoted Sister",
-      "description": "Revives this Champion with 75% HP when killed. [Only available when Sikara is on the same team]",
+      "description": "Revives this Champion with 75% HP when killed. [Only available when <a href=\"//ayumilove.net/raid-shadow-legends-sikara-skill-mastery-equip-guide/\">Sikara</a> is on the same team]",
       "books": []
     }
   ],
-  "avatarUrl": "https://goctionni.github.io/raid-data/images/avatar/Alika.png"
+  "version": "3.30.0",
+  "avatarUrl": "https://mcradane.github.io/raid-data/images/avatar/Alika.png"
 }

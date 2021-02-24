@@ -1,29 +1,32 @@
 {
   "name": "Bushi",
+  "id": "Bushi",
   "class": {
     "faction": "The Sacred Order",
-    "rarity": "Epic",
-    "role": "Attack",
-    "affinity": "Spirit"
+    "rarity": "epic",
+    "role": "attack",
+    "affinity": "spirit"
   },
   "stats": {
-    "hp": "15,690",
-    "atk": "1,476",
-    "def": "782",
-    "spd": "90",
-    "crate": "Rate",
-    "cdmg": "15",
-    "resist": "60",
-    "acc": "30"
+    "hp": 15690,
+    "atk": 1476,
+    "def": 782,
+    "spd": 90,
+    "crate": 15,
+    "cdmg": 60,
+    "resist": 30,
+    "acc": 0
   },
   "skills": [
     {
       "cd": 0,
       "mincd": 0,
+      "passive": false,
       "dmgscaling": [
         "ATK"
       ],
       "abilityname": "Rising Storm",
+      "damageMultiplier": "ATK * (2.9 + 0.4 * SKILL USED)",
       "description": "Attacks 1 enemy. Damage inflicted increases each time this skill is used. Stacks up to 4 times.",
       "books": [
         "Level 2: Damage +5%",
@@ -35,11 +38,13 @@
     {
       "cd": 4,
       "mincd": 3,
+      "passive": false,
       "dmgscaling": [
         "ATK"
       ],
       "abilityname": "Deadly Edge",
-      "description": "Attacks 1 enemy. This attack is always critical.",
+      "damageMultiplier": "7 ATK",
+      "description": "Attacks 1 enemy. This attack is always critical. Places a 30% [Increase C.RATE] buff and a 15% [Increase SPD] buff on this Champion for 3 turns.",
       "books": [
         "Level 2: Damage +5%",
         "Level 3: Damage +10%",
@@ -50,9 +55,8 @@
     {
       "cd": 5,
       "mincd": 3,
-      "dmgscaling": [
-        "Passive"
-      ],
+      "passive": true,
+      "dmgscaling": [],
       "abilityname": "Unbending",
       "description": "Revives this Champion with 30% HP. Places an [Unkillable] buff on this Champion for 1 turn.",
       "books": [
@@ -63,11 +67,13 @@
     {
       "cd": 0,
       "mincd": 0,
+      "passive": false,
       "dmgscaling": [],
       "abilityname": "Arena",
-      "description": "Increases Ally SPD in the Arena by 20 %.",
+      "description": "Increases Ally SPD in the Arena by 20%.",
       "books": []
     }
   ],
-  "avatarUrl": "https://goctionni.github.io/raid-data/images/avatar/Bushi.png"
+  "version": "3.30.0",
+  "avatarUrl": "https://mcradane.github.io/raid-data/images/avatar/Bushi.png"
 }

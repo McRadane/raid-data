@@ -1,29 +1,33 @@
 {
   "name": "Delver",
+  "id": "Delver",
   "class": {
     "faction": "Dark Elves",
-    "rarity": "Epic",
-    "role": "Attack",
-    "affinity": "Spirit"
+    "rarity": "epic",
+    "role": "attack",
+    "affinity": "spirit"
   },
   "stats": {
-    "hp": "16,350",
-    "atk": "1,299",
-    "def": "914",
-    "spd": "91",
-    "crate": "RATE",
-    "cdmg": "15",
-    "resist": "60",
-    "acc": "30"
+    "hp": 16350,
+    "atk": 1299,
+    "def": 914,
+    "spd": 91,
+    "crate": 15,
+    "cdmg": 60,
+    "resist": 30,
+    "acc": 0
   },
+  "aura": "Increases Ally ATK in Faction Crypts by 27%.",
   "skills": [
     {
       "cd": 0,
       "mincd": 0,
+      "passive": false,
       "dmgscaling": [
         "ATK"
       ],
       "abilityname": "Necrotic Toxin",
+      "damageMultiplier": "4 ATK",
       "description": "Attacks 1 enemy. Has a 45% chance of placing a 100% [Heal Reduction] debuff for 2 turns.",
       "books": [
         "Level 2: Damage +5%",
@@ -35,10 +39,12 @@
     {
       "cd": 4,
       "mincd": 3,
+      "passive": false,
       "dmgscaling": [
         "ATK"
       ],
       "abilityname": "Mark for Death",
+      "damageMultiplier": "6.2 ATK",
       "description": "Attacks 1 enemy. Places a 25% [Weaken] debuff on the target for 3 turns if the target has a [Heal Reduction] debuff. This debuff cannot be resisted.",
       "books": [
         "Level 2: Damage +5%",
@@ -50,8 +56,10 @@
     {
       "cd": 5,
       "mincd": 4,
+      "passive": false,
       "dmgscaling": [],
       "abilityname": "Finisher",
+      "damageMultiplier": "4 ATK",
       "description": "Attacks all enemies. Places a 50% [Increase ATK] buff on this Champion for 2 turns before attacking. If the target has a [Weaken] debuff, places a 60% [Decrease DEF] debuff on the target for 2 turns.",
       "books": [
         "Level 2: Damage +5%",
@@ -59,15 +67,8 @@
         "Level 4: Damage +5%",
         "Level 5: Cooldown -1"
       ]
-    },
-    {
-      "cd": 0,
-      "mincd": 0,
-      "dmgscaling": [],
-      "abilityname": "Aura",
-      "description": "Increases Ally ATK in Faction Crypts by 27%.",
-      "books": []
     }
   ],
-  "avatarUrl": "https://goctionni.github.io/raid-data/images/avatar/Delver.png"
+  "version": "3.30.0",
+  "avatarUrl": "https://mcradane.github.io/raid-data/images/avatar/Delver.png"
 }
