@@ -1,7 +1,6 @@
 # Resources for Raid Shadow Legends
 
-This repository provides resources for Raid Shadow Legends. Anyone is allowed and encouraged to contribute by creating a merge-request.
-If you're interested in helping in a greater capacity, please get in touch. I would like more people to help moderate and update the content/data in this repository.
+This repository provides resources for Raid Shadow Legends.
 
 # Champion lists
 
@@ -13,6 +12,8 @@ If you're interested in helping in a greater capacity, please get in touch. I wo
 - [Champions base-info](/champions-base-info.json)
 
 # Credits
+
+- Origial author : [Goctionni](https://github.com/Goctionni/raid-data)
 
 The data available in this repository has been sourced from:
 
