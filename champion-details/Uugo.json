@@ -1,0 +1,87 @@
+{
+  "name": "Uugo",
+  "id": "Uugo",
+  "class": {
+    "faction": "Ogryn Tribes",
+    "rarity": "epic",
+    "role": "support",
+    "affinity": "magic"
+  },
+  "stats": {
+    "hp": 19650,
+    "atk": 738,
+    "def": 1255,
+    "spd": 102,
+    "crate": 15,
+    "cdmg": 50,
+    "resist": 30,
+    "acc": 15
+  },
+  "skills": [
+    {
+      "cd": 0,
+      "mincd": 0,
+      "passive": false,
+      "dmgscaling": [
+        "ATK"
+      ],
+      "abilityname": "Black Hand",
+      "damageMultiplier": "5.2 ATK",
+      "description": "Attacks 1 enemy. Has a 35% chance of placing a [Leech] debuff for 2 turns. The chance increases by 5% for each alive enemy.",
+      "books": [
+        "Level 2: Damage +5%",
+        "Level 3: Damage +5%",
+        "Level 4: Damage +5%",
+        "Level 5: Damage +5%"
+      ]
+    },
+    {
+      "cd": 4,
+      "mincd": 3,
+      "passive": false,
+      "dmgscaling": [
+        "ATK"
+      ],
+      "abilityname": "Maelstrom Wrack",
+      "damageMultiplier": "4.8 ATK",
+      "description": "Attacks all enemies. Has a 75% chance of placing a 60% [Decrease DEF] debuff for 2 turns. Also has a 50% chance of placing a [Block Buffs] debuff for 2 turns. The chance of placing the [Block Buffs] debuff increases by 5% for each alive enemy.",
+      "books": [
+        "Level 2: Damage +5%",
+        "Level 3: Damage +10%",
+        "Level 4: Buff/Debuff Chance +5%",
+        "Level 5: Buff/Debuff Chance +10%",
+        "Level 6: Buff/Debuff Chance +10%",
+        "Level 7: Cooldown -1"
+      ]
+    },
+    {
+      "cd": 6,
+      "mincd": 4,
+      "passive": false,
+      "dmgscaling": [
+        "ATK"
+      ],
+      "abilityname": "Uugo’s Brew",
+      "description": "Removes all [Heal Reduction] debuffs from all allies, then removes 1 random debuff from all allies, then heals all allies by 20% of this Champion’s MAX HP. If all allies are dead, revives them with 50% HP, then fills their Turn Meters by 50% instead.",
+      "books": [
+        "Level 2: Heal +5%",
+        "Level 3: Heal +5%",
+        "Level 4: Heal +5%",
+        "Level 5: Heal +5%",
+        "Level 6: Cooldown -1",
+        "Level 7: Cooldown -1"
+      ]
+    },
+    {
+      "cd": 5,
+      "mincd": 5,
+      "passive": true,
+      "dmgscaling": [],
+      "abilityname": "Final Spite",
+      "description": "Places a 30% [Increase SPD] buff and a [Block Damage] buff on this Champion for 1 turn whenever this Champion’s last living ally is killed.",
+      "books": []
+    }
+  ],
+  "version": "3.30.0",
+  "avatarUrl": "https://mcradane.github.io/raid-data/images/avatar/Uugo.png"
+}

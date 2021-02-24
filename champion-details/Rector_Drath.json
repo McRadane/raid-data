@@ -1,0 +1,80 @@
+{
+  "name": "Rector Drath",
+  "id": "Rector_Drath",
+  "class": {
+    "faction": "Knight Revenant",
+    "rarity": "epic",
+    "role": "support",
+    "affinity": "force"
+  },
+  "stats": {
+    "hp": 17010,
+    "atk": 1035,
+    "def": 1134,
+    "spd": 109,
+    "crate": 15,
+    "cdmg": 50,
+    "resist": 30,
+    "acc": 0
+  },
+  "aura": "Increases Ally RESIST in Doom Tower battles by 55.",
+  "skills": [
+    {
+      "cd": 0,
+      "mincd": 0,
+      "passive": false,
+      "dmgscaling": [
+        "ATK"
+      ],
+      "abilityname": "Scepter of Authority",
+      "damageMultiplier": "4 ATK",
+      "description": "Attacks 1 enemy. Has a 35% chance of placing a 50% [Decrease ATK] debuff for 2 turns.",
+      "books": [
+        "Level 2: Damage +5%",
+        "Level 3: Damage +5%",
+        "Level 4: Buff/Debuff Chance +5%",
+        "Level 5: Buff/Debuff Chance +5%",
+        "Level 6: Buff/Debuff Chance +5%"
+      ]
+    },
+    {
+      "cd": 5,
+      "mincd": 4,
+      "passive": false,
+      "dmgscaling": [],
+      "abilityname": "Necro Mutation",
+      "description": "Heals all allies by 20% of this Champion’s MAX HP. After healing, places a [Perfect Veil] buff for 2 turns on all allies with full HP. Places a 15% [Continuous Heal] buff for 1 turn instead on all allies with less than 100% HP.",
+      "books": [
+        "Level 2: Heal +5%",
+        "Level 3: Heal +5%",
+        "Level 4: Heal +10%",
+        "Level 5: Cooldown -1"
+      ]
+    },
+    {
+      "cd": 6,
+      "mincd": 4,
+      "passive": false,
+      "dmgscaling": [],
+      "abilityname": "Spirit Form",
+      "description": "Revives a single ally with 60% HP and fills their Turn Meter by 60%. Places a [Perfect Veil] buff on them for 3 turns.",
+      "books": [
+        "Level 2: Cooldown -1",
+        "Level 3: Cooldown -1"
+      ]
+    },
+    {
+      "cd": 0,
+      "mincd": 0,
+      "passive": false,
+      "dmgscaling": [
+        "Paassive"
+      ],
+      "abilityname": "Master of Ghosts",
+      "description": "Whenever an ally under a [Veil] or [Perfect Veil] buff gets a turn, heals them by 10% of their MAX HP. Also increases the RES of allies under [Veil] or [Perfect Veil] buffs by 50. Will only increase RES once per ally if there are multiple Rectors on the team.",
+      "books": []
+    }
+  ],
+  "version": "3.30.0",
+  "avatarUrl": "https://mcradane.github.io/raid-data/images/avatar/Rector_Drath.png"
+}

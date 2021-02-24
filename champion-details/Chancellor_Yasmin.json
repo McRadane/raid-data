@@ -1,0 +1,23 @@
+{
+  "name": "Chancellor Yasmin",
+  "id": "Chancellor_Yasmin",
+  "class": {
+    "faction": "Banner Lords",
+    "rarity": "epic",
+    "role": "support",
+    "affinity": "force"
+  },
+  "stats": {
+    "hp": 16680,
+    "atk": 1101,
+    "def": 1090,
+    "spd": 109,
+    "crate": 15,
+    "cdmg": 50,
+    "resist": 30,
+    "acc": 0
+  },
+  "skills": [],
+  "version": "3.30.0",
+  "avatarUrl": "https://mcradane.github.io/raid-data/images/avatar/Chancellor_Yasmin.png"
+}

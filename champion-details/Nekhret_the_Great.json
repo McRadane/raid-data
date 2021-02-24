@@ -1,0 +1,82 @@
+{
+  "name": "Nekhret the Great",
+  "id": "Nekhret_the_Great",
+  "class": {
+    "faction": "Undead Hordes",
+    "rarity": "legendary",
+    "role": "defense",
+    "affinity": "void"
+  },
+  "stats": {
+    "hp": 21480,
+    "atk": 793,
+    "def": 1354,
+    "spd": 97,
+    "crate": 15,
+    "cdmg": 50,
+    "resist": 50,
+    "acc": 0
+  },
+  "aura": "Increases Ally RESIST in all Battles by 60.",
+  "skills": [
+    {
+      "cd": 0,
+      "mincd": 0,
+      "passive": false,
+      "dmgscaling": [
+        "DEF"
+      ],
+      "abilityname": "Tomb Glaive",
+      "damageMultiplier": "1.3 DEF",
+      "description": "Attacks 1 enemy 3 times. Each hit has a 20% chance of placing a 50% [Decrease ATK] debuff for 1 turn. This effect cannot be resisted.",
+      "books": [
+        "Level 2: Damage +5%",
+        "Level 3: Damage +10%",
+        "Level 4: Buff/Debuff Chance +5%",
+        "Level 5: Buff/Debuff Chance +5%"
+      ]
+    },
+    {
+      "cd": 5,
+      "mincd": 4,
+      "passive": false,
+      "dmgscaling": [],
+      "abilityname": "Legion of the Damned",
+      "description": "Teams up with allies to attack 1 enemy. All allies under [Ally Protection] buffs placed by this Champion will join the attack. Allies joining the attack will use their default skills. Grants an Extra Turn if this attack does not kill the target.",
+      "books": [
+        "Level: 2 Cooldown -1"
+      ]
+    },
+    {
+      "cd": 4,
+      "mincd": 3,
+      "passive": false,
+      "dmgscaling": [],
+      "abilityname": "Disturbing Infusion",
+      "description": "Places a [Block Debuffs] buff, a 50% [Ally Protection] buff, and a 25% [Strengthen] buff on an ally for 3 turns. The [Ally Protection] buff cannot be removed.",
+      "books": [
+        "Level 2: Cooldown -1"
+      ]
+    },
+    {
+      "cd": 0,
+      "mincd": 0,
+      "passive": true,
+      "dmgscaling": [],
+      "abilityname": "Unsleeping Aegis",
+      "description": "Whenever an ally is attacked while under an [Ally Protection] buff placed by this Champion, places a [Shield] buff on the ally equal to 30% of this Champion’s MAX HP for 2 turns. Occurs only if the ally does not already have a [Shield] buff placed by this Champion. Also decreases the cooldown of this Champion’s Legion of the Damned Skill by 2 turns if the [Shield] buff is placed.",
+      "books": []
+    },
+    {
+      "cd": 0,
+      "mincd": 0,
+      "passive": true,
+      "dmgscaling": [],
+      "abilityname": "Arise My Minions",
+      "description": "Places a [Block Debuffs] buff and a 25% [Strengthen] buff for 3 turns on the ally with the lowest MAX HP at the start of each Round. Also places a 50% [Ally Protection] buff on them for 6 turns. The [Ally Protection] buff cannot be removed.",
+      "books": []
+    }
+  ],
+  "version": "3.30.0",
+  "avatarUrl": "https://mcradane.github.io/raid-data/images/avatar/Nekhret_the_Great.png"
+}

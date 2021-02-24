@@ -1,0 +1,83 @@
+{
+  "name": "Archmage Hellmut",
+  "id": "Archmage_Hellmut",
+  "class": {
+    "faction": "Banner Lords",
+    "rarity": "epic",
+    "role": "support",
+    "affinity": "magic"
+  },
+  "stats": {
+    "hp": 18825,
+    "atk": 925,
+    "def": 1123,
+    "spd": 108,
+    "crate": 15,
+    "cdmg": 50,
+    "resist": 30,
+    "acc": 0
+  },
+  "aura": "Increase Ally SPD in the Arena by 17%",
+  "skills": [
+    {
+      "cd": 0,
+      "mincd": 0,
+      "passive": false,
+      "dmgscaling": [
+        "ATK"
+      ],
+      "abilityname": "Arcane Dynamo",
+      "damageMultiplier": "4.8 ATK",
+      "description": "Attacks 1 enemy. Fills this Champion’s Turn Meter by 10%. Fills the Turn Meter by 20% if this attack is critical.",
+      "books": [
+        "Level 2: Damage +5%",
+        "Level 3: Damage +5%",
+        "Level 4: Damage +5%",
+        "Level 5: Damage +10%"
+      ]
+    },
+    {
+      "cd": 4,
+      "mincd": 3,
+      "passive": false,
+      "dmgscaling": [
+        "ATK"
+      ],
+      "abilityname": "Timeslip",
+      "damageMultiplier": "6 ATK (Target) , 3.5 ATK (AoE)",
+      "description": "Attacks 1 enemy. Also attack all other enemies if the first attack is critical. Each hit has a 50% chance of placing a [Stun] debuff for 1 turn. After attacking, decreases the Turn Meters of each enemy without a [Stun] debuff by 20%.",
+      "books": [
+        "Level 2: Damage +5%",
+        "Level 3: Buff/Debuff Chance +5%",
+        "Level 4: Damage +5%",
+        "Level 5: Buff/Debuff Chance +5%",
+        "Level 6: Damage +10%",
+        "Level 7: Buff/Debuff Chance +15%",
+        "Level 8: Cooldown -1"
+      ]
+    },
+    {
+      "cd": 5,
+      "mincd": 3,
+      "passive": false,
+      "dmgscaling": [],
+      "abilityname": "Psychic Guidance",
+      "description": "Places a 30% [Increase SPD] buff, a 30% [Increase C.RATE] buff and a 30% [Increase C.DMG] buff on all allies for 2 turns.",
+      "books": [
+        "Level 2: Cooldown -1",
+        "Level 3: Cooldown -1"
+      ]
+    },
+    {
+      "cd": 0,
+      "mincd": 0,
+      "passive": true,
+      "dmgscaling": [],
+      "abilityname": "Chrono Isolation",
+      "description": "Immune to Turn Meter decreasing effects.",
+      "books": []
+    }
+  ],
+  "version": "3.30.0",
+  "avatarUrl": "https://mcradane.github.io/raid-data/images/avatar/Archmage_Hellmut.png"
+}

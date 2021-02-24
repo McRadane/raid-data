@@ -1,0 +1,77 @@
+{
+  "name": "Pigsticker",
+  "id": "Pigsticker",
+  "class": {
+    "faction": "Orcs",
+    "rarity": "rare",
+    "role": "attack",
+    "affinity": "magic"
+  },
+  "stats": {
+    "hp": 13380,
+    "atk": 1332,
+    "def": 804,
+    "spd": 96,
+    "crate": 15,
+    "cdmg": 57,
+    "resist": 30,
+    "acc": 0
+  },
+  "aura": "Increases Ally ATK in Doom Tower battles by 21%.",
+  "skills": [
+    {
+      "cd": 0,
+      "mincd": 0,
+      "passive": false,
+      "dmgscaling": [
+        "ATK"
+      ],
+      "abilityname": "Vile Substance",
+      "damageMultiplier": "3.5 ATK",
+      "description": "Attacks 1 enemy. Has a 50% chance of placing a 50% [Heal Reduction] debuff for 2 turns.",
+      "books": [
+        "Level 2: Damage +10%",
+        "Level 3: Damage +10%",
+        "Level 4: Buff/Debuff Chance +5%",
+        "Level 5: Buff/Debuff Chance +10%",
+        "Level 6: Buff/Debuff Chance +10%"
+      ]
+    },
+    {
+      "cd": 4,
+      "mincd": 3,
+      "passive": false,
+      "dmgscaling": [
+        "ATK"
+      ],
+      "abilityname": "Heartless Curse",
+      "damageMultiplier": "5.8 ATK",
+      "description": "Attacks 1 enemy. Decreases the target’s MAX HP by 20% of the damage inflicted.",
+      "books": [
+        "Level 2: Damage +5%",
+        "Level 3: Damage +5%",
+        "Level 4: Damage +10%",
+        "Level 5: Cooldown -1"
+      ]
+    },
+    {
+      "cd": 4,
+      "mincd": 3,
+      "passive": false,
+      "dmgscaling": [
+        "ATK"
+      ],
+      "abilityname": "Septic Spearhead",
+      "damageMultiplier": "3 ATK",
+      "description": "Attacks 1 enemy 2 times. Decreases the target’s MAX HP by 30% of the damage inflicted.",
+      "books": [
+        "Level 2: Damage +5%",
+        "Level 3: Damage +5%",
+        "Level 4: Damage +10%",
+        "Level 5: Cooldown -1"
+      ]
+    }
+  ],
+  "version": "3.30.0",
+  "avatarUrl": "https://mcradane.github.io/raid-data/images/avatar/Pigsticker.png"
+}

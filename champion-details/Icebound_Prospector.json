@@ -1,0 +1,60 @@
+{
+  "name": "Icebound Prospector",
+  "id": "Icebound_Prospector",
+  "class": {
+    "faction": "Dwarves",
+    "rarity": "uncommon",
+    "role": "attack",
+    "affinity": "force"
+  },
+  "stats": {
+    "hp": 14370,
+    "atk": 991,
+    "def": 804,
+    "spd": 93,
+    "crate": 15,
+    "cdmg": 50,
+    "resist": 30,
+    "acc": 0
+  },
+  "skills": [
+    {
+      "cd": 0,
+      "mincd": 0,
+      "passive": false,
+      "dmgscaling": [
+        "ATK"
+      ],
+      "abilityname": "Frosty Pick",
+      "damageMultiplier": "4.8 ATK",
+      "description": "Attacks 1 enemy.",
+      "books": [
+        "Level 2: Damage +5%",
+        "Level 3: Damage +5%",
+        "Level 4: Damage +5%",
+        "Level 5: Damage +5%"
+      ]
+    },
+    {
+      "cd": 4,
+      "mincd": 3,
+      "passive": false,
+      "dmgscaling": [
+        "ATK"
+      ],
+      "abilityname": "Noggin Knocker",
+      "damageMultiplier": "7.8 ATK",
+      "description": "Attacks 1 enemy. Has a 15% chance of placing a [Stun] debuff for 1 turn.",
+      "books": [
+        "Level 2: Damage +5%",
+        "Level 3: Damage +10%",
+        "Level 4: Buff/Debuff Chance +5%",
+        "Level 5: Buff/Debuff Chance +5%",
+        "Level 6: Buff/Debuff Chance +5%",
+        "Level 7: Cooldown -1"
+      ]
+    }
+  ],
+  "version": "3.30.0",
+  "avatarUrl": "https://mcradane.github.io/raid-data/images/avatar/Icebound_Prospector.png"
+}

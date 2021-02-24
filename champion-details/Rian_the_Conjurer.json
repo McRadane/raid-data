@@ -1,0 +1,71 @@
+{
+  "name": "Rian the Conjurer",
+  "id": "Rian_the_Conjurer",
+  "class": {
+    "faction": "Dark Elves",
+    "rarity": "epic",
+    "role": "support",
+    "affinity": "force"
+  },
+  "stats": {
+    "hp": 17010,
+    "atk": 1002,
+    "def": 1167,
+    "spd": 98,
+    "crate": 15,
+    "cdmg": 50,
+    "resist": 30,
+    "acc": 15
+  },
+  "aura": "Increases Ally ACC in all Battles by 40.",
+  "skills": [
+    {
+      "cd": 0,
+      "mincd": 0,
+      "passive": false,
+      "dmgscaling": [
+        "ATK"
+      ],
+      "abilityname": "Magma Ball",
+      "damageMultiplier": "4.6 ATK",
+      "description": "Attacks 1 enemy. Has a 50% chance of placing a [Block Buffs] debuff for 2 turns.",
+      "books": [
+        "Level 2: Damage +5%",
+        "Level 3: Buff/Debuff Chance +5%",
+        "Level 4: Damage +5%",
+        "Level 5: Buff/Debuff Chance +5%",
+        "Level 6: Damage +10%",
+        "Level 7: Buff/Debuff Chance +10%"
+      ]
+    },
+    {
+      "cd": 4,
+      "mincd": 3,
+      "passive": false,
+      "dmgscaling": [],
+      "abilityname": "Sweeping Dismissal",
+      "description": "Has a 75% chance of removing all buffs from all enemies. Also has a 75% chance of placing a 25% [Weaken] debuff on all enemies for 2 turns.",
+      "books": [
+        "Level 2: Buff/Debuff Chance +5%",
+        "Level 3: Buff/Debuff Chance +5%",
+        "Level 4: Buff/Debuff Chance +5%",
+        "Level 5: Buff/Debuff Chance +10%",
+        "Level 6: Cooldown -1"
+      ]
+    },
+    {
+      "cd": 6,
+      "mincd": 4,
+      "passive": false,
+      "dmgscaling": [],
+      "abilityname": "Master of Summons",
+      "description": "Revives a dead ally with 50% HP and 50% Turn Meter, then places a [Block Debuffs] buff on them for 2 turns. Will also revive <a href=\"//ayumilove.net/raid-shadow-legends-akoth-the-seared-skill-mastery-equip-guide/\">Akoth the Seared</a> or <a href=\"//ayumilove.net/raid-shadow-legends-urost-the-soulcage-skill-mastery-equip-guide/\">Urost the Soulcage</a> with 30% HP and 30% Turn Meter if they are on the same team and not the target of the skill. If either <a href=\"//ayumilove.net/raid-shadow-legends-akoth-the-seared-skill-mastery-equip-guide/\">Akoth the Seared</a> or <a href=\"//ayumilove.net/raid-shadow-legends-urost-the-soulcage-skill-mastery-equip-guide/\">Urost the Soulcage</a> are the target of the skill, that Champion will be revived with 50% HP and 50% Turn Meter, and a [Block Debuffs] buff for 2 turns.",
+      "books": [
+        "Level 2: Cooldown -1",
+        "Level 3: Cooldown -1"
+      ]
+    }
+  ],
+  "version": "3.30.0",
+  "avatarUrl": "https://mcradane.github.io/raid-data/images/avatar/Rian_the_Conjurer.png"
+}

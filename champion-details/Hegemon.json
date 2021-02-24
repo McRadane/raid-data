@@ -1,29 +1,33 @@
 {
   "name": "Hegemon",
+  "id": "Hegemon",
   "class": {
-    "faction": "Knights Revenant",
-    "rarity": "Legendary",
-    "role": "Attack",
-    "affinity": "Void"
+    "faction": "Knight Revenant",
+    "rarity": "legendary",
+    "role": "attack",
+    "affinity": "void"
   },
   "stats": {
-    "hp": "19,155",
-    "atk": "1,487",
-    "def": "815",
-    "spd": "96",
-    "crate": "RATE",
-    "cdmg": "15",
-    "resist": "63",
-    "acc": "30"
+    "hp": 19155,
+    "atk": 1487,
+    "def": 815,
+    "spd": 96,
+    "crate": 15,
+    "cdmg": 63,
+    "resist": 30,
+    "acc": 10
   },
+  "aura": "Increases Ally C.RATE in all Battles by 19%",
   "skills": [
     {
       "cd": 0,
       "mincd": 0,
+      "passive": false,
       "dmgscaling": [
         "ATK"
       ],
       "abilityname": "Grave’s Grasp",
+      "damageMultiplier": "1.7 ATK",
       "description": "Attacks 2 times at random. Each hit has a 35% chance of placing a 30% [Decrease SPD] debuff for 2 turns.",
       "books": [
         "Level 2: Damage +5%",
@@ -36,10 +40,12 @@
     {
       "cd": 4,
       "mincd": 4,
+      "passive": false,
       "dmgscaling": [
         "ATK"
       ],
       "abilityname": "Numbing Chill",
+      "damageMultiplier": "3.7 ATK",
       "description": "Attacks all enemies. Places a 50% [Decrease ATK] debuff for 2 turns. Also has a 50% chance of placing a [Block Cooldown Skills] debuff for 2 turns.",
       "books": [
         "Level 2: Damage +5%",
@@ -51,21 +57,13 @@
     {
       "cd": 0,
       "mincd": 0,
-      "dmgscaling": [
-        "Passive"
-      ],
+      "passive": true,
+      "dmgscaling": [],
       "abilityname": "Fateful Arrival",
       "description": "Always goes first each Round. If multiple Hegemons are in battle, the Hegemon with the highest SPD will move first, followed by the next highest, and so on.",
       "books": []
-    },
-    {
-      "cd": 0,
-      "mincd": 0,
-      "dmgscaling": [],
-      "abilityname": "Aura",
-      "description": "Increases Ally C. RATE in all Battles by 19%",
-      "books": []
     }
   ],
-  "avatarUrl": "https://goctionni.github.io/raid-data/images/avatar/Hegemon.png"
+  "version": "3.30.0",
+  "avatarUrl": "https://mcradane.github.io/raid-data/images/avatar/Hegemon.png"
 }

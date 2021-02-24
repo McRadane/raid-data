@@ -1,0 +1,76 @@
+{
+  "name": "Ruffstone",
+  "id": "Ruffstone",
+  "class": {
+    "faction": "Ogryn Tribes",
+    "rarity": "rare",
+    "role": "attack",
+    "affinity": "force"
+  },
+  "stats": {
+    "hp": 15525,
+    "atk": 1354,
+    "def": 639,
+    "spd": 99,
+    "crate": 15,
+    "cdmg": 50,
+    "resist": 30,
+    "acc": 10
+  },
+  "skills": [
+    {
+      "cd": 0,
+      "mincd": 0,
+      "passive": false,
+      "dmgscaling": [
+        "ATK"
+      ],
+      "abilityname": "Round Up",
+      "damageMultiplier": "3 ATK",
+      "description": "Attacks all enemies.",
+      "books": [
+        "Level 2: Damage +5%",
+        "Level 3: Damage +5%",
+        "Level 4: Damage +5%"
+      ]
+    },
+    {
+      "cd": 4,
+      "mincd": 4,
+      "passive": false,
+      "dmgscaling": [
+        "ATK"
+      ],
+      "abilityname": "Tender Meat",
+      "damageMultiplier": "4.8 ATK",
+      "description": "Attacks 1 enemy. Decreases the target’s MAX HP by 15% of the damage inflicted.",
+      "books": [
+        "Level 2: Damage +5%",
+        "Level 3: Damage +5%",
+        "Level 4: Damage +5%",
+        "Level 5: Damage +5%",
+        "Level 6: Damage +10%"
+      ]
+    },
+    {
+      "cd": 4,
+      "mincd": 4,
+      "passive": false,
+      "dmgscaling": [
+        "ATK"
+      ],
+      "abilityname": "Slobbering Rush",
+      "damageMultiplier": "3.1 ATK",
+      "description": "Attacks 1 enemy. Will ignore 50% of the target’s DEF. Has a 50% chance of granting an Extra Turn if this attack is critical.",
+      "books": [
+        "Level 2: Damage +5%",
+        "Level 3: Damage +5%",
+        "Level 4: Damage +5%",
+        "Level 5: Damage +5%",
+        "Level 6: Cooldcwn -1"
+      ]
+    }
+  ],
+  "version": "3.30.0",
+  "avatarUrl": "https://mcradane.github.io/raid-data/images/avatar/Ruffstone.png"
+}

@@ -1,0 +1,70 @@
+{
+  "name": "Inquisitor Shamael",
+  "id": "Inquisitor_Shamael",
+  "class": {
+    "faction": "The Sacred Order",
+    "rarity": "epic",
+    "role": "attack",
+    "affinity": "void"
+  },
+  "stats": {
+    "hp": 16680,
+    "atk": 1288,
+    "def": 903,
+    "spd": 101,
+    "crate": 15,
+    "cdmg": 60,
+    "resist": 30,
+    "acc": 0
+  },
+  "aura": "Increases Ally ACC in Doom Tower battles by 60.",
+  "skills": [
+    {
+      "cd": 0,
+      "mincd": 0,
+      "passive": false,
+      "dmgscaling": [
+        "ATK"
+      ],
+      "abilityname": "Wreak Revenge",
+      "damageMultiplier": "2.9 ATK",
+      "description": "Attacks 1 enemy. Has a 50% chance of decreasing the duration of a random buff on the target by 1 turn. Counterattacks with this skill each time an enemy places a debuff on an ally. These counterattacks will only deal 50% of the normal damage and cannot be critical.",
+      "books": [
+        "Level 2: Damage +5%",
+        "Level 3: Buff/Debuff Chance +5%",
+        "Level 4: Damage +10%",
+        "Level 5: Buff/Debuff Chance +10%",
+        "Level 6: Damage +10%",
+        "Level 7: Buff/Debuff Chance +10%",
+        "Level 8: Damage +15%"
+      ]
+    },
+    {
+      "cd": 3,
+      "mincd": 3,
+      "passive": false,
+      "dmgscaling": [
+        "ATK"
+      ],
+      "abilityname": "Cow the Horrors",
+      "damageMultiplier": "2 ATK",
+      "description": "Attacks 1 enemy 3 times. Will ignore 25% of the target’s DEF. Will ignore further 25% of the target’s DEF for each buff on this Champion. Places a [True Fear] debuff on all enemies for 1 turn if this attack kills an enemy.",
+      "books": [
+        "Level 2: Damage +10%",
+        "Level 3: Damage +10%",
+        "Level 4: Damage +15%"
+      ]
+    },
+    {
+      "cd": 0,
+      "mincd": 0,
+      "passive": true,
+      "dmgscaling": [],
+      "abilityname": "Dauntless",
+      "description": "Each critical hit fills this Champion’s Turn Meter by 7.5%. Whenever an ally receives a [Fear] or [True Fear] debuff, this skill will instantly remove the debuff and fill the ally’s Turn Meter by 15%.",
+      "books": []
+    }
+  ],
+  "version": "3.30.0",
+  "avatarUrl": "https://mcradane.github.io/raid-data/images/avatar/Inquisitor_Shamael.png"
+}

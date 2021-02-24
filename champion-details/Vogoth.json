@@ -1,0 +1,84 @@
+{
+  "name": "Vogoth",
+  "id": "Vogoth",
+  "class": {
+    "faction": "Undead Hordes",
+    "rarity": "epic",
+    "role": "hp",
+    "affinity": "spirit"
+  },
+  "stats": {
+    "hp": 19320,
+    "atk": 804,
+    "def": 1211,
+    "spd": 89,
+    "crate": 15,
+    "cdmg": 50,
+    "resist": 30,
+    "acc": 15
+  },
+  "aura": "Increases Ally ACC in all Battles by 40.",
+  "skills": [
+    {
+      "cd": 0,
+      "mincd": 0,
+      "passive": false,
+      "dmgscaling": [
+        "HP"
+      ],
+      "abilityname": "Horrendous Strength",
+      "damageMultiplier": "0.07 HP",
+      "description": "Attacks 1 enemy 3 times. Each hit has a 30% chance of increasing the duration of 1 random debuff on the target by 1 turn.",
+      "books": [
+        "Level 2: Damage +5%",
+        "Level 3: Damage +5%",
+        "Level 4: Damage +5%",
+        "Level 5: Buff/Debuff Chance +5%",
+        "Level 6: Buff/Debuff Chance +5%"
+      ]
+    },
+    {
+      "cd": 4,
+      "mincd": 3,
+      "passive": false,
+      "dmgscaling": [
+        "HP"
+      ],
+      "abilityname": "Wave of Revulsion",
+      "damageMultiplier": "0.2 HP",
+      "description": "Attacks all enemies. Has a 60% chance of placing a [Provoke] debuff on all enemies for 1 turn. Also has a 60% chance of placing a 50% [Decrease ATK] debuff for 2 turns on targets who receive [Provoke] debuff from this skill.",
+      "books": [
+        "Level 2: Damage +5%",
+        "Level 3: Damage +5%",
+        "Level 4: Buff/Debuff Chance +5%",
+        "Level 5: Buff/Debuff Chance +5%",
+        "Level 6: Buff/Debuff Chance +5%",
+        "Level 7: Cooldown -1"
+      ]
+    },
+    {
+      "cd": 0,
+      "mincd": 0,
+      "passive": true,
+      "dmgscaling": [],
+      "abilityname": "Festering Dynamo",
+      "description": "Whenever this Champion is attacked, heals all allies by 50% of the damage received. [Only heals by 25% of the damage received from boss attacks. This champion only receives half of the heal that all other allies receive.]",
+      "books": []
+    },
+    {
+      "cd": 0,
+      "mincd": 0,
+      "passive": true,
+      "dmgscaling": [],
+      "abilityname": "Eerie Presence",
+      "description": "When attacked, places a [Leech] debuff on the attacker for 2 turns. If the attacker is under a [Provoke] debuff placed by this Champion, also has a 70% chance of increasing the cooldown of a random skill on the attacker by 2 turns. Occurs once per attack.",
+      "books": [
+        "Level 2: Buff/Debuff Chance +10%",
+        "Level 3: Buff/Debuff Chance +10%",
+        "Level 4: Buff/Debuff Chance +10%"
+      ]
+    }
+  ],
+  "version": "3.30.0",
+  "avatarUrl": "https://mcradane.github.io/raid-data/images/avatar/Vogoth.png"
+}

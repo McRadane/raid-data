@@ -1,0 +1,62 @@
+{
+  "name": "Sandbow",
+  "id": "Sandbow",
+  "class": {
+    "faction": "Barbarians",
+    "rarity": "uncommon",
+    "role": "attack",
+    "affinity": "spirit"
+  },
+  "stats": {
+    "hp": 12885,
+    "atk": 1123,
+    "def": 771,
+    "spd": 96,
+    "crate": 15,
+    "cdmg": 50,
+    "resist": 30,
+    "acc": 0
+  },
+  "skills": [
+    {
+      "cd": 0,
+      "mincd": 0,
+      "passive": false,
+      "dmgscaling": [
+        "ATK"
+      ],
+      "abilityname": "Let Fly",
+      "damageMultiplier": "3.7 ATK",
+      "description": "Attacks 1 enemy.",
+      "books": [
+        "Level 2: Damage +5%",
+        "Level 3: Damage +5%",
+        "Level 4: Damage +5%",
+        "Level 5: Damage +5%",
+        "Level 6 Damage +5%"
+      ]
+    },
+    {
+      "cd": 4,
+      "mincd": 4,
+      "passive": false,
+      "dmgscaling": [
+        "ATK"
+      ],
+      "abilityname": "Veinfire Venom",
+      "damageMultiplier": "3.2 ATK",
+      "description": "Attacks 1 enemy 2 times. Each hit has a 15% chance of placing a 15% [Weaken] debuff for 2 turns.",
+      "books": [
+        "Level 2: Damage +5%",
+        "Level 3: Buff/Debuff Chance +5%",
+        "Level 4: Damage +5%",
+        "Level 5: Buff/Debuff Chance +5%",
+        "Level 6: Damage +5%",
+        "Level 7: Buff/Debuff Chance +5%",
+        "Level 8: Damage +10%"
+      ]
+    }
+  ],
+  "version": "3.30.0",
+  "avatarUrl": "https://mcradane.github.io/raid-data/images/avatar/Sandbow.png"
+}
