@@ -3,6 +3,16 @@
   "version": "3.30.0",
   "description": "RAID: Shadow Legends Data",
   "main": "champions-base-info.json",
+  "files": [
+    "champion-details",
+    "images",
+    "champions-base-info.json",
+    "champions-by-affinity.json",
+    "champions-by-aura.json",
+    "champions-by-faction.json",
+    "champions-by-rarity.json",
+    "champions-by-role.json"
+  ],
   "repository": "https://github.com/McRadane/raid-data",
   "author": "Léo Maradan <3043485+Leomaradan@users.noreply.github.com>",
   "license": "MIT"
