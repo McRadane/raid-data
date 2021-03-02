@@ -1,6 +1,6 @@
 # Resources for Raid Shadow Legends
 
-![npm](https://img.shields.io/npm/v/raid-data)
+[![npm](https://img.shields.io/npm/v/raid-data)](https://www.npmjs.com/package/raid-data)
 
 This repository provides resources for Raid Shadow Legends.
 
