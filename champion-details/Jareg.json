@@ -36,7 +36,8 @@
         "Level 5: Buff/Debuff Chance +10%",
         "Level 6: Damage +10%",
         "Level 7: Buff/Debuff Chance +10%"
-      ]
+      ],
+      "image": "https://mcradane.github.io/raid-data/images/Skills/Jareg_s1.png"
     },
     {
       "cd": 5,
@@ -47,7 +48,8 @@
       "description": "Places a 50% [Ally Protection] and a 60% [Increase DEF] buff on all allies for 2 turns.",
       "books": [
         "Level 2: Cooldown -1"
-      ]
+      ],
+      "image": "https://mcradane.github.io/raid-data/images/Skills/Jareg_s2.png"
     },
     {
       "cd": 0,
@@ -56,9 +58,10 @@
       "dmgscaling": [],
       "abilityname": "Sheltering Scales",
       "description": "Places a 15% [Continuous Heal] buff on an ally for 1 turn whenever an ally loses 20% of their MAX HP in one hit.",
-      "books": []
+      "books": [],
+      "image": "https://mcradane.github.io/raid-data/images/Skills/Jareg_s3.png"
     }
   ],
-  "version": "3.30.0",
+  "version": "3.30.2",
   "avatarUrl": "https://mcradane.github.io/raid-data/images/avatar/Jareg.png"
 }

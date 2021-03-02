@@ -35,7 +35,8 @@
         "Level 4: Buff/Debuff Chance +5%",
         "Level 5: Buff/Debuff Chance +5%",
         "Level 6: Buff/Debuff Chance +5%"
-      ]
+      ],
+      "image": "https://mcradane.github.io/raid-data/images/Skills/Rector_Drath_s1.png"
     },
     {
       "cd": 5,
@@ -49,7 +50,8 @@
         "Level 3: Heal +5%",
         "Level 4: Heal +10%",
         "Level 5: Cooldown -1"
-      ]
+      ],
+      "image": "https://mcradane.github.io/raid-data/images/Skills/Rector_Drath_s2.png"
     },
     {
       "cd": 6,
@@ -61,7 +63,8 @@
       "books": [
         "Level 2: Cooldown -1",
         "Level 3: Cooldown -1"
-      ]
+      ],
+      "image": "https://mcradane.github.io/raid-data/images/Skills/Rector_Drath_s3.png"
     },
     {
       "cd": 0,
@@ -72,9 +75,10 @@
       ],
       "abilityname": "Master of Ghosts",
       "description": "Whenever an ally under a [Veil] or [Perfect Veil] buff gets a turn, heals them by 10% of their MAX HP. Also increases the RES of allies under [Veil] or [Perfect Veil] buffs by 50. Will only increase RES once per ally if there are multiple Rectors on the team.",
-      "books": []
+      "books": [],
+      "image": "https://mcradane.github.io/raid-data/images/Skills/Rector_Drath_s4.png"
     }
   ],
-  "version": "3.30.0",
+  "version": "3.30.2",
   "avatarUrl": "https://mcradane.github.io/raid-data/images/avatar/Rector_Drath.png"
 }

@@ -36,7 +36,8 @@
         "Level 5: Buff/Debuff Chance 5%",
         "Level 6: Damage +10%",
         "Level 7: Buff/Debuff Chance +10%"
-      ]
+      ],
+      "image": "https://mcradane.github.io/raid-data/images/Skills/Bogwalker_s1.png"
     },
     {
       "cd": 5,
@@ -57,7 +58,8 @@
         "Level 6: Damage +5%",
         "Level 7: Damage +10%",
         "Level 8: Cooldown -1"
-      ]
+      ],
+      "image": "https://mcradane.github.io/raid-data/images/Skills/Bogwalker_s2.png"
     },
     {
       "cd": 4,
@@ -68,9 +70,10 @@
       "description": "Places a 30% [Reflect Damage] buff on all allies for 1 turn when attacked with a critical hit.",
       "books": [
         "Level 2: Cooldown -1"
-      ]
+      ],
+      "image": "https://mcradane.github.io/raid-data/images/Skills/Bogwalker_s3.png"
     }
   ],
-  "version": "3.30.0",
+  "version": "3.30.2",
   "avatarUrl": "https://mcradane.github.io/raid-data/images/avatar/Bogwalker.png"
 }

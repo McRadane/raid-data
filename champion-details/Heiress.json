@@ -34,7 +34,8 @@
         "Level 3: Damage +5%",
         "Level 4: Damage +5%",
         "Level 5: Damage +5%"
-      ]
+      ],
+      "image": "https://mcradane.github.io/raid-data/images/Skills/Heiress_s1.png"
     },
     {
       "cd": 3,
@@ -48,7 +49,8 @@
         "Level 3: Buff/Debuff Chance +10%",
         "Level 4: Buff/Debuff Chance +10%",
         "Level 5: Buff/Debuff Chance +10%"
-      ]
+      ],
+      "image": "https://mcradane.github.io/raid-data/images/Skills/Heiress_s2.png"
     },
     {
       "cd": 1,
@@ -57,9 +59,10 @@
       "dmgscaling": [],
       "abilityname": "Avenger",
       "description": "Counterattacks the attacker when an ally is attacked.",
-      "books": []
+      "books": [],
+      "image": "https://mcradane.github.io/raid-data/images/Skills/Heiress_s3.png"
     }
   ],
-  "version": "3.30.0",
+  "version": "3.30.2",
   "avatarUrl": "https://mcradane.github.io/raid-data/images/avatar/Heiress.png"
 }

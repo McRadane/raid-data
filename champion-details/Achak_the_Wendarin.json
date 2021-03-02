@@ -38,7 +38,8 @@
         "Level 7: Buff/Debuff Chance +5%",
         "Level 8: Damage +5%",
         "Level 9: Buff/Debuff Chance +5%"
-      ]
+      ],
+      "image": "https://mcradane.github.io/raid-data/images/Skills/Achak_the_Wendarin_s1.png"
     },
     {
       "cd": 5,
@@ -51,7 +52,8 @@
       "description": "Places a [Block Debuff] buff on all allies for 1 turn and a 25% [Strengthen] buff on all allies for 2 turns.",
       "books": [
         "Level 2: Cooldown -1"
-      ]
+      ],
+      "image": "https://mcradane.github.io/raid-data/images/Skills/Achak_the_Wendarin_s2.png"
     },
     {
       "cd": 5,
@@ -70,7 +72,8 @@
         "Level 5: Buff/Debuff Chance +5%",
         "Level 6: Cooldown -1",
         "Level 7: Cooldown -1"
-      ]
+      ],
+      "image": "https://mcradane.github.io/raid-data/images/Skills/Achak_the_Wendarin_s3.png"
     },
     {
       "cd": 0,
@@ -79,9 +82,10 @@
       "dmgscaling": [],
       "abilityname": "Twisted Hunger",
       "description": "Heals all allies by 5% of their MAX HP every time an enemy under a [HP Burn] debuff gets a turn. Fills the Turn Meters of all allies by 10% every time an enemy under a [Freeze] debuff gets a turn.",
-      "books": []
+      "books": [],
+      "image": "https://mcradane.github.io/raid-data/images/Skills/Achak_the_Wendarin_s4.png"
     }
   ],
-  "version": "3.30.0",
+  "version": "3.30.2",
   "avatarUrl": "https://mcradane.github.io/raid-data/images/avatar/Achak_the_Wendarin.png"
 }

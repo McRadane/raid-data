@@ -38,7 +38,8 @@
         "Level 7: Damage +5%",
         "Level 8: Damage +10%",
         "Level 9: Buff/Debuff Chance +10%"
-      ]
+      ],
+      "image": "https://mcradane.github.io/raid-data/images/Skills/Grunch_Killjoy_s1.png"
     },
     {
       "cd": 5,
@@ -59,7 +60,8 @@
         "Level 7: Damage +5%",
         "Level 8: Buff/Debuff Chance +5%",
         "Level 9: Cooldown -1"
-      ]
+      ],
+      "image": "https://mcradane.github.io/raid-data/images/Skills/Grunch_Killjoy_s2.png"
     },
     {
       "cd": 6,
@@ -71,7 +73,8 @@
       "books": [
         "Level 2: Cooldown -1",
         "Level 3: Cooldown -1"
-      ]
+      ],
+      "image": "https://mcradane.github.io/raid-data/images/Skills/Grunch_Killjoy_s3.png"
     },
     {
       "cd": 0,
@@ -80,9 +83,10 @@
       "dmgscaling": [],
       "abilityname": "Madcap",
       "description": "Fills the Turn Meters of all allies by 10% whenever a [Bomb] debuff detonates on an enemy.",
-      "books": []
+      "books": [],
+      "image": "https://mcradane.github.io/raid-data/images/Skills/Grunch_Killjoy_s4.png"
     }
   ],
-  "version": "3.30.0",
+  "version": "3.30.2",
   "avatarUrl": "https://mcradane.github.io/raid-data/images/avatar/Grunch_Killjoy.png"
 }

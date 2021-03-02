@@ -33,7 +33,8 @@
         "Level 3: Buff/Debuff Chance +5%",
         "Level 4: Damage +5%",
         "Level 5: Buff/Debuff Chance +5%"
-      ]
+      ],
+      "image": "https://mcradane.github.io/raid-data/images/Skills/Elegaius_s1.png"
     },
     {
       "cd": 4,
@@ -49,7 +50,8 @@
         "Level 2: Damage +5%",
         "Level 3: Damage +10%",
         "Level 4: Cooldown -1"
-      ]
+      ],
+      "image": "https://mcradane.github.io/raid-data/images/Skills/Elegaius_s2.png"
     },
     {
       "cd": 5,
@@ -66,7 +68,8 @@
         "Level 3: Damage +10%",
         "Level 4: Buff/Debuff Chance +15%",
         "Level 5: Cooldown -1"
-      ]
+      ],
+      "image": "https://mcradane.github.io/raid-data/images/Skills/Elegaius_s3.png"
     },
     {
       "cd": 6,
@@ -77,9 +80,10 @@
       "description": "Prevents this Champion’s death and keeps them alive on 1 HP when hit by a fatal hit. If this skill prevents this Champion’s death, heals them by 10% of their MAX HP, fills their Turn Meter by 20%, and places a [Shield] buff on them equal to 30% of their MAX HP for 2 turns. Will not prevent this Champion’s death if they are under a [Heal Reduction] debuff.",
       "books": [
         "Level 2: Cooldown -1"
-      ]
+      ],
+      "image": "https://mcradane.github.io/raid-data/images/Skills/Elegaius_s4.png"
     }
   ],
-  "version": "3.30.0",
+  "version": "3.30.2",
   "avatarUrl": "https://mcradane.github.io/raid-data/images/avatar/Elegaius.png"
 }

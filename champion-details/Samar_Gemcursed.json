@@ -34,7 +34,8 @@
         "Level 3: Damage +5%",
         "Level 4: Damage +5%",
         "Level 5: Damage +10%"
-      ]
+      ],
+      "image": "https://mcradane.github.io/raid-data/images/Skills/Samar_Gemcursed_s1.png"
     },
     {
       "cd": 4,
@@ -51,7 +52,8 @@
         "Level 3: Damage +5%",
         "Level 4: Damage +10%",
         "Level 5: Cooldown -1"
-      ]
+      ],
+      "image": "https://mcradane.github.io/raid-data/images/Skills/Samar_Gemcursed_s2.png"
     },
     {
       "cd": 5,
@@ -71,7 +73,8 @@
         "Level 6: Damage +10%",
         "Level 7: Buff/Debuff Chance +10%",
         "Level 8: Cooldown -1"
-      ]
+      ],
+      "image": "https://mcradane.github.io/raid-data/images/Skills/Samar_Gemcursed_s3.png"
     },
     {
       "cd": 4,
@@ -80,9 +83,10 @@
       "dmgscaling": [],
       "abilityname": "Diamond Skin",
       "description": "Passive Effect: Places a [Block Damage] Buff on this champion for 1 turn at the start of each round. Active Effect: Blocks incoming damage and places a [Block Damage] Buff on this champion for 1 turn when they receive a hit that would drop their HP below 30%",
-      "books": []
+      "books": [],
+      "image": "https://mcradane.github.io/raid-data/images/Skills/Samar_Gemcursed_s4.png"
     }
   ],
-  "version": "3.30.0",
+  "version": "3.30.2",
   "avatarUrl": "https://mcradane.github.io/raid-data/images/avatar/Samar_Gemcursed.png"
 }

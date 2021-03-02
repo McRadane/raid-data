@@ -35,7 +35,8 @@
         "Level: 5 Damage +10%",
         "Level: 6 Damage +15%",
         "Level: 6 Heal +15%"
-      ]
+      ],
+      "image": "https://mcradane.github.io/raid-data/images/Skills/Duelist_s1.png"
     },
     {
       "cd": 3,
@@ -55,9 +56,10 @@
         "Level: 6 Buff/Debuff Chance +15%",
         "Level: 7 Damage +10%",
         "Level: 8 Cooldown -1"
-      ]
+      ],
+      "image": "https://mcradane.github.io/raid-data/images/Skills/Duelist_s2.png"
     }
   ],
-  "version": "3.30.0",
+  "version": "3.30.2",
   "avatarUrl": "https://mcradane.github.io/raid-data/images/avatar/Duelist.png"
 }

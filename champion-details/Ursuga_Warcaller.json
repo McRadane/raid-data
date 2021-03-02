@@ -34,7 +34,8 @@
         "Level 3: Damage +10%",
         "Level 4: Buff/Debuff Chance +5%",
         "Level 5: Buff/Debuff Chance +10%"
-      ]
+      ],
+      "image": "https://mcradane.github.io/raid-data/images/Skills/Ursuga_Warcaller_s1.png"
     },
     {
       "cd": 5,
@@ -52,7 +53,8 @@
         "Level 4: Damage +5%",
         "Level 5: Cooldown -1",
         "Level 5: Cooldown -1"
-      ]
+      ],
+      "image": "https://mcradane.github.io/raid-data/images/Skills/Ursuga_Warcaller_s2.png"
     },
     {
       "cd": 5,
@@ -64,7 +66,8 @@
       "books": [
         "Level 2: Cooldown -1",
         "Level 3: Cooldown -1"
-      ]
+      ],
+      "image": "https://mcradane.github.io/raid-data/images/Skills/Ursuga_Warcaller_s3.png"
     },
     {
       "cd": 0,
@@ -73,9 +76,10 @@
       "dmgscaling": [],
       "abilityname": "Golden Guard",
       "description": "Decreases the damage all allies receive from critical hits by 30%. This Champion will receive that damage instead.",
-      "books": []
+      "books": [],
+      "image": "https://mcradane.github.io/raid-data/images/Skills/Ursuga_Warcaller_s4.png"
     }
   ],
-  "version": "3.30.0",
+  "version": "3.30.2",
   "avatarUrl": "https://mcradane.github.io/raid-data/images/avatar/Ursuga_Warcaller.png"
 }

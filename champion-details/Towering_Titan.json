@@ -34,7 +34,8 @@
         "Level 3: Damage +5%",
         "Level 4: Buff/Debuff Chance +5%",
         "Level 5: Buff/Debuff Chance +10%"
-      ]
+      ],
+      "image": "https://mcradane.github.io/raid-data/images/Skills/Towering_Titan_s1.png"
     },
     {
       "cd": 4,
@@ -52,7 +53,8 @@
         "Level 4: Damage +10%",
         "Level 5: Buff/Debuff Chance +10%",
         "Level 6: Cooldown -1"
-      ]
+      ],
+      "image": "https://mcradane.github.io/raid-data/images/Skills/Towering_Titan_s2.png"
     },
     {
       "cd": 5,
@@ -67,7 +69,8 @@
         "Level 4: Shield +10%",
         "Level 5: Shield +10%",
         "Level 6: Cooldown -1"
-      ]
+      ],
+      "image": "https://mcradane.github.io/raid-data/images/Skills/Towering_Titan_s3.png"
     },
     {
       "cd": 2,
@@ -76,9 +79,10 @@
       "dmgscaling": [],
       "abilityname": "Battle Brothers",
       "description": "Will transfer 50% of the damage inflicted on Cagebreaker to this Champion during battle. [Only available when <a href=\"https://ayumilove.net/raid-shadow-legends-cagebreaker-skill-mastery-equip-guide/\">Cagebreaker</a> is on the same team. If multiple Cagebreakers are on the same team, this Champion will only transfer damage from one of them]",
-      "books": []
+      "books": [],
+      "image": "https://mcradane.github.io/raid-data/images/Skills/Towering_Titan_s4.png"
     }
   ],
-  "version": "3.30.0",
+  "version": "3.30.2",
   "avatarUrl": "https://mcradane.github.io/raid-data/images/avatar/Towering_Titan.png"
 }

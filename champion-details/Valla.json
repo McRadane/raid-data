@@ -34,7 +34,8 @@
         "Level 3: Damage +5%",
         "Level 4: Damage +5%",
         "Level 5: Damage +5%"
-      ]
+      ],
+      "image": "https://mcradane.github.io/raid-data/images/Skills/Valla_s1.png"
     },
     {
       "cd": 4,
@@ -52,7 +53,8 @@
         "Level 4: Buff/Debuff Chance +10%",
         "Level 5: Buff/Debuff Chance +10%",
         "Level 6: Cooldown -1"
-      ]
+      ],
+      "image": "https://mcradane.github.io/raid-data/images/Skills/Valla_s2.png"
     },
     {
       "cd": 4,
@@ -63,7 +65,8 @@
       "description": "Places a [Shield] buff on this Champion for 3 turns equal to 20% of their MAX HP. Also places a 60% [Increase DEF] buff on this Champion for 3 turns and fills this Champion’s Turn Meter by 50%.",
       "books": [
         "Level 2: Cooldown -1"
-      ]
+      ],
+      "image": "https://mcradane.github.io/raid-data/images/Skills/Valla_s3.png"
     },
     {
       "cd": 0,
@@ -72,9 +75,10 @@
       "dmgscaling": [],
       "abilityname": "Resolute Defense",
       "description": "Decreases the damage received by this Champion by 15% while under a [Shield] buff.",
-      "books": []
+      "books": [],
+      "image": "https://mcradane.github.io/raid-data/images/Skills/Valla_s4.png"
     }
   ],
-  "version": "3.30.0",
+  "version": "3.30.2",
   "avatarUrl": "https://mcradane.github.io/raid-data/images/avatar/Valla.png"
 }

@@ -34,7 +34,8 @@
         "Level 3: Damage +5%",
         "Level 4: Damage +5%",
         "Level 5: Damage +10%"
-      ]
+      ],
+      "image": "https://mcradane.github.io/raid-data/images/Skills/Judge_s1.png"
     },
     {
       "cd": 3,
@@ -51,7 +52,8 @@
         "Level 3: Damage +5%",
         "Level 4: Damage +5%",
         "Level 5: Damage +10%"
-      ]
+      ],
+      "image": "https://mcradane.github.io/raid-data/images/Skills/Judge_s2.png"
     },
     {
       "cd": 0,
@@ -60,9 +62,10 @@
       "dmgscaling": [],
       "abilityname": "Chaos Armor",
       "description": "With each hit has a 30% chance of placing a 50% [Decrease ACC] debuff OR a 30% [Decrease SPD] debuff OR a 50% [Decrease ATK] debuff OR a 60% [Decrease DEF] debuff on the target for 1 turn.",
-      "books": []
+      "books": [],
+      "image": "https://mcradane.github.io/raid-data/images/Skills/Judge_s3.png"
     }
   ],
-  "version": "3.30.0",
+  "version": "3.30.2",
   "avatarUrl": "https://mcradane.github.io/raid-data/images/avatar/Judge.png"
 }

@@ -34,7 +34,8 @@
         "Level 3: Buff/Debuff Chance +5%",
         "Level 4: Buff/Debuff Chance +10%",
         "Level 5: Buff/Debuff Chance +10%"
-      ]
+      ],
+      "image": "https://mcradane.github.io/raid-data/images/Skills/Little_Miss_Annie_s1.png"
     },
     {
       "cd": 4,
@@ -51,7 +52,8 @@
         "Level 3: Damage +10%",
         "Level 4: Cooldown -1",
         "Level 5: Cooldown -1"
-      ]
+      ],
+      "image": "https://mcradane.github.io/raid-data/images/Skills/Little_Miss_Annie_s2.png"
     },
     {
       "cd": 6,
@@ -69,7 +71,8 @@
         "Level 4: Damage +10%",
         "Level 5: Cooldown -1",
         "Level 6: Cooldown -1"
-      ]
+      ],
+      "image": "https://mcradane.github.io/raid-data/images/Skills/Little_Miss_Annie_s3.png"
     },
     {
       "cd": 0,
@@ -78,7 +81,8 @@
       "dmgscaling": [],
       "abilityname": "Toys Don’t Die",
       "description": "When revived, attacks the enemy that killed this Champion with the default Skill. Also fills this Champion’s Turn Meter by 25% and places a [Shield] buff on this Champion equal to 50% of their MAX HP for 2 turns.",
-      "books": []
+      "books": [],
+      "image": "https://mcradane.github.io/raid-data/images/Skills/Little_Miss_Annie_s4.png"
     },
     {
       "cd": 0,
@@ -87,9 +91,10 @@
       "dmgscaling": [],
       "abilityname": "Magical Heart",
       "description": "Each hit has a 50% chance of decreasing the target’s Turn Meter by 5% and a 50% chance of decreasing the target’s MAX HP by 5% of the damage inflicted when attacking enemies under [Heal Reduction] debuffs. Also heals this Champion by 5% of the damage inflicted when attacking enemies under [Heal Reduction] debuffs. [Will not heal from damage inflicted by Masteries]",
-      "books": []
+      "books": [],
+      "image": "https://mcradane.github.io/raid-data/images/Skills/Little_Miss_Annie_s5.png"
     }
   ],
-  "version": "3.30.0",
+  "version": "3.30.2",
   "avatarUrl": "https://mcradane.github.io/raid-data/images/avatar/Little_Miss_Annie.png"
 }

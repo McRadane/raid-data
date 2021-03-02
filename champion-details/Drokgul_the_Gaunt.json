@@ -34,7 +34,8 @@
         "Level 4: Damage +10%",
         "Level 5: Buff/Debuff Chance +10%",
         "Level 6: Buff/Debuff Chance +10%"
-      ]
+      ],
+      "image": "https://mcradane.github.io/raid-data/images/Skills/Drokgul_the_Gaunt_s1.png"
     },
     {
       "cd": 5,
@@ -46,7 +47,8 @@
       "books": [
         "Level 2: Cooldown -1",
         "Level 3: Cooldown -1"
-      ]
+      ],
+      "image": "https://mcradane.github.io/raid-data/images/Skills/Drokgul_the_Gaunt_s2.png"
     },
     {
       "cd": 5,
@@ -60,9 +62,10 @@
         "Level 3: Shield +5%",
         "Level 4: Shield +10%",
         "Level 5: Cooldown -1"
-      ]
+      ],
+      "image": "https://mcradane.github.io/raid-data/images/Skills/Drokgul_the_Gaunt_s3.png"
     }
   ],
-  "version": "3.30.0",
+  "version": "3.30.2",
   "avatarUrl": "https://mcradane.github.io/raid-data/images/avatar/Drokgul_the_Gaunt.png"
 }

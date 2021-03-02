@@ -35,7 +35,8 @@
         "Level 5: Buff/Debuff Chance +5%",
         "Level 6: Buff/Debuff Chance +5%",
         "Level 7: Buff/Debuff Chance +5%"
-      ]
+      ],
+      "image": "https://mcradane.github.io/raid-data/images/Skills/Line_Infantry_s1.png"
     },
     {
       "cd": 4,
@@ -54,9 +55,10 @@
         "Level 6: Buff/Debuff Chance +5%",
         "Level 7: Buff/Debuff Chance +10%",
         "Level 8: Cooldown -1"
-      ]
+      ],
+      "image": "https://mcradane.github.io/raid-data/images/Skills/Line_Infantry_s2.png"
     }
   ],
-  "version": "3.30.0",
+  "version": "3.30.2",
   "avatarUrl": "https://mcradane.github.io/raid-data/images/avatar/Line_Infantry.png"
 }

@@ -35,7 +35,8 @@
         "Level 4: Buff/Debuff Chance +5%",
         "Level 5: Buff/Debuff Chance +5%",
         "Level 6: Buff/Debuff Chance +5%"
-      ]
+      ],
+      "image": "https://mcradane.github.io/raid-data/images/Skills/Cillian_the_Lucky_s1.png"
     },
     {
       "cd": 4,
@@ -53,7 +54,8 @@
         "Level 4: Buff/Debuff Chance +5%",
         "Level 5: Buff/Debuff Chance +10%",
         "Level 6: Cooldown -1"
-      ]
+      ],
+      "image": "https://mcradane.github.io/raid-data/images/Skills/Cillian_the_Lucky_s2.png"
     },
     {
       "cd": 5,
@@ -71,7 +73,8 @@
         "Level 4: Damage +20%",
         "Level 5: Cooldown -1",
         "Level 6: Cooldown -1"
-      ]
+      ],
+      "image": "https://mcradane.github.io/raid-data/images/Skills/Cillian_the_Lucky_s3.png"
     },
     {
       "cd": 0,
@@ -80,9 +83,10 @@
       "dmgscaling": [],
       "abilityname": "Charmed Life",
       "description": "Places one of the following buffs on this Champion for 2 turns at the start of each turn: a 50% [Increase ATK] buff, a 30% [Increase C.DMG] buff, a 30% [Increase C.RATE] buff, a 25% [Strengthen] buff, or a [Block Damage] buff.",
-      "books": []
+      "books": [],
+      "image": "https://mcradane.github.io/raid-data/images/Skills/Cillian_the_Lucky_s4.png"
     }
   ],
-  "version": "3.30.0",
+  "version": "3.30.2",
   "avatarUrl": "https://mcradane.github.io/raid-data/images/avatar/Cillian_the_Lucky.png"
 }

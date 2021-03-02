@@ -34,7 +34,8 @@
         "Level 3: Damage +5%",
         "Level 4: Buff/Debuff Chance +5%",
         "Level 5: Buff/Debuff Chance +10%"
-      ]
+      ],
+      "image": "https://mcradane.github.io/raid-data/images/Skills/Shamrock_s1.png"
     },
     {
       "cd": 4,
@@ -49,7 +50,8 @@
         "Level 4: Buff/Debuff Chance +5%",
         "Level 5: Buff/Debuff Chance +5%",
         "Level 6: Cooldown -1"
-      ]
+      ],
+      "image": "https://mcradane.github.io/raid-data/images/Skills/Shamrock_s2.png"
     },
     {
       "cd": 5,
@@ -60,9 +62,10 @@
       "description": "Places a 30% [Decrease SPD] debuff on all enemies for 2 turns. Decreases the Turn Meter of all enemies by 15%. Fills the Turn Meters of all allies by 15% if any enemy’s Turn Meter is below 50%.",
       "books": [
         "Level 2: Cooldown -1"
-      ]
+      ],
+      "image": "https://mcradane.github.io/raid-data/images/Skills/Shamrock_s3.png"
     }
   ],
-  "version": "3.30.0",
+  "version": "3.30.2",
   "avatarUrl": "https://mcradane.github.io/raid-data/images/avatar/Shamrock.png"
 }

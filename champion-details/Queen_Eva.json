@@ -34,7 +34,8 @@
         "Level: 3 Buff/Debuff Chance +15%",
         "Level: 4 Buff/Debuff Chance +15%",
         "Level: 5 Damage +20%"
-      ]
+      ],
+      "image": "https://mcradane.github.io/raid-data/images/Skills/Queen_Eva_s1.png"
     },
     {
       "cd": 5,
@@ -51,7 +52,8 @@
         "Level: 3 Cooldown -1",
         "Level: 4 Damage +15%",
         "Level: 5 Cooldown -1"
-      ]
+      ],
+      "image": "https://mcradane.github.io/raid-data/images/Skills/Queen_Eva_s2.png"
     },
     {
       "cd": 5,
@@ -68,9 +70,10 @@
         "Level: 3 Damage +10%",
         "Level: 4 Damage +10%",
         "Level: 5 Cooldown -1"
-      ]
+      ],
+      "image": "https://mcradane.github.io/raid-data/images/Skills/Queen_Eva_s3.png"
     }
   ],
-  "version": "3.30.0",
+  "version": "3.30.2",
   "avatarUrl": "https://mcradane.github.io/raid-data/images/avatar/Queen_Eva.png"
 }

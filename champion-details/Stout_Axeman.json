@@ -34,7 +34,8 @@
         "Level 4: Damage +5%",
         "Level 5: Damage +5%",
         "Level 6: Damage +5%"
-      ]
+      ],
+      "image": "https://mcradane.github.io/raid-data/images/Skills/Stout_Axeman_s1.png"
     },
     {
       "cd": 4,
@@ -48,7 +49,8 @@
         "Level 3: Buff/Debuff Chance +5%",
         "Level 4: Buff/Debuff Chance +5%",
         "Level 5: Cooldown -1"
-      ]
+      ],
+      "image": "https://mcradane.github.io/raid-data/images/Skills/Stout_Axeman_s2.png"
     },
     {
       "cd": 0,
@@ -57,9 +59,10 @@
       "dmgscaling": [],
       "abilityname": "Thrives on Danger",
       "description": "Heals this Champion by 50% of the damage taken while under a [Reflect Damage] buff. Also has a 25% chance of increasing the duration of all attackers’ debuffs by 1 turn when hit while under a [Reflect Damage] buff.",
-      "books": []
+      "books": [],
+      "image": "https://mcradane.github.io/raid-data/images/Skills/Stout_Axeman_s3.png"
     }
   ],
-  "version": "3.30.0",
+  "version": "3.30.2",
   "avatarUrl": "https://mcradane.github.io/raid-data/images/avatar/Stout_Axeman.png"
 }

@@ -34,7 +34,8 @@
         "Level 3: Damage +5%",
         "Level 4: Buff/Debuff Chance +5%",
         "Level 5: Damage +10%"
-      ]
+      ],
+      "image": "https://mcradane.github.io/raid-data/images/Skills/Woad_Painted_s1.png"
     },
     {
       "cd": 5,
@@ -45,7 +46,8 @@
       "description": "Removes all debuffs from this Champion, then fully heals this Champion. Places a 30% [Reflect Damage] buff on this Champion for 2 turns.",
       "books": [
         "Level 2: Cooldown -1"
-      ]
+      ],
+      "image": "https://mcradane.github.io/raid-data/images/Skills/Woad_Painted_s2.png"
     },
     {
       "cd": 5,
@@ -64,9 +66,10 @@
         "Level 4: Damage +10%",
         "Level 5: Buff/Debuff Chance +10%",
         "Level 6: Cooldown -1"
-      ]
+      ],
+      "image": "https://mcradane.github.io/raid-data/images/Skills/Woad_Painted_s3.png"
     }
   ],
-  "version": "3.30.0",
+  "version": "3.30.2",
   "avatarUrl": "https://mcradane.github.io/raid-data/images/avatar/Woad_Painted.png"
 }

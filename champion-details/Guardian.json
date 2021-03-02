@@ -36,7 +36,8 @@
         "Level 5: Buff/Debuff Chance +5%",
         "Level 6: Damage +5%",
         "Level 7: Buff/Debuff Chance +5%"
-      ]
+      ],
+      "image": "https://mcradane.github.io/raid-data/images/Skills/Guardian_s1.png"
     },
     {
       "cd": 5,
@@ -55,7 +56,8 @@
         "Level 4: Buff/Debuff Chance +5%",
         "Level 5: Damage +10%",
         "Level 6: Cooldown -1"
-      ]
+      ],
+      "image": "https://mcradane.github.io/raid-data/images/Skills/Guardian_s2.png"
     },
     {
       "cd": 5,
@@ -66,9 +68,10 @@
       "description": "Places a [Block Debuffs] buff and a [Counterattack] buff on this Champion for 2 turns. Also places a 15% [Continuous Heal] buff on this Champion for 2 turns.",
       "books": [
         "Level 2: Cooldown -1"
-      ]
+      ],
+      "image": "https://mcradane.github.io/raid-data/images/Skills/Guardian_s3.png"
     }
   ],
-  "version": "3.30.0",
+  "version": "3.30.2",
   "avatarUrl": "https://mcradane.github.io/raid-data/images/avatar/Guardian.png"
 }

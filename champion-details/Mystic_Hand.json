@@ -34,7 +34,8 @@
         "Level 3: Buff/Debuff Chance +5%",
         "Level 4: Damage +10%",
         "Level 5: Buff/Debuff Chance +5%"
-      ]
+      ],
+      "image": "https://mcradane.github.io/raid-data/images/Skills/Mystic_Hand_s1.png"
     },
     {
       "cd": 3,
@@ -51,7 +52,8 @@
         "Level 3: Damage +5%",
         "Level 4: Damage +5%",
         "Level 5: Damage +10%"
-      ]
+      ],
+      "image": "https://mcradane.github.io/raid-data/images/Skills/Mystic_Hand_s2.png"
     },
     {
       "cd": 5,
@@ -65,9 +67,10 @@
         "Level 3: Heal +5%",
         "Level 4: Heal +10%",
         "Level 5: Cooldown -1"
-      ]
+      ],
+      "image": "https://mcradane.github.io/raid-data/images/Skills/Mystic_Hand_s3.png"
     }
   ],
-  "version": "3.30.0",
+  "version": "3.30.2",
   "avatarUrl": "https://mcradane.github.io/raid-data/images/avatar/Mystic_Hand.png"
 }

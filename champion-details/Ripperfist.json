@@ -37,7 +37,8 @@
         "Level 7: Damage +5%",
         "Level 8: Buff/Debuff Chance +5%",
         "Level 9: Buff/Debuff Chance +5%"
-      ]
+      ],
+      "image": "https://mcradane.github.io/raid-data/images/Skills/Ripperfist_s1.png"
     },
     {
       "cd": 4,
@@ -55,7 +56,8 @@
         "Level 4: Damage +5%",
         "Level 5: Damage +5%",
         "Level 6: Cooldown -1"
-      ]
+      ],
+      "image": "https://mcradane.github.io/raid-data/images/Skills/Ripperfist_s2.png"
     },
     {
       "cd": 0,
@@ -64,9 +66,10 @@
       "dmgscaling": [],
       "abilityname": "Bloody Mess",
       "description": "Places a 25% [Increase ATK] buff on this Champion for 1 turn and decreases the cooldown of the Rip to Shreds skill every time this Champion’s HP drops below 50%.",
-      "books": []
+      "books": [],
+      "image": "https://mcradane.github.io/raid-data/images/Skills/Ripperfist_s3.png"
     }
   ],
-  "version": "3.30.0",
+  "version": "3.30.2",
   "avatarUrl": "https://mcradane.github.io/raid-data/images/avatar/Ripperfist.png"
 }

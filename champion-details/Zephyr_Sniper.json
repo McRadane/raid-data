@@ -33,7 +33,8 @@
         "Level 3: Buff/Debuff Chance +5%",
         "Level 4: Buff/Debuff Chance +5%",
         "Level 5: Damage +10%"
-      ]
+      ],
+      "image": "https://mcradane.github.io/raid-data/images/Skills/Zephyr_Sniper_s1.png"
     },
     {
       "cd": 5,
@@ -46,9 +47,10 @@
       "description": "Places a 7.5% [Continuous Heal] buff on all allies for 1 turn.",
       "books": [
         "Level 2: Cooldown -1"
-      ]
+      ],
+      "image": "https://mcradane.github.io/raid-data/images/Skills/Zephyr_Sniper_s2.png"
     }
   ],
-  "version": "3.30.0",
+  "version": "3.30.2",
   "avatarUrl": "https://mcradane.github.io/raid-data/images/avatar/Zephyr_Sniper.png"
 }

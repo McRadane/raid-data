@@ -36,7 +36,8 @@
         "Level 5: Buff/Debuff Chance +5%",
         "Level 6: Damage +5%",
         "Level 7: Buff/Debuff Chance +5%"
-      ]
+      ],
+      "image": "https://mcradane.github.io/raid-data/images/Skills/Bulwark_s1.png"
     },
     {
       "cd": 4,
@@ -56,7 +57,8 @@
         "Level 6: Damage +10%",
         "Level 7: Buff/Debuff Chance +10%",
         "Level 8: Cooldown -1"
-      ]
+      ],
+      "image": "https://mcradane.github.io/raid-data/images/Skills/Bulwark_s2.png"
     },
     {
       "cd": 0,
@@ -65,9 +67,10 @@
       "dmgscaling": [],
       "abilityname": "Punishing Defenses",
       "description": "When attacked, has a 30% chance of extending the duration of all debuffs on the attacker by 1 turn.",
-      "books": []
+      "books": [],
+      "image": "https://mcradane.github.io/raid-data/images/Skills/Bulwark_s3.png"
     }
   ],
-  "version": "3.30.0",
+  "version": "3.30.2",
   "avatarUrl": "https://mcradane.github.io/raid-data/images/avatar/Bulwark.png"
 }

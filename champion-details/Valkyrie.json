@@ -36,7 +36,8 @@
         "Level: 4 Damage +5%",
         "Level: 5 Damage +5%",
         "Level: 6 Damage +5%"
-      ]
+      ],
+      "image": "https://mcradane.github.io/raid-data/images/Skills/Valkyrie_s1.png"
     },
     {
       "cd": 4,
@@ -55,7 +56,8 @@
         "Level: 5 Shield +10%",
         "Level: 6 Damage +10%",
         "Level: 7 Cooldown -1"
-      ]
+      ],
+      "image": "https://mcradane.github.io/raid-data/images/Skills/Valkyrie_s2.png"
     },
     {
       "cd": 0,
@@ -64,9 +66,10 @@
       "dmgscaling": [],
       "abilityname": "Jealousy",
       "description": "This Champion’s Turn Meter will be increased by 10% each time an enemy Champion places a buff. Enemy Champions will have their Turn Meters decreased by 10% for each buff they receive.",
-      "books": []
+      "books": [],
+      "image": "https://mcradane.github.io/raid-data/images/Skills/Valkyrie_s3.png"
     }
   ],
-  "version": "3.30.0",
+  "version": "3.30.2",
   "avatarUrl": "https://mcradane.github.io/raid-data/images/avatar/Valkyrie.png"
 }

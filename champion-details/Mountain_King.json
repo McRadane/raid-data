@@ -34,7 +34,8 @@
         "Level 3: Damage +5%",
         "Level 4: Damage +5%",
         "Level 5: Damage +5%"
-      ]
+      ],
+      "image": "https://mcradane.github.io/raid-data/images/Skills/Mountain_King_s1.png"
     },
     {
       "cd": 5,
@@ -52,7 +53,8 @@
         "Level 3: Damage +10%",
         "Level 4: Damage +10%",
         "Level 5: Cooldown -1"
-      ]
+      ],
+      "image": "https://mcradane.github.io/raid-data/images/Skills/Mountain_King_s2.png"
     },
     {
       "cd": 5,
@@ -69,7 +71,8 @@
         "Level 2: Damage +5%",
         "Level 3: Damage +5%",
         "Level 4: Cooldown -1"
-      ]
+      ],
+      "image": "https://mcradane.github.io/raid-data/images/Skills/Mountain_King_s3.png"
     },
     {
       "cd": 0,
@@ -78,9 +81,10 @@
       "dmgscaling": [],
       "abilityname": "Fabled Skill",
       "description": "Increases this Champion’s ATK by 50% each time this Champion kills an enemy. Stacks up to 100%. Resets each round.",
-      "books": []
+      "books": [],
+      "image": "https://mcradane.github.io/raid-data/images/Skills/Mountain_King_s4.png"
     }
   ],
-  "version": "3.30.0",
+  "version": "3.30.2",
   "avatarUrl": "https://mcradane.github.io/raid-data/images/avatar/Mountain_King.png"
 }

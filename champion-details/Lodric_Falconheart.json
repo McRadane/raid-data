@@ -36,7 +36,8 @@
         "Level 5: Buff/Debuff Chance +5%",
         "Level 6: Damage +10%",
         "Level 7: Buff/Debuff Chance +10%"
-      ]
+      ],
+      "image": "https://mcradane.github.io/raid-data/images/Skills/Lodric_Falconheart_s1.png"
     },
     {
       "cd": 4,
@@ -47,7 +48,8 @@
       "description": "Removes all debuffs from one ally, then places a 50% [Ally Protection] buff on that ally for 2 turns.",
       "books": [
         "Level 2: Cooldown -1"
-      ]
+      ],
+      "image": "https://mcradane.github.io/raid-data/images/Skills/Lodric_Falconheart_s2.png"
     },
     {
       "cd": 4,
@@ -63,9 +65,10 @@
         "Level 5: Shield +5%",
         "Level 6: Cooldown -1",
         "Level 7: Cooldown -1"
-      ]
+      ],
+      "image": "https://mcradane.github.io/raid-data/images/Skills/Lodric_Falconheart_s3.png"
     }
   ],
-  "version": "3.30.0",
+  "version": "3.30.2",
   "avatarUrl": "https://mcradane.github.io/raid-data/images/avatar/Lodric_Falconheart.png"
 }

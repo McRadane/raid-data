@@ -33,7 +33,8 @@
         "Level 2: Damage +5%",
         "Level 3: Damage +10%",
         "Level 4: Damage +10%"
-      ]
+      ],
+      "image": "https://mcradane.github.io/raid-data/images/Skills/Gurptuk_Moss_Beard_s1.png"
     },
     {
       "cd": 3,
@@ -48,7 +49,8 @@
         "Level 4: Heal +10%",
         "Level 5: Shield +10%",
         "Level 6: Cooldown -1"
-      ]
+      ],
+      "image": "https://mcradane.github.io/raid-data/images/Skills/Gurptuk_Moss_Beard_s2.png"
     },
     {
       "cd": 4,
@@ -62,7 +64,8 @@
         "Level 3: Buff/Debuff Chance +5%",
         "Level 4: Buff/Debuff Chance +10%",
         "Level 5: Cooldown -1"
-      ]
+      ],
+      "image": "https://mcradane.github.io/raid-data/images/Skills/Gurptuk_Moss_Beard_s3.png"
     },
     {
       "cd": 0,
@@ -71,9 +74,10 @@
       "dmgscaling": [],
       "abilityname": "Symbiotes",
       "description": "Allies under [Poison] debuffs inflict 7.5% more damage for each [Poison] debuff on them, stacking up to a maximum of 30%. This damage increase applies to all of their skills. Also increases each ally’s RES by 15 for each [Poison] debuff on them.",
-      "books": []
+      "books": [],
+      "image": "https://mcradane.github.io/raid-data/images/Skills/Gurptuk_Moss_Beard_s4.png"
     }
   ],
-  "version": "3.30.0",
+  "version": "3.30.2",
   "avatarUrl": "https://mcradane.github.io/raid-data/images/avatar/Gurptuk_Moss_Beard.png"
 }

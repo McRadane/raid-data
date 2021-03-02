@@ -34,7 +34,8 @@
         "Level 3: Damage +10%",
         "Level 4: Buff/Debuff Chance +10%",
         "Level 5: Buff/Debuff Chance +15%"
-      ]
+      ],
+      "image": "https://mcradane.github.io/raid-data/images/Skills/Lydia_the_Deathsiren_s1.png"
     },
     {
       "cd": 4,
@@ -51,7 +52,8 @@
         "Level 3: Buff/Debuff Chance +10%",
         "Level 4: Buff/Debuff Chance +15%",
         "Level 5: Cooldown -1"
-      ]
+      ],
+      "image": "https://mcradane.github.io/raid-data/images/Skills/Lydia_the_Deathsiren_s2.png"
     },
     {
       "cd": 5,
@@ -69,7 +71,8 @@
         "Level 4: Buff/Debuff Chance +15%",
         "Level 5: Cooldown -1",
         "Level 6: Cooldown -1"
-      ]
+      ],
+      "image": "https://mcradane.github.io/raid-data/images/Skills/Lydia_the_Deathsiren_s3.png"
     },
     {
       "cd": 9,
@@ -81,9 +84,10 @@
       "books": [
         "Level 2: Cooldown -1",
         "Level 3: Cooldown -1"
-      ]
+      ],
+      "image": "https://mcradane.github.io/raid-data/images/Skills/Lydia_the_Deathsiren_s4.png"
     }
   ],
-  "version": "3.30.0",
+  "version": "3.30.2",
   "avatarUrl": "https://mcradane.github.io/raid-data/images/avatar/Lydia_the_Deathsiren.png"
 }

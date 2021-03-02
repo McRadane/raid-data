@@ -35,7 +35,8 @@
         "Level 4: Heal +10%",
         "Level 5: Damage +10%",
         "Level 6: Heal +10%"
-      ]
+      ],
+      "image": "https://mcradane.github.io/raid-data/images/Skills/Bad_el_Kazar_s1.png"
     },
     {
       "cd": 5,
@@ -47,7 +48,8 @@
       "books": [
         "Level 2: Cooldown -1",
         "Level 3: Cooldown -1"
-      ]
+      ],
+      "image": "https://mcradane.github.io/raid-data/images/Skills/Bad_el_Kazar_s2.png"
     },
     {
       "cd": 0,
@@ -56,9 +58,10 @@
       "dmgscaling": [],
       "abilityname": "Prey Upon",
       "description": "All allies inflict 15% more damage against targets under [Poison] debuffs.",
-      "books": []
+      "books": [],
+      "image": "https://mcradane.github.io/raid-data/images/Skills/Bad_el_Kazar_s3.png"
     }
   ],
-  "version": "3.30.0",
+  "version": "3.30.2",
   "avatarUrl": "https://mcradane.github.io/raid-data/images/avatar/Bad_el_Kazar.png"
 }

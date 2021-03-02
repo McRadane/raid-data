@@ -34,7 +34,8 @@
         "Level 3: Damage +5%",
         "Level 4: Damage +5%",
         "Level 5: Damage +10%"
-      ]
+      ],
+      "image": "https://mcradane.github.io/raid-data/images/Skills/Doompriest_s1.png"
     },
     {
       "cd": 4,
@@ -45,7 +46,8 @@
       "description": "Place a 50% [Increase ATK] buff on all allies for 2 turns.",
       "books": [
         "Level 2: Cooldown -1"
-      ]
+      ],
+      "image": "https://mcradane.github.io/raid-data/images/Skills/Doompriest_s2.png"
     },
     {
       "cd": 0,
@@ -54,9 +56,10 @@
       "dmgscaling": [],
       "abilityname": "Bolster",
       "description": "Heals all allies by 7.5% of their HP and removes 1 random debuff from them at the start of this Champion’s turn.",
-      "books": []
+      "books": [],
+      "image": "https://mcradane.github.io/raid-data/images/Skills/Doompriest_s3.png"
     }
   ],
-  "version": "3.30.0",
+  "version": "3.30.2",
   "avatarUrl": "https://mcradane.github.io/raid-data/images/avatar/Doompriest.png"
 }

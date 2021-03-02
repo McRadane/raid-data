@@ -34,7 +34,8 @@
         "Level 3: Damage +5%",
         "Level 4: Buff/Debuff Chance +5%",
         "Level 5: Buff/Debuff Chance +5%"
-      ]
+      ],
+      "image": "https://mcradane.github.io/raid-data/images/Skills/Yakarl_the_Scourge_s1.png"
     },
     {
       "cd": 4,
@@ -50,7 +51,8 @@
         "Level 3: Buff/Debuff Chance +10%",
         "Level 4: Buff/Debuff Chance +15%",
         "Level 5: Cooldown -1"
-      ]
+      ],
+      "image": "https://mcradane.github.io/raid-data/images/Skills/Yakarl_the_Scourge_s2.png"
     },
     {
       "cd": 5,
@@ -67,7 +69,8 @@
         "Level 3: Damage +5%",
         "Level 4: Damage +10%",
         "Level 5: Cooldown -1"
-      ]
+      ],
+      "image": "https://mcradane.github.io/raid-data/images/Skills/Yakarl_the_Scourge_s3.png"
     },
     {
       "cd": 5,
@@ -76,9 +79,10 @@
       "dmgscaling": [],
       "abilityname": "Lord of Ice",
       "description": "[Passive Effect] Decreases the damage this Champion receives by 10% and increases the damage this Champion inflicts by 10% if there are 1 or more enemies under [Freeze] debuff. Increases this Champion’s SPD by 15 and RES by 50 if there are 2 or more enemies under [Freeze] debuff.",
-      "books": []
+      "books": [],
+      "image": "https://mcradane.github.io/raid-data/images/Skills/Yakarl_the_Scourge_s4.png"
     }
   ],
-  "version": "3.30.0",
+  "version": "3.30.2",
   "avatarUrl": "https://mcradane.github.io/raid-data/images/avatar/Yakarl_the_Scourge.png"
 }

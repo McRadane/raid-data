@@ -32,7 +32,8 @@
         "Level 2: Damage +5%",
         "Level 3: Damage +5%",
         "Level 4: Damage +5%"
-      ]
+      ],
+      "image": "https://mcradane.github.io/raid-data/images/Skills/Skull_Lord_Var_Gall_s1.png"
     },
     {
       "cd": 3,
@@ -46,7 +47,8 @@
         "Level 3: Buff/Debuff Chance +10%",
         "Level 4: Buff/Debuff Chance +10%",
         "Level 5: Cooldown -1"
-      ]
+      ],
+      "image": "https://mcradane.github.io/raid-data/images/Skills/Skull_Lord_Var_Gall_s2.png"
     },
     {
       "cd": 5,
@@ -64,7 +66,8 @@
         "Level 4: Buff/Debuff Chance +10%",
         "Level 5: Buff/Debuff Chance +10%",
         "Level 6: Cooldown -1"
-      ]
+      ],
+      "image": "https://mcradane.github.io/raid-data/images/Skills/Skull_Lord_Var_Gall_s3.png"
     },
     {
       "cd": 0,
@@ -73,7 +76,8 @@
       "dmgscaling": [],
       "abilityname": "Horrific Foe",
       "description": "When attacked, decreases the attacker’s MAX HP by 5%. Cannot decrease a single enemy’s MAX HP by more than 50%. Occurs once per enemy attack. Does not work against bosses. Has a 50% chance of placing a [True Fear] debuff on targets whose MAX HP has been decreased by 20% or more.",
-      "books": []
+      "books": [],
+      "image": "https://mcradane.github.io/raid-data/images/Skills/Skull_Lord_Var_Gall_s4.png"
     },
     {
       "cd": 1,
@@ -82,9 +86,10 @@
       "dmgscaling": [],
       "abilityname": "Skull Brood",
       "description": "Revives Skullsworn with 50% HP and 50% Turn Meter at the start of each turn. If there are multiple Skullsworns on the team, only one of them will be revived.",
-      "books": []
+      "books": [],
+      "image": "https://mcradane.github.io/raid-data/images/Skills/Skull_Lord_Var_Gall_s5.png"
     }
   ],
-  "version": "3.30.0",
+  "version": "3.30.2",
   "avatarUrl": "https://mcradane.github.io/raid-data/images/avatar/Skull_Lord_Var_Gall.png"
 }

@@ -33,7 +33,8 @@
         "Level 2: Damage +5%",
         "Level 3: Damage +5%",
         "Level 4: Damage +5%"
-      ]
+      ],
+      "image": "https://mcradane.github.io/raid-data/images/Skills/Juliana_s1.png"
     },
     {
       "cd": 5,
@@ -49,7 +50,8 @@
         "Level 2: Damage +5%",
         "Level 3: Damage +5%",
         "Level 4: Damage +10%"
-      ]
+      ],
+      "image": "https://mcradane.github.io/raid-data/images/Skills/Juliana_s2.png"
     },
     {
       "cd": 5,
@@ -69,9 +71,10 @@
         "Level 6: Buff/Debuff Chance +5%",
         "Level 7: Buff/Debuff Chance +5%",
         "Level 8: Buff/Debuff Chance +5%"
-      ]
+      ],
+      "image": "https://mcradane.github.io/raid-data/images/Skills/Juliana_s3.png"
     }
   ],
-  "version": "3.30.0",
+  "version": "3.30.2",
   "avatarUrl": "https://mcradane.github.io/raid-data/images/avatar/Juliana.png"
 }

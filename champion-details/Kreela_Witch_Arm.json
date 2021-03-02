@@ -34,7 +34,8 @@
         "Level 4: Damage +10%",
         "Level 5: Shield +5%",
         "Level 6: Shield +10%"
-      ]
+      ],
+      "image": "https://mcradane.github.io/raid-data/images/Skills/Kreela_Witch_Arm_s1.png"
     },
     {
       "cd": 4,
@@ -52,7 +53,8 @@
         "Level 4: Buff/Debuff Chance +10%",
         "Level 5: Buff/Debuff Chance +10%",
         "Level 6: Cooldown -1"
-      ]
+      ],
+      "image": "https://mcradane.github.io/raid-data/images/Skills/Kreela_Witch_Arm_s2.png"
     },
     {
       "cd": 5,
@@ -66,9 +68,10 @@
       "description": "Places a 50% [Increase ATK] buff and a 30% [Increase C.RATE] buff on all allies for 3 turns, then attack all enemies.",
       "books": [
         "Level 2: Cooldown -1"
-      ]
+      ],
+      "image": "https://mcradane.github.io/raid-data/images/Skills/Kreela_Witch_Arm_s3.png"
     }
   ],
-  "version": "3.30.0",
+  "version": "3.30.2",
   "avatarUrl": "https://mcradane.github.io/raid-data/images/avatar/Kreela_Witch_Arm.png"
 }

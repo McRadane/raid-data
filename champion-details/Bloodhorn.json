@@ -34,7 +34,8 @@
         "Level 3: Buff/Debuff Chance +5%",
         "Level 4: Damage +5%",
         "Level 5: Buff/Debuff Chance +10%"
-      ]
+      ],
+      "image": "https://mcradane.github.io/raid-data/images/Skills/Bloodhorn_s1.png"
     },
     {
       "cd": 5,
@@ -46,7 +47,8 @@
       "books": [
         "Level 2: Cooldown -1",
         "Level 3: Cooldown -1"
-      ]
+      ],
+      "image": "https://mcradane.github.io/raid-data/images/Skills/Bloodhorn_s2.png"
     },
     {
       "cd": 1,
@@ -55,9 +57,10 @@
       "dmgscaling": [],
       "abilityname": "Deep Defense",
       "description": "If an ally is hit with a critical hit, places a 15% [Continuous Heal] buff on them for 1 turn.",
-      "books": []
+      "books": [],
+      "image": "https://mcradane.github.io/raid-data/images/Skills/Bloodhorn_s3.png"
     }
   ],
-  "version": "3.30.0",
+  "version": "3.30.2",
   "avatarUrl": "https://mcradane.github.io/raid-data/images/avatar/Bloodhorn.png"
 }

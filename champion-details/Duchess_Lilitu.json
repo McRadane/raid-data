@@ -35,7 +35,8 @@
         "Level 4: Shield +10%",
         "Level 5: Shield +10%",
         "Level 6: Shield +10%"
-      ]
+      ],
+      "image": "https://mcradane.github.io/raid-data/images/Skills/Duchess_Lilitu_s1.png"
     },
     {
       "cd": 5,
@@ -46,7 +47,8 @@
       "description": "Places a 50% [Increase ATK] buff and a [Block Debuffs] buff on all allies for 2 turns. Places a [Perfect Veil] buff on all allies except this Champion for 2 turns.",
       "books": [
         "Level 2: Cooldown -1"
-      ]
+      ],
+      "image": "https://mcradane.github.io/raid-data/images/Skills/Duchess_Lilitu_s2.png"
     },
     {
       "cd": 6,
@@ -58,7 +60,8 @@
       "books": [
         "Level 2: Cooldown -1",
         "Level 3: Cooldown -1"
-      ]
+      ],
+      "image": "https://mcradane.github.io/raid-data/images/Skills/Duchess_Lilitu_s3.png"
     },
     {
       "cd": 0,
@@ -67,9 +70,10 @@
       "dmgscaling": [],
       "abilityname": "Ethereal Ways",
       "description": "Decreases the damage taken by all allies from AoE attacks by 25% (15% from Bosses).",
-      "books": []
+      "books": [],
+      "image": "https://mcradane.github.io/raid-data/images/Skills/Duchess_Lilitu_s4.png"
     }
   ],
-  "version": "3.30.0",
+  "version": "3.30.2",
   "avatarUrl": "https://mcradane.github.io/raid-data/images/avatar/Duchess_Lilitu.png"
 }

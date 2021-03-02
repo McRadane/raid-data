@@ -34,7 +34,8 @@
         "Level 3: Damage +5%",
         "Level 4: Damage +5%",
         "Level 5: Damage +10%"
-      ]
+      ],
+      "image": "https://mcradane.github.io/raid-data/images/Skills/Raglin_s1.png"
     },
     {
       "cd": 4,
@@ -49,7 +50,8 @@
         "Level 3: Heal +5%",
         "Level 4: Heal +10%",
         "Level 5: Heal +10%"
-      ]
+      ],
+      "image": "https://mcradane.github.io/raid-data/images/Skills/Raglin_s2.png"
     },
     {
       "cd": 3,
@@ -60,9 +62,10 @@
       "description": "Revives an ally with 75% HP and a full Turn Meter.",
       "books": [
         "Level 2: Cooldown -1"
-      ]
+      ],
+      "image": "https://mcradane.github.io/raid-data/images/Skills/Raglin_s3.png"
     }
   ],
-  "version": "3.30.0",
+  "version": "3.30.2",
   "avatarUrl": "https://mcradane.github.io/raid-data/images/avatar/Raglin.png"
 }

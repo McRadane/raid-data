@@ -31,7 +31,8 @@
         "Level 2: Damage +5%",
         "Level 3: Damage +5%",
         "Level 4: Damage +5%"
-      ]
+      ],
+      "image": "https://mcradane.github.io/raid-data/images/Skills/Frontline_Warrior_s1.png"
     },
     {
       "cd": 5,
@@ -42,9 +43,10 @@
       "description": "Places a 25% [Ally Protection] buff on the ally with the lowest HP for 2 turns. Grants an Extra Turn.",
       "books": [
         "Level 2: Cooldown -1"
-      ]
+      ],
+      "image": "https://mcradane.github.io/raid-data/images/Skills/Frontline_Warrior_s2.png"
     }
   ],
-  "version": "3.30.0",
+  "version": "3.30.2",
   "avatarUrl": "https://mcradane.github.io/raid-data/images/avatar/Frontline_Warrior.png"
 }

@@ -36,7 +36,8 @@
         "Level 4: Damage +10%",
         "Level 5: Buff/Debuff Chance +5%",
         "Level 6: Buff/Debuff Chance +5%"
-      ]
+      ],
+      "image": "https://mcradane.github.io/raid-data/images/Skills/Chopper_s1.png"
     },
     {
       "cd": 4,
@@ -54,7 +55,8 @@
         "Level 4: Damage +10%",
         "Level 5: Cooldown -1",
         "Level 6: Cooldown -1"
-      ]
+      ],
+      "image": "https://mcradane.github.io/raid-data/images/Skills/Chopper_s2.png"
     },
     {
       "cd": 6,
@@ -71,9 +73,10 @@
         "Level 3: Damage +10%",
         "Level 4: Cooldown -1",
         "Level 5: Cooldown -1"
-      ]
+      ],
+      "image": "https://mcradane.github.io/raid-data/images/Skills/Chopper_s3.png"
     }
   ],
-  "version": "3.30.0",
+  "version": "3.30.2",
   "avatarUrl": "https://mcradane.github.io/raid-data/images/avatar/Chopper.png"
 }

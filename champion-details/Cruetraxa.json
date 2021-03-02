@@ -34,7 +34,8 @@
         "Level 3: Damage +5%",
         "Level 4: Damage +5%",
         "Level 5: Damage +10%"
-      ]
+      ],
+      "image": "https://mcradane.github.io/raid-data/images/Skills/Cruetraxa_s1.png"
     },
     {
       "cd": 4,
@@ -51,7 +52,8 @@
         "Level 3: Buff/Debuff Chance +5%",
         "Level 4: Buff/Debuff Chance +10%",
         "Level 5: Buff/Debuff Chance +10%"
-      ]
+      ],
+      "image": "https://mcradane.github.io/raid-data/images/Skills/Cruetraxa_s2.png"
     },
     {
       "cd": 0,
@@ -60,9 +62,10 @@
       "dmgscaling": [],
       "abilityname": "Rite of Rebirth",
       "description": "Places a [Revive on Death] buff on this Champion for 2 turns at the beginning of each round. Places [Revive on Death] buff on this Champion for 1 turn when this Champion kills an enemy. [Does not occur with Spiderlings].",
-      "books": []
+      "books": [],
+      "image": "https://mcradane.github.io/raid-data/images/Skills/Cruetraxa_s3.png"
     }
   ],
-  "version": "3.30.0",
+  "version": "3.30.2",
   "avatarUrl": "https://mcradane.github.io/raid-data/images/avatar/Cruetraxa.png"
 }

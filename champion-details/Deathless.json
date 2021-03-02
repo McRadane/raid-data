@@ -35,7 +35,8 @@
         "Level: 4 Buff/Debuff Chance +10%",
         "Level: 5 Buff/Debuff Chance +10%",
         "Level: 6 Buff/Debuff Chance +10%"
-      ]
+      ],
+      "image": "https://mcradane.github.io/raid-data/images/Skills/Deathless_s1.png"
     },
     {
       "cd": 3,
@@ -52,7 +53,8 @@
         "Level: 3 Damage +10%",
         "Level: 4 Buff/Debuff Chance +10%",
         "Level: 5 Buff/Debuff Chance +10%"
-      ]
+      ],
+      "image": "https://mcradane.github.io/raid-data/images/Skills/Deathless_s2.png"
     },
     {
       "cd": 7,
@@ -70,9 +72,10 @@
         "Level: 4 Damage +10%",
         "Level: 5 Cooldown -1",
         "Level: 6 Cooldown -1"
-      ]
+      ],
+      "image": "https://mcradane.github.io/raid-data/images/Skills/Deathless_s3.png"
     }
   ],
-  "version": "3.30.0",
+  "version": "3.30.2",
   "avatarUrl": "https://mcradane.github.io/raid-data/images/avatar/Deathless.png"
 }

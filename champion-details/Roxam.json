@@ -34,7 +34,8 @@
         "Level 3: Damage +5%",
         "Level 4: Buff/Debuff Chance +5%",
         "Level 5: Buff/Debuff Chance +5%"
-      ]
+      ],
+      "image": "https://mcradane.github.io/raid-data/images/Skills/Roxam_s1.png"
     },
     {
       "cd": 4,
@@ -52,7 +53,8 @@
         "Level 4: Buff/Debuff Chance +10%",
         "Level 5: Buff/Debuff Chance +10%",
         "Level 6: Cooldown -1"
-      ]
+      ],
+      "image": "https://mcradane.github.io/raid-data/images/Skills/Roxam_s2.png"
     },
     {
       "cd": 5,
@@ -70,7 +72,8 @@
         "Level 4: Buff/Debuff Chance +10%",
         "Level 5: Buff/Debuff Chance +10%",
         "Level 6: Cooldown -1"
-      ]
+      ],
+      "image": "https://mcradane.github.io/raid-data/images/Skills/Roxam_s3.png"
     },
     {
       "cd": 0,
@@ -79,9 +82,10 @@
       "dmgscaling": [],
       "abilityname": "Chameleon",
       "description": "Places a [Block Debuffs] and a 25% [Strengthen] buff on this Champion for 1 turn, and a 15% [Continuous Heal] buff for 2 turns whenever they receive a [Veil] or [Perfect Veil] buff.",
-      "books": []
+      "books": [],
+      "image": "https://mcradane.github.io/raid-data/images/Skills/Roxam_s4.png"
     }
   ],
-  "version": "3.30.0",
+  "version": "3.30.2",
   "avatarUrl": "https://mcradane.github.io/raid-data/images/avatar/Roxam.png"
 }

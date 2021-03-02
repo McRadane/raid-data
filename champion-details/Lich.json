@@ -34,7 +34,8 @@
         "Level 3: Damage +10%",
         "Level 4: Buff/Debuff Chance +5%",
         "Level 5: Buff/Debuff Chance +10%"
-      ]
+      ],
+      "image": "https://mcradane.github.io/raid-data/images/Skills/Lich_s1.png"
     },
     {
       "cd": 4,
@@ -45,7 +46,8 @@
       "description": "Places a 60% [Increase DEF] buff on this Champion for 2 turns. Heals this Champion by 20% of their MAX HP.",
       "books": [
         "Level 2: Cooldown -1"
-      ]
+      ],
+      "image": "https://mcradane.github.io/raid-data/images/Skills/Lich_s2.png"
     },
     {
       "cd": 5,
@@ -63,9 +65,10 @@
         "Level 4: Damage +10%",
         "Level 5: Cooldown -1",
         "Level 6: Cooldown -1"
-      ]
+      ],
+      "image": "https://mcradane.github.io/raid-data/images/Skills/Lich_s3.png"
     }
   ],
-  "version": "3.30.0",
+  "version": "3.30.2",
   "avatarUrl": "https://mcradane.github.io/raid-data/images/avatar/Lich.png"
 }

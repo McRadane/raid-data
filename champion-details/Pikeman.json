@@ -36,9 +36,10 @@
         "Level: 6 Buff/Debuff Chance +10%",
         "Level: 7 Damage +10%",
         "Level: 8 Buff/Debuff Chance +15%"
-      ]
+      ],
+      "image": "https://mcradane.github.io/raid-data/images/Skills/Pikeman_s1.png"
     }
   ],
-  "version": "3.30.0",
+  "version": "3.30.2",
   "avatarUrl": "https://mcradane.github.io/raid-data/images/avatar/Pikeman.png"
 }

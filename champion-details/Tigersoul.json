@@ -37,7 +37,8 @@
         "Level 7: Buff/Debuff Chance +5%",
         "Level 8: Damage +5%",
         "Level 9: Buff/Debuff Chance +5%"
-      ]
+      ],
+      "image": "https://mcradane.github.io/raid-data/images/Skills/Tigersoul_s1.png"
     },
     {
       "cd": 4,
@@ -58,7 +59,8 @@
         "Level 7: Damage +10%",
         "Level 8: Buff/Debuff Chance +10%",
         "Level 9: Damage +10%"
-      ]
+      ],
+      "image": "https://mcradane.github.io/raid-data/images/Skills/Tigersoul_s2.png"
     },
     {
       "cd": 6,
@@ -71,9 +73,10 @@
         "Level 2: Cooldown -1",
         "Level 8: Cooldown -1",
         "Level 4: Cooldown -1"
-      ]
+      ],
+      "image": "https://mcradane.github.io/raid-data/images/Skills/Tigersoul_s3.png"
     }
   ],
-  "version": "3.30.0",
+  "version": "3.30.2",
   "avatarUrl": "https://mcradane.github.io/raid-data/images/avatar/Tigersoul.png"
 }

@@ -33,7 +33,8 @@
         "Level 3: Buff/Debuff Chance +5%",
         "Level 4: Buff/Debuff Chance +5%",
         "Level 5: Buff/Debuff Chance +10%"
-      ]
+      ],
+      "image": "https://mcradane.github.io/raid-data/images/Skills/Halberdier_s1.png"
     },
     {
       "cd": 4,
@@ -51,7 +52,8 @@
         "Level 4: Damage +5%",
         "Level 5: Damage +5%",
         "Level 6: Cooldown -1"
-      ]
+      ],
+      "image": "https://mcradane.github.io/raid-data/images/Skills/Halberdier_s2.png"
     },
     {
       "cd": 0,
@@ -60,9 +62,10 @@
       "dmgscaling": [],
       "abilityname": "Cleaving Ax",
       "description": "Increases C.DMG by 40%.",
-      "books": []
+      "books": [],
+      "image": "https://mcradane.github.io/raid-data/images/Skills/Halberdier_s3.png"
     }
   ],
-  "version": "3.30.0",
+  "version": "3.30.2",
   "avatarUrl": "https://mcradane.github.io/raid-data/images/avatar/Halberdier.png"
 }

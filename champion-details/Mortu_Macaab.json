@@ -35,7 +35,8 @@
         "Level 4: Buff/Debuff Chance +10%",
         "Level 5: Damage +15%",
         "Level 6: Buff/Debuff Chance +15%"
-      ]
+      ],
+      "image": "https://mcradane.github.io/raid-data/images/Skills/Mortu_Macaab_s1.png"
     },
     {
       "cd": 5,
@@ -54,7 +55,8 @@
         "Level 4: Damage +10%",
         "Level 5: Buff/Debuff Chance +5%",
         "Level 6: Cooldown -1"
-      ]
+      ],
+      "image": "https://mcradane.github.io/raid-data/images/Skills/Mortu_Macaab_s2.png"
     },
     {
       "cd": 0,
@@ -63,7 +65,8 @@
       "dmgscaling": [],
       "abilityname": "Fiery Rage",
       "description": "Has a 20% chance to unlock a secret skill, Peril, for 1 turn. Also has a 20% chance to fill this Champion’s Turn Meter by 25% when attacked.",
-      "books": []
+      "books": [],
+      "image": "https://mcradane.github.io/raid-data/images/Skills/Mortu_Macaab_s3.png"
     },
     {
       "cd": 0,
@@ -75,9 +78,10 @@
       "abilityname": "Peril",
       "damageMultiplier": "0.2 HP",
       "description": "Attacks 1 enemy 2 times. Will ignore [Shield] and [Block Damage] buffs as well as DEF. Enemies killed by this skill cannot be revived.",
-      "books": []
+      "books": [],
+      "image": "https://mcradane.github.io/raid-data/images/Skills/Mortu_Macaab_s4.png"
     }
   ],
-  "version": "3.30.0",
+  "version": "3.30.2",
   "avatarUrl": "https://mcradane.github.io/raid-data/images/avatar/Mortu_Macaab.png"
 }

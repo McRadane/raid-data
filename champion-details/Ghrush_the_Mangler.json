@@ -35,7 +35,8 @@
         "Level 4: Buff/Debuff Chance +5%",
         "Level 5: Buff/Debuff Chance +10%",
         "Level 6: Buff/Debuff Chance +10%"
-      ]
+      ],
+      "image": "https://mcradane.github.io/raid-data/images/Skills/Ghrush_the_Mangler_s1.png"
     },
     {
       "cd": 5,
@@ -54,7 +55,8 @@
         "Level 5: Buff/Debuff Chance +10%",
         "Level 6: Buff/Debuff Chance +20%",
         "Level 7: Cooldown -1"
-      ]
+      ],
+      "image": "https://mcradane.github.io/raid-data/images/Skills/Ghrush_the_Mangler_s2.png"
     },
     {
       "cd": 6,
@@ -71,9 +73,10 @@
         "Level 3: Damage +5%",
         "Level 4: Cooldown -1",
         "Level 5: Cooldown -1"
-      ]
+      ],
+      "image": "https://mcradane.github.io/raid-data/images/Skills/Ghrush_the_Mangler_s3.png"
     }
   ],
-  "version": "3.30.0",
+  "version": "3.30.2",
   "avatarUrl": "https://mcradane.github.io/raid-data/images/avatar/Ghrush_the_Mangler.png"
 }

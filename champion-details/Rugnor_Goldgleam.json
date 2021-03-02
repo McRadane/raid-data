@@ -34,7 +34,8 @@
         "Level 3: Damage +5%",
         "Level 4: Buff/Debuff Chance +5%",
         "Level 5: Buff/Debuff Chance +5%"
-      ]
+      ],
+      "image": "https://mcradane.github.io/raid-data/images/Skills/Rugnor_Goldgleam_s1.png"
     },
     {
       "cd": 4,
@@ -47,7 +48,8 @@
       "description": "Sacrifices HP equal to 15% of this Champion’s MAX HP, then fills this Champion’s Turn Meter by 75% and places a [Shield] buff on this Champion equal to 20% of their MAX HP for 3 turns. The [Shield] buff cannot be removed. The HP sacrifice will happen even if it kills this Champion, and will ignore [Shield] and [Block Damage] buffs.",
       "books": [
         "Level 2: Cooldown -1"
-      ]
+      ],
+      "image": "https://mcradane.github.io/raid-data/images/Skills/Rugnor_Goldgleam_s2.png"
     },
     {
       "cd": 5,
@@ -66,7 +68,8 @@
         "Level 5: Buff/Debuff Chance +10%",
         "Level 6: Buff/Debuff Chance +10%",
         "Level 7: Cooldown -1"
-      ]
+      ],
+      "image": "https://mcradane.github.io/raid-data/images/Skills/Rugnor_Goldgleam_s3.png"
     },
     {
       "cd": 0,
@@ -75,9 +78,10 @@
       "dmgscaling": [],
       "abilityname": "Dire Grudge",
       "description": "Decreases the cooldown of this Champion’s [Gleam of Avarice] Skill by 1 turn every time this Champion loses 15% HP. The HP loss is accumulated and tracked over multiple turns, attacks, or hits, and is not affected by healing or other HP increases.",
-      "books": []
+      "books": [],
+      "image": "https://mcradane.github.io/raid-data/images/Skills/Rugnor_Goldgleam_s4.png"
     }
   ],
-  "version": "3.30.0",
+  "version": "3.30.2",
   "avatarUrl": "https://mcradane.github.io/raid-data/images/avatar/Rugnor_Goldgleam.png"
 }

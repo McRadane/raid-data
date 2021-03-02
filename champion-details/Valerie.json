@@ -34,7 +34,8 @@
         "Level: 3 Damage +5%",
         "Level: 4 Damage +5%",
         "Level: 5 Damage +5%"
-      ]
+      ],
+      "image": "https://mcradane.github.io/raid-data/images/Skills/Valerie_s1.png"
     },
     {
       "cd": 4,
@@ -45,7 +46,8 @@
       "description": "Increases the duration of all buffs on all allies by 1 turn. Also decreases the duration of all debuffs on all allies by 1 turn. Places a 25% [Increase ATK] buff on all allies for 2 turns.",
       "books": [
         "Level: 2 Cooldown -1"
-      ]
+      ],
+      "image": "https://mcradane.github.io/raid-data/images/Skills/Valerie_s2.png"
     },
     {
       "cd": 5,
@@ -59,9 +61,10 @@
         "Level: 3 Shield +5%",
         "Level: 4 Shield +5%",
         "Level: 5 Shield +5%"
-      ]
+      ],
+      "image": "https://mcradane.github.io/raid-data/images/Skills/Valerie_s3.png"
     }
   ],
-  "version": "3.30.0",
+  "version": "3.30.2",
   "avatarUrl": "https://mcradane.github.io/raid-data/images/avatar/Valerie.png"
 }

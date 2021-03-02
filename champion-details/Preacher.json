@@ -34,9 +34,10 @@
         "Level 4: Damage +5%",
         "Level 5: Damage +5%",
         "Level 6: Damage +5%"
-      ]
+      ],
+      "image": "https://mcradane.github.io/raid-data/images/Skills/Preacher_s1.png"
     }
   ],
-  "version": "3.30.0",
+  "version": "3.30.2",
   "avatarUrl": "https://mcradane.github.io/raid-data/images/avatar/Preacher.png"
 }

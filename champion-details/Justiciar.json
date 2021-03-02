@@ -34,7 +34,8 @@
         "Level 2: Damage +5%",
         "Level 3: Damage +5%",
         "Level 4: Damage +5%"
-      ]
+      ],
+      "image": "https://mcradane.github.io/raid-data/images/Skills/Justiciar_s1.png"
     },
     {
       "cd": 3,
@@ -54,7 +55,8 @@
         "Level 5: Buff/Debuff Chance +10%",
         "Level 6: Buff/Debuff Chance +10%",
         "Level 7: Cooldown -1"
-      ]
+      ],
+      "image": "https://mcradane.github.io/raid-data/images/Skills/Justiciar_s2.png"
     },
     {
       "cd": 0,
@@ -63,9 +65,10 @@
       "dmgscaling": [],
       "abilityname": "Comeback",
       "description": "When this Champion is hit with a critical hit, counterattacks using their default skill and decreases the buffs duration on the target by 1 turn.",
-      "books": []
+      "books": [],
+      "image": "https://mcradane.github.io/raid-data/images/Skills/Justiciar_s3.png"
     }
   ],
-  "version": "3.30.0",
+  "version": "3.30.2",
   "avatarUrl": "https://mcradane.github.io/raid-data/images/avatar/Justiciar.png"
 }

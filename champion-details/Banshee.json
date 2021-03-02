@@ -34,7 +34,8 @@
         "Level 3: Buff/Debuff Chance +5%",
         "Level 4: Damage +5%",
         "Level 5: Buff/Debuff Chance +5%"
-      ]
+      ],
+      "image": "https://mcradane.github.io/raid-data/images/Skills/Banshee_s1.png"
     },
     {
       "cd": 3,
@@ -52,7 +53,8 @@
         "Level 4: Damage +10%",
         "Level 5: Buff/Debuff Chance +10%",
         "Level 6: Cooldown -1"
-      ]
+      ],
+      "image": "https://mcradane.github.io/raid-data/images/Skills/Banshee_s2.png"
     },
     {
       "cd": 4,
@@ -70,9 +72,10 @@
         "Level 4: Damage +10%",
         "Level 5: Damage +10%",
         "Level 6: Cooldown -1"
-      ]
+      ],
+      "image": "https://mcradane.github.io/raid-data/images/Skills/Banshee_s3.png"
     }
   ],
-  "version": "3.30.0",
+  "version": "3.30.2",
   "avatarUrl": "https://mcradane.github.io/raid-data/images/avatar/Banshee.png"
 }

@@ -35,7 +35,8 @@
         "Level 4: Damage +5%",
         "Level 5: Buff/Debuff Chance +10%",
         "Level 6: Damage +10%"
-      ]
+      ],
+      "image": "https://mcradane.github.io/raid-data/images/Skills/Seducer_s1.png"
     },
     {
       "cd": 3,
@@ -52,7 +53,8 @@
         "Level 3: Buff/Debuff Chance +10%",
         "Level 4: Damage +10%",
         "Level 5: Buff/Debuff Chance +15%"
-      ]
+      ],
+      "image": "https://mcradane.github.io/raid-data/images/Skills/Seducer_s2.png"
     },
     {
       "cd": 5,
@@ -63,7 +65,8 @@
       "description": "Places a 30% [Increase DEF] buff on all allies for 2 turns and a [Block Debuffs] buff on all allies for 2 turns.",
       "books": [
         "Level 2: Cooldown -1"
-      ]
+      ],
+      "image": "https://mcradane.github.io/raid-data/images/Skills/Seducer_s3.png"
     },
     {
       "cd": 5,
@@ -74,9 +77,10 @@
       "description": "Places a 50% [Ally Protection] buff on all allies for 2 turns. Places a [Block Damage] buff on this Champion for 1 turn. [Only available when <a href=\"https://ayumilove.net/raid-shadow-legends-temptress-skill-mastery-equip-guide/\">Temptress</a> is on the same team]",
       "books": [
         "Level 2: Cooldown -1"
-      ]
+      ],
+      "image": "https://mcradane.github.io/raid-data/images/Skills/Seducer_s4.png"
     }
   ],
-  "version": "3.30.0",
+  "version": "3.30.2",
   "avatarUrl": "https://mcradane.github.io/raid-data/images/avatar/Seducer.png"
 }

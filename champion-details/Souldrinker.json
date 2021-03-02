@@ -33,7 +33,8 @@
         "Level 3: Damage +5%",
         "Level 4: Damage +5%",
         "Level 5: Damage +5%"
-      ]
+      ],
+      "image": "https://mcradane.github.io/raid-data/images/Skills/Souldrinker_s1.png"
     },
     {
       "cd": 5,
@@ -50,7 +51,8 @@
         "Level 3: Damage +5%",
         "Level 4: Damage +5%",
         "Level 5: Damage +5%"
-      ]
+      ],
+      "image": "https://mcradane.github.io/raid-data/images/Skills/Souldrinker_s2.png"
     },
     {
       "cd": 4,
@@ -67,7 +69,8 @@
         "Level 3: Buff/Debuff Chance +10%",
         "Level 4: Buff/Debuff Chance +15%",
         "Level 5: Cooldown -1"
-      ]
+      ],
+      "image": "https://mcradane.github.io/raid-data/images/Skills/Souldrinker_s3.png"
     },
     {
       "cd": 5,
@@ -76,9 +79,10 @@
       "dmgscaling": [],
       "abilityname": "Set Ablaze",
       "description": "Places two [Bomb] debuffs on each enemy that detonate after 2 turns when this Champion dies.",
-      "books": []
+      "books": [],
+      "image": "https://mcradane.github.io/raid-data/images/Skills/Souldrinker_s4.png"
     }
   ],
-  "version": "3.30.0",
+  "version": "3.30.2",
   "avatarUrl": "https://mcradane.github.io/raid-data/images/avatar/Souldrinker.png"
 }

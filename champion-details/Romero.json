@@ -33,7 +33,8 @@
         "Level 3: Damage +5%",
         "Level 4: Damage +5%",
         "Level 5: Damage +10%"
-      ]
+      ],
+      "image": "https://mcradane.github.io/raid-data/images/Skills/Romero_s1.png"
     },
     {
       "cd": 5,
@@ -44,7 +45,8 @@
       "description": "Places a 15% [Continuous Heal] buff on all allies for 2 turns. Steal 1 buff from a random enemy.",
       "books": [
         "Level 2: Cooldown -1"
-      ]
+      ],
+      "image": "https://mcradane.github.io/raid-data/images/Skills/Romero_s2.png"
     },
     {
       "cd": 6,
@@ -57,7 +59,8 @@
         "Level 2: Shield +25%",
         "Level 3: Shield +25%",
         "Level 4: Cooldown -1"
-      ]
+      ],
+      "image": "https://mcradane.github.io/raid-data/images/Skills/Romero_s3.png"
     },
     {
       "cd": 3,
@@ -69,9 +72,10 @@
       "abilityname": "Stalwart Partner",
       "damageMultiplier": "1.4 DEF",
       "description": "Attacks all enemies 3 times. [Only available when <a href=\"//ayumilove.net/raid-shadow-legends-juliana-skill-mastery-equip-guide/\">Juliana</a> is on the same team]",
-      "books": []
+      "books": [],
+      "image": "https://mcradane.github.io/raid-data/images/Skills/Romero_s4.png"
     }
   ],
-  "version": "3.30.0",
+  "version": "3.30.2",
   "avatarUrl": "https://mcradane.github.io/raid-data/images/avatar/Romero.png"
 }

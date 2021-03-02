@@ -34,7 +34,8 @@
         "Level 3: Damage +5%",
         "Level 4: Damage +5%",
         "Level 5: Damage +5%"
-      ]
+      ],
+      "image": "https://mcradane.github.io/raid-data/images/Skills/Skullcrusher_s1.png"
     },
     {
       "cd": 4,
@@ -45,7 +46,8 @@
       "description": "Places a 50% [Ally Protection] buff on all allies except this Champion for 2 turns. Places a [Counterattack] buff on all allies except this Champion for 2 turns. Places an [Unkillable] buff on this Champion for 1 turn.",
       "books": [
         "Level 2: Cooldown -1"
-      ]
+      ],
+      "image": "https://mcradane.github.io/raid-data/images/Skills/Skullcrusher_s2.png"
     },
     {
       "cd": 0,
@@ -54,9 +56,10 @@
       "dmgscaling": [],
       "abilityname": "Unshakeable",
       "description": "Decreases the duration of all debuffs on this Champion by 1 turn. Occurs once per turn.",
-      "books": []
+      "books": [],
+      "image": "https://mcradane.github.io/raid-data/images/Skills/Skullcrusher_s3.png"
     }
   ],
-  "version": "3.30.0",
+  "version": "3.30.2",
   "avatarUrl": "https://mcradane.github.io/raid-data/images/avatar/Skullcrusher.png"
 }

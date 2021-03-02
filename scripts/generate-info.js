@@ -148,13 +148,6 @@ championFiles.forEach((championFile) => {
     aura = generateAura(champion.aura, name, aurasTemp);
   }
 
-  champion.skills.forEach(({ description, abilityname }) => {
-    if (abilityname === "Aura") {
-      // Old method for declaring aura
-      aura = generateAura(description, name, aurasTemp);
-    }
-  });
-
   baseInfos[name] = {
     id,
     rarity,

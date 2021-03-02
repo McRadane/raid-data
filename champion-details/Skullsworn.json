@@ -37,7 +37,8 @@
         "Level 6: Damage +10%",
         "Level 7: Buff/Debuff Chance +5%",
         "Level 8: Buff/Debuff Chance +5%"
-      ]
+      ],
+      "image": "https://mcradane.github.io/raid-data/images/Skills/Skullsworn_s1.png"
     },
     {
       "cd": 7,
@@ -50,7 +51,8 @@
         "Level 2: Cooldown -1",
         "Level 3: Cooldown -1",
         "Level 4: Cooldown -1"
-      ]
+      ],
+      "image": "https://mcradane.github.io/raid-data/images/Skills/Skullsworn_s2.png"
     },
     {
       "cd": 0,
@@ -59,9 +61,10 @@
       "dmgscaling": [],
       "abilityname": "Feral Hunter",
       "description": "Fills this Champion’s Turn Meter by 15% on critical hits. Fills this Champion’s Turn Meter by 50% if this Champion kills an enemy.",
-      "books": []
+      "books": [],
+      "image": "https://mcradane.github.io/raid-data/images/Skills/Skullsworn_s3.png"
     }
   ],
-  "version": "3.30.0",
+  "version": "3.30.2",
   "avatarUrl": "https://mcradane.github.io/raid-data/images/avatar/Skullsworn.png"
 }

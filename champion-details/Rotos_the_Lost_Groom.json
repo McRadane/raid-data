@@ -34,7 +34,8 @@
         "Level 3: Damage +5%",
         "Level 4: Damage +5%",
         "Level 5: Damage +5%"
-      ]
+      ],
+      "image": "https://mcradane.github.io/raid-data/images/Skills/Rotos_the_Lost_Groom_s1.png"
     },
     {
       "cd": 3,
@@ -52,7 +53,8 @@
         "Level 3: Damage +10%",
         "Level 4: Damage +10%",
         "Level 5: Cooldown -1"
-      ]
+      ],
+      "image": "https://mcradane.github.io/raid-data/images/Skills/Rotos_the_Lost_Groom_s2.png"
     },
     {
       "cd": 4,
@@ -71,7 +73,8 @@
         "Level 4: Damage +10%",
         "Level 5: Damage +10%",
         "Level 6: Cooldown -1"
-      ]
+      ],
+      "image": "https://mcradane.github.io/raid-data/images/Skills/Rotos_the_Lost_Groom_s3.png"
     },
     {
       "cd": 0,
@@ -80,9 +83,10 @@
       "dmgscaling": [],
       "abilityname": "Spurn Oblivion",
       "description": "Will decrease damage from a single enemy hit so that incoming damage will not exceed 50% of this Champion’s MAX HP from that hit. Can occur once per enemy attack. Grants an Extra Turn if this damage reduction occurs. [Does not work against Bosses] Decreases the damage taken from Bosses by 15%. Decreases the damage taken from Bosses by 30% if <a href=\"https://ayumilove.net/raid-shadow-legends-siphi-the-lost-bride-skill-mastery-equip-guide/\">Siphi the Lost Bride</a> is on the same team.",
-      "books": []
+      "books": [],
+      "image": "https://mcradane.github.io/raid-data/images/Skills/Rotos_the_Lost_Groom_s4.png"
     }
   ],
-  "version": "3.30.0",
+  "version": "3.30.2",
   "avatarUrl": "https://mcradane.github.io/raid-data/images/avatar/Rotos_the_Lost_Groom.png"
 }

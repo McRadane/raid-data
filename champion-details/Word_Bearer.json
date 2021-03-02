@@ -37,7 +37,8 @@
         "Level 7: Buff/Debuff Chance +5%",
         "Level 8: Damage +10%",
         "Level 9: Buff/Debuff Chance +10%"
-      ]
+      ],
+      "image": "https://mcradane.github.io/raid-data/images/Skills/Word_Bearer_s1.png"
     },
     {
       "cd": 4,
@@ -49,9 +50,10 @@
       "books": [
         "Level 2: Cooldown -1",
         "Level 3: Cooldown -1"
-      ]
+      ],
+      "image": "https://mcradane.github.io/raid-data/images/Skills/Word_Bearer_s2.png"
     }
   ],
-  "version": "3.30.0",
+  "version": "3.30.2",
   "avatarUrl": "https://mcradane.github.io/raid-data/images/avatar/Word_Bearer.png"
 }

@@ -36,7 +36,8 @@
         "Level 6: Damage +5%",
         "Level 7: Buff/Debuff Chance +10%",
         "Level 8: Damage +10%"
-      ]
+      ],
+      "image": "https://mcradane.github.io/raid-data/images/Skills/Deathknight_s1.png"
     },
     {
       "cd": 0,
@@ -45,9 +46,10 @@
       "dmgscaling": [],
       "abilityname": "Payback",
       "description": "Has a 30% of counterattacking when hit.",
-      "books": []
+      "books": [],
+      "image": "https://mcradane.github.io/raid-data/images/Skills/Deathknight_s2.png"
     }
   ],
-  "version": "3.30.0",
+  "version": "3.30.2",
   "avatarUrl": "https://mcradane.github.io/raid-data/images/avatar/Deathknight.png"
 }

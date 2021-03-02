@@ -34,7 +34,8 @@
         "Level 3: Damage +5%",
         "Level 4: Damage +5%",
         "Level 5: Damage +10%"
-      ]
+      ],
+      "image": "https://mcradane.github.io/raid-data/images/Skills/Mother_Superior_s1.png"
     },
     {
       "cd": 4,
@@ -49,7 +50,8 @@
         "Level 4: Heal +10%",
         "Level 5: Heal +10%",
         "Level 6: Cooldown -1"
-      ]
+      ],
+      "image": "https://mcradane.github.io/raid-data/images/Skills/Mother_Superior_s2.png"
     },
     {
       "cd": 5,
@@ -60,9 +62,10 @@
       "description": "Places a 7.5% [Continuous Heal] buff on all allies for 2 turns. Places a [Shield] buff equal to 10% of the target’s HP on all allies for 2 turns if an ally’s HP is full.",
       "books": [
         "Level 2: Cooldown -1"
-      ]
+      ],
+      "image": "https://mcradane.github.io/raid-data/images/Skills/Mother_Superior_s3.png"
     }
   ],
-  "version": "3.30.0",
+  "version": "3.30.2",
   "avatarUrl": "https://mcradane.github.io/raid-data/images/avatar/Mother_Superior.png"
 }

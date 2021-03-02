@@ -34,7 +34,8 @@
         "Level 3: Damage +5%",
         "Level 4: Damage +5%",
         "Level 5: Damage +10%"
-      ]
+      ],
+      "image": "https://mcradane.github.io/raid-data/images/Skills/Archmage_Hellmut_s1.png"
     },
     {
       "cd": 4,
@@ -54,7 +55,8 @@
         "Level 6: Damage +10%",
         "Level 7: Buff/Debuff Chance +15%",
         "Level 8: Cooldown -1"
-      ]
+      ],
+      "image": "https://mcradane.github.io/raid-data/images/Skills/Archmage_Hellmut_s2.png"
     },
     {
       "cd": 5,
@@ -66,7 +68,8 @@
       "books": [
         "Level 2: Cooldown -1",
         "Level 3: Cooldown -1"
-      ]
+      ],
+      "image": "https://mcradane.github.io/raid-data/images/Skills/Archmage_Hellmut_s3.png"
     },
     {
       "cd": 0,
@@ -75,9 +78,10 @@
       "dmgscaling": [],
       "abilityname": "Chrono Isolation",
       "description": "Immune to Turn Meter decreasing effects.",
-      "books": []
+      "books": [],
+      "image": "https://mcradane.github.io/raid-data/images/Skills/Archmage_Hellmut_s4.png"
     }
   ],
-  "version": "3.30.0",
+  "version": "3.30.2",
   "avatarUrl": "https://mcradane.github.io/raid-data/images/avatar/Archmage_Hellmut.png"
 }

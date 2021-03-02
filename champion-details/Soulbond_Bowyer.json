@@ -34,7 +34,8 @@
         "Level 3: Damage +5%",
         "Level 4: Damage +5%",
         "Level 5: Damage +10%"
-      ]
+      ],
+      "image": "https://mcradane.github.io/raid-data/images/Skills/Soulbond_Bowyer_s1.png"
     },
     {
       "cd": 3,
@@ -51,7 +52,8 @@
         "Level 3: Damage +5%",
         "Level 4: Damage +5%",
         "Level 5: Damage +10%"
-      ]
+      ],
+      "image": "https://mcradane.github.io/raid-data/images/Skills/Soulbond_Bowyer_s2.png"
     },
     {
       "cd": 5,
@@ -72,9 +74,10 @@
         "Level 7: Buff/Debuff Chance +5%",
         "Level 8: Buff/Debuff Chance +10%",
         "Level 9: Cooldown -1"
-      ]
+      ],
+      "image": "https://mcradane.github.io/raid-data/images/Skills/Soulbond_Bowyer_s3.png"
     }
   ],
-  "version": "3.30.0",
+  "version": "3.30.2",
   "avatarUrl": "https://mcradane.github.io/raid-data/images/avatar/Soulbond_Bowyer.png"
 }

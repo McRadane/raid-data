@@ -34,7 +34,8 @@
         "Level 3: Damage +5%",
         "Level 4: Damage +5%",
         "Level 5: Damage +5%"
-      ]
+      ],
+      "image": "https://mcradane.github.io/raid-data/images/Skills/Vrask_s1.png"
     },
     {
       "cd": 4,
@@ -51,7 +52,8 @@
         "Level 3: Damage +10%",
         "Level 4: Damage +10%",
         "Level 5: Cooldown -1"
-      ]
+      ],
+      "image": "https://mcradane.github.io/raid-data/images/Skills/Vrask_s2.png"
     },
     {
       "cd": 0,
@@ -60,9 +62,10 @@
       "dmgscaling": [],
       "abilityname": "Cannibalism",
       "description": "Heals all allies by 10% of his MAX HP when he inflicts a critical hit.",
-      "books": []
+      "books": [],
+      "image": "https://mcradane.github.io/raid-data/images/Skills/Vrask_s3.png"
     }
   ],
-  "version": "3.30.0",
+  "version": "3.30.2",
   "avatarUrl": "https://mcradane.github.io/raid-data/images/avatar/Vrask.png"
 }

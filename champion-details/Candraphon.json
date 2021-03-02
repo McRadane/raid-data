@@ -34,7 +34,8 @@
         "Level 3: Damage +5%",
         "Level 4: Damage +10%",
         "Level 5: Damage +10%"
-      ]
+      ],
+      "image": "https://mcradane.github.io/raid-data/images/Skills/Candraphon_s1.png"
     },
     {
       "cd": 4,
@@ -52,7 +53,8 @@
         "Level 4: Damage +5%",
         "Level 5: Damage +5%",
         "Level 6: Cooldown -1"
-      ]
+      ],
+      "image": "https://mcradane.github.io/raid-data/images/Skills/Candraphon_s2.png"
     },
     {
       "cd": 5,
@@ -61,7 +63,8 @@
       "dmgscaling": [],
       "abilityname": "On the Hunt",
       "description": "Places a [Perfect Veil] buff, a 50% [Increase ATK] buff, a 30% [Increase SPD] buff, and a 30% [Increase C.DMG] buff on this Champion for 2 turns.",
-      "books": []
+      "books": [],
+      "image": "https://mcradane.github.io/raid-data/images/Skills/Candraphon_s3.png"
     },
     {
       "cd": 0,
@@ -70,9 +73,10 @@
       "dmgscaling": [],
       "abilityname": "From the Shadows",
       "description": "[Passive Effect] Damage increases by 40% while attacking under a [Veil] or [Perfect Veil] buff. Receives 40% less damage while under a [Veil] or [Perfect Veil] buff. Also boosts this Champion’s Turn Meter by 15% each time this Champion receives damage under a [Veil] or [Perfect Veil] buff. Does not work if this Champion is the only alive ally on the team.",
-      "books": []
+      "books": [],
+      "image": "https://mcradane.github.io/raid-data/images/Skills/Candraphon_s4.png"
     }
   ],
-  "version": "3.30.0",
+  "version": "3.30.2",
   "avatarUrl": "https://mcradane.github.io/raid-data/images/avatar/Candraphon.png"
 }

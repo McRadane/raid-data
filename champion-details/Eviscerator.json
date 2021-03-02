@@ -34,7 +34,8 @@
         "Level 3: Damage +5%",
         "Level 4: Damage +5%",
         "Level 5: Damage +10%"
-      ]
+      ],
+      "image": "https://mcradane.github.io/raid-data/images/Skills/Eviscerator_s1.png"
     },
     {
       "cd": 4,
@@ -53,7 +54,8 @@
         "Level 5: Buff/Debuff Chance +5%",
         "Level 6: Damage +10%",
         "Level 7: Buff/Debuff Chance +15%"
-      ]
+      ],
+      "image": "https://mcradane.github.io/raid-data/images/Skills/Eviscerator_s2.png"
     },
     {
       "cd": 1,
@@ -62,9 +64,10 @@
       "dmgscaling": [],
       "abilityname": "Suppression",
       "description": "Attacks an enemy Champion with the default Skill whenever they are healed or receive a Buff. Attacks one random enemy if multiple enemies are healed or receive a Buff at the same time.",
-      "books": []
+      "books": [],
+      "image": "https://mcradane.github.io/raid-data/images/Skills/Eviscerator_s3.png"
     }
   ],
-  "version": "3.30.0",
+  "version": "3.30.2",
   "avatarUrl": "https://mcradane.github.io/raid-data/images/avatar/Eviscerator.png"
 }

@@ -32,7 +32,8 @@
         "Level 3: Damage +5%",
         "Level 4: Damage +5%",
         "Level 5: Damage +5%"
-      ]
+      ],
+      "image": "https://mcradane.github.io/raid-data/images/Skills/Slicer_s1.png"
     },
     {
       "cd": 4,
@@ -51,9 +52,10 @@
         "Level 6: Buff/Debuff Chance +5%",
         "Level 7: Buff/Debuff Chance +10%",
         "Level 8: Cooldown -1"
-      ]
+      ],
+      "image": "https://mcradane.github.io/raid-data/images/Skills/Slicer_s2.png"
     }
   ],
-  "version": "3.30.0",
+  "version": "3.30.2",
   "avatarUrl": "https://mcradane.github.io/raid-data/images/avatar/Slicer.png"
 }

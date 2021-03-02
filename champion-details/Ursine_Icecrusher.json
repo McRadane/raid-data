@@ -36,7 +36,8 @@
         "Level 5: Buff/Debuff Chance +5%",
         "Level 6: Damage +10%",
         "Level 7: Buff/Debuff Chance +10%"
-      ]
+      ],
+      "image": "https://mcradane.github.io/raid-data/images/Skills/Ursine_Icecrusher_s1.png"
     },
     {
       "cd": 4,
@@ -55,7 +56,8 @@
         "Level 5: Buff/Debuff Chance +10%",
         "Level 6: Buff/Debuff Chance +10%",
         "Level 7: Cooldown -1"
-      ]
+      ],
+      "image": "https://mcradane.github.io/raid-data/images/Skills/Ursine_Icecrusher_s2.png"
     },
     {
       "cd": 0,
@@ -64,9 +66,10 @@
       "dmgscaling": [],
       "abilityname": "Shroud of Winter",
       "description": "Decreases the damage all allies receive from critical hits by 15%. Fills this Champion’s Turn Meter by 5% whenever an enemy lands a normal, strong, or weak hit.",
-      "books": []
+      "books": [],
+      "image": "https://mcradane.github.io/raid-data/images/Skills/Ursine_Icecrusher_s3.png"
     }
   ],
-  "version": "3.30.0",
+  "version": "3.30.2",
   "avatarUrl": "https://mcradane.github.io/raid-data/images/avatar/Ursine_Icecrusher.png"
 }

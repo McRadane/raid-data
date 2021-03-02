@@ -32,7 +32,8 @@
         "Level 2: Damage +10%",
         "Level 3: Buff/Debuff Chance +10%",
         "Level 4: Buff/Debuff Chance +10%"
-      ]
+      ],
+      "image": "https://mcradane.github.io/raid-data/images/Skills/Nethril_s1.png"
     },
     {
       "cd": 5,
@@ -49,7 +50,8 @@
         "Level 3: Buff/Debuff Chance +10%",
         "Level 4: Buff/Debuff Chance +10%",
         "Level 5: Cooldown -1"
-      ]
+      ],
+      "image": "https://mcradane.github.io/raid-data/images/Skills/Nethril_s2.png"
     },
     {
       "cd": 5,
@@ -65,9 +67,10 @@
         "Level 2: Damage +10%",
         "Level 3: Damage +10%",
         "Level 4: Cooldown -1"
-      ]
+      ],
+      "image": "https://mcradane.github.io/raid-data/images/Skills/Nethril_s3.png"
     }
   ],
-  "version": "3.30.0",
+  "version": "3.30.2",
   "avatarUrl": "https://mcradane.github.io/raid-data/images/avatar/Nethril.png"
 }

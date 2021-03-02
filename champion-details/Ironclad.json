@@ -35,7 +35,8 @@
         "Level 3: Damage +5%",
         "Level 4: Buff/Debuff Chance +5%",
         "Level 5: Buff/Debuff Chance +10%"
-      ]
+      ],
+      "image": "https://mcradane.github.io/raid-data/images/Skills/Ironclad_s1.png"
     },
     {
       "cd": 4,
@@ -46,7 +47,8 @@
       "description": "Removes 1 random debuff from all allies. Places a 25% [Increase ATK] buff on all allies for 2 turns.",
       "books": [
         "Level 2: Cooldown -1"
-      ]
+      ],
+      "image": "https://mcradane.github.io/raid-data/images/Skills/Ironclad_s2.png"
     },
     {
       "cd": 1,
@@ -55,9 +57,10 @@
       "dmgscaling": [],
       "abilityname": "Blood Burst",
       "description": "When healed, will attack all enemies inflicting damage proportional to any surplus heal. Damage inflicted is equal to 50% of any surplus heal.",
-      "books": []
+      "books": [],
+      "image": "https://mcradane.github.io/raid-data/images/Skills/Ironclad_s3.png"
     }
   ],
-  "version": "3.30.0",
+  "version": "3.30.2",
   "avatarUrl": "https://mcradane.github.io/raid-data/images/avatar/Ironclad.png"
 }

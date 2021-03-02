@@ -35,7 +35,8 @@
         "Level 4: Damage +5%",
         "Level 5: Buff/Debuff Chance +5%",
         "Level 6: Buff/Debuff Chance +5%"
-      ]
+      ],
+      "image": "https://mcradane.github.io/raid-data/images/Skills/Vogoth_s1.png"
     },
     {
       "cd": 4,
@@ -54,7 +55,8 @@
         "Level 5: Buff/Debuff Chance +5%",
         "Level 6: Buff/Debuff Chance +5%",
         "Level 7: Cooldown -1"
-      ]
+      ],
+      "image": "https://mcradane.github.io/raid-data/images/Skills/Vogoth_s2.png"
     },
     {
       "cd": 0,
@@ -63,7 +65,8 @@
       "dmgscaling": [],
       "abilityname": "Festering Dynamo",
       "description": "Whenever this Champion is attacked, heals all allies by 50% of the damage received. [Only heals by 25% of the damage received from boss attacks. This champion only receives half of the heal that all other allies receive.]",
-      "books": []
+      "books": [],
+      "image": "https://mcradane.github.io/raid-data/images/Skills/Vogoth_s3.png"
     },
     {
       "cd": 0,
@@ -76,9 +79,10 @@
         "Level 2: Buff/Debuff Chance +10%",
         "Level 3: Buff/Debuff Chance +10%",
         "Level 4: Buff/Debuff Chance +10%"
-      ]
+      ],
+      "image": "https://mcradane.github.io/raid-data/images/Skills/Vogoth_s4.png"
     }
   ],
-  "version": "3.30.0",
+  "version": "3.30.2",
   "avatarUrl": "https://mcradane.github.io/raid-data/images/avatar/Vogoth.png"
 }

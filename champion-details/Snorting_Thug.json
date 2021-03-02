@@ -36,7 +36,8 @@
         "Level 5: Buff/Debuff Chance +5%",
         "Level 6: Damage +10%",
         "Level 7: Buff/Debuff Chance +10%"
-      ]
+      ],
+      "image": "https://mcradane.github.io/raid-data/images/Skills/Snorting_Thug_s1.png"
     },
     {
       "cd": 4,
@@ -52,7 +53,8 @@
         "Level 2: Damage +5%",
         "Level 3: Damage +5%",
         "Level 4: Damage +10%"
-      ]
+      ],
+      "image": "https://mcradane.github.io/raid-data/images/Skills/Snorting_Thug_s2.png"
     },
     {
       "cd": 0,
@@ -64,9 +66,10 @@
       "books": [
         "Level 2: Buff/Debuff Chance +10%",
         "Level 3: Buff/Debuff Chance +10%"
-      ]
+      ],
+      "image": "https://mcradane.github.io/raid-data/images/Skills/Snorting_Thug_s3.png"
     }
   ],
-  "version": "3.30.0",
+  "version": "3.30.2",
   "avatarUrl": "https://mcradane.github.io/raid-data/images/avatar/Snorting_Thug.png"
 }

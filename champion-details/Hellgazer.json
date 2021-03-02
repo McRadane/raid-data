@@ -34,7 +34,8 @@
         "Level 3: Damage +5%",
         "Level 4: Damage +5%",
         "Level 5: Damage +10%"
-      ]
+      ],
+      "image": "https://mcradane.github.io/raid-data/images/Skills/Hellgazer_s1.png"
     },
     {
       "cd": 4,
@@ -45,7 +46,8 @@
       "description": "Removes all debuffs from this Champion. Places a 50% [Increase ATK] buff on this Champion for 2 turns. Grants an Extra Turn.",
       "books": [
         "Level 2: Cooldown -1"
-      ]
+      ],
+      "image": "https://mcradane.github.io/raid-data/images/Skills/Hellgazer_s2.png"
     },
     {
       "cd": 5,
@@ -62,9 +64,10 @@
         "Level 3: Damage +5%",
         "Level 4: Damage +10%",
         "Level 5: Cooldown -1"
-      ]
+      ],
+      "image": "https://mcradane.github.io/raid-data/images/Skills/Hellgazer_s3.png"
     }
   ],
-  "version": "3.30.0",
+  "version": "3.30.2",
   "avatarUrl": "https://mcradane.github.io/raid-data/images/avatar/Hellgazer.png"
 }

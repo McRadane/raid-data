@@ -34,7 +34,8 @@
         "Level 3: Buff/Debuff Chance +5%",
         "Level 4: Damage +5%",
         "Level 5: Buff/Debuff Chance +5%"
-      ]
+      ],
+      "image": "https://mcradane.github.io/raid-data/images/Skills/Vergis_s1.png"
     },
     {
       "cd": 4,
@@ -45,7 +46,8 @@
       "description": "Places a 15% [Continuous Heal] buff, a 30% [Increase SPD] buff, and a 30% [Reflect Damage] buff on a target ally for 3 turns. Also places a 50% [Ally Protection] buff on all allies except this Champion for 2 turns. Places a 60% [Increase DEF] buff on this Champion for 2 turns.",
       "books": [
         "Level 2: Cooldown -1"
-      ]
+      ],
+      "image": "https://mcradane.github.io/raid-data/images/Skills/Vergis_s2.png"
     },
     {
       "cd": 3,
@@ -57,9 +59,10 @@
       "books": [
         "Level 2: Cooldown -1",
         "Level 3: Cooldown -1"
-      ]
+      ],
+      "image": "https://mcradane.github.io/raid-data/images/Skills/Vergis_s3.png"
     }
   ],
-  "version": "3.30.0",
+  "version": "3.30.2",
   "avatarUrl": "https://mcradane.github.io/raid-data/images/avatar/Vergis.png"
 }

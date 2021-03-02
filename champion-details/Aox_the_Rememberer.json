@@ -35,7 +35,8 @@
         "Level 4: Damage +5%",
         "Level 5: Buff/Debuff Chance +10%",
         "Level 6: Buff/Debuff Chance +10%"
-      ]
+      ],
+      "image": "https://mcradane.github.io/raid-data/images/Skills/Aox_the_Rememberer_s1.png"
     },
     {
       "cd": 4,
@@ -53,7 +54,8 @@
         "Level 4: Damage +5%",
         "Level 5: Heal +10%",
         "Level 6: Cooldown -1"
-      ]
+      ],
+      "image": "https://mcradane.github.io/raid-data/images/Skills/Aox_the_Rememberer_s2.png"
     },
     {
       "cd": 4,
@@ -68,7 +70,8 @@
         "Level 4: Buff/Debuff Chance +5%",
         "Level 5: Buff/Debuff Chance +10%",
         "Level 6: Cooldown -1"
-      ]
+      ],
+      "image": "https://mcradane.github.io/raid-data/images/Skills/Aox_the_Rememberer_s3.png"
     },
     {
       "cd": 0,
@@ -77,9 +80,10 @@
       "dmgscaling": [],
       "abilityname": "Steward of Time",
       "description": "Increases the duration of 2 random debuffs on the attacker by 1 turn when attacked. Occurs once per hit.",
-      "books": []
+      "books": [],
+      "image": "https://mcradane.github.io/raid-data/images/Skills/Aox_the_Rememberer_s4.png"
     }
   ],
-  "version": "3.30.0",
+  "version": "3.30.2",
   "avatarUrl": "https://mcradane.github.io/raid-data/images/avatar/Aox_the_Rememberer.png"
 }

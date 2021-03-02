@@ -34,7 +34,8 @@
         "Level 4: Buff/Debuff Chance +5%",
         "Level 5: Buff/Debuff Chance +5%",
         "Level 6: Buff/Debuff Chance +10%"
-      ]
+      ],
+      "image": "https://mcradane.github.io/raid-data/images/Skills/Gomlok_Skyhide_s1.png"
     },
     {
       "cd": 4,
@@ -53,7 +54,8 @@
         "Level 5: Buff/Debuff Chance +15%",
         "Level 6: Cooldown -1",
         "Level 7: Cooldown -1"
-      ]
+      ],
+      "image": "https://mcradane.github.io/raid-data/images/Skills/Gomlok_Skyhide_s2.png"
     },
     {
       "cd": 6,
@@ -68,7 +70,8 @@
         "Level 3: Buff/Debuff Chance +15%",
         "Level 4: Cooldown -1",
         "Level 5: Cooldown -1"
-      ]
+      ],
+      "image": "https://mcradane.github.io/raid-data/images/Skills/Gomlok_Skyhide_s3.png"
     },
     {
       "cd": 3,
@@ -77,9 +80,10 @@
       "dmgscaling": [],
       "abilityname": "Enchanter",
       "description": "Whenever 4 or more buffs are placed on the enemy team in a single turn, places a [Shield] buff on this Champion for equal to 15% of this Champion’s MAX HP for 2 turns.",
-      "books": []
+      "books": [],
+      "image": "https://mcradane.github.io/raid-data/images/Skills/Gomlok_Skyhide_s4.png"
     }
   ],
-  "version": "3.30.0",
+  "version": "3.30.2",
   "avatarUrl": "https://mcradane.github.io/raid-data/images/avatar/Gomlok_Skyhide.png"
 }

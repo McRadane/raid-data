@@ -34,7 +34,8 @@
         "Level 3: Damage +5%",
         "Level 4: Damage +10%",
         "Level 5: Buff/Debuff Chance +5%"
-      ]
+      ],
+      "image": "https://mcradane.github.io/raid-data/images/Skills/Seer_s1.png"
     },
     {
       "cd": 4,
@@ -45,7 +46,8 @@
       "description": "Places a 30% [Increase C.RATE] buff on all allies for 2 turns. Places a 25% [Weaken] debuff on all enemies for 2 turns.",
       "books": [
         "Level 2: Cooldown -1"
-      ]
+      ],
+      "image": "https://mcradane.github.io/raid-data/images/Skills/Seer_s2.png"
     },
     {
       "cd": 6,
@@ -59,9 +61,10 @@
       "books": [
         "Level 2: Cooldown -1",
         "Level 3: Cooldown -1"
-      ]
+      ],
+      "image": "https://mcradane.github.io/raid-data/images/Skills/Seer_s3.png"
     }
   ],
-  "version": "3.30.0",
+  "version": "3.30.2",
   "avatarUrl": "https://mcradane.github.io/raid-data/images/avatar/Seer.png"
 }

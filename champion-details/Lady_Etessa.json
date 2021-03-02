@@ -33,7 +33,8 @@
         "Level 3: Damage +5%",
         "Level 4: Damage +5%",
         "Level 5: Damage +5%"
-      ]
+      ],
+      "image": "https://mcradane.github.io/raid-data/images/Skills/Lady_Etessa_s1.png"
     },
     {
       "cd": 4,
@@ -53,7 +54,8 @@
         "Level 6: Buff/Debuff Chance +10%",
         "Level 7: Buff/Debuff Chance +15%",
         "Level 8: Cooldown -1"
-      ]
+      ],
+      "image": "https://mcradane.github.io/raid-data/images/Skills/Lady_Etessa_s2.png"
     },
     {
       "cd": 5,
@@ -64,9 +66,10 @@
       "description": "Attacks 1 enemy with 2 random allies. Damage inflicted by this Champion and any allies joining this attack will be increased by 10% if the target is under a [Stun] debuff. Allies joining the attack use their default skills.",
       "books": [
         "Level 2: Cooldown -1"
-      ]
+      ],
+      "image": "https://mcradane.github.io/raid-data/images/Skills/Lady_Etessa_s3.png"
     }
   ],
-  "version": "3.30.0",
+  "version": "3.30.2",
   "avatarUrl": "https://mcradane.github.io/raid-data/images/avatar/Lady_Etessa.png"
 }

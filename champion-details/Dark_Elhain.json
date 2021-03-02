@@ -33,7 +33,8 @@
         "Level 3: Damage +5%",
         "Level 4: Damage +5%",
         "Level 5: Damage +5%"
-      ]
+      ],
+      "image": "https://mcradane.github.io/raid-data/images/Skills/Dark_Elhain_s1.png"
     },
     {
       "cd": 4,
@@ -51,7 +52,8 @@
         "Level 4: Buff/Debuff Chance +10%",
         "Level 5: Buff/Debuff Chance +15%",
         "Level 6: Cooldown -1"
-      ]
+      ],
+      "image": "https://mcradane.github.io/raid-data/images/Skills/Dark_Elhain_s2.png"
     },
     {
       "cd": 1,
@@ -60,7 +62,8 @@
       "dmgscaling": [],
       "abilityname": "Lethal Winter",
       "description": "Fills this Champion’s Turn Meter by 25% and instantly activates the Death’s Majesty Skill whenever this Champion or an ally receives a [Freeze] debuff.",
-      "books": []
+      "books": [],
+      "image": "https://mcradane.github.io/raid-data/images/Skills/Dark_Elhain_s3.png"
     },
     {
       "cd": 1,
@@ -69,9 +72,10 @@
       "dmgscaling": [],
       "abilityname": "Veins of Ice",
       "description": "Instantly removes any [Freeze] debuffs on this Champion and replaces them with a 30% [Increase C.RATE] buff, a 30% [Increase C.DMG] buff, and a 15% [Strengthen] buff whenever an enemy places a [Freeze] debuff on this Champion.",
-      "books": []
+      "books": [],
+      "image": "https://mcradane.github.io/raid-data/images/Skills/Dark_Elhain_s4.png"
     }
   ],
-  "version": "3.30.0",
+  "version": "3.30.2",
   "avatarUrl": "https://mcradane.github.io/raid-data/images/avatar/Dark_Elhain.png"
 }

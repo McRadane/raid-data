@@ -32,7 +32,8 @@
         "Level 2: Damage +5%",
         "Level 3: Damage +5%",
         "Level 4: Damage +5%"
-      ]
+      ],
+      "image": "https://mcradane.github.io/raid-data/images/Skills/Maulie_Tankard_s1.png"
     },
     {
       "cd": 4,
@@ -43,7 +44,8 @@
       "description": "Places a [Provoke] debuff on all enemies for 1 turn. Has a 50% chance of placing a [Provoke] debuff on the target for 2 turns instead. Places a 30% [Reflect Damage] buff on this Champion for 2 turns.",
       "books": [
         "Level 2: Cooldown -1"
-      ]
+      ],
+      "image": "https://mcradane.github.io/raid-data/images/Skills/Maulie_Tankard_s2.png"
     },
     {
       "cd": 6,
@@ -57,7 +59,8 @@
         "Level 3: Damage +10%",
         "Level 4: Cooldown -1",
         "Level 5: Cooldown -1"
-      ]
+      ],
+      "image": "https://mcradane.github.io/raid-data/images/Skills/Maulie_Tankard_s3.png"
     },
     {
       "cd": 2,
@@ -68,9 +71,10 @@
       "description": "Fills the Turn Meters of all allies by 15% when this Champion is hit. Fills the Turn Meters of all allies by 25% when this Champion is hit by a Boss.",
       "books": [
         "Level 2: Cooldown -1"
-      ]
+      ],
+      "image": "https://mcradane.github.io/raid-data/images/Skills/Maulie_Tankard_s4.png"
     }
   ],
-  "version": "3.30.0",
+  "version": "3.30.2",
   "avatarUrl": "https://mcradane.github.io/raid-data/images/avatar/Maulie_Tankard.png"
 }

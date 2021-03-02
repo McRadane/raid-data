@@ -34,7 +34,8 @@
         "Level 4: Damage +5%",
         "Level 5: Damage +5%",
         "Level 6: Damage +5%"
-      ]
+      ],
+      "image": "https://mcradane.github.io/raid-data/images/Skills/Pilgrim_s1.png"
     },
     {
       "cd": 4,
@@ -45,9 +46,10 @@
       "description": "Places a 30% [Increase DEF] buff on all allies for 2 turns.",
       "books": [
         "Level 2: Cooldown -1"
-      ]
+      ],
+      "image": "https://mcradane.github.io/raid-data/images/Skills/Pilgrim_s2.png"
     }
   ],
-  "version": "3.30.0",
+  "version": "3.30.2",
   "avatarUrl": "https://mcradane.github.io/raid-data/images/avatar/Pilgrim.png"
 }

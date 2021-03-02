@@ -33,7 +33,8 @@
         "Level 3: Damage +5%",
         "Level 4: Buff/Debuff Chance +5%",
         "Level 5: Buff/Debuff Chance +5%"
-      ]
+      ],
+      "image": "https://mcradane.github.io/raid-data/images/Skills/Occult_Brawler_s1.png"
     },
     {
       "cd": 4,
@@ -51,7 +52,8 @@
         "Level 4: Damage +5%",
         "Level 5: Damage +5%",
         "Level 6: Cooldown -1"
-      ]
+      ],
+      "image": "https://mcradane.github.io/raid-data/images/Skills/Occult_Brawler_s2.png"
     },
     {
       "cd": 0,
@@ -60,9 +62,10 @@
       "dmgscaling": [],
       "abilityname": "Ruination Ritual",
       "description": "Places a 2.5% [Poison] debuff on this Champion for 4 turns at the start of each turn. Has a 70% chance of placing a 5% [Poison] debuff on a random enemy for 4 turns at the start of each turn.",
-      "books": []
+      "books": [],
+      "image": "https://mcradane.github.io/raid-data/images/Skills/Occult_Brawler_s3.png"
     }
   ],
-  "version": "3.30.0",
+  "version": "3.30.2",
   "avatarUrl": "https://mcradane.github.io/raid-data/images/avatar/Occult_Brawler.png"
 }

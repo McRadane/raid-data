@@ -34,7 +34,8 @@
         "Level 3: Damage +5%",
         "Level 4: Damage +10%",
         "Level 5: Damage +10%"
-      ]
+      ],
+      "image": "https://mcradane.github.io/raid-data/images/Skills/Teela_Goremane_s1.png"
     },
     {
       "cd": 4,
@@ -51,7 +52,8 @@
         "Level 3: Damage +5%",
         "Level 4: Damage +10%",
         "Level 5: Damage +10%"
-      ]
+      ],
+      "image": "https://mcradane.github.io/raid-data/images/Skills/Teela_Goremane_s2.png"
     },
     {
       "cd": 5,
@@ -69,9 +71,10 @@
         "Level 4: Damage +10%",
         "Level 5: Buff/Debuff Chance +15%",
         "Level 6: Cooldown -1"
-      ]
+      ],
+      "image": "https://mcradane.github.io/raid-data/images/Skills/Teela_Goremane_s3.png"
     }
   ],
-  "version": "3.30.0",
+  "version": "3.30.2",
   "avatarUrl": "https://mcradane.github.io/raid-data/images/avatar/Teela_Goremane.png"
 }

@@ -34,7 +34,8 @@
         "Level 3: Damage +5%",
         "Level 4: Buff/Debuff Chance +5%",
         "Level 5: Buff/Debuff Chance +5%"
-      ]
+      ],
+      "image": "https://mcradane.github.io/raid-data/images/Skills/Saito_s1.png"
     },
     {
       "cd": 4,
@@ -50,7 +51,8 @@
         "Level 4: Damage +5%",
         "Level 5: Damage +5%",
         "Level 6: Cooldown -1"
-      ]
+      ],
+      "image": "https://mcradane.github.io/raid-data/images/Skills/Saito_s2.png"
     },
     {
       "cd": 5,
@@ -67,7 +69,8 @@
         "Level 3: Damage +5%",
         "Level 4: Damage +5%",
         "Level 5: Cooldown -1"
-      ]
+      ],
+      "image": "https://mcradane.github.io/raid-data/images/Skills/Saito_s3.png"
     },
     {
       "cd": 0,
@@ -76,9 +79,10 @@
       "dmgscaling": [],
       "abilityname": "Vendetta",
       "description": "Will ignore 7.5% of enemy DEF for each time this Champion attacks the same target enemy in consecutive attacks or Turns. Stacks up to 30%. The stack will be lost and reset if this Champion targets and attacks a different enemy.",
-      "books": []
+      "books": [],
+      "image": "https://mcradane.github.io/raid-data/images/Skills/Saito_s4.png"
     }
   ],
-  "version": "3.30.0",
+  "version": "3.30.2",
   "avatarUrl": "https://mcradane.github.io/raid-data/images/avatar/Saito.png"
 }

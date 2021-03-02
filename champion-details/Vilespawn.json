@@ -35,7 +35,8 @@
         "Level 6: Buff/Debuff Chance +5%",
         "Level 7: Buff/Debuff Chance +10%",
         "Level 8: Buff/Debuff Chance +10%"
-      ]
+      ],
+      "image": "https://mcradane.github.io/raid-data/images/Skills/Vilespawn_s1.png"
     },
     {
       "cd": 3,
@@ -44,9 +45,10 @@
       "dmgscaling": [],
       "abilityname": "Flesh Knit",
       "description": "Heals an ally by 10% of their MAX HP.",
-      "books": []
+      "books": [],
+      "image": "https://mcradane.github.io/raid-data/images/Skills/Vilespawn_s2.png"
     }
   ],
-  "version": "3.30.0",
+  "version": "3.30.2",
   "avatarUrl": "https://mcradane.github.io/raid-data/images/avatar/Vilespawn.png"
 }

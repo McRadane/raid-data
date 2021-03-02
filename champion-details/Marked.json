@@ -35,7 +35,8 @@
         "Level 4: Buff/Debuff Chance +10%",
         "Level 5: Buff/Debuff Chance +10%",
         "Level 6: Buff/Debuff Chance +10%"
-      ]
+      ],
+      "image": "https://mcradane.github.io/raid-data/images/Skills/Marked_s1.png"
     },
     {
       "cd": 4,
@@ -52,7 +53,8 @@
         "Level 3: Damage +5%",
         "Level 4: Damage +10%",
         "Level 5: Cooldown -1"
-      ]
+      ],
+      "image": "https://mcradane.github.io/raid-data/images/Skills/Marked_s2.png"
     },
     {
       "cd": 6,
@@ -65,9 +67,10 @@
         "Level 2: Cooldown -1",
         "Level 3: Cooldown -1",
         "Level 4: Cooldown -1"
-      ]
+      ],
+      "image": "https://mcradane.github.io/raid-data/images/Skills/Marked_s3.png"
     }
   ],
-  "version": "3.30.0",
+  "version": "3.30.2",
   "avatarUrl": "https://mcradane.github.io/raid-data/images/avatar/Marked.png"
 }

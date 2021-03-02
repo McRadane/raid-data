@@ -35,7 +35,8 @@
         "Level 5: Heal +5%",
         "Level 6: Damage +5%",
         "Level 7: Heal +5%"
-      ]
+      ],
+      "image": "https://mcradane.github.io/raid-data/images/Skills/Godseeker_Aniri_s1.png"
     },
     {
       "cd": 4,
@@ -53,7 +54,8 @@
         "Level 4: Heal +5%",
         "Level 5: Heal +5%",
         "Level 6: Cooldown -1"
-      ]
+      ],
+      "image": "https://mcradane.github.io/raid-data/images/Skills/Godseeker_Aniri_s2.png"
     },
     {
       "cd": 7,
@@ -66,7 +68,8 @@
         "Level 2: Cooldown -1",
         "Level 3: Cooldown -1",
         "Level 4: Cooldown -1"
-      ]
+      ],
+      "image": "https://mcradane.github.io/raid-data/images/Skills/Godseeker_Aniri_s3.png"
     },
     {
       "cd": 7,
@@ -79,9 +82,10 @@
         "Level 2: Cooldown -1",
         "Level 3: Cooldown -1",
         "Level 4: Cooldown -1"
-      ]
+      ],
+      "image": "https://mcradane.github.io/raid-data/images/Skills/Godseeker_Aniri_s4.png"
     }
   ],
-  "version": "3.30.0",
+  "version": "3.30.2",
   "avatarUrl": "https://mcradane.github.io/raid-data/images/avatar/Godseeker_Aniri.png"
 }

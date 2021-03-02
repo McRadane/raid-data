@@ -35,7 +35,8 @@
         "Level 4: Damage +5%",
         "Level 5: Buff/Debuff Chance +5%",
         "Level 6: Buff/Debuff Chance +10%"
-      ]
+      ],
+      "image": "https://mcradane.github.io/raid-data/images/Skills/Frostbringer_s1.png"
     },
     {
       "cd": 4,
@@ -53,7 +54,8 @@
         "Level 4: Damage +5%",
         "Level 5: Damage +5%",
         "Level 6: Cooldown -1"
-      ]
+      ],
+      "image": "https://mcradane.github.io/raid-data/images/Skills/Frostbringer_s2.png"
     },
     {
       "cd": 5,
@@ -64,9 +66,10 @@
       "description": "Places a 30% [Increase SPD] and a 50% [Increase ATK] buff on all allies for 2 turns.",
       "books": [
         "Level 2: Cooldown -1"
-      ]
+      ],
+      "image": "https://mcradane.github.io/raid-data/images/Skills/Frostbringer_s3.png"
     }
   ],
-  "version": "3.30.0",
+  "version": "3.30.2",
   "avatarUrl": "https://mcradane.github.io/raid-data/images/avatar/Frostbringer.png"
 }

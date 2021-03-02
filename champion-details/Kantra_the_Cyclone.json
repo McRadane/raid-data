@@ -34,7 +34,8 @@
         "Level 3: Damage +5%",
         "Level 4: Buff/Debuff Chance +10%",
         "Level 5: Buff/Debuff Chance +10%"
-      ]
+      ],
+      "image": "https://mcradane.github.io/raid-data/images/Skills/Kantra_the_Cyclone_s1.png"
     },
     {
       "cd": 4,
@@ -53,7 +54,8 @@
         "Level 5: Buff/Debuff Chance +10%",
         "Level 6: Buff/Debuff Chance +10%",
         "Level 7: Cooldown -1"
-      ]
+      ],
+      "image": "https://mcradane.github.io/raid-data/images/Skills/Kantra_the_Cyclone_s2.png"
     },
     {
       "cd": 0,
@@ -62,9 +64,10 @@
       "dmgscaling": [],
       "abilityname": "No Escape",
       "description": "Decreases each enemy’s ACC by 10 for each debuff they are under. This Champion will receive 4% less damage for each debuff on the attacker. Heals this Champion by 1,250 HP each time a debuff expires on",
-      "books": []
+      "books": [],
+      "image": "https://mcradane.github.io/raid-data/images/Skills/Kantra_the_Cyclone_s3.png"
     }
   ],
-  "version": "3.30.0",
+  "version": "3.30.2",
   "avatarUrl": "https://mcradane.github.io/raid-data/images/avatar/Kantra_the_Cyclone.png"
 }

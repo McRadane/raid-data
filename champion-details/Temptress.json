@@ -34,7 +34,8 @@
         "Level 4: Damage +5%",
         "Level 5: Buff/Debuff Chance +5%",
         "Level 6: Damage +10%"
-      ]
+      ],
+      "image": "https://mcradane.github.io/raid-data/images/Skills/Temptress_s1.png"
     },
     {
       "cd": 4,
@@ -52,7 +53,8 @@
         "Level 4: Buff/Debuff Chance +10%",
         "Level 5: Buff/Debuff Chance +15%",
         "Level 6: Cooldown -1"
-      ]
+      ],
+      "image": "https://mcradane.github.io/raid-data/images/Skills/Temptress_s2.png"
     },
     {
       "cd": 5,
@@ -63,9 +65,10 @@
       "description": "Places a 50% [Increase ATK] and a 30% [Increase C.RATE] buff on this Champion for 2 turns. Grants an Extra Turn when <a href=\"https://ayumilove.net/raid-shadow-legends-seducer-skill-mastery-equip-guide/\">Seducer</a> is on the same team.",
       "books": [
         "Level 2: Cooldown -1"
-      ]
+      ],
+      "image": "https://mcradane.github.io/raid-data/images/Skills/Temptress_s3.png"
     }
   ],
-  "version": "3.30.0",
+  "version": "3.30.2",
   "avatarUrl": "https://mcradane.github.io/raid-data/images/avatar/Temptress.png"
 }

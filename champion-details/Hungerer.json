@@ -34,7 +34,8 @@
         "Level 4: Damage +5%",
         "Level 5: Buff/Debuff Chance +5%",
         "Level 6: Damage +10%"
-      ]
+      ],
+      "image": "https://mcradane.github.io/raid-data/images/Skills/Hungerer_s1.png"
     },
     {
       "cd": 4,
@@ -47,9 +48,10 @@
         "Level 2: Shield +5%",
         "Level 3: Shield +5%",
         "Level 4: Cooldown -1"
-      ]
+      ],
+      "image": "https://mcradane.github.io/raid-data/images/Skills/Hungerer_s2.png"
     }
   ],
-  "version": "3.30.0",
+  "version": "3.30.2",
   "avatarUrl": "https://mcradane.github.io/raid-data/images/avatar/Hungerer.png"
 }

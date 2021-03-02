@@ -34,7 +34,8 @@
         "Level 3: Damage +5%",
         "Level 4: Damage +5%",
         "Level 5: Damage +5%"
-      ]
+      ],
+      "image": "https://mcradane.github.io/raid-data/images/Skills/Beast_Wrestler_s1.png"
     },
     {
       "cd": 6,
@@ -53,7 +54,8 @@
         "Level 5: Damage +10%",
         "Level 6: Cooldown -1",
         "Level 7: Cooldown -1"
-      ]
+      ],
+      "image": "https://mcradane.github.io/raid-data/images/Skills/Beast_Wrestler_s2.png"
     },
     {
       "cd": 0,
@@ -62,9 +64,10 @@
       "dmgscaling": [],
       "abilityname": "First Blood",
       "description": "Increases damage inflicted by 50% for the first hit on each enemy.",
-      "books": []
+      "books": [],
+      "image": "https://mcradane.github.io/raid-data/images/Skills/Beast_Wrestler_s3.png"
     }
   ],
-  "version": "3.30.0",
+  "version": "3.30.2",
   "avatarUrl": "https://mcradane.github.io/raid-data/images/avatar/Beast_Wrestler.png"
 }

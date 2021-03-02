@@ -32,7 +32,8 @@
         "Level 2: Damage +5%",
         "Level 3: Damage +5%",
         "Level 4: Damage +5%"
-      ]
+      ],
+      "image": "https://mcradane.github.io/raid-data/images/Skills/Reinbeast_s1.png"
     },
     {
       "cd": 5,
@@ -49,7 +50,8 @@
         "Level 3: Damage +5%",
         "Level 4: Damage +5%",
         "Level 5: Damage +5%"
-      ]
+      ],
+      "image": "https://mcradane.github.io/raid-data/images/Skills/Reinbeast_s2.png"
     },
     {
       "cd": 2,
@@ -62,9 +64,10 @@
         "Level 2: Shield +10%",
         "Level 3: Shield +10%",
         "Level 4: Shield +10%"
-      ]
+      ],
+      "image": "https://mcradane.github.io/raid-data/images/Skills/Reinbeast_s3.png"
     }
   ],
-  "version": "3.30.0",
+  "version": "3.30.2",
   "avatarUrl": "https://mcradane.github.io/raid-data/images/avatar/Reinbeast.png"
 }

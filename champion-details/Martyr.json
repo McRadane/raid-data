@@ -36,7 +36,8 @@
         "Level 5: Buff/Debuff Chance +10%",
         "Level 6: Damage +10%",
         "Level 7: Buff/Debuff Chance +15%"
-      ]
+      ],
+      "image": "https://mcradane.github.io/raid-data/images/Skills/Martyr_s1.png"
     },
     {
       "cd": 4,
@@ -47,7 +48,8 @@
       "description": "Places a 60% [Increase DEF] buff and a [Counterattack] buff on all allies for 2 turns.",
       "books": [
         "Level 2: Cooldown -1"
-      ]
+      ],
+      "image": "https://mcradane.github.io/raid-data/images/Skills/Martyr_s2.png"
     },
     {
       "cd": 6,
@@ -64,9 +66,10 @@
         "Level 3: Damage +10%",
         "Level 4: Cooldown -1",
         "Level 5: Cooldown -1"
-      ]
+      ],
+      "image": "https://mcradane.github.io/raid-data/images/Skills/Martyr_s3.png"
     }
   ],
-  "version": "3.30.0",
+  "version": "3.30.2",
   "avatarUrl": "https://mcradane.github.io/raid-data/images/avatar/Martyr.png"
 }

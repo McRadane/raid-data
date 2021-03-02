@@ -36,7 +36,8 @@
         "Level 6: Damage +10%",
         "Level 7: Buff/Debuff Chance +5%",
         "Level 8: Buff/Debuff Chance +10%"
-      ]
+      ],
+      "image": "https://mcradane.github.io/raid-data/images/Skills/Alika_s1.png"
     },
     {
       "cd": 4,
@@ -55,7 +56,8 @@
         "Level 5: Damage +5%",
         "Level 6: Cooldown -1",
         "Level 7: Cooldown -1"
-      ]
+      ],
+      "image": "https://mcradane.github.io/raid-data/images/Skills/Alika_s2.png"
     },
     {
       "cd": 4,
@@ -75,7 +77,8 @@
         "Level 6: Damage +10%",
         "Level 7: Buff/Debuff Chance +15%",
         "Level 8: Cooldown -1"
-      ]
+      ],
+      "image": "https://mcradane.github.io/raid-data/images/Skills/Alika_s3.png"
     },
     {
       "cd": 7,
@@ -84,9 +87,10 @@
       "dmgscaling": [],
       "abilityname": "Devoted Sister",
       "description": "Revives this Champion with 75% HP when killed. [Only available when <a href=\"//ayumilove.net/raid-shadow-legends-sikara-skill-mastery-equip-guide/\">Sikara</a> is on the same team]",
-      "books": []
+      "books": [],
+      "image": "https://mcradane.github.io/raid-data/images/Skills/Alika_s4.png"
     }
   ],
-  "version": "3.30.0",
+  "version": "3.30.2",
   "avatarUrl": "https://mcradane.github.io/raid-data/images/avatar/Alika.png"
 }

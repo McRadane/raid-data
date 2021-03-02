@@ -7,6 +7,17 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+## [3.30.2] - 2021-03-02
+
+### Added
+
+- Added skills images
+
+### Changed
+
+- Bump to version 3.30.2
+- Added image link for each skills in details
+
 ## [3.30.0] - 2021-02-24
 
 ### Added

@@ -34,7 +34,8 @@
         "Level 4: Buff/Debuff Chance +5%",
         "Level 5: Buff/Debuff Chance +10%",
         "Level 6: Buff/Debuff Chance +10%"
-      ]
+      ],
+      "image": "https://mcradane.github.io/raid-data/images/Skills/Thea_the_Tomb_Angel_s1.png"
     },
     {
       "cd": 6,
@@ -48,7 +49,8 @@
       "description": "Attacks all enemies. Damage increases by 50% for each [Hex] debuff on the enemy team. Stacks up to 300% Removes all [Hex] debuff from all enemies after attacking.",
       "books": [
         "Level 2: Cooldown -1"
-      ]
+      ],
+      "image": "https://mcradane.github.io/raid-data/images/Skills/Thea_the_Tomb_Angel_s2.png"
     },
     {
       "cd": 6,
@@ -57,7 +59,8 @@
       "dmgscaling": [],
       "abilityname": "Not of This World",
       "description": "Places a [Perfect Veil] buff on this Champion for 3 turns. Grants an Extra Turn.",
-      "books": []
+      "books": [],
+      "image": "https://mcradane.github.io/raid-data/images/Skills/Thea_the_Tomb_Angel_s3.png"
     },
     {
       "cd": 0,
@@ -66,9 +69,10 @@
       "dmgscaling": [],
       "abilityname": "Cruel Angel",
       "description": "Has a 50% chance of placing a [True Fear] debuff on all enemies for 1 turn when an enemy loses 30% or more of their MAX HP in a single hit.",
-      "books": []
+      "books": [],
+      "image": "https://mcradane.github.io/raid-data/images/Skills/Thea_the_Tomb_Angel_s4.png"
     }
   ],
-  "version": "3.30.0",
+  "version": "3.30.2",
   "avatarUrl": "https://mcradane.github.io/raid-data/images/avatar/Thea_the_Tomb_Angel.png"
 }

@@ -34,7 +34,8 @@
         "Level 3: Damage +5%",
         "Level 4: Damage +10%",
         "Level 5: Damage +10%"
-      ]
+      ],
+      "image": "https://mcradane.github.io/raid-data/images/Skills/Inithwe_Bloodtwin_s1.png"
     },
     {
       "cd": 3,
@@ -50,7 +51,8 @@
         "Level 2: Damage +5%",
         "Level 3: Damage +10%",
         "Level 4: Damage +15%"
-      ]
+      ],
+      "image": "https://mcradane.github.io/raid-data/images/Skills/Inithwe_Bloodtwin_s2.png"
     },
     {
       "cd": 4,
@@ -67,7 +69,8 @@
         "Level 3: Buff/Debuff Chance +10%",
         "Level 4: Buff/Debuff Chance +10%",
         "Level 5: Cooldown -1"
-      ]
+      ],
+      "image": "https://mcradane.github.io/raid-data/images/Skills/Inithwe_Bloodtwin_s3.png"
     },
     {
       "cd": 0,
@@ -76,9 +79,10 @@
       "dmgscaling": [],
       "abilityname": "Final Doom",
       "description": "Heals this Champion by 30% of their MAX HP each time they kill an enemy. Enemies killed by this Champion cannot be revived.",
-      "books": []
+      "books": [],
+      "image": "https://mcradane.github.io/raid-data/images/Skills/Inithwe_Bloodtwin_s4.png"
     }
   ],
-  "version": "3.30.0",
+  "version": "3.30.2",
   "avatarUrl": "https://mcradane.github.io/raid-data/images/avatar/Inithwe_Bloodtwin.png"
 }

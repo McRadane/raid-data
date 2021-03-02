@@ -35,7 +35,8 @@
         "Level 5: Damage +10%",
         "Level 6: Damage +10%",
         "Level 7: Buff/Debuff Chance +10%"
-      ]
+      ],
+      "image": "https://mcradane.github.io/raid-data/images/Skills/Crimson_Slayer_s1.png"
     },
     {
       "cd": 4,
@@ -53,7 +54,8 @@
         "Level 5: Damage +10%",
         "Level 6: Damage +10%",
         "Level 7: Buff/Debuff Chance +15%"
-      ]
+      ],
+      "image": "https://mcradane.github.io/raid-data/images/Skills/Crimson_Slayer_s2.png"
     },
     {
       "cd": 6,
@@ -72,9 +74,10 @@
         "Level 6: Damage +10%",
         "Level 7: Buff/Debuff Chance +10%",
         "Level 8: Cooldown -1"
-      ]
+      ],
+      "image": "https://mcradane.github.io/raid-data/images/Skills/Crimson_Slayer_s3.png"
     }
   ],
-  "version": "3.30.0",
+  "version": "3.30.2",
   "avatarUrl": "https://mcradane.github.io/raid-data/images/avatar/Crimson_Slayer.png"
 }

@@ -34,7 +34,8 @@
         "Level 3: Buff/Debuff Chance +5%",
         "Level 4: Damage +10%",
         "Level 5: Buff/Debuff Chance +10%"
-      ]
+      ],
+      "image": "https://mcradane.github.io/raid-data/images/Skills/Norog_s1.png"
     },
     {
       "cd": 4,
@@ -50,7 +51,8 @@
         "Level 2: Damage +10%",
         "Level 3: Damage +10%",
         "Level 4: Cooldown -1"
-      ]
+      ],
+      "image": "https://mcradane.github.io/raid-data/images/Skills/Norog_s2.png"
     },
     {
       "cd": 0,
@@ -59,9 +61,10 @@
       "dmgscaling": [],
       "abilityname": "Thick Skin",
       "description": "Immune to [Stun], [Freeze], [Sleep] debuffs. Decreases the damage taken by all alies that are under 1 or more buffs by 15%. Decreases the damage taken by all allies that are under no active buffs by 25%.",
-      "books": []
+      "books": [],
+      "image": "https://mcradane.github.io/raid-data/images/Skills/Norog_s3.png"
     }
   ],
-  "version": "3.30.0",
+  "version": "3.30.2",
   "avatarUrl": "https://mcradane.github.io/raid-data/images/avatar/Norog.png"
 }

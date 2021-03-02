@@ -31,7 +31,8 @@
         "Level 3: Buff/Debuff Chance +10%",
         "Level 4: Damage +10%",
         "Level 5: Buff/Debuff Chance +10%"
-      ]
+      ],
+      "image": "https://mcradane.github.io/raid-data/images/Skills/Klodd_Beastfeeder_s1.png"
     },
     {
       "cd": 4,
@@ -45,7 +46,8 @@
         "Level 3: Shield +10%",
         "Level 4: Shield +10%",
         "Level 5: Cooldown -1"
-      ]
+      ],
+      "image": "https://mcradane.github.io/raid-data/images/Skills/Klodd_Beastfeeder_s2.png"
     },
     {
       "cd": 5,
@@ -57,7 +59,8 @@
       "books": [
         "Level 2: Cooldown -1",
         "Level 3: Cooldown -1"
-      ]
+      ],
+      "image": "https://mcradane.github.io/raid-data/images/Skills/Klodd_Beastfeeder_s3.png"
     },
     {
       "cd": 0,
@@ -66,9 +69,10 @@
       "dmgscaling": [],
       "abilityname": "Delicious Giblets",
       "description": "Heals the ally with the lowest HP by 10% of their MAX HP at the start of this Champion’s turn.",
-      "books": []
+      "books": [],
+      "image": "https://mcradane.github.io/raid-data/images/Skills/Klodd_Beastfeeder_s4.png"
     }
   ],
-  "version": "3.30.0",
+  "version": "3.30.2",
   "avatarUrl": "https://mcradane.github.io/raid-data/images/avatar/Klodd_Beastfeeder.png"
 }

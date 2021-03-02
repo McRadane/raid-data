@@ -34,7 +34,8 @@
         "Level 3: Damage +10%",
         "Level 4: Buff/Debuff Chance +5%",
         "Level 5: Buff/Debuff Chance +5%"
-      ]
+      ],
+      "image": "https://mcradane.github.io/raid-data/images/Skills/Nekhret_the_Great_s1.png"
     },
     {
       "cd": 5,
@@ -45,7 +46,8 @@
       "description": "Teams up with allies to attack 1 enemy. All allies under [Ally Protection] buffs placed by this Champion will join the attack. Allies joining the attack will use their default skills. Grants an Extra Turn if this attack does not kill the target.",
       "books": [
         "Level: 2 Cooldown -1"
-      ]
+      ],
+      "image": "https://mcradane.github.io/raid-data/images/Skills/Nekhret_the_Great_s2.png"
     },
     {
       "cd": 4,
@@ -56,7 +58,8 @@
       "description": "Places a [Block Debuffs] buff, a 50% [Ally Protection] buff, and a 25% [Strengthen] buff on an ally for 3 turns. The [Ally Protection] buff cannot be removed.",
       "books": [
         "Level 2: Cooldown -1"
-      ]
+      ],
+      "image": "https://mcradane.github.io/raid-data/images/Skills/Nekhret_the_Great_s3.png"
     },
     {
       "cd": 0,
@@ -65,7 +68,8 @@
       "dmgscaling": [],
       "abilityname": "Unsleeping Aegis",
       "description": "Whenever an ally is attacked while under an [Ally Protection] buff placed by this Champion, places a [Shield] buff on the ally equal to 30% of this Champion’s MAX HP for 2 turns. Occurs only if the ally does not already have a [Shield] buff placed by this Champion. Also decreases the cooldown of this Champion’s Legion of the Damned Skill by 2 turns if the [Shield] buff is placed.",
-      "books": []
+      "books": [],
+      "image": "https://mcradane.github.io/raid-data/images/Skills/Nekhret_the_Great_s4.png"
     },
     {
       "cd": 0,
@@ -74,9 +78,10 @@
       "dmgscaling": [],
       "abilityname": "Arise My Minions",
       "description": "Places a [Block Debuffs] buff and a 25% [Strengthen] buff for 3 turns on the ally with the lowest MAX HP at the start of each Round. Also places a 50% [Ally Protection] buff on them for 6 turns. The [Ally Protection] buff cannot be removed.",
-      "books": []
+      "books": [],
+      "image": "https://mcradane.github.io/raid-data/images/Skills/Nekhret_the_Great_s5.png"
     }
   ],
-  "version": "3.30.0",
+  "version": "3.30.2",
   "avatarUrl": "https://mcradane.github.io/raid-data/images/avatar/Nekhret_the_Great.png"
 }

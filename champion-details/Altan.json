@@ -35,7 +35,8 @@
         "Level 4: Buff/Debuff Chance +5%",
         "Level 5: Buff/Debuff Chance +10%",
         "Level 6: Damage +10%"
-      ]
+      ],
+      "image": "https://mcradane.github.io/raid-data/images/Skills/Altan_s1.png"
     },
     {
       "cd": 4,
@@ -52,7 +53,8 @@
         "Level 3: Damage +5%",
         "Level 4: Damage +10%",
         "Level 5: Cooldown -1"
-      ]
+      ],
+      "image": "https://mcradane.github.io/raid-data/images/Skills/Altan_s2.png"
     },
     {
       "cd": 0,
@@ -61,9 +63,10 @@
       "dmgscaling": [],
       "abilityname": "Fiery Rebirth",
       "description": "Revives a random ally with 30% HP every time this champion kills an enemy. Resets the cooldown on this Champion’s Skills if this Champion kills an enemy and all allies are alive.",
-      "books": []
+      "books": [],
+      "image": "https://mcradane.github.io/raid-data/images/Skills/Altan_s3.png"
     }
   ],
-  "version": "3.30.0",
+  "version": "3.30.2",
   "avatarUrl": "https://mcradane.github.io/raid-data/images/avatar/Altan.png"
 }

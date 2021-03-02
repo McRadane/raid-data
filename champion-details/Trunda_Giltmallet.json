@@ -34,7 +34,8 @@
         "Level 3: Damage +5%",
         "Level 4: Buff/Debuff Chance +10%",
         "Level 5: Damage +10%"
-      ]
+      ],
+      "image": "https://mcradane.github.io/raid-data/images/Skills/Trunda_Giltmallet_s1.png"
     },
     {
       "cd": 4,
@@ -50,7 +51,8 @@
         "Level 2: Damage +5%",
         "Level 3: Damage +5%",
         "Level 4: Damage +10%"
-      ]
+      ],
+      "image": "https://mcradane.github.io/raid-data/images/Skills/Trunda_Giltmallet_s2.png"
     },
     {
       "cd": 5,
@@ -66,7 +68,8 @@
         "Level 2: Damage +10%",
         "Level 3: Damage +10%",
         "Level 4: Damage +10%"
-      ]
+      ],
+      "image": "https://mcradane.github.io/raid-data/images/Skills/Trunda_Giltmallet_s3.png"
     },
     {
       "cd": 0,
@@ -75,9 +78,10 @@
       "dmgscaling": [],
       "abilityname": "Swift Justice",
       "description": "This Champion’s RES increases by 10 for each [Stun] debuff this Champion places on enemies. Stacks across each round in a battle, up to 100. This Champion’s SPD increases by 5 for each enemy currently under a [HP Burn] debuff. Only counts active [HP Burn] debuffs. Stacks up to 15.",
-      "books": []
+      "books": [],
+      "image": "https://mcradane.github.io/raid-data/images/Skills/Trunda_Giltmallet_s4.png"
     }
   ],
-  "version": "3.30.0",
+  "version": "3.30.2",
   "avatarUrl": "https://mcradane.github.io/raid-data/images/avatar/Trunda_Giltmallet.png"
 }

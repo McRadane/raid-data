@@ -34,7 +34,8 @@
         "Level 4: Damage +5%",
         "Level 5: Damage +5%",
         "Level 6: Damage +10%"
-      ]
+      ],
+      "image": "https://mcradane.github.io/raid-data/images/Skills/Kurzad_Deepheart_s1.png"
     },
     {
       "cd": 3,
@@ -52,7 +53,8 @@
         "Level 4: Damage +5%",
         "Level 5: Damage +5%",
         "Level 6: Damage +10%"
-      ]
+      ],
+      "image": "https://mcradane.github.io/raid-data/images/Skills/Kurzad_Deepheart_s2.png"
     },
     {
       "cd": 3,
@@ -73,9 +75,10 @@
         "Level 7: Damage +5%",
         "Level 8: Damage +10%",
         "Level 9: Buff/Debuff Chance +10%"
-      ]
+      ],
+      "image": "https://mcradane.github.io/raid-data/images/Skills/Kurzad_Deepheart_s3.png"
     }
   ],
-  "version": "3.30.0",
+  "version": "3.30.2",
   "avatarUrl": "https://mcradane.github.io/raid-data/images/avatar/Kurzad_Deepheart.png"
 }

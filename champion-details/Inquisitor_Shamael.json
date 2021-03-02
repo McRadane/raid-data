@@ -37,7 +37,8 @@
         "Level 6: Damage +10%",
         "Level 7: Buff/Debuff Chance +10%",
         "Level 8: Damage +15%"
-      ]
+      ],
+      "image": "https://mcradane.github.io/raid-data/images/Skills/Inquisitor_Shamael_s1.png"
     },
     {
       "cd": 3,
@@ -53,7 +54,8 @@
         "Level 2: Damage +10%",
         "Level 3: Damage +10%",
         "Level 4: Damage +15%"
-      ]
+      ],
+      "image": "https://mcradane.github.io/raid-data/images/Skills/Inquisitor_Shamael_s2.png"
     },
     {
       "cd": 0,
@@ -62,9 +64,10 @@
       "dmgscaling": [],
       "abilityname": "Dauntless",
       "description": "Each critical hit fills this Champion’s Turn Meter by 7.5%. Whenever an ally receives a [Fear] or [True Fear] debuff, this skill will instantly remove the debuff and fill the ally’s Turn Meter by 15%.",
-      "books": []
+      "books": [],
+      "image": "https://mcradane.github.io/raid-data/images/Skills/Inquisitor_Shamael_s3.png"
     }
   ],
-  "version": "3.30.0",
+  "version": "3.30.2",
   "avatarUrl": "https://mcradane.github.io/raid-data/images/avatar/Inquisitor_Shamael.png"
 }
