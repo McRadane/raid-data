@@ -79,7 +79,7 @@
       "passive": true,
       "dmgscaling": [],
       "abilityname": "Unredeemed",
-      "description": "Removes one random debuff from <a href=\"//ayumilove.net/raid-shadow-legends-astralon-skill-mastery-equip-guide/\">Astralon</a> and this champion at the start of each turn. Only available if <a href=\"//ayumilove.net/raid-shadow-legends-astralon-skill-mastery-equip-guide/\">Astralon</a> is on the team.",
+      "description": "Removes one random debuff from Astralon and this champion at the start of each turn. Only available if Astralon is on the team.",
       "books": [],
       "image": "https://mcradane.github.io/raid-data/images/Skills/Countess_Lix_s4.png"
     },
