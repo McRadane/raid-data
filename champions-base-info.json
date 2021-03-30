@@ -5,7 +5,7 @@
     "affinity": "force",
     "faction": "The Sacred Order",
     "role": "attack",
-    "aura": "ATK - Faction Crypts",
+    "aura": "ATK - Faction Wars - 34%",
     "avatarUrl": "https://mcradane.github.io/raid-data/images/avatar/Abbess.png",
     "detailsUrl": "https://mcradane.github.io/raid-data/champion-details/Abbess.json"
   },
@@ -15,7 +15,7 @@
     "affinity": "spirit",
     "faction": "Demonspawn",
     "role": "support",
-    "aura": "SPD - Faction Wars Crypts",
+    "aura": "SPD - Faction Wars - 16%",
     "avatarUrl": "https://mcradane.github.io/raid-data/images/avatar/Abyssal.png",
     "detailsUrl": "https://mcradane.github.io/raid-data/champion-details/Abyssal.json"
   },
@@ -25,7 +25,7 @@
     "affinity": "force",
     "faction": "Demonspawn",
     "role": "support",
-    "aura": "DEF - All",
+    "aura": "DEF - All - 25%",
     "avatarUrl": "https://mcradane.github.io/raid-data/images/avatar/Achak_the_Wendarin.png",
     "detailsUrl": "https://mcradane.github.io/raid-data/champion-details/Achak_the_Wendarin.json"
   },
@@ -35,7 +35,7 @@
     "affinity": "force",
     "faction": "Knight Revenant",
     "role": "support",
-    "aura": "ATK - Arena",
+    "aura": "ATK - Arena - 30%",
     "avatarUrl": "https://mcradane.github.io/raid-data/images/avatar/Acolyte.png",
     "detailsUrl": "https://mcradane.github.io/raid-data/champion-details/Acolyte.json"
   },
@@ -45,7 +45,7 @@
     "affinity": "magic",
     "faction": "High Elves",
     "role": "attack",
-    "aura": "ACC - All",
+    "aura": "ACC - All - 40",
     "avatarUrl": "https://mcradane.github.io/raid-data/images/avatar/Adjudicator.png",
     "detailsUrl": "https://mcradane.github.io/raid-data/champion-details/Adjudicator.json"
   },
@@ -64,7 +64,7 @@
     "affinity": "magic",
     "faction": "The Sacred Order",
     "role": "support",
-    "aura": "SPD - All (magic)",
+    "aura": "SPD - All (magic) - 21%",
     "avatarUrl": "https://mcradane.github.io/raid-data/images/avatar/Adriel.png",
     "detailsUrl": "https://mcradane.github.io/raid-data/champion-details/Adriel.json"
   },
@@ -74,7 +74,7 @@
     "affinity": "magic",
     "faction": "Barbarians",
     "role": "attack",
-    "aura": "ACC - Faction Crypts",
+    "aura": "ACC - Faction Wars - 40",
     "avatarUrl": "https://mcradane.github.io/raid-data/images/avatar/Aina.png",
     "detailsUrl": "https://mcradane.github.io/raid-data/champion-details/Aina.json"
   },
@@ -84,7 +84,7 @@
     "affinity": "magic",
     "faction": "Demonspawn",
     "role": "defense",
-    "aura": "HP - All",
+    "aura": "HP - All - 25%",
     "avatarUrl": "https://mcradane.github.io/raid-data/images/avatar/Akoth_the_Seared.png",
     "detailsUrl": "https://mcradane.github.io/raid-data/champion-details/Akoth_the_Seared.json"
   },
@@ -94,7 +94,7 @@
     "affinity": "force",
     "faction": "Banner Lords",
     "role": "attack",
-    "aura": "ATK - Faction Crypts",
+    "aura": "ATK - Faction Wars - 29%",
     "avatarUrl": "https://mcradane.github.io/raid-data/images/avatar/Alaric_the_Hooded.png",
     "detailsUrl": "https://mcradane.github.io/raid-data/champion-details/Alaric_the_Hooded.json"
   },
@@ -113,7 +113,7 @@
     "affinity": "magic",
     "faction": "Barbarians",
     "role": "defense",
-    "aura": "DEF - All",
+    "aura": "DEF - All - 33%",
     "avatarUrl": "https://mcradane.github.io/raid-data/images/avatar/Altan.png",
     "detailsUrl": "https://mcradane.github.io/raid-data/champion-details/Altan.json"
   },
@@ -123,7 +123,7 @@
     "affinity": "magic",
     "faction": "Demonspawn",
     "role": "attack",
-    "aura": "ACC - Faction Crypts",
+    "aura": "ACC - Faction Wars - 50",
     "avatarUrl": "https://mcradane.github.io/raid-data/images/avatar/Alure.png",
     "detailsUrl": "https://mcradane.github.io/raid-data/champion-details/Alure.json"
   },
@@ -151,7 +151,7 @@
     "affinity": "void",
     "faction": "Orcs",
     "role": "hp",
-    "aura": "HP - Faction Crypts",
+    "aura": "HP - Faction Wars - 44%",
     "avatarUrl": "https://mcradane.github.io/raid-data/images/avatar/Angar.png",
     "detailsUrl": "https://mcradane.github.io/raid-data/champion-details/Angar.json"
   },
@@ -170,7 +170,7 @@
     "affinity": "force",
     "faction": "The Sacred Order",
     "role": "attack",
-    "aura": "ATK - All",
+    "aura": "ATK - All - 21%",
     "avatarUrl": "https://mcradane.github.io/raid-data/images/avatar/Aothar.png",
     "detailsUrl": "https://mcradane.github.io/raid-data/champion-details/Aothar.json"
   },
@@ -180,7 +180,7 @@
     "affinity": "force",
     "faction": "Lizardmen",
     "role": "support",
-    "aura": "ACC - Doom Tower",
+    "aura": "ACC - Doom Tower - 60",
     "avatarUrl": "https://mcradane.github.io/raid-data/images/avatar/Aox_the_Rememberer.png",
     "detailsUrl": "https://mcradane.github.io/raid-data/champion-details/Aox_the_Rememberer.json"
   },
@@ -190,7 +190,7 @@
     "affinity": "magic",
     "faction": "High Elves",
     "role": "support",
-    "aura": "DEF - Dungeons",
+    "aura": "DEF - Dungeons - 21%",
     "avatarUrl": "https://mcradane.github.io/raid-data/images/avatar/Apothecary.png",
     "detailsUrl": "https://mcradane.github.io/raid-data/champion-details/Apothecary.json"
   },
@@ -209,7 +209,7 @@
     "affinity": "void",
     "faction": "High Elves",
     "role": "support",
-    "aura": "SPD - Arena",
+    "aura": "SPD - Arena - 30%",
     "avatarUrl": "https://mcradane.github.io/raid-data/images/avatar/Arbiter.png",
     "detailsUrl": "https://mcradane.github.io/raid-data/champion-details/Arbiter.json"
   },
@@ -219,7 +219,7 @@
     "affinity": "force",
     "faction": "Knight Revenant",
     "role": "support",
-    "aura": "DEF - Arena",
+    "aura": "DEF - Arena - 25%",
     "avatarUrl": "https://mcradane.github.io/raid-data/images/avatar/Arcanist.png",
     "detailsUrl": "https://mcradane.github.io/raid-data/champion-details/Arcanist.json"
   },
@@ -238,7 +238,7 @@
     "affinity": "magic",
     "faction": "Banner Lords",
     "role": "support",
-    "aura": "SPD - Arena",
+    "aura": "SPD - Arena - 17%",
     "avatarUrl": "https://mcradane.github.io/raid-data/images/avatar/Archmage_Hellmut.png",
     "detailsUrl": "https://mcradane.github.io/raid-data/champion-details/Archmage_Hellmut.json"
   },
@@ -275,7 +275,7 @@
     "affinity": "spirit",
     "faction": "Dark Elves",
     "role": "attack",
-    "aura": "SPD - Arena",
+    "aura": "SPD - Arena - 28%",
     "avatarUrl": "https://mcradane.github.io/raid-data/images/avatar/Astralith.png",
     "detailsUrl": "https://mcradane.github.io/raid-data/champion-details/Astralith.json"
   },
@@ -294,7 +294,7 @@
     "affinity": "magic",
     "faction": "The Sacred Order",
     "role": "attack",
-    "aura": "HP - All",
+    "aura": "HP - All - 15%",
     "avatarUrl": "https://mcradane.github.io/raid-data/images/avatar/Athel.png",
     "detailsUrl": "https://mcradane.github.io/raid-data/champion-details/Athel.json"
   },
@@ -313,7 +313,7 @@
     "affinity": "magic",
     "faction": "High Elves",
     "role": "attack",
-    "aura": "ATK - Faction Crypts",
+    "aura": "ATK - Faction Wars - 17%",
     "avatarUrl": "https://mcradane.github.io/raid-data/images/avatar/Avenger.png",
     "detailsUrl": "https://mcradane.github.io/raid-data/champion-details/Avenger.json"
   },
@@ -341,7 +341,7 @@
     "affinity": "void",
     "faction": "Banner Lords",
     "role": "hp",
-    "aura": "HP - All",
+    "aura": "HP - All - 25%",
     "avatarUrl": "https://mcradane.github.io/raid-data/images/avatar/Azure.png",
     "detailsUrl": "https://mcradane.github.io/raid-data/champion-details/Azure.json"
   },
@@ -351,7 +351,7 @@
     "affinity": "force",
     "faction": "Undead Hordes",
     "role": "support",
-    "aura": "C.RATE - All",
+    "aura": "C.RATE - All - 25%",
     "avatarUrl": "https://mcradane.github.io/raid-data/images/avatar/Bad_el_Kazar.png",
     "detailsUrl": "https://mcradane.github.io/raid-data/champion-details/Bad_el_Kazar.json"
   },
@@ -361,7 +361,7 @@
     "affinity": "void",
     "faction": "Dwarves",
     "role": "attack",
-    "aura": "ATK - Dungeons",
+    "aura": "ATK - Dungeons - 32%",
     "avatarUrl": "https://mcradane.github.io/raid-data/images/avatar/Baerdal_Fellhammer.png",
     "detailsUrl": "https://mcradane.github.io/raid-data/champion-details/Baerdal_Fellhammer.json"
   },
@@ -371,7 +371,7 @@
     "affinity": "spirit",
     "faction": "Undead Hordes",
     "role": "defense",
-    "aura": "DEF - Faction Crypts",
+    "aura": "DEF - Faction Wars - 30%",
     "avatarUrl": "https://mcradane.github.io/raid-data/images/avatar/Balthus_Drauglord.png",
     "detailsUrl": "https://mcradane.github.io/raid-data/champion-details/Balthus_Drauglord.json"
   },
@@ -390,7 +390,7 @@
     "affinity": "magic",
     "faction": "Undead Hordes",
     "role": "support",
-    "aura": "RESIST - Arena",
+    "aura": "RESIST - Arena - 52",
     "avatarUrl": "https://mcradane.github.io/raid-data/images/avatar/Banshee.png",
     "detailsUrl": "https://mcradane.github.io/raid-data/champion-details/Banshee.json"
   },
@@ -400,7 +400,7 @@
     "affinity": "void",
     "faction": "Banner Lords",
     "role": "attack",
-    "aura": "ATK - All",
+    "aura": "ATK - All - 33%",
     "avatarUrl": "https://mcradane.github.io/raid-data/images/avatar/Baron.png",
     "detailsUrl": "https://mcradane.github.io/raid-data/champion-details/Baron.json"
   },
@@ -419,7 +419,7 @@
     "affinity": "void",
     "faction": "Skinwalkers",
     "role": "attack",
-    "aura": "HP - All",
+    "aura": "HP - All - 25%",
     "avatarUrl": "https://mcradane.github.io/raid-data/images/avatar/Basher.png",
     "detailsUrl": "https://mcradane.github.io/raid-data/champion-details/Basher.json"
   },
@@ -456,7 +456,7 @@
     "affinity": "void",
     "faction": "High Elves",
     "role": "support",
-    "aura": "SPD - All",
+    "aura": "SPD - All - 19%",
     "avatarUrl": "https://mcradane.github.io/raid-data/images/avatar/Battlesage.png",
     "detailsUrl": "https://mcradane.github.io/raid-data/champion-details/Battlesage.json"
   },
@@ -466,7 +466,7 @@
     "affinity": "force",
     "faction": "Dwarves",
     "role": "attack",
-    "aura": "C.RATE - Arena",
+    "aura": "C.RATE - Arena - 16%",
     "avatarUrl": "https://mcradane.github.io/raid-data/images/avatar/Beast_Wrestler.png",
     "detailsUrl": "https://mcradane.github.io/raid-data/champion-details/Beast_Wrestler.json"
   },
@@ -476,7 +476,7 @@
     "affinity": "void",
     "faction": "High Elves",
     "role": "attack",
-    "aura": "C.RATE - All",
+    "aura": "C.RATE - All - 24%",
     "avatarUrl": "https://mcradane.github.io/raid-data/images/avatar/Belanor.png",
     "detailsUrl": "https://mcradane.github.io/raid-data/champion-details/Belanor.json"
   },
@@ -486,7 +486,7 @@
     "affinity": "void",
     "faction": "Ogryn Tribes",
     "role": "support",
-    "aura": "SPD - Faction Crypts",
+    "aura": "SPD - Faction Wars - 15%",
     "avatarUrl": "https://mcradane.github.io/raid-data/images/avatar/Bellower.png",
     "detailsUrl": "https://mcradane.github.io/raid-data/champion-details/Bellower.json"
   },
@@ -514,7 +514,7 @@
     "affinity": "magic",
     "faction": "Ogryn Tribes",
     "role": "attack",
-    "aura": "ACC - Dungeons",
+    "aura": "ACC - Dungeons - 90",
     "avatarUrl": "https://mcradane.github.io/raid-data/images/avatar/Big_Un.png",
     "detailsUrl": "https://mcradane.github.io/raid-data/champion-details/Big_Un.json"
   },
@@ -533,7 +533,7 @@
     "affinity": "void",
     "faction": "Dark Elves",
     "role": "support",
-    "aura": "DEF - All",
+    "aura": "DEF - All - 34%",
     "avatarUrl": "https://mcradane.github.io/raid-data/images/avatar/Blind_Seer.png",
     "detailsUrl": "https://mcradane.github.io/raid-data/champion-details/Blind_Seer.json"
   },
@@ -552,7 +552,7 @@
     "affinity": "force",
     "faction": "Orcs",
     "role": "attack",
-    "aura": "C.RATE - Faction Crypts",
+    "aura": "C.RATE - Faction Wars - 20%",
     "avatarUrl": "https://mcradane.github.io/raid-data/images/avatar/Bloodfeather.png",
     "detailsUrl": "https://mcradane.github.io/raid-data/champion-details/Bloodfeather.json"
   },
@@ -571,7 +571,7 @@
     "affinity": "void",
     "faction": "Skinwalkers",
     "role": "hp",
-    "aura": "HP - Faction Crypts",
+    "aura": "HP - Faction Wars - 21%",
     "avatarUrl": "https://mcradane.github.io/raid-data/images/avatar/Bloodhorn.png",
     "detailsUrl": "https://mcradane.github.io/raid-data/champion-details/Bloodhorn.json"
   },
@@ -599,7 +599,7 @@
     "affinity": "force",
     "faction": "Lizardmen",
     "role": "defense",
-    "aura": "HP - Dungeons",
+    "aura": "HP - Dungeons - 25%",
     "avatarUrl": "https://mcradane.github.io/raid-data/images/avatar/Bogwalker.png",
     "detailsUrl": "https://mcradane.github.io/raid-data/champion-details/Bogwalker.json"
   },
@@ -609,7 +609,7 @@
     "affinity": "force",
     "faction": "Dwarves",
     "role": "attack",
-    "aura": "ATK - Faction Wars Crypts",
+    "aura": "ATK - Faction Wars - 20%",
     "avatarUrl": "https://mcradane.github.io/raid-data/images/avatar/Boltsmith.png",
     "detailsUrl": "https://mcradane.github.io/raid-data/champion-details/Boltsmith.json"
   },
@@ -619,7 +619,7 @@
     "affinity": "force",
     "faction": "Banner Lords",
     "role": "attack",
-    "aura": "C.RATE - All",
+    "aura": "C.RATE - All - 12%",
     "avatarUrl": "https://mcradane.github.io/raid-data/images/avatar/Bombardier.png",
     "detailsUrl": "https://mcradane.github.io/raid-data/champion-details/Bombardier.json"
   },
@@ -656,7 +656,7 @@
     "affinity": "void",
     "faction": "Lizardmen",
     "role": "support",
-    "aura": "DEF - Arena",
+    "aura": "DEF - Arena - 33%",
     "avatarUrl": "https://mcradane.github.io/raid-data/images/avatar/Broadmaw.png",
     "detailsUrl": "https://mcradane.github.io/raid-data/champion-details/Broadmaw.json"
   },
@@ -684,7 +684,7 @@
     "affinity": "void",
     "faction": "Dwarves",
     "role": "defense",
-    "aura": "DEF - All",
+    "aura": "DEF - All - 17%",
     "avatarUrl": "https://mcradane.github.io/raid-data/images/avatar/Bulwark.png",
     "detailsUrl": "https://mcradane.github.io/raid-data/champion-details/Bulwark.json"
   },
@@ -703,7 +703,7 @@
     "affinity": "force",
     "faction": "Knight Revenant",
     "role": "attack",
-    "aura": "ACC - All",
+    "aura": "ACC - All - 70",
     "avatarUrl": "https://mcradane.github.io/raid-data/images/avatar/Bystophus.png",
     "detailsUrl": "https://mcradane.github.io/raid-data/champion-details/Bystophus.json"
   },
@@ -713,7 +713,7 @@
     "affinity": "spirit",
     "faction": "Ogryn Tribes",
     "role": "attack",
-    "aura": "ATK - All (spirit)",
+    "aura": "ATK - All (spirit) - 40%",
     "avatarUrl": "https://mcradane.github.io/raid-data/images/avatar/Cagebreaker.png",
     "detailsUrl": "https://mcradane.github.io/raid-data/champion-details/Cagebreaker.json"
   },
@@ -723,7 +723,7 @@
     "affinity": "force",
     "faction": "Demonspawn",
     "role": "attack",
-    "aura": "ATK - Arena",
+    "aura": "ATK - Arena - 33%",
     "avatarUrl": "https://mcradane.github.io/raid-data/images/avatar/Candraphon.png",
     "detailsUrl": "https://mcradane.github.io/raid-data/champion-details/Candraphon.json"
   },
@@ -733,7 +733,7 @@
     "affinity": "magic",
     "faction": "The Sacred Order",
     "role": "defense",
-    "aura": "SPD - Faction Crypts",
+    "aura": "SPD - Faction Wars - 20%",
     "avatarUrl": "https://mcradane.github.io/raid-data/images/avatar/Canoness.png",
     "detailsUrl": "https://mcradane.github.io/raid-data/champion-details/Canoness.json"
   },
@@ -743,7 +743,7 @@
     "affinity": "magic",
     "faction": "Dark Elves",
     "role": "hp",
-    "aura": "RESIST - Faction Crypts",
+    "aura": "RESIST - Faction Wars - 45",
     "avatarUrl": "https://mcradane.github.io/raid-data/images/avatar/Captain_Temila.png",
     "detailsUrl": "https://mcradane.github.io/raid-data/champion-details/Captain_Temila.json"
   },
@@ -753,7 +753,7 @@
     "affinity": "void",
     "faction": "The Sacred Order",
     "role": "support",
-    "aura": "SPD - All",
+    "aura": "SPD - All - 19%",
     "avatarUrl": "https://mcradane.github.io/raid-data/images/avatar/Cardiel.png",
     "detailsUrl": "https://mcradane.github.io/raid-data/champion-details/Cardiel.json"
   },
@@ -781,7 +781,7 @@
     "affinity": "spirit",
     "faction": "Banner Lords",
     "role": "hp",
-    "aura": "HP - Arena",
+    "aura": "HP - Arena - 25%",
     "avatarUrl": "https://mcradane.github.io/raid-data/images/avatar/Cataphract.png",
     "detailsUrl": "https://mcradane.github.io/raid-data/champion-details/Cataphract.json"
   },
@@ -809,7 +809,7 @@
     "affinity": "spirit",
     "faction": "Skinwalkers",
     "role": "support",
-    "aura": "RESIST - Faction Crypts",
+    "aura": "RESIST - Faction Wars - 30",
     "avatarUrl": "https://mcradane.github.io/raid-data/images/avatar/Channeler.png",
     "detailsUrl": "https://mcradane.github.io/raid-data/champion-details/Channeler.json"
   },
@@ -837,7 +837,7 @@
     "affinity": "void",
     "faction": "Banner Lords",
     "role": "defense",
-    "aura": "DEF - Faction Crypts",
+    "aura": "DEF - Faction Wars - 19%",
     "avatarUrl": "https://mcradane.github.io/raid-data/images/avatar/Chevalier.png",
     "detailsUrl": "https://mcradane.github.io/raid-data/champion-details/Chevalier.json"
   },
@@ -856,7 +856,7 @@
     "affinity": "magic",
     "faction": "Orcs",
     "role": "attack",
-    "aura": "ACC - Arena",
+    "aura": "ACC - Arena - 40",
     "avatarUrl": "https://mcradane.github.io/raid-data/images/avatar/Chopper.png",
     "detailsUrl": "https://mcradane.github.io/raid-data/champion-details/Chopper.json"
   },
@@ -866,7 +866,7 @@
     "affinity": "magic",
     "faction": "Banner Lords",
     "role": "attack",
-    "aura": "ATK - All",
+    "aura": "ATK - All - 25%",
     "avatarUrl": "https://mcradane.github.io/raid-data/images/avatar/Cillian_the_Lucky.png",
     "detailsUrl": "https://mcradane.github.io/raid-data/champion-details/Cillian_the_Lucky.json"
   },
@@ -903,7 +903,7 @@
     "affinity": "void",
     "faction": "The Sacred Order",
     "role": "attack",
-    "aura": "C.RATE - Dungeons",
+    "aura": "C.RATE - Dungeons - 16%",
     "avatarUrl": "https://mcradane.github.io/raid-data/images/avatar/Confessor.png",
     "detailsUrl": "https://mcradane.github.io/raid-data/champion-details/Confessor.json"
   },
@@ -913,7 +913,7 @@
     "affinity": "spirit",
     "faction": "Banner Lords",
     "role": "attack",
-    "aura": "ATK - All",
+    "aura": "ATK - All - 18%",
     "avatarUrl": "https://mcradane.github.io/raid-data/images/avatar/Conquerer.png",
     "detailsUrl": "https://mcradane.github.io/raid-data/champion-details/Conquerer.json"
   },
@@ -932,7 +932,7 @@
     "affinity": "force",
     "faction": "Undead Hordes",
     "role": "support",
-    "aura": "ACC - Arena",
+    "aura": "ACC - Arena - 40",
     "avatarUrl": "https://mcradane.github.io/raid-data/images/avatar/Corpse_Collector.png",
     "detailsUrl": "https://mcradane.github.io/raid-data/champion-details/Corpse_Collector.json"
   },
@@ -942,7 +942,7 @@
     "affinity": "spirit",
     "faction": "Undead Hordes",
     "role": "hp",
-    "aura": "DEF - All",
+    "aura": "DEF - All - 15%",
     "avatarUrl": "https://mcradane.github.io/raid-data/images/avatar/Corpulent_Cadaver.png",
     "detailsUrl": "https://mcradane.github.io/raid-data/champion-details/Corpulent_Cadaver.json"
   },
@@ -970,7 +970,7 @@
     "affinity": "spirit",
     "faction": "Dark Elves",
     "role": "defense",
-    "aura": "HP - Dungeons",
+    "aura": "HP - Dungeons - 33%",
     "avatarUrl": "https://mcradane.github.io/raid-data/images/avatar/Crimson_Helm.png",
     "detailsUrl": "https://mcradane.github.io/raid-data/champion-details/Crimson_Helm.json"
   },
@@ -980,7 +980,7 @@
     "affinity": "spirit",
     "faction": "Knight Revenant",
     "role": "attack",
-    "aura": "ATK - Faction Crypts",
+    "aura": "ATK - Faction Wars - 17%",
     "avatarUrl": "https://mcradane.github.io/raid-data/images/avatar/Crimson_Slayer.png",
     "detailsUrl": "https://mcradane.github.io/raid-data/champion-details/Crimson_Slayer.json"
   },
@@ -999,7 +999,7 @@
     "affinity": "void",
     "faction": "Demonspawn",
     "role": "attack",
-    "aura": "ATK - All",
+    "aura": "ATK - All - 24%",
     "avatarUrl": "https://mcradane.github.io/raid-data/images/avatar/Cruetraxa.png",
     "detailsUrl": "https://mcradane.github.io/raid-data/champion-details/Cruetraxa.json"
   },
@@ -1027,7 +1027,7 @@
     "affinity": "magic",
     "faction": "Undead Hordes",
     "role": "support",
-    "aura": "HP - All",
+    "aura": "HP - All - 33%",
     "avatarUrl": "https://mcradane.github.io/raid-data/images/avatar/Crypt_King_Graal.png",
     "detailsUrl": "https://mcradane.github.io/raid-data/champion-details/Crypt_King_Graal.json"
   },
@@ -1037,7 +1037,7 @@
     "affinity": "magic",
     "faction": "Knight Revenant",
     "role": "attack",
-    "aura": "SPD - Faction Crypts",
+    "aura": "SPD - Faction Wars - 20%",
     "avatarUrl": "https://mcradane.github.io/raid-data/images/avatar/Crypt_Witch.png",
     "detailsUrl": "https://mcradane.github.io/raid-data/champion-details/Crypt_Witch.json"
   },
@@ -1065,7 +1065,7 @@
     "affinity": "spirit",
     "faction": "The Sacred Order",
     "role": "attack",
-    "aura": "ATK - All",
+    "aura": "ATK - All - 33%",
     "avatarUrl": "https://mcradane.github.io/raid-data/images/avatar/Cupidus.png",
     "detailsUrl": "https://mcradane.github.io/raid-data/champion-details/Cupidus.json"
   },
@@ -1075,7 +1075,7 @@
     "affinity": "void",
     "faction": "Banner Lords",
     "role": "attack",
-    "aura": "ATK - Faction Crypts",
+    "aura": "ATK - Faction Wars - 20%",
     "avatarUrl": "https://mcradane.github.io/raid-data/images/avatar/Dagger.png",
     "detailsUrl": "https://mcradane.github.io/raid-data/champion-details/Dagger.json"
   },
@@ -1085,7 +1085,7 @@
     "affinity": "magic",
     "faction": "Undead Hordes",
     "role": "attack",
-    "aura": "ATK - All",
+    "aura": "ATK - All - 20%",
     "avatarUrl": "https://mcradane.github.io/raid-data/images/avatar/Dark_Athel.png",
     "detailsUrl": "https://mcradane.github.io/raid-data/champion-details/Dark_Athel.json"
   },
@@ -1104,7 +1104,7 @@
     "affinity": "void",
     "faction": "Knight Revenant",
     "role": "hp",
-    "aura": "C.RATE - Arena",
+    "aura": "C.RATE - Arena - 21%",
     "avatarUrl": "https://mcradane.github.io/raid-data/images/avatar/Daywalker.png",
     "detailsUrl": "https://mcradane.github.io/raid-data/champion-details/Daywalker.json"
   },
@@ -1114,7 +1114,7 @@
     "affinity": "spirit",
     "faction": "The Sacred Order",
     "role": "support",
-    "aura": "SPD - All",
+    "aura": "SPD - All - 19%",
     "avatarUrl": "https://mcradane.github.io/raid-data/images/avatar/Deacon_Armstrong.png",
     "detailsUrl": "https://mcradane.github.io/raid-data/champion-details/Deacon_Armstrong.json"
   },
@@ -1142,7 +1142,7 @@
     "affinity": "magic",
     "faction": "Orcs",
     "role": "hp",
-    "aura": "DEF - Arena",
+    "aura": "DEF - Arena - 27%",
     "avatarUrl": "https://mcradane.github.io/raid-data/images/avatar/Deathchanter.png",
     "detailsUrl": "https://mcradane.github.io/raid-data/champion-details/Deathchanter.json"
   },
@@ -1161,7 +1161,7 @@
     "affinity": "spirit",
     "faction": "Knight Revenant",
     "role": "defense",
-    "aura": "RESIST - Arena",
+    "aura": "RESIST - Arena - 70",
     "avatarUrl": "https://mcradane.github.io/raid-data/images/avatar/Deathless.png",
     "detailsUrl": "https://mcradane.github.io/raid-data/champion-details/Deathless.json"
   },
@@ -1180,7 +1180,7 @@
     "affinity": "spirit",
     "faction": "Dark Elves",
     "role": "attack",
-    "aura": "ATK - Faction Crypts",
+    "aura": "ATK - Faction Wars - 27%",
     "avatarUrl": "https://mcradane.github.io/raid-data/images/avatar/Delver.png",
     "detailsUrl": "https://mcradane.github.io/raid-data/champion-details/Delver.json"
   },
@@ -1235,7 +1235,7 @@
     "affinity": "force",
     "faction": "Dwarves",
     "role": "support",
-    "aura": "HP - All",
+    "aura": "HP - All - 15%",
     "avatarUrl": "https://mcradane.github.io/raid-data/images/avatar/Dolor_Lorekeeper.png",
     "detailsUrl": "https://mcradane.github.io/raid-data/champion-details/Dolor_Lorekeeper.json"
   },
@@ -1245,7 +1245,7 @@
     "affinity": "force",
     "faction": "Knight Revenant",
     "role": "support",
-    "aura": "SPD - All (force)",
+    "aura": "SPD - All (force) - 15%",
     "avatarUrl": "https://mcradane.github.io/raid-data/images/avatar/Doompriest.png",
     "detailsUrl": "https://mcradane.github.io/raid-data/champion-details/Doompriest.json"
   },
@@ -1255,7 +1255,7 @@
     "affinity": "void",
     "faction": "Undead Hordes",
     "role": "hp",
-    "aura": "HP - Faction Crypts",
+    "aura": "HP - Faction Wars - 21%",
     "avatarUrl": "https://mcradane.github.io/raid-data/images/avatar/Doomscreech.png",
     "detailsUrl": "https://mcradane.github.io/raid-data/champion-details/Doomscreech.json"
   },
@@ -1265,7 +1265,7 @@
     "affinity": "magic",
     "faction": "Lizardmen",
     "role": "attack",
-    "aura": "ACC - Faction Crypts",
+    "aura": "ACC - Faction Wars - 50",
     "avatarUrl": "https://mcradane.github.io/raid-data/images/avatar/Dracomorph.png",
     "detailsUrl": "https://mcradane.github.io/raid-data/champion-details/Dracomorph.json"
   },
@@ -1284,7 +1284,7 @@
     "affinity": "spirit",
     "faction": "Lizardmen",
     "role": "attack",
-    "aura": "ATK - Arena",
+    "aura": "ATK - Arena - 30%",
     "avatarUrl": "https://mcradane.github.io/raid-data/images/avatar/Drake.png",
     "detailsUrl": "https://mcradane.github.io/raid-data/champion-details/Drake.json"
   },
@@ -1294,7 +1294,7 @@
     "affinity": "force",
     "faction": "Demonspawn",
     "role": "defense",
-    "aura": "ACC - All",
+    "aura": "ACC - All - 70",
     "avatarUrl": "https://mcradane.github.io/raid-data/images/avatar/Drexthar_Bloodtwin.png",
     "detailsUrl": "https://mcradane.github.io/raid-data/champion-details/Drexthar_Bloodtwin.json"
   },
@@ -1322,7 +1322,7 @@
     "affinity": "spirit",
     "faction": "Demonspawn",
     "role": "support",
-    "aura": "SPD - All",
+    "aura": "SPD - All - 19%",
     "avatarUrl": "https://mcradane.github.io/raid-data/images/avatar/Duchess_Lilitu.png",
     "detailsUrl": "https://mcradane.github.io/raid-data/champion-details/Duchess_Lilitu.json"
   },
@@ -1359,7 +1359,7 @@
     "affinity": "force",
     "faction": "Barbarians",
     "role": "attack",
-    "aura": "C.RATE - Arena",
+    "aura": "C.RATE - Arena - 30%",
     "avatarUrl": "https://mcradane.github.io/raid-data/images/avatar/Elder_Skarg.png",
     "detailsUrl": "https://mcradane.github.io/raid-data/champion-details/Elder_Skarg.json"
   },
@@ -1378,7 +1378,7 @@
     "affinity": "magic",
     "faction": "High Elves",
     "role": "attack",
-    "aura": "C.RATE - Faction Crypts",
+    "aura": "C.RATE - Faction Wars - 24%",
     "avatarUrl": "https://mcradane.github.io/raid-data/images/avatar/Elenaril.png",
     "detailsUrl": "https://mcradane.github.io/raid-data/champion-details/Elenaril.json"
   },
@@ -1397,7 +1397,7 @@
     "affinity": "magic",
     "faction": "High Elves",
     "role": "attack",
-    "aura": "HP - All",
+    "aura": "HP - All - 15%",
     "avatarUrl": "https://mcradane.github.io/raid-data/images/avatar/Elhain.png",
     "detailsUrl": "https://mcradane.github.io/raid-data/champion-details/Elhain.json"
   },
@@ -1407,7 +1407,7 @@
     "affinity": "force",
     "faction": "Demonspawn",
     "role": "attack",
-    "aura": "ACC - Dungeons",
+    "aura": "ACC - Dungeons - 70",
     "avatarUrl": "https://mcradane.github.io/raid-data/images/avatar/Erinyes.png",
     "detailsUrl": "https://mcradane.github.io/raid-data/champion-details/Erinyes.json"
   },
@@ -1417,7 +1417,7 @@
     "affinity": "force",
     "faction": "The Sacred Order",
     "role": "attack",
-    "aura": "ATK - Dungeons",
+    "aura": "ATK - Dungeons - 35%",
     "avatarUrl": "https://mcradane.github.io/raid-data/images/avatar/Errol.png",
     "detailsUrl": "https://mcradane.github.io/raid-data/champion-details/Errol.json"
   },
@@ -1427,7 +1427,7 @@
     "affinity": "void",
     "faction": "Dark Elves",
     "role": "attack",
-    "aura": "C.RATE - Arena",
+    "aura": "C.RATE - Arena - 16%",
     "avatarUrl": "https://mcradane.github.io/raid-data/images/avatar/Eviscerator.png",
     "detailsUrl": "https://mcradane.github.io/raid-data/champion-details/Eviscerator.json"
   },
@@ -1446,7 +1446,7 @@
     "affinity": "magic",
     "faction": "Knight Revenant",
     "role": "defense",
-    "aura": "DEF - All",
+    "aura": "DEF - All - 17%",
     "avatarUrl": "https://mcradane.github.io/raid-data/images/avatar/Executioner.png",
     "detailsUrl": "https://mcradane.github.io/raid-data/champion-details/Executioner.json"
   },
@@ -1456,7 +1456,7 @@
     "affinity": "void",
     "faction": "High Elves",
     "role": "attack",
-    "aura": "C.RATE - Arena",
+    "aura": "C.RATE - Arena - 27%",
     "avatarUrl": "https://mcradane.github.io/raid-data/images/avatar/Exemplar.png",
     "detailsUrl": "https://mcradane.github.io/raid-data/champion-details/Exemplar.json"
   },
@@ -1466,7 +1466,7 @@
     "affinity": "void",
     "faction": "Knight Revenant",
     "role": "attack",
-    "aura": "ATK - Arena",
+    "aura": "ATK - Arena - 21%",
     "avatarUrl": "https://mcradane.github.io/raid-data/images/avatar/Faceless.png",
     "detailsUrl": "https://mcradane.github.io/raid-data/champion-details/Faceless.json"
   },
@@ -1494,7 +1494,7 @@
     "affinity": "spirit",
     "faction": "Dark Elves",
     "role": "support",
-    "aura": "SPD - All",
+    "aura": "SPD - All - 15%",
     "avatarUrl": "https://mcradane.github.io/raid-data/images/avatar/Fang_Cleric.png",
     "detailsUrl": "https://mcradane.github.io/raid-data/champion-details/Fang_Cleric.json"
   },
@@ -1513,7 +1513,7 @@
     "affinity": "void",
     "faction": "Demonspawn",
     "role": "defense",
-    "aura": "DEF - Faction Crypts",
+    "aura": "DEF - Faction Wars - 19%",
     "avatarUrl": "https://mcradane.github.io/raid-data/images/avatar/Fellhound.png",
     "detailsUrl": "https://mcradane.github.io/raid-data/champion-details/Fellhound.json"
   },
@@ -1532,7 +1532,7 @@
     "affinity": "force",
     "faction": "High Elves",
     "role": "attack",
-    "aura": "ATK - Dungeons",
+    "aura": "ATK - Dungeons - 23%",
     "avatarUrl": "https://mcradane.github.io/raid-data/images/avatar/Fencer.png",
     "detailsUrl": "https://mcradane.github.io/raid-data/champion-details/Fencer.json"
   },
@@ -1551,7 +1551,7 @@
     "affinity": "magic",
     "faction": "Dwarves",
     "role": "defense",
-    "aura": "DEF - Faction Wars Crypts",
+    "aura": "DEF - Faction Wars - 17%",
     "avatarUrl": "https://mcradane.github.io/raid-data/images/avatar/Flailer.png",
     "detailsUrl": "https://mcradane.github.io/raid-data/champion-details/Flailer.json"
   },
@@ -1561,7 +1561,7 @@
     "affinity": "magic",
     "faction": "Skinwalkers",
     "role": "support",
-    "aura": "ATK - Faction Crypts",
+    "aura": "ATK - Faction Wars - 27%",
     "avatarUrl": "https://mcradane.github.io/raid-data/images/avatar/Flesh_Tearer.png",
     "detailsUrl": "https://mcradane.github.io/raid-data/champion-details/Flesh_Tearer.json"
   },
@@ -1571,7 +1571,7 @@
     "affinity": "spirit",
     "faction": "Ogryn Tribes",
     "role": "support",
-    "aura": "HP - Faction Crypts",
+    "aura": "HP - Faction Wars - 22%",
     "avatarUrl": "https://mcradane.github.io/raid-data/images/avatar/Flesheater.png",
     "detailsUrl": "https://mcradane.github.io/raid-data/champion-details/Flesheater.json"
   },
@@ -1581,7 +1581,7 @@
     "affinity": "magic",
     "faction": "Skinwalkers",
     "role": "attack",
-    "aura": "ATK - Dungeons",
+    "aura": "ATK - Dungeons - 23%",
     "avatarUrl": "https://mcradane.github.io/raid-data/images/avatar/Fleshmonger.png",
     "detailsUrl": "https://mcradane.github.io/raid-data/champion-details/Fleshmonger.json"
   },
@@ -1591,7 +1591,7 @@
     "affinity": "spirit",
     "faction": "Lizardmen",
     "role": "attack",
-    "aura": "RESIST - Faction Crypts",
+    "aura": "RESIST - Faction Wars - 30",
     "avatarUrl": "https://mcradane.github.io/raid-data/images/avatar/Flinger.png",
     "detailsUrl": "https://mcradane.github.io/raid-data/champion-details/Flinger.json"
   },
@@ -1619,7 +1619,7 @@
     "affinity": "magic",
     "faction": "Ogryn Tribes",
     "role": "defense",
-    "aura": "DEF - Dungeons",
+    "aura": "DEF - Dungeons - 23%",
     "avatarUrl": "https://mcradane.github.io/raid-data/images/avatar/Fortress_Goon.png",
     "detailsUrl": "https://mcradane.github.io/raid-data/champion-details/Fortress_Goon.json"
   },
@@ -1638,7 +1638,7 @@
     "affinity": "magic",
     "faction": "The Sacred Order",
     "role": "support",
-    "aura": "DEF - Dungeons",
+    "aura": "DEF - Dungeons - 33%",
     "avatarUrl": "https://mcradane.github.io/raid-data/images/avatar/Frostbringer.png",
     "detailsUrl": "https://mcradane.github.io/raid-data/champion-details/Frostbringer.json"
   },
@@ -1657,7 +1657,7 @@
     "affinity": "magic",
     "faction": "Undead Hordes",
     "role": "attack",
-    "aura": "ACC - All",
+    "aura": "ACC - All - 35",
     "avatarUrl": "https://mcradane.github.io/raid-data/images/avatar/Frozen_Banshee.png",
     "detailsUrl": "https://mcradane.github.io/raid-data/champion-details/Frozen_Banshee.json"
   },
@@ -1667,7 +1667,7 @@
     "affinity": "force",
     "faction": "Lizardmen",
     "role": "attack",
-    "aura": "SPD - All",
+    "aura": "SPD - All - 24%",
     "avatarUrl": "https://mcradane.github.io/raid-data/images/avatar/Fu_Shan.png",
     "detailsUrl": "https://mcradane.github.io/raid-data/champion-details/Fu_Shan.json"
   },
@@ -1686,7 +1686,7 @@
     "affinity": "void",
     "faction": "Dwarves",
     "role": "attack",
-    "aura": "ATK - All",
+    "aura": "ATK - All - 25%",
     "avatarUrl": "https://mcradane.github.io/raid-data/images/avatar/Gala_Longbraids.png",
     "detailsUrl": "https://mcradane.github.io/raid-data/champion-details/Gala_Longbraids.json"
   },
@@ -1696,7 +1696,7 @@
     "affinity": "magic",
     "faction": "Orcs",
     "role": "attack",
-    "aura": "HP - All",
+    "aura": "HP - All - 15%",
     "avatarUrl": "https://mcradane.github.io/raid-data/images/avatar/Galek.png",
     "detailsUrl": "https://mcradane.github.io/raid-data/champion-details/Galek.json"
   },
@@ -1706,7 +1706,7 @@
     "affinity": "spirit",
     "faction": "Ogryn Tribes",
     "role": "attack",
-    "aura": "C.RATE - Dungeons",
+    "aura": "C.RATE - Dungeons - 24%",
     "avatarUrl": "https://mcradane.github.io/raid-data/images/avatar/Galkut.png",
     "detailsUrl": "https://mcradane.github.io/raid-data/champion-details/Galkut.json"
   },
@@ -1716,7 +1716,7 @@
     "affinity": "magic",
     "faction": "Lizardmen",
     "role": "support",
-    "aura": "C.RATE - All (magic)",
+    "aura": "C.RATE - All (magic) - 22%",
     "avatarUrl": "https://mcradane.github.io/raid-data/images/avatar/Gator.png",
     "detailsUrl": "https://mcradane.github.io/raid-data/champion-details/Gator.json"
   },
@@ -1726,7 +1726,7 @@
     "affinity": "void",
     "faction": "Ogryn Tribes",
     "role": "hp",
-    "aura": "HP - Faction Crypts",
+    "aura": "HP - Faction Wars - 25%",
     "avatarUrl": "https://mcradane.github.io/raid-data/images/avatar/Geargrinder.png",
     "detailsUrl": "https://mcradane.github.io/raid-data/champion-details/Geargrinder.json"
   },
@@ -1745,7 +1745,7 @@
     "affinity": "magic",
     "faction": "Banner Lords",
     "role": "attack",
-    "aura": "RESIST - Doom Tower",
+    "aura": "RESIST - Doom Tower - 50",
     "avatarUrl": "https://mcradane.github.io/raid-data/images/avatar/Gerhard_the_Stone.png",
     "detailsUrl": "https://mcradane.github.io/raid-data/champion-details/Gerhard_the_Stone.json"
   },
@@ -1755,7 +1755,7 @@
     "affinity": "spirit",
     "faction": "Dark Elves",
     "role": "support",
-    "aura": "ACC - Faction Crypts",
+    "aura": "ACC - Faction Wars - 65",
     "avatarUrl": "https://mcradane.github.io/raid-data/images/avatar/Ghostborn.png",
     "detailsUrl": "https://mcradane.github.io/raid-data/champion-details/Ghostborn.json"
   },
@@ -1774,7 +1774,7 @@
     "affinity": "spirit",
     "faction": "Ogryn Tribes",
     "role": "defense",
-    "aura": "DEF - Faction Crypts",
+    "aura": "DEF - Faction Wars - 30%",
     "avatarUrl": "https://mcradane.github.io/raid-data/images/avatar/Ghrush_the_Mangler.png",
     "detailsUrl": "https://mcradane.github.io/raid-data/champion-details/Ghrush_the_Mangler.json"
   },
@@ -1793,7 +1793,7 @@
     "affinity": "spirit",
     "faction": "Dwarves",
     "role": "support",
-    "aura": "RESIST - All",
+    "aura": "RESIST - All - 30",
     "avatarUrl": "https://mcradane.github.io/raid-data/images/avatar/Gloril_Brutebane.png",
     "detailsUrl": "https://mcradane.github.io/raid-data/champion-details/Gloril_Brutebane.json"
   },
@@ -1803,7 +1803,7 @@
     "affinity": "spirit",
     "faction": "Skinwalkers",
     "role": "hp",
-    "aura": "DEF - Dungeons",
+    "aura": "DEF - Dungeons - 27%",
     "avatarUrl": "https://mcradane.github.io/raid-data/images/avatar/Gnarlhorn.png",
     "detailsUrl": "https://mcradane.github.io/raid-data/champion-details/Gnarlhorn.json"
   },
@@ -1822,7 +1822,7 @@
     "affinity": "void",
     "faction": "Knight Revenant",
     "role": "support",
-    "aura": "ACC - Faction Crypts",
+    "aura": "ACC - Faction Wars - 40",
     "avatarUrl": "https://mcradane.github.io/raid-data/images/avatar/Golden_Reaper.png",
     "detailsUrl": "https://mcradane.github.io/raid-data/champion-details/Golden_Reaper.json"
   },
@@ -1841,7 +1841,7 @@
     "affinity": "force",
     "faction": "Orcs",
     "role": "attack",
-    "aura": "HP - Arena",
+    "aura": "HP - Arena - 25%",
     "avatarUrl": "https://mcradane.github.io/raid-data/images/avatar/Goremask.png",
     "detailsUrl": "https://mcradane.github.io/raid-data/champion-details/Goremask.json"
   },
@@ -1851,7 +1851,7 @@
     "affinity": "magic",
     "faction": "Undead Hordes",
     "role": "support",
-    "aura": "SPD - Arena",
+    "aura": "SPD - Arena - 23%",
     "avatarUrl": "https://mcradane.github.io/raid-data/images/avatar/Gorgorab.png",
     "detailsUrl": "https://mcradane.github.io/raid-data/champion-details/Gorgorab.json"
   },
@@ -1861,7 +1861,7 @@
     "affinity": "magic",
     "faction": "Banner Lords",
     "role": "hp",
-    "aura": "HP - All (magic)",
+    "aura": "HP - All (magic) - 17%",
     "avatarUrl": "https://mcradane.github.io/raid-data/images/avatar/Grandmaster.png",
     "detailsUrl": "https://mcradane.github.io/raid-data/champion-details/Grandmaster.json"
   },
@@ -1871,7 +1871,7 @@
     "affinity": "spirit",
     "faction": "Skinwalkers",
     "role": "defense",
-    "aura": "HP - All (spirit)",
+    "aura": "HP - All (spirit) - 19%",
     "avatarUrl": "https://mcradane.github.io/raid-data/images/avatar/Grappler.png",
     "detailsUrl": "https://mcradane.github.io/raid-data/champion-details/Grappler.json"
   },
@@ -1890,7 +1890,7 @@
     "affinity": "magic",
     "faction": "Skinwalkers",
     "role": "defense",
-    "aura": "DEF - Dungeons",
+    "aura": "DEF - Dungeons - 30%",
     "avatarUrl": "https://mcradane.github.io/raid-data/images/avatar/Graybeard.png",
     "detailsUrl": "https://mcradane.github.io/raid-data/champion-details/Graybeard.json"
   },
@@ -1909,7 +1909,7 @@
     "affinity": "force",
     "faction": "Undead Hordes",
     "role": "support",
-    "aura": "RESIST - Faction Crypts",
+    "aura": "RESIST - Faction Wars - 30",
     "avatarUrl": "https://mcradane.github.io/raid-data/images/avatar/Grinner.png",
     "detailsUrl": "https://mcradane.github.io/raid-data/champion-details/Grinner.json"
   },
@@ -1928,7 +1928,7 @@
     "affinity": "magic",
     "faction": "Orcs",
     "role": "attack",
-    "aura": "SPD - Dungeons",
+    "aura": "SPD - Dungeons - 24%",
     "avatarUrl": "https://mcradane.github.io/raid-data/images/avatar/Grohak_the_Bloodied.png",
     "detailsUrl": "https://mcradane.github.io/raid-data/champion-details/Grohak_the_Bloodied.json"
   },
@@ -1938,7 +1938,7 @@
     "affinity": "magic",
     "faction": "Dwarves",
     "role": "hp",
-    "aura": "HP - Dungeons",
+    "aura": "HP - Dungeons - 25%",
     "avatarUrl": "https://mcradane.github.io/raid-data/images/avatar/Grumbler.png",
     "detailsUrl": "https://mcradane.github.io/raid-data/champion-details/Grumbler.json"
   },
@@ -1948,7 +1948,7 @@
     "affinity": "force",
     "faction": "Ogryn Tribes",
     "role": "support",
-    "aura": "DEF - Faction Wars",
+    "aura": "DEF - Faction Wars - 30%",
     "avatarUrl": "https://mcradane.github.io/raid-data/images/avatar/Grunch_Killjoy.png",
     "detailsUrl": "https://mcradane.github.io/raid-data/champion-details/Grunch_Killjoy.json"
   },
@@ -1958,7 +1958,7 @@
     "affinity": "spirit",
     "faction": "Knight Revenant",
     "role": "hp",
-    "aura": "HP - Dungeons",
+    "aura": "HP - Dungeons - 27%",
     "avatarUrl": "https://mcradane.github.io/raid-data/images/avatar/Guardian.png",
     "detailsUrl": "https://mcradane.github.io/raid-data/champion-details/Guardian.json"
   },
@@ -1968,7 +1968,7 @@
     "affinity": "void",
     "faction": "Ogryn Tribes",
     "role": "attack",
-    "aura": "ATK - Faction Crypts",
+    "aura": "ATK - Faction Wars - 44%",
     "avatarUrl": "https://mcradane.github.io/raid-data/images/avatar/Gurgoh_the_Augur.png",
     "detailsUrl": "https://mcradane.github.io/raid-data/champion-details/Gurgoh_the_Augur.json"
   },
@@ -1978,7 +1978,7 @@
     "affinity": "force",
     "faction": "Ogryn Tribes",
     "role": "support",
-    "aura": "RESIST - All",
+    "aura": "RESIST - All - 50",
     "avatarUrl": "https://mcradane.github.io/raid-data/images/avatar/Gurptuk_Moss_Beard.png",
     "detailsUrl": "https://mcradane.github.io/raid-data/champion-details/Gurptuk_Moss_Beard.json"
   },
@@ -1988,7 +1988,7 @@
     "affinity": "void",
     "faction": "Barbarians",
     "role": "attack",
-    "aura": "ATK - Doom Tower",
+    "aura": "ATK - Doom Tower - 32%",
     "avatarUrl": "https://mcradane.github.io/raid-data/images/avatar/Haarken_Greatblade.png",
     "detailsUrl": "https://mcradane.github.io/raid-data/champion-details/Haarken_Greatblade.json"
   },
@@ -1998,7 +1998,7 @@
     "affinity": "magic",
     "faction": "Skinwalkers",
     "role": "hp",
-    "aura": "HP - Dungeons",
+    "aura": "HP - Dungeons - 33%",
     "avatarUrl": "https://mcradane.github.io/raid-data/images/avatar/Hakkorhn_Smashlord.png",
     "detailsUrl": "https://mcradane.github.io/raid-data/champion-details/Hakkorhn_Smashlord.json"
   },
@@ -2035,7 +2035,7 @@
     "affinity": "void",
     "faction": "Lizardmen",
     "role": "support",
-    "aura": "SPD - Arena",
+    "aura": "SPD - Arena - 15",
     "avatarUrl": "https://mcradane.github.io/raid-data/images/avatar/Haruspex.png",
     "detailsUrl": "https://mcradane.github.io/raid-data/champion-details/Haruspex.json"
   },
@@ -2099,7 +2099,7 @@
     "affinity": "void",
     "faction": "Knight Revenant",
     "role": "attack",
-    "aura": "C.RATE - All",
+    "aura": "C.RATE - All - 19%",
     "avatarUrl": "https://mcradane.github.io/raid-data/images/avatar/Hegemon.png",
     "detailsUrl": "https://mcradane.github.io/raid-data/champion-details/Hegemon.json"
   },
@@ -2109,7 +2109,7 @@
     "affinity": "force",
     "faction": "High Elves",
     "role": "attack",
-    "aura": "SPD - Dungeons",
+    "aura": "SPD - Dungeons - 16%",
     "avatarUrl": "https://mcradane.github.io/raid-data/images/avatar/Heiress.png",
     "detailsUrl": "https://mcradane.github.io/raid-data/champion-details/Heiress.json"
   },
@@ -2119,7 +2119,7 @@
     "affinity": "spirit",
     "faction": "Demonspawn",
     "role": "attack",
-    "aura": "ATK - Dungeons",
+    "aura": "ATK - Dungeons - 21%",
     "avatarUrl": "https://mcradane.github.io/raid-data/images/avatar/Hellfang.png",
     "detailsUrl": "https://mcradane.github.io/raid-data/champion-details/Hellfang.json"
   },
@@ -2129,7 +2129,7 @@
     "affinity": "spirit",
     "faction": "Demonspawn",
     "role": "attack",
-    "aura": "ATK - Faction Crypts",
+    "aura": "ATK - Faction Wars - 27%",
     "avatarUrl": "https://mcradane.github.io/raid-data/images/avatar/Hellgazer.png",
     "detailsUrl": "https://mcradane.github.io/raid-data/champion-details/Hellgazer.json"
   },
@@ -2157,7 +2157,7 @@
     "affinity": "force",
     "faction": "Undead Hordes",
     "role": "attack",
-    "aura": "ATK - Faction Crypts",
+    "aura": "ATK - Faction Wars - 27%",
     "avatarUrl": "https://mcradane.github.io/raid-data/images/avatar/Hexia.png",
     "detailsUrl": "https://mcradane.github.io/raid-data/champion-details/Hexia.json"
   },
@@ -2167,7 +2167,7 @@
     "affinity": "spirit",
     "faction": "Dark Elves",
     "role": "support",
-    "aura": "SPD - Faction Crypts",
+    "aura": "SPD - Faction Wars - 13%",
     "avatarUrl": "https://mcradane.github.io/raid-data/images/avatar/Hexweaver.png",
     "detailsUrl": "https://mcradane.github.io/raid-data/champion-details/Hexweaver.json"
   },
@@ -2177,7 +2177,7 @@
     "affinity": "spirit",
     "faction": "Barbarians",
     "role": "support",
-    "aura": "SPD - All",
+    "aura": "SPD - All - 19%",
     "avatarUrl": "https://mcradane.github.io/raid-data/images/avatar/High_Khatun.png",
     "detailsUrl": "https://mcradane.github.io/raid-data/champion-details/High_Khatun.json"
   },
@@ -2196,7 +2196,7 @@
     "affinity": "void",
     "faction": "Undead Hordes",
     "role": "attack",
-    "aura": "ATK - Dungeons",
+    "aura": "ATK - Dungeons - 21%",
     "avatarUrl": "https://mcradane.github.io/raid-data/images/avatar/Hollow.png",
     "detailsUrl": "https://mcradane.github.io/raid-data/champion-details/Hollow.json"
   },
@@ -2206,7 +2206,7 @@
     "affinity": "force",
     "faction": "Dwarves",
     "role": "defense",
-    "aura": "DEF - All (force)",
+    "aura": "DEF - All (force) - 25%",
     "avatarUrl": "https://mcradane.github.io/raid-data/images/avatar/Honor_Guard.png",
     "detailsUrl": "https://mcradane.github.io/raid-data/champion-details/Honor_Guard.json"
   },
@@ -2216,7 +2216,7 @@
     "affinity": "magic",
     "faction": "The Sacred Order",
     "role": "hp",
-    "aura": "HP - Faction Crypts",
+    "aura": "HP - Faction Wars - 31%",
     "avatarUrl": "https://mcradane.github.io/raid-data/images/avatar/Hope.png",
     "detailsUrl": "https://mcradane.github.io/raid-data/champion-details/Hope.json"
   },
@@ -2226,7 +2226,7 @@
     "affinity": "magic",
     "faction": "Banner Lords",
     "role": "attack",
-    "aura": "SPD - Faction Crypts",
+    "aura": "SPD - Faction Wars - 20%",
     "avatarUrl": "https://mcradane.github.io/raid-data/images/avatar/Hordin.png",
     "detailsUrl": "https://mcradane.github.io/raid-data/champion-details/Hordin.json"
   },
@@ -2236,7 +2236,7 @@
     "affinity": "magic",
     "faction": "The Sacred Order",
     "role": "support",
-    "aura": "SPD - All",
+    "aura": "SPD - All - 10%",
     "avatarUrl": "https://mcradane.github.io/raid-data/images/avatar/Hospitaller.png",
     "detailsUrl": "https://mcradane.github.io/raid-data/champion-details/Hospitaller.json"
   },
@@ -2273,7 +2273,7 @@
     "affinity": "force",
     "faction": "Lizardmen",
     "role": "attack",
-    "aura": "ATK - Dungeons",
+    "aura": "ATK - Dungeons - 21%",
     "avatarUrl": "https://mcradane.github.io/raid-data/images/avatar/Hurler.png",
     "detailsUrl": "https://mcradane.github.io/raid-data/champion-details/Hurler.json"
   },
@@ -2283,7 +2283,7 @@
     "affinity": "force",
     "faction": "Undead Hordes",
     "role": "hp",
-    "aura": "HP - Arena",
+    "aura": "HP - Arena - 30%",
     "avatarUrl": "https://mcradane.github.io/raid-data/images/avatar/Husk.png",
     "detailsUrl": "https://mcradane.github.io/raid-data/champion-details/Husk.json"
   },
@@ -2293,7 +2293,7 @@
     "affinity": "spirit",
     "faction": "High Elves",
     "role": "attack",
-    "aura": "C.RATE - Arena",
+    "aura": "C.RATE - Arena - 16%",
     "avatarUrl": "https://mcradane.github.io/raid-data/images/avatar/Hyria.png",
     "detailsUrl": "https://mcradane.github.io/raid-data/champion-details/Hyria.json"
   },
@@ -2312,7 +2312,7 @@
     "affinity": "void",
     "faction": "Demonspawn",
     "role": "hp",
-    "aura": "HP - All",
+    "aura": "HP - All - 15%",
     "avatarUrl": "https://mcradane.github.io/raid-data/images/avatar/Ifrit.png",
     "detailsUrl": "https://mcradane.github.io/raid-data/champion-details/Ifrit.json"
   },
@@ -2322,7 +2322,7 @@
     "affinity": "magic",
     "faction": "Ogryn Tribes",
     "role": "defense",
-    "aura": "DEF - All",
+    "aura": "DEF - All - 25%",
     "avatarUrl": "https://mcradane.github.io/raid-data/images/avatar/Ignatius.png",
     "detailsUrl": "https://mcradane.github.io/raid-data/champion-details/Ignatius.json"
   },
@@ -2359,7 +2359,7 @@
     "affinity": "void",
     "faction": "Demonspawn",
     "role": "attack",
-    "aura": "ATK - All",
+    "aura": "ATK - All - 33%",
     "avatarUrl": "https://mcradane.github.io/raid-data/images/avatar/Inithwe_Bloodtwin.png",
     "detailsUrl": "https://mcradane.github.io/raid-data/champion-details/Inithwe_Bloodtwin.json"
   },
@@ -2369,7 +2369,7 @@
     "affinity": "void",
     "faction": "The Sacred Order",
     "role": "attack",
-    "aura": "ACC - Doom Tower",
+    "aura": "ACC - Doom Tower - 60",
     "avatarUrl": "https://mcradane.github.io/raid-data/images/avatar/Inquisitor_Shamael.png",
     "detailsUrl": "https://mcradane.github.io/raid-data/champion-details/Inquisitor_Shamael.json"
   },
@@ -2406,7 +2406,7 @@
     "affinity": "force",
     "faction": "Orcs",
     "role": "hp",
-    "aura": "HP - All",
+    "aura": "HP - All - 16%",
     "avatarUrl": "https://mcradane.github.io/raid-data/images/avatar/Ironclad.png",
     "detailsUrl": "https://mcradane.github.io/raid-data/champion-details/Ironclad.json"
   },
@@ -2416,7 +2416,7 @@
     "affinity": "void",
     "faction": "High Elves",
     "role": "attack",
-    "aura": "C.RATE - Arena",
+    "aura": "C.RATE - Arena - 33%",
     "avatarUrl": "https://mcradane.github.io/raid-data/images/avatar/Ithos.png",
     "detailsUrl": "https://mcradane.github.io/raid-data/champion-details/Ithos.json"
   },
@@ -2435,7 +2435,7 @@
     "affinity": "magic",
     "faction": "Lizardmen",
     "role": "attack",
-    "aura": "SPD - Dungeons",
+    "aura": "SPD - Dungeons - 23%",
     "avatarUrl": "https://mcradane.github.io/raid-data/images/avatar/Jarang.png",
     "detailsUrl": "https://mcradane.github.io/raid-data/champion-details/Jarang.json"
   },
@@ -2445,7 +2445,7 @@
     "affinity": "magic",
     "faction": "Lizardmen",
     "role": "hp",
-    "aura": "HP - All",
+    "aura": "HP - All - 33%",
     "avatarUrl": "https://mcradane.github.io/raid-data/images/avatar/Jareg.png",
     "detailsUrl": "https://mcradane.github.io/raid-data/champion-details/Jareg.json"
   },
@@ -2455,7 +2455,7 @@
     "affinity": "spirit",
     "faction": "High Elves",
     "role": "attack",
-    "aura": "SPD - Arena",
+    "aura": "SPD - Arena - 24%",
     "avatarUrl": "https://mcradane.github.io/raid-data/images/avatar/Jinglehunter.png",
     "detailsUrl": "https://mcradane.github.io/raid-data/champion-details/Jinglehunter.json"
   },
@@ -2465,7 +2465,7 @@
     "affinity": "magic",
     "faction": "Shadowkin",
     "role": "attack",
-    "aura": "ATK - All",
+    "aura": "ATK - All - 29%",
     "avatarUrl": "https://mcradane.github.io/raid-data/images/avatar/Jintoro.png",
     "detailsUrl": "https://mcradane.github.io/raid-data/champion-details/Jintoro.json"
   },
@@ -2475,7 +2475,7 @@
     "affinity": "spirit",
     "faction": "Lizardmen",
     "role": "defense",
-    "aura": "ATK - All",
+    "aura": "ATK - All - 18%",
     "avatarUrl": "https://mcradane.github.io/raid-data/images/avatar/Jizoh.png",
     "detailsUrl": "https://mcradane.github.io/raid-data/champion-details/Jizoh.json"
   },
@@ -2485,7 +2485,7 @@
     "affinity": "magic",
     "faction": "Barbarians",
     "role": "hp",
-    "aura": "HP - Faction Crypts",
+    "aura": "HP - Faction Wars - 29%",
     "avatarUrl": "https://mcradane.github.io/raid-data/images/avatar/Jotun.png",
     "detailsUrl": "https://mcradane.github.io/raid-data/champion-details/Jotun.json"
   },
@@ -2495,7 +2495,7 @@
     "affinity": "magic",
     "faction": "Dark Elves",
     "role": "attack",
-    "aura": "ACC - All",
+    "aura": "ACC - All - 30",
     "avatarUrl": "https://mcradane.github.io/raid-data/images/avatar/Judge.png",
     "detailsUrl": "https://mcradane.github.io/raid-data/champion-details/Judge.json"
   },
@@ -2514,7 +2514,7 @@
     "affinity": "magic",
     "faction": "The Sacred Order",
     "role": "attack",
-    "aura": "C.RATE - Arena",
+    "aura": "C.RATE - Arena - 20%",
     "avatarUrl": "https://mcradane.github.io/raid-data/images/avatar/Juliana.png",
     "detailsUrl": "https://mcradane.github.io/raid-data/champion-details/Juliana.json"
   },
@@ -2524,7 +2524,7 @@
     "affinity": "void",
     "faction": "The Sacred Order",
     "role": "defense",
-    "aura": "DEF - Faction Crypts",
+    "aura": "DEF - Faction Wars - 19%",
     "avatarUrl": "https://mcradane.github.io/raid-data/images/avatar/Justiciar.png",
     "detailsUrl": "https://mcradane.github.io/raid-data/champion-details/Justiciar.json"
   },
@@ -2534,7 +2534,7 @@
     "affinity": "magic",
     "faction": "Dark Elves",
     "role": "attack",
-    "aura": "HP - All",
+    "aura": "HP - All - 15%",
     "avatarUrl": "https://mcradane.github.io/raid-data/images/avatar/Kael.png",
     "detailsUrl": "https://mcradane.github.io/raid-data/champion-details/Kael.json"
   },
@@ -2553,7 +2553,7 @@
     "affinity": "force",
     "faction": "Barbarians",
     "role": "attack",
-    "aura": "ATK - All",
+    "aura": "ATK - All - 25%",
     "avatarUrl": "https://mcradane.github.io/raid-data/images/avatar/Kallia.png",
     "detailsUrl": "https://mcradane.github.io/raid-data/champion-details/Kallia.json"
   },
@@ -2563,7 +2563,7 @@
     "affinity": "force",
     "faction": "Barbarians",
     "role": "defense",
-    "aura": "ACC - All",
+    "aura": "ACC - All - 60",
     "avatarUrl": "https://mcradane.github.io/raid-data/images/avatar/Kantra_the_Cyclone.png",
     "detailsUrl": "https://mcradane.github.io/raid-data/champion-details/Kantra_the_Cyclone.json"
   },
@@ -2573,7 +2573,7 @@
     "affinity": "force",
     "faction": "Undead Hordes",
     "role": "attack",
-    "aura": "ACC - Faction Crypts",
+    "aura": "ACC - Faction Wars - 40",
     "avatarUrl": "https://mcradane.github.io/raid-data/images/avatar/Karam.png",
     "detailsUrl": "https://mcradane.github.io/raid-data/champion-details/Karam.json"
   },
@@ -2619,7 +2619,7 @@
     "affinity": "spirit",
     "faction": "Banner Lords",
     "role": "attack",
-    "aura": "DEF - Dungeons",
+    "aura": "DEF - Dungeons - 32%",
     "avatarUrl": "https://mcradane.github.io/raid-data/images/avatar/Knight_Errant.png",
     "detailsUrl": "https://mcradane.github.io/raid-data/champion-details/Knight_Errant.json"
   },
@@ -2656,7 +2656,7 @@
     "affinity": "spirit",
     "faction": "Knight Revenant",
     "role": "attack",
-    "aura": "HP - Arena",
+    "aura": "HP - Arena - 33%",
     "avatarUrl": "https://mcradane.github.io/raid-data/images/avatar/Kytis.png",
     "detailsUrl": "https://mcradane.github.io/raid-data/champion-details/Kytis.json"
   },
@@ -2675,7 +2675,7 @@
     "affinity": "force",
     "faction": "The Sacred Order",
     "role": "hp",
-    "aura": "HP - Faction Crypts",
+    "aura": "HP - Faction Wars - 22%",
     "avatarUrl": "https://mcradane.github.io/raid-data/images/avatar/Lamellar.png",
     "detailsUrl": "https://mcradane.github.io/raid-data/champion-details/Lamellar.json"
   },
@@ -2703,7 +2703,7 @@
     "affinity": "force",
     "faction": "Undead Hordes",
     "role": "defense",
-    "aura": "DEF - Faction Crypts",
+    "aura": "DEF - Faction Wars - 27%",
     "avatarUrl": "https://mcradane.github.io/raid-data/images/avatar/Lich.png",
     "detailsUrl": "https://mcradane.github.io/raid-data/champion-details/Lich.json"
   },
@@ -2740,7 +2740,7 @@
     "affinity": "void",
     "faction": "Undead Hordes",
     "role": "attack",
-    "aura": "ATK - All",
+    "aura": "ATK - All - 33%",
     "avatarUrl": "https://mcradane.github.io/raid-data/images/avatar/Little_Miss_Annie.png",
     "detailsUrl": "https://mcradane.github.io/raid-data/champion-details/Little_Miss_Annie.json"
   },
@@ -2750,7 +2750,7 @@
     "affinity": "spirit",
     "faction": "The Sacred Order",
     "role": "hp",
-    "aura": "HP - the Doom Tower",
+    "aura": "HP - Doom Tower - 25%",
     "avatarUrl": "https://mcradane.github.io/raid-data/images/avatar/Lodric_Falconheart.png",
     "detailsUrl": "https://mcradane.github.io/raid-data/champion-details/Lodric_Falconheart.json"
   },
@@ -2760,7 +2760,7 @@
     "affinity": "magic",
     "faction": "Skinwalkers",
     "role": "attack",
-    "aura": "C.RATE - Dungeons",
+    "aura": "C.RATE - Dungeons - 23%",
     "avatarUrl": "https://mcradane.github.io/raid-data/images/avatar/Longbeard.png",
     "detailsUrl": "https://mcradane.github.io/raid-data/champion-details/Longbeard.json"
   },
@@ -2770,7 +2770,7 @@
     "affinity": "magic",
     "faction": "Banner Lords",
     "role": "hp",
-    "aura": "HP - Dungeons",
+    "aura": "HP - Dungeons - 50%",
     "avatarUrl": "https://mcradane.github.io/raid-data/images/avatar/Lord_Champfort.png",
     "detailsUrl": "https://mcradane.github.io/raid-data/champion-details/Lord_Champfort.json"
   },
@@ -2780,7 +2780,7 @@
     "affinity": "spirit",
     "faction": "Demonspawn",
     "role": "attack",
-    "aura": "SPD - Arena",
+    "aura": "SPD - Arena - 32%",
     "avatarUrl": "https://mcradane.github.io/raid-data/images/avatar/Lord_Shazar.png",
     "detailsUrl": "https://mcradane.github.io/raid-data/champion-details/Lord_Shazar.json"
   },
@@ -2808,7 +2808,7 @@
     "affinity": "spirit",
     "faction": "Banner Lords",
     "role": "hp",
-    "aura": "HP - Faction Crypts",
+    "aura": "HP - Faction Wars - 38%",
     "avatarUrl": "https://mcradane.github.io/raid-data/images/avatar/Lugan_the_Steadfast.png",
     "detailsUrl": "https://mcradane.github.io/raid-data/champion-details/Lugan_the_Steadfast.json"
   },
@@ -2836,7 +2836,7 @@
     "affinity": "force",
     "faction": "High Elves",
     "role": "attack",
-    "aura": "C.RATE - Dungeons",
+    "aura": "C.RATE - Dungeons - 33%",
     "avatarUrl": "https://mcradane.github.io/raid-data/images/avatar/Luthiea.png",
     "detailsUrl": "https://mcradane.github.io/raid-data/champion-details/Luthiea.json"
   },
@@ -2846,7 +2846,7 @@
     "affinity": "void",
     "faction": "Dark Elves",
     "role": "support",
-    "aura": "RESIST - Arena Battles",
+    "aura": "RESIST - Arena Battles - 100",
     "avatarUrl": "https://mcradane.github.io/raid-data/images/avatar/Lydia_the_Deathsiren.png",
     "detailsUrl": "https://mcradane.github.io/raid-data/champion-details/Lydia_the_Deathsiren.json"
   },
@@ -2856,7 +2856,7 @@
     "affinity": "spirit",
     "faction": "High Elves",
     "role": "support",
-    "aura": "SPD - All",
+    "aura": "SPD - All - 24%",
     "avatarUrl": "https://mcradane.github.io/raid-data/images/avatar/Lyssandra.png",
     "detailsUrl": "https://mcradane.github.io/raid-data/champion-details/Lyssandra.json"
   },
@@ -2866,7 +2866,7 @@
     "affinity": "spirit",
     "faction": "Undead Hordes",
     "role": "attack",
-    "aura": "ATK - Dungeons",
+    "aura": "ATK - Dungeons - 34%",
     "avatarUrl": "https://mcradane.github.io/raid-data/images/avatar/MaShalled.png",
     "detailsUrl": "https://mcradane.github.io/raid-data/champion-details/MaShalled.json"
   },
@@ -2912,7 +2912,7 @@
     "affinity": "force",
     "faction": "High Elves",
     "role": "support",
-    "aura": "HP - Faction Crypts",
+    "aura": "HP - Faction Wars - 22%",
     "avatarUrl": "https://mcradane.github.io/raid-data/images/avatar/Magister.png",
     "detailsUrl": "https://mcradane.github.io/raid-data/champion-details/Magister.json"
   },
@@ -2922,7 +2922,7 @@
     "affinity": "force",
     "faction": "Ogryn Tribes",
     "role": "attack",
-    "aura": "ACC - Dungeons",
+    "aura": "ACC - Dungeons - 40",
     "avatarUrl": "https://mcradane.github.io/raid-data/images/avatar/Magmablood.png",
     "detailsUrl": "https://mcradane.github.io/raid-data/champion-details/Magmablood.json"
   },
@@ -2932,7 +2932,7 @@
     "affinity": "magic",
     "faction": "Knight Revenant",
     "role": "attack",
-    "aura": "SPD - Arena",
+    "aura": "SPD - Arena - 16%",
     "avatarUrl": "https://mcradane.github.io/raid-data/images/avatar/Magus.png",
     "detailsUrl": "https://mcradane.github.io/raid-data/champion-details/Magus.json"
   },
@@ -2951,7 +2951,7 @@
     "affinity": "void",
     "faction": "Demonspawn",
     "role": "attack",
-    "aura": "SPD - Arena",
+    "aura": "SPD - Arena - 16%",
     "avatarUrl": "https://mcradane.github.io/raid-data/images/avatar/Malbranche.png",
     "detailsUrl": "https://mcradane.github.io/raid-data/champion-details/Malbranche.json"
   },
@@ -2961,7 +2961,7 @@
     "affinity": "void",
     "faction": "Ogryn Tribes",
     "role": "hp",
-    "aura": "HP - Dungeons",
+    "aura": "HP - Dungeons - 33%",
     "avatarUrl": "https://mcradane.github.io/raid-data/images/avatar/Maneater.png",
     "detailsUrl": "https://mcradane.github.io/raid-data/champion-details/Maneater.json"
   },
@@ -2971,7 +2971,7 @@
     "affinity": "magic",
     "faction": "Barbarians",
     "role": "support",
-    "aura": "DEF - Faction Crypts",
+    "aura": "DEF - Faction Wars - 15%",
     "avatarUrl": "https://mcradane.github.io/raid-data/images/avatar/Marked.png",
     "detailsUrl": "https://mcradane.github.io/raid-data/champion-details/Marked.json"
   },
@@ -2981,7 +2981,7 @@
     "affinity": "spirit",
     "faction": "High Elves",
     "role": "attack",
-    "aura": "DEF - Arena",
+    "aura": "DEF - Arena - 32%",
     "avatarUrl": "https://mcradane.github.io/raid-data/images/avatar/Marksman.png",
     "detailsUrl": "https://mcradane.github.io/raid-data/champion-details/Marksman.json"
   },
@@ -2991,7 +2991,7 @@
     "affinity": "spirit",
     "faction": "Demonspawn",
     "role": "defense",
-    "aura": "DEF - Faction Crypts",
+    "aura": "DEF - Faction Wars - 15%",
     "avatarUrl": "https://mcradane.github.io/raid-data/images/avatar/Marquess.png",
     "detailsUrl": "https://mcradane.github.io/raid-data/champion-details/Marquess.json"
   },
@@ -3001,7 +3001,7 @@
     "affinity": "void",
     "faction": "Demonspawn",
     "role": "defense",
-    "aura": "HP - All (force)",
+    "aura": "HP - All (force) - 18%",
     "avatarUrl": "https://mcradane.github.io/raid-data/images/avatar/Marquis.png",
     "detailsUrl": "https://mcradane.github.io/raid-data/champion-details/Marquis.json"
   },
@@ -3011,7 +3011,7 @@
     "affinity": "spirit",
     "faction": "The Sacred Order",
     "role": "defense",
-    "aura": "DEF - All",
+    "aura": "DEF - All - 33%",
     "avatarUrl": "https://mcradane.github.io/raid-data/images/avatar/Martyr.png",
     "detailsUrl": "https://mcradane.github.io/raid-data/champion-details/Martyr.json"
   },
@@ -3066,7 +3066,7 @@
     "affinity": "spirit",
     "faction": "Lizardmen",
     "role": "support",
-    "aura": "DEF - Faction Crypts",
+    "aura": "DEF - Faction Wars - 15%",
     "avatarUrl": "https://mcradane.github.io/raid-data/images/avatar/Metalshaper.png",
     "detailsUrl": "https://mcradane.github.io/raid-data/champion-details/Metalshaper.json"
   },
@@ -3085,7 +3085,7 @@
     "affinity": "force",
     "faction": "Banner Lords",
     "role": "support",
-    "aura": "SPD - All",
+    "aura": "SPD - All - 19%",
     "avatarUrl": "https://mcradane.github.io/raid-data/images/avatar/Minaya.png",
     "detailsUrl": "https://mcradane.github.io/raid-data/champion-details/Minaya.json"
   },
@@ -3095,7 +3095,7 @@
     "affinity": "magic",
     "faction": "Knight Revenant",
     "role": "hp",
-    "aura": "HP - Arena",
+    "aura": "HP - Arena - 33%",
     "avatarUrl": "https://mcradane.github.io/raid-data/images/avatar/Miscreated_Monster.png",
     "detailsUrl": "https://mcradane.github.io/raid-data/champion-details/Miscreated_Monster.json"
   },
@@ -3105,7 +3105,7 @@
     "affinity": "force",
     "faction": "The Sacred Order",
     "role": "hp",
-    "aura": "HP - Dungeons",
+    "aura": "HP - Dungeons - 33%",
     "avatarUrl": "https://mcradane.github.io/raid-data/images/avatar/Missionary.png",
     "detailsUrl": "https://mcradane.github.io/raid-data/champion-details/Missionary.json"
   },
@@ -3115,7 +3115,7 @@
     "affinity": "spirit",
     "faction": "The Sacred Order",
     "role": "support",
-    "aura": "DEF - All",
+    "aura": "DEF - All - 25%",
     "avatarUrl": "https://mcradane.github.io/raid-data/images/avatar/Mistress_of_Hymns.png",
     "detailsUrl": "https://mcradane.github.io/raid-data/champion-details/Mistress_of_Hymns.json"
   },
@@ -3125,7 +3125,7 @@
     "affinity": "spirit",
     "faction": "Demonspawn",
     "role": "hp",
-    "aura": "SPD - All",
+    "aura": "SPD - All - 24%",
     "avatarUrl": "https://mcradane.github.io/raid-data/images/avatar/Mortu_Macaab.png",
     "detailsUrl": "https://mcradane.github.io/raid-data/champion-details/Mortu_Macaab.json"
   },
@@ -3135,7 +3135,7 @@
     "affinity": "spirit",
     "faction": "The Sacred Order",
     "role": "support",
-    "aura": "SPD - All",
+    "aura": "SPD - All - 13%",
     "avatarUrl": "https://mcradane.github.io/raid-data/images/avatar/Mother_Superior.png",
     "detailsUrl": "https://mcradane.github.io/raid-data/champion-details/Mother_Superior.json"
   },
@@ -3154,7 +3154,7 @@
     "affinity": "magic",
     "faction": "Lizardmen",
     "role": "hp",
-    "aura": "HP - Faction Crypts",
+    "aura": "HP - Faction Wars - 22%",
     "avatarUrl": "https://mcradane.github.io/raid-data/images/avatar/Muckstalker.png",
     "detailsUrl": "https://mcradane.github.io/raid-data/champion-details/Muckstalker.json"
   },
@@ -3164,7 +3164,7 @@
     "affinity": "magic",
     "faction": "Banner Lords",
     "role": "defense",
-    "aura": "DEF - Dungeons",
+    "aura": "DEF - Dungeons - 20%",
     "avatarUrl": "https://mcradane.github.io/raid-data/images/avatar/Myrmidon.png",
     "detailsUrl": "https://mcradane.github.io/raid-data/champion-details/Myrmidon.json"
   },
@@ -3174,7 +3174,7 @@
     "affinity": "force",
     "faction": "Dark Elves",
     "role": "support",
-    "aura": "HP - Dungeons",
+    "aura": "HP - Dungeons - 25%",
     "avatarUrl": "https://mcradane.github.io/raid-data/images/avatar/Mystic_Hand.png",
     "detailsUrl": "https://mcradane.github.io/raid-data/champion-details/Mystic_Hand.json"
   },
@@ -3184,7 +3184,7 @@
     "affinity": "magic",
     "faction": "Knight Revenant",
     "role": "support",
-    "aura": "ACC - Dungeons",
+    "aura": "ACC - Dungeons - 80",
     "avatarUrl": "https://mcradane.github.io/raid-data/images/avatar/Narma_the_Returned.png",
     "detailsUrl": "https://mcradane.github.io/raid-data/champion-details/Narma_the_Returned.json"
   },
@@ -3194,7 +3194,7 @@
     "affinity": "force",
     "faction": "Demonspawn",
     "role": "hp",
-    "aura": "HP - Faction Crypts",
+    "aura": "HP - Faction Wars - 28%",
     "avatarUrl": "https://mcradane.github.io/raid-data/images/avatar/Nazana.png",
     "detailsUrl": "https://mcradane.github.io/raid-data/champion-details/Nazana.json"
   },
@@ -3213,7 +3213,7 @@
     "affinity": "void",
     "faction": "Undead Hordes",
     "role": "defense",
-    "aura": "RESIST - All",
+    "aura": "RESIST - All - 60",
     "avatarUrl": "https://mcradane.github.io/raid-data/images/avatar/Nekhret_the_Great.png",
     "detailsUrl": "https://mcradane.github.io/raid-data/champion-details/Nekhret_the_Great.json"
   },
@@ -3232,7 +3232,7 @@
     "affinity": "spirit",
     "faction": "Orcs",
     "role": "attack",
-    "aura": "ATK - All",
+    "aura": "ATK - All - 33%",
     "avatarUrl": "https://mcradane.github.io/raid-data/images/avatar/Nogdar_the_Headhunter.png",
     "detailsUrl": "https://mcradane.github.io/raid-data/champion-details/Nogdar_the_Headhunter.json"
   },
@@ -3242,7 +3242,7 @@
     "affinity": "magic",
     "faction": "Skinwalkers",
     "role": "defense",
-    "aura": "DEF - Dungeons",
+    "aura": "DEF - Dungeons - 40%",
     "avatarUrl": "https://mcradane.github.io/raid-data/images/avatar/Norog.png",
     "detailsUrl": "https://mcradane.github.io/raid-data/champion-details/Norog.json"
   },
@@ -3270,7 +3270,7 @@
     "affinity": "void",
     "faction": "Shadowkin",
     "role": "attack",
-    "aura": "ATK - Dungeons",
+    "aura": "ATK - Dungeons - 33%",
     "avatarUrl": "https://mcradane.github.io/raid-data/images/avatar/Oboro.png",
     "detailsUrl": "https://mcradane.github.io/raid-data/champion-details/Oboro.json"
   },
@@ -3289,7 +3289,7 @@
     "affinity": "force",
     "faction": "Ogryn Tribes",
     "role": "attack",
-    "aura": "ACC - Dungeons",
+    "aura": "ACC - Dungeons - 20",
     "avatarUrl": "https://mcradane.github.io/raid-data/images/avatar/Ogryn_Jailer.png",
     "detailsUrl": "https://mcradane.github.io/raid-data/champion-details/Ogryn_Jailer.json"
   },
@@ -3344,7 +3344,7 @@
     "affinity": "void",
     "faction": "Barbarians",
     "role": "attack",
-    "aura": "ATK - Faction Crypts",
+    "aura": "ATK - Faction Wars - 18%",
     "avatarUrl": "https://mcradane.github.io/raid-data/images/avatar/Ox.png",
     "detailsUrl": "https://mcradane.github.io/raid-data/champion-details/Ox.json"
   },
@@ -3354,7 +3354,7 @@
     "affinity": "void",
     "faction": "Dark Elves",
     "role": "hp",
-    "aura": "HP - Faction Crypts",
+    "aura": "HP - Faction Wars - 21%",
     "avatarUrl": "https://mcradane.github.io/raid-data/images/avatar/Pain_Keeper.png",
     "detailsUrl": "https://mcradane.github.io/raid-data/champion-details/Pain_Keeper.json"
   },
@@ -3364,7 +3364,7 @@
     "affinity": "void",
     "faction": "Dwarves",
     "role": "attack",
-    "aura": "ATK - Dungeons",
+    "aura": "ATK - Dungeons - 21%",
     "avatarUrl": "https://mcradane.github.io/raid-data/images/avatar/Painsmith.png",
     "detailsUrl": "https://mcradane.github.io/raid-data/champion-details/Painsmith.json"
   },
@@ -3374,7 +3374,7 @@
     "affinity": "void",
     "faction": "Skinwalkers",
     "role": "attack",
-    "aura": "ACC - Dungeons",
+    "aura": "ACC - Dungeons - 40",
     "avatarUrl": "https://mcradane.github.io/raid-data/images/avatar/Panthera.png",
     "detailsUrl": "https://mcradane.github.io/raid-data/champion-details/Panthera.json"
   },
@@ -3411,7 +3411,7 @@
     "affinity": "spirit",
     "faction": "Knight Revenant",
     "role": "support",
-    "aura": "ACC - the Doom Tower",
+    "aura": "ACC - Doom Tower - 50",
     "avatarUrl": "https://mcradane.github.io/raid-data/images/avatar/Pestilus.png",
     "detailsUrl": "https://mcradane.github.io/raid-data/champion-details/Pestilus.json"
   },
@@ -3430,7 +3430,7 @@
     "affinity": "magic",
     "faction": "Orcs",
     "role": "attack",
-    "aura": "ATK - Doom Tower",
+    "aura": "ATK - Doom Tower - 21%",
     "avatarUrl": "https://mcradane.github.io/raid-data/images/avatar/Pigsticker.png",
     "detailsUrl": "https://mcradane.github.io/raid-data/champion-details/Pigsticker.json"
   },
@@ -3476,7 +3476,7 @@
     "affinity": "magic",
     "faction": "Knight Revenant",
     "role": "attack",
-    "aura": "C.RATE - All",
+    "aura": "C.RATE - All - 19%",
     "avatarUrl": "https://mcradane.github.io/raid-data/images/avatar/Pitiless_One.png",
     "detailsUrl": "https://mcradane.github.io/raid-data/champion-details/Pitiless_One.json"
   },
@@ -3495,7 +3495,7 @@
     "affinity": "magic",
     "faction": "Ogryn Tribes",
     "role": "defense",
-    "aura": "ATK - All (magic)",
+    "aura": "ATK - All (magic) - 20%",
     "avatarUrl": "https://mcradane.github.io/raid-data/images/avatar/Pounder.png",
     "detailsUrl": "https://mcradane.github.io/raid-data/champion-details/Pounder.json"
   },
@@ -3514,7 +3514,7 @@
     "affinity": "force",
     "faction": "Banner Lords",
     "role": "defense",
-    "aura": "HP - All",
+    "aura": "HP - All - 17%",
     "avatarUrl": "https://mcradane.github.io/raid-data/images/avatar/Preserver.png",
     "detailsUrl": "https://mcradane.github.io/raid-data/champion-details/Preserver.json"
   },
@@ -3524,7 +3524,7 @@
     "affinity": "magic",
     "faction": "Demonspawn",
     "role": "support",
-    "aura": "SPD - Arena",
+    "aura": "SPD - Arena - 30%",
     "avatarUrl": "https://mcradane.github.io/raid-data/images/avatar/Prince_Kymar.png",
     "detailsUrl": "https://mcradane.github.io/raid-data/champion-details/Prince_Kymar.json"
   },
@@ -3534,7 +3534,7 @@
     "affinity": "void",
     "faction": "Ogryn Tribes",
     "role": "defense",
-    "aura": "DEF - the Doom Tower",
+    "aura": "DEF - Doom Tower - 30%",
     "avatarUrl": "https://mcradane.github.io/raid-data/images/avatar/Prundar.png",
     "detailsUrl": "https://mcradane.github.io/raid-data/champion-details/Prundar.json"
   },
@@ -3544,7 +3544,7 @@
     "affinity": "void",
     "faction": "Dark Elves",
     "role": "support",
-    "aura": "SPD - Faction Crypts",
+    "aura": "SPD - Faction Wars - 22%",
     "avatarUrl": "https://mcradane.github.io/raid-data/images/avatar/Psylar.png",
     "detailsUrl": "https://mcradane.github.io/raid-data/champion-details/Psylar.json"
   },
@@ -3563,7 +3563,7 @@
     "affinity": "magic",
     "faction": "High Elves",
     "role": "support",
-    "aura": "RESIST - Arena Battles",
+    "aura": "RESIST - Arena Battles - 80",
     "avatarUrl": "https://mcradane.github.io/raid-data/images/avatar/Pyxniel.png",
     "detailsUrl": "https://mcradane.github.io/raid-data/champion-details/Pyxniel.json"
   },
@@ -3591,7 +3591,7 @@
     "affinity": "spirit",
     "faction": "Dark Elves",
     "role": "attack",
-    "aura": "C.RATE - All",
+    "aura": "C.RATE - All - 19%",
     "avatarUrl": "https://mcradane.github.io/raid-data/images/avatar/Queen_Eva.png",
     "detailsUrl": "https://mcradane.github.io/raid-data/champion-details/Queen_Eva.json"
   },
@@ -3601,7 +3601,7 @@
     "affinity": "magic",
     "faction": "Dark Elves",
     "role": "attack",
-    "aura": "SPD - Dungeons",
+    "aura": "SPD - Dungeons - 33%",
     "avatarUrl": "https://mcradane.github.io/raid-data/images/avatar/Rae.png",
     "detailsUrl": "https://mcradane.github.io/raid-data/champion-details/Rae.json"
   },
@@ -3611,7 +3611,7 @@
     "affinity": "void",
     "faction": "Barbarians",
     "role": "attack",
-    "aura": "ATK - Campaign",
+    "aura": "ATK - Campaign - 21%",
     "avatarUrl": "https://mcradane.github.io/raid-data/images/avatar/Ragemonger.png",
     "detailsUrl": "https://mcradane.github.io/raid-data/champion-details/Ragemonger.json"
   },
@@ -3621,7 +3621,7 @@
     "affinity": "void",
     "faction": "Banner Lords",
     "role": "support",
-    "aura": "DEF - All",
+    "aura": "DEF - All - 33%",
     "avatarUrl": "https://mcradane.github.io/raid-data/images/avatar/Raglin.png",
     "detailsUrl": "https://mcradane.github.io/raid-data/champion-details/Raglin.json"
   },
@@ -3631,7 +3631,7 @@
     "affinity": "spirit",
     "faction": "Orcs",
     "role": "attack",
-    "aura": "SPD - Faction Crypts",
+    "aura": "SPD - Faction Wars - 13%",
     "avatarUrl": "https://mcradane.github.io/raid-data/images/avatar/Raider.png",
     "detailsUrl": "https://mcradane.github.io/raid-data/champion-details/Raider.json"
   },
@@ -3650,7 +3650,7 @@
     "affinity": "force",
     "faction": "Dwarves",
     "role": "defense",
-    "aura": "HP - All (force)",
+    "aura": "HP - All (force) - 33%",
     "avatarUrl": "https://mcradane.github.io/raid-data/images/avatar/Rearguard_Sergeant.png",
     "detailsUrl": "https://mcradane.github.io/raid-data/champion-details/Rearguard_Sergeant.json"
   },
@@ -3660,7 +3660,7 @@
     "affinity": "force",
     "faction": "Knight Revenant",
     "role": "support",
-    "aura": "RESIST - Doom Tower",
+    "aura": "RESIST - Doom Tower - 55",
     "avatarUrl": "https://mcradane.github.io/raid-data/images/avatar/Rector_Drath.png",
     "detailsUrl": "https://mcradane.github.io/raid-data/champion-details/Rector_Drath.json"
   },
@@ -3688,7 +3688,7 @@
     "affinity": "force",
     "faction": "The Sacred Order",
     "role": "attack",
-    "aura": "ATK - Campaign",
+    "aura": "ATK - Campaign - 40%",
     "avatarUrl": "https://mcradane.github.io/raid-data/images/avatar/Relickeeper.png",
     "detailsUrl": "https://mcradane.github.io/raid-data/champion-details/Relickeeper.json"
   },
@@ -3707,7 +3707,7 @@
     "affinity": "void",
     "faction": "Knight Revenant",
     "role": "support",
-    "aura": "RESIST - All",
+    "aura": "RESIST - All - 40",
     "avatarUrl": "https://mcradane.github.io/raid-data/images/avatar/Renegade.png",
     "detailsUrl": "https://mcradane.github.io/raid-data/champion-details/Renegade.json"
   },
@@ -3726,7 +3726,7 @@
     "affinity": "void",
     "faction": "Dark Elves",
     "role": "defense",
-    "aura": "DEF - Faction Crypts",
+    "aura": "DEF - Faction Wars - 19%",
     "avatarUrl": "https://mcradane.github.io/raid-data/images/avatar/Retainer.png",
     "detailsUrl": "https://mcradane.github.io/raid-data/champion-details/Retainer.json"
   },
@@ -3736,7 +3736,7 @@
     "affinity": "force",
     "faction": "Lizardmen",
     "role": "defense",
-    "aura": "RESIST - Arena",
+    "aura": "RESIST - Arena - 90",
     "avatarUrl": "https://mcradane.github.io/raid-data/images/avatar/Rhazin_Scarhide.png",
     "detailsUrl": "https://mcradane.github.io/raid-data/champion-details/Rhazin_Scarhide.json"
   },
@@ -3746,7 +3746,7 @@
     "affinity": "force",
     "faction": "Dark Elves",
     "role": "support",
-    "aura": "ACC - All",
+    "aura": "ACC - All - 40",
     "avatarUrl": "https://mcradane.github.io/raid-data/images/avatar/Rian_the_Conjurer.png",
     "detailsUrl": "https://mcradane.github.io/raid-data/champion-details/Rian_the_Conjurer.json"
   },
@@ -3756,7 +3756,7 @@
     "affinity": "spirit",
     "faction": "Banner Lords",
     "role": "attack",
-    "aura": "ATK - Faction Crypts",
+    "aura": "ATK - Faction Wars - 27%",
     "avatarUrl": "https://mcradane.github.io/raid-data/images/avatar/Richtoff_the_Bold.png",
     "detailsUrl": "https://mcradane.github.io/raid-data/champion-details/Richtoff_the_Bold.json"
   },
@@ -3766,7 +3766,7 @@
     "affinity": "force",
     "faction": "Skinwalkers",
     "role": "attack",
-    "aura": "C.RATE - All (force)",
+    "aura": "C.RATE - All (force) - 23%",
     "avatarUrl": "https://mcradane.github.io/raid-data/images/avatar/Ripper.png",
     "detailsUrl": "https://mcradane.github.io/raid-data/champion-details/Ripper.json"
   },
@@ -3794,7 +3794,7 @@
     "affinity": "force",
     "faction": "Orcs",
     "role": "attack",
-    "aura": "ACC - Faction Crypts",
+    "aura": "ACC - Faction Wars - 50",
     "avatarUrl": "https://mcradane.github.io/raid-data/images/avatar/Robar.png",
     "detailsUrl": "https://mcradane.github.io/raid-data/champion-details/Robar.json"
   },
@@ -3804,7 +3804,7 @@
     "affinity": "spirit",
     "faction": "Dwarves",
     "role": "defense",
-    "aura": "DEF - Arena",
+    "aura": "DEF - Arena - 30%",
     "avatarUrl": "https://mcradane.github.io/raid-data/images/avatar/Rock_Breaker.png",
     "detailsUrl": "https://mcradane.github.io/raid-data/champion-details/Rock_Breaker.json"
   },
@@ -3832,7 +3832,7 @@
     "affinity": "magic",
     "faction": "The Sacred Order",
     "role": "hp",
-    "aura": "HP - All",
+    "aura": "HP - All - 33%",
     "avatarUrl": "https://mcradane.github.io/raid-data/images/avatar/Roshcard_the_Tower.png",
     "detailsUrl": "https://mcradane.github.io/raid-data/champion-details/Roshcard_the_Tower.json"
   },
@@ -3851,7 +3851,7 @@
     "affinity": "spirit",
     "faction": "Undead Hordes",
     "role": "support",
-    "aura": "SPD - Faction Crypts",
+    "aura": "SPD - Faction Wars - 13%",
     "avatarUrl": "https://mcradane.github.io/raid-data/images/avatar/Rotting_Mage.png",
     "detailsUrl": "https://mcradane.github.io/raid-data/champion-details/Rotting_Mage.json"
   },
@@ -3861,7 +3861,7 @@
     "affinity": "void",
     "faction": "Banner Lords",
     "role": "attack",
-    "aura": "ACC - Faction Crypts",
+    "aura": "ACC - Faction Wars - 50",
     "avatarUrl": "https://mcradane.github.io/raid-data/images/avatar/Rowan.png",
     "detailsUrl": "https://mcradane.github.io/raid-data/champion-details/Rowan.json"
   },
@@ -3871,7 +3871,7 @@
     "affinity": "magic",
     "faction": "Lizardmen",
     "role": "attack",
-    "aura": "C.RATE - Doom Tower",
+    "aura": "C.RATE - Doom Tower - 23%",
     "avatarUrl": "https://mcradane.github.io/raid-data/images/avatar/Roxam.png",
     "detailsUrl": "https://mcradane.github.io/raid-data/champion-details/Roxam.json"
   },
@@ -3881,7 +3881,7 @@
     "affinity": "magic",
     "faction": "High Elves",
     "role": "attack",
-    "aura": "ATK - Dungeons",
+    "aura": "ATK - Dungeons - 35%",
     "avatarUrl": "https://mcradane.github.io/raid-data/images/avatar/Royal_Guard.png",
     "detailsUrl": "https://mcradane.github.io/raid-data/champion-details/Royal_Guard.json"
   },
@@ -3891,7 +3891,7 @@
     "affinity": "spirit",
     "faction": "High Elves",
     "role": "attack",
-    "aura": "ATK - All (spirit)",
+    "aura": "ATK - All (spirit) - 38%",
     "avatarUrl": "https://mcradane.github.io/raid-data/images/avatar/Royal_Huntsman.png",
     "detailsUrl": "https://mcradane.github.io/raid-data/champion-details/Royal_Huntsman.json"
   },
@@ -3910,7 +3910,7 @@
     "affinity": "void",
     "faction": "Dwarves",
     "role": "attack",
-    "aura": "ATK - Doom Tower",
+    "aura": "ATK - Doom Tower - 35%",
     "avatarUrl": "https://mcradane.github.io/raid-data/images/avatar/Rugnor_Goldgleam.png",
     "detailsUrl": "https://mcradane.github.io/raid-data/champion-details/Rugnor_Goldgleam.json"
   },
@@ -3920,7 +3920,7 @@
     "affinity": "void",
     "faction": "Dwarves",
     "role": "support",
-    "aura": "ATK - All",
+    "aura": "ATK - All - 25%",
     "avatarUrl": "https://mcradane.github.io/raid-data/images/avatar/Runekeeper_Dazdurk.png",
     "detailsUrl": "https://mcradane.github.io/raid-data/champion-details/Runekeeper_Dazdurk.json"
   },
@@ -3948,7 +3948,7 @@
     "affinity": "magic",
     "faction": "Undead Hordes",
     "role": "attack",
-    "aura": "ATK - Dungeons",
+    "aura": "ATK - Dungeons - 30%",
     "avatarUrl": "https://mcradane.github.io/raid-data/images/avatar/Saito.png",
     "detailsUrl": "https://mcradane.github.io/raid-data/champion-details/Saito.json"
   },
@@ -3958,7 +3958,7 @@
     "affinity": "spirit",
     "faction": "Dwarves",
     "role": "hp",
-    "aura": "HP - All",
+    "aura": "HP - All - 30%",
     "avatarUrl": "https://mcradane.github.io/raid-data/images/avatar/Samar_Gemcursed.png",
     "detailsUrl": "https://mcradane.github.io/raid-data/champion-details/Samar_Gemcursed.json"
   },
@@ -3986,7 +3986,7 @@
     "affinity": "spirit",
     "faction": "Orcs",
     "role": "defense",
-    "aura": "DEF - All",
+    "aura": "DEF - All - 25%",
     "avatarUrl": "https://mcradane.github.io/raid-data/images/avatar/Sandlashed_Survivor.png",
     "detailsUrl": "https://mcradane.github.io/raid-data/champion-details/Sandlashed_Survivor.json"
   },
@@ -3996,7 +3996,7 @@
     "affinity": "magic",
     "faction": "The Sacred Order",
     "role": "support",
-    "aura": "ACC - Doom Tower",
+    "aura": "ACC - Doom Tower - 55",
     "avatarUrl": "https://mcradane.github.io/raid-data/images/avatar/Sanguinia.png",
     "detailsUrl": "https://mcradane.github.io/raid-data/champion-details/Sanguinia.json"
   },
@@ -4042,7 +4042,7 @@
     "affinity": "void",
     "faction": "Undead Hordes",
     "role": "defense",
-    "aura": "HP - All",
+    "aura": "HP - All - 25%",
     "avatarUrl": "https://mcradane.github.io/raid-data/images/avatar/Seducer.png",
     "detailsUrl": "https://mcradane.github.io/raid-data/champion-details/Seducer.json"
   },
@@ -4052,7 +4052,7 @@
     "affinity": "magic",
     "faction": "Undead Hordes",
     "role": "defense",
-    "aura": "DEF - Arena",
+    "aura": "DEF - Arena - 30%",
     "avatarUrl": "https://mcradane.github.io/raid-data/images/avatar/Seeker.png",
     "detailsUrl": "https://mcradane.github.io/raid-data/champion-details/Seeker.json"
   },
@@ -4062,7 +4062,7 @@
     "affinity": "void",
     "faction": "Orcs",
     "role": "support",
-    "aura": "RESIST - All",
+    "aura": "RESIST - All - 40",
     "avatarUrl": "https://mcradane.github.io/raid-data/images/avatar/Seer.png",
     "detailsUrl": "https://mcradane.github.io/raid-data/champion-details/Seer.json"
   },
@@ -4081,7 +4081,7 @@
     "affinity": "force",
     "faction": "Barbarians",
     "role": "hp",
-    "aura": "RESIST - Faction Crypts",
+    "aura": "RESIST - Faction Wars - 30",
     "avatarUrl": "https://mcradane.github.io/raid-data/images/avatar/Sentinel.png",
     "detailsUrl": "https://mcradane.github.io/raid-data/champion-details/Sentinel.json"
   },
@@ -4091,7 +4091,7 @@
     "affinity": "spirit",
     "faction": "Banner Lords",
     "role": "attack",
-    "aura": "ATK - All",
+    "aura": "ATK - All - 23%",
     "avatarUrl": "https://mcradane.github.io/raid-data/images/avatar/Septimus.png",
     "detailsUrl": "https://mcradane.github.io/raid-data/champion-details/Septimus.json"
   },
@@ -4101,7 +4101,7 @@
     "affinity": "force",
     "faction": "Knight Revenant",
     "role": "defense",
-    "aura": "DEF - All",
+    "aura": "DEF - All - 25%",
     "avatarUrl": "https://mcradane.github.io/raid-data/images/avatar/Sepulcher_Sentinel.png",
     "detailsUrl": "https://mcradane.github.io/raid-data/champion-details/Sepulcher_Sentinel.json"
   },
@@ -4120,7 +4120,7 @@
     "affinity": "magic",
     "faction": "Banner Lords",
     "role": "support",
-    "aura": "RESIST - All (magic)",
+    "aura": "RESIST - All (magic) - 50",
     "avatarUrl": "https://mcradane.github.io/raid-data/images/avatar/Sethallia.png",
     "detailsUrl": "https://mcradane.github.io/raid-data/champion-details/Sethallia.json"
   },
@@ -4130,7 +4130,7 @@
     "affinity": "force",
     "faction": "Orcs",
     "role": "support",
-    "aura": "DEF - Faction Crypts",
+    "aura": "DEF - Faction Wars - 23%",
     "avatarUrl": "https://mcradane.github.io/raid-data/images/avatar/Shaman.png",
     "detailsUrl": "https://mcradane.github.io/raid-data/champion-details/Shaman.json"
   },
@@ -4140,7 +4140,7 @@
     "affinity": "spirit",
     "faction": "Ogryn Tribes",
     "role": "support",
-    "aura": "ACC - All",
+    "aura": "ACC - All - 70",
     "avatarUrl": "https://mcradane.github.io/raid-data/images/avatar/Shamrock.png",
     "detailsUrl": "https://mcradane.github.io/raid-data/champion-details/Shamrock.json"
   },
@@ -4159,7 +4159,7 @@
     "affinity": "force",
     "faction": "Ogryn Tribes",
     "role": "attack",
-    "aura": "ACC - Arena",
+    "aura": "ACC - Arena - 70",
     "avatarUrl": "https://mcradane.github.io/raid-data/images/avatar/Shatterbones.png",
     "detailsUrl": "https://mcradane.github.io/raid-data/champion-details/Shatterbones.json"
   },
@@ -4178,7 +4178,7 @@
     "affinity": "force",
     "faction": "High Elves",
     "role": "support",
-    "aura": "DEF - Faction Crypts",
+    "aura": "DEF - Faction Wars - 33%",
     "avatarUrl": "https://mcradane.github.io/raid-data/images/avatar/Shirimani.png",
     "detailsUrl": "https://mcradane.github.io/raid-data/champion-details/Shirimani.json"
   },
@@ -4188,7 +4188,7 @@
     "affinity": "force",
     "faction": "Demonspawn",
     "role": "attack",
-    "aura": "ACC - All",
+    "aura": "ACC - All - 60",
     "avatarUrl": "https://mcradane.github.io/raid-data/images/avatar/Sicia_Flametongue.png",
     "detailsUrl": "https://mcradane.github.io/raid-data/champion-details/Sicia_Flametongue.json"
   },
@@ -4216,7 +4216,7 @@
     "affinity": "force",
     "faction": "Knight Revenant",
     "role": "support",
-    "aura": "HP - Faction Crypts",
+    "aura": "HP - Faction Wars - 31%",
     "avatarUrl": "https://mcradane.github.io/raid-data/images/avatar/Sinesha.png",
     "detailsUrl": "https://mcradane.github.io/raid-data/champion-details/Sinesha.json"
   },
@@ -4226,7 +4226,7 @@
     "affinity": "void",
     "faction": "Undead Hordes",
     "role": "support",
-    "aura": "RESIST - All",
+    "aura": "RESIST - All - 80",
     "avatarUrl": "https://mcradane.github.io/raid-data/images/avatar/Siphi_the_Lost_Bride.png",
     "detailsUrl": "https://mcradane.github.io/raid-data/champion-details/Siphi_the_Lost_Bride.json"
   },
@@ -4236,7 +4236,7 @@
     "affinity": "void",
     "faction": "The Sacred Order",
     "role": "hp",
-    "aura": "HP - All",
+    "aura": "HP - All - 33%",
     "avatarUrl": "https://mcradane.github.io/raid-data/images/avatar/Sir_Nicholas.png",
     "detailsUrl": "https://mcradane.github.io/raid-data/champion-details/Sir_Nicholas.json"
   },
@@ -4255,7 +4255,7 @@
     "affinity": "force",
     "faction": "Undead Hordes",
     "role": "support",
-    "aura": "SPD - Dungeons",
+    "aura": "SPD - Dungeons - 33%",
     "avatarUrl": "https://mcradane.github.io/raid-data/images/avatar/Skartorsis.png",
     "detailsUrl": "https://mcradane.github.io/raid-data/champion-details/Skartorsis.json"
   },
@@ -4274,7 +4274,7 @@
     "affinity": "magic",
     "faction": "Lizardmen",
     "role": "attack",
-    "aura": "ATK - All (magic)",
+    "aura": "ATK - All (magic) - 30%",
     "avatarUrl": "https://mcradane.github.io/raid-data/images/avatar/Skink.png",
     "detailsUrl": "https://mcradane.github.io/raid-data/champion-details/Skink.json"
   },
@@ -4311,7 +4311,7 @@
     "affinity": "void",
     "faction": "Knight Revenant",
     "role": "attack",
-    "aura": "SPD - Arena",
+    "aura": "SPD - Arena - 23%",
     "avatarUrl": "https://mcradane.github.io/raid-data/images/avatar/Skullcrown.png",
     "detailsUrl": "https://mcradane.github.io/raid-data/champion-details/Skullcrown.json"
   },
@@ -4321,7 +4321,7 @@
     "affinity": "force",
     "faction": "Ogryn Tribes",
     "role": "defense",
-    "aura": "RESIST - Faction Crypts",
+    "aura": "RESIST - Faction Wars - 45",
     "avatarUrl": "https://mcradane.github.io/raid-data/images/avatar/Skullcrusher.png",
     "detailsUrl": "https://mcradane.github.io/raid-data/champion-details/Skullcrusher.json"
   },
@@ -4340,7 +4340,7 @@
     "affinity": "force",
     "faction": "Lizardmen",
     "role": "attack",
-    "aura": "SPD - Faction Crypts",
+    "aura": "SPD - Faction Wars - 13%",
     "avatarUrl": "https://mcradane.github.io/raid-data/images/avatar/Skullsworn.png",
     "detailsUrl": "https://mcradane.github.io/raid-data/champion-details/Skullsworn.json"
   },
@@ -4350,7 +4350,7 @@
     "affinity": "void",
     "faction": "Barbarians",
     "role": "support",
-    "aura": "HP - All",
+    "aura": "HP - All - 25%",
     "avatarUrl": "https://mcradane.github.io/raid-data/images/avatar/Skytouched_Shaman.png",
     "detailsUrl": "https://mcradane.github.io/raid-data/champion-details/Skytouched_Shaman.json"
   },
@@ -4360,7 +4360,7 @@
     "affinity": "spirit",
     "faction": "Lizardmen",
     "role": "attack",
-    "aura": "ATK - Faction Crypts",
+    "aura": "ATK - Faction Wars - 17%",
     "avatarUrl": "https://mcradane.github.io/raid-data/images/avatar/Slasher.png",
     "detailsUrl": "https://mcradane.github.io/raid-data/champion-details/Slasher.json"
   },
@@ -4388,7 +4388,7 @@
     "affinity": "magic",
     "faction": "Lizardmen",
     "role": "attack",
-    "aura": "ACC - Dungeons",
+    "aura": "ACC - Dungeons - 40",
     "avatarUrl": "https://mcradane.github.io/raid-data/images/avatar/Slitherbrute.png",
     "detailsUrl": "https://mcradane.github.io/raid-data/champion-details/Slitherbrute.json"
   },
@@ -4407,7 +4407,7 @@
     "affinity": "force",
     "faction": "Skinwalkers",
     "role": "hp",
-    "aura": "ACC - All",
+    "aura": "ACC - All - 40",
     "avatarUrl": "https://mcradane.github.io/raid-data/images/avatar/Snorting_Thug.png",
     "detailsUrl": "https://mcradane.github.io/raid-data/champion-details/Snorting_Thug.json"
   },
@@ -4435,7 +4435,7 @@
     "affinity": "spirit",
     "faction": "Barbarians",
     "role": "attack",
-    "aura": "C.RATE - All",
+    "aura": "C.RATE - All - 12%",
     "avatarUrl": "https://mcradane.github.io/raid-data/images/avatar/Soulbond_Bowyer.png",
     "detailsUrl": "https://mcradane.github.io/raid-data/champion-details/Soulbond_Bowyer.json"
   },
@@ -4454,7 +4454,7 @@
     "affinity": "void",
     "faction": "Knight Revenant",
     "role": "defense",
-    "aura": "DEF - Faction Crypts",
+    "aura": "DEF - Faction Wars - 44%",
     "avatarUrl": "https://mcradane.github.io/raid-data/images/avatar/Soulless.png",
     "detailsUrl": "https://mcradane.github.io/raid-data/champion-details/Soulless.json"
   },
@@ -4464,7 +4464,7 @@
     "affinity": "force",
     "faction": "Dark Elves",
     "role": "support",
-    "aura": "SPD - Dungeons",
+    "aura": "SPD - Dungeons - 25%",
     "avatarUrl": "https://mcradane.github.io/raid-data/images/avatar/Spider.png",
     "detailsUrl": "https://mcradane.github.io/raid-data/champion-details/Spider.json"
   },
@@ -4474,7 +4474,7 @@
     "affinity": "magic",
     "faction": "Orcs",
     "role": "attack",
-    "aura": "DEF - Arena",
+    "aura": "DEF - Arena - 30%",
     "avatarUrl": "https://mcradane.github.io/raid-data/images/avatar/Spikehead.png",
     "detailsUrl": "https://mcradane.github.io/raid-data/champion-details/Spikehead.json"
   },
@@ -4484,7 +4484,7 @@
     "affinity": "spirit",
     "faction": "Dark Elves",
     "role": "support",
-    "aura": "SPD - All",
+    "aura": "SPD - All - 10%",
     "avatarUrl": "https://mcradane.github.io/raid-data/images/avatar/Spirithost.png",
     "detailsUrl": "https://mcradane.github.io/raid-data/champion-details/Spirithost.json"
   },
@@ -4548,7 +4548,7 @@
     "affinity": "force",
     "faction": "Dark Elves",
     "role": "attack",
-    "aura": "ATK - Faction Crypts",
+    "aura": "ATK - Faction Wars - 17%",
     "avatarUrl": "https://mcradane.github.io/raid-data/images/avatar/Steel_Bowyer.png",
     "detailsUrl": "https://mcradane.github.io/raid-data/champion-details/Steel_Bowyer.json"
   },
@@ -4558,7 +4558,7 @@
     "affinity": "spirit",
     "faction": "Skinwalkers",
     "role": "support",
-    "aura": "DEF - Faction Crypts",
+    "aura": "DEF - Faction Wars - 27%",
     "avatarUrl": "https://mcradane.github.io/raid-data/images/avatar/Steelskull.png",
     "detailsUrl": "https://mcradane.github.io/raid-data/champion-details/Steelskull.json"
   },
@@ -4577,7 +4577,7 @@
     "affinity": "void",
     "faction": "Ogryn Tribes",
     "role": "hp",
-    "aura": "C.RATE - Arena",
+    "aura": "C.RATE - Arena - 16%",
     "avatarUrl": "https://mcradane.github.io/raid-data/images/avatar/Stoneskin.png",
     "detailsUrl": "https://mcradane.github.io/raid-data/champion-details/Stoneskin.json"
   },
@@ -4614,7 +4614,7 @@
     "affinity": "spirit",
     "faction": "Undead Hordes",
     "role": "attack",
-    "aura": "ATK - All",
+    "aura": "ATK - All - 33%",
     "avatarUrl": "https://mcradane.github.io/raid-data/images/avatar/Suzerain_Katonn.png",
     "detailsUrl": "https://mcradane.github.io/raid-data/champion-details/Suzerain_Katonn.json"
   },
@@ -4633,7 +4633,7 @@
     "affinity": "force",
     "faction": "Demonspawn",
     "role": "support",
-    "aura": "HP - Faction Crypts",
+    "aura": "HP - Faction Wars - 30%",
     "avatarUrl": "https://mcradane.github.io/raid-data/images/avatar/Tainix_Hateflower.png",
     "detailsUrl": "https://mcradane.github.io/raid-data/champion-details/Tainix_Hateflower.json"
   },
@@ -4643,7 +4643,7 @@
     "affinity": "magic",
     "faction": "The Sacred Order",
     "role": "attack",
-    "aura": "C.RATE - Dungeons",
+    "aura": "C.RATE - Dungeons - 15%",
     "avatarUrl": "https://mcradane.github.io/raid-data/images/avatar/Tallia.png",
     "detailsUrl": "https://mcradane.github.io/raid-data/champion-details/Tallia.json"
   },
@@ -4662,7 +4662,7 @@
     "affinity": "magic",
     "faction": "Skinwalkers",
     "role": "attack",
-    "aura": "ACC - Faction Crypts",
+    "aura": "ACC - Faction Wars - 40",
     "avatarUrl": "https://mcradane.github.io/raid-data/images/avatar/Taurus.png",
     "detailsUrl": "https://mcradane.github.io/raid-data/champion-details/Taurus.json"
   },
@@ -4672,7 +4672,7 @@
     "affinity": "magic",
     "faction": "High Elves",
     "role": "defense",
-    "aura": "DEF - All",
+    "aura": "DEF - All - 25%",
     "avatarUrl": "https://mcradane.github.io/raid-data/images/avatar/Tayrel.png",
     "detailsUrl": "https://mcradane.github.io/raid-data/champion-details/Tayrel.json"
   },
@@ -4682,7 +4682,7 @@
     "affinity": "magic",
     "faction": "Orcs",
     "role": "support",
-    "aura": "RESIST - All",
+    "aura": "RESIST - All - 35",
     "avatarUrl": "https://mcradane.github.io/raid-data/images/avatar/Teela_Goremane.png",
     "detailsUrl": "https://mcradane.github.io/raid-data/champion-details/Teela_Goremane.json"
   },
@@ -4692,7 +4692,7 @@
     "affinity": "spirit",
     "faction": "The Sacred Order",
     "role": "defense",
-    "aura": "RESIST - Arena",
+    "aura": "RESIST - Arena - 50",
     "avatarUrl": "https://mcradane.github.io/raid-data/images/avatar/Templar.png",
     "detailsUrl": "https://mcradane.github.io/raid-data/champion-details/Templar.json"
   },
@@ -4711,7 +4711,7 @@
     "affinity": "spirit",
     "faction": "Orcs",
     "role": "hp",
-    "aura": "HP - All",
+    "aura": "HP - All - 25%",
     "avatarUrl": "https://mcradane.github.io/raid-data/images/avatar/Terrorbeast.png",
     "detailsUrl": "https://mcradane.github.io/raid-data/champion-details/Terrorbeast.json"
   },
@@ -4721,7 +4721,7 @@
     "affinity": "force",
     "faction": "Barbarians",
     "role": "defense",
-    "aura": "SPD - Faction Crypts",
+    "aura": "SPD - Faction Wars - 20%",
     "avatarUrl": "https://mcradane.github.io/raid-data/images/avatar/Teshada.png",
     "detailsUrl": "https://mcradane.github.io/raid-data/champion-details/Teshada.json"
   },
@@ -4740,7 +4740,7 @@
     "affinity": "force",
     "faction": "High Elves",
     "role": "support",
-    "aura": "RESIST - Dungeons",
+    "aura": "RESIST - Dungeons - 70",
     "avatarUrl": "https://mcradane.github.io/raid-data/images/avatar/Thenasil.png",
     "detailsUrl": "https://mcradane.github.io/raid-data/champion-details/Thenasil.json"
   },
@@ -4750,7 +4750,7 @@
     "affinity": "magic",
     "faction": "Knight Revenant",
     "role": "support",
-    "aura": "RESIST - Faction Crypts",
+    "aura": "RESIST - Faction Wars - 30",
     "avatarUrl": "https://mcradane.github.io/raid-data/images/avatar/Theurgist.png",
     "detailsUrl": "https://mcradane.github.io/raid-data/champion-details/Theurgist.json"
   },
@@ -4796,7 +4796,7 @@
     "affinity": "spirit",
     "faction": "Knight Revenant",
     "role": "support",
-    "aura": "DEF - Arena",
+    "aura": "DEF - Arena - 42%",
     "avatarUrl": "https://mcradane.github.io/raid-data/images/avatar/Tomb_Lord.png",
     "detailsUrl": "https://mcradane.github.io/raid-data/champion-details/Tomb_Lord.json"
   },
@@ -4806,7 +4806,7 @@
     "affinity": "magic",
     "faction": "Shadowkin",
     "role": "hp",
-    "aura": "RESIST - All",
+    "aura": "RESIST - All - 40",
     "avatarUrl": "https://mcradane.github.io/raid-data/images/avatar/Toragi_the_Frog.png",
     "detailsUrl": "https://mcradane.github.io/raid-data/champion-details/Toragi_the_Frog.json"
   },
@@ -4825,7 +4825,7 @@
     "affinity": "void",
     "faction": "Dwarves",
     "role": "defense",
-    "aura": "DEF - All",
+    "aura": "DEF - All - 33%",
     "avatarUrl": "https://mcradane.github.io/raid-data/images/avatar/Tormin_the_Cold.png",
     "detailsUrl": "https://mcradane.github.io/raid-data/champion-details/Tormin_the_Cold.json"
   },
@@ -4835,7 +4835,7 @@
     "affinity": "force",
     "faction": "Orcs",
     "role": "hp",
-    "aura": "HP - Dungeons",
+    "aura": "HP - Dungeons - 33%",
     "avatarUrl": "https://mcradane.github.io/raid-data/images/avatar/Torturehelm.png",
     "detailsUrl": "https://mcradane.github.io/raid-data/champion-details/Torturehelm.json"
   },
@@ -4854,7 +4854,7 @@
     "affinity": "void",
     "faction": "Ogryn Tribes",
     "role": "hp",
-    "aura": "HP - All",
+    "aura": "HP - All - 25%",
     "avatarUrl": "https://mcradane.github.io/raid-data/images/avatar/Towering_Titan.png",
     "detailsUrl": "https://mcradane.github.io/raid-data/champion-details/Towering_Titan.json"
   },
@@ -4891,7 +4891,7 @@
     "affinity": "magic",
     "faction": "Dwarves",
     "role": "attack",
-    "aura": "ATK - All (magic)",
+    "aura": "ATK - All (magic) - 36%",
     "avatarUrl": "https://mcradane.github.io/raid-data/images/avatar/Trunda_Giltmallet.png",
     "detailsUrl": "https://mcradane.github.io/raid-data/champion-details/Trunda_Giltmallet.json"
   },
@@ -4901,7 +4901,7 @@
     "affinity": "void",
     "faction": "Orcs",
     "role": "attack",
-    "aura": "ATK - All",
+    "aura": "ATK - All - 22%",
     "avatarUrl": "https://mcradane.github.io/raid-data/images/avatar/Tuhak_the_Wanderer.png",
     "detailsUrl": "https://mcradane.github.io/raid-data/champion-details/Tuhak_the_Wanderer.json"
   },
@@ -4920,7 +4920,7 @@
     "affinity": "void",
     "faction": "Barbarians",
     "role": "attack",
-    "aura": "ATK - Faction Crypts",
+    "aura": "ATK - Faction Wars - 42%",
     "avatarUrl": "https://mcradane.github.io/raid-data/images/avatar/Turvold.png",
     "detailsUrl": "https://mcradane.github.io/raid-data/champion-details/Turvold.json"
   },
@@ -4939,7 +4939,7 @@
     "affinity": "magic",
     "faction": "Demonspawn",
     "role": "hp",
-    "aura": "HP - All",
+    "aura": "HP - All - 25",
     "avatarUrl": "https://mcradane.github.io/raid-data/images/avatar/Tyrant_Ixlimor.png",
     "detailsUrl": "https://mcradane.github.io/raid-data/champion-details/Tyrant_Ixlimor.json"
   },
@@ -4976,7 +4976,7 @@
     "affinity": "void",
     "faction": "Banner Lords",
     "role": "support",
-    "aura": "SPD - Doom Tower Battles",
+    "aura": "SPD - Doom Tower - 24%",
     "avatarUrl": "https://mcradane.github.io/raid-data/images/avatar/Ursala_the_Mourner.png",
     "detailsUrl": "https://mcradane.github.io/raid-data/champion-details/Ursala_the_Mourner.json"
   },
@@ -4986,7 +4986,7 @@
     "affinity": "force",
     "faction": "Skinwalkers",
     "role": "defense",
-    "aura": "HP - All",
+    "aura": "HP - All - 25%",
     "avatarUrl": "https://mcradane.github.io/raid-data/images/avatar/Ursine_Icecrusher.png",
     "detailsUrl": "https://mcradane.github.io/raid-data/champion-details/Ursine_Icecrusher.json"
   },
@@ -5005,7 +5005,7 @@
     "affinity": "void",
     "faction": "Barbarians",
     "role": "hp",
-    "aura": "HP - All",
+    "aura": "HP - All - 33%",
     "avatarUrl": "https://mcradane.github.io/raid-data/images/avatar/Ursuga_Warcaller.png",
     "detailsUrl": "https://mcradane.github.io/raid-data/champion-details/Ursuga_Warcaller.json"
   },
@@ -5024,7 +5024,7 @@
     "affinity": "magic",
     "faction": "Banner Lords",
     "role": "support",
-    "aura": "HP - Faction Crypts",
+    "aura": "HP - Faction Wars - 22%",
     "avatarUrl": "https://mcradane.github.io/raid-data/images/avatar/Valerie.png",
     "detailsUrl": "https://mcradane.github.io/raid-data/champion-details/Valerie.json"
   },
@@ -5034,7 +5034,7 @@
     "affinity": "spirit",
     "faction": "Barbarians",
     "role": "defense",
-    "aura": "DEF - Faction Crypts",
+    "aura": "DEF - Faction Wars - 33%",
     "avatarUrl": "https://mcradane.github.io/raid-data/images/avatar/Valkyrie.png",
     "detailsUrl": "https://mcradane.github.io/raid-data/champion-details/Valkyrie.json"
   },
@@ -5044,7 +5044,7 @@
     "affinity": "spirit",
     "faction": "Barbarians",
     "role": "defense",
-    "aura": "RESIST - Arena",
+    "aura": "RESIST - Arena - 45",
     "avatarUrl": "https://mcradane.github.io/raid-data/images/avatar/Valla.png",
     "detailsUrl": "https://mcradane.github.io/raid-data/champion-details/Valla.json"
   },
@@ -5054,7 +5054,7 @@
     "affinity": "void",
     "faction": "Banner Lords",
     "role": "defense",
-    "aura": "RESIST - All",
+    "aura": "RESIST - All - 30",
     "avatarUrl": "https://mcradane.github.io/raid-data/images/avatar/Vanguard.png",
     "detailsUrl": "https://mcradane.github.io/raid-data/champion-details/Vanguard.json"
   },
@@ -5064,7 +5064,7 @@
     "affinity": "void",
     "faction": "The Sacred Order",
     "role": "support",
-    "aura": "HP - All",
+    "aura": "HP - All - 33%",
     "avatarUrl": "https://mcradane.github.io/raid-data/images/avatar/Venus.png",
     "detailsUrl": "https://mcradane.github.io/raid-data/champion-details/Venus.json"
   },
@@ -5074,7 +5074,7 @@
     "affinity": "spirit",
     "faction": "High Elves",
     "role": "defense",
-    "aura": "DEF - Dungeons",
+    "aura": "DEF - Dungeons - 33%",
     "avatarUrl": "https://mcradane.github.io/raid-data/images/avatar/Vergis.png",
     "detailsUrl": "https://mcradane.github.io/raid-data/champion-details/Vergis.json"
   },
@@ -5084,7 +5084,7 @@
     "affinity": "spirit",
     "faction": "Lizardmen",
     "role": "support",
-    "aura": "RESIST - All",
+    "aura": "RESIST - All - 55",
     "avatarUrl": "https://mcradane.github.io/raid-data/images/avatar/Vergumkaar.png",
     "detailsUrl": "https://mcradane.github.io/raid-data/champion-details/Vergumkaar.json"
   },
@@ -5094,7 +5094,7 @@
     "affinity": "void",
     "faction": "Orcs",
     "role": "defense",
-    "aura": "SPD - Dungeons",
+    "aura": "SPD - Dungeons - 15%",
     "avatarUrl": "https://mcradane.github.io/raid-data/images/avatar/Veteran.png",
     "detailsUrl": "https://mcradane.github.io/raid-data/champion-details/Veteran.json"
   },
@@ -5122,7 +5122,7 @@
     "affinity": "void",
     "faction": "Dark Elves",
     "role": "defense",
-    "aura": "DEF - Faction Crypts",
+    "aura": "DEF - Faction Wars - 37%",
     "avatarUrl": "https://mcradane.github.io/raid-data/images/avatar/Visix_the_Unbowed.png",
     "detailsUrl": "https://mcradane.github.io/raid-data/champion-details/Visix_the_Unbowed.json"
   },
@@ -5132,7 +5132,7 @@
     "affinity": "force",
     "faction": "Dark Elves",
     "role": "attack",
-    "aura": "ATK - Dungeons",
+    "aura": "ATK - Dungeons - 34%",
     "avatarUrl": "https://mcradane.github.io/raid-data/images/avatar/Vizier_Ovelis.png",
     "detailsUrl": "https://mcradane.github.io/raid-data/champion-details/Vizier_Ovelis.json"
   },
@@ -5142,7 +5142,7 @@
     "affinity": "spirit",
     "faction": "Undead Hordes",
     "role": "hp",
-    "aura": "ACC - All",
+    "aura": "ACC - All - 40",
     "avatarUrl": "https://mcradane.github.io/raid-data/images/avatar/Vogoth.png",
     "detailsUrl": "https://mcradane.github.io/raid-data/champion-details/Vogoth.json"
   },
@@ -5152,7 +5152,7 @@
     "affinity": "spirit",
     "faction": "Orcs",
     "role": "hp",
-    "aura": "DEF - Dungeons",
+    "aura": "DEF - Dungeons - 33%",
     "avatarUrl": "https://mcradane.github.io/raid-data/images/avatar/Vrask.png",
     "detailsUrl": "https://mcradane.github.io/raid-data/champion-details/Vrask.json"
   },
@@ -5180,7 +5180,7 @@
     "affinity": "spirit",
     "faction": "Dark Elves",
     "role": "attack",
-    "aura": "ATK - Dungeons",
+    "aura": "ATK - Dungeons - 21%",
     "avatarUrl": "https://mcradane.github.io/raid-data/images/avatar/Wanderer.png",
     "detailsUrl": "https://mcradane.github.io/raid-data/champion-details/Wanderer.json"
   },
@@ -5190,7 +5190,7 @@
     "affinity": "spirit",
     "faction": "Barbarians",
     "role": "support",
-    "aura": "DEF - Faction Crypts",
+    "aura": "DEF - Faction Wars - 20%",
     "avatarUrl": "https://mcradane.github.io/raid-data/images/avatar/Wandering_Priest.png",
     "detailsUrl": "https://mcradane.github.io/raid-data/champion-details/Wandering_Priest.json"
   },
@@ -5200,7 +5200,7 @@
     "affinity": "magic",
     "faction": "Ogryn Tribes",
     "role": "attack",
-    "aura": "ACC - Faction Crypts",
+    "aura": "ACC - Faction Wars - 65",
     "avatarUrl": "https://mcradane.github.io/raid-data/images/avatar/War_Mother.png",
     "detailsUrl": "https://mcradane.github.io/raid-data/champion-details/War_Mother.json"
   },
@@ -5219,7 +5219,7 @@
     "affinity": "void",
     "faction": "Banner Lords",
     "role": "support",
-    "aura": "C.RATE - All (void)",
+    "aura": "C.RATE - All (void) - 23%",
     "avatarUrl": "https://mcradane.github.io/raid-data/images/avatar/Warcaster.png",
     "detailsUrl": "https://mcradane.github.io/raid-data/champion-details/Warcaster.json"
   },
@@ -5247,7 +5247,7 @@
     "affinity": "spirit",
     "faction": "Dark Elves",
     "role": "defense",
-    "aura": "HP - Arena",
+    "aura": "HP - Arena - 30%",
     "avatarUrl": "https://mcradane.github.io/raid-data/images/avatar/Warden.png",
     "detailsUrl": "https://mcradane.github.io/raid-data/champion-details/Warden.json"
   },
@@ -5257,7 +5257,7 @@
     "affinity": "void",
     "faction": "Orcs",
     "role": "support",
-    "aura": "RESIST - All",
+    "aura": "RESIST - All - 80",
     "avatarUrl": "https://mcradane.github.io/raid-data/images/avatar/Warlord.png",
     "detailsUrl": "https://mcradane.github.io/raid-data/champion-details/Warlord.json"
   },
@@ -5285,7 +5285,7 @@
     "affinity": "void",
     "faction": "Knight Revenant",
     "role": "attack",
-    "aura": "ATK - Dungeons",
+    "aura": "ATK - Dungeons - 29",
     "avatarUrl": "https://mcradane.github.io/raid-data/images/avatar/Whisper.png",
     "detailsUrl": "https://mcradane.github.io/raid-data/champion-details/Whisper.json"
   },
@@ -5304,7 +5304,7 @@
     "affinity": "magic",
     "faction": "The Sacred Order",
     "role": "support",
-    "aura": "RESIST - Faction Crypts",
+    "aura": "RESIST - Faction Wars - 30",
     "avatarUrl": "https://mcradane.github.io/raid-data/images/avatar/Witness.png",
     "detailsUrl": "https://mcradane.github.io/raid-data/champion-details/Witness.json"
   },
@@ -5332,7 +5332,7 @@
     "affinity": "force",
     "faction": "Undead Hordes",
     "role": "attack",
-    "aura": "ATK - All (force)",
+    "aura": "ATK - All (force) - 30%",
     "avatarUrl": "https://mcradane.github.io/raid-data/images/avatar/Wretch.png",
     "detailsUrl": "https://mcradane.github.io/raid-data/champion-details/Wretch.json"
   },
@@ -5342,7 +5342,7 @@
     "affinity": "void",
     "faction": "Knight Revenant",
     "role": "defense",
-    "aura": "DEF - Arena",
+    "aura": "DEF - Arena - 30%",
     "avatarUrl": "https://mcradane.github.io/raid-data/images/avatar/Wurlim_Frostking.png",
     "detailsUrl": "https://mcradane.github.io/raid-data/champion-details/Wurlim_Frostking.json"
   },
@@ -5361,7 +5361,7 @@
     "affinity": "force",
     "faction": "Skinwalkers",
     "role": "attack",
-    "aura": "ACC - All",
+    "aura": "ACC - All - 40",
     "avatarUrl": "https://mcradane.github.io/raid-data/images/avatar/Yaga_the_Insatiable.png",
     "detailsUrl": "https://mcradane.github.io/raid-data/champion-details/Yaga_the_Insatiable.json"
   },
@@ -5371,7 +5371,7 @@
     "affinity": "void",
     "faction": "Barbarians",
     "role": "attack",
-    "aura": "ATK - Doom Tower",
+    "aura": "ATK - Doom Tower - 43%",
     "avatarUrl": "https://mcradane.github.io/raid-data/images/avatar/Yakarl_the_Scourge.png",
     "detailsUrl": "https://mcradane.github.io/raid-data/champion-details/Yakarl_the_Scourge.json"
   },
@@ -5381,7 +5381,7 @@
     "affinity": "spirit",
     "faction": "High Elves",
     "role": "attack",
-    "aura": "ATK - All",
+    "aura": "ATK - All - 30%",
     "avatarUrl": "https://mcradane.github.io/raid-data/images/avatar/Yannica.png",
     "detailsUrl": "https://mcradane.github.io/raid-data/champion-details/Yannica.json"
   },
@@ -5400,7 +5400,7 @@
     "affinity": "force",
     "faction": "Shadowkin",
     "role": "support",
-    "aura": "SPD - All",
+    "aura": "SPD - All - 19%",
     "avatarUrl": "https://mcradane.github.io/raid-data/images/avatar/Yoshi_the_Drunkard.png",
     "detailsUrl": "https://mcradane.github.io/raid-data/champion-details/Yoshi_the_Drunkard.json"
   },
@@ -5410,7 +5410,7 @@
     "affinity": "force",
     "faction": "Orcs",
     "role": "attack",
-    "aura": "ACC - All",
+    "aura": "ACC - All - 40",
     "avatarUrl": "https://mcradane.github.io/raid-data/images/avatar/Zargala.png",
     "detailsUrl": "https://mcradane.github.io/raid-data/champion-details/Zargala.json"
   },
@@ -5420,7 +5420,7 @@
     "affinity": "force",
     "faction": "Dark Elves",
     "role": "attack",
-    "aura": "ATK - All",
+    "aura": "ATK - All - 33%",
     "avatarUrl": "https://mcradane.github.io/raid-data/images/avatar/Zavia.png",
     "detailsUrl": "https://mcradane.github.io/raid-data/champion-details/Zavia.json"
   },
@@ -5430,7 +5430,7 @@
     "affinity": "spirit",
     "faction": "Undead Hordes",
     "role": "support",
-    "aura": "RESIST - Arena",
+    "aura": "RESIST - Arena - 70",
     "avatarUrl": "https://mcradane.github.io/raid-data/images/avatar/Zelotah.png",
     "detailsUrl": "https://mcradane.github.io/raid-data/champion-details/Zelotah.json"
   },

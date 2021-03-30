@@ -7,7 +7,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
-## [3.40.0] - 2021-03-30
+## [3.40.1] - 2021-03-30
 
 ### Added
 
@@ -17,6 +17,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ### Changed
 
 - Changed aura filename that contain hash and numbers
+- Normalized aura text and add the stat value
 
 ## [3.30.2] - 2021-03-02
 

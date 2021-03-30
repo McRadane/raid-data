@@ -23,6 +23,7 @@
     "Doom Tower": [
       "Aox the Rememberer",
       "Inquisitor Shamael",
+      "Pestilus",
       "Sanguinia"
     ],
     "Dungeons": [
@@ -34,7 +35,7 @@
       "Panthera",
       "Slitherbrute"
     ],
-    "Faction Crypts": [
+    "Faction Wars": [
       "Aina",
       "Alure",
       "Dracomorph",
@@ -45,9 +46,6 @@
       "Rowan",
       "Taurus",
       "War Mother"
-    ],
-    "the Doom Tower": [
-      "Pestilus"
     ]
   },
   "ATK": {
@@ -118,10 +116,11 @@
       "Wanderer",
       "Whisper"
     ],
-    "Faction Crypts": [
+    "Faction Wars": [
       "Abbess",
       "Alaric the Hooded",
       "Avenger",
+      "Boltsmith",
       "Crimson Slayer",
       "Dagger",
       "Delver",
@@ -134,9 +133,6 @@
       "Slasher",
       "Steel Bowyer",
       "Turvold"
-    ],
-    "Faction Wars Crypts": [
-      "Boltsmith"
     ]
   },
   "C.RATE": {
@@ -179,7 +175,7 @@
       "Luthiea",
       "Tallia"
     ],
-    "Faction Crypts": [
+    "Faction Wars": [
       "Bloodfeather",
       "Elenaril"
     ]
@@ -215,6 +211,9 @@
       "Tomb Lord",
       "Wurlim Frostking"
     ],
+    "Doom Tower": [
+      "Prundar"
+    ],
     "Dungeons": [
       "Apothecary",
       "Fortress Goon",
@@ -227,11 +226,13 @@
       "Vergis",
       "Vrask"
     ],
-    "Faction Crypts": [
+    "Faction Wars": [
       "Balthus Drauglord",
       "Chevalier",
       "Fellhound",
+      "Flailer",
       "Ghrush the Mangler",
+      "Grunch Killjoy",
       "Justiciar",
       "Lich",
       "Marked",
@@ -245,15 +246,6 @@
       "Valkyrie",
       "Visix the Unbowed",
       "Wandering Priest"
-    ],
-    "Faction Wars": [
-      "Grunch Killjoy"
-    ],
-    "Faction Wars Crypts": [
-      "Flailer"
-    ],
-    "the Doom Tower": [
-      "Prundar"
     ]
   },
   "HP": {
@@ -301,6 +293,9 @@
       "Miscreated Monster",
       "Warden"
     ],
+    "Doom Tower": [
+      "Lodric Falconheart"
+    ],
     "Dungeons": [
       "Bogwalker",
       "Crimson Helm",
@@ -313,7 +308,7 @@
       "Mystic Hand",
       "Torturehelm"
     ],
-    "Faction Crypts": [
+    "Faction Wars": [
       "Angar",
       "Bloodhorn",
       "Doomscreech",
@@ -330,9 +325,6 @@
       "Sinesha",
       "Tainix Hateflower",
       "Valerie"
-    ],
-    "the Doom Tower": [
-      "Lodric Falconheart"
     ]
   },
   "RESIST": {
@@ -371,7 +363,7 @@
     "Dungeons": [
       "Thenasil"
     ],
-    "Faction Crypts": [
+    "Faction Wars": [
       "Captain Temila",
       "Channeler",
       "Flinger",
@@ -418,7 +410,7 @@
       "Prince Kymar",
       "Skullcrown"
     ],
-    "Doom Tower Battles": [
+    "Doom Tower": [
       "Ursala the Mourner"
     ],
     "Dungeons": [
@@ -430,7 +422,8 @@
       "Spider",
       "Veteran"
     ],
-    "Faction Crypts": [
+    "Faction Wars": [
+      "Abyssal",
       "Bellower",
       "Canoness",
       "Crypt Witch",
@@ -441,9 +434,6 @@
       "Rotting Mage",
       "Skullsworn",
       "Teshada"
-    ],
-    "Faction Wars Crypts": [
-      "Abyssal"
     ]
   }
 }

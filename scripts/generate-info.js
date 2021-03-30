@@ -6,13 +6,14 @@ const championFiles = fs.readdirSync(
 );
 
 const generateAura = (description, name, auras) => {
-  const skillAura = /Increases? (?<affinity>[a-z ]+)?Ally (?<stat>[a-z. ]+) in (?<domain>[a-z ]+) by [0-9%]+/i.exec(
+  const skillAura = /Increases? (?<affinity>[a-z ]+)?Ally (?<stat>[a-z. ]+) in (?<domain>[a-z ]+) by (?<value>[0-9%]+)/i.exec(
     description
   );
 
   let skillDomain = skillAura.groups.domain;
   let skillStat = skillAura.groups.stat;
   let skillAffinity = skillAura.groups.affinity;
+  const skillValue = skillAura.groups.value;
 
   if (skillAffinity) {
     skillAffinity = skillAffinity.toLowerCase();
@@ -23,8 +24,6 @@ const generateAura = (description, name, auras) => {
       skillDomain = "Arena";
       break;
     case "all Battles":
-      skillDomain = "All";
-      break;
     case "all battles":
       skillDomain = "All";
       break;
@@ -37,8 +36,14 @@ const generateAura = (description, name, auras) => {
     case "Campaign Battles":
       skillDomain = "Campaign";
       break;
+    case "Doom Tower Battles":
     case "Doom Tower battles":
+    case "the Doom Tower":
       skillDomain = "Doom Tower";
+      break;
+    case "Faction Wars Crypts":
+    case "Faction Crypts":
+      skillDomain = "Faction Wars";
       break;
   }
 
@@ -74,7 +79,7 @@ const generateAura = (description, name, auras) => {
 
   auras[skillStat][domainLong].push(name);
 
-  return `${skillStat} - ${domainLong}`;
+  return `${skillStat} - ${domainLong} - ${skillValue}`;
 };
 
 /**

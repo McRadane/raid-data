@@ -1,6 +1,6 @@
 {
   "name": "raid-data",
-  "version": "3.40.0",
+  "version": "3.40.1",
   "description": "RAID: Shadow Legends Data",
   "main": "champions-base-info.json",
   "files": [
