@@ -1,0 +1,57 @@
+{
+  "name": "Conscript",
+  "id": "Conscript",
+  "class": {
+    "faction": "Shadowkin",
+    "rarity": "uncommon",
+    "role": "attack",
+    "affinity": "spirit"
+  },
+  "stats": {
+    "hp": 11565,
+    "atk": 1156,
+    "def": 826,
+    "spd": 86,
+    "crate": 15,
+    "cdmg": 50,
+    "resist": 30,
+    "acc": 0
+  },
+  "skills": [
+    {
+      "cd": 0,
+      "mincd": 0,
+      "passive": false,
+      "dmgscaling": ["ATK"],
+      "abilityname": "Peasant’s Bow",
+      "damageMultiplier": "1.5 ATK",
+      "description": "Attacks 1 enemy 2 times.",
+      "books": [
+        "Level 2: Damage +5%",
+        "Level 3: Damage +5%",
+        "Level 4: Damage +5%",
+        "Level 5: Damage +5%",
+        "Level 6: Damage +5%"
+      ]
+    },
+    {
+      "cd": 4,
+      "mincd": 2,
+      "passive": false,
+      "dmgscaling": ["ATK"],
+      "abilityname": "Support Fire",
+      "damageMultiplier": "6.5 ATK",
+      "description": "Attacks 1 enemy has a 50% chance of placing a 15% [Weaken] debuff for 2 turns",
+      "books": [
+        "Level 2: Damage +5%",
+        "Level 3: Damage +5%",
+        "Level 4: Damage +5%",
+        "Level 5: Damage +5%",
+        "Level 6: Cooldown -1",
+        "Level 7: Cooldown -1"
+      ]
+    }
+  ],
+  "version": "3.40.0",
+  "avatarUrl": "https://mcradane.github.io/raid-data/images/avatar/Conscript.png"
+}

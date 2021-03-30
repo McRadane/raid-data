@@ -1,0 +1,82 @@
+{
+  "name": "Oboro",
+  "id": "Oboro",
+  "class": {
+    "faction": "Shadowkin",
+    "rarity": "epic",
+    "role": "attack",
+    "affinity": "void"
+  },
+  "stats": {
+    "hp": 15360,
+    "atk": 1454,
+    "def": 826,
+    "spd": 101,
+    "crate": 15,
+    "cdmg": 60,
+    "resist": 30,
+    "acc": 0
+  },
+  "aura": "Increases Ally ATK in Dungeons by 33%",
+  "skills": [
+    {
+      "cd": 0,
+      "mincd": 0,
+      "passive": false,
+      "dmgscaling": ["ATK"],
+      "abilityname": "Spreading Chaos",
+      "damageMultiplier": "4.2 ATK (Single Target), 2.6 ATK (AoE)",
+      "description": "Attacks 1 enemy. Has a 40% chance of placing a 60% [Decrease DEF] debuff for 2 turns. Will Attack all enemies instead if the target is under 4 or more debuffs.",
+      "books": [
+        "Level 2: Damage +5%",
+        "Level 3: Damage +5%",
+        "Level 4: Buff/Debuff Chance +5%",
+        "Level 5: Buff/Debuff Chance +5%"
+      ]
+    },
+    {
+      "cd": 4,
+      "mincd": 3,
+      "passive": false,
+      "dmgscaling": ["ATK"],
+      "abilityname": "Mystic Smoke",
+      "damageMultiplier": "3.15 ATK",
+      "description": "Attacks 1 enemy 2 times. The second hit has a 75% chance of transferring all debuffs from this champion to the target. The first hit has a 75% chance of stealing all the buffs from the target when attacking under a [Veil] or [Perfect Veil] buff.",
+      "books": [
+        "Level 2: Damage +5%",
+        "Level 3: Damage +5%",
+        "Level 4: Buff/Debuff Chance +10%",
+        "Level 5: Buff/Debuff Chance +15%",
+        "Level 6: Cooldown -1"
+      ]
+    },
+    {
+      "cd": 5,
+      "mincd": 3,
+      "passive": false,
+      "dmgscaling": [],
+      "abilityname": "Ninja Arts",
+      "damageMultiplier": "5.6 ATK",
+      "description": "Places a 30% [Increase C.RATE] buff and a 30% [Increase C.DMG] buff on this champion for 2 turns, then attacks 1 enemy. Places a [Perfect Veil] buff on this champion for 2 turns if this attack is critical.",
+      "books": [
+        "Level 2: Damage +5%",
+        "Level 3: Damage +5%",
+        "Level 4: Damage +5%",
+        "Level 5: Damage +10%",
+        "Level 6: Cooldown -1",
+        "Level 7: Cooldown -1"
+      ]
+    },
+    {
+      "cd": 0,
+      "mincd": 0,
+      "passive": true,
+      "dmgscaling": [],
+      "abilityname": "Vanish",
+      "description": "Places a [Revive on death] buff on this champion for 3 turns whenever they receive a [Veil] or [Perfect Veil] buff.",
+      "books": []
+    }
+  ],
+  "version": "3.40.0",
+  "avatarUrl": "https://mcradane.github.io/raid-data/images/avatar/Oboro.png"
+}

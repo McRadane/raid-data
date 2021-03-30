@@ -7,6 +7,17 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [Unreleased]
 
+## [3.40.0] - 2021-03-30
+
+### Added
+
+- Added new champions
+- Added storage_roominess image
+
+### Changed
+
+- Changed aura filename that contain hash and numbers
+
 ## [3.30.2] - 2021-03-02
 
 ### Added

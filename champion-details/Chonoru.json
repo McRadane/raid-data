@@ -1,0 +1,70 @@
+{
+  "name": "Chonoru",
+  "id": "Chonoru",
+  "class": {
+    "faction": "Shadowkin",
+    "rarity": "epic",
+    "role": "attack",
+    "affinity": "spirit"
+  },
+  "stats": {
+    "hp": 12555,
+    "atk": 1509,
+    "def": 958,
+    "spd": 99,
+    "crate": 15,
+    "cdmg": 60,
+    "resist": 30,
+    "acc": 0
+  },
+  "skills": [
+    {
+      "cd": 0,
+      "mincd": 0,
+      "passive": false,
+      "dmgscaling": ["ATK"],
+      "abilityname": "Night Blossom",
+      "damageMultiplier": "3.55 ATK",
+      "description": "Attacks 1 Enemy. Has a 40% chance of placing [Block Buffs] debuff for 2 turns.",
+      "books": [
+        "Level 2: Damage +5%",
+        "Level 3: Damage +5%",
+        "Level 4: Buff/Debuff Chance +5%",
+        "Level 5: Buff/Debuff Chance +5%"
+      ]
+    },
+    {
+      "cd": 4,
+      "mincd": 3,
+      "passive": false,
+      "dmgscaling": ["ATK"],
+      "abilityname": "Reign of Fear",
+      "damageMultiplier": "1.9 ATK",
+      "description": "Attacks 3 times at random. Each hit has a 75% chance of placing a 25% [Weaken] debuff for 2 turns.",
+      "books": [
+        "Level 2: Damage +5%",
+        "Level 3: Damage +10%",
+        "Level 4: Buff/Debuff Chance +10%",
+        "Level 5: Buff/Debuff Chance +15%",
+        "Level 6: Cooldown -1"
+      ]
+    },
+    {
+      "cd": 4,
+      "mincd": 3,
+      "passive": false,
+      "dmgscaling": ["ATK"],
+      "abilityname": "Lay Bare",
+      "damageMultiplier": "3.6 ATK",
+      "description": "Removes all [Increase DEF] buffs from all enemies, then attacks all enemies. Decreases the cooldown of Lay Bare by 1 turn for each enemy killed by this skill.",
+      "books": [
+        "Level 2: Damage +5%",
+        "Level 3: Damage +5%",
+        "Level 4: Damage +10%",
+        "Level 5: Cooldown -1"
+      ]
+    }
+  ],
+  "version": "3.40.0",
+  "avatarUrl": "https://mcradane.github.io/raid-data/images/avatar/Chonoru.png"
+}

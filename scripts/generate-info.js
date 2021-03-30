@@ -206,3 +206,7 @@ fs.writeFileSync(
   path.resolve(destDir, "champions-by-aura.json"),
   JSON.stringify(auras, null, 2)
 );
+fs.writeFileSync(
+  path.resolve(destDir, "champions.json"),
+  JSON.stringify(Object.keys(baseInfos), null, 2)
+);

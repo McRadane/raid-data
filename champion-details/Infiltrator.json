@@ -1,0 +1,57 @@
+{
+  "name": "Infiltrator",
+  "id": "Infiltrator",
+  "class": {
+    "faction": "Shadowkin",
+    "rarity": "uncommon",
+    "role": "attack",
+    "affinity": "force"
+  },
+  "stats": {
+    "hp": 13875,
+    "atk": 1123,
+    "def": 705,
+    "spd": 101,
+    "crate": 15,
+    "cdmg": 50,
+    "resist": 30,
+    "acc": 0
+  },
+  "skills": [
+    {
+      "cd": 0,
+      "mincd": 0,
+      "passive": false,
+      "dmgscaling": ["ATK"],
+      "abilityname": "Shank",
+      "damageMultiplier": "3.9 ATK",
+      "description": "Attacks 1 enemy",
+      "books": [
+        "Level 2: Damage +5%",
+        "Level 3: Damage +5%",
+        "Level 4: Damage +5%",
+        "Level 5: Damage +5%",
+        "Level 6: Damage +5%"
+      ]
+    },
+    {
+      "cd": 4,
+      "mincd": 2,
+      "passive": false,
+      "dmgscaling": ["ATK"],
+      "abilityname": "Throwing Knives",
+      "damageMultiplier": "3.4 ATK",
+      "description": "Attacks 1 enemy 2 times. Each hit has a 50% chance of placing a 2.5% [Poison] debuff for 2 turns",
+      "books": [
+        "Level 2: Damage +5%",
+        "Level 3: Damage +5%",
+        "Level 4: Damage +5%",
+        "Level 5: Damage +5%",
+        "Level 6: Cooldown -1",
+        "Level 7: Cooldown -1"
+      ]
+    }
+  ],
+  "version": "3.40.0",
+  "avatarUrl": "https://mcradane.github.io/raid-data/images/avatar/Infiltrator.png"
+}

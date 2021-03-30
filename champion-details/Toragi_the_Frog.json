@@ -1,0 +1,79 @@
+{
+  "name": "Toragi the Frog",
+  "id": "Toragi_the_Frog",
+  "class": {
+    "faction": "Shadowkin",
+    "rarity": "epic",
+    "role": "hp",
+    "affinity": "magic"
+  },
+  "stats": {
+    "hp": 21810,
+    "atk": 892,
+    "def": 958,
+    "spd": 96,
+    "crate": 15,
+    "cdmg": 50,
+    "resist": 45,
+    "acc": 0
+  },
+  "aura": "Increases Ally RESIST in all battles by 40.",
+  "skills": [
+    {
+      "cd": 0,
+      "mincd": 0,
+      "passive": false,
+      "dmgscaling": ["HP"],
+      "abilityname": "Swamp Club",
+      "damageMultiplier": "0.2 HP",
+      "description": "Attacks 1 enemy. Has a 30% chance of placing a 50% [Decrease ATK] debuff for 2 turns.",
+      "books": [
+        "Level 2: Damage +5%",
+        "Level 3: Damage +5%",
+        "Level 4: Buff/Debuff Chance +5%",
+        "Level 5: Buff/Debuff Chance +5%"
+      ]
+    },
+    {
+      "cd": 4,
+      "mincd": 3,
+      "passive": false,
+      "dmgscaling": ["HP"],
+      "abilityname": "Potent Stench",
+      "damageMultiplier": "0.2 HP",
+      "description": "Attacks all enemies. Has a 50% chance of placing a [Provoke] debuff for 1 turn. The chance increases by 5% for each debuff on the enemy team.",
+      "books": [
+        "Level 2: Damage +5%",
+        "Level 3: Damage +5%",
+        "Level 4: Damage +10%",
+        "Level 5: Cooldown -1"
+      ]
+    },
+    {
+      "cd": 5,
+      "mincd": 3,
+      "passive": false,
+      "dmgscaling": [],
+      "abilityname": "Bog Blessing",
+      "description": "Places a [Shield] buff equal to 15% of this champion’s MAX HP and a 50% [Ally Protection] buff on all allies except this Champion for 2 turns. Also heals this champion by 25% of their MAX HP and places a 30% [Reflect Damage] buff on them for 3 turns. The heal increases by 2.5% for each [Poison] debuff on the enemy team.",
+      "books": [
+        "Level 2: Heal +5%",
+        "Level 3: Heal +10%",
+        "Level 4: Shield +10%",
+        "Level 5: Cooldown -1",
+        "Level 6: Cooldown -1"
+      ]
+    },
+    {
+      "cd": 0,
+      "mincd": 0,
+      "passive": true,
+      "dmgscaling": [],
+      "abilityname": "Toxic Blood",
+      "description": "When attacks, has a 50% chance of placing a 5% [Poison] Debuff on the attacker for 2 turns. Occurs once per hit.",
+      "books": []
+    }
+  ],
+  "version": "3.40.0",
+  "avatarUrl": "https://mcradane.github.io/raid-data/images/avatar/Toragi_the_Frog.png"
+}

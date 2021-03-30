@@ -575,6 +575,15 @@
     "avatarUrl": "https://mcradane.github.io/raid-data/images/avatar/Bloodhorn.png",
     "detailsUrl": "https://mcradane.github.io/raid-data/champion-details/Bloodhorn.json"
   },
+  "Bloodmask": {
+    "id": "Bloodmask",
+    "rarity": "rare",
+    "affinity": "force",
+    "faction": "Shadowkin",
+    "role": "hp",
+    "avatarUrl": "https://mcradane.github.io/raid-data/images/avatar/Bloodmask.png",
+    "detailsUrl": "https://mcradane.github.io/raid-data/champion-details/Bloodmask.json"
+  },
   "Bloodpainter": {
     "id": "Bloodpainter",
     "rarity": "rare",
@@ -832,6 +841,15 @@
     "avatarUrl": "https://mcradane.github.io/raid-data/images/avatar/Chevalier.png",
     "detailsUrl": "https://mcradane.github.io/raid-data/champion-details/Chevalier.json"
   },
+  "Chonoru": {
+    "id": "Chonoru",
+    "rarity": "epic",
+    "affinity": "spirit",
+    "faction": "Shadowkin",
+    "role": "attack",
+    "avatarUrl": "https://mcradane.github.io/raid-data/images/avatar/Chonoru.png",
+    "detailsUrl": "https://mcradane.github.io/raid-data/champion-details/Chonoru.json"
+  },
   "Chopper": {
     "id": "Chopper",
     "rarity": "rare",
@@ -898,6 +916,15 @@
     "aura": "ATK - All",
     "avatarUrl": "https://mcradane.github.io/raid-data/images/avatar/Conquerer.png",
     "detailsUrl": "https://mcradane.github.io/raid-data/champion-details/Conquerer.json"
+  },
+  "Conscript": {
+    "id": "Conscript",
+    "rarity": "uncommon",
+    "affinity": "spirit",
+    "faction": "Shadowkin",
+    "role": "attack",
+    "avatarUrl": "https://mcradane.github.io/raid-data/images/avatar/Conscript.png",
+    "detailsUrl": "https://mcradane.github.io/raid-data/champion-details/Conscript.json"
   },
   "Corpse Collector": {
     "id": "Corpse_Collector",
@@ -1452,6 +1479,15 @@
     "avatarUrl": "https://mcradane.github.io/raid-data/images/avatar/Fahrakin_the_Fat.png",
     "detailsUrl": "https://mcradane.github.io/raid-data/champion-details/Fahrakin_the_Fat.json"
   },
+  "Fanatic": {
+    "id": "Fanatic",
+    "rarity": "rare",
+    "affinity": "void",
+    "faction": "Shadowkin",
+    "role": "support",
+    "avatarUrl": "https://mcradane.github.io/raid-data/images/avatar/Fanatic.png",
+    "detailsUrl": "https://mcradane.github.io/raid-data/champion-details/Fanatic.json"
+  },
   "Fang Cleric": {
     "id": "Fang_Cleric",
     "rarity": "epic",
@@ -1693,6 +1729,15 @@
     "aura": "HP - Faction Crypts",
     "avatarUrl": "https://mcradane.github.io/raid-data/images/avatar/Geargrinder.png",
     "detailsUrl": "https://mcradane.github.io/raid-data/champion-details/Geargrinder.json"
+  },
+  "Genzin": {
+    "id": "Genzin",
+    "rarity": "legendary",
+    "affinity": "spirit",
+    "faction": "Shadowkin",
+    "role": "attack",
+    "avatarUrl": "https://mcradane.github.io/raid-data/images/avatar/Genzin.png",
+    "detailsUrl": "https://mcradane.github.io/raid-data/champion-details/Genzin.json"
   },
   "Gerhard the Stone": {
     "id": "Gerhard_the_Stone",
@@ -2299,6 +2344,15 @@
     "avatarUrl": "https://mcradane.github.io/raid-data/images/avatar/Infernal_Baroness.png",
     "detailsUrl": "https://mcradane.github.io/raid-data/champion-details/Infernal_Baroness.json"
   },
+  "Infiltrator": {
+    "id": "Infiltrator",
+    "rarity": "uncommon",
+    "affinity": "force",
+    "faction": "Shadowkin",
+    "role": "attack",
+    "avatarUrl": "https://mcradane.github.io/raid-data/images/avatar/Infiltrator.png",
+    "detailsUrl": "https://mcradane.github.io/raid-data/champion-details/Infiltrator.json"
+  },
   "Inithwe Bloodtwin": {
     "id": "Inithwe_Bloodtwin",
     "rarity": "legendary",
@@ -2404,6 +2458,16 @@
     "aura": "SPD - Arena",
     "avatarUrl": "https://mcradane.github.io/raid-data/images/avatar/Jinglehunter.png",
     "detailsUrl": "https://mcradane.github.io/raid-data/champion-details/Jinglehunter.json"
+  },
+  "Jintoro": {
+    "id": "Jintoro",
+    "rarity": "legendary",
+    "affinity": "magic",
+    "faction": "Shadowkin",
+    "role": "attack",
+    "aura": "ATK - All",
+    "avatarUrl": "https://mcradane.github.io/raid-data/images/avatar/Jintoro.png",
+    "detailsUrl": "https://mcradane.github.io/raid-data/champion-details/Jintoro.json"
   },
   "Jizoh": {
     "id": "Jizoh",
@@ -2642,6 +2706,15 @@
     "aura": "DEF - Faction Crypts",
     "avatarUrl": "https://mcradane.github.io/raid-data/images/avatar/Lich.png",
     "detailsUrl": "https://mcradane.github.io/raid-data/champion-details/Lich.json"
+  },
+  "Lifetaker": {
+    "id": "Lifetaker",
+    "rarity": "rare",
+    "affinity": "magic",
+    "faction": "Shadowkin",
+    "role": "attack",
+    "avatarUrl": "https://mcradane.github.io/raid-data/images/avatar/Lifetaker.png",
+    "detailsUrl": "https://mcradane.github.io/raid-data/champion-details/Lifetaker.json"
   },
   "Lightsworn": {
     "id": "Lightsworn",
@@ -3190,6 +3263,16 @@
     "role": "defense",
     "avatarUrl": "https://mcradane.github.io/raid-data/images/avatar/Oathbound.png",
     "detailsUrl": "https://mcradane.github.io/raid-data/champion-details/Oathbound.json"
+  },
+  "Oboro": {
+    "id": "Oboro",
+    "rarity": "epic",
+    "affinity": "void",
+    "faction": "Shadowkin",
+    "role": "attack",
+    "aura": "ATK - Dungeons",
+    "avatarUrl": "https://mcradane.github.io/raid-data/images/avatar/Oboro.png",
+    "detailsUrl": "https://mcradane.github.io/raid-data/champion-details/Oboro.json"
   },
   "Occult Brawler": {
     "id": "Occult_Brawler",
@@ -3849,6 +3932,15 @@
     "role": "hp",
     "avatarUrl": "https://mcradane.github.io/raid-data/images/avatar/Runic_Warder.png",
     "detailsUrl": "https://mcradane.github.io/raid-data/champion-details/Runic_Warder.json"
+  },
+  "Sachi": {
+    "id": "Sachi",
+    "rarity": "epic",
+    "affinity": "force",
+    "faction": "Shadowkin",
+    "role": "support",
+    "avatarUrl": "https://mcradane.github.io/raid-data/images/avatar/Sachi.png",
+    "detailsUrl": "https://mcradane.github.io/raid-data/champion-details/Sachi.json"
   },
   "Saito": {
     "id": "Saito",
@@ -4708,6 +4800,16 @@
     "avatarUrl": "https://mcradane.github.io/raid-data/images/avatar/Tomb_Lord.png",
     "detailsUrl": "https://mcradane.github.io/raid-data/champion-details/Tomb_Lord.json"
   },
+  "Toragi the Frog": {
+    "id": "Toragi_the_Frog",
+    "rarity": "epic",
+    "affinity": "magic",
+    "faction": "Shadowkin",
+    "role": "hp",
+    "aura": "RESIST - All",
+    "avatarUrl": "https://mcradane.github.io/raid-data/images/avatar/Toragi_the_Frog.png",
+    "detailsUrl": "https://mcradane.github.io/raid-data/champion-details/Toragi_the_Frog.json"
+  },
   "Tormentor": {
     "id": "Tormentor",
     "rarity": "rare",
@@ -5291,6 +5393,16 @@
     "role": "attack",
     "avatarUrl": "https://mcradane.github.io/raid-data/images/avatar/Yeoman.png",
     "detailsUrl": "https://mcradane.github.io/raid-data/champion-details/Yeoman.json"
+  },
+  "Yoshi the Drunkard": {
+    "id": "Yoshi_the_Drunkard",
+    "rarity": "legendary",
+    "affinity": "force",
+    "faction": "Shadowkin",
+    "role": "support",
+    "aura": "SPD - All",
+    "avatarUrl": "https://mcradane.github.io/raid-data/images/avatar/Yoshi_the_Drunkard.png",
+    "detailsUrl": "https://mcradane.github.io/raid-data/champion-details/Yoshi_the_Drunkard.json"
   },
   "Zargala": {
     "id": "Zargala",

@@ -1,0 +1,79 @@
+{
+  "name": "Genzin",
+  "id": "Genzin",
+  "class": {
+    "faction": "Shadowkin",
+    "rarity": "legendary",
+    "role": "attack",
+    "affinity": "spirit"
+  },
+  "stats": {
+    "hp": 17505,
+    "atk": 1553,
+    "def": 859,
+    "spd": 100,
+    "crate": 15,
+    "cdmg": 63,
+    "resist": 30,
+    "acc": 0
+  },
+  "skills": [
+    {
+      "cd": 0,
+      "mincd": 0,
+      "passive": false,
+      "dmgscaling": ["ATK"],
+      "abilityname": "Flowing Cuts",
+      "damageMultiplier": "1.3 ATK",
+      "description": "Attacks 1 enemy 3 times. Each hit fills this Champion’s Turn Meter by 6%.",
+      "books": [
+        "Level 2: Damage +5%",
+        "Level 3: Damage +5%",
+        "Level 4: Damage +5%",
+        "Level 5: Damage +5%"
+      ]
+    },
+    {
+      "cd": 4,
+      "mincd": 3,
+      "passive": false,
+      "dmgscaling": ["ATK"],
+      "abilityname": "Steel Parting",
+      "damageMultiplier": "3.8 ATK",
+      "description": "Attacks all enemies. Has a 75% chance of placing a 60% [Decrease DEF] debuff for 2 turns. Each critical hit fills this Champion’s Turn Meter by 10%.",
+      "books": [
+        "Level 2: Damage +5%",
+        "Level 3: Damage +10%",
+        "Level 4: Buff/Debuff Chance +10%",
+        "Level 5: Buff/Debuff Chance +15%",
+        "Level 6: Cooldown -1"
+      ]
+    },
+    {
+      "cd": 4,
+      "mincd": 3,
+      "passive": false,
+      "dmgscaling": ["ATK"],
+      "abilityname": "Fated Vengeance",
+      "damageMultiplier": "5.5 ATK",
+      "description": "Attacks 1 enemy. Will ignore Unkillable buffs and Shield Buffs. Fills this champions turn meter by 30%. Fills these champions turn meter by 60% instead if the target has 50% HP or less after this attack. Also decreases the cooldown of Steel Parting and Fated Vengeance skills by 1 turn if this attack kills an enemy.",
+      "books": [
+        "Level 2: Damage +5%",
+        "Level 3: Damage +10%",
+        "Level 4: Damage +10%",
+        "Level 5: Cooldown -1"
+      ]
+    },
+    {
+      "cd": 0,
+      "mincd": 0,
+      "passive": true,
+      "dmgscaling": [],
+      "abilityname": "Bushido",
+      "description": "Increases this champions SPD by 10 and RES by 50 if there are fewer champions on this champions team than the number of enemies on the enemy team. This effect always works when fighting bosses.",
+      "books": []
+    }
+  ],
+  "version": "3.40.0",
+  "avatarUrl": "https://mcradane.github.io/raid-data/images/avatar/Genzin.png"
+}

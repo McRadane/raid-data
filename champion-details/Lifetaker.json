@@ -1,0 +1,66 @@
+{
+  "name": "Lifetaker",
+  "id": "Lifetaker",
+  "class": {
+    "faction": "Shadowkin",
+    "rarity": "rare",
+    "role": "attack",
+    "affinity": "magic"
+  },
+  "stats": {
+    "hp": 17340,
+    "atk": 1145,
+    "def": 727,
+    "spd": 99,
+    "crate": 15,
+    "cdmg": 57,
+    "resist": 30,
+    "acc": 0
+  },
+  "skills": [
+    {
+      "cd": 0,
+      "mincd": 0,
+      "passive": false,
+      "dmgscaling": ["ATK"],
+      "abilityname": "Bleeding Serum",
+      "damageMultiplier": "2 ATK",
+      "description": "Attacks 1 enemy 2 times. Each hit has a 30% chance of placing a 100% [Heal Reduction] debuff for 2 turns.",
+      "books": [
+        "Level 2: Damage +5%",
+        "Level 3: Damage +5%",
+        "Level 4: Buff/Debuff Chance +5%",
+        "Level 5: Buff/Debuff Chance +5%"
+      ]
+    },
+    {
+      "cd": 4,
+      "mincd": 3,
+      "passive": false,
+      "dmgscaling": ["ATK"],
+      "abilityname": "Leg Bind",
+      "damageMultiplier": "2.3 ATK",
+      "description": "Attacks 1 enemy 3 times. Each hit has a 50% chance of decreasing the target’s Turn Meter by 10%. The third hit has a 50% chance of placing a 30% [Decrease SPD] debuff for 2 turns.",
+      "books": [
+        "Level 2: Damage +5%",
+        "Level 3: Damage +5%",
+        "Level 4: Buff/Debuff Chance +5%",
+        "Level 5: Buff/Debuff Chance +5%",
+        "Level 6: Buff/Debuff Chance +5%",
+        "Level 7: Buff/Debuff Chance +10%",
+        "Level 8: Cooldown -1"
+      ]
+    },
+    {
+      "cd": 4,
+      "mincd": 3,
+      "passive": false,
+      "dmgscaling": [],
+      "abilityname": "Diamond Body",
+      "description": "Places a [Veil] buff on this Champion for 1 turn and a 30% [Reflect Damage] buff on this Champion for 2 turns",
+      "books": ["Level 2: Cooldown -1"]
+    }
+  ],
+  "version": "3.40.0",
+  "avatarUrl": "https://mcradane.github.io/raid-data/images/avatar/Lifetaker.png"
+}

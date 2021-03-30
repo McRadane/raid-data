@@ -1,0 +1,75 @@
+{
+  "name": "Bloodmask",
+  "id": "Bloodmask",
+  "class": {
+    "faction": "Shadowkin",
+    "rarity": "rare",
+    "role": "hp",
+    "affinity": "force"
+  },
+  "stats": {
+    "hp": 19980,
+    "atk": 694,
+    "def": 1002,
+    "spd": 93,
+    "crate": 15,
+    "cdmg": 50,
+    "resist": 40,
+    "acc": 0
+  },
+  "skills": [
+    {
+      "cd": 0,
+      "mincd": 0,
+      "passive": false,
+      "dmgscaling": ["HP"],
+      "abilityname": "Bone Crunch",
+      "damageMultiplier": "0.19 HP",
+      "description": "Attacks 1 enemy. Has a 35% chance of decreasing the target’s Turn Meter by 10%.",
+      "books": [
+        "Level 2: Damage +5%",
+        "Level 3: Damage +5%",
+        "Level 4: Buff/Debuff Chance +5%",
+        "Level 5: Buff/Debuff Chance +5%"
+      ]
+    },
+    {
+      "cd": 4,
+      "mincd": 3,
+      "passive": false,
+      "dmgscaling": ["HP"],
+      "abilityname": "Foot Stomp",
+      "damageMultiplier": "0.27 HP",
+      "description": "Attacks 1 enemy. Has a 50% chance of placing a 15% [Decrease SPD] debuff for 2 turns.",
+      "books": [
+        "Level 2: Damage +5%",
+        "Level 3: Damage +5%",
+        "Level 4: Damage +5%",
+        "Level 5: Buff/Debuff Chance +5%",
+        "Level 6: Buff/Debuff Chance +10%",
+        "Level 7: Buff/Debuff Chance +10%",
+        "Level 8: Cooldown -1"
+      ]
+    },
+    {
+      "cd": 5,
+      "mincd": 3,
+      "passive": false,
+      "dmgscaling": ["HP"],
+      "abilityname": "Skull Fracture",
+      "damageMultiplier": "0.28 HP",
+      "description": "Attacks 1 enemy. Has a 75% chance of placing a [Stun] debuff for 1 turn.",
+      "books": [
+        "Level 2: Damage +5%",
+        "Level 3: Damage +5%",
+        "Level 4: Damage +5%",
+        "Level 5: Buff/Debuff Chance +5%",
+        "Level 6: Buff/Debuff Chance +15%",
+        "Level 7: Cooldown -1",
+        "Level 8: Cooldown -1"
+      ]
+    }
+  ],
+  "version": "3.40.0",
+  "avatarUrl": "https://mcradane.github.io/raid-data/images/avatar/Bloodmask.png"
+}

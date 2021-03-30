@@ -1,0 +1,79 @@
+{
+  "name": "Jintoro",
+  "id": "Jintoro",
+  "class": {
+    "faction": "Shadowkin",
+    "rarity": "legendary",
+    "role": "attack",
+    "affinity": "magic"
+  },
+  "stats": {
+    "hp": 15360,
+    "atk": 1487,
+    "def": 1068,
+    "spd": 102,
+    "crate": 15,
+    "cdmg": 63,
+    "resist": 30,
+    "acc": 10
+  },
+  "aura": "Increases Ally ATK in all Battles by 29%",
+  "skills": [
+    {
+      "cd": 0,
+      "mincd": 0,
+      "passive": false,
+      "dmgscaling": ["ATK"],
+      "abilityname": "Soul Drinker",
+      "damageMultiplier": "3.8 ATK",
+      "description": "Attacks 1 enemy. Grants an Extra Turn if this attack kills an enemy",
+      "books": [
+        "Level 2: Damage +5%",
+        "Level 3: Damage +5%",
+        "Level 4: Damage +5%",
+        "Level 5: Damage +5%"
+      ]
+    },
+    {
+      "cd": 4,
+      "mincd": 3,
+      "passive": false,
+      "dmgscaling": [],
+      "abilityname": "Blood Freeze",
+      "damageMultiplier": "5.8 ATK",
+      "description": "Attacks 1 enemy. Steals 100% of the target’s turn meter. Decreases the cooldown of Oni’s Rage by 1 turn if the target is immune to Turn Meter reduction effects.",
+      "books": [
+        "Level 2: Damage +5%",
+        "Level 3: Damage +10%",
+        "Level 4: Damage +10%",
+        "Level 5: Cooldown -1"
+      ]
+    },
+    {
+      "cd": 4,
+      "mincd": 3,
+      "passive": false,
+      "dmgscaling": [],
+      "abilityname": "Oni’s Rage",
+      "damageMultiplier": "5.7 ATK",
+      "description": "Attacks 1 enemy. Places a 60% [Decrease DEF] and 25% [Weaken] debuff for 2 turns. Will attack 5 times instead of 1 on every 4th use of this skill against the same target in one round.",
+      "books": [
+        "Level 2: Damage +5%",
+        "Level 3: Damage +10%",
+        "Level 4: Damage +10%",
+        "Level 5: Cooldown -1"
+      ]
+    },
+    {
+      "cd": 0,
+      "mincd": 0,
+      "passive": true,
+      "dmgscaling": [],
+      "abilityname": "Vigorous",
+      "description": "All Turn Meter fill effects are increased by 50% on this Champion.",
+      "books": []
+    }
+  ],
+  "version": "3.40.0",
+  "avatarUrl": "https://mcradane.github.io/raid-data/images/avatar/Jintoro.png"
+}
