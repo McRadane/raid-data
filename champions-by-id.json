@@ -1,2126 +1,2875 @@
 [
   {
-    "id": "10",
-    "name": "Vergis"
+    "key": "Vergis",
+    "name": "Vergis",
+    "id": "10"
   },
   {
-    "id": "100",
-    "name": "Hyria"
+    "key": "Hyria",
+    "name": "Hyria",
+    "id": "100"
   },
   {
-    "id": "1010",
-    "name": "Shatterbones"
+    "key": "Rocktooth",
+    "name": "Rocktooth",
+    "id": "1000"
   },
   {
-    "id": "1020",
-    "name": "Erinyes"
+    "key": "Shatterbones",
+    "name": "Shatterbones",
+    "id": "1010"
   },
   {
-    "id": "1030",
-    "name": "Alure"
+    "key": "Erinyes",
+    "name": "Erinyes",
+    "id": "1020"
   },
   {
-    "id": "1040",
-    "name": "Knecht"
+    "key": "Alure",
+    "name": "Alure",
+    "id": "1030"
   },
   {
-    "id": "1050",
-    "name": "Armiger"
+    "key": "Knecht",
+    "name": "Knecht",
+    "id": "1040"
   },
   {
-    "id": "1070",
-    "name": "Maneater"
+    "key": "Armiger",
+    "name": "Armiger",
+    "id": "1050"
   },
   {
-    "id": "1080",
-    "name": "Skinner"
+    "key": "Stoneskin",
+    "name": "Stoneskin",
+    "id": "1060"
   },
   {
-    "id": "1090",
-    "name": "Troglodyte"
+    "key": "Maneater",
+    "name": "Maneater",
+    "id": "1070"
   },
   {
-    "id": "110",
-    "name": "Marksman"
+    "key": "Skinner",
+    "name": "Skinner",
+    "id": "1080"
   },
   {
-    "id": "1100",
-    "name": "Gnarlhorn"
+    "key": "Troglodyte",
+    "name": "Troglodyte",
+    "id": "1090"
   },
   {
-    "id": "1110",
-    "name": "Doomscreech"
+    "key": "Marksman",
+    "name": "Marksman",
+    "id": "110"
   },
   {
-    "id": "1120",
-    "name": "Seeker"
+    "key": "Gnarlhorn",
+    "name": "Gnarlhorn",
+    "id": "1100"
   },
   {
-    "id": "1130",
-    "name": "Flinger"
+    "key": "Doomscreech",
+    "name": "Doomscreech",
+    "id": "1110"
   },
   {
-    "id": "1140",
-    "name": "Hurler"
+    "key": "Seeker",
+    "name": "Seeker",
+    "id": "1120"
   },
   {
-    "id": "1150",
-    "name": "Broadmaw"
+    "key": "Flinger",
+    "name": "Flinger",
+    "id": "1130"
   },
   {
-    "id": "1160",
-    "name": "Rhazin Scarhide"
+    "key": "Hurler",
+    "name": "Hurler",
+    "id": "1140"
   },
   {
-    "id": "1170",
-    "name": "Saurus"
+    "key": "Broadmaw",
+    "name": "Broadmaw",
+    "id": "1150"
   },
   {
-    "id": "1180",
-    "name": "Azure"
+    "key": "Rhazin_Scarhide",
+    "name": "Rhazin Scarhide",
+    "id": "1160"
   },
   {
-    "id": "1190temp",
-    "name": "Vulpine"
+    "key": "Saurus",
+    "name": "Saurus",
+    "id": "1170"
   },
   {
-    "id": "120",
-    "name": "Battlesage"
+    "key": "Azure",
+    "name": "Azure",
+    "id": "1180"
   },
   {
-    "id": "1200",
-    "name": "Grinner"
+    "key": "Vulpine",
+    "name": "Vulpine",
+    "id": "1190temp"
   },
   {
-    "id": "1210",
-    "name": "Husk"
+    "key": "Battlesage",
+    "name": "Battlesage",
+    "id": "120"
   },
   {
-    "id": "1220",
-    "name": "Redeemer"
+    "key": "Grinner",
+    "name": "Grinner",
+    "id": "1200"
   },
   {
-    "id": "1230",
-    "name": "Warden"
+    "key": "Husk",
+    "name": "Husk",
+    "id": "1210"
   },
   {
-    "id": "1240",
-    "name": "Windtalker"
+    "key": "Redeemer",
+    "name": "Redeemer",
+    "id": "1220"
   },
   {
-    "id": "1250",
-    "name": "Jaeger"
+    "key": "Warden",
+    "name": "Warden",
+    "id": "1230"
   },
   {
-    "id": "1260",
-    "name": "Goremask"
+    "key": "Windtalker",
+    "name": "Windtalker",
+    "id": "1240"
   },
   {
-    "id": "1270",
-    "name": "Bloodpainter"
+    "key": "Jaeger",
+    "name": "Jaeger",
+    "id": "1250"
   },
   {
-    "id": "1280",
-    "name": "Ithos"
+    "key": "Goremask",
+    "name": "Goremask",
+    "id": "1260"
   },
   {
-    "id": "1290",
-    "name": "Deathchanter"
+    "key": "Bloodpainter",
+    "name": "Bloodpainter",
+    "id": "1270"
   },
   {
-    "id": "130",
-    "name": "Royal Guard"
+    "key": "Ithos",
+    "name": "Ithos",
+    "id": "1280"
   },
   {
-    "id": "1300",
-    "name": "Veteran"
+    "key": "Deathchanter",
+    "name": "Deathchanter",
+    "id": "1290"
   },
   {
-    "id": "1310",
-    "name": "Terrorbeast"
+    "key": "Royal_Guard",
+    "name": "Royal Guard",
+    "id": "130"
   },
   {
-    "id": "1320",
-    "name": "Chopper"
+    "key": "Veteran",
+    "name": "Veteran",
+    "id": "1300"
   },
   {
-    "id": "1330",
-    "name": "Seer"
+    "key": "Terrorbeast",
+    "name": "Terrorbeast",
+    "id": "1310"
   },
   {
-    "id": "1340",
-    "name": "Jarang"
+    "key": "Chopper",
+    "name": "Chopper",
+    "id": "1320"
   },
   {
-    "id": "1350",
-    "name": "Drake"
+    "key": "Seer",
+    "name": "Seer",
+    "id": "1330"
   },
   {
-    "id": "1360",
-    "name": "Dracomorph"
+    "key": "Jarang",
+    "name": "Jarang",
+    "id": "1340"
   },
   {
-    "id": "1370",
-    "name": "Cultist"
+    "key": "Drake",
+    "name": "Drake",
+    "id": "1350"
   },
   {
-    "id": "1380",
-    "name": "Herald"
+    "key": "Dracomorph",
+    "name": "Dracomorph",
+    "id": "1360"
   },
   {
-    "id": "1390",
-    "name": "Admonitor"
+    "key": "Cultist",
+    "name": "Cultist",
+    "id": "1370"
   },
   {
-    "id": "1400",
-    "name": "Aothar"
+    "key": "Herald",
+    "name": "Herald",
+    "id": "1380"
   },
   {
-    "id": "1410_temp",
-    "name": "Intercessor"
+    "key": "Admonitor",
+    "name": "Admonitor",
+    "id": "1390"
   },
   {
-    "id": "1420",
-    "name": "Battle Sister"
+    "key": "Cataphract",
+    "name": "Cataphract",
+    "id": "140"
   },
   {
-    "id": "1430",
-    "name": "Lord Shazar"
+    "key": "Aothar",
+    "name": "Aothar",
+    "id": "1400"
   },
   {
-    "id": "1440",
-    "name": "Prince Kymar"
+    "key": "Intercessor",
+    "name": "Intercessor",
+    "id": "1410_temp"
   },
   {
-    "id": "1450",
-    "name": "Incubus"
+    "key": "Battle_Sister",
+    "name": "Battle Sister",
+    "id": "1420"
   },
   {
-    "id": "1460",
-    "name": "Hound Spawn"
+    "key": "Lord_Shazar",
+    "name": "Lord Shazar",
+    "id": "1430"
   },
   {
-    "id": "1470",
-    "name": "Hellfang"
+    "key": "Prince_Kymar",
+    "name": "Prince Kymar",
+    "id": "1440"
   },
   {
-    "id": "1520",
-    "name": "Slayer"
+    "key": "Incubus",
+    "name": "Incubus",
+    "id": "1450"
   },
   {
-    "id": "1530",
-    "name": "Marked"
+    "key": "Hound_Spawn",
+    "name": "Hound Spawn",
+    "id": "1460"
   },
   {
-    "id": "1540",
-    "name": "Pit Fighter"
+    "key": "Hellfang",
+    "name": "Hellfang",
+    "id": "1470"
   },
   {
-    "id": "1550",
-    "name": "Ritualist"
+    "key": "Galek",
+    "name": "Galek",
+    "id": "1480"
   },
   {
-    "id": "1560",
-    "name": "Theurgist"
+    "key": "Elhain",
+    "name": "Elhain",
+    "id": "1490"
   },
   {
-    "id": "1570",
-    "name": "Skullcrown"
+    "key": "Crossbowman",
+    "name": "Crossbowman",
+    "id": "150"
   },
   {
-    "id": "1580_temp",
-    "name": "Gladiator"
+    "key": "Athel",
+    "name": "Athel",
+    "id": "1500"
   },
   {
-    "id": "1590",
-    "name": "Deathless"
+    "key": "Kael",
+    "name": "Kael",
+    "id": "1510"
   },
   {
-    "id": "160",
-    "name": "Raglin"
+    "key": "Slayer",
+    "name": "Slayer",
+    "id": "1520"
   },
   {
-    "id": "1600",
-    "name": "Kytis"
+    "key": "Marked",
+    "name": "Marked",
+    "id": "1530"
   },
   {
-    "id": "1610_temp",
-    "name": "Siegebreaker"
+    "key": "Pit_Fighter",
+    "name": "Pit Fighter",
+    "id": "1540"
   },
   {
-    "id": "1620",
-    "name": "Souldrinker"
+    "key": "Ritualist",
+    "name": "Ritualist",
+    "id": "1550"
   },
   {
-    "id": "1630",
-    "name": "Diabolist"
+    "key": "Theurgist",
+    "name": "Theurgist",
+    "id": "1560"
   },
   {
-    "id": "1640",
-    "name": "Nazana"
+    "key": "Skullcrown",
+    "name": "Skullcrown",
+    "id": "1570"
   },
   {
-    "id": "1650",
-    "name": "Spikehead"
+    "key": "Gladiator",
+    "name": "Gladiator",
+    "id": "1580_temp"
   },
   {
-    "id": "1660",
-    "name": "Vrask"
+    "key": "Deathless",
+    "name": "Deathless",
+    "id": "1590"
   },
   {
-    "id": "1670",
-    "name": "Throatcutter"
+    "key": "Raglin",
+    "name": "Raglin",
+    "id": "160"
   },
   {
-    "id": "1680",
-    "name": "Hardscale"
+    "key": "Kytis",
+    "name": "Kytis",
+    "id": "1600"
   },
   {
-    "id": "1690",
-    "name": "Stalker"
+    "key": "Siegebreaker",
+    "name": "Siegebreaker",
+    "id": "1610_temp"
   },
   {
-    "id": "170",
-    "name": "Hordin"
+    "key": "Souldrinker",
+    "name": "Souldrinker",
+    "id": "1620"
   },
   {
-    "id": "1700",
-    "name": "Sister Militant"
+    "key": "Diabolist",
+    "name": "Diabolist",
+    "id": "1630"
   },
   {
-    "id": "1710",
-    "name": "Exemplar"
+    "key": "Nazana",
+    "name": "Nazana",
+    "id": "1640"
   },
   {
-    "id": "1720",
-    "name": "Elfguard"
+    "key": "Spikehead",
+    "name": "Spikehead",
+    "id": "1650"
   },
   {
-    "id": "1730",
-    "name": "Luthiea"
+    "key": "Vrask",
+    "name": "Vrask",
+    "id": "1660"
   },
   {
-    "id": "1740",
-    "name": "Zargala"
+    "key": "Throatcutter",
+    "name": "Throatcutter",
+    "id": "1670"
   },
   {
-    "id": "1760",
-    "name": "Huntress"
+    "key": "Hardscale",
+    "name": "Hardscale",
+    "id": "1680"
   },
   {
-    "id": "1770_temp",
-    "name": "Errol"
+    "key": "Stalker",
+    "name": "Stalker",
+    "id": "1690"
   },
   {
-    "id": "1780_temp",
-    "name": "Martyr"
+    "key": "Hordin",
+    "name": "Hordin",
+    "id": "170"
   },
   {
-    "id": "1790",
-    "name": "Norog"
+    "key": "Sister_Militant",
+    "name": "Sister Militant",
+    "id": "1700"
   },
   {
-    "id": "180",
-    "name": "Rowan"
+    "key": "Exemplar",
+    "name": "Exemplar",
+    "id": "1710"
   },
   {
-    "id": "1800",
-    "name": "Steelskull"
+    "key": "Elfguard",
+    "name": "Elfguard",
+    "id": "1720"
   },
   {
-    "id": "1810",
-    "name": "Karam"
+    "key": "Luthiea",
+    "name": "Luthiea",
+    "id": "1730"
   },
   {
-    "id": "1820",
-    "name": "Bloodgorged"
+    "key": "Zargala",
+    "name": "Zargala",
+    "id": "1740"
   },
   {
-    "id": "1830",
-    "name": "Nethril"
+    "key": "Lyssandra",
+    "name": "Lyssandra",
+    "id": "1750"
   },
   {
-    "id": "1840",
-    "name": "Lich"
+    "key": "Huntress",
+    "name": "Huntress",
+    "id": "1760"
   },
   {
-    "id": "1850",
-    "name": "Shieldguard"
+    "key": "Errol",
+    "name": "Errol",
+    "id": "1770_temp"
   },
   {
-    "id": "1860",
-    "name": "Halberdier"
+    "key": "Martyr",
+    "name": "Martyr",
+    "id": "1780_temp"
   },
   {
-    "id": "1870",
-    "name": "Bloodfeather"
+    "key": "Norog",
+    "name": "Norog",
+    "id": "1790"
   },
   {
-    "id": "1880",
-    "name": "Squire"
+    "key": "Rowan",
+    "name": "Rowan",
+    "id": "180"
   },
   {
-    "id": "1890",
-    "name": "Paragon"
+    "key": "Steelskull",
+    "name": "Steelskull",
+    "id": "1800"
   },
   {
-    "id": "190",
-    "name": "Tayrel"
+    "key": "Karam",
+    "name": "Karam",
+    "id": "1810"
   },
   {
-    "id": "1900",
-    "name": "Ghostborn"
+    "key": "Bloodgorged",
+    "name": "Bloodgorged",
+    "id": "1820"
   },
   {
-    "id": "1920",
-    "name": "Psylar"
+    "key": "Nethril",
+    "name": "Nethril",
+    "id": "1830"
   },
   {
-    "id": "1930",
-    "name": "Channeler"
+    "key": "Lich",
+    "name": "Lich",
+    "id": "1840"
   },
   {
-    "id": "1940",
-    "name": "Preserver"
+    "key": "Shieldguard",
+    "name": "Shieldguard",
+    "id": "1850"
   },
   {
-    "id": "1950",
-    "name": "Pilgrim"
+    "key": "Halberdier",
+    "name": "Halberdier",
+    "id": "1860"
   },
   {
-    "id": "1960",
-    "name": "Preacher"
+    "key": "Bloodfeather",
+    "name": "Bloodfeather",
+    "id": "1870"
   },
   {
-    "id": "1970",
-    "name": "Hexweaver"
+    "key": "Squire",
+    "name": "Squire",
+    "id": "1880"
   },
   {
-    "id": "1980",
-    "name": "Penitent"
+    "key": "Paragon",
+    "name": "Paragon",
+    "id": "1890"
   },
   {
-    "id": "1990",
-    "name": "Outrider"
+    "key": "Tayrel",
+    "name": "Tayrel",
+    "id": "190"
   },
   {
-    "id": "20",
-    "name": "Banshee"
+    "key": "Ghostborn",
+    "name": "Ghostborn",
+    "id": "1900"
   },
   {
-    "id": "200",
-    "name": "Deathknight"
+    "key": "Magus",
+    "name": "Magus",
+    "id": "1910"
   },
   {
-    "id": "2000",
-    "name": "Cardinal"
+    "key": "Psylar",
+    "name": "Psylar",
+    "id": "1920"
   },
   {
-    "id": "2010",
-    "name": "Acolyte"
+    "key": "Channeler",
+    "name": "Channeler",
+    "id": "1930"
   },
   {
-    "id": "2030",
-    "name": "Elder"
+    "key": "Preserver",
+    "name": "Preserver",
+    "id": "1940"
   },
   {
-    "id": "2040",
-    "name": "Courtier"
+    "key": "Pilgrim",
+    "name": "Pilgrim",
+    "id": "1950"
   },
   {
-    "id": "2050",
-    "name": "Roshcard the Tower"
+    "key": "Preacher",
+    "name": "Preacher",
+    "id": "1960"
   },
   {
-    "id": "2070",
-    "name": "Confessor"
+    "key": "Hexweaver",
+    "name": "Hexweaver",
+    "id": "1970"
   },
   {
-    "id": "2080",
-    "name": "Bonekeeper"
+    "key": "Penitent",
+    "name": "Penitent",
+    "id": "1980"
   },
   {
-    "id": "2090",
-    "name": "Bloodbraid"
+    "key": "Outrider",
+    "name": "Outrider",
+    "id": "1990"
   },
   {
-    "id": "210",
-    "name": "Death Hound"
+    "key": "Banshee",
+    "name": "Banshee",
+    "id": "20"
   },
   {
-    "id": "2100",
-    "name": "Anointed"
+    "key": "Deathknight",
+    "name": "Deathknight",
+    "id": "200"
   },
   {
-    "id": "2110",
-    "name": "Crusader"
+    "key": "Cardinal",
+    "name": "Cardinal",
+    "id": "2000"
   },
   {
-    "id": "2130",
-    "name": "Grimskin"
+    "key": "Acolyte",
+    "name": "Acolyte",
+    "id": "2010"
   },
   {
-    "id": "2140",
-    "name": "Canoness"
+    "key": "Stalwart",
+    "name": "Stalwart",
+    "id": "2020"
   },
   {
-    "id": "2150",
-    "name": "Lemure"
+    "key": "Elder",
+    "name": "Elder",
+    "id": "2030"
   },
   {
-    "id": "2160",
-    "name": "Valkyrie"
+    "key": "Courtier",
+    "name": "Courtier",
+    "id": "2040"
   },
   {
-    "id": "2170",
-    "name": "Aina"
+    "key": "Roshcard_the_Tower",
+    "name": "Roshcard the Tower",
+    "id": "2050"
   },
   {
-    "id": "2190",
-    "name": "Lamellar"
+    "key": "Warpriest",
+    "name": "Warpriest",
+    "id": "2060"
   },
   {
-    "id": "2200",
-    "name": "Judicator"
+    "key": "Confessor",
+    "name": "Confessor",
+    "id": "2070"
   },
   {
-    "id": "2210",
-    "name": "Novitiate"
+    "key": "Bonekeeper",
+    "name": "Bonekeeper",
+    "id": "2080"
   },
   {
-    "id": "2220",
-    "name": "Justiciar"
+    "key": "Bloodbraid",
+    "name": "Bloodbraid",
+    "id": "2090"
   },
   {
-    "id": "2230",
-    "name": "Peydma"
+    "key": "Death_Hound",
+    "name": "Death Hound",
+    "id": "210"
   },
   {
-    "id": "2240",
-    "name": "Slasher"
+    "key": "Anointed",
+    "name": "Anointed",
+    "id": "2100"
   },
   {
-    "id": "2250",
-    "name": "Shirimani"
+    "key": "Lord_Champfort",
+    "name": "Lord Champfort",
+    "id": "21010"
   },
   {
-    "id": "2260",
-    "name": "Woad-Painted"
+    "name": "Fu-Shan",
+    "key": "Fu_Shan",
+    "id": "21020"
   },
   {
-    "id": "2270",
-    "name": "Angar"
+    "key": "MaShalled",
+    "name": "Ma’Shalled",
+    "id": "21030"
   },
   {
-    "id": "2280",
-    "name": "Hexia"
+    "key": "Warchief",
+    "name": "Warchief",
+    "id": "21050"
   },
   {
-    "id": "2290",
-    "name": "Hellhound"
+    "key": "Queen_Eva",
+    "name": "Queen Eva",
+    "id": "21060"
   },
   {
-    "id": "230",
-    "name": "Outlaw Monk"
+    "name": "Bad-el-Kazar",
+    "key": "Bad_el_Kazar",
+    "id": "21080"
   },
   {
-    "id": "2300",
-    "name": "Metalshaper"
+    "key": "Big_Un",
+    "name": "Big ‘Un",
+    "id": "21090"
   },
   {
-    "id": "2310",
-    "name": "Abbess"
+    "key": "Crusader",
+    "name": "Crusader",
+    "id": "2110"
   },
   {
-    "id": "2320",
-    "name": "Richtoff the Bold"
+    "key": "Bystophus",
+    "name": "Bystophus",
+    "id": "21110"
   },
   {
-    "id": "2330",
-    "name": "Robar"
+    "name": "Mortu-Macaab",
+    "key": "Mortu_Macaab",
+    "id": "21120"
   },
   {
-    "id": "2340",
-    "name": "Hellgazer"
+    "key": "Sniper",
+    "name": "Sniper",
+    "id": "2120"
   },
   {
-    "id": "2350",
-    "name": "Soulless"
+    "key": "Grimskin",
+    "name": "Grimskin",
+    "id": "2130"
   },
   {
-    "id": "2360",
-    "name": "Elenaril"
+    "key": "Canoness",
+    "name": "Canoness",
+    "id": "2140"
   },
   {
-    "id": "2370",
-    "name": "Turvold"
+    "key": "Lemure",
+    "name": "Lemure",
+    "id": "2150"
   },
   {
-    "id": "2380",
-    "name": "Wretch"
+    "key": "Valkyrie",
+    "name": "Valkyrie",
+    "id": "2160"
   },
   {
-    "id": "2390",
-    "name": "Sethallia"
+    "key": "Aina",
+    "name": "Aina",
+    "id": "2170"
   },
   {
-    "id": "240",
-    "name": "Lugan the Steadfast"
+    "key": "Chaplain",
+    "name": "Chaplain",
+    "id": "2180"
   },
   {
-    "id": "2400",
-    "name": "Warcaster"
+    "key": "Lamellar",
+    "name": "Lamellar",
+    "id": "2190"
   },
   {
-    "id": "2410",
-    "name": "Flesheater"
+    "key": "Bandit",
+    "name": "Bandit",
+    "id": "220"
   },
   {
-    "id": "2420",
-    "name": "Crusher"
+    "key": "Judicator",
+    "name": "Judicator",
+    "id": "2200"
   },
   {
-    "id": "2430",
-    "name": "Totem"
+    "key": "Novitiate",
+    "name": "Novitiate",
+    "id": "2210"
   },
   {
-    "id": "2440",
-    "name": "Royal Huntsman"
+    "key": "Justiciar",
+    "name": "Justiciar",
+    "id": "2220"
   },
   {
-    "id": "2450",
-    "name": "Galkut"
+    "key": "Peydma",
+    "name": "Peydma",
+    "id": "2230"
   },
   {
-    "id": "2470",
-    "name": "Infernal Baroness"
+    "key": "Slasher",
+    "name": "Slasher",
+    "id": "2240"
   },
   {
-    "id": "2480",
-    "name": "Dervish"
+    "key": "Shirimani",
+    "name": "Shirimani",
+    "id": "2250"
   },
   {
-    "id": "2490",
-    "name": "Lightsworn"
+    "name": "Woad-Painted",
+    "key": "Woad_Painted",
+    "id": "2260"
   },
   {
-    "id": "250",
-    "name": "Arcanist"
+    "key": "Angar",
+    "name": "Angar",
+    "id": "2270"
   },
   {
-    "id": "2500",
-    "name": "Bushi"
+    "key": "Hexia",
+    "name": "Hexia",
+    "id": "2280"
   },
   {
-    "id": "2520",
-    "name": "Hollow"
+    "key": "Hellhound",
+    "name": "Hellhound",
+    "id": "2290"
   },
   {
-    "id": "2530",
-    "name": "War Mother"
+    "key": "Outlaw_Monk",
+    "name": "Outlaw Monk",
+    "id": "230"
   },
   {
-    "id": "25390",
-    "name": "Ripperfist"
+    "key": "Metalshaper",
+    "name": "Metalshaper",
+    "id": "2300"
   },
   {
-    "id": "2540",
-    "name": "Pitspawn"
+    "key": "Abbess",
+    "name": "Abbess",
+    "id": "2310"
   },
   {
-    "id": "2550",
-    "name": "Altan"
+    "key": "Richtoff_the_Bold",
+    "name": "Richtoff the Bold",
+    "id": "2320"
   },
   {
-    "id": "2560",
-    "name": "Shaman"
+    "key": "Robar",
+    "name": "Robar",
+    "id": "2330"
   },
   {
-    "id": "2570",
-    "name": "Adriel"
+    "key": "Hellgazer",
+    "name": "Hellgazer",
+    "id": "2340"
   },
   {
-    "id": "2580",
-    "name": "Jotun"
+    "key": "Soulless",
+    "name": "Soulless",
+    "id": "2350"
   },
   {
-    "id": "2590",
-    "name": "Taurus"
+    "key": "Elenaril",
+    "name": "Elenaril",
+    "id": "2360"
   },
   {
-    "id": "260",
-    "name": "Luria"
+    "key": "Turvold",
+    "name": "Turvold",
+    "id": "2370"
   },
   {
-    "id": "2600",
-    "name": "Ignatius"
+    "key": "Wretch",
+    "name": "Wretch",
+    "id": "2380"
   },
   {
-    "id": "2610",
-    "name": "Hope"
+    "key": "Sethallia",
+    "name": "Sethallia",
+    "id": "2390"
   },
   {
-    "id": "2620",
-    "name": "Skirmisher"
+    "key": "Lugan_the_Steadfast",
+    "name": "Lugan the Steadfast",
+    "id": "240"
   },
   {
-    "id": "2630",
-    "name": "Ox"
+    "key": "Warcaster",
+    "name": "Warcaster",
+    "id": "2400"
   },
   {
-    "id": "2640",
-    "name": "Ifrit"
+    "key": "Flesheater",
+    "name": "Flesheater",
+    "id": "2410"
   },
   {
-    "id": "2650",
-    "name": "Chevalier"
+    "key": "Crusher",
+    "name": "Crusher",
+    "id": "2420"
   },
   {
-    "id": "2660",
-    "name": "Basher"
+    "key": "Totem",
+    "name": "Totem",
+    "id": "2430"
   },
   {
-    "id": "2670",
-    "name": "Flesh-Tearer"
+    "key": "Royal_Huntsman",
+    "name": "Royal Huntsman",
+    "id": "2440"
   },
   {
-    "id": "2680",
-    "name": "Ripper"
+    "key": "Galkut",
+    "name": "Galkut",
+    "id": "2450"
   },
   {
-    "id": "2690",
-    "name": "Grappler"
+    "key": "Maiden",
+    "name": "Maiden",
+    "id": "2460"
   },
   {
-    "id": "270",
-    "name": "Raider"
+    "key": "Infernal_Baroness",
+    "name": "Infernal Baroness",
+    "id": "2470"
   },
   {
-    "id": "2700",
-    "name": "Bloodhorn"
+    "key": "Dervish",
+    "name": "Dervish",
+    "id": "2480"
   },
   {
-    "id": "2710",
-    "name": "Longbeard"
+    "key": "Lightsworn",
+    "name": "Lightsworn",
+    "id": "2490"
   },
   {
-    "id": "2720",
-    "name": "Hakkorhn Smashlord"
+    "key": "Arcanist",
+    "name": "Arcanist",
+    "id": "250"
   },
   {
-    "id": "2730",
-    "name": "Skink"
+    "key": "Bushi",
+    "name": "Bushi",
+    "id": "2500"
   },
   {
-    "id": "2740",
-    "name": "Gator"
+    "key": "Grandmaster",
+    "name": "Grandmaster",
+    "id": "2510"
   },
   {
-    "id": "2760",
-    "name": "Marquis"
+    "key": "Hollow",
+    "name": "Hollow",
+    "id": "2520"
   },
   {
-    "id": "2770",
-    "name": "Fellhound"
+    "key": "War_Mother",
+    "name": "War Mother",
+    "id": "2530"
   },
   {
-    "id": "2780",
-    "name": "Crypt Witch"
+    "key": "Pitspawn",
+    "name": "Pitspawn",
+    "id": "2540"
   },
   {
-    "id": "2790",
-    "name": "Daywalker"
+    "key": "Altan",
+    "name": "Altan",
+    "id": "2550"
   },
   {
-    "id": "280",
-    "name": "Faceless"
+    "key": "Shaman",
+    "name": "Shaman",
+    "id": "2560"
   },
   {
-    "id": "2800",
-    "name": "Doompriest"
+    "key": "Adriel",
+    "name": "Adriel",
+    "id": "2570"
   },
   {
-    "id": "2810",
-    "name": "Bellower"
+    "key": "Jotun",
+    "name": "Jotun",
+    "id": "2580"
   },
   {
-    "id": "2820",
-    "name": "Pounder"
+    "key": "Taurus",
+    "name": "Taurus",
+    "id": "2590"
   },
   {
-    "id": "2830",
-    "name": "Frostskin"
+    "key": "Luria",
+    "name": "Luria",
+    "id": "260"
   },
   {
-    "id": "2840",
-    "name": "Oldbeard"
+    "key": "Ignatius",
+    "name": "Ignatius",
+    "id": "2600"
   },
   {
-    "id": "2850",
-    "name": "Magister"
+    "key": "Hope",
+    "name": "Hope",
+    "id": "2610"
   },
   {
-    "id": "2860",
-    "name": "Retainer"
+    "key": "Skirmisher",
+    "name": "Skirmisher",
+    "id": "2620"
   },
   {
-    "id": "2870",
-    "name": "Heartpiercer"
+    "key": "Ox",
+    "name": "Ox",
+    "id": "2630"
   },
   {
-    "id": "2880",
-    "name": "Delver"
+    "key": "Ifrit",
+    "name": "Ifrit",
+    "id": "2640"
   },
   {
-    "id": "2890",
-    "name": "Eviscerator"
+    "key": "Chevalier",
+    "name": "Chevalier",
+    "id": "2650"
   },
   {
-    "id": "290",
-    "name": "Sharpshooter"
+    "key": "Basher",
+    "name": "Basher",
+    "id": "2660"
   },
   {
-    "id": "2900",
-    "name": "Wanderer"
+    "name": "Flesh-Tearer",
+    "key": "Flesh_Tearer",
+    "id": "2670"
   },
   {
-    "id": "2910",
-    "name": "Relickeeper"
+    "key": "Ripper",
+    "name": "Ripper",
+    "id": "2680"
   },
   {
-    "id": "2920",
-    "name": "Gurgoh the Augur"
+    "key": "Grappler",
+    "name": "Grappler",
+    "id": "2690"
   },
   {
-    "id": "2930",
-    "name": "Slitherbrute"
+    "key": "Raider",
+    "name": "Raider",
+    "id": "270"
   },
   {
-    "id": "2940",
-    "name": "Marquess"
+    "key": "Bloodhorn",
+    "name": "Bloodhorn",
+    "id": "2700"
   },
   {
-    "id": "2950",
-    "name": "Cruetraxa"
+    "key": "Longbeard",
+    "name": "Longbeard",
+    "id": "2710"
   },
   {
-    "id": "2960",
-    "name": "Basilisk"
+    "key": "Hakkorhn_Smashlord",
+    "name": "Hakkorhn Smashlord",
+    "id": "2720"
   },
   {
-    "id": "2970",
-    "name": "Zephyr Sniper"
+    "key": "Skink",
+    "name": "Skink",
+    "id": "2730"
   },
   {
-    "id": "2980",
-    "name": "Kantra the Cyclone"
+    "key": "Gator",
+    "name": "Gator",
+    "id": "2740"
   },
   {
-    "id": "2990",
-    "name": "Jareg"
+    "key": "Marquis",
+    "name": "Marquis",
+    "id": "2760"
   },
   {
-    "id": "30",
-    "name": "Apothecary"
+    "key": "Fellhound",
+    "name": "Fellhound",
+    "id": "2770"
   },
   {
-    "id": "300",
-    "name": "Thenasil"
+    "key": "Crypt_Witch",
+    "name": "Crypt Witch",
+    "id": "2780"
   },
   {
-    "id": "3000",
-    "name": "Sir Nicholas"
+    "key": "Daywalker",
+    "name": "Daywalker",
+    "id": "2790"
   },
   {
-    "id": "3010",
-    "name": "Reinbeast"
+    "key": "Faceless",
+    "name": "Faceless",
+    "id": "280"
   },
   {
-    "id": "3020",
-    "name": "Jinglehunter"
+    "key": "Doompriest",
+    "name": "Doompriest",
+    "id": "2800"
   },
   {
-    "id": "3030",
-    "name": "Frostbringer"
+    "key": "Bellower",
+    "name": "Bellower",
+    "id": "2810"
   },
   {
-    "id": "3040",
-    "name": "Witness"
+    "key": "Pounder",
+    "name": "Pounder",
+    "id": "2820"
   },
   {
-    "id": "3050",
-    "name": "Interceptor"
+    "key": "Frostskin",
+    "name": "Frostskin",
+    "id": "2830"
   },
   {
-    "id": "3060",
-    "name": "Rotting Mage"
+    "key": "Oldbeard",
+    "name": "Oldbeard",
+    "id": "2840"
   },
   {
-    "id": "3070",
-    "name": "Malbranche"
+    "key": "Magister",
+    "name": "Magister",
+    "id": "2850"
   },
   {
-    "id": "3080",
-    "name": "Pit Cur"
+    "key": "Retainer",
+    "name": "Retainer",
+    "id": "2860"
   },
   {
-    "id": "3090",
-    "name": "Treefeller"
+    "key": "Heartpiercer",
+    "name": "Heartpiercer",
+    "id": "2870"
   },
   {
-    "id": "310",
-    "name": "Judge"
+    "key": "Delver",
+    "name": "Delver",
+    "id": "2880"
   },
   {
-    "id": "3100",
-    "name": "Fortress Goon"
+    "key": "Eviscerator",
+    "name": "Eviscerator",
+    "id": "2890"
   },
   {
-    "id": "3110",
-    "name": "Centurion"
+    "key": "Sharpshooter",
+    "name": "Sharpshooter",
+    "id": "290"
   },
   {
-    "id": "3120",
-    "name": "Crimson Slayer"
+    "key": "Wanderer",
+    "name": "Wanderer",
+    "id": "2900"
   },
   {
-    "id": "3130",
-    "name": "Steel Bowyer"
+    "key": "Relickeeper",
+    "name": "Relickeeper",
+    "id": "2910"
   },
   {
-    "id": "3140",
-    "name": "Pain Keeper"
+    "key": "Gurgoh_the_Augur",
+    "name": "Gurgoh the Augur",
+    "id": "2920"
   },
   {
-    "id": "3150",
-    "name": "Harvester"
+    "key": "Slitherbrute",
+    "name": "Slitherbrute",
+    "id": "2930"
   },
   {
-    "id": "3160",
-    "name": "Vanguard"
+    "key": "Marquess",
+    "name": "Marquess",
+    "id": "2940"
   },
   {
-    "id": "3170",
-    "name": "Drexthar Bloodtwin"
+    "key": "Cruetraxa",
+    "name": "Cruetraxa",
+    "id": "2950"
   },
   {
-    "id": "3180",
-    "name": "Inithwe Bloodtwin"
+    "key": "Basilisk",
+    "name": "Basilisk",
+    "id": "2960"
   },
   {
-    "id": "3190",
-    "name": "Crypt-King Graal"
+    "key": "Zephyr_Sniper",
+    "name": "Zephyr Sniper",
+    "id": "2970"
   },
   {
-    "id": "320",
-    "name": "Gorgorab"
+    "key": "Kantra_the_Cyclone",
+    "name": "Kantra the Cyclone",
+    "id": "2980"
   },
   {
-    "id": "3200",
-    "name": "Hegemon"
+    "key": "Jareg",
+    "name": "Jareg",
+    "id": "2990"
   },
   {
-    "id": "3210",
-    "name": "Missionary"
+    "key": "Apothecary",
+    "name": "Apothecary",
+    "id": "30"
   },
   {
-    "id": "3220",
-    "name": "Cagebreaker"
+    "key": "Thenasil",
+    "name": "Thenasil",
+    "id": "300"
   },
   {
-    "id": "3230",
-    "name": "Towering Titan"
+    "key": "Sir_Nicholas",
+    "name": "Sir Nicholas",
+    "id": "3000"
   },
   {
-    "id": "3240",
-    "name": "Jizoh"
+    "key": "Reinbeast",
+    "name": "Reinbeast",
+    "id": "3010"
   },
   {
-    "id": "3250",
-    "name": "Alika"
+    "key": "Jinglehunter",
+    "name": "Jinglehunter",
+    "id": "3020"
   },
   {
-    "id": "3260",
-    "name": "Sikara"
+    "key": "Frostbringer",
+    "name": "Frostbringer",
+    "id": "3030"
   },
   {
-    "id": "3270",
-    "name": "Pitiless One"
+    "key": "Witness",
+    "name": "Witness",
+    "id": "3040"
   },
   {
-    "id": "3280",
-    "name": "Golden Reaper"
+    "key": "Interceptor",
+    "name": "Interceptor",
+    "id": "3050"
   },
   {
-    "id": "3290",
-    "name": "Teshada"
+    "key": "Rotting_Mage",
+    "name": "Rotting Mage",
+    "id": "3060"
   },
   {
-    "id": "330",
-    "name": "Avenger"
+    "key": "Malbranche",
+    "name": "Malbranche",
+    "id": "3070"
   },
   {
-    "id": "3300",
-    "name": "Occult Brawler"
+    "key": "Pit_Cur",
+    "name": "Pit Cur",
+    "id": "3080"
   },
   {
-    "id": "3310",
-    "name": "Aristocrat"
+    "key": "Treefeller",
+    "name": "Treefeller",
+    "id": "3090"
   },
   {
-    "id": "3320",
-    "name": "Hungerer"
+    "key": "Judge",
+    "name": "Judge",
+    "id": "310"
   },
   {
-    "id": "3330",
-    "name": "Tracker"
+    "key": "Fortress_Goon",
+    "name": "Fortress Goon",
+    "id": "3100"
   },
   {
-    "id": "3340",
-    "name": "Thrasher"
+    "key": "Centurion",
+    "name": "Centurion",
+    "id": "3110"
   },
   {
-    "id": "3350",
-    "name": "Tormentor"
+    "key": "Crimson_Slayer",
+    "name": "Crimson Slayer",
+    "id": "3120"
   },
   {
-    "id": "3360",
-    "name": "Adjudicator"
+    "key": "Steel_Bowyer",
+    "name": "Steel Bowyer",
+    "id": "3130"
   },
   {
-    "id": "3370",
-    "name": "Thrall"
+    "key": "Pain_Keeper",
+    "name": "Pain Keeper",
+    "id": "3140"
   },
   {
-    "id": "3380",
-    "name": "Temptress"
+    "key": "Harvester",
+    "name": "Harvester",
+    "id": "3150"
   },
   {
-    "id": "3390",
-    "name": "Seducer"
+    "key": "Vanguard",
+    "name": "Vanguard",
+    "id": "3160"
   },
   {
-    "id": "340",
-    "name": "Executioner"
+    "key": "Drexthar_Bloodtwin",
+    "name": "Drexthar Bloodtwin",
+    "id": "3170"
   },
   {
-    "id": "3400",
-    "name": "Hospitaller"
+    "key": "Inithwe_Bloodtwin",
+    "name": "Inithwe Bloodtwin",
+    "id": "3180"
   },
   {
-    "id": "3410",
-    "name": "Harrier"
+    "name": "Crypt-King Graal",
+    "key": "Crypt_King_Graal",
+    "id": "3190"
   },
   {
-    "id": "3420",
-    "name": "Tallia"
+    "key": "Gorgorab",
+    "name": "Gorgorab",
+    "id": "320"
   },
   {
-    "id": "3430",
-    "name": "Fenax"
+    "key": "Hegemon",
+    "name": "Hegemon",
+    "id": "3200"
   },
   {
-    "id": "3440",
-    "name": "Juliana"
+    "key": "Missionary",
+    "name": "Missionary",
+    "id": "3210"
   },
   {
-    "id": "3450",
-    "name": "Romero"
+    "key": "Cagebreaker",
+    "name": "Cagebreaker",
+    "id": "3220"
   },
   {
-    "id": "3460",
-    "name": "Kallia"
+    "key": "Towering_Titan",
+    "name": "Towering Titan",
+    "id": "3230"
   },
   {
-    "id": "3470",
-    "name": "Atur"
+    "key": "Jizoh",
+    "name": "Jizoh",
+    "id": "3240"
   },
   {
-    "id": "3480",
-    "name": "Zavia"
+    "key": "Alika",
+    "name": "Alika",
+    "id": "3250"
   },
   {
-    "id": "3490",
-    "name": "Belanor"
+    "key": "Sikara",
+    "name": "Sikara",
+    "id": "3260"
   },
   {
-    "id": "350",
-    "name": "Tomb Lord"
+    "key": "Pitiless_One",
+    "name": "Pitiless One",
+    "id": "3270"
   },
   {
-    "id": "3500",
-    "name": "Venus"
+    "key": "Golden_Reaper",
+    "name": "Golden Reaper",
+    "id": "3280"
   },
   {
-    "id": "3510",
-    "name": "Cupidus"
+    "key": "Teshada",
+    "name": "Teshada",
+    "id": "3290"
   },
   {
-    "id": "3520",
-    "name": "Umbral Enchantress"
+    "key": "Avenger",
+    "name": "Avenger",
+    "id": "330"
   },
   {
-    "id": "3530",
-    "name": "Tyrant Ixlimor"
+    "key": "Occult_Brawler",
+    "name": "Occult Brawler",
+    "id": "3300"
   },
   {
-    "id": "3540",
-    "name": "Snorting Thug"
+    "key": "Aristocrat",
+    "name": "Aristocrat",
+    "id": "3310"
   },
   {
-    "id": "3550",
-    "name": "Haruspex"
+    "key": "Hungerer",
+    "name": "Hungerer",
+    "id": "3320"
   },
   {
-    "id": "3560",
-    "name": "Arbiter"
+    "key": "Tracker",
+    "name": "Tracker",
+    "id": "3330"
   },
   {
-    "id": "3570",
-    "name": "Shamrock"
+    "key": "Thrasher",
+    "name": "Thrasher",
+    "id": "3340"
   },
   {
-    "id": "3580",
-    "name": "Stitched Beast"
+    "key": "Tormentor",
+    "name": "Tormentor",
+    "id": "3350"
   },
   {
-    "id": "3590",
-    "name": "Rocktooth"
+    "key": "Adjudicator",
+    "name": "Adjudicator",
+    "id": "3360"
   },
   {
-    "id": "360",
-    "name": "Oathbound"
+    "key": "Thrall",
+    "name": "Thrall",
+    "id": "3370"
   },
   {
-    "id": "3600",
-    "name": "Rocktooth"
+    "key": "Temptress",
+    "name": "Temptress",
+    "id": "3380"
   },
   {
-    "id": "3610",
-    "name": "Basileus Roanas"
+    "key": "Seducer",
+    "name": "Seducer",
+    "id": "3390"
   },
   {
-    "id": "3620",
-    "name": "Reliquary Tender"
+    "key": "Executioner",
+    "name": "Executioner",
+    "id": "340"
   },
   {
-    "id": "3630",
-    "name": "Amarantine Skeleton"
+    "key": "Hospitaller",
+    "name": "Hospitaller",
+    "id": "3400"
   },
   {
-    "id": "3640",
-    "name": "Catacomb Councilor"
+    "key": "Harrier",
+    "name": "Harrier",
+    "id": "3410"
   },
   {
-    "id": "3650",
-    "name": "Defiled Sinner"
+    "key": "Tallia",
+    "name": "Tallia",
+    "id": "3420"
   },
   {
-    "id": "3670",
-    "name": "Krisk the Ageless"
+    "key": "Fenax",
+    "name": "Fenax",
+    "id": "3430"
   },
   {
-    "id": "3680",
-    "name": "Grohak the Bloodied"
+    "key": "Juliana",
+    "name": "Juliana",
+    "id": "3440"
   },
   {
-    "id": "3690",
-    "name": "Maeve"
+    "key": "Romero",
+    "name": "Romero",
+    "id": "3450"
   },
   {
-    "id": "370",
-    "name": "Black Knight"
+    "key": "Kallia",
+    "name": "Kallia",
+    "id": "3460"
   },
   {
-    "id": "3700",
-    "name": "Haarken Greatblade"
+    "key": "Atur",
+    "name": "Atur",
+    "id": "3470"
   },
   {
-    "id": "3710",
-    "name": "Ragemonger"
+    "key": "Zavia",
+    "name": "Zavia",
+    "id": "3480"
   },
   {
-    "id": "3720",
-    "name": "Bully"
+    "key": "Belanor",
+    "name": "Belanor",
+    "id": "3490"
   },
   {
-    "id": "3730",
-    "name": "Head Taker"
+    "key": "Tomb_Lord",
+    "name": "Tomb Lord",
+    "id": "350"
   },
   {
-    "id": "3740",
-    "name": "Suwai Firstborn"
+    "key": "Venus",
+    "name": "Venus",
+    "id": "3500"
   },
   {
-    "id": "3760",
-    "name": "Lurker"
+    "key": "Cupidus",
+    "name": "Cupidus",
+    "id": "3510"
   },
   {
-    "id": "3770",
-    "name": "Captain Temila"
+    "key": "Umbral_Enchantress",
+    "name": "Umbral Enchantress",
+    "id": "3520"
   },
   {
-    "id": "3780",
-    "name": "Word Bearer"
+    "key": "Tyrant_Ixlimor",
+    "name": "Tyrant Ixlimor",
+    "id": "3530"
   },
   {
-    "id": "3790",
-    "name": "Chancellor Yasmin"
+    "key": "Snorting_Thug",
+    "name": "Snorting Thug",
+    "id": "3540"
   },
   {
-    "id": "380",
-    "name": "Baron"
+    "key": "Haruspex",
+    "name": "Haruspex",
+    "id": "3550"
   },
   {
-    "id": "3800",
-    "name": "Suzerain Katonn"
+    "key": "Arbiter",
+    "name": "Arbiter",
+    "id": "3560"
   },
   {
-    "id": "3810",
-    "name": "Frontline Warrior"
+    "key": "Shamrock",
+    "name": "Shamrock",
+    "id": "3570"
   },
   {
-    "id": "3820",
-    "name": "Dead Crusader"
+    "key": "Stitched_Beast",
+    "name": "Stitched Beast",
+    "id": "3580"
   },
   {
-    "id": "3830",
-    "name": "Lanakis the Chosen"
+    "key": "Oathbound",
+    "name": "Oathbound",
+    "id": "360"
   },
   {
-    "id": "3840",
-    "name": "Sandbow"
+    "key": "Basileus_Roanas",
+    "name": "Basileus Roanas",
+    "id": "3610"
   },
   {
-    "id": "3850",
-    "name": "Bombardier"
+    "key": "Reliquary_Tender",
+    "name": "Reliquary Tender",
+    "id": "3620"
   },
   {
-    "id": "3860",
-    "name": "Elder Skarg"
+    "key": "Amarantine_Skeleton",
+    "name": "Amarantine Skeleton",
+    "id": "3630"
   },
   {
-    "id": "3870",
-    "name": "Deacon Armstrong"
+    "key": "Catacomb_Councilor",
+    "name": "Catacomb Councilor",
+    "id": "3640"
   },
   {
-    "id": "3880",
-    "name": "Sepulcher Sentinel"
+    "key": "Defiled_Sinner",
+    "name": "Defiled Sinner",
+    "id": "3650"
   },
   {
-    "id": "390",
-    "name": "Heiress"
+    "key": "Krisk_the_Ageless",
+    "name": "Krisk the Ageless",
+    "id": "3670"
   },
   {
-    "id": "3900",
-    "name": "Ripperfist"
+    "key": "Grohak_the_Bloodied",
+    "name": "Grohak the Bloodied",
+    "id": "3680"
   },
   {
-    "id": "3910",
-    "name": "Nogdar the Headhunter"
+    "key": "Maeve",
+    "name": "Maeve",
+    "id": "3690"
   },
   {
-    "id": "3920",
-    "name": "Ruffstone"
+    "key": "Black_Knight",
+    "name": "Black Knight",
+    "id": "370"
   },
   {
-    "id": "3930",
-    "name": "Kreela Witch-Arm"
+    "key": "Haarken_Greatblade",
+    "name": "Haarken Greatblade",
+    "id": "3700"
   },
   {
-    "id": "3940",
-    "name": "Hill Nomad"
+    "key": "Ragemonger",
+    "name": "Ragemonger",
+    "id": "3710"
   },
   {
-    "id": "3950",
-    "name": "Steadfast Marshal"
+    "key": "Bully",
+    "name": "Bully",
+    "id": "3720"
   },
   {
-    "id": "3960",
-    "name": "Corpse Collector"
+    "key": "Head_Taker",
+    "name": "Head Taker",
+    "id": "3730"
   },
   {
-    "id": "3970",
-    "name": "Mistress of Hymns"
+    "key": "Suwai_Firstborn",
+    "name": "Suwai Firstborn",
+    "id": "3740"
   },
   {
-    "id": "3980",
-    "name": "Vizier Ovelis"
+    "key": "Lurker",
+    "name": "Lurker",
+    "id": "3760"
   },
   {
-    "id": "3990",
-    "name": "Candraphon"
+    "key": "Captain_Temila",
+    "name": "Captain Temila",
+    "id": "3770"
   },
   {
-    "id": "40",
-    "name": "Coldheart"
+    "key": "Word_Bearer",
+    "name": "Word Bearer",
+    "id": "3780"
   },
   {
-    "id": "400",
-    "name": "Magekiller"
+    "key": "Chancellor_Yasmin",
+    "name": "Chancellor Yasmin",
+    "id": "3790"
   },
   {
-    "id": "4000",
-    "name": "Excruciator"
+    "key": "Baron",
+    "name": "Baron",
+    "id": "380"
   },
   {
-    "id": "4010",
-    "name": "High Khatun"
+    "key": "Suzerain_Katonn",
+    "name": "Suzerain Katonn",
+    "id": "3800"
   },
   {
-    "id": "4020",
-    "name": "Yaga the Insatiable"
+    "key": "Frontline_Warrior",
+    "name": "Frontline Warrior",
+    "id": "3810"
   },
   {
-    "id": "4030",
-    "name": "Dark Athel"
+    "key": "Dead_Crusader",
+    "name": "Dead Crusader",
+    "id": "3820"
   },
   {
-    "id": "4040",
-    "name": "Foli"
+    "key": "Lanakis_the_Chosen",
+    "name": "Lanakis the Chosen",
+    "id": "3830"
   },
   {
-    "id": "4050",
-    "name": "Ogryn Jailer"
+    "key": "Sandbow",
+    "name": "Sandbow",
+    "id": "3840"
   },
   {
-    "id": "4060",
-    "name": "Mausoleum Mage"
+    "key": "Bombardier",
+    "name": "Bombardier",
+    "id": "3850"
   },
   {
-    "id": "4070",
-    "name": "Ghoulish Ranger"
+    "key": "Elder_Skarg",
+    "name": "Elder Skarg",
+    "id": "3860"
   },
   {
-    "id": "4080",
-    "name": "Yannica"
+    "key": "Deacon_Armstrong",
+    "name": "Deacon Armstrong",
+    "id": "3870"
   },
   {
-    "id": "4090",
-    "name": "Sandlashed Survivor"
+    "key": "Sepulcher_Sentinel",
+    "name": "Sepulcher Sentinel",
+    "id": "3880"
   },
   {
-    "id": "410",
-    "name": "Skartorsis"
+    "key": "Heiress",
+    "name": "Heiress",
+    "id": "390"
   },
   {
-    "id": "4100",
-    "name": "Pigsticker"
+    "key": "Nogdar_the_Headhunter",
+    "name": "Nogdar the Headhunter",
+    "id": "3910"
   },
   {
-    "id": "4110",
-    "name": "Teela Goremane"
+    "key": "Ruffstone",
+    "name": "Ruffstone",
+    "id": "3920"
   },
   {
-    "id": "4120",
-    "name": "Bergoth the Malformed"
+    "key": "Kreela_Witch_Arm",
+    "name": "Kreela Witch-Arm",
+    "id": "3930"
   },
   {
-    "id": "4130",
-    "name": "Necrohunter"
+    "key": "Hill_Nomad",
+    "name": "Hill Nomad",
+    "id": "3940"
   },
   {
-    "id": "4140",
-    "name": "Seneschal"
+    "key": "Steadfast_Marshal",
+    "name": "Steadfast Marshal",
+    "id": "3950"
   },
   {
-    "id": "4150",
-    "name": "Grumbler"
+    "key": "Corpse_Collector",
+    "name": "Corpse Collector",
+    "id": "3960"
   },
   {
-    "id": "4160",
-    "name": "Rock Breaker"
+    "key": "Mistress_of_Hymns",
+    "name": "Mistress of Hymns",
+    "id": "3970"
   },
   {
-    "id": "4170",
-    "name": "Runic Warder"
+    "key": "Vizier_Ovelis",
+    "name": "Vizier Ovelis",
+    "id": "3980"
   },
   {
-    "id": "4180",
-    "name": "Bulwark"
+    "key": "Candraphon",
+    "name": "Candraphon",
+    "id": "3990"
   },
   {
-    "id": "4190",
-    "name": "Madman"
+    "key": "Coldheart",
+    "name": "Coldheart",
+    "id": "40"
   },
   {
-    "id": "420",
-    "name": "Renegade"
+    "key": "Magekiller",
+    "name": "Magekiller",
+    "id": "400"
   },
   {
-    "id": "4200",
-    "name": "Runekeeper Dazdurk"
+    "key": "Excruciator",
+    "name": "Excruciator",
+    "id": "4000"
   },
   {
-    "id": "4210",
-    "name": "Rearguard Sergeant"
+    "key": "High_Khatun",
+    "name": "High Khatun",
+    "id": "4010"
   },
   {
-    "id": "4220",
-    "name": "Slicer"
+    "key": "Yaga_the_Insatiable",
+    "name": "Yaga the Insatiable",
+    "id": "4020"
   },
   {
-    "id": "4230",
-    "name": "Line Infantry"
+    "key": "Dark_Athel",
+    "name": "Dark Athel",
+    "id": "4030"
   },
   {
-    "id": "4240",
-    "name": "Painsmith"
+    "key": "Foli",
+    "name": "Foli",
+    "id": "4040"
   },
   {
-    "id": "4250",
-    "name": "Grizzled Jarl"
+    "key": "Ogryn_Jailer",
+    "name": "Ogryn Jailer",
+    "id": "4050"
   },
   {
-    "id": "4260",
-    "name": "Trunda Giltmallet"
+    "key": "Mausoleum_Mage",
+    "name": "Mausoleum Mage",
+    "id": "4060"
   },
   {
-    "id": "4270",
-    "name": "Mountain King"
+    "key": "Ghoulish_Ranger",
+    "name": "Ghoulish Ranger",
+    "id": "4070"
   },
   {
-    "id": "4280",
-    "name": "Chemist"
+    "key": "Yannica",
+    "name": "Yannica",
+    "id": "4080"
   },
   {
-    "id": "4290",
-    "name": "Baerdal Fellhammer"
+    "key": "Sandlashed_Survivor",
+    "name": "Sandlashed Survivor",
+    "id": "4090"
   },
   {
-    "id": "430",
-    "name": "Arbalester"
+    "key": "Skartorsis",
+    "name": "Skartorsis",
+    "id": "410"
   },
   {
-    "id": "4300",
-    "name": "Beast Wrestler"
+    "key": "Pigsticker",
+    "name": "Pigsticker",
+    "id": "4100"
   },
   {
-    "id": "4310",
-    "name": "Master Butcher"
+    "key": "Teela_Goremane",
+    "name": "Teela Goremane",
+    "id": "4110"
   },
   {
-    "id": "4320",
-    "name": "Honor Guard"
+    "key": "Bergoth_the_Malformed",
+    "name": "Bergoth the Malformed",
+    "id": "4120"
   },
   {
-    "id": "4330",
-    "name": "Stout Axeman"
+    "key": "Necrohunter",
+    "name": "Necrohunter",
+    "id": "4130"
   },
   {
-    "id": "4340",
-    "name": "Tunnel Steward"
+    "key": "Seneschal",
+    "name": "Seneschal",
+    "id": "4140"
   },
   {
-    "id": "4350",
-    "name": "Vilespawn"
+    "key": "Grumbler",
+    "name": "Grumbler",
+    "id": "4150"
   },
   {
-    "id": "4360",
-    "name": "Suntribe"
+    "key": "Rock_Breaker",
+    "name": "Rock Breaker",
+    "id": "4160"
   },
   {
-    "id": "4370",
-    "name": "Mother Superior"
+    "key": "Runic_Warder",
+    "name": "Runic Warder",
+    "id": "4170"
   },
   {
-    "id": "4380",
-    "name": "Lady Etessa"
+    "key": "Bulwark",
+    "name": "Bulwark",
+    "id": "4180"
   },
   {
-    "id": "4390",
-    "name": "Gala Longbraids"
+    "key": "Madman",
+    "name": "Madman",
+    "id": "4190"
   },
   {
-    "id": "440",
-    "name": "Septimus"
+    "key": "Renegade",
+    "name": "Renegade",
+    "id": "420"
   },
   {
-    "id": "4400",
-    "name": "Twinclaw Disciple"
+    "key": "Runekeeper_Dazdurk",
+    "name": "Runekeeper Dazdurk",
+    "id": "4200"
   },
   {
-    "id": "4410",
-    "name": "Corpulent Cadaver"
+    "key": "Rearguard_Sergeant",
+    "name": "Rearguard Sergeant",
+    "id": "4210"
   },
   {
-    "id": "4420",
-    "name": "Duchess Lilitu"
+    "key": "Slicer",
+    "name": "Slicer",
+    "id": "4220"
   },
   {
-    "id": "4430",
-    "name": "Thea the Tomb Angel"
+    "key": "Line_Infantry",
+    "name": "Line Infantry",
+    "id": "4230"
   },
   {
-    "id": "4440",
-    "name": "Soulbond Bowyer"
+    "key": "Painsmith",
+    "name": "Painsmith",
+    "id": "4240"
   },
   {
-    "id": "4450",
-    "name": "Perforator"
+    "key": "Grizzled_Jarl",
+    "name": "Grizzled Jarl",
+    "id": "4250"
   },
   {
-    "id": "4470",
-    "name": "Coffin Smasher"
+    "key": "Trunda_Giltmallet",
+    "name": "Trunda Giltmallet",
+    "id": "4260"
   },
   {
-    "id": "4480",
-    "name": "Ursine Icecrusher"
+    "key": "Mountain_King",
+    "name": "Mountain King",
+    "id": "4270"
   },
   {
-    "id": "4490",
-    "name": "Stag Knight"
+    "key": "Chemist",
+    "name": "Chemist",
+    "id": "4280"
   },
   {
-    "id": "4500",
-    "name": "Frozen Banshee"
+    "key": "Baerdal_Fellhammer",
+    "name": "Baerdal Fellhammer",
+    "id": "4290"
   },
   {
-    "id": "4510",
-    "name": "Wurlim Frostking"
+    "key": "Arbalester",
+    "name": "Arbalester",
+    "id": "430"
   },
   {
-    "id": "4520",
-    "name": "Maulie Tankard"
+    "key": "Beast_Wrestler",
+    "name": "Beast Wrestler",
+    "id": "4300"
   },
   {
-    "id": "4530",
-    "name": "Skytouched Shaman"
+    "key": "Master_Butcher",
+    "name": "Master Butcher",
+    "id": "4310"
   },
   {
-    "id": "4540",
-    "name": "Inquisitor Shamael"
+    "key": "Honor_Guard",
+    "name": "Honor Guard",
+    "id": "4320"
   },
   {
-    "id": "4550",
-    "name": "Fang Cleric"
+    "key": "Stout_Axeman",
+    "name": "Stout Axeman",
+    "id": "4330"
   },
   {
-    "id": "4560",
-    "name": "Harvest Jack"
+    "key": "Tunnel_Steward",
+    "name": "Tunnel Steward",
+    "id": "4340"
   },
   {
-    "id": "4570",
-    "name": "Madame Serris"
+    "key": "Vilespawn",
+    "name": "Vilespawn",
+    "id": "4350"
   },
   {
-    "id": "4580",
-    "name": "Miscreated Monster"
+    "key": "Suntribe",
+    "name": "Suntribe",
+    "id": "4360"
   },
   {
-    "id": "4590",
-    "name": "Brakus the Shifter"
+    "key": "Mother_Superior",
+    "name": "Mother Superior",
+    "id": "4370"
   },
   {
-    "id": "460",
-    "name": "Knight-Errant"
+    "key": "Lady_Etessa",
+    "name": "Lady Etessa",
+    "id": "4380"
   },
   {
-    "id": "4600",
-    "name": "Ultimate Galek"
+    "key": "Gala_Longbraids",
+    "name": "Gala Longbraids",
+    "id": "4390"
   },
   {
-    "id": "4610",
-    "name": "Valla"
+    "key": "Septimus",
+    "name": "Septimus",
+    "id": "440"
   },
   {
-    "id": "4620",
-    "name": "Whisper"
+    "key": "Twinclaw_Disciple",
+    "name": "Twinclaw Disciple",
+    "id": "4400"
   },
   {
-    "id": "4630",
-    "name": "Tormin the Cold"
+    "key": "Corpulent_Cadaver",
+    "name": "Corpulent Cadaver",
+    "id": "4410"
   },
   {
-    "id": "4640",
-    "name": "Gurptuk Moss-Beard"
+    "key": "Duchess_Lilitu",
+    "name": "Duchess Lilitu",
+    "id": "4420"
   },
   {
-    "id": "4650",
-    "name": "Quargan the Crowned"
+    "key": "Thea_the_Tomb_Angel",
+    "name": "Thea the Tomb Angel",
+    "id": "4430"
   },
   {
-    "id": "4660",
-    "name": "Myrmidon"
+    "key": "Soulbond_Bowyer",
+    "name": "Soulbond Bowyer",
+    "id": "4440"
   },
   {
-    "id": "4670",
-    "name": "Cudgeler"
+    "key": "Perforator",
+    "name": "Perforator",
+    "id": "4450"
   },
   {
-    "id": "4680",
-    "name": "Hatchet Slinger"
+    "key": "Coffin_Smasher",
+    "name": "Coffin Smasher",
+    "id": "4470"
   },
   {
-    "id": "4690",
-    "name": "Fleshmonger"
+    "key": "Ursine_Icecrusher",
+    "name": "Ursine Icecrusher",
+    "id": "4480"
   },
   {
-    "id": "470",
-    "name": "Skullsquire"
+    "key": "Stag_Knight",
+    "name": "Stag Knight",
+    "id": "4490"
   },
   {
-    "id": "4700",
-    "name": "Fencer"
+    "key": "Valerie",
+    "name": "Valerie",
+    "id": "450"
   },
   {
-    "id": "4710",
-    "name": "Lydia the Deathsiren"
+    "key": "Frozen_Banshee",
+    "name": "Frozen Banshee",
+    "id": "4500"
   },
   {
-    "id": "4720",
-    "name": "Dark Elhain"
+    "key": "Wurlim_Frostking",
+    "name": "Wurlim Frostking",
+    "id": "4510"
   },
   {
-    "id": "4730",
-    "name": "Gravechill Killer"
+    "key": "Maulie_Tankard",
+    "name": "Maulie Tankard",
+    "id": "4520"
   },
   {
-    "id": "4740",
-    "name": "Ursine Ironhide"
+    "key": "Skytouched_Shaman",
+    "name": "Skytouched Shaman",
+    "id": "4530"
   },
   {
-    "id": "4750",
-    "name": "Siphi the Lost Bride"
+    "key": "Inquisitor_Shamael",
+    "name": "Inquisitor Shamael",
+    "id": "4540"
   },
   {
-    "id": "4760",
-    "name": "Rotos the Lost Groom"
+    "key": "Fang_Cleric",
+    "name": "Fang Cleric",
+    "id": "4550"
   },
   {
-    "id": "4770",
-    "name": "Khoronar"
+    "key": "Harvest_Jack",
+    "name": "Harvest Jack",
+    "id": "4560"
   },
   {
-    "id": "4780",
-    "name": "Minaya"
+    "key": "Madame_Serris",
+    "name": "Madame Serris",
+    "id": "4570"
   },
   {
-    "id": "4790",
-    "name": "Drokgul the Gaunt"
+    "key": "Miscreated_Monster",
+    "name": "Miscreated Monster",
+    "id": "4580"
   },
   {
-    "id": "480",
-    "name": "Fireblade"
+    "key": "Brakus_the_Shifter",
+    "name": "Brakus the Shifter",
+    "id": "4590"
   },
   {
-    "id": "4800",
-    "name": "Nekhret the Great"
+    "name": "Knight-Errant",
+    "key": "Knight_Errant",
+    "id": "460"
   },
   {
-    "id": "4810",
-    "name": "Rector Drath"
+    "key": "Ultimate_Galek",
+    "name": "Ultimate Galek",
+    "id": "4600"
   },
   {
-    "id": "4820",
-    "name": "Aox the Rememberer"
+    "key": "Valla",
+    "name": "Valla",
+    "id": "4610"
   },
   {
-    "id": "490",
-    "name": "Yeoman"
+    "key": "Whisper",
+    "name": "Whisper",
+    "id": "4620"
   },
   {
-    "id": "4910",
-    "name": "Icebound Prospector"
+    "key": "Tormin_the_Cold",
+    "name": "Tormin the Cold",
+    "id": "4630"
   },
   {
-    "id": "4950",
-    "name": "Gomlok Skyhide"
+    "key": "Quargan_the_Crowned",
+    "name": "Quargan the Crowned",
+    "id": "4650"
   },
   {
-    "id": "4960",
-    "name": "Vogoth"
+    "key": "Myrmidon",
+    "name": "Myrmidon",
+    "id": "4660"
   },
   {
-    "id": "4970",
-    "name": "Cillian the Lucky"
+    "key": "Cudgeler",
+    "name": "Cudgeler",
+    "id": "4670"
   },
   {
-    "id": "4980",
-    "name": "Saito"
+    "key": "Hatchet_Slinger",
+    "name": "Hatchet Slinger",
+    "id": "4680"
   },
   {
-    "id": "4990",
-    "name": "Rocktooth"
+    "key": "Fleshmonger",
+    "name": "Fleshmonger",
+    "id": "4690"
   },
   {
-    "id": "50",
-    "name": "Ranger"
+    "key": "Skullsquire",
+    "name": "Skullsquire",
+    "id": "470"
   },
   {
-    "id": "500",
-    "name": "Dhampir"
+    "key": "Fencer",
+    "name": "Fencer",
+    "id": "4700"
   },
   {
-    "id": "5000",
-    "name": "Lordly Legionary"
+    "key": "Lydia_the_Deathsiren",
+    "name": "Lydia the Deathsiren",
+    "id": "4710"
   },
   {
-    "id": "5010",
-    "name": "Scyl of the Drakes"
+    "key": "Dark_Elhain",
+    "name": "Dark Elhain",
+    "id": "4720"
   },
   {
-    "id": "5020",
-    "name": "Skull Lord Var-Gall"
+    "key": "Gravechill_Killer",
+    "name": "Gravechill Killer",
+    "id": "4730"
   },
   {
-    "id": "5030",
-    "name": "Exiled_Sorcerer.png"
+    "key": "Ursine_Ironhide",
+    "name": "Ursine Ironhide",
+    "id": "4740"
   },
   {
-    "id": "5040",
-    "name": "Wandering Priest"
+    "key": "Siphi_the_Lost_Bride",
+    "name": "Siphi the Lost Bride",
+    "id": "4750"
   },
   {
-    "id": "5050",
-    "name": "Archmage Hellmut"
+    "key": "Rotos_the_Lost_Groom",
+    "name": "Rotos the Lost Groom",
+    "id": "4760"
   },
   {
-    "id": "5060",
-    "name": "Rian the Conjurer"
+    "key": "Khoronar",
+    "name": "Khoronar",
+    "id": "4770"
   },
   {
-    "id": "5070",
-    "name": "Akoth the Seared"
+    "key": "Minaya",
+    "name": "Minaya",
+    "id": "4780"
   },
   {
-    "id": "5080",
-    "name": "Urost the Soulcage"
+    "key": "Drokgul_the_Gaunt",
+    "name": "Drokgul the Gaunt",
+    "id": "4790"
   },
   {
-    "id": "5090",
-    "name": "Tainix Hateflower"
+    "key": "Fireblade",
+    "name": "Fireblade",
+    "id": "480"
   },
   {
-    "id": "510",
-    "name": "Templar"
+    "key": "Nekhret_the_Great",
+    "name": "Nekhret the Great",
+    "id": "4800"
   },
   {
-    "id": "5100",
-    "name": "Ghrush the Mangler"
+    "key": "Rector_Drath",
+    "name": "Rector Drath",
+    "id": "4810"
   },
   {
-    "id": "5110",
-    "name": "Visix the Unbowed"
+    "key": "Aox_the_Rememberer",
+    "name": "Aox the Rememberer",
+    "id": "4820"
   },
   {
-    "id": "5120",
-    "name": "Dilgol"
+    "key": "Yeoman",
+    "name": "Yeoman",
+    "id": "490"
   },
   {
-    "id": "5130",
-    "name": "Gloril Brutebane"
+    "key": "Icebound_Prospector",
+    "name": "Icebound Prospector",
+    "id": "4910"
   },
   {
-    "id": "5140",
-    "name": "Dunestrider"
+    "key": "Gomlok_Skyhide",
+    "name": "Gomlok Skyhide",
+    "id": "4950"
   },
   {
-    "id": "5150",
-    "name": "Dolor Lorekeeper"
+    "key": "Vogoth",
+    "name": "Vogoth",
+    "id": "4960"
   },
   {
-    "id": "5160",
-    "name": "Ripperfist"
+    "key": "Cillian_the_Lucky",
+    "name": "Cillian the Lucky",
+    "id": "4970"
   },
   {
-    "id": "5170",
-    "name": "Wagonbane"
+    "key": "Saito",
+    "name": "Saito",
+    "id": "4980"
   },
   {
-    "id": "5180",
-    "name": "Wyvernbane"
+    "key": "Ranger",
+    "name": "Ranger",
+    "id": "50"
   },
   {
-    "id": "5190",
-    "name": "Solaris"
+    "key": "Dhampir",
+    "name": "Dhampir",
+    "id": "500"
   },
   {
-    "id": "520",
-    "name": "Sinesha"
+    "key": "Lordly_Legionary",
+    "name": "Lordly Legionary",
+    "id": "5000"
   },
   {
-    "id": "5200",
-    "name": "Drowned Bloatwraith"
+    "key": "Scyl_of_the_Drakes",
+    "name": "Scyl of the Drakes",
+    "id": "5010"
   },
   {
-    "id": "5210",
-    "name": "Purgator"
+    "key": "Skull_Lord_Var_Gall",
+    "name": "Skull Lord Var-Gall",
+    "id": "5020"
   },
   {
-    "id": "5220",
-    "name": "Headsman"
+    "key": "Exiled_Sorcerer",
+    "id": "5030"
   },
   {
-    "id": "5230",
-    "name": "Renouncer"
+    "key": "Wandering_Priest",
+    "name": "Wandering Priest",
+    "id": "5040"
   },
   {
-    "id": "5240",
-    "name": "Quaestor"
+    "key": "Archmage_Hellmut",
+    "name": "Archmage Hellmut",
+    "id": "5050"
   },
   {
-    "id": "5250",
-    "name": "Avir the Alchemage"
+    "key": "Rian_the_Conjurer",
+    "name": "Rian the Conjurer",
+    "id": "5060"
   },
   {
-    "id": "5260",
-    "name": "Sanctum Protector"
+    "key": "Akoth_the_Seared",
+    "name": "Akoth the Seared",
+    "id": "5070"
   },
   {
-    "id": "5270",
-    "name": "Draconis"
+    "key": "Urost_the_Soulcage",
+    "name": "Urost the Soulcage",
+    "id": "5080"
   },
   {
-    "id": "5280",
-    "name": "Tuhak the Wanderer"
+    "key": "Tainix_Hateflower",
+    "name": "Tainix Hateflower",
+    "id": "5090"
   },
   {
-    "id": "5290",
-    "name": "Kaiden"
+    "key": "Templar",
+    "name": "Templar",
+    "id": "510"
   },
   {
-    "id": "5300",
-    "name": "Fayne"
+    "key": "Ghrush_the_Mangler",
+    "name": "Ghrush the Mangler",
+    "id": "5100"
   },
   {
-    "id": "5310",
-    "name": "Baroth the Bloodsoaked"
+    "key": "Visix_the_Unbowed",
+    "name": "Visix the Unbowed",
+    "id": "5110"
   },
   {
-    "id": "5320",
-    "name": "Vergumkaar"
+    "key": "Dilgol",
+    "name": "Dilgol",
+    "id": "5120"
   },
   {
-    "id": "5330",
-    "name": "Ursuga Warcaller"
+    "key": "Gloril_Brutebane",
+    "name": "Gloril Brutebane",
+    "id": "5130"
   },
   {
-    "id": "5340",
-    "name": "Little Miss Annie"
+    "key": "Dunestrider",
+    "name": "Dunestrider",
+    "id": "5140"
   },
   {
-    "id": "5350",
-    "name": "Narma the Returned"
+    "key": "Dolor_Lorekeeper",
+    "name": "Dolor Lorekeeper",
+    "id": "5150"
   },
   {
-    "id": "5360",
-    "name": "Masked Fearmonger"
+    "key": "Ripperfist",
+    "name": "Ripperfist",
+    "id": "5160"
   },
   {
-    "id": "5370",
-    "name": "Elegaius"
+    "key": "Wagonbane",
+    "name": "Wagonbane",
+    "id": "5170"
   },
   {
-    "id": "5380",
-    "name": "Tigersoul"
+    "key": "Wyvernbane",
+    "name": "Wyvernbane",
+    "id": "5180"
   },
   {
-    "id": "5390",
-    "name": "Melga Steelgirdle"
+    "key": "Solaris",
+    "name": "Solaris",
+    "id": "5190"
   },
   {
-    "id": "540",
-    "name": "Sergeant"
+    "key": "Sinesha",
+    "name": "Sinesha",
+    "id": "520"
   },
   {
-    "id": "5400",
-    "name": "Geargrinder"
+    "key": "Drowned_Bloatwraith",
+    "name": "Drowned Bloatwraith",
+    "id": "5200"
   },
   {
-    "id": "5410",
-    "name": "Gerhard the Stone"
+    "key": "Purgator",
+    "name": "Purgator",
+    "id": "5210"
   },
   {
-    "id": "5420",
-    "name": "Panthera"
+    "key": "Headsman",
+    "name": "Headsman",
+    "id": "5220"
   },
   {
-    "id": "5430",
-    "name": "Rugnor Goldgleam"
+    "key": "Renouncer",
+    "name": "Renouncer",
+    "id": "5230"
   },
   {
-    "id": "5440",
-    "name": "Kurzad Deepheart"
+    "key": "Quaestor",
+    "name": "Quaestor",
+    "id": "5240"
   },
   {
-    "id": "5450",
-    "name": "Flailer"
+    "key": "Avir_the_Alchemage",
+    "name": "Avir the Alchemage",
+    "id": "5250"
   },
   {
-    "id": "5460",
-    "name": "Dagger"
+    "key": "Sanctum_Protector",
+    "name": "Sanctum Protector",
+    "id": "5260"
   },
   {
-    "id": "5470",
-    "name": "Boltsmith"
+    "key": "Draconis",
+    "name": "Draconis",
+    "id": "5270"
   },
   {
-    "id": "5480",
-    "name": "Alaric the Hooded"
+    "key": "Tuhak_the_Wanderer",
+    "name": "Tuhak the Wanderer",
+    "id": "5280"
   },
   {
-    "id": "5490",
-    "name": "Balthus Drauglord"
+    "key": "Kaiden",
+    "name": "Kaiden",
+    "id": "5290"
   },
   {
-    "id": "550",
-    "name": "Sentinel"
+    "key": "Duelist",
+    "name": "Duelist",
+    "id": "530"
   },
   {
-    "id": "5500",
-    "name": "Armina"
+    "key": "Fayne",
+    "name": "Fayne",
+    "id": "5300"
   },
   {
-    "id": "5510",
-    "name": "Yakarl the Scourge"
+    "key": "Baroth_the_Bloodsoaked",
+    "name": "Baroth the Bloodsoaked",
+    "id": "5310"
   },
   {
-    "id": "5520",
-    "name": "Grunch Killjoy"
+    "key": "Vergumkaar",
+    "name": "Vergumkaar",
+    "id": "5320"
   },
   {
-    "id": "5540",
-    "name": "Achak the Wendarin"
+    "key": "Ursuga_Warcaller",
+    "name": "Ursuga Warcaller",
+    "id": "5330"
   },
   {
-    "id": "5560",
-    "name": "Roxam"
+    "key": "Little_Miss_Annie",
+    "name": "Little Miss Annie",
+    "id": "5340"
   },
   {
-    "id": "5570",
-    "name": "Prundar"
+    "key": "Narma_the_Returned",
+    "name": "Narma the Returned",
+    "id": "5350"
   },
   {
-    "id": "5580",
-    "name": "King Garog"
+    "key": "Masked_Fearmonger",
+    "name": "Masked Fearmonger",
+    "id": "5360"
   },
   {
-    "id": "5590",
-    "name": "Samar Gemcursed"
+    "key": "Elegaius",
+    "name": "Elegaius",
+    "id": "5370"
   },
   {
-    "id": "560",
-    "name": "Skellag"
+    "key": "Tigersoul",
+    "name": "Tigersoul",
+    "id": "5380"
   },
   {
-    "id": "5600",
-    "name": "Fahrakin the Fat"
+    "key": "Melga_Steelgirdle",
+    "name": "Melga Steelgirdle",
+    "id": "5390"
   },
   {
-    "id": "5610",
-    "name": "Lodric Falconheart"
+    "key": "Sergeant",
+    "name": "Sergeant",
+    "id": "540"
   },
   {
-    "id": "5620",
-    "name": "Ursala the Mourner"
+    "key": "Geargrinder",
+    "name": "Geargrinder",
+    "id": "5400"
   },
   {
-    "id": "5630",
-    "name": "Fodbor the Bard"
+    "key": "Gerhard_the_Stone",
+    "name": "Gerhard the Stone",
+    "id": "5410"
   },
   {
-    "id": "5640",
-    "name": "Klodd Beastfeeder"
+    "key": "Panthera",
+    "name": "Panthera",
+    "id": "5420"
   },
   {
-    "id": "5650",
-    "name": "Anax"
+    "key": "Rugnor_Goldgleam",
+    "name": "Rugnor Goldgleam",
+    "id": "5430"
   },
   {
-    "id": "5660",
-    "name": "Fahrakin the Fat"
+    "key": "Kurzad_Deepheart",
+    "name": "Kurzad Deepheart",
+    "id": "5440"
   },
   {
-    "id": "5670",
-    "name": "Iron Brago"
+    "key": "Flailer",
+    "name": "Flailer",
+    "id": "5450"
   },
   {
-    "id": "5680",
-    "name": "Dhukk the Pierced"
+    "key": "Dagger",
+    "name": "Dagger",
+    "id": "5460"
   },
   {
-    "id": "5690",
-    "name": "Sanguinia"
+    "key": "Boltsmith",
+    "name": "Boltsmith",
+    "id": "5470"
   },
   {
-    "id": "570",
-    "name": "Rae"
+    "key": "Alaric_the_Hooded",
+    "name": "Alaric the Hooded",
+    "id": "5480"
   },
   {
-    "id": "5700",
-    "name": "Old Hermit Jorrg"
+    "key": "Balthus_Drauglord",
+    "name": "Balthus Drauglord",
+    "id": "5490"
   },
   {
-    "id": "5720",
-    "name": "Scrapper"
+    "key": "Sentinel",
+    "name": "Sentinel",
+    "id": "550"
   },
   {
-    "id": "5730",
-    "name": "Tarshon"
+    "key": "Armina",
+    "name": "Armina",
+    "id": "5500"
   },
   {
-    "id": "5740",
-    "name": "Abyssal"
+    "key": "Yakarl_the_Scourge",
+    "name": "Yakarl the Scourge",
+    "id": "5510"
   },
   {
-    "id": "5750",
-    "name": "Pestilus"
+    "key": "Grunch_Killjoy",
+    "name": "Grunch Killjoy",
+    "id": "5520"
   },
   {
-    "id": "5760",
-    "name": "Cardiel"
+    "key": "Pyxniel",
+    "name": "Pyxniel",
+    "id": "5530"
   },
   {
-    "id": "5770",
-    "name": "Sicia Flametongue"
+    "key": "Achak_the_Wendarin",
+    "name": "Achak the Wendarin",
+    "id": "5540"
   },
   {
-    "id": "5780",
-    "name": "Astralon"
+    "key": "Roxam",
+    "name": "Roxam",
+    "id": "5560"
   },
   {
-    "id": "5790",
-    "name": "Godseeker Aniri"
+    "key": "Prundar",
+    "name": "Prundar",
+    "id": "5570"
   },
   {
-    "id": "580",
-    "name": "Spirithost"
+    "key": "King_Garog",
+    "name": "King Garog",
+    "id": "5580"
   },
   {
-    "id": "5800",
-    "name": "Countess Lix"
+    "key": "Samar_Gemcursed",
+    "name": "Samar Gemcursed",
+    "id": "5590"
   },
   {
-    "id": "590",
-    "name": "Spider"
+    "key": "Skellag",
+    "name": "Skellag",
+    "id": "560"
   },
   {
-    "id": "60",
-    "name": "Mystic Hand"
+    "key": "Uugo",
+    "name": "Uugo",
+    "id": "5600"
   },
   {
-    "id": "600",
-    "name": "Crimson Helm"
+    "key": "Lodric_Falconheart",
+    "name": "Lodric Falconheart",
+    "id": "5610"
   },
   {
-    "id": "610",
-    "name": "Zelotah"
+    "key": "Ursala_the_Mourner",
+    "name": "Ursala the Mourner",
+    "id": "5620"
   },
   {
-    "id": "620",
-    "name": "Lua"
+    "key": "Fodbor_the_Bard",
+    "name": "Fodbor the Bard",
+    "id": "5630"
   },
   {
-    "id": "630",
-    "name": "Torturehelm"
+    "key": "Klodd_Beastfeeder",
+    "name": "Klodd Beastfeeder",
+    "id": "5640"
   },
   {
-    "id": "640",
-    "name": "Furystoker"
+    "key": "Anax",
+    "name": "Anax",
+    "id": "5650"
   },
   {
-    "id": "650",
-    "name": "Skullcrusher"
+    "key": "Fahrakin_the_Fat",
+    "name": "Fahrakin the Fat",
+    "id": "5660"
   },
   {
-    "id": "660",
-    "name": "Warlord"
+    "key": "Iron_Brago",
+    "name": "Iron Brago",
+    "id": "5670"
   },
   {
-    "id": "670",
-    "name": "Magmablood"
+    "key": "Dhukk_the_Pierced",
+    "name": "Dhukk the Pierced",
+    "id": "5680"
   },
   {
-    "id": "680",
-    "name": "Warboy"
+    "key": "Sanguinia",
+    "name": "Sanguinia",
+    "id": "5690"
   },
   {
-    "id": "690",
-    "name": "Ironclad"
+    "key": "Rae",
+    "name": "Rae",
+    "id": "570"
   },
   {
-    "id": "70",
-    "name": "Blind Seer"
+    "key": "Old_Hermit_Jorrg",
+    "name": "Old Hermit Jorrg",
+    "id": "5700"
   },
   {
-    "id": "700",
-    "name": "Brute"
+    "key": "Scrapper",
+    "name": "Scrapper",
+    "id": "5720"
   },
   {
-    "id": "720",
-    "name": "Swordsman"
+    "key": "Tarshon",
+    "name": "Tarshon",
+    "id": "5730"
   },
   {
-    "id": "730",
-    "name": "Warchanter"
+    "key": "Abyssal",
+    "name": "Abyssal",
+    "id": "5740"
   },
   {
-    "id": "750",
-    "name": "Sorceress"
+    "key": "Pestilus",
+    "name": "Pestilus",
+    "id": "5750"
   },
   {
-    "id": "760",
-    "name": "Bone Knight"
+    "key": "Cardiel",
+    "name": "Cardiel",
+    "id": "5760"
   },
   {
-    "id": "770",
-    "name": "Satyr"
+    "key": "Sicia_Flametongue",
+    "name": "Sicia Flametongue",
+    "id": "5770"
   },
   {
-    "id": "780",
-    "name": "Graybeard"
+    "key": "Astralon",
+    "name": "Astralon",
+    "id": "5780"
   },
   {
-    "id": "80",
-    "name": "Militia"
+    "key": "Godseeker_Aniri",
+    "name": "Godseeker Aniri",
+    "id": "5790"
   },
   {
-    "id": "810",
-    "name": "Spiritwalker"
+    "key": "Spirithost",
+    "name": "Spirithost",
+    "id": "580"
   },
   {
-    "id": "820",
-    "name": "Warmaiden"
+    "key": "Countess_Lix",
+    "name": "Countess Lix",
+    "id": "5800"
   },
   {
-    "id": "830",
-    "name": "Berserker"
+    "key": "Genzin",
+    "name": "Genzin",
+    "id": "5810"
   },
   {
-    "id": "840",
-    "name": "Outlander"
+    "key": "Yoshi_the_Drunkard",
+    "name": "Yoshi the Drunkard",
+    "id": "5820"
   },
   {
-    "id": "850",
-    "name": "Pikeman"
+    "key": "Jintoro",
+    "name": "Jintoro",
+    "id": "5830"
   },
   {
-    "id": "860",
-    "name": "Vigilante"
+    "key": "Sachi",
+    "name": "Sachi",
+    "id": "5840"
   },
   {
-    "id": "870",
-    "name": "Bogwalker"
+    "key": "Oboro",
+    "name": "Oboro",
+    "id": "5850"
   },
   {
-    "id": "880",
-    "name": "Muckstalker"
+    "key": "Toragi_the_Frog",
+    "name": "Toragi the Frog",
+    "id": "5860"
   },
   {
-    "id": "890",
-    "name": "Skullsworn"
+    "key": "Fanatic",
+    "name": "Fanatic",
+    "id": "5870"
   },
   {
-    "id": "90",
-    "name": "Astralith"
+    "key": "Chonoru",
+    "name": "Chonoru",
+    "id": "5880"
   },
   {
-    "id": "900",
-    "name": "Guardian"
+    "key": "Lifetaker",
+    "name": "Lifetaker",
+    "id": "5890"
   },
   {
-    "id": "920",
-    "name": "Fu-Shan"
+    "key": "Spider",
+    "name": "Spider",
+    "id": "590"
+  },
+  {
+    "key": "Bloodmask",
+    "name": "Bloodmask",
+    "id": "5900"
+  },
+  {
+    "key": "Conscript",
+    "name": "Conscript",
+    "id": "5910"
+  },
+  {
+    "key": "Infiltrator",
+    "name": "Infiltrator",
+    "id": "5920"
+  },
+  {
+    "key": "Mystic_Hand",
+    "name": "Mystic Hand",
+    "id": "60"
+  },
+  {
+    "key": "Crimson_Helm",
+    "name": "Crimson Helm",
+    "id": "600"
+  },
+  {
+    "key": "Zelotah",
+    "name": "Zelotah",
+    "id": "610"
+  },
+  {
+    "key": "Lua",
+    "name": "Lua",
+    "id": "620"
+  },
+  {
+    "key": "Torturehelm",
+    "name": "Torturehelm",
+    "id": "630"
+  },
+  {
+    "key": "Furystoker",
+    "name": "Furystoker",
+    "id": "640"
+  },
+  {
+    "key": "Skullcrusher",
+    "name": "Skullcrusher",
+    "id": "650"
+  },
+  {
+    "key": "Warlord",
+    "name": "Warlord",
+    "id": "660"
+  },
+  {
+    "key": "Magmablood",
+    "name": "Magmablood",
+    "id": "670"
+  },
+  {
+    "key": "Warboy",
+    "name": "Warboy",
+    "id": "680"
+  },
+  {
+    "key": "Ironclad",
+    "name": "Ironclad",
+    "id": "690"
+  },
+  {
+    "key": "Blind_Seer",
+    "name": "Blind Seer",
+    "id": "70"
+  },
+  {
+    "key": "Brute",
+    "name": "Brute",
+    "id": "700"
+  },
+  {
+    "key": "Axeman",
+    "name": "Axeman",
+    "id": "710"
+  },
+  {
+    "key": "Swordsman",
+    "name": "Swordsman",
+    "id": "720"
+  },
+  {
+    "key": "Warchanter",
+    "name": "Warchanter",
+    "id": "730"
+  },
+  {
+    "key": "Commander",
+    "name": "Commander",
+    "id": "740"
+  },
+  {
+    "key": "Sorceress",
+    "name": "Sorceress",
+    "id": "750"
+  },
+  {
+    "key": "Bone_Knight",
+    "name": "Bone Knight",
+    "id": "760"
+  },
+  {
+    "key": "Satyr",
+    "name": "Satyr",
+    "id": "770"
+  },
+  {
+    "key": "Graybeard",
+    "name": "Graybeard",
+    "id": "780"
+  },
+  {
+    "key": "Archer",
+    "name": "Archer",
+    "id": "790"
+  },
+  {
+    "key": "Militia",
+    "name": "Militia",
+    "id": "80"
+  },
+  {
+    "key": "Conquerer",
+    "name": "Conquerer",
+    "id": "800"
+  },
+  {
+    "key": "Spiritwalker",
+    "name": "Spiritwalker",
+    "id": "810"
+  },
+  {
+    "key": "Warmaiden",
+    "name": "Warmaiden",
+    "id": "820"
+  },
+  {
+    "key": "Berserker",
+    "name": "Berserker",
+    "id": "830"
+  },
+  {
+    "key": "Outlander",
+    "name": "Outlander",
+    "id": "840"
+  },
+  {
+    "key": "Pikeman",
+    "name": "Pikeman",
+    "id": "850"
+  },
+  {
+    "key": "Vigilante",
+    "name": "Vigilante",
+    "id": "860"
+  },
+  {
+    "key": "Bogwalker",
+    "name": "Bogwalker",
+    "id": "870"
+  },
+  {
+    "key": "Muckstalker",
+    "name": "Muckstalker",
+    "id": "880"
+  },
+  {
+    "key": "Skullsworn",
+    "name": "Skullsworn",
+    "id": "890"
+  },
+  {
+    "key": "Astralith",
+    "name": "Astralith",
+    "id": "90"
+  },
+  {
+    "key": "Guardian",
+    "name": "Guardian",
+    "id": "900"
+  },
+  {
+    "key": "Gurptuk_Moss_Beard",
+    "name": "Gurptuk Moss-Beard",
+    "id": "4640"
+  },
+  {
+    "key": "Fenshi",
+    "name": "Fenshi"
+  },
+  {
+    "key": "Giscard_the_Sigiled",
+    "name": "Giscard the Sigiled"
+  },
+  {
+    "key": "Mordecai",
+    "name": "Mordecai"
+  },
+  {
+    "key": "Riho_Bonespear",
+    "name": "Riho Bonespear"
+  },
+  {
+    "key": "Skimfos_the_Consumed",
+    "name": "Skimfos the Consumed"
+  },
+  {
+    "key": "Underpriest_Brogni",
+    "name": "Underpriest Brogni"
   }
 ]

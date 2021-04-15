@@ -1,0 +1,76 @@
+{
+  "name": "Giscard the Sigiled",
+  "id": "Giscard_the_Sigiled",
+  "class": {
+    "faction": "Banner Lords",
+    "rarity": "epic",
+    "role": "defense",
+    "affinity": "spirit"
+  },
+  "stats": {
+    "hp": 17505,
+    "atk": 683,
+    "def": 1454,
+    "spd": 96,
+    "crate": 15,
+    "cdmg": 50,
+    "resist": 45,
+    "acc": 0
+  },
+  "aura": "Increases Ally DEF in Faction Crypts by 27%.",
+  "skills": [
+    {
+      "cd": 0,
+      "mincd": 0,
+      "passive": false,
+      "dmgscaling": ["DEF"],
+      "abilityname": "Foebreaker",
+      "damageMultiplier": "3.65 DEF",
+      "description": "Attacks 1 enemy. Has 50% chance of placing a 50% [Decrease ATK] debuff for 1 turn.",
+      "books": [
+        "Level 2: Damage +5%",
+        "Level 3: Damage +5%",
+        "Level 4: Buff/Debuff Chance +5%",
+        "Level 5: Buff/Debuff Chance +10%",
+        "Level 6: Buff/Debuff Chance +10%"
+      ]
+    },
+    {
+      "cd": 5,
+      "mincd": 3,
+      "passive": false,
+      "dmgscaling": ["DEF"],
+      "abilityname": "Lion’s Roar",
+      "damageMultiplier": "3.6 DEF",
+      "description": "Attacks all enemies. Has a 50% chance of placing a [Provoke] debuff for 1 turn. Also places a [Shield] buff on this champion equal to 25% of their MAX HP for 2 turns.",
+      "books": [
+        "Level 2: Damage +15%",
+        "Level 3: Buff/Debuff Chance +5%",
+        "Level 4: Buff/Debuff Chance +10%",
+        "Level 5: Buff/Debuff Chance +10%",
+        "Level 6: Cooldown -1",
+        "Level 7: Cooldown -1"
+      ]
+    },
+    {
+      "cd": 5,
+      "mincd": 3,
+      "passive": false,
+      "dmgscaling": [],
+      "abilityname": "Field of Strength",
+      "description": "Places a 60% [Increase DEF] buff and a 50% [Increase ATK] buff on all allies for 2 turns.",
+      "books": ["Level 2: Cooldown -1", "Level 3: Cooldown -1"]
+    },
+    {
+      "cd": 0,
+      "mincd": 0,
+      "passive": true,
+      "dmgscaling": [],
+      "abilityname": "Egotist",
+      "description": "Fills this champion’s Turn Meter by 15% whenever they are attacked by an enemy under [Provoke] or [Increase ATK] debuffs.",
+      "books": []
+    }
+  ],
+  "version": "4.10.0",
+  "avatarUrl": "https://mcradane.github.io/raid-data/images/avatar/Giscard_the_Sigiled.png"
+}

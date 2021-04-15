@@ -5,6 +5,8 @@ const championFiles = fs.readdirSync(
   path.resolve(__dirname, "..", "champion-details")
 );
 
+const championIds = require("../champions-by-id.json");
+
 const generateAura = (description, name, auras) => {
   const skillAura = /Increases? (?<affinity>[a-z ]+)?Ally (?<stat>[a-z. ]+) in (?<domain>[a-z ]+) by (?<value>[0-9%]+)/i.exec(
     description
@@ -128,6 +130,9 @@ const factionsTemp = {};
 /** @type {Record<string, string[]>} */
 const aurasTemp = {};
 
+/** @type {{key: string; id?: string; name: string}[]} */
+const idsTemp = championIds;
+
 championFiles.forEach((championFile) => {
   const champion = require(`../champion-details/${championFile}`);
 
@@ -140,6 +145,18 @@ championFiles.forEach((championFile) => {
 
   if (factionsTemp[faction] === undefined) {
     factionsTemp[faction] = [];
+  }
+
+  let idIndex = idsTemp.findIndex((i) => i.key === id);
+
+  if (idIndex === -1) {
+    idsTemp.push({
+      key: id,
+      name: name,
+    });
+  } else {
+    idsTemp[idIndex].name = name;
+    idsTemp[idIndex].key = id;
   }
 
   factionsTemp[faction].push(name);
@@ -198,6 +215,10 @@ fs.writeFileSync(
 fs.writeFileSync(
   path.resolve(destDir, "champions-by-faction.json"),
   JSON.stringify(factions, null, 2)
+);
+fs.writeFileSync(
+  path.resolve(destDir, "champions-by-id.json"),
+  JSON.stringify(idsTemp, null, 2)
 );
 fs.writeFileSync(
   path.resolve(destDir, "champions-by-rarity.json"),

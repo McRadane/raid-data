@@ -1536,6 +1536,15 @@
     "avatarUrl": "https://mcradane.github.io/raid-data/images/avatar/Fencer.png",
     "detailsUrl": "https://mcradane.github.io/raid-data/champion-details/Fencer.json"
   },
+  "Fenshi": {
+    "id": "Fenshi",
+    "rarity": "epic",
+    "affinity": "force",
+    "faction": "Shadowkin",
+    "role": "attack",
+    "avatarUrl": "https://mcradane.github.io/raid-data/images/avatar/Fenshi.png",
+    "detailsUrl": "https://mcradane.github.io/raid-data/champion-details/Fenshi.json"
+  },
   "Fireblade": {
     "id": "Fireblade",
     "rarity": "uncommon",
@@ -1777,6 +1786,16 @@
     "aura": "DEF - Faction Wars - 30%",
     "avatarUrl": "https://mcradane.github.io/raid-data/images/avatar/Ghrush_the_Mangler.png",
     "detailsUrl": "https://mcradane.github.io/raid-data/champion-details/Ghrush_the_Mangler.json"
+  },
+  "Giscard the Sigiled": {
+    "id": "Giscard_the_Sigiled",
+    "rarity": "epic",
+    "affinity": "spirit",
+    "faction": "Banner Lords",
+    "role": "defense",
+    "aura": "DEF - Faction Wars - 27%",
+    "avatarUrl": "https://mcradane.github.io/raid-data/images/avatar/Giscard_the_Sigiled.png",
+    "detailsUrl": "https://mcradane.github.io/raid-data/champion-details/Giscard_the_Sigiled.json"
   },
   "Gladiator": {
     "id": "Gladiator",
@@ -3119,6 +3138,16 @@
     "avatarUrl": "https://mcradane.github.io/raid-data/images/avatar/Mistress_of_Hymns.png",
     "detailsUrl": "https://mcradane.github.io/raid-data/champion-details/Mistress_of_Hymns.json"
   },
+  "Mordecai": {
+    "id": "Mordecai",
+    "rarity": "epic",
+    "affinity": "force",
+    "faction": "The Sacred Order",
+    "role": "support",
+    "aura": "ACC - All - 40",
+    "avatarUrl": "https://mcradane.github.io/raid-data/images/avatar/Mordecai.png",
+    "detailsUrl": "https://mcradane.github.io/raid-data/champion-details/Mordecai.json"
+  },
   "Mortu-Macaab": {
     "id": "Mortu_Macaab",
     "rarity": "legendary",
@@ -3760,6 +3789,16 @@
     "avatarUrl": "https://mcradane.github.io/raid-data/images/avatar/Richtoff_the_Bold.png",
     "detailsUrl": "https://mcradane.github.io/raid-data/champion-details/Richtoff_the_Bold.json"
   },
+  "Riho Bonespear": {
+    "id": "Riho_Bonespear",
+    "rarity": "legendary",
+    "affinity": "void",
+    "faction": "Shadowkin",
+    "role": "support",
+    "aura": "ATK - Faction Wars - 42%",
+    "avatarUrl": "https://mcradane.github.io/raid-data/images/avatar/Riho_Bonespear.png",
+    "detailsUrl": "https://mcradane.github.io/raid-data/champion-details/Riho_Bonespear.json"
+  },
   "Ripper": {
     "id": "Ripper",
     "rarity": "epic",
@@ -4267,6 +4306,16 @@
     "role": "defense",
     "avatarUrl": "https://mcradane.github.io/raid-data/images/avatar/Skellag.png",
     "detailsUrl": "https://mcradane.github.io/raid-data/champion-details/Skellag.json"
+  },
+  "Skimfos the Consumed": {
+    "id": "Skimfos_the_Consumed",
+    "rarity": "epic",
+    "affinity": "void",
+    "faction": "Demonspawn",
+    "role": "attack",
+    "aura": "ATK - Doom Tower - 30%",
+    "avatarUrl": "https://mcradane.github.io/raid-data/images/avatar/Skimfos_the_Consumed.png",
+    "detailsUrl": "https://mcradane.github.io/raid-data/champion-details/Skimfos_the_Consumed.json"
   },
   "Skink": {
     "id": "Skink",
@@ -4960,6 +5009,16 @@
     "role": "defense",
     "avatarUrl": "https://mcradane.github.io/raid-data/images/avatar/Umbral_Enchantress.png",
     "detailsUrl": "https://mcradane.github.io/raid-data/champion-details/Umbral_Enchantress.json"
+  },
+  "Underpriest Brogni": {
+    "id": "Underpriest_Brogni",
+    "rarity": "legendary",
+    "affinity": "magic",
+    "faction": "Dwarves",
+    "role": "support",
+    "aura": "RESIST - Doom Tower - 60",
+    "avatarUrl": "https://mcradane.github.io/raid-data/images/avatar/Underpriest_Brogni.png",
+    "detailsUrl": "https://mcradane.github.io/raid-data/champion-details/Underpriest_Brogni.json"
   },
   "Urost the Soulcage": {
     "id": "Urost_the_Soulcage",

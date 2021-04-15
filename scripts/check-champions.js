@@ -11,6 +11,8 @@ const listImgChampions = fs.readdirSync(
   path.resolve(__dirname, "..", "images", "avatar")
 );
 
+const listChampionsIds = require("../champions-by-id.json");
+
 const listChampions = listChampionsJson
   .map((champion) => champion.replace(/ |-/g, "_").replace(/‘|’/g, ""))
   .sort();
@@ -20,13 +22,33 @@ const missing = [];
 listChampions.forEach((champion) => {
   const missingDetails = !listDetailsChampions.includes(`${champion}.json`);
 
+  const championId = listChampionsIds.find((c) => c.key === champion);
+  const missingIds = !championId;
+
+  let missingIdsId = true;
+
+  if (!missingIds) {
+    missingIdsId = championId.id === undefined;
+  }
+
+  let idMessage = undefined;
+
+  if (missingIds) {
+    idMessage = "MISSING";
+  }
+
+  if (missingIdsId) {
+    idMessage = "INCOMPLETE";
+  }
+
   const missingAvatar = !listImgChampions.includes(`${champion}.png`);
 
-  if (missingDetails || missingAvatar) {
+  if (missingDetails || missingAvatar || idMessage) {
     missing.push({
       champion,
       details: !missingDetails,
       avatar: !missingAvatar,
+      ids: idMessage,
     });
   }
 });

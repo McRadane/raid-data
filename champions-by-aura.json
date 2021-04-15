@@ -7,6 +7,7 @@
       "Frozen Banshee",
       "Judge",
       "Kantra the Cyclone",
+      "Mordecai",
       "Rian the Conjurer",
       "Shamrock",
       "Sicia Flametongue",
@@ -97,6 +98,7 @@
       "Haarken Greatblade",
       "Pigsticker",
       "Rugnor Goldgleam",
+      "Skimfos the Consumed",
       "Yakarl the Scourge"
     ],
     "Dungeons": [
@@ -130,6 +132,7 @@
       "Hexia",
       "Ox",
       "Richtoff the Bold",
+      "Riho Bonespear",
       "Slasher",
       "Steel Bowyer",
       "Turvold"
@@ -232,6 +235,7 @@
       "Fellhound",
       "Flailer",
       "Ghrush the Mangler",
+      "Giscard the Sigiled",
       "Grunch Killjoy",
       "Justiciar",
       "Lich",
@@ -358,7 +362,8 @@
     ],
     "Doom Tower": [
       "Gerhard the Stone",
-      "Rector Drath"
+      "Rector Drath",
+      "Underpriest Brogni"
     ],
     "Dungeons": [
       "Thenasil"

@@ -1,0 +1,79 @@
+{
+  "name": "Riho Bonespear",
+  "id": "Riho_Bonespear",
+  "class": {
+    "faction": "Shadowkin",
+    "rarity": "legendary",
+    "role": "support",
+    "affinity": "void"
+  },
+  "stats": {
+    "hp": 18660,
+    "atk": 1189,
+    "def": 1145,
+    "spd": 105,
+    "crate": 15,
+    "cdmg": 50,
+    "resist": 40,
+    "acc": 0
+  },
+  "aura": "Increases Ally ATK in Faction Crypts by 42%",
+  "skills": [
+    {
+      "cd": 0,
+      "mincd": 0,
+      "passive": false,
+      "dmgscaling": ["ATK"],
+      "abilityname": "Absorbtion",
+      "damageMultiplier": "4.3 ATK",
+      "description": "Attacks l enemy. Places a 15% [Continuous Heal] buff on the ally with the lowest HP for 1 turn. Also places a 7.5% [Continuous Heal] buff on all allies With 30% HP or less for 1 turn.",
+      "books": [
+        "Level 2: Damage +5%",
+        "Level 3: Damage +5%",
+        "Level 4: Damage +5%",
+        "Level 5: Damage +5%"
+      ]
+    },
+    {
+      "cd": 4,
+      "mincd": 3,
+      "passive": false,
+      "dmgscaling": ["ATK"],
+      "abilityname": "Pressure Points",
+      "description": "Places a [Stun] debuff on a target enemy for 1 turn, as well as a [HP Burn] debuff, a 60% [Decrease DEF] debuff, a 25% [Weaken] debuff, a 50% [Decrease ATK] debuff, and a 30% [Decrease",
+      "books": [
+        "Level 2: Damage +5%",
+        "Level 3: Damage +5%",
+        "Level 4: Damage +5%",
+        "Level 5: Damage +10%",
+        "Level 6: Cooldown -1"
+      ]
+    },
+    {
+      "cd": 6,
+      "mincd": 3,
+      "passive": false,
+      "dmgscaling": [],
+      "abilityname": "Perfect Body",
+      "description": "Removes all debuffs from all allies, then places a [Block Debuffs] buff on them for 2 turns. Also heals all allies by 35% of their MAX HP, and by a further 5% for each debuff removed from them.",
+      "books": [
+        "Level 2: Heal +10%",
+        "Level 3: Heal +10%",
+        "Level 4: Cooldown -1",
+        "Level 5: Cooldown -1",
+        "Level 6: Cooldown -1"
+      ]
+    },
+    {
+      "cd": 3,
+      "mincd": 3,
+      "passive": true,
+      "dmgscaling": [],
+      "abilityname": "Reflect",
+      "description": "When receiving any debuffs, instantly transfers them from this Champion to the attacker. [Will not transfer debuffs that cannot be removed.]",
+      "books": []
+    }
+  ],
+  "version": "4.10.0",
+  "avatarUrl": "https://mcradane.github.io/raid-data/images/avatar/Riho_Bonespear.png"
+}

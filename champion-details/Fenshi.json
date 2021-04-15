@@ -1,0 +1,72 @@
+{
+  "name": "Fenshi",
+  "id": "Fenshi",
+  "class": {
+    "faction": "Shadowkin",
+    "rarity": "epic",
+    "role": "attack",
+    "affinity": "force"
+  },
+  "stats": {
+    "hp": 16515,
+    "atk": 1465,
+    "def": 738,
+    "spd": 97,
+    "crate": 15,
+    "cdmg": 60,
+    "resist": 30,
+    "acc": 0
+  },
+  "skills": [
+    {
+      "cd": 0,
+      "mincd": 0,
+      "passive": false,
+      "dmgscaling": ["ATK"],
+      "abilityname": "Hate Blades",
+      "damageMultiplier": "1.1 ATK",
+      "description": "Attacks 1 enemy 3 times. Each hit has a 30% chance of placing a 30% [Decrease SPD] debuff for 2 turns.",
+      "books": [
+        "Level 2: Damage +5%",
+        "Level 3: Damage +5%",
+        "Level 4: Buff/Debuff Chance +5%",
+        "Level 5: Buff/Debuff Chance +5%"
+      ]
+    },
+    {
+      "cd": 4,
+      "mincd": 2,
+      "passive": false,
+      "dmgscaling": ["ATK"],
+      "abilityname": "Nowhere To Run",
+      "damageMultiplier": "2 ATK",
+      "description": "Attacks 1 enemy 3 times. Each hit has a 50% chance of decreasing the target’s Turn Meter by 15%.",
+      "books": [
+        "Level 2: Damage +5%",
+        "Level 3: Damage +10%",
+        "Level 4: Buff/Debuff Chance +10%",
+        "Level 5: Buff/Debuff Chance +15%",
+        "Level 6: Cooldown -1",
+        "Level 7: Cooldown -1"
+      ]
+    },
+    {
+      "cd": 4,
+      "mincd": 3,
+      "passive": false,
+      "dmgscaling": ["ATK"],
+      "abilityname": "Killer’s Bile",
+      "damageMultiplier": "2.7 ATK",
+      "description": "Attacks 1 enemy 2 times. Each hit places a 5% [Poison] debuff on the target for 3 turns. Will ignore 10% of the target’s DEF for each [Poison] debuff on the target.",
+      "books": [
+        "Level 2: Damage +5%",
+        "Level 3: Damage +5%",
+        "Level 4: Damage +10%",
+        "Level 5: Damage +10%",
+        "Level 6: Cooldown -1"
+      ]
+    }
+  ],
+  "version": "4.10.0",
+  "avatarUrl": "https://mcradane.github.io/raid-data/images/avatar/Fenshi.png"
+}

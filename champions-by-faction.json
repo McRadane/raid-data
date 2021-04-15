@@ -22,6 +22,7 @@
     "Fireblade",
     "Frontline Warrior",
     "Gerhard the Stone",
+    "Giscard the Sigiled",
     "Grandmaster",
     "Halberdier",
     "Hordin",
@@ -186,6 +187,7 @@
     "Pitspawn",
     "Prince Kymar",
     "Sicia Flametongue",
+    "Skimfos the Consumed",
     "Souldrinker",
     "Tainix Hateflower",
     "Tarshon",
@@ -232,7 +234,8 @@
     "Stout Axeman",
     "Tormin the Cold",
     "Trunda Giltmallet",
-    "Tunnel Steward"
+    "Tunnel Steward",
+    "Underpriest Brogni"
   ],
   "High Elves": [
     "Adjudicator",
@@ -432,11 +435,13 @@
     "Chonoru",
     "Conscript",
     "Fanatic",
+    "Fenshi",
     "Genzin",
     "Infiltrator",
     "Jintoro",
     "Lifetaker",
     "Oboro",
+    "Riho Bonespear",
     "Sachi",
     "Toragi the Frog",
     "Yoshi the Drunkard"
@@ -511,6 +516,7 @@
     "Militia",
     "Missionary",
     "Mistress of Hymns",
+    "Mordecai",
     "Mother Superior",
     "Novitiate",
     "Outlaw Monk",
