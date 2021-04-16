@@ -31,7 +31,7 @@ listChampions.forEach((champion) => {
     missingIdsId = championId.id === undefined;
   }
 
-  let idMessage = undefined;
+  let idMessage = true;
 
   if (missingIds) {
     idMessage = "MISSING";
@@ -39,13 +39,16 @@ listChampions.forEach((champion) => {
 
   if (missingIdsId) {
     idMessage = "INCOMPLETE";
+  } else if (championId.id.match(/[^0-9]+/) !== null) {
+    idMessage = "INVALID";
   }
 
   const missingAvatar = !listImgChampions.includes(`${champion}.png`);
 
-  if (missingDetails || missingAvatar || idMessage) {
+  if (missingDetails || missingAvatar || idMessage !== true) {
     missing.push({
       champion,
+      id: championId.id,
       details: !missingDetails,
       avatar: !missingAvatar,
       ids: idMessage,
@@ -54,6 +57,7 @@ listChampions.forEach((champion) => {
 });
 
 const deprecatedDetails = [];
+const skillsImageMissings = [];
 
 listDetailsChampions.forEach((championFile) => {
   const champion = require(path.resolve(
@@ -63,17 +67,35 @@ listDetailsChampions.forEach((championFile) => {
     championFile
   ));
 
-  const championId = champion.name.replace(/ |-/g, "_").replace(/‘|’/g, "");
+  const championGuid = champion.name.replace(/ |-/g, "_").replace(/‘|’/g, "");
+  const championId = listChampionsIds.find((c) => c.key === championGuid);
+
+  champion.skills.forEach((_skill, index) => {
+    const skillName = `${championGuid}_s${index + 1}.png`;
+
+    if (
+      !fs.existsSync(
+        path.resolve(__dirname, "..", "images", "Skills", skillName)
+      )
+    ) {
+      skillsImageMissings.push({
+        champion: championGuid,
+        id: championId.id,
+        skill: skillName,
+      });
+    }
+  });
 
   if (!champion.version) {
-    deprecatedDetails.push({ champion: championId, version: "unknown" });
+    deprecatedDetails.push({ champion: championGuid, version: "unknown" });
   } else if (champion.version !== packageJson.version) {
     deprecatedDetails.push({
-      champion: championId,
+      champion: championGuid,
       version: champion.version,
     });
   }
 });
 
 console.table(missing);
+console.table(skillsImageMissings);
 console.table(deprecatedDetails);
