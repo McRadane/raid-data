@@ -112,7 +112,7 @@
   {
     "key": "Vulpine",
     "name": "Vulpine",
-    "id": "1190temp"
+    "id": "1190"
   },
   {
     "key": "Battlesage",
@@ -237,7 +237,7 @@
   {
     "key": "Intercessor",
     "name": "Intercessor",
-    "id": "1410_temp"
+    "id": "1410"
   },
   {
     "key": "Battle_Sister",
@@ -327,7 +327,7 @@
   {
     "key": "Gladiator",
     "name": "Gladiator",
-    "id": "1580_temp"
+    "id": "1580"
   },
   {
     "key": "Deathless",
@@ -347,7 +347,7 @@
   {
     "key": "Siegebreaker",
     "name": "Siegebreaker",
-    "id": "1610_temp"
+    "id": "1610"
   },
   {
     "key": "Souldrinker",
@@ -432,12 +432,12 @@
   {
     "key": "Errol",
     "name": "Errol",
-    "id": "1770_temp"
+    "id": "1770"
   },
   {
     "key": "Martyr",
     "name": "Martyr",
-    "id": "1780_temp"
+    "id": "1780"
   },
   {
     "key": "Norog",
@@ -2850,26 +2850,32 @@
   },
   {
     "key": "Fenshi",
-    "name": "Fenshi"
+    "name": "Fenshi",
+    "id": "5950"
   },
   {
     "key": "Giscard_the_Sigiled",
-    "name": "Giscard the Sigiled"
+    "name": "Giscard the Sigiled",
+    "id": "5960"
   },
   {
     "key": "Mordecai",
-    "name": "Mordecai"
+    "name": "Mordecai",
+    "id": "4940"
   },
   {
     "key": "Riho_Bonespear",
-    "name": "Riho Bonespear"
+    "name": "Riho Bonespear",
+    "id": "5940"
   },
   {
     "key": "Skimfos_the_Consumed",
-    "name": "Skimfos the Consumed"
+    "name": "Skimfos the Consumed",
+    "id": "5970"
   },
   {
     "key": "Underpriest_Brogni",
-    "name": "Underpriest Brogni"
+    "name": "Underpriest Brogni",
+    "id": "5930"
   }
 ]
